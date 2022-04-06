@@ -3014,12 +3014,469 @@ void BeginBattleIntro(void)
     gBattleMainFunc = BattleIntroGetMonsData;
 }
 
+// Get mon's base speed stat, accounting for held items, abilities, status effects, and stat changes.
+u32 GetBattlerTotalSpeedStat(u8 battlerId)
+{
+    u32 speedBattler1 = gBattleMons[battlerId].speed;
+    
+#ifdef BATTLE_ENGINE
+    u32 ability = GetBattlerAbility(battlerId);
+    u32 holdEffect = GetBattlerHoldEffect(battlerId, TRUE);
+
+    // weather abilities
+    if (WEATHER_HAS_EFFECT)
+    {
+        if (ability == ABILITY_SWIFT_SWIM       && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && gBattleWeather & B_WEATHER_RAIN)
+            speedBattler1 *= 2;
+        else if (ability == ABILITY_CHLOROPHYLL && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && gBattleWeather & B_WEATHER_SUN)
+            speedBattler1 *= 2;
+        else if (ability == ABILITY_SAND_RUSH   && gBattleWeather & B_WEATHER_SANDSTORM)
+            speedBattler1 *= 2;
+        else if (ability == ABILITY_SLUSH_RUSH  && gBattleWeather & B_WEATHER_HAIL)
+            speedBattler1 *= 2;
+    }
+
+    // other abilities
+    if (ability == ABILITY_QUICK_FEET && gBattleMons[battlerId].status1 & STATUS1_ANY)
+        speedBattler1 = (speedBattler1 * 150) / 100;
+    else if (ability == ABILITY_SURGE_SURFER && gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)
+        speedBattler1 *= 2;
+    else if (ability == ABILITY_SLOW_START && gDisableStructs[battlerId].slowStartTimer != 0)
+        speedBattler1 /= 2;
+
+    // stat stages
+    speedBattler1 *= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][0];
+    speedBattler1 /= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][1];
+
+    // player's badge boost
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK | BATTLE_TYPE_FRONTIER))
+        && ShouldGetStatBadgeBoost(FLAG_BADGE03_GET, battlerId)
+        && GetBattlerSide(battlerId) == B_SIDE_PLAYER)
+    {
+        speedBattler1 = (speedBattler1 * 11) / 10;
+    }
+
+    // item effects
+    if (holdEffect == HOLD_EFFECT_MACHO_BRACE || holdEffect == HOLD_EFFECT_POWER_ITEM)
+        speedBattler1 /= 2;
+    else if (holdEffect == HOLD_EFFECT_IRON_BALL)
+        speedBattler1 /= 2;
+    else if (holdEffect == HOLD_EFFECT_CHOICE_SCARF)
+        speedBattler1 = (speedBattler1 * 150) / 100;
+    else if (holdEffect == HOLD_EFFECT_QUICK_POWDER && gBattleMons[battlerId].species == SPECIES_DITTO && !(gBattleMons[battlerId].status2 & STATUS2_TRANSFORMED))
+        speedBattler1 *= 2;
+
+    // various effects
+    if (gSideStatuses[GET_BATTLER_SIDE(battlerId)] & SIDE_STATUS_TAILWIND)
+        speedBattler1 *= 2;
+    if (gBattleResources->flags->flags[battlerId] & RESOURCE_FLAG_UNBURDEN)
+        speedBattler1 *= 2;
+
+    // paralysis drop
+    if (gBattleMons[battlerId].status1 & STATUS1_PARALYSIS && ability != ABILITY_QUICK_FEET)
+        speedBattler1 /= (B_PARALYSIS_SPEED >= GEN_7 ? 2 : 4);
+    
+#else  
+    u8 holdEffect = 0;
+    u8 holdEffectParam = 0;
+    
+    if (gBattleMons[battlerId].item == ITEM_ENIGMA_BERRY)
+    {
+        holdEffect = gEnigmaBerries[battlerId].holdEffect;
+        holdEffectParam = gEnigmaBerries[battlerId].holdEffectParam;
+    }
+    else
+    {
+        holdEffect = ItemId_GetHoldEffect(gBattleMons[battlerId].item);
+        holdEffectParam = ItemId_GetHoldEffectParam(gBattleMons[battlerId].item);
+    }
+    // weather speed boosts
+    if (WEATHER_HAS_EFFECT)
+    {
+        if ((gBattleMons[battlerId].ability == ABILITY_SWIFT_SWIM && gBattleWeather & B_WEATHER_RAIN)
+            || (gBattleMons[battlerId].ability == ABILITY_CHLOROPHYLL && gBattleWeather & B_WEATHER_SUN))
+        {
+            speedBattler1 *= 2;
+        }
+    }
+    
+    // badge boost
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK | BATTLE_TYPE_FRONTIER))
+        && FlagGet(FLAG_BADGE03_GET)
+        && GetBattlerSide(battlerId) == B_SIDE_PLAYER)
+    {
+        speedBattler1 = (speedBattler1 * 11) / 10;
+    }
+    
+    // stat changes
+    speedBattler1 *= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][0];
+    speedBattler1 /= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][1];
+    
+    // item effects
+    if (holdEffect == HOLD_EFFECT_MACHO_BRACE)
+        speedBattler1 /= 2;
+
+    if (gBattleMons[battlerId].status1 & STATUS1_PARALYSIS)
+        speedBattler1 /= 4;
+#endif
+    
+    return speedBattler1;
+}
+
+// Calculate the average speed of the mons currently in battle.
+static u32 AverageBattleMonSpeed(void)
+{
+    u8 i;
+    u32 averageSpeed;
+    
+    for (i = 0; i < gBattlersCount; i++)
+    {
+        if (i == 0)
+            averageSpeed = GetBattlerTotalSpeedStat(i);
+        else
+            averageSpeed = averageSpeed + ((GetBattlerTotalSpeedStat(i) - averageSpeed) / (i + 1));
+    }
+    
+    return averageSpeed;
+}
+
+// Adjust the speed of the mon based on Trick Room and/or non-zero priority moves for the timer.
+static u32 AdjustedSpeed(u8 battlerId)
+{
+    u32 speedBattler1 = GetBattlerTotalSpeedStat(battlerId);
+    u16 moveBattler1 = 0;
+    s8 movePriority;
+    
+#ifdef BATTLE_ENGINE
+    // For Trick Room, compare current speed to average speed of the mons in battle, then adjust.
+    // Ex: If speedBattler1 is 20 above average, it will be set to be 20 below average.
+    if (gFieldStatuses & STATUS_FIELD_TRICK_ROOM)
+    {
+        u32 averageSpeed = AverageBattleMonSpeed();
+        s32 averageDiff = speedBattler1 - averageSpeed;
+        
+        if (averageSpeed - averageDiff < 1)
+            speedBattler1 = 1;
+        else
+            speedBattler1 = averageSpeed - averageDiff;
+    }
+#endif
+
+    if (gBattleMons[battlerId].lastActionWasMove)
+        moveBattler1 = gLastMoves[battlerId];
+
+    movePriority = gBattleMoves[moveBattler1].priority;
+    
+    // Priority adjustment
+    // A linear increase of 0.5 per positive priority, starting at 2 for priority 1.
+    // A logarithmic decrase for negative priorities, starting at 0.5 for priority -1.
+    if (movePriority > 0)
+    {
+        if (movePriority % 2 == 0)
+        {
+            speedBattler1 *= ((movePriority * 2) + 1) - (movePriority - 2);
+            speedBattler1 /= 2;
+        }
+        else
+            speedBattler1 *= (movePriority + 3) / 2;
+    }
+    else if (movePriority < 0)
+    {
+        movePriority *= -1;
+        
+        if (movePriority % 2 == 0)
+        {
+            speedBattler1 *= 2;
+            speedBattler1 /= ((movePriority * 2) + 1) - (movePriority - 2);
+        }
+        else
+            speedBattler1 /= (movePriority + 3) / 2;
+    }
+
+    // Make sure that we return a value greater than zero. Otherwise, this mon will never take a turn again.
+    if (speedBattler1 == 0)
+        speedBattler1 = 1;
+    
+    return speedBattler1;
+}
+
+// Determine whether or not an item or ability causes the mon to become faster or slower.
+// Returns a number that reflects what effect took place.
+static u8 SpeedEffectUsed(u8 battlerId)
+{
+    u8 effectUsed = 0;
+    u8 holdEffect;
+    u8 holdEffectParam;
+    
+    if (gBattleMons[battlerId].item == ITEM_ENIGMA_BERRY)
+    {
+        holdEffect = gEnigmaBerries[battlerId].holdEffect;
+        holdEffectParam = gEnigmaBerries[battlerId].holdEffectParam;
+    }
+    else
+    {
+        holdEffect = ItemId_GetHoldEffect(gBattleMons[battlerId].item);
+        holdEffectParam = ItemId_GetHoldEffectParam(gBattleMons[battlerId].item);
+    }
+#ifdef BATTLE_ENGINE
+    u32 ability = GetBattlerAbility(battlerId);
+    
+    if (holdEffect == HOLD_EFFECT_LAGGING_TAIL || ability == ABILITY_STALL)
+    {
+        effectUsed = 4;
+    }
+    else if (ability == ABILITY_QUICK_DRAW && gBattleMons[battlerId].lastActionWasMove && !IS_MOVE_STATUS(gLastMoves[battlerId]) && (Random() % 10) < 3)
+    {
+        effectUsed = 1;
+    }
+    else if (holdEffect == HOLD_EFFECT_QUICK_CLAW && gRandomTurnNumber < (0xFFFF * holdEffectParam) / 100)
+    {
+        effectUsed = 2;
+    }
+    else if (holdEffect == HOLD_EFFECT_CUSTAP_BERRY && HasEnoughHpToEatBerry(battlerId, 4, gBattleMons[battlerId].item))
+    {        
+        effectUsed = 3;
+    }
+#else
+    if (holdEffect == HOLD_EFFECT_QUICK_CLAW && gRandomTurnNumber < (0xFFFF * holdEffectParam) / 100)
+    {
+        effectUsed = 2;
+    }
+#endif
+    return effectUsed;
+}
+
 static void BattleMainCB1(void)
 {
-    gBattleMainFunc();
+    // Only have the mon with the highest timer take their action. This never applies in safari battles or the Wally tutorial.
+    if ((gBattleMainFunc == HandleTurnActionSelectionState || gBattleMainFunc == SetActionsAndBattlersTurnOrder) && !(gBattleTypeFlags & (BATTLE_TYPE_SAFARI | BATTLE_TYPE_WALLY_TUTORIAL)))
+    {
+        u8 i;
+        
+        // For some reason on the first turn, the first player mon and the first opponent mon will always go first, regardless of timers.
+        // If the timers are recalculated, however, the proper mon will go first. This bool is used to check whether it's the first turn or not.
+        bool8 firstTurnRetry = !gBattleResults.battleTurnCounter;
+        
+        // Check to see if we're still in the middle of a mon's action. If i == gBattlersCount, then we are not in the middle of a turn.
+        for (i = 0; i < gBattlersCount; i++)
+        {
+            if (gBattleMons[i].isTurn)
+                break;
+        }
+        
+        // This reset point is used to recalculate the timers if this is the first turn.
+        HARD_RESET:
+        if (i == gBattlersCount)
+        {
+            u8 j;
+            u16 lowestTimer;
+            u32 battlerSpeeds[gBattlersCount];
+            u8 usedSpeedEffect[gBattlersCount];
+            
+            // Adjust all of the timers based on each mon's speed, accounting for held items, stat changes, Trick Room, etc.
+            for (i = 0; i < gBattlersCount; i++)
+            {
+                battlerSpeeds[i] = AdjustedSpeed(i);
+                
+                if (gBattleMons[i].timer + battlerSpeeds[i] > UINT_MAX)
+                    gBattleMons[i].timer = UINT_MAX;
+                else
+                    gBattleMons[i].timer += battlerSpeeds[i];
+            }
+            
+            // Check to see if the first mon was able to use an ability or held item to change its speed.
+            // If so, increment the timer accordingly.
+            usedSpeedEffect[0] = SpeedEffectUsed(0);
+            
+            if (usedSpeedEffect[0])
+            {
+                if (usedSpeedEffect[0] < 4) // Speed increasing effect
+                {
+                    if (gBattleMons[0].timer + battlerSpeeds[0] > UINT_MAX)
+                        gBattleMons[0].timer = UINT_MAX;
+                    else
+                        gBattleMons[0].timer += battlerSpeeds[0];
+                }
+                else // Speed decreasing effect
+                {
+                    gBattleMons[0].timer -= battlerSpeeds[0] / 2;
+                }
+            }
+            
+            // Set i to whichever mon should take an action.
+            for (i = 0; i < gBattlersCount - 1; i++)
+            {                
+                for (j = i + 1; j < gBattlersCount; j++)
+                {
+                    // Check to see if j mon was able to use an ability or held item to change its speed.
+                    // If so, increment the timer accordingly.
+                    usedSpeedEffect[j] = SpeedEffectUsed(j);
+                    
+                    if (usedSpeedEffect[j])
+                    {
+                        if (usedSpeedEffect[j] < 4) // Speed increasing effect
+                        {
+                            if (gBattleMons[j].timer + battlerSpeeds[j] > UINT_MAX)
+                                gBattleMons[j].timer = UINT_MAX;
+                            else
+                                gBattleMons[j].timer += battlerSpeeds[j];
+                        }
+                        else // Speed decreasing effect
+                            gBattleMons[j].timer -= battlerSpeeds[j] / 2;
+                    }
+            
+                    // The mon with the highest timer should go first.
+                    if (gBattleMons[i].timer < gBattleMons[j].timer)
+                    {
+                        i = j - 1;
+                        break;
+                    }
+                    
+                    // In the case of a tie, the mon that has waited the longest goes first.
+                    if (gBattleMons[i].timer == gBattleMons[j].timer)
+                    {
+                        if (gBattleMons[i].turnsWaited < gBattleMons[j].turnsWaited)
+                        {
+                            i = j - 1;
+                            break;
+                        }
+                        
+                        // In the case of a tie, the mon that has the higher speed stat goes first.
+                        if (gBattleMons[i].turnsWaited == gBattleMons[j].turnsWaited)
+                        {
+                            u32 firstMonSpeed = GetBattlerTotalSpeedStat(i);
+                            u32 secondMonSpeed = GetBattlerTotalSpeedStat(j);
 
-    for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
+                        #ifdef BATTLE_ENGINE
+                            // Account for Trick Room.
+                            if (gFieldStatuses & STATUS_FIELD_TRICK_ROOM)
+                            {
+                                if (firstMonSpeed > secondMonSpeed)
+                                {
+                                    i = j - 1;
+                                    break;
+                                }
+                            }
+                            else if (firstMonSpeed < secondMonSpeed)
+                            {
+                                i = j - 1;
+                                break;
+                            }
+                        #else
+                            if (firstMonSpeed < secondMonSpeed)
+                            {
+                                i = j - 1;
+                                break;
+                            }
+                        #endif
+                        
+                            // In the case of a tie, if one of the mons is the player's and the other isn't, the player's mon goes first.
+                            if (firstMonSpeed == secondMonSpeed)
+                            {
+                                if (GetBattlerSide(i) != B_SIDE_PLAYER && GetBattlerSide(j) == B_SIDE_PLAYER)
+                                {
+                                    i = j - 1;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // If j == gBattlersCount, then there was no j that was a better choice than i, so we're done with the loop.
+                if (j == gBattlersCount)
+                    break;
+            }
+            
+            // If this is the first turn and we haven't recalculated yet, reset, and then recalculate the timers.
+            if (firstTurnRetry)
+            {
+                for (i = 0; i < gBattlersCount; i++)
+                {
+                    gBattleMons[i].timer = 0;
+                    gBattleMons[i].turnsWaited = 0;
+                    gBattleMons[i].isTurn = FALSE;
+                    gBattleMons[i].lastActionWasMove = FALSE;
+                }
+                
+                firstTurnRetry = FALSE;
+                i = gBattlersCount;
+                goto HARD_RESET;
+            }
+            
+            // Reset the current mon's timer and turnsWaited, increment all of the other mons' turnsWaited, and find the lowest timer.
+            for (j = 0; j < gBattlersCount; j++)
+            {
+                if (j == i)
+                {
+                    gBattleMons[i].turnsWaited = 0;
+                    
+                    // Account for if the mon's speed was affected by a held item or ability.
+                    if (usedSpeedEffect[i] > 3) // Slower effect
+                        gBattleMons[i].timer -= battlerSpeeds[i] / 2;
+                    else if (usedSpeedEffect[i]) // Faster effect
+                        gBattleMons[i].timer -= battlerSpeeds[i] * 2;
+                    else // No effect
+                        gBattleMons[i].timer -= battlerSpeeds[i];
+                }
+                else
+                    gBattleMons[j].turnsWaited++;
+                
+                if (j == 0)
+                    lowestTimer = gBattleMons[j].timer;
+                else
+                {
+                    if (gBattleMons[j].timer < lowestTimer)
+                        lowestTimer = gBattleMons[j].timer;
+                }
+            }
+            
+            // Shift all of the timers down, setting the lowest timer to zero, so that we never overflow.
+            for (j = 0; j < gBattlersCount; j++)
+                gBattleMons[j].timer -= lowestTimer;
+            
+            // Set the current mon's isTurn to true so that we don't keep messing with the current mon data.
+            gBattleMons[i].isTurn = TRUE;
+            
+            // Set the current mon's lastActionWasMove to false, since the priority of the last move no longer has any effect on the mon's speed,
+            // since the current mon is now doing a new action.
+            gBattleMons[i].lastActionWasMove = FALSE;
+            
+            #ifdef BATTLE_ENGINE
+            // Run the proper script to identify what caused the speed-up for the mon.
+            switch(usedSpeedEffect[i])
+            {
+                case 0: // No effect used
+                    break;
+                case 1: // Quick Draw
+                    BattleScriptExecute(BattleScript_QuickDrawActivation);
+                    break;
+                case 2: // Quick Claw
+                    BattleScriptExecute(BattleScript_QuickClawActivation);
+                    break;
+                case 3: // Custap Berry
+                    gLastUsedItem = gBattleMons[i].item;
+                    BattleScriptExecute(BattleScript_CustapBerryActivation);
+                    break;
+            }
+            #endif
+        }
+        
+        // Set gActiveBattler to the mon taking an action.
+        gActiveBattler = i;
+        
+        gBattleMainFunc();
+        
+        // Only run controller functions for the active mon.
         gBattlerControllerFuncs[gActiveBattler]();
+    }
+    else
+    {
+        gBattleMainFunc();
+        
+        for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
+            gBattlerControllerFuncs[gActiveBattler]();
+    }
 }
 
 static void BattleStartClearSetData(void)
@@ -4097,217 +4554,96 @@ enum
 static void HandleTurnActionSelectionState(void)
 {
     s32 i;
+    u8 position = GetBattlerPosition(gActiveBattler);
 
     gBattleCommunication[ACTIONS_CONFIRMED_COUNT] = 0;
-    for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
+
+    switch (gBattleCommunication[gActiveBattler])
     {
-        u8 position = GetBattlerPosition(gActiveBattler);
-        switch (gBattleCommunication[gActiveBattler])
+    case STATE_TURN_START_RECORD: // Recorded battle related action on start of every turn.
+        RecordedBattle_CopyBattlerMoves();
+        gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+        break;
+    case STATE_BEFORE_ACTION_CHOSEN: // Choose an action.
+        *(gBattleStruct->monToSwitchIntoId + gActiveBattler) = PARTY_SIZE;
+        if (gBattleStruct->absentBattlerFlags & gBitTable[gActiveBattler])
         {
-        case STATE_TURN_START_RECORD: // Recorded battle related action on start of every turn.
-            RecordedBattle_CopyBattlerMoves();
-            gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
-            break;
-        case STATE_BEFORE_ACTION_CHOSEN: // Choose an action.
-            *(gBattleStruct->monToSwitchIntoId + gActiveBattler) = PARTY_SIZE;
-            if (gBattleTypeFlags & BATTLE_TYPE_MULTI
-                || (position & BIT_FLANK) == B_FLANK_LEFT
-                || gBattleStruct->absentBattlerFlags & gBitTable[GetBattlerAtPosition(BATTLE_PARTNER(position))]
-                || gBattleCommunication[GetBattlerAtPosition(BATTLE_PARTNER(position))] == STATE_WAIT_ACTION_CONFIRMED)
+            gChosenActionByBattler[gActiveBattler] = B_ACTION_NOTHING_FAINTED;
+            if (!(gBattleTypeFlags & BATTLE_TYPE_MULTI))
+                gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED;
+            else
+                gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+        }
+        else
+        {
+            if (gBattleMons[gActiveBattler].status2 & STATUS2_MULTIPLETURNS
+                || gBattleMons[gActiveBattler].status2 & STATUS2_RECHARGE)
             {
-                if (gBattleStruct->absentBattlerFlags & gBitTable[gActiveBattler])
+                gChosenActionByBattler[gActiveBattler] = B_ACTION_USE_MOVE;
+                gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+            }
+            else
+            {
+                BtlController_EmitChooseAction(BUFFER_A, gChosenActionByBattler[0], gBattleBufferB[0][1] | (gBattleBufferB[0][2] << 8));
+                MarkBattlerForControllerExec(gActiveBattler);
+                gBattleCommunication[gActiveBattler]++;
+            }
+        }
+        break;
+    case STATE_WAIT_ACTION_CHOSEN: // Try to perform an action.
+        if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
+        {
+            RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][1]);
+            gChosenActionByBattler[gActiveBattler] = gBattleBufferB[gActiveBattler][1];
+
+            switch (gBattleBufferB[gActiveBattler][1])
+            {
+            case B_ACTION_USE_MOVE:
+                if (AreAllMovesUnusable())
                 {
-                    gChosenActionByBattler[gActiveBattler] = B_ACTION_NOTHING_FAINTED;
-                    if (!(gBattleTypeFlags & BATTLE_TYPE_MULTI))
-                        gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED;
-                    else
-                        gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+                    gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
+                    *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
+                    *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+                    *(gBattleStruct->moveTarget + gActiveBattler) = gBattleBufferB[gActiveBattler][3];
+                    return;
+                }
+                else if (gDisableStructs[gActiveBattler].encoredMove != 0)
+                {
+                    gChosenMoveByBattler[gActiveBattler] = gDisableStructs[gActiveBattler].encoredMove;
+                    *(gBattleStruct->chosenMovePositions + gActiveBattler) = gDisableStructs[gActiveBattler].encoredMovePos;
+                    gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+                    return;
                 }
                 else
                 {
-                    if (gBattleMons[gActiveBattler].status2 & STATUS2_MULTIPLETURNS
-                        || gBattleMons[gActiveBattler].status2 & STATUS2_RECHARGE)
+                    struct ChooseMoveStruct moveInfo;
+
+                    moveInfo.species = gBattleMons[gActiveBattler].species;
+                    moveInfo.monType1 = gBattleMons[gActiveBattler].type1;
+                    moveInfo.monType2 = gBattleMons[gActiveBattler].type2;
+
+                    for (i = 0; i < MAX_MON_MOVES; i++)
                     {
-                        gChosenActionByBattler[gActiveBattler] = B_ACTION_USE_MOVE;
-                        gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+                        moveInfo.moves[i] = gBattleMons[gActiveBattler].moves[i];
+                        moveInfo.currentPp[i] = gBattleMons[gActiveBattler].pp[i];
+                        moveInfo.maxPp[i] = CalculatePPWithBonus(
+                                                        gBattleMons[gActiveBattler].moves[i],
+                                                        gBattleMons[gActiveBattler].ppBonuses,
+                                                        i);
                     }
-                    else
-                    {
-                        BtlController_EmitChooseAction(BUFFER_A, gChosenActionByBattler[0], gBattleBufferB[0][1] | (gBattleBufferB[0][2] << 8));
-                        MarkBattlerForControllerExec(gActiveBattler);
-                        gBattleCommunication[gActiveBattler]++;
-                    }
+
+                    BtlController_EmitChooseMove(BUFFER_A, (gBattleTypeFlags & BATTLE_TYPE_DOUBLE) != 0, FALSE, &moveInfo);
+                    MarkBattlerForControllerExec(gActiveBattler);
                 }
-            }
-            break;
-        case STATE_WAIT_ACTION_CHOSEN: // Try to perform an action.
-            if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
-            {
-                RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][1]);
-                gChosenActionByBattler[gActiveBattler] = gBattleBufferB[gActiveBattler][1];
-
-                switch (gBattleBufferB[gActiveBattler][1])
+                break;
+            case B_ACTION_USE_ITEM:
+                if (gBattleTypeFlags & (BATTLE_TYPE_LINK
+                                        | BATTLE_TYPE_FRONTIER_NO_PYRAMID
+                                        | BATTLE_TYPE_EREADER_TRAINER
+                                        | BATTLE_TYPE_RECORDED_LINK))
                 {
-                case B_ACTION_USE_MOVE:
-                    if (AreAllMovesUnusable())
-                    {
-                        gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
-                        *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
-                        *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
-                        *(gBattleStruct->moveTarget + gActiveBattler) = gBattleBufferB[gActiveBattler][3];
-                        return;
-                    }
-                    else if (gDisableStructs[gActiveBattler].encoredMove != 0)
-                    {
-                        gChosenMoveByBattler[gActiveBattler] = gDisableStructs[gActiveBattler].encoredMove;
-                        *(gBattleStruct->chosenMovePositions + gActiveBattler) = gDisableStructs[gActiveBattler].encoredMovePos;
-                        gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
-                        return;
-                    }
-                    else
-                    {
-                        struct ChooseMoveStruct moveInfo;
-
-                        moveInfo.species = gBattleMons[gActiveBattler].species;
-                        moveInfo.monType1 = gBattleMons[gActiveBattler].type1;
-                        moveInfo.monType2 = gBattleMons[gActiveBattler].type2;
-
-                        for (i = 0; i < MAX_MON_MOVES; i++)
-                        {
-                            moveInfo.moves[i] = gBattleMons[gActiveBattler].moves[i];
-                            moveInfo.currentPp[i] = gBattleMons[gActiveBattler].pp[i];
-                            moveInfo.maxPp[i] = CalculatePPWithBonus(
-                                                            gBattleMons[gActiveBattler].moves[i],
-                                                            gBattleMons[gActiveBattler].ppBonuses,
-                                                            i);
-                        }
-
-                        BtlController_EmitChooseMove(BUFFER_A, (gBattleTypeFlags & BATTLE_TYPE_DOUBLE) != 0, FALSE, &moveInfo);
-                        MarkBattlerForControllerExec(gActiveBattler);
-                    }
-                    break;
-                case B_ACTION_USE_ITEM:
-                    if (gBattleTypeFlags & (BATTLE_TYPE_LINK
-                                            | BATTLE_TYPE_FRONTIER_NO_PYRAMID
-                                            | BATTLE_TYPE_EREADER_TRAINER
-                                            | BATTLE_TYPE_RECORDED_LINK))
-                    {
-                        RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
-                        gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
-                        gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
-                        *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
-                        *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
-                        return;
-                    }
-                    else
-                    {
-                        BtlController_EmitChooseItem(BUFFER_A, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                        MarkBattlerForControllerExec(gActiveBattler);
-                    }
-                    break;
-                case B_ACTION_SWITCH:
-                    *(gBattleStruct->battlerPartyIndexes + gActiveBattler) = gBattlerPartyIndexes[gActiveBattler];
-                    if (gBattleMons[gActiveBattler].status2 & (STATUS2_WRAPPED | STATUS2_ESCAPE_PREVENTION)
-                        || gBattleTypeFlags & BATTLE_TYPE_ARENA
-                        || gStatuses3[gActiveBattler] & STATUS3_ROOTED)
-                    {
-                        BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CANT_SWITCH, PARTY_SIZE, ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                    }
-                    else if ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_SHADOW_TAG))
-                             || ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_ARENA_TRAP))
-                                 && !IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_FLYING)
-                                 && gBattleMons[gActiveBattler].ability != ABILITY_LEVITATE)
-                             || ((i = AbilityBattleEffects(ABILITYEFFECT_CHECK_FIELD_EXCEPT_BATTLER, gActiveBattler, ABILITY_MAGNET_PULL, 0, 0))
-                                 && IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_STEEL)))
-                    {
-                        BtlController_EmitChoosePokemon(BUFFER_A, ((i - 1) << 4) | PARTY_ACTION_ABILITY_PREVENTS, PARTY_SIZE, gLastUsedAbility, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                    }
-                    else
-                    {
-                        if (gActiveBattler == 2 && gChosenActionByBattler[0] == B_ACTION_SWITCH)
-                            BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, *(gBattleStruct->monToSwitchIntoId + 0), ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                        else if (gActiveBattler == 3 && gChosenActionByBattler[1] == B_ACTION_SWITCH)
-                            BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, *(gBattleStruct->monToSwitchIntoId + 1), ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                        else
-                            BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, PARTY_SIZE, ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                    }
-                    MarkBattlerForControllerExec(gActiveBattler);
-                    break;
-                case B_ACTION_SAFARI_BALL:
-                    if (IsPlayerPartyAndPokemonStorageFull())
-                    {
-                        gSelectionBattleScripts[gActiveBattler] = BattleScript_PrintFullBox;
-                        gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
-                        *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
-                        *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
-                        return;
-                    }
-                    break;
-                case B_ACTION_SAFARI_POKEBLOCK:
-                    BtlController_EmitChooseItem(BUFFER_A, gBattleStruct->battlerPartyOrders[gActiveBattler]);
-                    MarkBattlerForControllerExec(gActiveBattler);
-                    break;
-                case B_ACTION_CANCEL_PARTNER:
-                    gBattleCommunication[gActiveBattler] = STATE_WAIT_SET_BEFORE_ACTION;
-                    gBattleCommunication[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] = STATE_BEFORE_ACTION_CHOSEN;
                     RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
-                    if (gBattleMons[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].status2 & STATUS2_MULTIPLETURNS
-                        || gBattleMons[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].status2 & STATUS2_RECHARGE)
-                    {
-                        BtlController_EmitEndBounceEffect(BUFFER_A);
-                        MarkBattlerForControllerExec(gActiveBattler);
-                        return;
-                    }
-                    else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_SWITCH)
-                    {
-                        RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 2);
-                    }
-                    else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_RUN)
-                    {
-                        RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
-                    }
-                    else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_USE_MOVE
-                             && (gProtectStructs[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].noValidMoves
-                                || gDisableStructs[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].encoredMove))
-                    {
-                        RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
-                    }
-                    else if (gBattleTypeFlags & BATTLE_TYPE_PALACE
-                             && gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_USE_MOVE)
-                    {
-                        gRngValue = gBattlePalaceMoveSelectionRngValue;
-                        RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
-                    }
-                    else
-                    {
-                        RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 3);
-                    }
-                    BtlController_EmitEndBounceEffect(BUFFER_A);
-                    MarkBattlerForControllerExec(gActiveBattler);
-                    return;
-                }
-
-                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
-                    && gBattleTypeFlags & (BATTLE_TYPE_FRONTIER | BATTLE_TYPE_TRAINER_HILL)
-                    && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
-                {
-                    gSelectionBattleScripts[gActiveBattler] = BattleScript_AskIfWantsToForfeitMatch;
-                    gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT_MAY_RUN;
-                    *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
-                    *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
-                    return;
-                }
-                else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
-                         && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK))
-                         && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
-                {
-                    BattleScriptExecute(BattleScript_PrintCantRunFromTrainer);
-                    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
-                }
-                else if (IsRunningFromBattleImpossible()
-                         && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
-                {
-                    gSelectionBattleScripts[gActiveBattler] = BattleScript_PrintCantEscapeFromBattle;
+                    gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
                     gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
                     *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
                     *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
@@ -4315,210 +4651,321 @@ static void HandleTurnActionSelectionState(void)
                 }
                 else
                 {
-                    gBattleCommunication[gActiveBattler]++;
+                    BtlController_EmitChooseItem(BUFFER_A, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                    MarkBattlerForControllerExec(gActiveBattler);
                 }
-            }
-            break;
-        case STATE_WAIT_ACTION_CASE_CHOSEN:
-            if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
-            {
-                switch (gChosenActionByBattler[gActiveBattler])
+                break;
+            case B_ACTION_SWITCH:
+                *(gBattleStruct->battlerPartyIndexes + gActiveBattler) = gBattlerPartyIndexes[gActiveBattler];
+                if (gBattleMons[gActiveBattler].status2 & (STATUS2_WRAPPED | STATUS2_ESCAPE_PREVENTION)
+                    || gBattleTypeFlags & BATTLE_TYPE_ARENA
+                    || gStatuses3[gActiveBattler] & STATUS3_ROOTED)
                 {
-                case B_ACTION_USE_MOVE:
-                    switch (gBattleBufferB[gActiveBattler][1])
-                    {
-                    case 3:
-                    case 4:
-                    case 5:
-                    case 6:
-                    case 7:
-                    case 8:
-                    case 9:
-                        gChosenActionByBattler[gActiveBattler] = gBattleBufferB[gActiveBattler][1];
-                        return;
-                    case 15:
-                        gChosenActionByBattler[gActiveBattler] = B_ACTION_SWITCH;
-                        UpdateBattlerPartyOrdersOnSwitch();
-                        return;
-                    default:
-                        RecordedBattle_CheckMovesetChanges(B_RECORD_MODE_PLAYBACK);
-                        if ((gBattleBufferB[gActiveBattler][2] | (gBattleBufferB[gActiveBattler][3] << 8)) == 0xFFFF)
-                        {
-                            gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
-                            RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
-                        }
-                        else if (TrySetCantSelectMoveBattleScript())
-                        {
-                            RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
-                            gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
-                            *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
-                            gBattleBufferB[gActiveBattler][1] = B_ACTION_USE_MOVE;
-                            *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_WAIT_ACTION_CHOSEN;
-                            return;
-                        }
-                        else
-                        {
-                            if (!(gBattleTypeFlags & BATTLE_TYPE_PALACE))
-                            {
-                                RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][2]);
-                                RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][3]);
-                            }
-                            *(gBattleStruct->chosenMovePositions + gActiveBattler) = gBattleBufferB[gActiveBattler][2];
-                            gChosenMoveByBattler[gActiveBattler] = gBattleMons[gActiveBattler].moves[*(gBattleStruct->chosenMovePositions + gActiveBattler)];
-                            *(gBattleStruct->moveTarget + gActiveBattler) = gBattleBufferB[gActiveBattler][3];
-                            gBattleCommunication[gActiveBattler]++;
-                        }
-                        break;
-                    }
-                    break;
-                case B_ACTION_USE_ITEM:
-                    if ((gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8)) == 0)
-                    {
-                        gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
-                    }
+                    BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CANT_SWITCH, PARTY_SIZE, ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                }
+                else if ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_SHADOW_TAG))
+                         || ((i = ABILITY_ON_OPPOSING_FIELD(gActiveBattler, ABILITY_ARENA_TRAP))
+                             && !IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_FLYING)
+                             && gBattleMons[gActiveBattler].ability != ABILITY_LEVITATE)
+                         || ((i = AbilityBattleEffects(ABILITYEFFECT_CHECK_FIELD_EXCEPT_BATTLER, gActiveBattler, ABILITY_MAGNET_PULL, 0, 0))
+                             && IS_BATTLER_OF_TYPE(gActiveBattler, TYPE_STEEL)))
+                {
+                    BtlController_EmitChoosePokemon(BUFFER_A, ((i - 1) << 4) | PARTY_ACTION_ABILITY_PREVENTS, PARTY_SIZE, gLastUsedAbility, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                }
+                else
+                {
+                    if (gActiveBattler == 2 && gChosenActionByBattler[0] == B_ACTION_SWITCH)
+                        BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, *(gBattleStruct->monToSwitchIntoId + 0), ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                    else if (gActiveBattler == 3 && gChosenActionByBattler[1] == B_ACTION_SWITCH)
+                        BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, *(gBattleStruct->monToSwitchIntoId + 1), ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
                     else
-                    {
-                        gLastUsedItem = (gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8));
-                        gBattleCommunication[gActiveBattler]++;
-                    }
-                    break;
-                case B_ACTION_SWITCH:
-                    if (gBattleBufferB[gActiveBattler][1] == PARTY_SIZE)
+                        BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CHOOSE_MON, PARTY_SIZE, ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                }
+                MarkBattlerForControllerExec(gActiveBattler);
+                break;
+            case B_ACTION_SAFARI_BALL:
+                if (IsPlayerPartyAndPokemonStorageFull())
+                {
+                    gSelectionBattleScripts[gActiveBattler] = BattleScript_PrintFullBox;
+                    gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
+                    *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
+                    *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
+                    return;
+                }
+                break;
+            case B_ACTION_SAFARI_POKEBLOCK:
+                BtlController_EmitChooseItem(BUFFER_A, gBattleStruct->battlerPartyOrders[gActiveBattler]);
+                MarkBattlerForControllerExec(gActiveBattler);
+                break;
+            case B_ACTION_CANCEL_PARTNER:
+                gBattleCommunication[gActiveBattler] = STATE_WAIT_SET_BEFORE_ACTION;
+                gBattleCommunication[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] = STATE_BEFORE_ACTION_CHOSEN;
+                RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
+                if (gBattleMons[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].status2 & STATUS2_MULTIPLETURNS
+                    || gBattleMons[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].status2 & STATUS2_RECHARGE)
+                {
+                    BtlController_EmitEndBounceEffect(BUFFER_A);
+                    MarkBattlerForControllerExec(gActiveBattler);
+                    return;
+                }
+                else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_SWITCH)
+                {
+                    RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 2);
+                }
+                else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_RUN)
+                {
+                    RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
+                }
+                else if (gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_USE_MOVE
+                         && (gProtectStructs[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].noValidMoves
+                            || gDisableStructs[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))].encoredMove))
+                {
+                    RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
+                }
+                else if (gBattleTypeFlags & BATTLE_TYPE_PALACE
+                         && gChosenActionByBattler[GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler)))] == B_ACTION_USE_MOVE)
+                {
+                    gRngValue = gBattlePalaceMoveSelectionRngValue;
+                    RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 1);
+                }
+                else
+                {
+                    RecordedBattle_ClearBattlerAction(GetBattlerAtPosition(BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))), 3);
+                }
+                BtlController_EmitEndBounceEffect(BUFFER_A);
+                MarkBattlerForControllerExec(gActiveBattler);
+                return;
+            }
+
+            if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
+                && gBattleTypeFlags & (BATTLE_TYPE_FRONTIER | BATTLE_TYPE_TRAINER_HILL)
+                && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
+            {
+                gSelectionBattleScripts[gActiveBattler] = BattleScript_AskIfWantsToForfeitMatch;
+                gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT_MAY_RUN;
+                *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
+                *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
+                return;
+            }
+            else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
+                     && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK))
+                     && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
+            {
+                BattleScriptExecute(BattleScript_PrintCantRunFromTrainer);
+                gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+            }
+            else if (IsRunningFromBattleImpossible()
+                     && gBattleBufferB[gActiveBattler][1] == B_ACTION_RUN)
+            {
+                gSelectionBattleScripts[gActiveBattler] = BattleScript_PrintCantEscapeFromBattle;
+                gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
+                *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
+                *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_BEFORE_ACTION_CHOSEN;
+                return;
+            }
+            else
+            {
+                gBattleCommunication[gActiveBattler]++;
+            }
+        }
+        break;
+    case STATE_WAIT_ACTION_CASE_CHOSEN:
+        if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
+        {
+            switch (gChosenActionByBattler[gActiveBattler])
+            {
+            case B_ACTION_USE_MOVE:
+                switch (gBattleBufferB[gActiveBattler][1])
+                {
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                    gChosenActionByBattler[gActiveBattler] = gBattleBufferB[gActiveBattler][1];
+                    return;
+                case 15:
+                    gChosenActionByBattler[gActiveBattler] = B_ACTION_SWITCH;
+                    UpdateBattlerPartyOrdersOnSwitch();
+                    return;
+                default:
+                    RecordedBattle_CheckMovesetChanges(B_RECORD_MODE_PLAYBACK);
+                    if ((gBattleBufferB[gActiveBattler][2] | (gBattleBufferB[gActiveBattler][3] << 8)) == 0xFFFF)
                     {
                         gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                     }
+                    else if (TrySetCantSelectMoveBattleScript())
+                    {
+                        RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
+                        gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;
+                        *(gBattleStruct->selectionScriptFinished + gActiveBattler) = FALSE;
+                        gBattleBufferB[gActiveBattler][1] = B_ACTION_USE_MOVE;
+                        *(gBattleStruct->stateIdAfterSelScript + gActiveBattler) = STATE_WAIT_ACTION_CHOSEN;
+                        return;
+                    }
                     else
                     {
-                        UpdateBattlerPartyOrdersOnSwitch();
+                        if (!(gBattleTypeFlags & BATTLE_TYPE_PALACE))
+                        {
+                            RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][2]);
+                            RecordedBattle_SetBattlerAction(gActiveBattler, gBattleBufferB[gActiveBattler][3]);
+                        }
+                        *(gBattleStruct->chosenMovePositions + gActiveBattler) = gBattleBufferB[gActiveBattler][2];
+                        gChosenMoveByBattler[gActiveBattler] = gBattleMons[gActiveBattler].moves[*(gBattleStruct->chosenMovePositions + gActiveBattler)];
+                        *(gBattleStruct->moveTarget + gActiveBattler) = gBattleBufferB[gActiveBattler][3];
                         gBattleCommunication[gActiveBattler]++;
+                        gBattleMons[gActiveBattler].lastActionWasMove = TRUE;
                     }
                     break;
-                case B_ACTION_RUN:
-                    gHitMarker |= HITMARKER_RUN;
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
-                case B_ACTION_SAFARI_WATCH_CAREFULLY:
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
-                case B_ACTION_SAFARI_BALL:
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
-                case B_ACTION_SAFARI_POKEBLOCK:
-                    if ((gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8)) != 0)
-                        gBattleCommunication[gActiveBattler]++;
-                    else
-                        gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
-                    break;
-                case B_ACTION_SAFARI_GO_NEAR:
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
-                case B_ACTION_SAFARI_RUN:
-                    gHitMarker |= HITMARKER_RUN;
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
-                case B_ACTION_WALLY_THROW:
-                    gBattleCommunication[gActiveBattler]++;
-                    break;
                 }
-            }
-            break;
-        case STATE_WAIT_ACTION_CONFIRMED_STANDBY:
-            if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler])
-                                                | (0xF << 28)
-                                                | (gBitTable[gActiveBattler] << 4)
-                                                | (gBitTable[gActiveBattler] << 8)
-                                                | (gBitTable[gActiveBattler] << 12))))
-            {
-                if (AllAtActionConfirmed())
-                    i = TRUE;
-                else
-                    i = FALSE;
-
-                if (((gBattleTypeFlags & BATTLE_TYPE_MULTI) || !(gBattleTypeFlags &  BATTLE_TYPE_DOUBLE))
-                    || (position & BIT_FLANK) != B_FLANK_LEFT
-                    || (*(&gBattleStruct->absentBattlerFlags) & gBitTable[GetBattlerAtPosition(position ^ BIT_FLANK)]))
+                break;
+            case B_ACTION_USE_ITEM:
+                if ((gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8)) == 0)
                 {
-                    BtlController_EmitLinkStandbyMsg(BUFFER_A, LINK_STANDBY_MSG_STOP_BOUNCE, i);
+                    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
                 }
                 else
                 {
-                    BtlController_EmitLinkStandbyMsg(BUFFER_A, LINK_STANDBY_STOP_BOUNCE_ONLY, i);
+                    gLastUsedItem = (gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8));
+                    gBattleCommunication[gActiveBattler]++;
                 }
-                MarkBattlerForControllerExec(gActiveBattler);
+                break;
+            case B_ACTION_SWITCH:
+                if (gBattleBufferB[gActiveBattler][1] == PARTY_SIZE)
+                {
+                    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+                    RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
+                }
+                else
+                {
+                    UpdateBattlerPartyOrdersOnSwitch();
+                    gBattleCommunication[gActiveBattler]++;
+                }
+                break;
+            case B_ACTION_RUN:
+                gHitMarker |= HITMARKER_RUN;
                 gBattleCommunication[gActiveBattler]++;
+                break;
+            case B_ACTION_SAFARI_WATCH_CAREFULLY:
+                gBattleCommunication[gActiveBattler]++;
+                break;
+            case B_ACTION_SAFARI_BALL:
+                gBattleCommunication[gActiveBattler]++;
+                break;
+            case B_ACTION_SAFARI_POKEBLOCK:
+                if ((gBattleBufferB[gActiveBattler][1] | (gBattleBufferB[gActiveBattler][2] << 8)) != 0)
+                    gBattleCommunication[gActiveBattler]++;
+                else
+                    gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+                break;
+            case B_ACTION_SAFARI_GO_NEAR:
+                gBattleCommunication[gActiveBattler]++;
+                break;
+            case B_ACTION_SAFARI_RUN:
+                gHitMarker |= HITMARKER_RUN;
+                gBattleCommunication[gActiveBattler]++;
+                break;
+            case B_ACTION_WALLY_THROW:
+                gBattleCommunication[gActiveBattler]++;
+                break;
             }
-            break;
-        case STATE_WAIT_ACTION_CONFIRMED:
+        }
+        break;
+    case STATE_WAIT_ACTION_CONFIRMED_STANDBY:
+        if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler])
+                                            | (0xF << 28)
+                                            | (gBitTable[gActiveBattler] << 4)
+                                            | (gBitTable[gActiveBattler] << 8)
+                                            | (gBitTable[gActiveBattler] << 12))))
+        {
+            /*if (AllAtActionConfirmed())
+                i = TRUE;
+            else
+                i = FALSE;*/
+
+            if (((gBattleTypeFlags & BATTLE_TYPE_MULTI) || !(gBattleTypeFlags &  BATTLE_TYPE_DOUBLE))
+                || (position & BIT_FLANK) != B_FLANK_LEFT
+                || (*(&gBattleStruct->absentBattlerFlags) & gBitTable[GetBattlerAtPosition(position ^ BIT_FLANK)]))
+            {
+                BtlController_EmitLinkStandbyMsg(BUFFER_A, LINK_STANDBY_MSG_STOP_BOUNCE, TRUE);
+            }
+            else
+            {
+                BtlController_EmitLinkStandbyMsg(BUFFER_A, LINK_STANDBY_STOP_BOUNCE_ONLY, TRUE);
+            }
+            MarkBattlerForControllerExec(gActiveBattler);
+            gBattleCommunication[gActiveBattler]++;
+        }
+        break;
+    case STATE_WAIT_ACTION_CONFIRMED:
+        if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
+        {
+            gBattleCommunication[ACTIONS_CONFIRMED_COUNT]++;
+        }
+        break;
+    case STATE_SELECTION_SCRIPT:
+        if (*(gBattleStruct->selectionScriptFinished + gActiveBattler))
+        {
+            gBattleCommunication[gActiveBattler] = *(gBattleStruct->stateIdAfterSelScript + gActiveBattler);
+        }
+        else
+        {
+            gBattlerAttacker = gActiveBattler;
+            gBattlescriptCurrInstr = gSelectionBattleScripts[gActiveBattler];
             if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
             {
-                gBattleCommunication[ACTIONS_CONFIRMED_COUNT]++;
+                gBattleScriptingCommandsTable[gBattlescriptCurrInstr[0]]();
             }
-            break;
-        case STATE_SELECTION_SCRIPT:
-            if (*(gBattleStruct->selectionScriptFinished + gActiveBattler))
+            gSelectionBattleScripts[gActiveBattler] = gBattlescriptCurrInstr;
+        }
+        break;
+    case STATE_WAIT_SET_BEFORE_ACTION:
+        if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
+        {
+            gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+        }
+        break;
+    case STATE_SELECTION_SCRIPT_MAY_RUN:
+        if (*(gBattleStruct->selectionScriptFinished + gActiveBattler))
+        {
+            if (gBattleBufferB[gActiveBattler][1] == B_ACTION_NOTHING_FAINTED)
             {
+                gHitMarker |= HITMARKER_RUN;
+                gChosenActionByBattler[gActiveBattler] = B_ACTION_RUN;
+                gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
+            }
+            else
+            {
+                RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                 gBattleCommunication[gActiveBattler] = *(gBattleStruct->stateIdAfterSelScript + gActiveBattler);
             }
-            else
-            {
-                gBattlerAttacker = gActiveBattler;
-                gBattlescriptCurrInstr = gSelectionBattleScripts[gActiveBattler];
-                if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
-                {
-                    gBattleScriptingCommandsTable[gBattlescriptCurrInstr[0]]();
-                }
-                gSelectionBattleScripts[gActiveBattler] = gBattlescriptCurrInstr;
-            }
-            break;
-        case STATE_WAIT_SET_BEFORE_ACTION:
+        }
+        else
+        {
+            gBattlerAttacker = gActiveBattler;
+            gBattlescriptCurrInstr = gSelectionBattleScripts[gActiveBattler];
             if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
             {
-                gBattleCommunication[gActiveBattler] = STATE_BEFORE_ACTION_CHOSEN;
+                gBattleScriptingCommandsTable[gBattlescriptCurrInstr[0]]();
             }
-            break;
-        case STATE_SELECTION_SCRIPT_MAY_RUN:
-            if (*(gBattleStruct->selectionScriptFinished + gActiveBattler))
-            {
-                if (gBattleBufferB[gActiveBattler][1] == B_ACTION_NOTHING_FAINTED)
-                {
-                    gHitMarker |= HITMARKER_RUN;
-                    gChosenActionByBattler[gActiveBattler] = B_ACTION_RUN;
-                    gBattleCommunication[gActiveBattler] = STATE_WAIT_ACTION_CONFIRMED_STANDBY;
-                }
-                else
-                {
-                    RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
-                    gBattleCommunication[gActiveBattler] = *(gBattleStruct->stateIdAfterSelScript + gActiveBattler);
-                }
-            }
-            else
-            {
-                gBattlerAttacker = gActiveBattler;
-                gBattlescriptCurrInstr = gSelectionBattleScripts[gActiveBattler];
-                if (!(gBattleControllerExecFlags & ((gBitTable[gActiveBattler]) | (0xF << 28) | (gBitTable[gActiveBattler] << 4) | (gBitTable[gActiveBattler] << 8) | (gBitTable[gActiveBattler] << 12))))
-                {
-                    gBattleScriptingCommandsTable[gBattlescriptCurrInstr[0]]();
-                }
-                gSelectionBattleScripts[gActiveBattler] = gBattlescriptCurrInstr;
-            }
-            break;
+            gSelectionBattleScripts[gActiveBattler] = gBattlescriptCurrInstr;
         }
+        break;
     }
 
     // Check if everyone chose actions.
-    if (gBattleCommunication[ACTIONS_CONFIRMED_COUNT] == gBattlersCount)
+    if (gBattleCommunication[ACTIONS_CONFIRMED_COUNT])
     {
         RecordedBattle_CheckMovesetChanges(B_RECORD_MODE_RECORDING);
         gBattleMainFunc = SetActionsAndBattlersTurnOrder;
 
         if (gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER)
         {
-            for (i = 0; i < gBattlersCount; i++)
-            {
-                if (gChosenActionByBattler[i] == B_ACTION_SWITCH)
-                    SwitchPartyOrderInGameMulti(i, *(gBattleStruct->monToSwitchIntoId + i));
-            }
+            if (gChosenActionByBattler[gActiveBattler] == B_ACTION_SWITCH)
+                SwitchPartyOrderInGameMulti(gActiveBattler, *(gBattleStruct->monToSwitchIntoId + gActiveBattler));
         }
     }
 }
@@ -4735,86 +5182,10 @@ static void SetActionsAndBattlersTurnOrder(void)
     }
     else
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_LINK)
-        {
-            for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
-            {
-                if (gChosenActionByBattler[gActiveBattler] == B_ACTION_RUN)
-                {
-                    turnOrderId = 5;
-                    break;
-                }
-            }
-        }
-        else
-        {
-            if (gChosenActionByBattler[0] == B_ACTION_RUN)
-            {
-                gActiveBattler = 0;
-                turnOrderId = 5;
-            }
-            if (gChosenActionByBattler[2] == B_ACTION_RUN)
-            {
-                gActiveBattler = 2;
-                turnOrderId = 5;
-            }
-        }
-
-        if (turnOrderId == 5) // One of battlers wants to run.
-        {
-            gActionsByTurnOrder[0] = gChosenActionByBattler[gActiveBattler];
-            gBattlerByTurnOrder[0] = gActiveBattler;
-            turnOrderId = 1;
-            for (i = 0; i < gBattlersCount; i++)
-            {
-                if (i != gActiveBattler)
-                {
-                    gActionsByTurnOrder[turnOrderId] = gChosenActionByBattler[i];
-                    gBattlerByTurnOrder[turnOrderId] = i;
-                    turnOrderId++;
-                }
-            }
-            gBattleMainFunc = CheckFocusPunch_ClearVarsBeforeTurnStarts;
-            gBattleStruct->focusPunchBattlerId = 0;
-            return;
-        }
-        else
-        {
-            for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
-            {
-                if (gChosenActionByBattler[gActiveBattler] == B_ACTION_USE_ITEM || gChosenActionByBattler[gActiveBattler] == B_ACTION_SWITCH)
-                {
-                    gActionsByTurnOrder[turnOrderId] = gChosenActionByBattler[gActiveBattler];
-                    gBattlerByTurnOrder[turnOrderId] = gActiveBattler;
-                    turnOrderId++;
-                }
-            }
-            for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
-            {
-                if (gChosenActionByBattler[gActiveBattler] != B_ACTION_USE_ITEM && gChosenActionByBattler[gActiveBattler] != B_ACTION_SWITCH)
-                {
-                    gActionsByTurnOrder[turnOrderId] = gChosenActionByBattler[gActiveBattler];
-                    gBattlerByTurnOrder[turnOrderId] = gActiveBattler;
-                    turnOrderId++;
-                }
-            }
-            for (i = 0; i < gBattlersCount - 1; i++)
-            {
-                for (j = i + 1; j < gBattlersCount; j++)
-                {
-                    u8 battler1 = gBattlerByTurnOrder[i];
-                    u8 battler2 = gBattlerByTurnOrder[j];
-                    if (gActionsByTurnOrder[i] != B_ACTION_USE_ITEM
-                        && gActionsByTurnOrder[j] != B_ACTION_USE_ITEM
-                        && gActionsByTurnOrder[i] != B_ACTION_SWITCH
-                        && gActionsByTurnOrder[j] != B_ACTION_SWITCH)
-                    {
-                        if (GetWhoStrikesFirst(battler1, battler2, FALSE))
-                            SwapTurnOrder(i, j);
-                    }
-                }
-            }
-        }
+        gActionsByTurnOrder[0] = gChosenActionByBattler[gActiveBattler];
+        gBattlerByTurnOrder[0] = gActiveBattler;
+        
+        gBattleMons[gActiveBattler].isTurn = FALSE;
     }
     gBattleMainFunc = CheckFocusPunch_ClearVarsBeforeTurnStarts;
     gBattleStruct->focusPunchBattlerId = 0;
@@ -4908,7 +5279,7 @@ static void RunTurnActionsFunctions(void)
     *(&gBattleStruct->savedTurnActionNumber) = gCurrentTurnActionNumber;
     sTurnActionsFuncsTable[gCurrentActionFuncId]();
 
-    if (gCurrentTurnActionNumber >= gBattlersCount) // everyone did their actions, turn finished
+    if (gCurrentTurnActionNumber) // everyone did their actions, turn finished
     {
         gHitMarker &= ~HITMARKER_PASSIVE_DAMAGE;
         gBattleMainFunc = sEndTurnFuncsTable[gBattleOutcome & 0x7F];

@@ -103,6 +103,14 @@ void InitBattleControllers(void)
 
     for (i = 0; i < sizeof(gBattleStruct->tv); i++)
         *((u8*)(&gBattleStruct->tv) + i) = 0;
+    
+    for (i = 0; i < gBattlersCount; i++)
+    {
+        gBattleMons[i].timer = 0;
+        gBattleMons[i].turnsWaited = 0;
+        gBattleMons[i].isTurn = FALSE;
+        gBattleMons[i].lastActionWasMove = FALSE;
+    }
 }
 
 static void InitSinglePlayerBtlControllers(void)

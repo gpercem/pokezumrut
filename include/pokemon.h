@@ -192,6 +192,10 @@ struct BattlePokemon
     /*0x4C*/ u32 status1;
     /*0x50*/ u32 status2;
     /*0x54*/ u32 otId;
+    /*0x58*/ u32 timer;
+    /*0x5C*/ u8 turnsWaited;
+    /*0x5D*/ bool8 isTurn;
+    /*0x5E*/ bool8 lastActionWasMove;
 };
 
 struct BaseStats

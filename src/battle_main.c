@@ -3140,8 +3140,8 @@ static u32 AverageBattleMonSpeed(void)
     return averageSpeed;
 }
 
-// Adjust the speed of the mon based on Trick Room and/or non-zero priority moves for the timer.
-static u32 AdjustedSpeed(u8 battlerId)
+// Returns the timer adjustment based on the mon's speed, taking into account Trick Room and move priority.
+static u32 AdjustedSpeed(u8 battlerId, u8 usedSpeedEffect)
 {
     u32 speedBattler1 = GetBattlerTotalSpeedStat(battlerId);
     u16 moveBattler1 = 0;
@@ -3192,11 +3192,87 @@ static u32 AdjustedSpeed(u8 battlerId)
         else
             speedBattler1 /= (movePriority + 3) / 2;
     }
-
-    // Make sure that we return a value greater than zero. Otherwise, this mon will never take a turn again.
-    if (speedBattler1 == 0)
-        speedBattler1 = 1;
     
+    // Account for if a held item/ability affected turn order.
+    if (usedSpeedEffect > 3) // Slower effect
+        speedBattler1 /= 2;
+    else if (usedSpeedEffect) // Faster effect
+        speedBattler1 *= 2;
+    
+    // Determine the timer speed of the mon based on their adjusted speed using bianry search.
+    // Ranges from 1-20, 1 being the slowest, 20 the fastest. 1-10 are the same ranges as Legends: Arceus
+    if (speedBattler1 < 402)
+    {
+        if (speedBattler1 < 130)
+        {
+            if (speedBattler1 < 56)
+            {
+                if (speedBattler1 < 16)
+                    speedBattler1 = 1;
+                else if (speedBattler1 < 32)
+                    speedBattler1 = 2;
+                else
+                    speedBattler1 = 3;
+            }
+            else if (speedBattler1 < 89)
+                speedBattler1 = 4;
+            else
+                speedBattler1 = 5;
+        }
+        else if (speedBattler1 < 243)
+        {
+            if (speedBattler1 < 182)
+                speedBattler1 = 6;
+            else
+                speedBattler1 = 7;
+        }
+        else if (speedBattler1 < 317)
+            speedBattler1 = 8;
+        else
+            speedBattler1 = 9;
+    }
+    else if (speedBattler1 < 1062)
+    {
+        if (speedBattler1 < 616)
+        {
+            if (speedBattler1 < 502)
+                speedBattler1 = 10;
+            else
+                speedBattler1 = 11;
+        }
+        else if (speedBattler1 < 895)
+        {
+            if (speedBattler1 < 747)
+                speedBattler1 = 12;
+            else
+                speedBattler1 = 13;
+        }
+        else
+            speedBattler1 = 14;
+    }
+    else if (speedBattler1 < 1679)
+    {
+        if (speedBattler1 < 1453)
+        {
+            if (speedBattler1 < 1247)
+                speedBattler1 = 15;
+            else
+                speedBattler1 = 16;
+        }
+        else
+            speedBattler1 = 17;
+    }
+    else if (speedBattler1 < 2199)
+    {
+        if (speedBattler1 < 1928)
+            speedBattler1 = 18;
+        else
+            speedBattler1 = 19;
+    }
+    else
+        speedBattler1 = 20;
+
+
     return speedBattler1;
 }
 
@@ -3221,13 +3297,13 @@ static u8 SpeedEffectUsed(u8 battlerId)
 #ifdef BATTLE_ENGINE
     u32 ability = GetBattlerAbility(battlerId);
     
-    if (holdEffect == HOLD_EFFECT_LAGGING_TAIL || ability == ABILITY_STALL)
-    {
-        effectUsed = 4;
-    }
-    else if (ability == ABILITY_QUICK_DRAW && gBattleMons[battlerId].lastActionWasMove && !IS_MOVE_STATUS(gLastMoves[battlerId]) && (Random() % 10) < 3)
+    if (ability == ABILITY_QUICK_DRAW && gBattleMons[battlerId].lastActionWasMove && !IS_MOVE_STATUS(gLastMoves[battlerId]) && (Random() % 10) < 3)
     {
         effectUsed = 1;
+    }
+    else if (holdEffect == HOLD_EFFECT_LAGGING_TAIL)
+    {
+        effectUsed = 4;
     }
     else if (holdEffect == HOLD_EFFECT_QUICK_CLAW && gRandomTurnNumber < (0xFFFF * holdEffectParam) / 100)
     {
@@ -3236,6 +3312,10 @@ static u8 SpeedEffectUsed(u8 battlerId)
     else if (holdEffect == HOLD_EFFECT_CUSTAP_BERRY && HasEnoughHpToEatBerry(battlerId, 4, gBattleMons[battlerId].item))
     {        
         effectUsed = 3;
+    }
+    else if (ability == ABILITY_STALL)
+    {
+        effectUsed = 4;
     }
 #else
     if (holdEffect == HOLD_EFFECT_QUICK_CLAW && gRandomTurnNumber < (0xFFFF * holdEffectParam) / 100)
@@ -3268,63 +3348,24 @@ static void BattleMainCB1(void)
         HARD_RESET:
         if (i == gBattlersCount)
         {
-            u8 j;
-            u16 lowestTimer;
-            u32 battlerSpeeds[gBattlersCount];
+            u8 j, lowestTimer;
+            u8 battlerSpeeds[gBattlersCount];
             u8 usedSpeedEffect[gBattlersCount];
             
             // Adjust all of the timers based on each mon's speed, accounting for held items, stat changes, Trick Room, etc.
             for (i = 0; i < gBattlersCount; i++)
             {
-                battlerSpeeds[i] = AdjustedSpeed(i);
+                usedSpeedEffect[i] = SpeedEffectUsed(i);
+                battlerSpeeds[i] = AdjustedSpeed(i, usedSpeedEffect[i]);
                 
-                if (gBattleMons[i].timer + battlerSpeeds[i] > UINT_MAX)
-                    gBattleMons[i].timer = UINT_MAX;
-                else
-                    gBattleMons[i].timer += battlerSpeeds[i];
-            }
-            
-            // Check to see if the first mon was able to use an ability or held item to change its speed.
-            // If so, increment the timer accordingly.
-            usedSpeedEffect[0] = SpeedEffectUsed(0);
-            
-            if (usedSpeedEffect[0])
-            {
-                if (usedSpeedEffect[0] < 4) // Speed increasing effect
-                {
-                    if (gBattleMons[0].timer + battlerSpeeds[0] > UINT_MAX)
-                        gBattleMons[0].timer = UINT_MAX;
-                    else
-                        gBattleMons[0].timer += battlerSpeeds[0];
-                }
-                else // Speed decreasing effect
-                {
-                    gBattleMons[0].timer -= battlerSpeeds[0] / 2;
-                }
+                gBattleMons[i].timer += battlerSpeeds[i];
             }
             
             // Set i to whichever mon should take an action.
             for (i = 0; i < gBattlersCount - 1; i++)
             {                
                 for (j = i + 1; j < gBattlersCount; j++)
-                {
-                    // Check to see if j mon was able to use an ability or held item to change its speed.
-                    // If so, increment the timer accordingly.
-                    usedSpeedEffect[j] = SpeedEffectUsed(j);
-                    
-                    if (usedSpeedEffect[j])
-                    {
-                        if (usedSpeedEffect[j] < 4) // Speed increasing effect
-                        {
-                            if (gBattleMons[j].timer + battlerSpeeds[j] > UINT_MAX)
-                                gBattleMons[j].timer = UINT_MAX;
-                            else
-                                gBattleMons[j].timer += battlerSpeeds[j];
-                        }
-                        else // Speed decreasing effect
-                            gBattleMons[j].timer -= battlerSpeeds[j] / 2;
-                    }
-            
+                {            
                     // The mon with the highest timer should go first.
                     if (gBattleMons[i].timer < gBattleMons[j].timer)
                     {
@@ -3410,14 +3451,7 @@ static void BattleMainCB1(void)
                 if (j == i)
                 {
                     gBattleMons[i].turnsWaited = 0;
-                    
-                    // Account for if the mon's speed was affected by a held item or ability.
-                    if (usedSpeedEffect[i] > 3) // Slower effect
-                        gBattleMons[i].timer -= battlerSpeeds[i] / 2;
-                    else if (usedSpeedEffect[i]) // Faster effect
-                        gBattleMons[i].timer -= battlerSpeeds[i] * 2;
-                    else // No effect
-                        gBattleMons[i].timer -= battlerSpeeds[i];
+                    gBattleMons[i].timer -= battlerSpeeds[i];
                 }
                 else
                     gBattleMons[j].turnsWaited++;

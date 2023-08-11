@@ -271,9 +271,9 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
     },
     [B_WIN_YESNO] = {
         .bg = 0,
-        .tilemapLeft = 26,
+        .tilemapLeft = 25,
         .tilemapTop = 9,
-        .width = 3,
+        .width = 4,
         .height = 4,
         .paletteNum = 5,
         .baseBlock = 0x0100,
@@ -492,9 +492,9 @@ static const struct WindowTemplate sBattleArenaWindowTemplates[] =
     },
     [B_WIN_YESNO] = {
         .bg = 0,
-        .tilemapLeft = 26,
+        .tilemapLeft = 25,
         .tilemapTop = 9,
-        .width = 3,
+        .width = 4,
         .height = 4,
         .paletteNum = 5,
         .baseBlock = 0x0100,

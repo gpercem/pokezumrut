@@ -1264,33 +1264,33 @@ const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
     0xFFFF // Never read
 };
 
-const u8 gText_PkmnIsEvolving[] = _("What?\n{STR_VAR_1} is evolving!");
-const u8 gText_CongratsPkmnEvolved[] = _("Congratulations! Your {STR_VAR_1}\nevolved into {STR_VAR_2}!{WAIT_SE}\p");
-const u8 gText_PkmnStoppedEvolving[] = _("Huh? {STR_VAR_1}\nstopped evolving!\p");
+const u8 gText_PkmnIsEvolving[] = _("Ne?\n{STR_VAR_1} evrimleşiyor!");
+const u8 gText_CongratsPkmnEvolved[] = _("Tebrikler! {STR_VAR_1}, bir\n{STR_VAR_2} oldu!{WAIT_SE}\p");
+const u8 gText_PkmnStoppedEvolving[] = _("Ha? {STR_VAR_1}\nevrimleşmedi!\p");
 const u8 gText_EllipsisQuestionMark[] = _("……?\p");
-const u8 gText_WhatWillPkmnDo[] = _("What will\n{B_ACTIVE_NAME_WITH_PREFIX} do?");
-const u8 gText_WhatWillPkmnDo2[] = _("What will\n{B_PLAYER_NAME} do?");
-const u8 gText_WhatWillWallyDo[] = _("What will\nWALLY do?");
-const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
-const u8 gText_BattleMenu[] = _("FIGHT{CLEAR_TO 56}BAG\nPOKéMON{CLEAR_TO 56}RUN");
-const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");
+const u8 gText_WhatWillPkmnDo[] = _("{B_ACTIVE_NAME_WITH_PREFIX} ne\nyapacak?");
+const u8 gText_WhatWillPkmnDo2[] = _("{B_PLAYER_NAME} ne\nyapacak?");
+const u8 gText_WhatWillWallyDo[] = _("WALLY ne\nyapacak?");
+const u8 gText_LinkStandby[] = _("{PAUSE 16}Link bekleniyor…");
+const u8 gText_BattleMenu[] = _("SAVAŞ{CLEAR_TO 56}ÇANTA\nPOKéMON{CLEAR_TO 56}KAÇ");
+const u8 gText_SafariZoneMenu[] = _("TOP{CLEAR_TO 56}{POKEBLOCK}\nYAKLAŞ{CLEAR_TO 56}KAÇ");
 const u8 gText_MoveInterfacePP[] = _("PP ");
-const u8 gText_MoveInterfaceType[] = _("TYPE/");
-const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTYPE/");
+const u8 gText_MoveInterfaceType[] = _("TÜR/");
+const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTÜR/");
 const u8 gText_MoveInterfaceDynamicColors[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}");
-const u8 gText_WhichMoveToForget4[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Which move should\nbe forgotten?");
-const u8 gText_BattleYesNoChoice[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Yes\nNo");
-const u8 gText_BattleSwitchWhich[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Switch\nwhich?");
+const u8 gText_WhichMoveToForget4[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Hangi saldırı\nunutulsun?");
+const u8 gText_BattleYesNoChoice[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Evet\nHayır");
+const u8 gText_BattleSwitchWhich[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Hangisi\ndeğişsin?");
 const u8 gText_BattleSwitchWhich2[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}");
 const u8 gText_BattleSwitchWhich3[] = _("{UP_ARROW}");
 const u8 gText_BattleSwitchWhich4[] = _("{ESCAPE 4}");
 const u8 gText_BattleSwitchWhich5[] = _("-");
 
-static const u8 sText_HP[] = _("HP");
-static const u8 sText_Attack[] = _("ATTACK");
-static const u8 sText_Defense[] = _("DEFENSE");
-static const u8 sText_SpAtk[] = _("SP. ATK");
-static const u8 sText_SpDef[] = _("SP. DEF");
+static const u8 sText_HP[] = _("CAN");
+static const u8 sText_Attack[] = _("SALDIRI");
+static const u8 sText_Defense[] = _("SAVUNMA");
+static const u8 sText_SpAtk[] = _("ÖZ. SLD");
+static const u8 sText_SpDef[] = _("ÖZ. SVN");
 
 // Unused
 static const u8 * const sStatNamesTable2[] =
@@ -1299,8 +1299,8 @@ static const u8 * const sStatNamesTable2[] =
     sText_SpDef, sText_Defense, sText_Speed
 };
 
-const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}SAFARI BALLS");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}Left: $" "{HIGHLIGHT DARK_GRAY}");
+const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}SAFARİ TOPU");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}Kalan: $" "{HIGHLIGHT DARK_GRAY}");
 const u8 gText_Sleep[] = _("sleep");
 const u8 gText_Poison[] = _("poison");
 const u8 gText_Burn[] = _("burn");
@@ -1346,10 +1346,10 @@ static const u8 sATypeMove_Table[NUMBER_OF_MON_TYPES][17] =
     [TYPE_DARK]     = _("a DARK move")
 };
 
-const u8 gText_BattleTourney[] = _("BATTLE TOURNEY");
-static const u8 sText_Round1[] = _("Round 1");
-static const u8 sText_Round2[] = _("Round 2");
-static const u8 sText_Semifinal[] = _("Semifinal");
+const u8 gText_BattleTourney[] = _("TURNUVA");
+static const u8 sText_Round1[] = _("Tur 1");
+static const u8 sText_Round2[] = _("Tur 2");
+static const u8 sText_Semifinal[] = _("Yarı Final");
 static const u8 sText_Final[] = _("Final");
 
 const u8 *const gRoundsStringTable[DOME_ROUNDS_COUNT] =

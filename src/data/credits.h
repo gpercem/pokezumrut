@@ -63,8 +63,8 @@ enum
 #define ENTRIES_PER_PAGE 5
 
 static const u8 sCreditsText_EmptyString[]                    = _("");
-static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("POKéMON EMERALD VERSION");
-static const u8 sCreditsText_Credits[]                        = _("Credits");
+static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("POKéMON ZÜMRÜT VERSİYONU");
+static const u8 sCreditsText_Credits[]                        = _("Emeği Geçenler");
 static const u8 sCreditsText_ExecutiveDirector[]              = _("Executive Director");
 static const u8 sCreditsText_Director[]                       = _("Director");
 static const u8 sCreditsText_ArtDirector[]                    = _("Art Director");
@@ -205,7 +205,7 @@ static const u8 sCreditsText_YokoWatanabe[]                   = _("Yoko Watanabe
 static const u8 sCreditsText_SakaeKimura[]                    = _("Sakae Kimura");
 static const u8 sCreditsText_ChiakiShinkai[]                  = _("Chiaki Shinkai");
 static const u8 sCreditsText_SethMcMahill[]                   = _("Seth McMahill");
-static const u8 sCreditsText_NobOgasawara[]                   = _("Nob Ogasawara");
+static const u8 sCreditsText_NobOgasawara[]                   = _("Gökhan Perçem");
 static const u8 sCreditsText_TeresaLillygren[]                = _("Teresa Lillygren");
 static const u8 sCreditsText_KimikoNakamichi[]                = _("Kimiko Nakamichi");
 static const u8 sCreditsText_SouichiYamamoto[]                = _("Souichi Yamamoto");

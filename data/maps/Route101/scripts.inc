@@ -261,42 +261,42 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "İmdaaat!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "Hey! Sen, evet sen!\n"
+	.string "Lütfen! Yardım et!\p"
+	.string "Çantama bak!\n"
+	.string "POKé TOP'ları var içinde!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "N-nereye gidiyorsun?!\n"
+	.string "Beni böyle bırakma!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "PROF. BIRCH: Oh be…\p"
+	.string "Uzun çalılıklarda vahşi POKéMON'lar\n"
+	.string "hakkında araştırma yapıyordum.\p"
+	.string "Beni kurtardın.\n"
+	.string "Çok teşekkürler!\p"
+	.string "Hm?\p"
+	.string "Merhaba, sen {PLAYER}{KUN} olmalısın!\p"
+	.string "Burası sohbet için uygun bir yer\n"
+	.string "değil. POKéMON LABORATUVARI'na uğra,\lolur mu?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "POKéMON'ların yorulursa, onları bir\n"
+	.string "POKéMON MERKEZİ'ne götürmelisin.\p"
+	.string "Yakınlardaki OLDALE KASABASI'nda\n"
+	.string "bir POKéMON MERKEZİ olması gerekiyor.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "Vahşi POKéMON'lar uzun çalılıklardan\n"
+	.string "üzerine atlayabilir.\p"
+	.string "Eğer POKéMON yakalamak istiyorsan, uzun\n"
+	.string "çalılara girip etrafa bakınmalısın.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "ROTA 101\n"
+	.string "{UP_ARROW} OLDALE KASABASI$"
 

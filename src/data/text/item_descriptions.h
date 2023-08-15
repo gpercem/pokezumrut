@@ -1,1551 +1,1551 @@
 static const u8 sDummyDesc[] = _(
     "?????");
 
-// Pokeballs
 static const u8 sMasterBallDesc[] = _(
-    "The best BALL that\n"
-    "catches a POKéMON\n"
-    "without fail.");
+    "Bir POKéMON'u\n"
+    "hatasız yakalayan en\n"
+    "iyi TOP.");
 
 static const u8 sUltraBallDesc[] = _(
-    "A better BALL with\n"
-    "a higher catch rate\n"
-    "than a GREAT BALL.");
+    "Çok daha yüksek\n"
+    "yakalama oranına\n"
+    "sahip bir TOP.");
 
 static const u8 sGreatBallDesc[] = _(
-    "A good BALL with a\n"
-    "higher catch rate\n"
-    "than a POKé BALL.");
+    "POKE TOPU'ndan\n"
+    "daha yüksek yakalama\n"
+    "oranına sahip bir TOP.");
 
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "POKéMON.");
+    "Vahşi POKéMON\n"
+    "yakalamak için\n"
+    "kullanılan bir alet.");
 
 static const u8 sSafariBallDesc[] = _(
-    "A special BALL that\n"
-    "is used only in the\n"
-    "SAFARI ZONE.");
+    "Sadece SAFARİ\n"
+    "BÖLGESİ'nde geçen\n"
+    "özel bir TOP.");
 
 static const u8 sNetBallDesc[] = _(
-    "A BALL that works\n"
-    "well on WATER- and\n"
-    "BUG-type POKéMON.");
+    "SU ve BÖCEK tipi\n"
+    "POKéMON üzerinde iyi\n"
+    "çalışan bir TOP.");
 
 static const u8 sDiveBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "on the ocean floor.");
+    "Okyanustaki\n"
+    "POKéMON'larda iyi\n"
+    "çalışan bir TOP.");
 
 static const u8 sNestBallDesc[] = _(
-    "A BALL that works\n"
-    "better on weaker\n"
-    "POKéMON.");
+    "Zayıf POKéMON'lar\n"
+    "üzerinde daha iyi\n"
+    "çalışan bir TOP.");
 
 static const u8 sRepeatBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "caught before.");
+    "Daha önce yakalanan\n"
+    "POKéMON'larda daha\n"
+    "iyi çalışan bir TOP.");
 
 static const u8 sTimerBallDesc[] = _(
-    "A BALL that gains\n"
-    "power in battles\n"
-    "taking many turns.");
+    "Birçok tur süren\n"
+    "savaşlarda güç\n"
+    "kazanan bir TOP.");
 
 static const u8 sLuxuryBallDesc[] = _(
-    "A cozy BALL that\n"
-    "makes POKéMON\n"
-    "more friendly.");
+    "POKéMON'u daha\n"
+    "arkadaş canlısı\n"
+    "yapan bir TOP.");
 
 static const u8 sPremierBallDesc[] = _(
-    "A rare BALL made\n"
-    "in commemoration\n"
-    "of some event.");
+    "Bir olayın anısına\n"
+    "yapılmış nadir bir\n"
+    "TOP.");
 
-// Medicine
 static const u8 sPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "20 points.");
+    "Bir POKéMON'un\n"
+    "canını 20 puan\n"
+    "arttırır.");
 
 static const u8 sAntidoteDesc[] = _(
-    "Heals a poisoned\n"
-    "POKéMON.");
+    "Zehirlenmiş bir\n"
+    "POKéMON'u\n"
+    "iyileştirir.");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals POKéMON\n"
-    "of a burn.");
+    "POKéMON'un\n"
+    "yanıklarını\n"
+    "iyileştirir.");
 
 static const u8 sIceHealDesc[] = _(
-    "Defrosts a frozen\n"
-    "POKéMON.");
+    "Donmuş bir\n"
+    "POKéMON'un buzunu\n"
+    "çözer.");
 
 static const u8 sAwakeningDesc[] = _(
-    "Awakens a sleeping\n"
-    "POKéMON.");
+    "Uyuyan bir\n"
+    "POKéMON'u\n"
+    "uyandırır.");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Heals a paralyzed\n"
-    "POKéMON.");
+    "Felçli bir POKéMON'u\n"
+    "iyileştirir."
+    "");
 
 static const u8 sFullRestoreDesc[] = _(
-    "Fully restores the\n"
-    "HP and status of a\n"
-    "POKéMON.");
+    "Bir POKéMON'un\n"
+    "canını ve durumunu\n"
+    "iyileştirir.");
 
 static const u8 sMaxPotionDesc[] = _(
-    "Fully restores the\n"
-    "HP of a POKéMON.");
+    "Bir POKéMON'un\n"
+    "canını tamamen\n"
+    "yeniler.");
 
 static const u8 sHyperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "200 points.");
+    "Bir POKéMON'un\n"
+    "canını 200 puan\n"
+    "artırır.");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "50 points.");
+    "Bir POKéMON'un\n"
+    "canını 50 puan\n"
+    "artırır.");
 
 static const u8 sFullHealDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one POKéMON.");
+    "Bir POKéMON'un tüm\n"
+    "durum sorunlarını\n"
+    "iyileştirir.");
 
 static const u8 sReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with half\n"
-    "its HP.");
+    "Bayılmış bir\n"
+    "POKéMON'u yarı can\n"
+    "ile canlandırır.");
 
 static const u8 sMaxReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with all\n"
-    "its HP.");
+    "Bayılmış bir\n"
+    "POKéMON'u tüm canı\n"
+    "ile canlandırır.");
 
 static const u8 sFreshWaterDesc[] = _(
-    "A mineral water\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "Canı 50 puan geri\n"
+    "kazandıran bir su."
+    "");
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
-    "by 60 points.");
+    "Canı 60 puan geri\n"
+    "kazandıran gazlı bir\n"
+    "soda içeceği.");
 
 static const u8 sLemonadeDesc[] = _(
-    "A very sweet drink\n"
-    "that restores HP\n"
-    "by 80 points.");
+    "Canı 80 puan geri\n"
+    "kazandıran çok tatlı\n"
+    "bir içecek.");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "A nutritious milk\n"
-    "that restores HP\n"
-    "by 100 points.");
+    "Canı 100 puan geri\n"
+    "kazandıran besleyici\n"
+    "bir süt.");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "A bitter powder\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "Canı 50 puan geri\n"
+    "kazandıran acı bir\n"
+    "toz.");
 
 static const u8 sEnergyRootDesc[] = _(
-    "A bitter root\n"
-    "that restores HP\n"
-    "by 200 points.");
+    "Canı 200 puan geri\n"
+    "kazandıran acı bir\n"
+    "kök.");
 
 static const u8 sHealPowderDesc[] = _(
-    "A bitter powder\n"
-    "that heals all\n"
-    "status problems.");
+    "Tüm durum sorunla-\n"
+    "rını geçiren acı\n"
+    "bir toz.");
 
 static const u8 sRevivalHerbDesc[] = _(
-    "A very bitter herb\n"
-    "that revives a\n"
-    "fainted POKéMON.");
+    "Bayılmış POKéMONu\n"
+    "canlandıran çok acı\n"
+    "bir bitki.");
 
 static const u8 sEtherDesc[] = _(
-    "Restores the PP\n"
-    "of a selected move\n"
-    "by 10.");
+    "Seçilen hamlenin PP\n"
+    "değerini 10\n"
+    "artırır.");
 
 static const u8 sMaxEtherDesc[] = _(
-    "Fully restores the\n"
-    "PP of a selected\n"
-    "move.");
+    "Seçilen bir hamlenin\n"
+    "PP'sini tamamen\n"
+    "iyileştirir.");
 
 static const u8 sElixirDesc[] = _(
-    "Restores the PP\n"
-    "of all moves by 10.");
+    "Tüm hareketlerin PP\n"
+    "değerini 10\n"
+    "artırır.");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Fully restores the\n"
-    "PP of a POKéMON's\n"
-    "moves.");
+    "Tüm saldırıların\n"
+    "PP'sini tamamen\n"
+    "iyileştirir.");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
-    "status problems.");
+    "Durum sorunlarını\n"
+    "iyileştiren meşhur\n"
+    "bir yiyecek.");
 
 static const u8 sBlueFluteDesc[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "POKéMON.");
+    "Uyuyan POKéMON'u\n"
+    "uyandıran bir cam\n"
+    "flüt.");
 
 static const u8 sYellowFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of confusion.");
+    "POKéMON'u kafa\n"
+    "karışıklığından\n"
+    "kurtaran bir flüt.");
 
 static const u8 sRedFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of attraction.");
+    "POKéMON'u \n"
+    "cazibeden çıkaran\n"
+    "bir cam flüt.");
 
 static const u8 sBlackFluteDesc[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "POKéMON.");
+    "Vahşi POKEMON'u\n"
+    "uzak tutan bir cam\n"
+    "flüt.");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "A glass flute that\n"
-    "lures wild POKéMON.");
+    "Vahşi POKéMON'u\n"
+    "cezbeden bir cam\n"
+    "flüt.");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "A 100% pure juice\n"
-    "that restores HP\n"
-    "by 20 points.");
+    "Canı 20 puan geri\n"
+    "kazandıran %100 saf\n"
+    "bir meyve suyu.");
 
 static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted POKéMON.");
+    "Bayılan tüm\n"
+    "POKéMON'ları\n"
+    "tamamen canlandırır.");
 
-// Collectibles
 static const u8 sShoalSaltDesc[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "Shoal Mağarası\n"
+    "derinliklerinden\n"
+    "elde edilen tuz.");
 
 static const u8 sShoalShellDesc[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "Shoal Mağarası\n"
+    "derinliklerinden\n"
+    "bir deniz kabuğu.");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Eski bir eşyadan bir\n"
+    "parça. Ucuza\n"
+    "satılabilir.");
 
 static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Eski bir eşyadan bir\n"
+    "parça. Ucuza\n"
+    "satılabilir.");
 
 static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Eski bir eşyadan bir\n"
+    "parça. Ucuza\n"
+    "satılabilir.");
 
 static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Eski bir eşyadan bir\n"
+    "parça. Ucuza\n"
+    "satılabilir.");
 
-// Vitamins
 static const u8 sHPUpDesc[] = _(
-    "Raises the base HP\n"
-    "of one POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel canını\n"
+    "yükseltir.");
 
 static const u8 sProteinDesc[] = _(
-    "Raises the base\n"
-    "ATTACK stat of one\n"
-    "POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel SALDIRI'sını\n"
+    "yükseltir.");
 
 static const u8 sIronDesc[] = _(
-    "Raises the base\n"
-    "DEFENSE stat of\n"
-    "one POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel SAVUNMA'sını\n"
+    "yükseltir.");
 
 static const u8 sCarbosDesc[] = _(
-    "Raises the base\n"
-    "SPEED stat of one\n"
-    "POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel HIZ statüsünü\n"
+    "yükseltir.");
 
 static const u8 sCalciumDesc[] = _(
-    "Raises the base\n"
-    "SP. ATK stat of one\n"
-    "POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel ÖZ. SLD'sını\n"
+    "yükseltir.");
 
 static const u8 sRareCandyDesc[] = _(
-    "Raises the level\n"
-    "of a POKéMON by\n"
-    "one.");
+    "Bir POKéMON'un\n"
+    "seviyesini bir\n"
+    "yükseltir.");
 
 static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+    "Seçilen bir hamlenin\n"
+    "maksimum PP değerini\n"
+    "yükseltir.");
 
 static const u8 sZincDesc[] = _(
-    "Raises the base\n"
-    "SP. DEF stat of one\n"
-    "POKéMON.");
+    "Bir POKéMON'un\n"
+    "temel ÖZ. SVN'sını\n"
+    "yükseltir.");
 
 static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+    "Bir hamlenin PP\n"
+    "değerini maksimum\n"
+    "puana yükseltir.");
 
-// Battle items
 static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+    "Savaşta\n"
+    "kullanınca güç\n"
+    "azalmasını önler.");
 
 static const u8 sDireHitDesc[] = _(
-    "Raises the\n"
-    "critical-hit ratio\n"
-    "during one battle.");
+    "Bir savaş sırasında\n"
+    "kritik vuruş oranını\n"
+    "yükseltir.");
 
 static const u8 sXAttackDesc[] = _(
-    "Raises the stat\n"
-    "ATTACK during one\n"
-    "battle.");
+    "Bir savaş sırasında\n"
+    "SALDIRI statüsünü\n"
+    "yükseltir.");
 
 static const u8 sXDefendDesc[] = _(
-    "Raises the stat\n"
-    "DEFENSE during one\n"
-    "battle.");
+    "Bir savaş sırasında\n"
+    "SAVUNMA statüsünü\n"
+    "yükseltir.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Raises the stat\n"
-    "SPEED during one\n"
-    "battle.");
+    "Bir savaş sırasında\n"
+    "HIZ statüsünü\n"
+    "yükseltir.");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
+    "Bir savaş sırasında\n"
+    "isabet oranını\n"
+    "artırır.");
 
 static const u8 sXSpecialDesc[] = _(
-    "Raises the stat\n"
-    "SP. ATK during one\n"
-    "battle.");
+    "Bir savaş sırasında\n"
+    "ÖZ. SLD statüsünü\n"
+    "yükseltir.");
 
 static const u8 sPokeDollDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "Vahşi bir POKéMON\n"
+    "ile savaştan kaçmak\n"
+    "kullanılır.");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "Vahşi bir POKéMON\n"
+    "ile savaştan kaçmak\n"
+    "kullanılır.");
 
-// Field items
 static const u8 sSuperRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 200\n"
-    "steps.");
+    "Zayıf vahşi\n"
+    "POKéMON'ları 200\n"
+    "adım uzak tutar.");
 
 static const u8 sMaxRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 250\n"
-    "steps.");
+    "Zayıf vahşi\n"
+    "POKéMON'ları 250\n"
+    "adım uzak tutar.");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from a\n"
-    "cave or a dungeon.");
+    "Mağara veya binadan\n"
+    "hızlı kaçmak için\n"
+    "kullanılır.");
 
 static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 100\n"
-    "steps.");
+    "Zayıf vahşi\n"
+    "POKéMON'ları 100\n"
+    "adım uzak tutar.");
 
-// Evolution stones
 static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
 static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
 static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
 static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
 static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
 static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "Bazı POKéMON'ların\n"
+    "evrimleşmesini\n"
+    "sağlar.");
 
-// Valuable items
 static const u8 sTinyMushroomDesc[] = _(
-    "A plain mushroom\n"
-    "that would sell\n"
-    "at a cheap price.");
+    "Ucuz bir fiyata\n"
+    "satılabilecek sade\n"
+    "bir mantar.");
 
 static const u8 sBigMushroomDesc[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
+    "Yüksek fiyata\n"
+    "satılabilecek nadir\n"
+    "bir mantar.");
 
 static const u8 sPearlDesc[] = _(
-    "A pretty pearl\n"
-    "that would sell at a\n"
-    "cheap price.");
+    "Ucuz bir fiyata\n"
+    "satılabilecek güzel\n"
+    "bir inci.");
 
 static const u8 sBigPearlDesc[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
+    "Yüksek fiyata\n"
+    "satılabilecek güzel\n"
+    "ve büyük bir inci.");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+    "Güzel kırmızı kum.\n"
+    "Yüksek fiyata\n"
+    "satılabilir.");
 
 static const u8 sStarPieceDesc[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+    "Kırmızı bir parça.\n"
+    "Çok yüksek bir fiyata\n"
+    "satılabilir.");
 
 static const u8 sNuggetDesc[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
+    "Saf altından bir\n"
+    "külçe. Yüksek fiyata\n"
+    "satılabilir.");
 
 static const u8 sHeartScaleDesc[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+    "Çok güzel bir kolye.\n"
+    "Koleksiyoncular\n"
+    "buna bayılır.");
 
-// Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen ZIGZAGOON\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sHarborMailDesc[] = _(
-    "A WINGULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen WINGULL\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen PIKACHU\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen MAGNEMITE\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen SLAKOTH\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen WAILMER\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sBeadMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen,\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen DUSKULL\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen BELLOSSOM\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sDreamMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen,\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "MAIL to be held\n"
-    "by a POKéMON.");
+    "Bir POKéMON\n"
+    "tutulabilen, güzel\n"
+    "baskılı bir MEKTUP.");
 
 static const u8 sRetroMailDesc[] = _(
-    "MAIL featuring the\n"
-    "drawings of three\n"
-    "POKéMON.");
+    "Üç POKéMON'un\n"
+    "çizimlerini içeren\n"
+    "bir MEKTUP.");
 
-// Berries
 static const u8 sCheriBerryDesc[] = _(
-    "A hold item that\n"
-    "heals paralysis\n"
-    "in battle.");
+    "Savaşta felci\n"
+    "iyileştiren bir tutma\n"
+    "eşyası.");
 
 static const u8 sChestoBerryDesc[] = _(
-    "A hold item that\n"
-    "awakens POKéMON\n"
-    "in battle.");
+    "Savaşta POKéMON'u\n"
+    "uyandıran bir tutma\n"
+    "eşyası.");
 
 static const u8 sPechaBerryDesc[] = _(
-    "A hold item that\n"
-    "heals poisoning\n"
-    "in battle.");
+    "Savaşta zehri\n"
+    "iyileştiren bir tutma\n"
+    "eşyası.");
 
 static const u8 sRawstBerryDesc[] = _(
-    "A hold item that\n"
-    "heals a burn in\n"
-    "battle.");
+    "Savaşta yanıkları\n"
+    "iyileştiren bir tutma\n"
+    "eşyası.");
 
 static const u8 sAspearBerryDesc[] = _(
-    "A hold item that\n"
-    "defrosts POKéMON\n"
-    "in battle.");
+    "Savaşta POKéMON'un\n"
+    "buzunu çözen bir\n"
+    "tutma eşyası.");
 
 static const u8 sLeppaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 PP in\n"
-    "battle.");
+    "Savaşta 10 PP geri\n"
+    "kazandıran bir tutma\n"
+    "eşyası.");
 
 static const u8 sOranBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 HP in\n"
-    "battle.");
+    "Savaşta 10 can\n"
+    "yenileyen bir tutma\n"
+    "eşyası.");
 
 static const u8 sPersimBerryDesc[] = _(
-    "A hold item that\n"
-    "heals confusion\n"
-    "in battle.");
+    "Savaşta kafa\n"
+    "karışıklığını\n"
+    "iyileştiren bir eşya.");
 
 static const u8 sLumBerryDesc[] = _(
-    "A hold item that\n"
-    "heals any status\n"
-    "problem in battle.");
+    "Savaştaki herhangi\n"
+    "bir durum sorununu\n"
+    "iyileştiren bir eşya.");
 
 static const u8 sSitrusBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 30 HP in\n"
-    "battle.");
+    "Savaşta 30 can\n"
+    "yenileyen bir tutma\n"
+    "eşyası.");
 
 static const u8 sFigyBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "Can iyileştiren\n"
+    "ama kafa karıştıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sWikiBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "Can iyileştiren\n"
+    "ama kafa karıştıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sMagoBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "Can iyileştiren\n"
+    "ama kafa karıştıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sAguavBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "Can iyileştiren\n"
+    "ama kafa karıştıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "Can iyileştiren\n"
+    "ama kafa karıştıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sRazzBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RAZZ.");
+    "{POKEBLOCK} malzemesi.\n"
+    "RAZZ yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sBlukBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BLUK.");
+    "{POKEBLOCK} malzemesi.\n"
+    "BLUK yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sNanabBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NANAB.");
+    "{POKEBLOCK} malzemesi.\n"
+    "NANAB yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sWepearBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WEPEAR.");
+    "{POKEBLOCK} malzemesi.\n"
+    "WAPEAR yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sPinapBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PINAP.");
+    "{POKEBLOCK} malzemesi.\n"
+    "PINAP yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base HP.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "temel can azaltır.");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base ATTACK.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "temel SLD azaltır.");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base DEFENSE.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "temel SVN azaltır.");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. ATK.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "ÖZ. SLD. azaltır.");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. DEF.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "ÖZ. SVN. azaltır.");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SPEED.");
+    "Bir POKéMON'u dost\n"
+    "canlısı yapar ama\n"
+    "temel HIZ azaltır.");
 
 static const u8 sCornnBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow CORNN.");
+    "{POKEBLOCK} malzemesi.\n"
+    "CORNN yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sMagostBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow MAGOST.");
+    "{POKEBLOCK} malzemesi.\n"
+    "MAGOST yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RABUTA.");
+    "{POKEBLOCK} malzemesi.\n"
+    "RABUTA yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sNomelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NOMEL.");
+    "{POKEBLOCK} malzemesi.\n"
+    "NOMEL yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow SPELON.");
+    "{POKEBLOCK} malzemesi.\n"
+    "SPELON yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PAMTRE.");
+    "{POKEBLOCK} malzemesi.\n"
+    "PAMTRE yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WATMEL.");
+    "{POKEBLOCK} malzemesi.\n"
+    "WATMEL yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sDurinBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow DURIN.");
+    "{POKEBLOCK} malzemesi.\n"
+    "DURIN yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sBelueBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BELUE.");
+    "{POKEBLOCK} malzemesi.\n"
+    "BELUE yetiştirmek\n"
+    "için toprağa ekilir.");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "A hold item that\n"
-    "raises ATTACK in\n"
-    "a pinch.");
+    "Sıkıştığında\n"
+    "SALDIRI'yı artıran\n"
+    "bir tutma öğesi.");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "A hold item that\n"
-    "raises DEFENSE in\n"
-    "a pinch.");
+    "Sıkıştığında\n"
+    "SAVUNMAYI artıran\n"
+    "bir tutma öğesi.");
 
 static const u8 sSalacBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SPEED in\n"
-    "a pinch.");
+    "Sıkıştığında HIZI\n"
+    "artıran bir tutma\n"
+    "öğesi.");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. ATK in\n"
-    "a pinch.");
+    "Sıkıştığında\n"
+    "ÖZ. SLD. artıran\n"
+    "bir tutma öğesi.");
 
 static const u8 sApicotBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. DEF in\n"
-    "a pinch.");
+    "Sıkıştığında\n"
+    "ÖZ. SVN. artıran\n"
+    "bir tutma öğesi.");
 
 static const u8 sLansatBerryDesc[] = _(
-    "A hold item that\n"
-    "ups the critical-\n"
-    "hit rate in a pinch.");
+    "Sıkıştığında kritik\n"
+    "vuruş oranını\n"
+    "artıran bir eşya.");
 
 static const u8 sStarfBerryDesc[] = _(
-    "A hold item that\n"
-    "sharply boosts a\n"
-    "stat in a pinch.");
+    "Sıkıştığında bir\n"
+    "özelliği keskin bir\n"
+    "şekilde artıran eşya.");
 
 static const u8 sEnigmaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow a mystery.");
+    "{POKEBLOCK} malzemesi.\n"
+    "ENIGMA yetiştirmek\n"
+    "için toprağa ekilir.");
 
-// Hold items
 static const u8 sBrightPowderDesc[] = _(
-    "A hold item that\n"
-    "casts a glare to\n"
-    "reduce accuracy.");
+    "Kesinlik düşürmek\n"
+    "için parlama yapan\n"
+    "bir tutma eşyası.");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "A hold item that\n"
-    "restores any\n"
-    "lowered stat.");
+    "Düşen herhangi bir\n"
+    "özelliği geri\n"
+    "kazandıran bir eşya.");
 
 static const u8 sMachoBraceDesc[] = _(
-    "A hold item that\n"
-    "promotes growth,\n"
-    "but reduces SPEED.");
+    "Büyümeyi teşvik\n"
+    "eden ancak HIZI\n"
+    "azaltan bir eşya.");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets EXP. points\n"
-    "from battles.");
+    "Savaşlardan EXP.\n"
+    "puanı kazandıran bir\n"
+    "tutma eşyası.");
 
 static const u8 sQuickClawDesc[] = _(
-    "A hold item that\n"
-    "occasionally allows\n"
-    "the first strike.");
+    "Ara sıra ilk vuruşa\n"
+    "izin veren bir tutma\n"
+    "öğesi.");
 
 static const u8 sSootheBellDesc[] = _(
-    "A hold item that\n"
-    "calms spirits and\n"
-    "fosters friendship.");
+    "Ruhu sakinleştiren\n"
+    "ve dostluğu\n"
+    "artıran bir eşya.");
 
 static const u8 sMentalHerbDesc[] = _(
-    "A hold item that\n"
-    "snaps POKéMON out\n"
-    "of infatuation.");
+    "POKéMON'u aşktan\n"
+    "kurtaran bir tutma\n"
+    "eşyası.");
 
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+    "Saldırı gücünü\n"
+    "artırır, ancak\n"
+    "hep o kullanılır.");
 
 static const u8 sKingsRockDesc[] = _(
-    "A hold item that\n"
-    "may cause flinching\n"
-    "when the foe is hit.");
+    "Vurulduğunda\n"
+    "irkilmeye neden\n"
+    "olabilen bir eşya.");
 
 static const u8 sSilverPowderDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "BUG-type moves.");
+    "BÖCEK tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "Sahibi savaşa\n"
+    "katılırsa parayı\n"
+    "ikiye katlar.");
 
 static const u8 sCleanseTagDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "POKéMON.");
+    "Vahşi POKéMON'u\n"
+    "engelleyen bir\n"
+    "tutma eşyası.");
 
 static const u8 sSoulDewDesc[] = _(
-    "Hold item: raises\n"
-    "SP. ATK & SP. DEF of\n"
-    "LATIOS & LATIAS.");
+    "LATIOS & LATIAS'ın\n"
+    "ÖZ. SLD. ve ÖZ. SVN\n"
+    "yükseltir.");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of CLAMPERL.");
+    "CLAMPERL'in ÖZ.\n"
+    "SLD'sını yükselten\n"
+    "bir tutma eşyası.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. DEF\n"
-    "of CLAMPERL.");
+    "CLAMPERL'in ÖZ.\n"
+    "SVN'sını yükselten\n"
+    "bir tutma eşyası.");
 
 static const u8 sSmokeBallDesc[] = _(
-    "A hold item that\n"
-    "assures fleeing\n"
-    "from wild POKéMON.");
+    "Vahşi POKéMON'dan\n"
+    "kaçmayı garantileyen\n"
+    "bir tutma eşyası.");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "Evrimi engelleyen\n"
+    "harikulade bir\n"
+    "tutma eşyası.");
 
 static const u8 sFocusBandDesc[] = _(
-    "A hold item that\n"
-    "occasionally\n"
-    "prevents fainting.");
+    "Zaman zaman\n"
+    "bayılmayı önleyen\n"
+    "bir tutma eşyası.");
 
 static const u8 sLuckyEggDesc[] = _(
-    "A hold item that\n"
-    "boosts EXP. points\n"
-    "earned in battle.");
+    "Savaşta kazanılan\n"
+    "EXP. puanlarını\n"
+    "artıran bir eşya.");
 
 static const u8 sScopeLensDesc[] = _(
-    "A hold item that\n"
-    "improves the\n"
-    "critical-hit rate.");
+    "Kritik vuruş\n"
+    "oranını artıran bir\n"
+    "tutma eşyası.");
 
 static const u8 sMetalCoatDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "STEEL-type moves.");
+    "ÇELİK tipi\n"
+    "hareketlerin gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sLeftoversDesc[] = _(
-    "A hold item that\n"
-    "gradually restores\n"
-    "HP in battle.");
+    "Savaşta canı\n"
+    "kademeli olarak\n"
+    "artıran bir eşya.");
 
 static const u8 sDragonScaleDesc[] = _(
-    "A strange scale\n"
-    "held by DRAGON-\n"
-    "type POKéMON.");
+    "EJDERHA tipi\n"
+    "POKEMON tarafından\n"
+    "tutulan bir pul.");
 
 static const u8 sLightBallDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of PIKACHU.");
+    "PIKACHU'nun ÖZ.\n"
+    "SLD'sını yükselten\n"
+    "bir tutma eşyası.");
 
 static const u8 sSoftSandDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GROUND-type moves.");
+    "YER tipi saldırı\n"
+    "gücünü artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sHardStoneDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ROCK-type moves.");
+    "KAYA tipi saldırı\n"
+    "gücünü artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GRASS-type moves.");
+    "ÇİMEN tipi saldırı\n"
+    "gücünü artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DARK-type moves.");
+    "KARANLIK tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sBlackBeltDesc[] = _(
-    "A hold item that\n"
-    "boosts FIGHTING-\n"
-    "type moves.");
+    "DÖVÜŞ tipi saldırı\n"
+    "gücü artıran bir\n"
+    "tutma eşyası.");
 
 static const u8 sMagnetDesc[] = _(
-    "A hold item that\n"
-    "boosts ELECTRIC-\n"
-    "type moves.");
+    "ELEKTRİK tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sMysticWaterDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "WATER-type moves.");
+    "SU tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sSharpBeakDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FLYING-type moves.");
+    "UÇUŞ tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "POISON-type moves.");
+    "ZEHİR tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ICE-type moves.");
+    "BUZ tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sSpellTagDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GHOST-type moves.");
+    "HAYALET tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "A hold item that\n"
-    "boosts PSYCHIC-\n"
-    "type moves.");
+    "PSİŞİK tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sCharcoalDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FIRE-type moves.");
+    "ATEŞ tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sDragonFangDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DRAGON-type moves.");
+    "EJDERHA tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "NORMAL-type moves.");
+    "NORMAL tipi\n"
+    "saldırı gücünü\n"
+    "artıran bir eşya.");
 
 static const u8 sUpGradeDesc[] = _(
-    "A peculiar box made\n"
-    "by SILPH CO.");
+    "SILPH CO.\n"
+    "tarafından yapılmış\n"
+    "tuhaf bir kutu.");
 
 static const u8 sShellBellDesc[] = _(
-    "A hold item that\n"
-    "restores HP upon\n"
-    "striking the foe.");
+    "Düşmana vurunca\n"
+    "can yenileyen\n"
+    "bir tutma eşyası.");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "WATER-type moves.");
+    "SU tipi saldırıyı\n"
+    "hafifçe güçlendiren\n"
+    "bir tutma öğesi.");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly lowers the\n"
-    "foe's accuracy.");
+    "Düşmanın isabet\n"
+    "oranını biraz\n"
+    "düşüren bir eşya.");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "A hold item that\n"
-    "raises CHANSEY's\n"
-    "critical-hit rate.");
+    "CHANSEY'in kritik\n"
+    "vuruş oranını\n"
+    "artıran bir eşya.");
 
 static const u8 sMetalPowderDesc[] = _(
-    "A hold item that\n"
-    "raises DITTO's\n"
-    "DEFENSE.");
+    "DITTO'nun\n"
+    "SAVUNMASI'nı\n"
+    "yükselten bir eşya.");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises CUBONE or\n"
-    "MAROWAK's ATTACK.");
+    "CUBONE & MAROWAK'ın\n"
+    "saldırısını artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sStickDesc[] = _(
-    "A hold item that\n"
-    "raises FARFETCH'D's\n"
-    "critical-hit ratio.");
+    "FARFETCH'D'in\n"
+    "kritik vuruş oranını\n"
+    "yükselten bir eşya.");
 
 static const u8 sRedScarfDesc[] = _(
-    "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+    "Yarışmalarda\n"
+    "HAVALILIK yükselten\n"
+    "bir tutma eşyası.");
 
 static const u8 sBlueScarfDesc[] = _(
-    "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+    "Yarışmalarda\n"
+    "GÜZELLİĞİ artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sPinkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+    "Yarışmalarda\n"
+    "SEVİMLİLİĞİ artıran\n"
+    "bir tutma eşyası.");
 
 static const u8 sGreenScarfDesc[] = _(
-    "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+    "Yarışmalarda\n"
+    "ZEKA'yı yükselten\n"
+    "bir tutma eşyası.");
 
 static const u8 sYellowScarfDesc[] = _(
-    "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
+    "YARIŞMALARDA\n"
+    "SERTLİK'i artıran\n"
+    "bir tutma eşyası.");
 
-// Key items
 static const u8 sMachBikeDesc[] = _(
-    "A folding bicycle\n"
-    "that doubles your\n"
-    "speed or better.");
+    "Hızı ikiye\n"
+    "katlayan, katlanır\n"
+    "bir bisiklet.");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+    "9.999 JETON\n"
+    "taşıyabilen bir\n"
+    "çanta.");
 
 static const u8 sItemfinderDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "Görünmez eşyaları\n"
+    "sesle işaret eden\n"
+    "bir cihaz.");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+    "Vahşi POKéMON\n"
+    "avlamak için\n"
+    "suda kullanılabilir.");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "Vahşi POKéMON\n"
+    "avlamak için\n"
+    "suda kullanılabilir.");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "Vahşi POKéMON\n"
+    "avlamak için\n"
+    "suda kullanılabilir.");
 
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+    "Bir feribota binmek\n"
+    "için gerekli bir"
+    "bilet.");
 
 static const u8 sContestPassDesc[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+    "YARIŞMA'ya\n"
+    "girmek için gerekli\n"
+    "geçiş kartı.");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+    "MEYVE ve bitkileri\n"
+    "sulamak için\n"
+    "kullanılan bir alet.");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+    "DEVON'un makine\n"
+    "parçalarını içeren\n"
+    "bir paket.");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+    "Volkanik külleri\n"
+    "saklamak için\n"
+    "bir çuval.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for NEW\n"
-    "MAUVILLE beneath\n"
-    "MAUVILLE CITY.");
+    "MAUVILLE ŞEHRİ'nin\n"
+    "altındaki YENİ\n"
+    "MAUVILLE anahtarı.");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+    "Zıplayabilen ve\n"
+    "tekerlekli bir\n"
+    "bisiklet.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+    "MEYVE MİKSERİ ile\n"
+    "yapılmış {POKEBLOCK}\n"
+    "için bir çanta.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+    "DEVON CORP\n"
+    "BAŞKANI'ndan\n"
+    "STEVEN'a mektup.");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+    "Uzak bir güney\n"
+    "adasına giden\n"
+    "feribotun bileti.");
 
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "Kadim bir güç\n"
+    "içerdiği söylenen\n"
+    "parlayan bir küre.");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "Kadim bir güç\n"
+    "içerdiği söylenen\n"
+    "parlayan bir küre.");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+    "Terk edilmiş geminin\n"
+    "içinde bulunan bir\n"
+    "cihaz.");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+    "Gözleri, kum\n"
+    "fırtınalarından\n"
+    "koruyan gözlük.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
+    "METEOR ŞELALESİnde\n"
+    "bulunmuş bir\n"
+    "meteor.");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "Terk edilmiş geminin\n"
+    "içindeki bir kapıyı\n"
+    "açan bir anahtar.");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "Terk edilmiş geminin\n"
+    "içindeki bir kapıyı\n"
+    "açan bir anahtar.");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "Terk edilmiş geminin\n"
+    "içindeki bir kapıyı\n"
+    "açan bir anahtar.");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "Terk edilmiş geminin\n"
+    "içindeki bir kapıyı\n"
+    "açan bir anahtar.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
+    "Terkedilmiş geminin\n"
+    "içindeki deponun\n"
+    "anahtarı.");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "Deniz tabanında\n"
+    "yaşayan antik bir\n"
+    "POKEMON fosili.");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "Deniz tabanında\n"
+    "yaşayan antik bir\n"
+    "POKEMON fosili.");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+    "Görülemeyen\n"
+    "POKéMON'ları işaret\n"
+    "eden bir cihaz.");
 
-// TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "Vurulduğunda\n"
+    "kullanıcısı\n"
+    "irkilir.");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+    "Düşmanı uzun,\n"
+    "keskin pençeleriyle\n"
+    "kancalar ve keser.");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "Kafa karıştırabilecek\n"
+    "ultrasonik bir dalga\n"
+    "üretir.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+    "ÖZ. SLD ve ÖZ. SVN'ı\n"
+    "zihni odaklayarak\n"
+    "yükseltir.");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "Savaşı sona\n"
+    "erdiren güçlü\n"
+    "bir kükreme.");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+    "Düşmanı giderek\n"
+    "kötüleşen bir\n"
+    "toksinle zehirler.");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except ICE.");
+    "BUZ hariç tüm\n"
+    "türlere zarar veren\n"
+    "bir dolu yaratır.");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+    "Hem SALDIRI hem de\n"
+    "SAVUNMAYI artırır ve\n"
+    "vücudu güçlendirir.");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+    "Düşmana saldırmak\n"
+    "için arka arkaya 2 ila\n"
+    "5 tohum atar.");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different POKéMON.");
+    "Saldırı gücü farklı\n"
+    "POKéMON'lar arası\n"
+    "değişiklik gösterir.");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "FIRE-type moves\n"
-    "for 5 turns.");
+    "5 tur boyunca ATEŞ\n"
+    "tipi saldırıların\n"
+    "gücünü artırır.");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+    "Düşman sinirlenir,\n"
+    "böylece hasar veren\n"
+    "saldırı kullandırır.");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+    "Dondurabilen buz\n"
+    "gibi soğuk bir ışın\n"
+    "gönderir.");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+    "Dondurabilen\n"
+    "acımasız bir kar ve\n"
+    "rüzgar saldırısı.");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "Güçlüdür, ancak\n"
+    "sonraki turda\n"
+    "bekletir.");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "SP. ATK damage.");
+    "SP'yi düşüren bir\n"
+    "ışık duvarı\n"
+    "oluşturur. ATK\n"
+    "hasarı.");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+    "Tüm hasarı yok\n"
+    "eder, art arda\n"
+    "kullanılamayabilir.");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "WATER-type moves\n"
-    "for 5 turns.");
+    "SU tipi saldırıların\n"
+    "gücünü 5 tur boyunca\n"
+    "artırır.");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+    "Bu saldırı,\n"
+    "hasarın yarısını\n"
+    "geri kazandırır.");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+    "Mistik bir güçle\n"
+    "durum sorununu\n"
+    "önler.");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "Kullanıcı eğitmeni\n"
+    "kadar az severse\n"
+    "o kadar güçlüdür.");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "Işığı emer,\n"
+    "sonraki turda\n"
+    "saldırır.");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower DEFENSE.");
+    "Düşmana sert bir\n"
+    "kuyrukla vurur.\n"
+    "SAVUNMA düşebilir.");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+    "Felce neden\n"
+    "olabilecek güçlü bir\n"
+    "elektrik saldırısı.");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+    "Düşmana yıldırım\n"
+    "gibi çarpar. Felç\n"
+    "edebilir.");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+    "Uçan düşmanlara\n"
+    "etkisi olmayan bir\n"
+    "sarsıntı yapar.");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "Kullanıcı eğitmeni\n"
+    "kadar çok severse\n"
+    "o kadar güçlüdür.");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+    "İlk turda yerin\n"
+    "altını kazar, sonraki\n"
+    "turda saldırır.");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower SP. DEF.");
+    "ÖZ. SVN düşürebilen\n"
+    "güçlü bir psişik\n"
+    "saldırı.");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower SP. DEF.");
+    "ÖZ. SVN düşürebilen\n"
+    "güçlü bir hayalet\n"
+    "saldırısı.");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like LIGHT SCREEN\n"
-    "and causes damage.");
+    "Bariyerleri yok eder\n"
+    "ve hasara neden\n"
+    "olur.");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+    "Gizliliği artırmak\n"
+    "için hayali kopyalar\n"
+    "yaratır.");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+    "Fiziksel saldırıları\n"
+    "zayıflatan bir ışık\n"
+    "duvarı yaratır.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "Düşmanı asla\n"
+    "ıskalamayan bir\n"
+    "elektrik şoku.");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+    "Düşmanı yakabilecek\n"
+    "bir ateş akımı\n"
+    "bırakır.");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+    "Düşmana çamur\n"
+    "fırlatır. Düşmanı\n"
+    "zehirleyebilir.");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+    "Düşmanı birkaç tur\n"
+    "vuran bir kum\n"
+    "fırtınası başlar.");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+    "Düşmanı yakabilecek\n"
+    "güçlü bir ateş\n"
+    "saldırısı.");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+    "Düşman hareketini\n"
+    "engeller. Hızı\n"
+    "düşürebilir.");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "Kaçınılması mümkün\n"
+    "olmayan son derece\n"
+    "hızlı bir saldırı.");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+    "Aynı saldırıyı art\n"
+    "arda kullanmayı\n"
+    "engeller.");
 
 static const u8 sTM42Desc[] = _(
-    "Raises ATTACK when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+    "Zehirlendiğinde,\n"
+    "yandığında veya felç\n"
+    "olduğunda SLD artırır.");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+    "Konuma bağlı olarak\n"
+    "saldırıya bir etki\n"
+    "ekler.");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+    "Kullanıcı, can\n"
+    "ve durum yenilemek\n"
+    "için 2 tur uyur.");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "Karşı cinsten bir\n"
+    "düşmana saldırmayı\n"
+    "zorlaştırır.");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+    "Saldırırken,\n"
+    "düşmanın elindeki\n"
+    "eşyayı çalabilir.");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+    "Sert kenarlı\n"
+    "kanatlarını açar ve\n"
+    "düşmana çarpar.");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+    "Kullanıldığı sırada\n"
+    "düşmanla yetenekleri\n"
+    "değiştirir.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "Düşmanın kullanmaya\n"
+    "çalıştığı hareketin\n"
+    "etkilerini çalar.");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
-
+    "Tam güç saldırısını\n"
+    "kullanır. Ancak\n"
+    "ÖZ. SLD çok düşer.");
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "Düşmana keskin\n"
+    "pençelerle\n"
+    "saldırır.");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "İlk turda uçar,\n"
+    "sonraki turda\n"
+    "saldırır.");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+    "Büyük bir dalga\n"
+    "yaratır, sonra onu\n"
+    "düşmana vurur.");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+    "Muazzam bir güç\n"
+    "oluşturur, sonra\n"
+    "düşmanı çarpar.");
 
 static const u8 sHM05Desc[] = _(
-    "Looses a powerful\n"
-    "blast of light that\n"
-    "reduces accuracy.");
+    "İsabet oranını\n"
+    "düşüren güçlü bir\n"
+    "ışık yayar.");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower DEFENSE.");
+    "SAVUNMA düşürebilen\n"
+    "kaya gibi sert bir\n"
+    "saldırı.");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "Düşmana şelalelere\n"
+    "tırmanacak kadar\n"
+    "güçle saldırır.");
 
 static const u8 sHM08Desc[] = _(
-    "Dives underwater\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "İlk turda suyun\n"
+    "altına dalar, sonraki\n"
+    "turda saldırır.");
 
-// FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
-    "MART's clerk.");
+    "POKéMON MART'ın\n"
+    "çalışaınından OAK\n"
+    "için bir paket.");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "POKéMON.");
+    "POKéMON'u\n"
+    "uyandıran tatlı\n"
+    "sesli bir flüt.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "The key to the\n"
     "CINNABAR ISLAND\n"
-    "GYM's entrance.");
+    "SALONU girişinin\n"
+    "anahtarı.");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+    "BİSİKLET\n"
+    "DÜKKANINDAN bisiklet\n"
+    "almak için bir kupon.");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the SAFARI\n"
-    "ZONE's WARDEN.");
+    "SAFARİ BÖLGESİ'nde\n"
+    "kaybedilen altın\n"
+    "dişler.");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient POKéMON.");
+    "Eski bir POKéMON'ım\n"
+    "genlerini içeren bir\n"
+    "taş.");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in SILPH\n"
-    "CO's office.");
+    "SILPH CO'nun\n"
+    "ofisinde kullanılan\n"
+    "bir anahtar.");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in TEAM\n"
-    "ROCKET's HIDEOUT.");
+    "ROKET TAKIMI\n"
+    "SIĞINAĞI'nda kul.\n"
+    "asansör anahtarı.");
 
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's seashell.");
+    "Eski bir deniz\n"
+    "POKéMON'unun deniz\n"
+    "kabuğunun bir\n"
+    "parçası.");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's shell.");
+    "Eski bir deniz\n"
+    "POKéMON'unun\n"
+    "kabuk parçası.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "SILPH CO's scope\n"
-    "makes unseeable\n"
-    "POKéMON visible.");
+    "Dürbün görülemeyen\n"
+    "POKéMON'u görünür\n"
+    "kılıyor.");
 
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the RUNNING SHOES.");
+    "KOŞU AYAKKABISI'ndan\n"
+    "hızlı olan katlanır\n"
+    "bir bisiklet.");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "Her zaman\n"
+    "kullanılabilir.\n"
+    "Konumu gösterir.");
 
 static const u8 sVSSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready TRAINERS.");
+    "Savaşa hazır\n"
+    "EĞİTMEN'leri\n"
+    "gösteren cihaz.");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Stores information\n"
-    "on famous people\n"
-    "for instant recall.");
+    "Anında hatırlamak\n"
+    "için ünlü kişiler\n"
+    "hakkında bilgi\n"
+    "depolar.");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+    "TM'leri ve HM'leri\n"
+    "tutan kullanışlı bir\n"
+    "çanta.");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds BERRIES.");
+    "MEYVE'leri tutan\n"
+    "kullanışlı bir\n"
+    "kap.");
 
 static const u8 sTeachyTVDesc[] = _(
-    "A TV set tuned to\n"
-    "an advice program\n"
-    "for TRAINERS.");
+    "Eğitmenler için bir\n"
+    "tavsiye programına\n"
+    "ayarlanmış bir set.");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between ONE, TWO,\n"
-    "and THREE ISLAND.");
+    "BİR, İKİ ve ÜÇ ADA\n"
+    "feribotları için\n"
+    "geçiş kartı.");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "VERMILION and the\n"
-    "SEVII ISLANDS.");
+    "VERMILION ve SEVII\n"
+    "ADALARI'na hizmet\n"
+    "veren gemiler için.");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+    "Yaşlı kadının\n"
+    "hazırladığı susuzluk\n"
+    "giderici bir çay.");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to NAVEL ROCK.");
+    "NAVEL ROCK'a giden\n"
+    "gemiye binmek için\n"
+    "gereken bilet.");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+    "BIRTH ADASI'na\n"
+    "giden gemiye binmek\n"
+    "için bilet.");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores BERRY\n"
-    "POWDER made using\n"
-    "a BERRY CRUSHER.");
+    "MEYVE ÖĞÜTÜCÜ\n"
+    "kullanılarak yapılan\n"
+    "MEYVE TOZU depolar.");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+    "Tutkuyu simgeleyen\n"
+    "zarif, kırmızı\n"
+    "bir mücevher.");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+    "Dürüstlüğü\n"
+    "simgeleyen parlak\n"
+    "mavi bir mücevher.");
 
-// Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "TEAM MAGMA's mark.");
+    "TEAM MAGMA'nın\n"
+    "işaretiyle aynı şekle\n"
+    "sahip bir eşya.");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "A faded sea chart\n"
-    "that shows the way\n"
-    "to a certain island.");
+    "Belli bir adaya giden\n"
+    "yolu gösteren soluk\n"
+    "bir deniz haritası.");
+

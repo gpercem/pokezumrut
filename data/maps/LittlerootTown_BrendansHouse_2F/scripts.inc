@@ -273,32 +273,32 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "Saat durmuş…\p"
+	.string "Kurup başlatsam iyi olacak!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "MOM: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "ANNE: {PLAYER}, yeni odanı\n"
+	.string "sevdin mi?\p"
+	.string "Harika! Her şey yerli yerinde!\p"
+	.string "Aşağı katı yerleştirmeyi de\n"
+	.string "tamamladılar.\p"
+	.string "POKéMON nakliyecileri iyi çalıştı!\p"
+	.string "Masandaki her şeyin yerleştiğinden\n"
+	.string "de emin olsan iyi olur.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the MENU with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER} defterini açıp baktı.\p"
+	.string "MACERA KURALI 1\n"
+	.string "Menüyü açmak için START'a bas.\p"
+	.string "MACERA KURALI 2\n"
+	.string "Oyunu menüden kaydedebilirsin.\p"
+	.string "Diğer sayfalar boş…$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "HOENN region map.$"
+	.string "{PLAYER}, HOENN bölgesi haritasına\n"
+	.string "yakından baktı.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "Bu bir Nintendo GameCube.\p"
+	.string "Bir Game Boy Advance, kumanda\n"
+	.string "olarak kullanılmak için bağlanmış.$"

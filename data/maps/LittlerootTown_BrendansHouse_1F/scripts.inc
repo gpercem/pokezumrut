@@ -288,82 +288,80 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "MOM: See, {PLAYER}?\n"
-	.string "Isn't it nice in here, too?$"
+	.string "ANNE: Gördün mü, {PLAYER}?\n"
+	.string "Çok güzel değil mi?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
-	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
-	.string "Don't forget to set it!$"
+	.string "Taşınanların POKéMON'ları temizlik\n"
+	.string "ve taşıma işlerini bizim için yapıyor.\l"
+	.string "Bu çok kullanışlı!\p"
+	.string "{PLAYER}, senin odan yukarı katta.\n"
+	.string "Git bir bak, canım!\p"
+	.string "Baban senin için bir duvar saati\n"
+	.string "almış.\l"
+	.string "Onu kurmayı unutma!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "MOM: Well, {PLAYER}?\p"
-	.string "Aren't you interested in seeing your\n"
-	.string "very own room?$"
+	.string "ANNE: Ee, {PLAYER}?\n"
+	.string "Odanı gördüğüne sevindin mi?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "MOM: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "ANNE: {PLAYER}.\p"
+	.string "Gidip odandaki saati kur, tatlım.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
-	.string "Quick! Come quickly!$"
+	.string "ANNE: Aa! {PLAYER}, {PLAYER}!\n"
+	.string "Çabuk! Çabuk gel!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "ANNE: Bak! Burası PETALBURG Salonu!\n"
+	.string "Belki baban da televizyona çıkar!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "ANNE: Of… Bitti bile.\p"
+	.string "Sanırım baban çıktı ancak kaçırdık.\n"
+	.string "Tüh.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "Aa evet.\n"
+	.string "Babanın bir arkadaşı burada yaşıyor.\p"
+	.string "Adı PROF. BIRCH.\p"
+	.string "Hemen yanımızdaki evde yaşıyor,\n"
+	.string "yani gidip kendini tanıtabilirsin.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "MOM: See you, honey!$"
+	.string "ANNE: Görüşürüz, balım!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
-	.string "MOM: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "ANNE: Kendini\n"
+	.string "PROF. BIRCH'e tanıttın mı?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "MOM: How are you doing, {PLAYER}?\n"
-	.string "You look a little tired.\p"
-	.string "I think you should rest a bit.$"
+	.string "ANNE: Nasılsın, {PLAYER}?\n"
+	.string "Yorgun görünüyorsun.\p"
+	.string "Biraz dinlensen iyi olur.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "MOM: Take care, honey!$"
+	.string "ANNE: Kendine iyi bak, tatlım!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
-	.string "MOM: Oh? Did DAD give you that BADGE?\p"
-	.string "Then here's something from your MOM!$"
+	.string "ANNE: Ha? Şu rozeti sana baban mı verdi?\p"
+	.string "O zaman sana şunu vereyim!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
-	.string "Don't push yourself too hard, dear.\n"
-	.string "You can always come home.\p"
-	.string "Go for it, honey!$"
+	.string "Kendini çok zorlama, canım.\n"
+	.string "Her zaman evine dönebilirsin.\p"
+	.string "Hadi balım!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "MOM: What is that, honey? A POKéNAV?\n"
-	.string "Someone from DEVON gave it to you?\p"
-	.string "Well, honey, how about registering\n"
-	.string "your mom?\p"
+	.string "ANNE: Ne oldu canım? POKéNAV mı?\n"
+	.string "DEVON'dan biri mi verdi?\p"
+	.string "O zaman beni kaydetmeye ne dersin?\p"
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom:
-	.string "Registered MOM\n"
-	.string "in the POKéNAV.$"
+	.string "ANNE, POKéNAV'a\n"
+	.string "kaydedildi.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -372,69 +370,67 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "MUHABİR: …PETALBURG SALONU'ndan\n"
+	.string "bildireceklerimiz bu kadar.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-	.string "There is a movie on TV.\p"
-	.string "Two men are dancing on a big piano\n"
-	.string "keyboard.\p"
-	.string "Better get going!$"
+	.string "Televizyonda bir film var.\p"
+	.string "İki adam bir piyano üstünde dans\n"
+	.string "ediyorlar.\p"
+	.string "Gitsem iyi olur!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "RUNNING SHOES.\p"
-	.string "“Press the B Button to run while\n"
-	.string "wearing your RUNNING SHOES.\p"
-	.string "“Lace up your RUNNING SHOES and hit\n"
-	.string "the road running!”$"
+	.string "Bu KOŞU AYAKKABILARI için bir\n"
+	.string "kullanım kılavuzu.\p"
+	.string "“B Butonuna basıp bu KOŞU\n"
+	.string "AYAKKABILARINI giyebilirsiniz.\p"
+	.string "“KOŞU AYAKKABILARINI giyin ve\n"
+	.string "tozunuzu yutturun!”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-	.string "DAD: Hm?\p"
-	.string "Hey, it's {PLAYER}!\p"
-	.string "It's been a while since I saw you,\n"
-	.string "but you look…stronger, somehow.\p"
-	.string "That's the impression I get.\n"
-	.string "But your old man hasn't given up yet!\p"
-	.string "Oh, yes, I have something for you.\n"
-	.string "This came to you from someone named\l"
-	.string "MR. BRINEY.$"
+	.string "BABA: Hm?\p"
+	.string "Hey, bu sensin {PLAYER}!\p"
+	.string "Seni göreli çok uzun zaman oldu,\n"
+	.string "ve bayağı… güçlü görünüyorsun.\p"
+	.string "Görünümün öyle gösteriyor.\n"
+	.string "Ama bu yaşlı adam da hala yerli\nyerinde!\p"
+	.string "Evet, sana vereceğim bir şey var.\n"
+	.string "BAY BRINEY isimli biri bunu sana\l"
+	.string "gönderdi.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
-	.string "DAD: Hm, a TICKET for a ferry?\p"
-	.string "If I recall, there are ferry ports in\n"
-	.string "SLATEPORT and LILYCOVE.$"
+	.string "BABA: Hm, bir gemi bileti mi?\p"
+	.string "SLATEPORT ve LILYCOVE'de limanlar\n"
+	.string "olduğunu biliyorum.$"
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
-	.string "I'd better get back to PETALBURG GYM.\p"
-	.string "MOM, thanks for looking after the house\n"
-	.string "while I'm away.$"
+	.string "PETALBURG SALONU'na dönsem iyi olur.\p"
+	.string "Ben yokken eve baktığın için\n"
+	.string "teşekkürler.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-	.string "MOM: That DAD of yours…\p"
-	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is POKéMON.\p"
-	.string "He should relax and stay a little longer.$"
+	.string "ANNE: Baban…\p"
+	.string "Uzun zamandan beri ilk defa eve geri\n"
+	.string "geldi ve konuştuğu tek şey POKéMON.\p"
+	.string "Biraz rahatlamalı ve keyfini çıkarmalı.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
-	.string "MOM: Is that a breaking news story?$"
+	.string "ANNE: Bu bir son dakika haberi mi?$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
-	.string "We bring you this emergency\n"
-	.string "news flash!\p"
-	.string "In various HOENN locales, there have\n"
-	.string "been reports of a BZZT…colored\l"
-	.string "POKéMON in flight.\p"
-	.string "The identity of this POKéMON is\n"
-	.string "currently unknown.\p"
-	.string "We now return you to the regular\n"
-	.string "movie program.$"
+	.string "Sırada son dakika haberimiz var!\p"
+	.string "HOENN sakinleri, uçan BZZT…renkli\n"
+	.string "bir POKéMON gördüklerini söylüyorlar.\p"
+	.string "Bu POKéMON'un kimliği şu anda\n"
+	.string "bilinmiyor.\p"
+	.string "Şimdi standart film programımıza\n"
+	.string "geri dönüyoruz.$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
-	.string "MOM: {PLAYER}, did you catch that?\p"
-	.string "What color did the announcer say\n"
-	.string "that POKéMON was?$"
+	.string "ANNE: {PLAYER}, onu gördün mü?\p"
+	.string "Spikerin söylediği POKéMON hangi\n"
+	.string "renkteydi?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
-	.string "MOM: Well, isn't that something!\n"
-	.string "There are still unknown POKéMON.$"
+	.string "ANNE: Çok tuhaf!\n"
+	.string "Hala bilinmeyen POKéMON'lar var.$"

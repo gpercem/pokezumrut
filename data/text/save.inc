@@ -1,33 +1,32 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+	.string "Oyunu kaydetmek ister misin?$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Zaten kayıtlı bir dosya var.\n"
+	.string "Üstüne yazmak ister misin?$"
 
 gText_SavingDontTurnOff::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "KAYDEDİLİYOR…\n"
+	.string "LÜTFEN GÜCÜ KESMEYİN.$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+	.string "{PLAYER} oyunu kaydetti.$"
 
 gText_DifferentSaveFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "UYARI!\p"
+	.string "Zaten kayıtlı bir dosya var.\p"
+	.string "Eğer şimdi kaydedersen, diğer\n"
+	.string "kayıttaki eşyalar, POKéMON'lar\l"
+	.string "ve diğer her şey kaybolacak.\p"
+	.string "Şimdi kaydedip diğer kaydın\n"
+	.string "üstüne yazmak ister misin?$"
 
 gText_SaveError::
-	.string "Save error.\p"
-	.string "Please exchange the\n"
-	.string "backup memory.$"
+	.string "Kayıt hatası.\p"
+	.string "Lütfen yedek belleği\n"
+	.string "değiştirin.$"
 
 gText_SavingDontTurnOffPower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "KAYDEDİLİYOR…\n"
+	.string "LÜTFEN GÜCÜ KESMEYİN.$"

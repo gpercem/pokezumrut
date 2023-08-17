@@ -344,33 +344,58 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "Biraz dinlenmek istiyorum, bu yüzden\nilerlememi kaydediyorum.$"
+	.string "I want to take a rest, so I'm saving my\n"
+	.string "progress.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
-	.string "Merhaba! Ben POKé MART'ta\nçalışıyorum.\pBenimle gelebilir misin?$"
+	.string "Hi!\n"
+	.string "I work at a POKéMON MART.\p"
+	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "Burası bir POKéMON MART. Mavi çatımıza\nbakman yeterli.\pPOKéMON yakalamak için POKé TOPLARI\nda dahil olmak üzere çeşitli ürünler\lsatıyoruz.\pİşte, bunu promosyon ürünü olarak\nalmanızı istiyorum.$"
+	.string "This is a POKéMON MART.\n"
+	.string "Just look for our blue roof.\p"
+	.string "We sell a variety of goods including\n"
+	.string "POKé BALLS for catching POKéMON.\p"
+	.string "Here, I'd like you to have this as\n"
+	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation:
-	.string "İKSİR her zaman kullanılabilir, bu\nnedenle bazı durumlarda POKéMON\lMERKEZİ'nden bile daha kullanışlıdır.$"
+	.string "A POTION can be used anytime, so it's\n"
+	.string "even more useful than a POKéMON CENTER\l"
+	.string "in certain situations.$"
 
 OldaleTown_Text_WaitDontComeInHere:
-	.string "Aaaaah! Bekle! Lütfen buraya gelme.\pAz önce nadir bir POKéMON'un ayak\nizlerini keşfettim!\pBen çizimlerini bitirene kadar bekle,\ntamam mı?$"
+	.string "Aaaaah! Wait!\n"
+	.string "Please don't come in here.\p"
+	.string "I just discovered the footprints of\n"
+	.string "a rare POKéMON!\p"
+	.string "Wait until I finish sketching\n"
+	.string "them, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "Az önce nadir bir POKéMON'un ayak\nizlerini keşfettim!\pBen çizimlerini bitirene kadar bekle,\ntamam mı?$"
+	.string "I just discovered the footprints of\n"
+	.string "a rare POKéMON!\p"
+	.string "Wait until I finish sketching\n"
+	.string "them, okay?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "O Nadir POKéMON'un ayak izlerini\nçizmeyi bitirdim.\pAma meğer onlar sadece benim ayak\nizlerimmiş.$"
+	.string "I finished sketching the footprints of\n"
+	.string "a rare POKéMON.\p"
+	.string "But it turns out they were only my\n"
+	.string "own footprints…$"
 
 OldaleTown_Text_MayLetsGoBack:
-	.string "MAY: {PLAYER}{KUN}! Bu taraftan!\nHadi eve gidelim!$"
+	.string "MAY: {PLAYER}{KUN}!\n"
+	.string "Over here!\l"
+	.string "Let's hurry home!$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "Ben babamın laboratuarına\ndönüyorum. Sen de acele etmelisin.$"
+	.string "BRENDAN: I'm heading back to my dad's\n"
+	.string "LAB now.\l"
+	.string "{PLAYER}, you should hustle back, too.$"
 
 OldaleTown_Text_TownSign:
-	.string "OLDALE KASABASI\nİşlerin yavaş yavaş başladığı yer.$"
-
+	.string "OLDALE TOWN\n"
+	.string "“Where things start off scarce.”$"
 

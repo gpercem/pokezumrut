@@ -362,7 +362,7 @@ OldaleTown_Text_DiscoveredFootprints:
 	.string "Az önce nadir bir POKéMON'un ayak\nizlerini keşfettim!\pBen çizimlerini bitirene kadar bekle,\ntamam mı?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "O Nadir POKéMON'un ayak izlerini\nçizmeyi bitirdim.\pAma meğer onlar sadece benim ayak\nizlerimmiş.$"
+	.string "O nadir POKéMON'un ayak izlerini\nçizmeyi bitirdim.\pAma meğer onlar sadece benim ayak\nizlerimmiş.$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string "MAY: {PLAYER}{KUN}! Bu taraftan!\nHadi eve gidelim!$"

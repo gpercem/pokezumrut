@@ -67,12 +67,20 @@ PetalburgCity_Mart_EventScript_Man::
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
-	.string "POKéMON'un şu an zayıf olsa bile\nzamanla güçlenecektir.\pEn önemli şey sevgidir!\nPOKéMON'unu sev!$"
+	.string "Even if a POKéMON is weak now,\n"
+	.string "it will grow stronger.\p"
+	.string "The most important thing is love!\n"
+	.string "Love for your POKéMON!$"
 
 PetalburgCity_Mart_Text_RepelIsUseful:
-	.string "SPREY kullanıyor musun? POKéMON'ları\nuzak tutar, böylece acelen varken\lhızlıca çimenlerden geçebilirsin.$"
+	.string "Do you use REPEL?\n"
+	.string "It keeps POKéMON away, so it's\l"
+	.string "useful when you're in a hurry.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
-	.string "Yanında hiç PANZEHİR var mı?\pZehirlenmiş bir POKéMON ile dolaşırsan,\nbayılana kadar can kaybedecektir.\lPANZEHİR alsan iyi olur.$"
-
+	.string "Do you have any ANTIDOTES with\n"
+	.string "you?\p"
+	.string "If you walk around with a poisoned\n"
+	.string "POKéMON, it will lose HP until it faints.\l"
+	.string "Take some ANTIDOTES with you.$"
 

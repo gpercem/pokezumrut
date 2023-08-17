@@ -999,101 +999,174 @@ Route104_EventScript_Darian::
 	end
 
 Route104_Text_BrineyLivesInSeasideCottage:
-	.string "Şu deniz kenarındaki kulübede\n"
-	.string "BAY BRINEY yaşıyor.\p"
-	.string "O, bir zamanlar ne kadar fırtınalı\n"
-	.string "olursa olsun denizden korkmayan biriydi.$"
-
+	.string "That seaside cottage is where\n"
+	.string "MR. BRINEY lives.\p"
+	.string "He was once a mighty sailor who never\n"
+	.string "feared the sea, however stormy.$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
-	.string "Deniz, ha?\pDenizin dibi nasıldır acaba?$"
+	.string "The sea, huh?\p"
+	.string "I wonder what it's like at the bottom\n"
+	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "Eğer bir POKé TOPU atacaksan, önce\nvahşi POKéMON'u zayıflat.\pZehirlenmiş, yakılmış veya uyutulmuşsa\nyakalamak daha kolay olacaktır.$"
+	.string "If you're going to throw a POKé BALL,\n"
+	.string "weaken the wild POKéMON first.\p"
+	.string "It will be easier to catch if it's been\n"
+	.string "poisoned, burned, or lulled to sleep.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
-	.string "Başkasının POKéMON'unu çalmaya\nçalışırsan hırsız olursun.\pPOKé TOPLARINI sadece vahşi\nPOKéMON'lara atmalısın.$"
+	.string "You're a thief if you try to steal\n"
+	.string "someone else's POKéMON.\p"
+	.string "You should throw POKé BALLS only at\n"
+	.string "wild POKéMON.$"
 
 Route104_Text_ImNotATrainer:
-	.string "Hayır, ben eğitmen değilim.\pAma bu doğru, EĞİTMENLER göz göze\ngelirse, bu savaşmak için bir meydan\lokumadır.\pEğer savaşmak istemiyorsan, onların\ngörüş alanından uzak dur.$"
+	.string "Oh, no, I'm not a TRAINER.\p"
+	.string "But that's right, if TRAINERS lock eyes,\n"
+	.string "it's a challenge to battle.\p"
+	.string "If you don't want to battle, stay out\n"
+	.string "of their sight.$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
-	.string "Ağzımı tohumlarla doldurmayı ve\nhızla tükürmeyi seviyorum!\pBunu alabilirsin, sen de bir dene!\pBunu bir POKéMON üzerinde\nkullandığında, tohumları hızla\lfırlatan bir saldırı öğretecektir.$"
+	.string "I like filling my mouth with seeds,\n"
+	.string "then spitting them out fast!\p"
+	.string "You can have this, so you try it out!\p"
+	.string "Use it on a POKéMON, and it will learn\n"
+	.string "a move for firing seeds rapidly.$"
 
 Route104_Text_TMsAreOneTimeUse:
-	.string "Bir tavsiye!\pTM, yani TEKNİK MAKİNE, sadece\nbir kere kullanılabilir.\pBir kere kullandın mı, biter.\nKullanmadan önce iki kez düşün!$"
+	.string "A word of advice!\p"
+	.string "A TM, TECHNICAL MACHINE, is good only\n"
+	.string "for one-time use.\p"
+	.string "Once you use it, it's gone.\n"
+	.string "Think twice before using it!$"
 
 Route104_Text_DontNeedThisTakeIt:
-	.string "Bu ÇİÇEK DÜKKANI geçenlerde fidan\nsatmaya başladı.\pBu beni çok mutlu etti, ve ben de\nalışverişi abarttım.\pArtık bu BEYAZ OT'a ihtiyacım yok.\nAlır mısın lütfen?$"
+	.string "This FLOWER SHOP started selling\n"
+	.string "saplings recently.\p"
+	.string "It made me so happy, I went overboard\n"
+	.string "shopping.\p"
+	.string "I don't need this WHITE HERB anymore.\n"
+	.string "Would you take it, please?$"
 
 Route104_Text_FlowerShopSellingSaplings:
-	.string "Bu ÇİÇEK DÜKKANI geçenlerde fidan\nsatmaya başladı.\pBu beni çok mutlu etti, alışverişi\nabarttım. Nereye koysam ki?$"
+	.string "This FLOWER SHOP started selling\n"
+	.string "saplings recently.\p"
+	.string "It made me so happy, I went overboard\n"
+	.string "shopping. Where should I put them?$"
 
 Route104_Text_MrBrineysCottage:
-	.string "BAY BRINEY'İN KULÜBESİ$"
+	.string "MR. BRINEY'S COTTAGE$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROTA 1O4\n{RIGHT_ARROW} PETALBURG ŞEHRİ$"
+	.string "ROUTE 1O4\n"
+	.string "{RIGHT_ARROW} PETALBURG CITY$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROTA 1O4\n{UP_ARROW} RUSTBORO ŞEHRİ$"
+	.string "ROUTE 1O4\n"
+	.string "{UP_ARROW} RUSTBORO CITY$"
 
 Route104_Text_PrettyPetalFlowShop:
-	.string "TAÇ YAPRAK ÇİÇEKÇİ DÜKKÂNI$"
+	.string "PRETTY PETAL FLOWER SHOP$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-	.string "EĞİTMEN İPUÇLARI\pHOENN bölgesinde, ÇİFT SAVAŞ adı verilen\n2'ye 2 POKéMON savaşları\lyapılmaktadır.\pÇift savaşta, EĞİTMEN listenin\nsolundaki ve en üstteki olmak üzere iki\lPOKéMON gönderir. POKéMON'ların\lnasıl sıralandığı önemlidir.$"
+	.string "TRAINER TIPS\p"
+	.string "In the HOENN region there are pairs\n"
+	.string "of TRAINERS who challenge others\l"
+	.string "for 2-on-2 POKéMON battles called\l"
+	.string "DOUBLE BATTLES.\p"
+	.string "In a DOUBLE BATTLE, the TRAINER must\n"
+	.string "send out two POKéMON, the one at the\l"
+	.string "left of the list and the top one.\l"
+	.string "Watch how POKéMON are lined up.$"
 
 Route104_Text_MayWeShouldRegister:
-	.string "MAY: Merhaba, {PLAYER}{KUN}!\pDEVON, POKéNAV'ına MAÇ ARAMASI\ngüncellemesi kurdu, değil mi?\pBirbirimizi kaydetmeliyiz, böylece\nistediğimiz zaman iletişim kurabiliriz.$"
+	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "DEVON upgraded your POKéNAV with\n"
+	.string "the MATCH CALL system, huh?\p"
+	.string "We should register each other so we\n"
+	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay:
-	.string "{PLAYER}, MAY'i POKéNAV'a kaydetti.$"
+	.string "{PLAYER} registered MAY\n"
+	.string "in the POKéNAV.$"
 
 Route104_Text_MayHowsYourPokedex:
-	.string "MAY: Bu arada, {PLAYER}{KUN},\nPOKéDEX'in nasıl gidiyor?$"
+	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"
+	.string "how's your POKéDEX coming along?$"
 
 Route104_Text_MayMinesDecentLetsBattle:
-	.string "Benimki oldukça iyi gidiyor.\pPekâlâ…\nKüçük bir savaşa ne dersin?$"
+	.string "Mine's looking pretty decent.\n"
+	.string "So…\l"
+	.string "How about a little battle?$"
 
 Route104_Text_MayHaventRaisedPokemon:
-	.string "MAY: Sorun ne?\pPOKéMON'unu fazla geliştirmedin mi?\pBu bir eğitmene yakışmaz!$"
+	.string "MAY: Oh, what's the matter?\p"
+	.string "Haven't you caught or raised your\n"
+	.string "POKéMON very much?\p"
+	.string "That's not very good for a TRAINER!$"
 
 Route104_Text_MayLetsBattle:
-	.string "Ne düşünüyorsun? Burada küçük\nbir savaşa ne dersin?$"
+	.string "MAY: So, what do you think?\n"
+	.string "How about a little battle here?$"
 
 Route104_Text_MayIntro:
-	.string "Daha yeni EĞİTMEN oldun,\n{PLAYER}{KUN}. Kaybetmeyeceğim!$"
+	.string "MAY: You just became a TRAINER,\n"
+	.string "{PLAYER}{KUN}. I'm not going to lose!$"
 
 Route104_Text_MayDefeat:
-	.string "Vay canına!\nBeklediğimden daha iyisin!$"
+	.string "Yikes!\n"
+	.string "You're better than I expected!$"
 
 Route104_Text_MayPostBattle:
-	.string "MAY: POKéMON'u ele alış şeklinle\noldukça iyi olduğunu söyleyebilirim.\pAma onları sadece savaştırmak yerine,\nonlara BRINEY'in davrandığı gibi\ldavranmalısın.\pPOKéMON'lar ile arkadaş olmak önemli.$"
+	.string "MAY: I can tell you've gotten pretty\n"
+	.string "good with the way you handle POKéMON.\p"
+	.string "But instead of only making them\n"
+	.string "battle, you should be like MR. BRINEY.\p"
+	.string "It's important to become friends with\n"
+	.string "POKéMON, too.$"
 
 Route104_Text_BrendanWeShouldRegister:
-	.string "BRENDAN: Selam, {PLAYER}{KUN}!\pDEVON, POKéNAV'ına MAÇ ARAMASI\ngüncellemesi kurdu, değil mi?\pBirbirimizi kaydetmeliyiz, böylece\nistediğimiz zaman iletişim kurabiliriz.$"
+	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
+	.string "Cool, you had DEVON install the MATCH\n"
+	.string "CALL system on your POKéNAV!\p"
+	.string "Let's register each other in our\n"
+	.string "POKéNAVS so we can keep in touch.$"
 
 Route104_Text_RegisteredBrendan:
-	.string "{PLAYER}, BRENDAN'ı POKéNAV'a\nkaydetti.$"
+	.string "{PLAYER} registered BRENDAN\n"
+	.string "in the POKéNAV.$"
 
 Route104_Text_BrendanHowsYourPokedex:
-	.string "POKéDEX'in nasıl gidiyor?\nHiç sayfa doldurabildin mi?$"
+	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
+	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
-	.string "Benimki harika gidiyor!\pBir savaşta ne kadar iyi olduğumu\ngörmek ister misin?$"
+	.string "Me, I'm doing great!\p"
+	.string "Want to check out how good I am with\n"
+	.string "a battle?$"
 
 Route104_Text_BrendanNoConfidence:
-	.string "Sorun ne?\nPOKéMON'una güvenmiyor musun?$"
+	.string "BRENDAN: What's the matter? Don't have\n"
+	.string "any confidence in your POKéMON?$"
 
 Route104_Text_BrendanLetsBattle:
-	.string "Ne dersin?\nBenimle savaşmak ister misin?$"
+	.string "BRENDAN: What's up?\n"
+	.string "Want to have a battle with me?$"
 
 Route104_Text_BrendanIntro:
-	.string "Daha yeni EĞİTMEN olduğunu biliyorum\nama kolay olmayacak!$"
+	.string "BRENDAN: I know you just became\n"
+	.string "a TRAINER, but I won't go easy!$"
 
 Route104_Text_BrendanDefeat:
-	.string "Hmm…\nOldukça iyisin.$"
+	.string "Hmm…\n"
+	.string "You're pretty good.$"
 
 Route104_Text_BrendanPostBattle:
-	.string "POKéMON'ları idare etmekte oldukça\niyisin.\pAma, bilirsin, sadece POKéMON savaşı\nyapmamalısın.\pTıpkı MR. BRINEY gibi POKéMON'unla\narkadaş olman da önemli.$"
+	.string "BRENDAN: You've gotten pretty decent\n"
+	.string "at handling POKéMON.\p"
+	.string "But, you know, you shouldn't just be\n"
+	.string "making POKéMON battle.\p"
+	.string "Like MR. BRINEY, it's important to\n"
+	.string "become friends with your POKéMON.$"

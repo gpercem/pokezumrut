@@ -437,59 +437,59 @@ static const u8 sHeartScaleDesc[] = _(
     "buna bayılır.");
 
 static const u8 sOrangeMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen ZIGZAGOON\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "ZIGZAGOON baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sHarborMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen WINGULL\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "WINGULL baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen PIKACHU\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "PIKACHU baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sMechMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen MAGNEMITE\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "MAGNEMITE baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sWoodMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen SLAKOTH\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "SLAKOTH baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sWaveMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen WAILMER\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "WAILMER baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sBeadMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen,\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "baskılı bir,\n"
+    "MEKTUP.");
 
 static const u8 sShadowMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen DUSKULL\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "DUSKULL baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sTropicMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen BELLOSSOM\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "BELLOSSOM baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sDreamMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen,\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "baskılı bir,\n"
+    "MEKTUP.");
 
 static const u8 sFabMailDesc[] = _(
-    "Bir POKéMON\n"
-    "tutulabilen, güzel\n"
-    "baskılı bir MEKTUP.");
+    "Elde tutulabilen,\n"
+    "güzel baskılı\n"
+    "bir MEKTUP.");
 
 static const u8 sRetroMailDesc[] = _(
     "Üç POKéMON'un\n"
@@ -498,23 +498,23 @@ static const u8 sRetroMailDesc[] = _(
 
 static const u8 sCheriBerryDesc[] = _(
     "Savaşta felci\n"
-    "iyileştiren bir tutma\n"
-    "eşyası.");
+    "iyileştiren bir\n"
+    "tutma eşyası.");
 
 static const u8 sChestoBerryDesc[] = _(
     "Savaşta POKéMON'u\n"
-    "uyandıran bir tutma\n"
-    "eşyası.");
+    "uyandıran bir\n"
+    "tutma eşyası.");
 
 static const u8 sPechaBerryDesc[] = _(
     "Savaşta zehri\n"
-    "iyileştiren bir tutma\n"
-    "eşyası.");
+    "iyileştiren bir\n"
+    "tutma eşyası.");
 
 static const u8 sRawstBerryDesc[] = _(
     "Savaşta yanıkları\n"
-    "iyileştiren bir tutma\n"
-    "eşyası.");
+    "iyileştiren bir\n"
+    "tutma eşyası.");
 
 static const u8 sAspearBerryDesc[] = _(
     "Savaşta POKéMON'un\n"
@@ -523,18 +523,18 @@ static const u8 sAspearBerryDesc[] = _(
 
 static const u8 sLeppaBerryDesc[] = _(
     "Savaşta 10 PP geri\n"
-    "kazandıran bir tutma\n"
-    "eşyası.");
+    "kazandıran bir\n"
+    "tutma eşyası.");
 
 static const u8 sOranBerryDesc[] = _(
     "Savaşta 10 can\n"
-    "yenileyen bir tutma\n"
-    "eşyası.");
+    "yenileyen bir \n"
+    "tutma eşyası.");
 
 static const u8 sPersimBerryDesc[] = _(
     "Savaşta kafa\n"
     "karışıklığını\n"
-    "iyileştiren bir eşya.");
+    "geçiren eşya.");
 
 static const u8 sLumBerryDesc[] = _(
     "Savaştaki herhangi\n"

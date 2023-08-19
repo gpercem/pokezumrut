@@ -98,30 +98,64 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "BAY BRINEY: Bekle, bayan!\nBekle, PEEKO!$"
+	.string "MR. BRINEY: Hold on, lass!\n"
+	.string "Wait up, PEEKO!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? Sen {PLAYER}{KUN} olmalısın!\nPEEKO'mu kurtardın! Sana çok şey\lborçluyuz!\pNe dedin? Benimle yelken açmak mı\nistiyorsun?\pHmhm…\pDEWFORD'a giden bir mektubun ve\nSLATEPORT'a giden bir pakedin mi var?\pOldukça yoğun bir hayatın olmalı!\pAma, ne olursa olsun, benim için sorun\ndeğil.\pDoğru adama geldin!\nDEWFORD'a yelken açacağız.$"
+	.string "Hm? You're {PLAYER}{KUN}!\n"
+	.string "You saved my darling PEEKO!\l"
+	.string "We owe so much to you!\p"
+	.string "What's that?\n"
+	.string "You want to sail with me?\p"
+	.string "Hmhm…\p"
+	.string "You have a LETTER bound for DEWFORD\n"
+	.string "and a package for SLATEPORT, then?\p"
+	.string "Quite the busy life you must lead!\p"
+	.string "But, certainly, what you're asking is\n"
+	.string "no problem at all.\p"
+	.string "You've come to the right man!\n"
+	.string "We'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "BAY BRINEY: DEWFORD o zaman!\pDemir alıyoruz!\nPEEKO, gidiyoruz!$"
+	.string "MR. BRINEY: DEWFORD it is, then!\p"
+	.string "Anchors aweigh!\n"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
-	.string "BAY BRINEY: Öyle mi?\nTeslimatların bekleyebilir mi?\pNe zaman yelken açmak istersen bana\nsöyle!$"
+	.string "MR. BRINEY: Is that so?\n"
+	.string "Your deliveries can wait?\p"
+	.string "You just go on and tell me whenever\n"
+	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "BAY BRINEY: Ahoy!\nNe söylemek istediğini çok iyi\lbiliyorum!\pDEWFORD'a bir mektup ve SLATEPORT'a\nbir paket teslim edeceksin.\pBenim için hiç sorun değil.\nBen bu işin adamıyım!\pÖnce DEWFORD'a doğru yelken açacağız.$"
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "I know exactly what you want to say!\p"
+	.string "You're to deliver a LETTER to DEWFORD\n"
+	.string "and a package to SLATEPORT.\p"
+	.string "What you need me to do is no problem\n"
+	.string "at all--I'm the man for the job!\p"
+	.string "First, we'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "BAY BRINEY: Ahoy!\nNe söylemek istediğini çok iyi\lbiliyorum!\pSLATEPORT'taki KAPTAN STERN'e paket\nteslim edeceksin.\pBenim için hiç sorun değil.\nBen bu işin adamıyım!\pİlk DEWFORD'a yelken açacağız.$"
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "I know exactly what you want to say!\p"
+	.string "You're to deliver a package to\n"
+	.string "CAPT. STERN in SLATEPORT.\p"
+	.string "What you need me to do is no problem\n"
+	.string "at all--I'm the man for the job!\p"
+	.string "First, we'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
-	.string "BAY BRINEY: Ahoy!\nSenin için her zaman denize\laçılabilirim!\pPeki, dostum, nereye gidiyoruz?$"
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "For you, I'll go out to sea anytime!\p"
+	.string "Now, my friend, where are we bound?$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
-	.string "BAY BRINEY: Öyle mi?\nPEEKO hayatını sana borçlu.\pNe zaman yelken açmak istersen\ngelip bana söyleyebilirsin!$"
+	.string "MR. BRINEY: Is that so?\n"
+	.string "Well, PEEKO owes her life to you.\p"
+	.string "You just go on and tell me whenever\n"
+	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_Peeko:
 	.string "PEEKO: Pii piihyoro!$"
-
 

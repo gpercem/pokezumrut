@@ -42,6 +42,7 @@ Route106_EventScript_Ned::
 	end
 
 Route106_Text_TrainerTips:
-	.string "EĞİTMEN İPUÇLARI\pOLTA ile POKéMON yakalamak için\ntavsiyeler: Bir ısırık alırsanız\lA Düğmesine basın.$"
-
+	.string "TRAINER TIPS\p"
+	.string "Advice on catching POKéMON with a ROD:\n"
+	.string "Press the A Button if you get a bite.$"
 

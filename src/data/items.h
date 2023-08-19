@@ -3269,7 +3269,7 @@ const struct Item gItems[] =
 
     [ITEM_DEVON_GOODS] =
     {
-        .name = _("DEVONÇANTASI"),
+        .name = _("DEVON PAKETİ"),
         .itemId = ITEM_DEVON_GOODS,
         .price = 0,
         .description = sDevonGoodsDesc,

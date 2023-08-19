@@ -283,100 +283,177 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, nasıl gidiyor, ŞAMPİYON adayı\n{PLAYER}?\pDEWFORD'un SALON LİDERİ, DÖVÜŞ tipi\nPOKéMON'lar kullanıyor.\pOna NORMAL tip POKéMON ile karşı çıkmak\nbela aramaktır.\pDÖVÜŞ POKéMON'ları, NORMAL POKéMON'lara\nciddi bir darbe indirecektir, bu yüzden\ldikkatli ol!\pDaha da kötüsü bu SALON, okyanus\ntabanı kadar karanlık.\pAncak yoluna çıkan eğitmenleri\nyendikten sonra daha aydınlık olacak.\pHadi, devam et!$"
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
+	.string "FIGHTING-type POKéMON.\p"
+	.string "Going against him with NORMAL-type\n"
+	.string "POKéMON is asking for trouble.\p"
+	.string "FIGHTING POKéMON will lay a serious\n"
+	.string "smack down on NORMAL POKéMON,\l"
+	.string "so be careful!\p"
+	.string "What's worse, the GYM is as dark as\n"
+	.string "the ocean floor.\p"
+	.string "But it will get brighter after defeating\n"
+	.string "the TRAINERS in your way.\p"
+	.string "Hey, okay, go for it!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Vay be!\nBurası çok aydınlık oldu!\pAynı senin geleceğin gibi!$"
+	.string "Whoah! It's turned too bright in here!\p"
+	.string "Your future is bright, too!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
-	.string "Güçlü olan haklıdır!\nHaydi!$"
+	.string "Might is right!\n"
+	.string "Come on!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Yeterli gücüm yok.$"
+	.string "Not enough power…$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
-	.string "Yeteneğin benim gücümü aştı!\nTekniğin övgüye değer!$"
+	.string "Your skill overcame my strength!\n"
+	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "BRAWLY'in karışmasına gerek yok!\pSeni ezeceğim!$"
+	.string "There's no need for BRAWLY to be\n"
+	.string "involved!\p"
+	.string "I'll crush you!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
-	.string "Ama… Nasıl? Nasıl bu kadar kolay\nkaybedebildim?$"
+	.string "But… How?\n"
+	.string "How could I lose so easily?$"
 
 DewfordTown_Gym_Text_JocelynPostBattle:
-	.string "Bu kaybı boşa harcamayacağım.\nBununla motivasyon tazeleyeceğim!\pBir gün SALON LİDERİ olacağım.\pHayır, ben POKéMON LİGİ ŞAMPİYONU\nolacağım!$"
+	.string "I'm not going to waste this loss.\n"
+	.string "I'll use it to motivate me to train!\p"
+	.string "One day I'll become a GYM LEADER…\p"
+	.string "No, I'll become the POKéMON LEAGUE\n"
+	.string "CHAMPION!$"
 
 DewfordTown_Gym_Text_LauraIntro:
-	.string "Sakın beni başından savmaya kalkma!\nAğlarsan bu benim suçum değil!$"
+	.string "Don't you dare brush me off!\n"
+	.string "It's not my fault if you cry!$"
 
 DewfordTown_Gym_Text_LauraDefeat:
-	.string "Vaaaaaaah!\nKaybettim!$"
+	.string "Waaaaaaah!\n"
+	.string "I lost!$"
 
 DewfordTown_Gym_Text_LauraPostBattle:
-	.string "Kalbimi güçlendirmek için karanlıkta\nsavaşıyorum.\pAma çok karanlık olduğu için BRAWLY'nin\nyüzünü göremiyorum…$"
+	.string "I battle in the dark to make my heart\n"
+	.string "stronger.\p"
+	.string "But because it's so dark, I can never\n"
+	.string "see BRAWLY's face…$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "Ufufu…\nKaranlıkta tökezliyor musun?$"
+	.string "Ufufu…\n"
+	.string "Are you stumbling around in the dark?$"
 
 DewfordTown_Gym_Text_LilithDefeat:
-	.string "S-sen…\nSeni görmek istemiyorum!$"
+	.string "Oh, you…\n"
+	.string "I don't want to know you!$"
 
 DewfordTown_Gym_Text_LilithPostBattle:
-	.string "Kaybolmayı ve tekrar girişe dönmeyi\nhak ediyorsun!$"
+	.string "You deserve to stay lost and end up\n"
+	.string "back at the entrance again!$"
 
 DewfordTown_Gym_Text_BrendenIntro:
-	.string "Sana bir denizcinin cesaretini\ngöstereceğim!$"
+	.string "I'll show you the gumption of\n"
+	.string "a sailing man!$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
-	.string "Bu nasıl oldu?\nBöyle kaybetmek bana göre değil!$"
+	.string "How'd this happen?\n"
+	.string "It's not like me to lose this way!$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "Peki!\nSALON LİDERİMİZİ görmeye layıksın.$"
+	.string "Oh, aye! You're worthy of seeing\n"
+	.string "our GYM LEADER.$"
 
 DewfordTown_Gym_Text_CristianIntro:
-	.string "Eğer rozet istiyorsan, ilk\nbeni geçmen gerekecek!$"
+	.string "If you mean to pass, it has to be\n"
+	.string "through me!$"
 
 DewfordTown_Gym_Text_CristianDefeat:
-	.string "Grrrrr!\nAşırı güçlüsün!$"
+	.string "Grrrrr!\n"
+	.string "Vastly overpowered!$"
 
 DewfordTown_Gym_Text_CristianPostBattle:
-	.string "Sen kazandın!\nO rozetin peşinden git!$"
+	.string "You win!\n"
+	.string "Go after that BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "Ben BRAWLY'im!\nDEWFORD'un SALON LİDERİ!\pBu bölgelerin sert dalgalarında\nçalkalandım ve zifiri karanlık mağarada\lgüçlendim!\pBana meydan okumak mı istiyorsun?\nNeye benzediğini görmeme izin ver!$"
+	.string "I'm BRAWLY!\n"
+	.string "DEWFORD's GYM LEADER!\p"
+	.string "I've been churned in the rough waves\n"
+	.string "of these parts, and I've grown tough\l"
+	.string "in the pitch-black cave!\p"
+	.string "So you wanted to challenge me?\n"
+	.string "Let me see what you're made of!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Vay canına!\nBeklediğimden çok daha iyiydin!\pBeni batırdın!\pTamam, al bu SALON rozetini!$"
+	.string "Whoah, wow! You made a much bigger\n"
+	.string "splash than I expected!\p"
+	.string "You swamped me!\p"
+	.string "Okay, you've got me.\n"
+	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER}, BRAWLY'den YUMRUK ROZETİ\naldı.$"
+	.string "{PLAYER} received the KNUCKLE BADGE\n"
+	.string "from BRAWLY.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "YUMRUK ROZETİ, 30. Seviyeye kadar olan\ntüm POKéMON'ların, hatta takasla\laldıklarının bile sorgusuz sualsiz\litaat etmesini sağlar.\pAyrıca, HM saldırısı FLASH'ı savaş\ndışında da kullanabileceksin.\pİstersen bu TEKNİK MAKİNEYİ de\nkullanabilirsin.$"
+	.string "The KNUCKLE BADGE makes all POKéMON\n"
+	.string "up to Level 30, even those you get in\l"
+	.string "trades, obey without question.\p"
+	.string "And, you'll be able to use the HM move\n"
+	.string "FLASH outside of battle.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "TM08'de BULK UP var.\pHem SALDIRI hem de SAVUNMA\ndeğerlerini yükselten bir saldırı.\p… … … … … …$"
+	.string "That TM08 contains BULK UP.\p"
+	.string "It's a move that raises both ATTACK\n"
+	.string "and DEFENSE stats.\p"
+	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "GYM LİDERİ BRAWLY, POKéNAV'a\nkaydedildi.$"
+	.string "Registered GYM LEADER BRAWLY\n"
+	.string "in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "Yeteneğinin bir gün eğitmenler\narasında şaşkınlık fırtınası yaratacak\ldev bir dalgaya dönüştüğünü\lgörebiliyorum!$"
+	.string "I can see your talent becoming a giant\n"
+	.string "wave to cause a storm of astonishment\l"
+	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD KASABASI POKéMON SALONU$"
+	.string "DEWFORD TOWN POKéMON GYM$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD KASBASI POKéMON SALONU\pBRAWLY'NİN ONAYLI EĞİTMENLERİ:\n{PLAYER}$"
+	.string "DEWFORD TOWN POKéMON GYM\p"
+	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "BRAWLY: Bir dalga geri çekilebilir, ama\nher zaman kıyıya geri döner.\pSenin gibi dev bir yetenek dalgası…\nGeri döneceğini biliyordum!\pNe kadar yükseldiğini göster bana!$"
+	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "always returns to the shore.\p"
+	.string "A giant wave of a talent like you…\n"
+	.string "I knew you would return!\p"
+	.string "Show me how much higher\n"
+	.string "you've gone!$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
-	.string "Vay canına!\nYine battık!$"
+	.string "Wow!\n"
+	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "Savaş uçsuz bucaksız ve derindir.\nDibini göremezsin.\lTıpkı HOENN'deki denizler gibi!$"
+	.string "BRAWLY: Battling is vast and it's deep.\n"
+	.string "You can't see the bottom.\l"
+	.string "It's just like the sea of HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "BRAWLY: Bir dalga geri çekilebilir, ama\nher zaman kıyıya geri döner.\pSenin gibi yetenekli dev bir dalga…\nGeri döneceğini biliyordum!\pÖyle mi? Savaşabilecek sadece bir\nPOKéMON'un var.\pÜzgünüm ama en az iki POKéMON'la\ndönmeni istiyorum.$"
+	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "always returns to the shore.\p"
+	.string "A giant wave of a talent like you…\n"
+	.string "I knew you would return!\p"
+	.string "Oh? You only have one POKéMON\n"
+	.string "that can battle.\p"
+	.string "I'm sorry, but I'd like you to come back\n"
+	.string "with at least two POKéMON.$"

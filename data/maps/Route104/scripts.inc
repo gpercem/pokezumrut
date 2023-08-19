@@ -1033,16 +1033,16 @@ Route104_Text_MrBrineysCottage:
 	.string "BAY BRINEY'İN KULÜBESİ$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROTA 1O4\n{RIGHT_ARROW} PETALBURG ŞEHRİ$"
+	.string "ROTA 1O4\n{RIGHT_ARROW} PETALBURG ŞEHRİ$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROTA 1O4\n{UP_ARROW} RUSTBORO ŞEHRİ$"
+	.string "ROTA 1O4\n{UP_ARROW} RUSTBORO ŞEHRİ$"
 
 Route104_Text_PrettyPetalFlowShop:
-	.string "TAÇ YAPRAK ÇİÇEKÇİ DÜKKÂNI$"
+	.string "TAÇ YAPRAK ÇİÇEKÇİ DÜKKÂNI$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-	.string "EĞİTMEN İPUÇLARI\pHOENN bölgesinde, ÇİFT SAVAŞ adı verilen\n2'ye 2 POKéMON savaşları\lyapılmaktadır.\pÇift savaşta, EĞİTMEN listenin\nsolundaki ve en üstteki olmak üzere iki\lPOKéMON gönderir. POKéMON'ların\lnasıl sıralandığı önemlidir.$"
+	.string "EĞİTMEN İPUÇLARI\pHOENN bölgesinde, ÇİFT SAVAŞ adı verilen\n2'ye 2 POKéMON savaşları\lyapılmaktadır.\pÇift savaşta, EĞİTMEN listenin\nsolundaki ve en üstteki olmak üzere iki\lPOKéMON gönderir. POKéMON'ların\lnasıl sıralandığı önemlidir.$"
 
 Route104_Text_MayWeShouldRegister:
 	.string "MAY: Merhaba, {PLAYER}{KUN}!\pDEVON, POKéNAV'ına MAÇ ARAMASI\ngüncellemesi kurdu, değil mi?\pBirbirimizi kaydetmeliyiz, böylece\nistediğimiz zaman iletişim kurabiliriz.$"
@@ -1096,4 +1096,4 @@ Route104_Text_BrendanDefeat:
 	.string "Hmm…\nOldukça iyisin.$"
 
 Route104_Text_BrendanPostBattle:
-	.string "POKéMON'ları idare etmekte oldukça\niyisin.\pAma, bilirsin, sadece POKéMON savaşı\nyapmamalısın.\pTıpkı MR. BRINEY gibi POKéMON'unla\narkadaş olman da önemli.$"
+	.string "POKéMON'ları idare etmekte oldukça\niyisin.\pAma, bilirsin, sadece POKéMON savaşı\nyapmamalısın.\pTıpkı BAY BRINEY gibi POKéMON'unla\narkadaş olman da önemli.$"

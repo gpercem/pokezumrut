@@ -51,69 +51,30 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 	end
 
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
-	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
-	.string "Our BOSS isn't here! He's gone off to\n"
-	.string "snatch something important!\p"
-	.string "… …\n"
-	.string "Where did he go?\p"
-	.string "Wahaha! Do you really think I'd tell\n"
-	.string "you something that crucial?$"
+	.string "Ne? Ne? Ne?\nAQUA TAKIMI'ndan ne istiyorsun?\pPatronumuz burada değil!\nÖnemli bir şey almaya gitti!\p… … Nereye mi gitti?\pVahaha! Sana gerçekten bu kadar önemli\nbir şeyi söyleyeceğimi mi sandın?$"
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
-	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is trying to\n"
-	.string "awaken an awesome POKéMON at their\l"
-	.string "HIDEOUT.\p"
-	.string "But where might their HIDEOUT be?$"
+	.string "Ne? Ne? Ne?\nSen bir MAGMA TAKIMI haydutu musun?\pDuyduğuma göre MAGMA TAKIMI,\nsığınaklarında muhteşem güçlü bir\lPOKéMON'u uyandırmaya çalışıyormuş.\pAma saklandıkları yer neresi olabilir?$"
 
 AquaHideout_1F_Text_BossWentToJackASubmarine:
-	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
-	.string "Our BOSS isn't here!\n"
-	.string "He's gone off to jack a submarine!\p"
-	.string "… …\n"
-	.string "Where did he go?\p"
-	.string "Wahaha! Do you really think I'd tell\n"
-	.string "you something that crucial?$"
+	.string "Ne? Ne? Ne?\nAQUA TAKIMI'ndan ne istiyorsun?\pPatronumuz burada değil! Bir\ndenizaltıyı soymaya gitti!\p… Nerede mi?\pVahaha! Sana gerçekten bu kadar önemli\nbir şey söyleyeceğimi mi sanıyorsun?$"
 
 AquaHideout_1F_Text_BossIsOnRoute122:
-	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
-	.string "Our BOSS isn't here! He's on his way to\n"
-	.string "MT. PYRE on ROUTE 122!\p"
-	.string "… …\n"
-	.string "Why did he go?\p"
-	.string "Wahaha! Do you really think I'd tell\n"
-	.string "you something that crucial?$"
+	.string "Ne? Ne? Ne?\nAQUA TAKIMI'ndan ne istiyorsun?\pPatronumuz burada değil!\nPYRE DAĞI'na gidiyor!\p… Neden mi gitti?\pVahaha! Gerçekten sana bu kadar önemli\nbir şey söyleyeceğimi mi sanıyorsun?$"
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
-	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is after\n"
-	.string "an awesome POKéMON at MT. CHIMNEY.\p"
-	.string "But what is that POKéMON like?$"
+	.string "Ne? Ne? Ne?\nSen bir MAGMA TAKIMI haydutu musun?\pMAGMA TAKIMI'nın CHİMNEY DAĞI'nda harika\nbir POKéMON'un peşinde olduğunu duydum.\pAma o POKéMON neye benziyor?$"
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
-	.string "What? What? What do you want with\n"
-	.string "TEAM AQUA?\p"
-	.string "Our BOSS isn't here!\n"
-	.string "He's on his way to SLATEPORT CITY!\p"
-	.string "… …\n"
-	.string "Why did he go?\p"
-	.string "Wahaha! Do you really think I'd tell\n"
-	.string "you something that crucial?$"
+	.string "Ne? Ne? Ne?\nAQUA TAKIMI'ndan ne istiyorsun?\pPatronumuz burada değil!\nSLATEPORT ŞEHRİ'ne gidiyor!\p… Neden mi gitti?\pVahaha! Sana gerçekten bu kadar önemli\nbir şey söyleyeceğimi mi sanıyorsun?$"
 
 AquaHideout_1F_Text_Grunt1Intro:
-	.string "Ayiyiyi!\n"
-	.string "Suspicious character spotted!$"
+	.string "Ayiyiyi!\nŞüpheli biri tespit edildi!$"
 
 AquaHideout_1F_Text_Grunt1Defeat:
-	.string "Grrrrr…\n"
-	.string "I lost it!$"
+	.string "Grrrrr…\nKaybettim!$"
 
 AquaHideout_1F_Text_Grunt1PostBattle:
-	.string "I took the loss for the TEAM,\n"
-	.string "but I did my job…$"
+	.string "Takım için kaybettim ama işimi yaptım.$"
+
 

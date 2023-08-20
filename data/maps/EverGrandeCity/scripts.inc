@@ -24,14 +24,14 @@ EverGrandeCity_EventScript_SetVisitedEverGrande::
 	end
 
 EverGrandeCity_Text_EnteringVictoryRoad:
-	.string "ENTERING VICTORY ROAD$"
+	.string "ZAFER YOLU GİRİŞİ$"
 
 EverGrandeCity_Text_EnteringPokemonLeague:
-	.string "ENTERING POKéMON LEAGUE\n"
-	.string "CENTER GATE$"
+	.string "POKéMON LİGİ GİRİŞİ\n"
+	.string "ANA KAPI$"
 
 EverGrandeCity_Text_CitySign:
-	.string "EVER GRANDE CITY\p"
-	.string "“The paradise of flowers, the sea,\n"
-	.string "and POKéMON.”$"
+	.string "EVER GRANDE ŞEHRİ\p"
+	.string "“Çiçeklerin, suyun ve POKéMON'ların\n"
+	.string "cenneti.”$"
 

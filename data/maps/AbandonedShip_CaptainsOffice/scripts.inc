@@ -23,19 +23,12 @@ AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
 	end
 
 AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
-	.string "I'm investigating this ship on behalf\n"
-	.string "of CAPT. STERN.\p"
-	.string "He also asked me to find a SCANNER,\n"
-	.string "but I haven't had any success…$"
+	.string "Kaptan STERN adına bu gemiyi\naraştırıyorum.\pAyrıca benden bir TARAYICI bulmamı\nistedi, ama henüz bulamadım…$"
 
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
-	.string "Oh! That's a SCANNER!\p"
-	.string "Listen, can I get you to deliver that\n"
-	.string "to CAPT. STERN?\p"
-	.string "I want to investigate this ship a\n"
-	.string "little more.$"
+	.string "Aa! Bu bir tarayıcı!\pDinle, bunu Kaptan STERN'e teslim\nedebilir misin??\pBu gemiyi biraz daha araştırmak\nistiyorum.$"
 
 AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
-	.string "This ship is called S.S. CACTUS.\n"
-	.string "It seems to be from an earlier era.$"
+	.string "Bu geminin adı S.S. KAKTÜS.\nEski bir döneme ait gibi görünüyor.$"
+
 

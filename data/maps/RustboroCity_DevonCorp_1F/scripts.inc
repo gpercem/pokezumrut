@@ -81,66 +81,33 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 	end
 
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
-	.string "Hello and welcome to the DEVON\n"
-	.string "CORPORATION.\p"
-	.string "We're proud producers of items and\n"
-	.string "medicine that enhance your life.$"
+	.string "Merhaba.\nDEVON ŞİRKETİ'ne hoş geldiniz.\pHayatınızı güzelleştiren ürünler ve\nilaçlar üretmekten gurur duyuyoruz.$"
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
-	.string "One of our research staff stupidly\n"
-	.string "got robbed of an important parcel.$"
+	.string "Araştırma personelimizden biri aptalca\nbir şekilde önemli bir paketi çaldırdı.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
-	.string "Hey, those RUNNING SHOES!\n"
-	.string "They're one of our products!\p"
-	.string "It makes me happy when I see someone\n"
-	.string "using something we made.$"
+	.string "Hey, şu KOŞU AYAKKABILARI!\nOnlar bizim ürünlerimizden biri!\pBirinin bizim yaptığımız ürünü\nkullandığını görmek beni mutlu ediyor.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
-	.string "anything that anyone can use.\p"
-	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.$"
+	.string "Şu çalınan paket.\pElbette önemli ama herkesin\nkullanabileceği bir şey değil.\pTahminime göre, o soyguncu pek zeki biri\ndeğildi.$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
-	.string "It sounds like they've recovered\n"
-	.string "the ripped-off DEVON GOODS.$"
+	.string "Görünüşe göre çalınan DEVON\nPAKEDİ'ni geri almışlar.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string "I'm sorry, only authorized people\n"
-	.string "are allowed to enter here.$"
+	.string "Üzgünüm, buraya sadece yetkili kişilerin\ngirmesine izin veriliyor.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
-	.string "It's beyond stupid.\n"
-	.string "How could we get robbed?$"
+	.string "Bu aptallığın da ötesinde.\nNasıl soyulabiliriz ki?$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
-	.string "Hi, there!\n"
-	.string "You're always welcome here!$"
+	.string "Merhabalar!\nBurada her zaman hoş karşılanırsınız!$"
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
-	.string "Samples of rocks and metal are\n"
-	.string "displayed in the glass case.\p"
-	.string "There's a panel with some writing\n"
-	.string "on it…\p"
-	.string "“DEVON CORPORATION got its start as\n"
-	.string "a producer of stones from quarries.\p"
-	.string "“The company also produced iron from\n"
-	.string "filings in the sand.\p"
-	.string "“From that humble start as a producer\n"
-	.string "of raw materials, DEVON developed.\p"
-	.string "“DEVON is now a manufacturer of a wide\n"
-	.string "range of industrial products.”$"
+	.string "Taş ve metal örnekleri cam vitrinde\nsergileniyor.\pÜzerinde bazı yazılar olan bir panel var.\pDEVON ŞİRKETİ, taş ocaklarından\ntaş üreterek işe başladı.\pŞirket ayrıca kumdaki talaşlardan demir\nde üretiyordu.\pDEVON, hammadde üreticisi olarak\nbaşladığı bu yolda böyle gelişti.\pDEVON artık çok çeşitli endüstriyel\nürünlerin üreticisidir.$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
-	.string "Prototypes and test products fill\n"
-	.string "the glass display case.\p"
-	.string "There's a panel with a description…\p"
-	.string "“In addition to industrial products,\n"
-	.string "DEVON now markets sundries and\l"
-	.string "pharmaceuticals for better lifestyles.\p"
-	.string "“Recently, DEVON has begun marketing\n"
-	.string "tools for POKéMON TRAINERS, including\l"
-	.string "POKé BALLS and POKéNAV systems.”$"
+	.string "Prototipler ve test ürünleri cam vitrini\ndolduruyor.\pBu panelde bir açıklama var…\pEndüstriyel ürünlerin yanı sıra DEVON\nartık daha iyi yaşam tarzları için\lçeşitli eşyalar ve eczacılık ürünleri de\lpazarlamaktadır.\pYakın zamanda DEVON, POKé TOPLARI ve\nPOKéNAV sistemleri de dahil olmak üzere\lPOKéMON EĞİTMENLERİ için araçlar\lpazarlamaya başladı.$"
+
 

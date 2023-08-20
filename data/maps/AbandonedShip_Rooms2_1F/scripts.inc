@@ -50,100 +50,70 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 	end
 
 AbandonedShip_Rooms2_1F_Text_DanIntro:
-	.string "DAN: While searching for treasures,\n"
-	.string "we discovered a TRAINER!$"
+	.string "DAN: Hazine ararken bir EĞİTMEN bulduk!$"
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
-	.string "DAN: We couldn't win even though\n"
-	.string "we worked together…$"
+	.string "DAN: Birlikte çalışmamıza rağmen\nkazanamadık…$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
-	.string "DAN: We can't find any treasures…\n"
-	.string "I wonder if someone got them already?$"
+	.string "DAN: Hiç hazine bulamıyoruz…\nAcaba birileri çoktan buldu mu?$"
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
-	.string "DAN: You don't even have two POKéMON.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "DAN: İki POKéMON'un bile yok.\nBizi bu şekilde yenmeyi bekleyemezsin.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-	.string "KIRA: Oh?\n"
-	.string "We were searching for treasures.\l"
-	.string "But we discovered a TRAINER instead!$"
+	.string "KİRA: Hazine arıyorduk.\pOnun yerine bir EĞİTMEN bulduk!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
-	.string "KIRA: Ooh, so strong!$"
+	.string "KİRA: Aaa, çok güçlü!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
-	.string "KIRA: Where could the treasures be?\p"
-	.string "I've already decided what I'm buying\n"
-	.string "when we find the treasures!$"
+	.string "KİRA: Hazineler nerede olabilir?\pHazineleri bulduğumuzda ne alacağıma\nçoktan karar verdim!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
-	.string "We'll have to battle some other time!$"
+	.string "KİRA: İki POKéMON'un yok mu?\nBaşka bir zaman savaşmamız gerekecek!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-	.string "KIRA: Oh, you make me so angry!\n"
-	.string "I'm going to register you for that!$"
+	.string "KİRA: Beni çok kızdırıyorsun!\nBu yüzden seni kaydedeceğim!$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
-	.string "DAN: We've been searching for\n"
-	.string "treasures all this time.\p"
-	.string "Our POKéMON have grown stronger, too.\n"
-	.string "Let us show you, okay?$"
+	.string "DAN: Bunca zamandır hazineleri arıyorduk.\pPOKéMON'larımız da güçlendi.\nİstersen sana gösterelim.$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
-	.string "DAN: You're strong, as usual!$"
+	.string "DAN: Her zamanki gibi güçlüsün!$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
-	.string "DAN: We can't find any treasures,\n"
-	.string "we lose at POKéMON…\p"
-	.string "I want to go home… But if I say that,\n"
-	.string "she gets all angry with me…$"
+	.string "DAN: Hazine bulamıyoruz, POKéMON'da\nkaybediyoruz…\pEve gitmek istiyorum… Ama bunu\nsöylersem bana çok kızıyor…$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
-	.string "DAN: You don't even have two POKéMON.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "DAN: İki POKéMON'un bile yok.\nBizi bu şekilde yenmeyi bekleyemezsin.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
-	.string "KIRA: Oh? We meet again!\p"
-	.string "Just like us, you still haven't given up\n"
-	.string "searching for treasures, have you?\p"
-	.string "Want to make it so the loser has\n"
-	.string "to give up searching?$"
+	.string "KİRA: Yine karşılaştık!\pSen de bizim gibi hazine aramaktan\nvazgeçmedin, değil mi?\pKaybedenin aramaktan vazgeçmesine\nbahse girelim mi?$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-	.string "KIRA: Oh, we lost again…$"
+	.string "KİRA: Yine kaybettik…$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
-	.string "KIRA: We're not leaving until we raise\n"
-	.string "our POKéMON some more and we find\l"
-	.string "the treasures here!$"
+	.string "KİRA: POKéMON'umuzu biraz daha\nyükseltmeden ve buradaki hazineleri\lbulmadan gitmiyoruz!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
-	.string "We'll have to battle some other time!$"
+	.string "KİRA: İki POKEMON'un yok mu?\nBaşka bir zaman savaşmamız gerekecek!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro:
-	.string "I'm not good at swimming,\n"
-	.string "but I am good at battles!$"
+	.string "Yüzmede iyi değilim ama savaşlarda\niyiyim!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniDefeat:
-	.string "Oops.\n"
-	.string "That didn't go very well.$"
+	.string "Eyvah. Bu pek iyi gitmedi.$"
 
 AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
-	.string "Walking around barefoot in this ship\n"
-	.string "is kind of gross.$"
+	.string "Bu gemide çıplak ayakla dolaşmak biraz\niğrenç.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-	.string "Strength and compassion…\n"
-	.string "Those are a TRAINER's treasures!$"
+	.string "Güç ve şefkat…\nBunlar bir eğitmenin hazineleridir!$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
-	.string "Ah, there is something about you\n"
-	.string "that sparkles.$"
+	.string "Sende parıldayan bir şeyler var.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
-	.string "In a cabin somewhere on board,\n"
-	.string "I saw something sparkle.$"
+	.string "Kamaraların birinde bir şeyin\nparıldadığını gördüm.$"

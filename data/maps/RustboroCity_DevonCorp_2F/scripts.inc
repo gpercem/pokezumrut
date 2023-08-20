@@ -271,114 +271,54 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with POKéMON.\p"
-	.string "But we haven't had much success…$"
+	.string "POKéMON'lar ile konuşmak için bir\ncihaz geliştiriyoruz.\pAma pek başarılı olamadık…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…$"
+	.string "Yeni tür POKé TOPLARI geliştiriyorum…\pAma pek ilerleme kaydedemedim.$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
-	.string "We finally made new kinds of\n"
-	.string "POKé BALLS!\p"
-	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch POKéMON you've caught before.\p"
-	.string "The TIMER BALL gets better at catching\n"
-	.string "POKéMON the longer a battle runs.\p"
-	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "Please give them a try!$"
+	.string "Sonunda yeni tür POKé TOPLARI yaptık!\pTEKRAR TOPU, daha önce yakaladığın\nPOKéMON'ları yakalamanı\lkolaylaştırır.\pZAMAN TOPU, bir savaş ne kadar\nuzun sürerse POKéMON yakalamada o\lkadar iyi olur.\pHer ikisi de DEVON ŞİRKETİ\ntarafından gururla geliştirilmiştir.\pLütfen onları bir deneyin!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string "POKéNAV'ı ben yaptım!\pBir mühendis olarak, bu kadar harika bir\nşey yaptığım için kendimi kutsanmış\lhissediyorum!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
-	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
-	.string "It came about as a result of our\n"
-	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "Vay canına!\nBu bir POKéNAV!\pBaşkanımızın POKéMON'un duygularını\nöğrenme arzusunun bir sonucu olarak\lortaya çıktı.\pÖzelliklerini ayrıntılı olarak anlatmamı\nister misin?\pHayır, hayır. Bence sadece POKéNAV'ı\ndeneyerek öğreneceksin.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "POKéMON…\p"
-	.string "But it's not going well.$"
+	.string "POKéMON'un hayallerini görsel olarak\nyeniden üreten bir cihaz geliştirmeye\lçalışıyorum…\pAma işler iyi gitmiyor.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKéMON from fossils…\p"
-	.string "And, it's working!$"
+	.string "Fosillerden POKéMON'u diriltecek bir\ncihaz geliştirmeye çalışıyordum…\pVe işe yarıyor!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
-	.string "Wait! That thing you have there…\n"
-	.string "Is that a POKéMON fossil?\p"
-	.string "Would you like to bring that POKéMON\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "Bekle! Oradaki şey…\nO bir POKéMON fosili mi?\pO POKéMON'u hayata döndürmek ister\nmisin?\pYeni geliştirdiğim FOSİL YENİLEYİCİ\nile yapabilirim.$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "DEVON's technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "Öyle mi?\pDEVON'un teknolojik uzmanlığı\nolağanüstü, söylemiş olayım.$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have not one, but two, fossils?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one POKéMON at a time.\p"
-	.string "Would you like to pick one of your\n"
-	.string "fossils for regeneration?$"
+	.string "İşte bu sürpriz oldu!\nBir değil, iki fosilin mi var?\pMaalesef makinem bir seferde sadece bir\nPOKéMON yenileyebiliyor.\pRejenerasyon için fosillerinden birini\nseçmek ister misin?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "Mükemmel!\nBunu hemen yapalım.\p{PLAYER}, {STR_VAR_1}'ni DEVON\nARAŞTIRMACISI'na verdi.$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "FOSİL YENİLEYİCİ inanılmaz.\pAma bir dezavantajı var.\nÇalışması uzun zaman alıyor.\pBiraz dolaşmaya ve etrafa bakmaya ne\ndersin?$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized POKéMON has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient POKéMON.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "Beklediğin için teşekkürler!\pFosilleşmiş POKéMON'un hayata\ndöndürüldü!\pFosil eski bir POKéMON'du.\n{STR_VAR_2} idi!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "{PLAYER}, DEVON ARAŞTIRMACISI'ndan\n{STR_VAR_2} aldı.$"
 
-@ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many POKéMON.\n"
-	.string "You have no room for this one.$"
+	.string "Çok fazla POKéMON'un var.\nBunun için yerin yok.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
-	.string "But it's not going well.$"
+	.string "POKéNAV için yeni bir özellik\ngeliştirmeye çalışıyorum…\pAma işler iyi gitmiyor.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "Peki, şimdi ne geliştirmek için\nçalışmalıyım?\pŞirketimiz ilhamlarımızı gerçeğe\ndönüştürmemize olanak sağlıyor.\pBir mühendis olarak daha iyi bir ortam\nisteyemezdim.$"
+
 

@@ -694,7 +694,19 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "Burada her şey sevgiyle.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "PROF. BIRCH: Evet, {PLAYER}{KUN}.\pBabandan senin hakkında çok şey duydum.\pHenüz kendi POKéMON'una sahip\nolmadığını duydum.\pAma daha önce savaşma şekline bakılırsa,\nbunu ustalıkla başardın!\pSanırım damarlarında babanın kanı\ndolaşıyor!\pAh, evet. Beni kurtardığın için teşekkür\nolarak, bu POKéMON'u almanı istiyorum.\p{PLAYER}, {STR_VAR_1}'i aldı!$"
+	.string "PROF. BIRCH: Evet, {PLAYER}{KUN}.\p"
+	.string "Babandan senin hakkında çok şey\n"
+	.string "duydum.\p"
+	.string "I've heard that you don't have your\n"
+	.string "own POKéMON yet.\p"
+	.string "But the way you battled earlier,\n"
+	.string "you pulled it off with aplomb!\p"
+	.string "I guess you have your father's blood\n"
+	.string "in your veins after all!\p"
+	.string "Oh, yes. As thanks for rescuing me,\n"
+	.string "I'd like you to have the POKéMON you\l"
+	.string "used earlier.\p"
+	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "PROF. BIRCH: Bu arada, neden\n"
@@ -743,118 +755,252 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} POKéDEX aldı!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: POKéDEX, karşılaştığın\nveya yakaladığın her POKéMON'un\lkaydını otomatik olarak tutan yüksek\lteknolojili bir araçtır.\pÇocuğum {RIVAL} her yere onunla\ngidiyor.\pÇocuğum ne zaman nadir bir POKéMON\nyakalasa ve verilerini POKéDEX'e\lkaydetse, beni arıyor ve haberini\lveriyor.$"
+	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
+	.string "tool that automatically makes a record\l"
+	.string "of any POKéMON you meet or catch.\p"
+	.string "My kid, {RIVAL}, goes everywhere\n"
+	.string "with it.\p"
+	.string "Whenever my kid catches a rare POKéMON\n"
+	.string "and records its data in the POKéDEX,\l"
+	.string "why, {RIVAL} looks for me while I'm out\l"
+	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
-	.string "PROF. BIRCH: Sayısız POKéMON seni\nbekliyor!\pDışarı çıkıp tekrar saha çalışması\nyapmak için sabırsızlanıyorum!$"
+	.string "PROF. BIRCH: Countless POKéMON\n"
+	.string "await you!\p"
+	.string "Argh, I'm getting the itch to get out\n"
+	.string "and do fieldwork again!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "MAY: Vay canına, {PLAYER}{KUN}!\nSenin de bir POKéDEX'in var!\pBu harika!\nTıpkı benim gibi!\pBende de senin için bir şey var!$"
+	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
+	.string "You got a POKéDEX, too!\p"
+	.string "That's great! Just like me!\n"
+	.string "I've got something for you, too!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "MAY: Ne kadar POKéMON görürsen o\nkadar iyi!\pHer yere bakacağım çünkü farklı\ntürlerde POKéMON'lar istiyorum.\pEğer sevimli bir POKéMON bulursam,\nonu POKé TOPU ile yakalayacağım!$"
+	.string "MAY: It's fun if you can get a lot of\n"
+	.string "POKéMON!\p"
+	.string "I'm going to look all over the place\n"
+	.string "because I want different POKéMON.\p"
+	.string "If I find any cute POKéMON, I'll catch\n"
+	.string "them with POKé BALLS!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-	.string "Ha?\nÇantan dolu.$"
+	.string "Oh? Your BAG's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
-	.string "MAY: Acaba bundan sonra nerede\nPOKéMON aramalıyım?$"
+	.string "MAY: I wonder where I should go look\n"
+	.string "for POKéMON next?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-	.string "Demek senin de bir POKéDEX'in var.\pPeki o zaman, al.\nSana bunları vereceğim.$"
+	.string "BRENDAN: Huh…\n"
+	.string "So you got a POKéDEX, too.\p"
+	.string "Well then, here.\n"
+	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-	.string "BRENDAN: Ne kadar POKéMON görürsen\no kadar iyi!\pFarklı POKéMON'lar bulmak için her yeri\nkeşfedeceğim.\pEğer havalı bir POKéMON bulursam, emin ol\nonu POKé TOPU ile yakalamaya\lçalışırım.$"
+	.string "BRENDAN: You know it's more fun to\n"
+	.string "have a whole bunch of POKéMON.\p"
+	.string "I'm going to explore all over the place\n"
+	.string "to find different POKéMON.\p"
+	.string "If I find any cool POKéMON, you bet\n"
+	.string "I'll try to get them with POKé BALLS.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-	.string "Hey, çantan dolu.$"
+	.string "Hey, your BAG's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-	.string "Bundan sonra POKéMON'ları\nnerede aramalıyım?$"
+	.string "BRENDAN: Where should I look for\n"
+	.string "POKéMON next…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
-	.string "Önemli bir makine gibi görünüyor.\pProfesör bunu araştırma için kullanıyor\nolmalı.$"
+	.string "It's a serious-looking machine.\n"
+	.string "The PROF must use this for research.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
-	.string "Araştırma için kullanılan bir bilgisayar.\nOnunla uğraşmasam iyi olur.$"
+	.string "It's a PC used for research.\n"
+	.string "Better not mess around with it.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
-	.string "POKéMON'la ilgili kitaplarla dolu.$"
+	.string "It's crammed with books on POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
-	.string "Okuması çok zor bir kitap.$"
+	.string "It's a book that's too hard to read.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
-	.string "PROF. BIRCH: Şimdi…\p{PLAYER}{KUN} ve {RIVAL}, ikinizden\nde POKéMON çalışmamda yardım aldım.\pYardımlarınız sayesinde yeni şeyler\ngün ışığına çıkıyor.\pGörünüşe göre HOENN bölgesinde diğer\nbölgelerden de POKéMON'lar var.\pBu da HOENN'in doğal ortamının ne kadar\nzengin ve çeşitli olduğunu gösteriyor.\pBu yüzden POKéDEX'inizi ULUSAL Moda\nyükseltmemin gerekli olduğunu\ldüşünüyorum.\pPOKéDEX cihazlarınızı bana verin.$"
+	.string "PROF. BIRCH: Now…\p"
+	.string "{PLAYER}{KUN} and {RIVAL}, I've had the two\n"
+	.string "of you help me study POKéMON.\p"
+	.string "Thanks to your help, new facts\n"
+	.string "are coming to light.\p"
+	.string "It appears that in the HOENN region,\n"
+	.string "there are also POKéMON from other\l"
+	.string "regions.\p"
+	.string "It goes to show how rich and varied\n"
+	.string "the natural environments of HOENN\l"
+	.string "happen to be.\p"
+	.string "That's why I think it's necessary for\n"
+	.string "me to upgrade your POKéDEX to\l"
+	.string "the NATIONAL Mode.\p"
+	.string "Here, let me see your POKéDEX units.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
-	.string "MAY: Eheheh!\pPOKéDEX'imin güncelleniyor olması\nçok güzel!\pÇok POKéMON yakalaman sayesinde,\n{PLAYER}{KUN}!$"
+	.string "MAY: Eheheh!\p"
+	.string "It's so cool that even my POKéDEX\n"
+	.string "is getting updated!\p"
+	.string "It's because you went out and caught\n"
+	.string "so many POKéMON, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "BRENDAN: HOENN'in her yerini gezdim\nve POKéMON'lar yakaladım.\pUlusal POKéDEX modunu aldığım için bana\nteşekkür edebilirsin.\pEvet, şanslısın, {PLAYER}!$"
+	.string "BRENDAN: I went out all over HOENN\n"
+	.string "and checked out POKéMON.\p"
+	.string "You can thank me for getting\n"
+	.string "the NATIONAL Mode POKéDEX.\p"
+	.string "Yep, you're lucky, {PLAYER}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
-	.string "PROF. BIRCH: Tamam, bitti!$"
+	.string "PROF. BIRCH: Okay, all done!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-	.string "{PLAYER}'ın POKéDEX'i ULUSAL Moda\nyükseltildi!$"
+	.string "{PLAYER}'s POKéDEX was upgraded\n"
+	.string "to the NATIONAL Mode!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-	.string "PROF. BIRCH: Ama dinleyin.\nŞAMPİYON oldunuz ama POKéMON\lyolculuğunuz bitmedi.\pPOKéMON yolculuğunun sonu yok.\pBir yerlerde sizi bekleyen çimenli\nbir alan var hala vardır!$"
+	.string "PROF. BIRCH: But listen.\n"
+	.string "You've become the CHAMPION,\l"
+	.string "but your POKéMON journey isn't over.\p"
+	.string "There is no end to the road\n"
+	.string "that is POKéMON.\p"
+	.string "Somewhere, there is a grassy patch\n"
+	.string "that's waiting for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
-	.string "MAY: Sanırım saha çalışmalarına kısa\nbir ara vereceğim.\pBir süre burada profesöre yardım\nedeceğim.$"
+	.string "MAY: I think I'll take a short break\n"
+	.string "from fieldwork.\p"
+	.string "I think I'll help the PROF here for\n"
+	.string "a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
-	.string "Şimdilik saha çalışmalarına ara\nveriyorum.\pBir süre burada profesöre yardım\nedeceğim.$"
+	.string "BRENDAN: For the time being,\n"
+	.string "I'm taking a break from fieldwork.\p"
+	.string "I'll be helping out the PROF here\n"
+	.string "for a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-	.string "PROF. BIRCH: {PLAYER}{KUN}!\nPOKéDEX'ine bir göz atalım.\p… … … … … …\n… … … … … …\pEvet, buna hiç şüphe yok.\pGerçekten de HOENN bölgesinin\nPOKéDEX'ini tamamladın.\pBu etkileyici olmaktan da öte.\pSana bir hediyem var.\pBunu başardığın harika iş için bir\ntakdir göstergesi olarak kabul et.\pHediyem, sadece başka bir bölgede\nbulunan nadir bir POKéMON!\pBu üç POKéMON'dan herhangi birini\nalabilirsin!$"
+	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
+	.string "Let's have a look at your POKéDEX.\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "Yes, there's no doubt about it.\p"
+	.string "You really have completed the HOENN\n"
+	.string "region's POKéDEX.\p"
+	.string "That's more than just impressive.\p"
+	.string "I have a gift for you.\p"
+	.string "Consider it my show of appreciation\n"
+	.string "for the fantastic work you've done.\p"
+	.string "My gift is a rare POKéMON only found\n"
+	.string "in another region!\p"
+	.string "You can have any one of these\n"
+	.string "three POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
-	.string "PROF. BIRCH: Bunlar sadece başka bir\nbölgede bulunan nadir POKéMON'lar!\pBu üç POKéMON'dan herhangi birini\nalabilirsin!$"
+	.string "PROF. BIRCH: These are rare POKéMON\n"
+	.string "only found in another region!\p"
+	.string "You can have any one of these\n"
+	.string "three POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-	.string "PROF. BIRCH: ATEŞ POKéMON'u CYNDAQUIL\ngözüne çarptı!\pHer zamanki gibi akıllı bir seçim!\pSeçimin CYNDAQUIL mi?$"
+	.string "PROF. BIRCH: The FIRE POKéMON\n"
+	.string "CYNDAQUIL caught your eye!\p"
+	.string "You're as sharp as ever!\p"
+	.string "So the CYNDAQUIL is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-	.string "PROF. BIRCH: Seçimin SU POKEMON'u TOTODİLE\ndemek!\pEn iyisini seçmeyi biliyorsun.\pTOTODİLE'ı mi alacaksın?$"
+	.string "PROF. BIRCH: The WATER POKéMON\n"
+	.string "TOTODILE is your choice!\p"
+	.string "You know how to pick a good one.\p"
+	.string "So, you'll take the TOTODILE?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-	.string "PROF. BIRCH: ÇİMEN POKEMON'u\nCHIKORITA'yı seçtin!\pNe yaptığını çok iyi biliyorsun.\pCHIKORITA'yı mı alacaksın?$"
+	.string "PROF. BIRCH: The GRASS POKéMON\n"
+	.string "CHIKORITA is your choice!\p"
+	.string "You sure know what you're doing.\p"
+	.string "So, you'll take the CHIKORITA?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
-	.string "PROF. BIRCH: Karar vermede acele\netme.\pHepsi çok değerli POKéMON'lar.$"
+	.string "PROF. BIRCH: Take your time before\n"
+	.string "you decide.\p"
+	.string "They're all invaluable POKéMON.$"
 
+@ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
-	.string "PROF. BIRCH: Anlıyorum!\nİyi bir POKéMON seçtin!$"
+	.string "PROF. BIRCH: I see!\n"
+	.string "You picked a fine POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
-	.string "{PLAYER}, PROF. BIRCH'ten\n{STR_VAR_1} aldı!$"
+	.string "{PLAYER} received the {STR_VAR_1}\n"
+	.string "from PROF. BIRCH!$"
 
+@ Unused
 LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
-	.string "Aldığın {STR_VAR_1}'a bir takma ad\nvermek ister misin?$"
+	.string "Want to give a nickname to\n"
+	.string "the {STR_VAR_1} you received?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-	.string "PROF. BIRCH: Dinle, {PLAYER}{KUN}.\nHOENN POKéDEX'ini tamamladın, ancak\lPOKéMON yolculuğun bitmedi.\pPOKéMON yolunun sonu yok.\pBir yerlerde sizi bekleyen çimenli\nbir alan var hala vardır!$"
+	.string "PROF. BIRCH: Listen, {PLAYER}{KUN}.\n"
+	.string "You've completed the HOENN POKéDEX,\l"
+	.string "but your POKéMON journey isn't over.\p"
+	.string "There is no end to the road\n"
+	.string "that is POKéMON.\p"
+	.string "Somewhere, there is a grassy patch\n"
+	.string "that's waiting for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
-	.string "İstediğin POKéMON'u aldın.\nDiğerlerini rahat bıraksan iyi olur.$"
+	.string "You received the promised POKéMON.\n"
+	.string "Better leave the others alone.$"
 
+@ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
-	.string "Bu POKéMON için yerin yok.$"
+	.string "Oh, you don't have any room for\n"
+	.string "this POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-	.string "MAY: {PLAYER}{KUN}, bundan sonra…\nNe yapacaksın?\pSavaşmaya ve yeteneklerini geliştirmeye\ndevam mı edeceksin?\pYoksa ULUSAL POKéDEX'i doldurmaya mı\nçalışacaksın?\pBen profesöre yardım etmek için\nburada kalacağım.$"
+	.string "MAY: {PLAYER}{KUN}, after this…\n"
+	.string "What are you going to do?\p"
+	.string "Are you going to keep battling\n"
+	.string "and sharpening your skills?\p"
+	.string "Or are you going to try filling\n"
+	.string "the NATIONAL POKéDEX?\p"
+	.string "I'm staying here to help the PROF.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
-	.string "BRENDAN: Çok fazla POKéMON toplamak\nyerine seçtiğimi yavaş ve istikrarlı\lbir şekilde yükseltmeyi tercih\lediyorum.$"
+	.string "BRENDAN: Rather than collecting\n"
+	.string "POKéMON, I prefer slowly and \l"
+	.string "steadily raising the one I chose.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
-	.string "MAY: Merhaba, {PLAYER}{KUN}!\nSAVAŞ SINIRI'na gittin mi?$"
+	.string "MAY: Oh, hi, {PLAYER}{KUN}!\n"
+	.string "Have you gone to that place,\l"
+	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
-	.string "BRENDAN: Merhaba, {PLAYER}{KUN}!\nSAVAŞ SINIRI'na gittin mi?$"
+	.string "BRENDAN: Hey, {PLAYER}!\n"
+	.string "Have you gone out to that place,\l"
+	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
-	.string "… … … … … …\n… … … … … … Bip!\pMerhaba, merhaba, {PLAYER}!\nBenim, SCOTT.\pŞu anda S.S. TIDAL'dayım.\nDenizde olmak harika bir duygu!\pBu arada...\pSeni ziyaret etmen için davet etmek\nistediğim bir yer var.\pEğer ilgileniyorsan, SLATEPORT ya da\nLILYCOVE'dan bir feribota bin.\pBuluştuğumuzda sana detayları\nanlatırım. Bekliyor olacağım!\p… … … … … …\n… … … … … … Tık!$"
+	.string "… … … … … …\n"
+	.string "… … … … … Beep!\p"
+	.string "SCOTT: Hi, hi, {PLAYER}!\n"
+	.string "It's me, SCOTT.\p"
+	.string "I'm aboard the S.S. TIDAL now.\n"
+	.string "It feels great to be on the sea!\p"
+	.string "By the way…\p"
+	.string "There's this place that I'd like to\n"
+	.string "invite you to for a visit.\p"
+	.string "If you're interested, board a ferry\n"
+	.string "at either SLATEPORT or LILYCOVE.\p"
+	.string "I'll fill you in on the details when\n"
+	.string "we meet. I'll be waiting!\p"
+	.string "… … … … … …\n"
+	.string "… … … … … Click!$"

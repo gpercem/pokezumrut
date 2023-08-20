@@ -88,69 +88,69 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-	.string "No one believes me, but I saw this\n"
-	.string "gigantic POKéMON in the sky.\p"
-	.string "It seemed to squirm as it flew toward\n"
-	.string "ROUTE 131.\p"
-	.string "By the way… Sniff…\n"
-	.string "Um… You, uh…smell singed.\p"
-	.string "Were you at a volcano or something?$"
+	.string "Kimse bana inanmıyor ama\n"
+	.string "havada devasa bir pokemon gördüm.\p"
+	.string "O sanki Rota 131'e kıvrılarak\n"
+	.string "uçuyordu.\p"
+	.string "Bu arada… (koklar)…\n"
+	.string "Um… Sen, ah…yanık kokuyorsun.\p"
+	.string "Volkan veya ona benzer bir yerde miydin?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
-	.string "but something's blocking the way.\p"
-	.string "After all the bother I went through\n"
-	.string "training on ROUTE 120…$"
+	.string "Pokemon salonuna girmek istiyorum,\n"
+	.string "fakat bir şey yolu kapatıyor.\p"
+	.string "Bunca zahmetten sonra eğitimime\n"
+	.string "Rota 120'de devam ettim…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "Yanıma gururlu-ve-neşeli pokemonlarımı\n"
+	.string "aldım. Bu sefer, WİONA'yı yeneceğim.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
-	.string "trees grow by drinking that water…\p"
-	.string "Our FORTREE CITY exists because\n"
-	.string "there's both water and soil.$"
+	.string "Toprak yağmur suyunu emer, ve\n"
+	.string "ağaçlar bu suyu tüketir…\p"
+	.string "Bizim Fortree Şehrimiz oluştu çünkü\n"
+	.string "burada su ve toprak var.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "The CITY consists of homes built on\n"
-	.string "trees.\p"
-	.string "Perhaps because of that lifestyle,\n"
-	.string "everyone is healthy and lively.\p"
-	.string "Why, even myself--I feel as if I've\n"
-	.string "grown thirty years younger.$"
+	.string "Şehir ağaçların üzerindeki evlerden\n"
+	.string "oluşuyor.\p"
+	.string "Belki de bu yaşam tarzı sayesinde,\n"
+	.string "herkes sağlıklı ve canlı.\p"
+	.string "Nedense ben bile-- burada kendimi\n"
+	.string "otuz yaş genç hissediyorum.$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
-	.string "Living on top of trees is okay.\p"
-	.string "But sometimes BUG POKéMON come in\n"
-	.string "through windows.\l"
-	.string "It can be really startling.$"
+	.string "Ağaçların tepesinde yaşamak güzel.\p"
+	.string "Bazı BÖCEK POKEMONLAR camdan içeriye\n"
+	.string "doğru giriyorlar.\l"
+	.string "Bazen çok ürkünç olabiliyorlar.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are POKéMON that evolve when\n"
-	.string "you trade them! That's what I heard.$"
+	.string "Duyduğuma göre bazı POKEMONLAR sen\n"
+	.string "onları takas ettiğinde evrimleşebiliyormuş.$"
 
 FortreeCity_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "Bu yolda görülemeyen bir şey var.$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Bu yolda görülemeyen bir şey var.\p"
+	.string "DEVON DÜRBÜNÜ'NÜ kullanmak ister misin?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON fled!$"
+	.string "{PLAYER} DEVON DÜRBÜNÜ'NÜ kullandı.\p"
+	.string "Görünmez bir POKEMON başarıyla görünür\n"
+	.string "hale geldi!\p"
+	.string "Ürkünç POKEMON kaçtı!$"
 
 FortreeCity_Text_CitySign:
 	.string "FORTREE CITY\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string "“Bu ağaçüstü şehir doğayla bir\l"
+	.string "bütündür.”$"
 
 FortreeCity_Text_GymSign:
-	.string "FORTREE CITY POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
-	.string "“The bird user taking flight into\n"
-	.string "the world.”$"
+	.string "FORTREE ŞEHRİ POKEMON SALONU\n"
+	.string "LİDER:WİONA\p"
+	.string "Dünyaya doğru uçan kuş\n"
+	.string "kullanıcısı.”$"
 

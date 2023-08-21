@@ -89,18 +89,18 @@ FortreeCity_Movement_KecleonFlee:
 
 FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "Kimse bana inanmıyor ama\n"
-	.string "havada devasa bir pokemon gördüm.\p"
-	.string "O sanki Rota 131'e kıvrılarak\n"
+	.string "havada devasa bir POKéMON gördüm.\p"
+	.string "O sanki ROTA 131'e kıvrılarak\n"
 	.string "uçuyordu.\p"
 	.string "Bu arada… (koklar)…\n"
 	.string "Um… Sen, ah…yanık kokuyorsun.\p"
 	.string "Volkan veya ona benzer bir yerde miydin?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "Pokemon salonuna girmek istiyorum,\n"
+	.string "POKéMON salonuna girmek istiyorum,\n"
 	.string "fakat bir şey yolu kapatıyor.\p"
 	.string "Bunca zahmetten sonra eğitimime\n"
-	.string "Rota 120'de devam ettim…$"
+	.string "ROTA 120'de devam ettim…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string "Yanıma gururlu-ve-neşeli pokemonlarımı\n"
@@ -122,12 +122,12 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Ağaçların tepesinde yaşamak güzel.\p"
-	.string "Bazı BÖCEK POKEMONLAR camdan içeriye\n"
+	.string "Bazı BÖCEK POKéMONLAR camdan içeriye\n"
 	.string "doğru giriyorlar.\l"
 	.string "Bazen çok ürkünç olabiliyorlar.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "Duyduğuma göre bazı POKEMONLAR sen\n"
+	.string "Duyduğuma göre bazı POKéMONLAR sen\n"
 	.string "onları takas ettiğinde evrimleşebiliyormuş.$"
 
 FortreeCity_Text_SomethingUnseeable:
@@ -135,21 +135,21 @@ FortreeCity_Text_SomethingUnseeable:
 
 FortreeCity_Text_UnseeableUseDevonScope:
 	.string "Bu yolda görülemeyen bir şey var.\p"
-	.string "DEVON DÜRBÜNÜ'NÜ kullanmak ister misin?$"
+	.string "DEVON GÖZLÜĞÜ'NÜ kullanmak ister misin?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} DEVON DÜRBÜNÜ'NÜ kullandı.\p"
-	.string "Görünmez bir POKEMON başarıyla görünür\n"
+	.string "{PLAYER} DEVON GÖZLÜĞÜ'NÜ kullandı.\p"
+	.string "Görünmez bir POKéMON başarıyla görünür\n"
 	.string "hale geldi!\p"
-	.string "Ürkünç POKEMON kaçtı!$"
+	.string "Ürkünç POKéMON kaçtı!$"
 
 FortreeCity_Text_CitySign:
-	.string "FORTREE CITY\n"
+	.string "FORTREE ŞEHRİ\n"
 	.string "“Bu ağaçüstü şehir doğayla bir\l"
 	.string "bütündür.”$"
 
 FortreeCity_Text_GymSign:
-	.string "FORTREE ŞEHRİ POKEMON SALONU\n"
+	.string "FORTREE ŞEHRİ POKéMON SALONU\n"
 	.string "LİDER:WİONA\p"
 	.string "Dünyaya doğru uçan kuş\n"
 	.string "kullanıcısı.”$"

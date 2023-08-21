@@ -133,185 +133,185 @@ FortreeCity_Gym_EventScript_GymStatue::
 	end
 
 FortreeCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
-	.string "Okay, go for it!$"
+	.string "Hey! nasıl gidiyor, ŞAMPİYON-\n"
+	.string "adayı {PLAYER}?\p"
+	.string "FORTREE ŞEHRİ SALON LİDERİ WİNONA\n"
+	.string "UÇUŞ-tipi POKéMON üstadıdır.\p"
+	.string "O seni bu salonun arkasında,\n"
+	.string "dönen kapıların ardında bekliyor.\p"
+	.string "O yeni mücadelecilerle savaşmayı bekliyor\n"
+	.string "kim onunla aşık atmayı deneyecek!\p"
+	.string "Tamam, ilerle o halde!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "Başardın!\n"
+	.string "Bunun üstesinden geldin!$"
 
 FortreeCity_Gym_Text_JaredIntro:
-	.string "Behold the elegant battle style of\n"
-	.string "BIRD POKéMON!$"
+	.string "KUŞ POKéMONLARININ zarif savaş stiline\n"
+	.string "kendini hazırla!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
-	.string "You…\n"
-	.string "You're strong…$"
+	.string "S-Sen…\n"
+	.string "Çok güçlüsün…$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
-	.string "A TRAINER has to be smart to keep\n"
-	.string "up with unexpected turns of events.\p"
-	.string "Do you have the smarts to get to\n"
-	.string "our LEADER?$"
+	.string "Bir EĞİTMEN beklenmedik geri dönüşlere\n"
+	.string " ve olaylara karşı akıllıca davranmalı.\p"
+	.string "LİDERİMİZE ulaşabilecek kadar\n"
+	.string "akıllı mısın?$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-	.string "The lovers of BIRD POKéMON aspire\n"
-	.string "to join this GYM.\p"
-	.string "As a member of the FORTREE GYM,\n"
-	.string "I'm not allowed to lose!$"
+	.string "KUŞ POKéMON severler bu salona\n"
+	.string "katılabilirler.\p"
+	.string "Bir FORTREE SALONU üyesi olarak\n"
+	.string "kaybetmeyi kabullenemem!$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
-	.string "It was too much of a load for me\n"
-	.string "to bear…$"
+	.string "Bu katlanmak için çok fazla\n"
+	.string "geldi…$"
 
 FortreeCity_Gym_Text_EdwardoPostBattle:
-	.string "The world is huge, and there are\n"
-	.string "countless tough TRAINERS.\p"
-	.string "I'm going to keep training and make\n"
-	.string "myself even stronger.$"
+	.string "Dünya çok büyük bir yer ve\n"
+	.string "içinde sayısız EĞİTMEN var.\p"
+	.string "Daha çok çalışmaya ve kendimi daha\n"
+	.string "da güçlendirmeye gidiyorum.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
-	.string "LEADER, to deal with you!\p"
-	.string "I'm plenty good enough for you!$"
+	.string "WİNONA'nın,SALON LİDERİMİZİN,\n"
+	.string "seninle uğraşmasına gerek yok!\p"
+	.string "Ben senin için yeterince iyiyim!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
-	.string "I lost!$"
+	.string "WİNONA, B-Ben…\n"
+	.string "Yenildim!$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
-	.string "Blush…$"
+	.string "WİNONA tatlı ve güçlüdür.\n"
+	.string "O nihai LİDER!\p"
+	.string "(Kızarır)…$"
 
 FortreeCity_Gym_Text_AshleyIntro:
-	.string "WINONA taught me personally!\n"
-	.string "You can't beat me easily!$"
+	.string "WİNONA beni özel olarak eğitti!\n"
+	.string "Beni kolaylıkla yenemezsin!$"
 
 FortreeCity_Gym_Text_AshleyDefeat:
-	.string "I was beaten…$"
+	.string "Yenildim…$"
 
 FortreeCity_Gym_Text_AshleyPostBattle:
-	.string "Thanks to WINONA, the people of\n"
-	.string "FORTREE can live without fear.$"
+	.string "WİNONA'YA şükürler olsun ki sayesinde\n"
+	.string "FORTREE halkı korkmadan yaşıyor.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-	.string "When WINONA takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "WİNONA savaşa başladığında, yüzü\n"
+	.string "güzel bir azimle ışıldar…\p"
+	.string "Senin bu sevgili ışığı söndürmene\n"
+	.string "izin vermem!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
-	.string "Urk!\n"
-	.string "I couldn't stop you.$"
+	.string "Ağh!\n"
+	.string "Seni engelleyemedim.$"
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
-	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "İzlesen iyi olur!\n"
+	.string "WİNONA'ya bakarken dikkatin dağılmasın\l"
+	.string "yoksa bir çırpıda çökebilirsin!$"
 
 FortreeCity_Gym_Text_DariusIntro:
-	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type POKéMON.\p"
-	.string "You do know that, right?$"
+	.string "UÇUŞ-tipi POKéMONLARIN bütün\n"
+	.string "türlerini bilsen iyi olur.\p"
+	.string "Bunu bilirsun, değil mi?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
-	.string "You seem to know your stuff!$"
+	.string "İşi biliyor gibisin!$"
 
 FortreeCity_Gym_Text_DariusPostBattle:
-	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our LEADER\l"
-	.string "WINONA's POKéMON are all business.$"
+	.string "Elbette, beni yendin.\n"
+	.string "Ama dikkatle izlesen iyi olur.\l"
+	.string "WİNONA'nın POKéMONLARI çok güçlüdür.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "Ben WİNONA. Ben FORTREE POKéMON\n"
+	.string "SALONU'nun LİDERİYİM.\p"
+	.string "Ben KUŞ POKéMONLARIYLA bir olur\n"
+	.string "ve onlarla havada süzülürüm…\p"
+	.string "KUŞ POKéMONLARI'nın zarif koreografisi ile\n"
+	.string "Ben…\p"
+	.string "Savaş ne kadar meşakkatli olursa olsun\n"
+	.string "zarafetle zaferi elde ederim!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this GYM BADGE.$"
+	.string "Daha önce hiç bu kadar zarifçe\n"
+	.string "POKéMONU'nu yöneten bir eğitmen\l"
+	.string "görmemiştim…\p"
+	.string "Cesaretini takdir etmek için,\n"
+	.string "Sana bu SALON ROZETİNİ sunuyorum.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
-	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "{PLAYER} WİNONADAN TÜY ROZETİNİ\n"
+	.string "aldı.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
-	.string "the HM move FLY outside of battle.\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+	.string "Bu TÜY ROZETİ ile birlikte\n"
+	.string "70 SV'e kadar tüm POKéMONLARIN\l"
+	.string ",takasla elde edilenler dahil, itaat eder.\p"
+	.string "Ayrıca artık FLY HM'sini dışarıda\n"
+	.string "savaş dışında kullanabilirsin.\p"
+	.string "Ve bu…\n"
+	.string "Benden sana bir hediye.$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-	.string "TM40 contains AERIAL ACE.\p"
-	.string "Its speed…\n"
-	.string "No POKéMON should be able to avoid it.\p"
+	.string "TM40 AERIAL ACE'i içerir.\p"
+	.string "Hızını…\n"
+	.string "Hiçbir POKéMON karşılayamaz.\p"
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-	.string "Registered GYM LEADER WINONA\n"
-	.string "in the POKéNAV.$"
+	.string "SALON LİDERİ WİNONA\n"
+	.string "POKéNAV'a kayıt edildi.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+	.string "Sana karşı kaybetmiş olsam da\n"
+	.string "KUŞ POKéMONUMA bağlı kalacağım.$"
 
 FortreeCity_Gym_Text_GymStatue:
-	.string "FORTREE CITY POKéMON GYM$"
+	.string "FORTREE ŞEHRİ POKéMON SALONU$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string "FORTREE CITY POKéMON GYM\p"
-	.string "WINONA'S CERTIFIED TRAINERS:\n"
+	.string "FORTREE ŞEHRİ POKéMON SALONU\p"
+	.string "WİNONA'nın onayladığı eğitmenler:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "WİNONA: Biz insanlar asla zeminin\n"
+	.string "uyguladığı yer çekiminden kaçamayız.\p"
+	.string "Ama mükemellik için çabalarsak\n"
+	.string "uçabilecek gücü kendimizde buluruz!\p"
+	.string "Hüküm süren bir ŞAMPİYON olarak\n"
+	.string "zirveye doğru tırmandın.\p"
+	.string "Lütfen, gücünü kavrayabileceğim bir\n"
+	.string "uçuş yapalım!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
-	.string "I failed to reach your height again…$"
+	.string "Yenildim ve yine senin mesafene erişemedim…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "WİNONA: Kaybetsem bile artık\n"
+	.string "kalbimin kanatları kırık değil.\p"
+	.string "Ben tekrar tekrar yükselebilir\n"
+	.string "ve uçabilirim.\p"
+	.string "Buna inanıyorum!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "POKéMON with you?\p"
-	.string "Please return with two POKéMON\n"
-	.string "at the very least.$"
+	.string "WİNONA: Biz insanlar asla zeminin\n"
+	.string "uyguladığı yer çekiminden kaçamayız.\p"
+	.string "Ama mükemellik için çabalarsak\n"
+	.string "uçabilecek gücü kendimizde buluruz!\p"
+	.string "Hüküm süren bir ŞAMPİYON olarak\n"
+	.string "zirveye doğru tırmandın.\p"
+	.string "Lütfen, gücünü kavrayabileceğim bir\n"
+	.string "uçuş yapalım!\p"
+	.string "Ah olamaz… Yanında sadece bir\n"
+	.string "POKéMON mu var?\p"
+	.string "Lütfen en az iki POKéMON ile geri\n"
+	.string "geldiğinizden emin olun.$"

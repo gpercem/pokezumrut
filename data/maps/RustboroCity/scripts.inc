@@ -1049,7 +1049,7 @@ RustboroCity_Text_WowYouHavePokemon:
 	.string "Vay canına, senin yanında da POKéMON\nvar.\pBüyüdüğümde ben de POKéMON'larla\nbir yerlere gideceğim.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
-	.string "POKéMON ANTRENÖR OKULU!\pBu okula gidersem, nadir POKéMON'ları\nkolayca yakalayabilecek miyim?$"
+	.string "POKéMON EĞİTMEN OKULU!\pBu okula gidersem, nadir POKéMON'ları\nkolayca yakalayabilecek miyim?$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp:
 	.string "Bir POKéMON, savaşlarda deneyim\nkazanırsa bazen görünüşü değişebilir.$"
@@ -1163,4 +1163,4 @@ RustboroCity_Text_IdBetterGetBackToWork:
 	.string "Tamam, işe dönsem iyi olacak.\nKendine iyi bak, {PLAYER}!$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
-	.string "Bunu biliyor muydun?\pBaşka bir EĞİTMEN ile birlikte olmasan\nbile 2'ye 2 savaş yapabilirsin.\pİki veya daha fazla POKéMON'un\nvarken iki eğitmen görürsen, ikisi\nde sana meydan okuyacaktır.\pİki EĞİTMENİ tek başına\nyenebilseydin harika olmaz mıydı?$"
+	.string "Bunu biliyor muydun?\pBaşka bir EĞİTMEN ile birlikte olmasan\nbile 2'ye 2 savaş yapabilirsin.\pİki veya daha fazla POKéMON'un\nvarken iki eğitmen görürsen, ikisi\lde sana meydan okuyacaktır.\pİki EĞİTMENİ tek başına\nyenebilseydin harika olmaz mıydı?$"

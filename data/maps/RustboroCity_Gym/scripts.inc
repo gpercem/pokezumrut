@@ -104,180 +104,76 @@ RustboroCity_Gym_EventScript_RegisterRoxanne::
 	end
 
 RustboroCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going?\p"
-	.string "Listen, my friend!\n"
-	.string "Would you like to become the CHAMPION?\p"
-	.string "I'm no TRAINER, not me, but I can\n"
-	.string "sure give you winning advice.\p"
-	.string "That's settled, then! We'll aim for the\n"
-	.string "POKéMON CHAMPIONSHIP together!\p"
-	.string "It's your job as a TRAINER to collect\n"
-	.string "GYM BADGES, am I right?\p"
-	.string "But GYM LEADERS aren't pushovers!\p"
-	.string "And that's where I come in!\n"
-	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
-	.string "it can't stand WATER-type and\l"
-	.string "GRASS-type moves.\p"
-	.string "Come see me afterwards, if you beat\n"
-	.string "the GYM LEADER.\p"
-	.string "Well, go for it!$"
+	.string "Hey, nasıl gidiyor?\pDinle, dostum! ŞAMPİYON olmak ister\nmisin?\pBen EĞİTMEN değilim ama sana\nkazanma tavsiyesi verebilirim.\pAnlaştık o zaman! Birlikte POKéMON\nŞAMPİYONLUĞU'nu hedefleyeceğiz!\pBir EĞİTMEN olarak görevin SALON\nROZETİ toplamak.\pAma SALON LİDERLERİ kolay lokma\ndeğildir!\pİşte bu noktada ben devreye giriyorum!\nUzman tavsiyesi vermek için buradayım!\pSALON LİDERİ ROXANNE, KAYA tipi\nPOKéMON kullanıcısıdır.\pKAYA tipi çok dayanıklıdır, ancak SU tipi\nve ÇİMEN tipi hareketlere dayanamaz.\pSALON LİDERİ'ni yenersen daha sonra\nbeni görmeye gel.\pHadi bakalım!$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
-	.string "Whoa! What a breathtaking victory!\n"
-	.string "My cheering must've worked!\p"
-	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
-	.string "properly recorded on it.\p"
-	.string "In other words…\p"
-	.string "You've climbed the first step on\n"
-	.string "the stairs to the CHAMPIONSHIP!\p"
-	.string "That's got to feel awesome!$"
+	.string "Vay be! Ne nefes kesici bir zafer!\nTavsiyem işe yaramış olmalı!\pHarika!\nEĞİTMEN KARTINI kontrol et.\pAldığın TAŞ ROZET, kartın üzerinde\nolmalı.\pBaşka bir deyişle...\pŞAMPİYONLUĞA giden merdivenlerin ilk\nbasamağını tırmandın!\pBu harika bir his olmalı!$"
 
 RustboroCity_Gym_Text_JoshIntro:
-	.string "Don't take us GYM TRAINERS lightly!\n"
-	.string "I'll show you why we're better!$"
+	.string "Biz salon eğitmenlerini hafife\nalma!\pSana neden daha iyi olduğumuzu\ngöstereceğim!$"
 
 RustboroCity_Gym_Text_JoshDefeat:
-	.string "You were too good for me…$"
+	.string "Benim için çok iyiydin.$"
 
 RustboroCity_Gym_Text_JoshPostBattle:
-	.string "You haven't seen anything of the ROCK\n"
-	.string "type's terrifying power!$"
+	.string "KAYA türünün korkunç gücüne dair daha\nhiçbir şey görmedin!$"
 
 RustboroCity_Gym_Text_TommyIntro:
-	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against ROXANNE!$"
+	.string "Beni yenemezsen, ROXANNE'e karşı hiç\nşansın olmaz!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
-	.string "Wow! You've got some potential!$"
+	.string "Vay canına!\nPotansiyelin var!$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-	.string "ROXANNE is stronger than me by\n"
-	.string "several times.\p"
-	.string "You'd better be on your guard!$"
+	.string "ROXANNE benden birkaç kat daha güçlü.\pTetikte olsan iyi olur!$"
 
 RustboroCity_Gym_Text_MarcIntro:
-	.string "We might be in the middle of town,\n"
-	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
-	.string "rampage!$"
+	.string "Şehrin ortasında olabiliriz ama ne\nolmuş yani?\pKAYA POKEMON'larımın saldırmak için\nboş alana ihtiyacı var!$"
 
 RustboroCity_Gym_Text_MarcDefeat:
-	.string "Oh, man oh man!\n"
-	.string "Our challenger is one feisty customer!$"
+	.string "Adamım, adamım!\nRakibimiz çok alıngandı!$"
 
 RustboroCity_Gym_Text_MarcPostBattle:
-	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "Liderimizin hakkını vermeliyim.\pGenç yaşında KAYA tipini seçmesi akıl ve\nmantık gerektirir.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-	.string "Hello, I am ROXANNE, the RUSTBORO\n"
-	.string "POKéMON GYM LEADER.\p"
-	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the POKéMON\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which POKéMON?$"
+	.string "Merhaba, ben ROXANNE, RUSTBORO POKéMON\nSALON LİDERİ.\pPOKéMON EĞİTMEN OKULU'nda\nöğrendiklerimi savaşta uygulayabilmek\liçin bir SALON LİDERİ oldum.\pLütfen hangi POKéMON'lar ile\nsavaştığını gösterir misin?$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-	.string "So…\n"
-	.string "I lost…\p"
-	.string "It seems that I still have much more\n"
-	.string "to learn…\p"
-	.string "I understand.\p"
-	.string "The POKéMON LEAGUE's rules state\n"
-	.string "that TRAINERS are to be given this\l"
-	.string "if they defeat a GYM LEADER.\p"
-	.string "Please accept the official POKéMON\n"
-	.string "LEAGUE STONE BADGE.$"
+	.string "Yani… Kaybettim…\pGörünüşe göre daha öğrenecek çok şeyim\nvar…\pAnlıyorum.\pPOKéMON LİGİ'nin kurallarına göre\nEĞİTMENLERE bir SALON LİDERİNİ yenmeleri\lhalinde bu rozet verilecektir.\pLütfen resmi POKéMON LİGİ TAŞ\nROZETİNİ kabul et.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string "{PLAYER} ROXANNE'den TAŞ ROZETİ'ni\naldı.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-	.string "The STONE BADGE heightens the ATTACK\n"
-	.string "power of your POKéMON.\p"
-	.string "It also enables them to use the HM move\n"
-	.string "CUT outside of battle.\p"
-	.string "Please take this with you, too.$"
+	.string "TAŞ ROZET, POKéMON'unun SALDIRI\ngücünü artırır.\pAyrıca savaş dışında HM saldırısı KES'i\nkullanmalarını sağlar.\pLütfen bunu da yanına al.$"
 
 RustboroCity_Gym_Text_ExplainRockTomb:
-	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
-	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+	.string "Bu TEKNİK MAKİNE, yani TM39,\nROCK TOMB saldırısını içerir.\pSadece kayaları düşürerek hasar\nvermekle kalmaz, aynı zamanda HIZ'ı\lda düşürür.\pBir TM kullanırsan, saldırıyı anında\nbir POKéMON'a öğretirsin.\pUnutma, bir TM yalnızca bir kez\nkullanılabilir, bu yüzden kullanmadan\lönce iki kez düşün.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-	.string "Since you are so strong, you should\n"
-	.string "challenge other GYM LEADERS.\p"
-	.string "By battling many TRAINERS, you should\n"
-	.string "learn many things.$"
+	.string "Çok güçlü olduğun için diğer SALON\nLİDERLERİNE de meydan okumalısın.\pNe kadar EĞİTMEN ile savaşırsan\no kadar çok şey öğrenirsin.$"
 
 RustboroCity_Gym_Text_GymStatue:
-	.string "RUSTBORO CITY POKéMON GYM$"
+	.string "RUSTBORO ŞEHRİ POKéMON SALONU$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "RUSTBORO ŞEHRİ POKéMON SALONU\pROXANNE'İN ONAYLI EĞİTMENLERİ:\n{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
-	.string "This is ROXANNE of RUSTBORO CITY.\p"
-	.string "I heard from BRAWLY that you're\n"
-	.string "moving up through the ranks of\l"
-	.string "TRAINERS at an incredible clip.\p"
-	.string "Well, I'd rather not think that\n"
-	.string "I can't beat you.\p"
-	.string "I promise, I will shape up my GYM\n"
-	.string "so that you may challenge us again.\p"
-	.string "I hope you'll be looking forward to\n"
-	.string "that occasion as much as me!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "… … … … … …\n… … … … … … Bip!\pMerhaba, {PLAYER}. Ben RUSTBORO\nŞEHRİ'nden ROXANNE.\pBRAWLY'den duyduğuma göre eğitmenler\narasında inanılmaz bir hızla\lyükseliyormuşsun.\pSeni yenemeyeceğimi düşünmemeyi tercih\nederim.\pSöz veriyorum, bana tekrar meydan\nokuyabilmen için SALONU düzenleyeceğim.\pUmarım sen de bu fırsatı en az\nbenim kadar dört gözle bekliyorsundur!\p… … … … … …\n… … … … … … Tık!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ROXANNE\n"
-	.string "in the POKéNAV.$"
+	.string "SALON LİDERİ ROXANNE, POKéNAV'a\nkaydedildi.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become. Let us battle!$"
+	.string "ROXANNE: Seni tekrar gördüğüme çok\nsevindim.\pBen ROXANNE, buranın SALON LİDERİ.\pEminim son görüşmemizden bu yana ikimiz\nde pek çok mücadele yaşadık.\pNe kadar iyi olduğumuzu görmek isterim.\nHadi savaşalım!$"
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
-	.string "Grr…\n"
-	.string "Again, I have lost…$"
+	.string "Grr…\nYine kaybettim…$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
-	.string "ROXANNE: I still have much to learn\n"
-	.string "when it comes to battling POKéMON.\p"
-	.string "That awareness makes me love battling\n"
-	.string "all that much more!$"
+	.string "ROXANNE: Konu POKéMON ile savaşmak\nolduğunda hâlâ öğrenecek çok şeyim var.\pBu farkındalık, savaşmayı daha çok\nsevmemi sağlıyor!$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become…\p"
-	.string "Oh, no…\n"
-	.string "You only have one POKéMON with you?\p"
-	.string "Please return with at least one more\n"
-	.string "POKéMON.$"
+	.string "ROXANNE: Seni tekrar gördüğüme çok\nsevindim.\pBen ROXANNE, buranın SALON LİDERİ.\pEminim son karşılaşmamızdan bu yana\nikimiz de birçok mücadele yaşadık.\pNe kadar iyi olduğumuzu görmek\nisterim…\pOlamaz… Yanında sadece bir POKéMON\nmu var?\pLütfen en az bir POKéMON daha getir.$"

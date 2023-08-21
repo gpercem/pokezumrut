@@ -200,60 +200,152 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 	end
 
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
-	.string "Yazı tahtasında, savaşta POKéMON'u\netkileyebilecek durum değişiklikleri\lyazıyor.$"
+	.string "The blackboard lists status changes\n"
+	.string "that may affect POKéMON in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
-	.string "Hangi konuyu okumak istersin?$"
+	.string "Which topic do you want to read?$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison:
-	.string "Eğer bir POKéMON zehirlenirse, sürekli\nolarak can kaybedecektir.\pZehrin etkileri savaştan sonra da devam\neder.\pZehirlenmiş bir POKéMON'un canı\nyürürken de düşer.\pPANZEHİR kullanarak zehirlenmeyi\ngeçirebilirsiniz.$"
+	.string "If a POKéMON is poisoned, it will\n"
+	.string "steadily lose HP.\p"
+	.string "The effects of poison remain after\n"
+	.string "a battle.\p"
+	.string "A poisoned POKéMON's HP will drop\n"
+	.string "while it is traveling.\p"
+	.string "Heal a poisoning using an ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
-	.string "Eğer bir POKéMON felç olursa, HIZI\ndüşer.\pAyrıca savaştayken hareket\nedemeyebilir.\pFelç, savaştan sonra da devam eder.\nBir FELÇ İLACI kullanarak\liyileştirebilirsiniz.$"
+	.string "If a POKéMON becomes paralyzed,\n"
+	.string "its SPEED drops.\p"
+	.string "It may also not be able to move while\n"
+	.string "it is in battle.\p"
+	.string "Paralysis remains after battle.\n"
+	.string "Cure it using a PARLYZ HEAL.$"
 
 RustboroCity_PokemonSchool_Text_ExplainSleep:
-	.string "Eğer bir POKéMON uykuya dalarsa,\nsaldıramaz.\pBir POKéMON kendi kendine uyanabilir,\nancak uyurken bir savaş sona ererse,\luykuda kalacaktır.\pBir UYANDIRICI kullanarak onu\nuyandırabilirsiniz.$"
+	.string "If a POKéMON falls asleep, it will be\n"
+	.string "unable to attack.\p"
+	.string "A POKéMON may wake up on its own,\n"
+	.string "but if a battle ends while it is\l"
+	.string "sleeping, it will stay asleep.\p"
+	.string "Wake it up using an AWAKENING.$"
 
 RustboroCity_PokemonSchool_Text_ExplainBurn:
-	.string "Yanık, SALDIRI gücünü azaltır ve\nkurbanın canını sürekli olarak\ldüşürür.\pYanık savaştan sonra da devam eder.\nYANIK İYİLEŞTİRME kullanarak bir yanığı\liyileştirebilirsiniz.$"
+	.string "A burn reduces ATTACK power, and it\n"
+	.string "steadily reduces the victim's HP.\p"
+	.string "A burn lingers after battle.\n"
+	.string "Cure a burn using a BURN HEAL.$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze:
-	.string "Eğer bir POKéMON donarsa, tamamen\nçaresiz hale gelir.\pSavaştan sonra donmuş olarak\nkalacaktır. BUZ ÇÖZÜCÜ kullanarak\lçözebilirsiniz.$"
+	.string "If a POKéMON is frozen, it becomes\n"
+	.string "completely helpless.\p"
+	.string "It will remain frozen after battle.\n"
+	.string "Thaw it out using an ICE HEAL.$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
-	.string "Ders çalışmayan öğrenciler HIZLI\nPENÇE'min tadına bakarlar.\pİyi bir öğrenci olup olmadığın, bunu\nkullanma şeklinden anlaşılacaktır.$"
+	.string "Students who don't study get a little\n"
+	.string "taste of my QUICK CLAW.\p"
+	.string "Whether or not you are a good student \n"
+	.string "will be evident from the way you use\l"
+	.string "this item.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
-	.string "HIZLI PENÇE'yi tutan bir POKéMON\nzaman zaman hızlanır ve rakibinden önce\lsaldırır.\pPOKéMON tarafından tutulması gereken\ndaha birçok eşya vardır.\pSadece bunlar bile çalışacak birçok\nkonu verecektir!$"
+	.string "A POKéMON holding the QUICK CLAW will\n"
+	.string "occasionally speed up and get to move\l"
+	.string "before its opponent.\p"
+	.string "There are many other items that are\n"
+	.string "meant to be held by POKéMON.\p"
+	.string "Just those alone will give you many\n"
+	.string "topics to study!$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow:
-	.string "Şu anda arkadaşımla POKéMON takası\nyapıyorum.$"
+	.string "I'm trading POKéMON with my friend\n"
+	.string "right now.$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
-	.string "Hep bir SEEDOT istemiştim ve sonunda\nbirini buldum!$"
+	.string "I always wanted a SEEDOT, and\n"
+	.string "I'm finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
-	.string "POKéMON eşya tutabilir, ancak\nİKSİR ve PANZEHİR gibi insan yapımı\leşyalarla ne yapacaklarını bilmiyorlar.$"
+	.string "POKéMON can hold items, but they\n"
+	.string "don't know what to do with man-made\l"
+	.string "items like POTION and ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
-	.string "Bazı POKéMON saldırılarının,\nPOKéMON'un kafasını karıştırabileceğini\lbiliyor musun?\pKafası karışmış bir POKéMON bazen\nistemeden kendine saldırır.\pAncak savaşı terk ettiğinde normale\ndönecektir.$"
+	.string "You know how some POKéMON moves can\n"
+	.string "confuse a POKéMON?\p"
+	.string "A confused POKéMON will sometimes\n"
+	.string "attack itself without meaning to.\p"
+	.string "But once it leaves battle, it will\n"
+	.string "return to normal.$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
-	.string "MEYVE tutan bir POKéMON kendini\niyileştirebilir…\pPOKéMON'un tutabileceği pek çok çeşit\neşya vardır…\pNot almak gerçekten çok zor.$"
+	.string "A POKéMON holding a BERRY will heal\n"
+	.string "itself…\p"
+	.string "There are many kinds of items that\n"
+	.string "POKéMON can hold…\p"
+	.string "Boy, it sure is hard taking notes\n"
+	.string "down…$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
-	.string "Bu bir öğrencinin not defteri.\pPOKéMON, POKé TOPLARI kullanılarak\nyakalanmalıdır.\pBir EĞİTMEN'e en fazla altı POKéMON\neşlik edebilir.\pEĞİTMEN, POKéMON yakalayan, onları\nyetiştiren ve onlarla savaşan kişidir.\pEğitmenin görevi, POKéMON\nSALON'larında meydan okuyucuları\lbekleyen güçlü eğitmenleri yenmektir.$"
+	.string "It's this student's notebook…\p"
+	.string "POKéMON are to be caught using\n"
+	.string "POKé BALLS.\p"
+	.string "Up to six POKéMON can accompany\n"
+	.string "a TRAINER.\p"
+	.string "A TRAINER is someone who catches\n"
+	.string "POKéMON, raises them, and battles\l"
+	.string "with them.\p"
+	.string "A TRAINER's mission is to defeat\n"
+	.string "the strong TRAINERS who await\l"
+	.string "challengers in POKéMON GYMS.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
-	.string "Selam?\nDaha önce görüşmemiş miydik?\pSanırım PETALBURG ŞEHRİ'nde seni\ngörmüştüm.\pKendimi tanıtayım.\nBenim adım SCOTT.\pSeçkin eğitmenler bulmak için her yeri\ndolaşıyorum.\pDaha spesifik olarak, POKéMON savaş\nuzmanları arıyorum.\pPeki, seni bu okula getiren nedir?\nSen de bir EĞİTMEN misin?\pYapman gereken ilk şey,\nPOKéMON'unun KESME saldırısını\löğrenmesini sağlamak.\pEğer doğru hatırlıyorsam, bu kasabadan\nbirinde KESME HM'si vardı.$"
+	.string "Hello? Didn't we meet before?\n"
+	.string "I think back in PETALBURG CITY.\p"
+	.string "Let me introduce myself.\n"
+	.string "My name's SCOTT.\p"
+	.string "I've been traveling everywhere in\n"
+	.string "search of outstanding TRAINERS.\p"
+	.string "More specifically, I'm looking for\n"
+	.string "POKéMON battle experts.\p"
+	.string "So, what brings you to this SCHOOL?\n"
+	.string "Are you a TRAINER, too?\p"
+	.string "The first thing you should do is to\n"
+	.string "have a POKéMON learn the move CUT.\p"
+	.string "If I remember correctly, someone in\n"
+	.string "this town has CUT.$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
-	.string "SCOTT: Hmm…\pBuradaki öğrencilerin yetenek\nseviyeleri bilinmiyor. Potansiyel var.$"
+	.string "SCOTT: Hmm…\p"
+	.string "The talent levels of the students here\n"
+	.string "are unknown. The potential's there.$"
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
-	.string "SCOTT: O da ne?\pBu bir TAŞ ROZET, değil mi? Oldukça\netkileyici olduğunu söyleyebilirim.\pAma, bilirsin, seni savaşta görmeyi çok\nisterdim.\pBir EĞİTMEN olarak nasıl biri olduğunu\nLİG ROZETİ'nden anlamak zor.$"
+	.string "SCOTT: Oh, what's that?\p"
+	.string "It's a STONE BADGE, isn't it?\n"
+	.string "That's pretty impressive, I'd say.\p"
+	.string "But, you know, I would've loved to see\n"
+	.string "you in battle.\p"
+	.string "It's hard to tell what you're like as\n"
+	.string "a TRAINER from a LEAGUE BADGE.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
-	.string "Selam?\nDaha önce görüşmemiş miydik?\pSanırım PETALBURG ŞEHRİ'nde seni\ngörmüştüm.\pKendimi tanıtayım.\nBenim adım SCOTT.\pSeçkin eğitmenler bulmak için her yeri\ndolaşıyorum.\pDaha spesifik olarak, POKéMON savaş\nuzmanları arıyorum.\pO da ne? Bu bir taş rozet, değil mi?\pSenin gibi yeni başlayan bir eğitmen için\noldukça etkileyici olduğunu\lsöyleyebilirim.\pAma seni savaşta görmeyi çok isterdim.\pBir EĞİTMEN olarak nasıl biri\nolduğunu LİG ROZETİ'nden anlamak\lzor.$"
-
+	.string "Hello? Didn't we meet before?\n"
+	.string "I think back in PETALBURG CITY.\p"
+	.string "Let me introduce myself.\n"
+	.string "My name's SCOTT.\p"
+	.string "I've been traveling everywhere in\n"
+	.string "search of outstanding TRAINERS.\p"
+	.string "More specifically, I'm looking for\n"
+	.string "POKéMON battle experts.\p"
+	.string "Oh, what's that?\n"
+	.string "It's a STONE BADGE, isn't it?\p"
+	.string "That's pretty impressive, I'd say, for\n"
+	.string "a starting TRAINER like yourself.\p"
+	.string "But, you know, I would've loved to see\n"
+	.string "you in battle.\p"
+	.string "It's hard to tell what you're like as\n"
+	.string "a TRAINER from a LEAGUE BADGE.$"
 

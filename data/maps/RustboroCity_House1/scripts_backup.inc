@@ -50,21 +50,32 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
-	.string "Ne? POKéMON'um sevimli mi? Elbette, bunu\nbiliyordum.\pAma eğer gerçekten istiyorsan, seninle\ntakas etmeye hazırım.\pİstersen {STR_VAR_2}'mi bir\n{STR_VAR_1} ile takas edebilirim.$"
+	.string "Huh? My POKéMON is cute?\n"
+	.string "Sure, I knew that.\p"
+	.string "But if you really want, I'm willing\n"
+	.string "to trade it to you.\p"
+	.string "I'll trade you my {STR_VAR_2} for\n"
+	.string "a {STR_VAR_1} if you want.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
-	.string "Eheheh…\nLütfen POKéMON'uma iyi davran.$"
+	.string "Eheheh…\n"
+	.string "Please be good to my POKéMON.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
-	.string "Ha? Bu bana {STR_VAR_1} gibi\ngelmedi.$"
+	.string "Huh? That doesn't look anything like\n"
+	.string "a {STR_VAR_1} to me.$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-	.string "Eğer istemiyorsan, sorun değil.\nAma POKéMON'um çok şirindir.$"
+	.string "Oh, if you don't want to, that's okay.\n"
+	.string "But my POKéMON is cute, you know…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
-	.string "Eğer özenle ve şefkatle\nyetiştirirsen her POKéMON sevimli\lolabilir.$"
+	.string "Any POKéMON can be cute if you raise\n"
+	.string "it with care and kindness.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
-	.string "Her yerde, her türlü POKéMON'lar ve\ninsanlar vardır.\pBunu büyüleyici buluyorum, bu yüzden\nher yere gidiyorum.$"
-
+	.string "In all sorts of places, there are all\n"
+	.string "sorts of POKéMON and people.\p"
+	.string "I find that fascinating, so I go to all\n"
+	.string "sorts of places.$"
 

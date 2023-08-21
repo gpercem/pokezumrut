@@ -22,12 +22,16 @@ RustboroCity_Flat2_2F_EventScript_GavePremierBall::
 	end
 
 RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays:
-	.string "Eski günlerde DEVON sadece ufacık bir\nşirketti.$"
+	.string "Way back in the old days, DEVON was just\n"
+	.string "a teeny, tiny company.$"
 
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
-	.string "Babam şirkette çalışıyor.\pBunu babam yaptı! Ama ben\nkullanamıyorum, o yüzden sen alabilirsin.$"
+	.string "My daddy's working at the CORPORATION.\p"
+	.string "My daddy made this!\n"
+	.string "But I can't use it, so you can have it.$"
 
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo:
-	.string "Babam şirkette çalışıyor.\pBüyüdüğümde ben de DEVON için\nçalışacağım.$"
-
+	.string "My daddy's working at the CORPORATION.\p"
+	.string "When I grow up, I'm going to work for\n"
+	.string "DEVON, too.$"
 

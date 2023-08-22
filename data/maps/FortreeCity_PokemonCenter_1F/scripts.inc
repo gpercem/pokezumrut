@@ -30,28 +30,28 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 	end
 
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
-	.string "Listen, kid, are you working\n"
-	.string "on a POKéDEX?\p"
-	.string "Hmm… Go to the SAFARI ZONE.\n"
-	.string "That's my suggestion.$"
+	.string "Dinle, çocuk, bir POKéDEX üzerinde\n"
+	.string "çalışıyorsun?\p"
+	.string "SAFARİ BÖLGESİNE git.\n"
+	.string "Sana tavsiyem bu.$"
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
-	.string "Have you done anything at\n"
-	.string "the RECORD CORNER?\p"
-	.string "It's pretty neat. It mixes and matches\n"
-	.string "the records of TRAINERS.\p"
-	.string "I don't know quite how it works,\n"
-	.string "but it's cool. It's exciting, even!$"
+	.string "Hiç REKOR KÖŞESİNDE bir şey\n"
+	.string "başardın mı?\p"
+	.string "Gayet düzenli. EĞİTMENLERİN rekorlarını\n"
+	.string "karıştırır ve eşler.\p"
+	.string "Nasıl çalıştığını pek bilmiyorum,\n"
+	.string "çok havalı. Epey heyecan verici!$"
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
-	.string "Oh, wow, you have a POKéNAV!\n"
-	.string "And it's just like mine!\p"
-	.string "Do you know about POKéNAV's\n"
-	.string "MATCH CALL system?\p"
-	.string "Access it, and you can chat with\n"
-	.string "registered TRAINERS anytime.\p"
-	.string "It also shows you which TRAINERS\n"
-	.string "want a rematch with you.\p"
-	.string "It's really nifty! Those DEVON guys\n"
-	.string "sure know what they're doing!$"
+	.string "Ah, vaov, POKéNAV'in var!\n"
+	.string "Hem de benimkinden!\p"
+	.string "POKéNAV'in DİREKT ARAMA sistemini\n"
+	.string "biliyor muydun?\p"
+	.string "Kullan ve kayıtlı EĞİTMENLER ile\n"
+	.string "istediğin zaman sohbet et.\p"
+	.string "Ayrıca sana seninle rövanş maçı\n"
+	.string "yapmak isteyen EĞİTMENLERİ gösterir.\p"
+	.string "Gerçekten şık! Bu DEVON adamları\n"
+	.string "ne yaptıklarını iyi biliyorlar!$"
 

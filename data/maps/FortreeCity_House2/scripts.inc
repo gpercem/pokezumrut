@@ -42,40 +42,40 @@ FortreeCity_House2_EventScript_WrongGuess::
 	end
 
 FortreeCity_House2_Text_HiddenPowersArousedByNature:
-	.string "People… POKéMON…\p"
-	.string "Their hidden powers are aroused by\n"
-	.string "living in natural environments…$"
+	.string "İnsanlar… POKéMONLAR…\p"
+	.string "Onların saklı olan güçleri\n"
+	.string "doğal çevrelerinin içinde barınıyor…$"
 
 FortreeCity_House2_Text_CoinInWhichHand:
-	.string "Let this old woman see if your hidden\n"
-	.string "power has awoken…\p"
-	.string "I hold a coin in my hand.\p"
-	.string "Now, tell me, have I palmed it in\n"
-	.string "the right hand? Or in the left?$"
+	.string "İçindeki gizli gücü uyandırması için\n"
+	.string "bu yaşlı kadına izin ver…\p"
+	.string "Bir elimde para var.\p"
+	.string "Şimdi söyle, Hangi elimde?\n"
+	.string "sağ mı? yoksa sol mu?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "Ah! Evet, doğru!\p"
+	.string "Şimdi tekrar deneyelim.\p"
+	.string "Parayı hangi elimde sakladım?\n"
+	.string "Sağ mı yoksa sol mu?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "Ah! Evet, doğru!\p"
+	.string "Şimdi tekrar deneyelim.\p"
+	.string "Parayı hangi elimde sakladım?\n"
+	.string "Sağ mı yoksa sol mu?$"
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
-	.string "Oh! Splendid!\n"
-	.string "Your hidden power has awoken!\p"
-	.string "Here, take this and awaken the hidden\n"
-	.string "power of your POKéMON.$"
+	.string "Ah! Harika!\n"
+	.string "Gizli gücün uyandı!\p"
+	.string "İşte, bunu al ve POKéMON'unun\n"
+	.string "gizli gücünü açığa çıkar.$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-	.string "HIDDEN POWER is a move that changes\n"
-	.string "with the POKéMON.$"
+	.string "GİZLİ GÜÇ, POKéMON'unla beraber\n"
+	.string "farklılık gösteren bir harekettir.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
-	.string "No, too bad.\n"
-	.string "You guessed wrong.$"
+	.string "Hayır, bu yanlış.\n"
+	.string "Yanlış bildin.$"
 

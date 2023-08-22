@@ -61,37 +61,37 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Wrooooaaar! I need it!\n"
-	.string "I have to get me a {STR_VAR_1}!\l"
-	.string "I'll do anything for it!\p"
-	.string "…Uh… Did you hear that?\n"
-	.string "My shout from the bottom of my heart?\p"
-	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "won't you?$"
+	.string "Voaaahh! Ona ihtiyacım var!\n"
+	.string "Bana bir {STR_VAR_1} getirmen gerek!\l"
+	.string "Bunun için herşeyi yaparım!\p"
+	.string "…Ah… Bunu duydun mu?\n"
+	.string "Yüreğimin derinliklerinden haykırıyorum?\p"
+	.string "Bunu duydun, takas yapacak mısın?\n"
+	.string "Senin {STR_VAR_1}'in için benim {STR_VAR_2}'im,\l"
+	.string "var mısın?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Oh, yeah, right on!\p"
-	.string "{STR_VAR_1}, welcome!\n"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "Ah... evet, işte bu!\p"
+	.string "{STR_VAR_1}, hoş geldin!\n"
+	.string "{STR_VAR_2}, kendine iyi bak!$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "Ah... hayır, Bu doğru değil.\n"
+	.string "Bu bir {STR_VAR_1} değil.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "No? You won't trade me?\n"
-	.string "Even after I bared my heart to you?$"
+	.string "Hayır? Takas yapmayacak mısın?\n"
+	.string "Hem de sana kalbimi açmama rağmen?$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VOLBEAT super\n"
-	.string "strong from this moment on!\p"
-	.string "I hope you do the same with PLUSLE!$"
+	.string "Şu andan itibaren VOLBEAT'imi\n"
+	.string "daha güçlü yapmaya çalışacağım!\p"
+	.string "Umarım sen de PLUSLE için bunu yaparsın!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-	.string "Trading POKéMON with others…\p"
-	.string "It's as if you're trading your own\n"
-	.string "memories with other people.$"
+	.string "POKéMON'unu başkaları ile takas etmek…\p"
+	.string "Anılarını başkalarının anıları ile\n"
+	.string "takas etmek gibi birşey.$"
 
 FortreeCity_House1_Text_Zigzagoon:
 	.string "ZIGZAGOON: Gumomoh?$"

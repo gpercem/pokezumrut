@@ -65,32 +65,32 @@ FortreeCity_House4_EventScript_Wingull::
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether:
-	.string "By being together with POKéMON,\n"
-	.string "people make more and more friends.\p"
-	.string "And that brings the world closer\n"
-	.string "together. I think it's wonderful!$"
+	.string "POKéMONLAR ile birlikte olmak,\n"
+	.string "onları daha çok arkadaşımız yapar.\p"
+	.string "Bu da yaşamı daha keyifli hale\n"
+	.string "getirir. Bence bu harika birşey!$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-	.string "There!\n"
-	.string "Go, BIRD POKéMON!$"
+	.string "İşte!\n"
+	.string "Git, KUŞ POKéMON!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
-	.string "an errand for me.$"
+	.string "Heheh, WİNGULL'umdan etrafımda\n"
+	.string "dolaşmasını istedim.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good!\n"
-	.string "Welcome back, WINGULL!\p"
-	.string "Huh? What is this?\n"
-	.string "What is it holding?\p"
-	.string "A MENTAL HERB?\n"
-	.string "It must have picked it up somewhere.\p"
-	.string "But I'm not a TRAINER, so you can\n"
-	.string "have it.$"
+	.string "Güzel!\n"
+	.string "Hoş geldin, WİNGULL!\p"
+	.string "Hah? Bu da ne?\n"
+	.string "Ne tutuyorsun?\p"
+	.string "Bir ZİHİN OTU mu?\n"
+	.string "Bir yerden bulmuş olmalı.\p"
+	.string "Ben bir eğitmen değilim, bu yüzden\n"
+	.string "senin olabilir.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
-	.string "who live far away.$"
+	.string "WİNGULL'um sayesinde, Çok uzaklarda\n"
+	.string "dostlarım var.$"
 
 FortreeCity_House4_Text_Wingull:
 	.string "WINGULL: Pihyoh!$"

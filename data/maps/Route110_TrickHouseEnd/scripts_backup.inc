@@ -250,54 +250,109 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 	step_end
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
-	.string "Aa! Bana kadar gelebildin mi?\nHmmm… Çok zekisin!$"
+	.string "Aak!\n"
+	.string "You've made it to me?\l"
+	.string "Hmmm… You're sharp!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
-	.string "O ağaçları dikmek bütün gecemi aldı.\pBüyüklükte neredeyse bir, iki, üç, dört,\nbeş, altı basamakla benim dengimsin!$"
+	.string "It took me all night to plant all those\n"
+	.string "trees…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four, five, six places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
-	.string "Labirenti yapmak bütün gecemi aldı.\pBüyüklükte neredeyse bir, iki, üç, dört,\nbeş basamakla benim dengimsin!$"
+	.string "It took me all night to make the maze…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four, five places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
-	.string "Duvar panellerini hazırlamak bütün\ngecemi aldı.\pBüyüklükte neredeyse bir, iki, üç, dört\nbasamakla benim dengimsin!$"
+	.string "It took me all night to prepare\n"
+	.string "the wall panels…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
-	.string "O kayaları itmek bütün gecemi aldı.\pBüyüklükte neredeyse bir, iki, üç\nbasamakla benim dengimsin!$"
+	.string "It took me all night to shove in those\n"
+	.string "boulders…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
-	.string "MEKABEBEK'leri yapmak tüm gecemi\naldı, sınavı düşünmek ise başka bir\lgecemi…\pBüyüklükte neredeyse benimle bir, iki\nsıra eşitsin!$"
+	.string "It took me all night to make MECHADOLLS\n"
+	.string "and another to think up the quiz…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
-	.string "Kapıları takmak bütün gecemi aldı.\pBüyüklükte neredeyse benim dengimsin!$"
+	.string "It took me all night to install\n"
+	.string "the doors…\p"
+	.string "You're almost my equal in greatness!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
-	.string "Okları ayarlamak bütün gecemi aldı.\pBüyüklükte benim dengimsin!$"
+	.string "It took me all night setting up arrows…\p"
+	.string "You're my equal in greatness!$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
-	.string "Bütün gece yerleri cilaladım.\pBüyüklükte benden üstünsün!\nMuhtemelen.$"
+	.string "It took me all night polishing floors…\p"
+	.string "You're above me in greatness!\n"
+	.string "Possibly…$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
-	.string "Ne yapmalıyım? Hileler için fikir çeşmem\nkurudu…\pBelki de yeni numaralar bulmak için\nülkeyi dolaşmamın zamanı gelmiştir…$"
+	.string "Wh-what should I do?\n"
+	.string "My fountain of ideas for tricks has\l"
+	.string "run dry…\p"
+	.string "Perhaps it is time I toured the country\n"
+	.string "on a quest to devise new tricks…$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
-	.string "Yenilgiyi kabul etmekten nefret\nediyorum ama beni yendin!\pYine de, beni tekrar tekrar ziyaret\nettiğine göre karizmam seni cezbetmiş\lolmalı. Evet, öyle olmalı!\pAma bunun kaybetmemle hiçbir ilgisi\nyok!\pSenin, azimli ve dahi olan benim\naramdaki dostluğun anısına, bu\lhatırayı almanı talep ediyorum!\pAslında iki tane var. Kırmızı çadır ve\nmavi çadır. Hangisini tercih edersin?$"
+	.string "I hate to admit defeat, but you have\n"
+	.string "bested me!\p"
+	.string "Still, you must have been reeled in by\n"
+	.string "my charisma for you to visit me again\l"
+	.string "and again. Yes, you must have!\p"
+	.string "But that has nothing to do with my\n"
+	.string "losing!\p"
+	.string "In recognition of the friendship\n"
+	.string "between you, the driven, and the genius\l"
+	.string "that is myself, I demand that you take\l"
+	.string "this keepsake!\p"
+	.string "Actually there are two--\n"
+	.string "a RED TENT and a BLUE TENT.\l"
+	.string "Which do you prefer?$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
-	.string "Ne oldu? Bilgisayarında yer yok mu?\nBundan ne anlam çıkarmalıyım?\pKeşke bunu söyleyebilseydim, ama çok\nnazik ve sevecen biriyim, bu yüzden\ldaha sonra tekrar gel!$"
+	.string "What? No room in your PC?\n"
+	.string "What am I to make of that?\p"
+	.string "I wish I could say that, but I am much\n"
+	.string "too kind and caring, so come back later!$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
-	.string "… … … … … …\pBir keşif yolculuğuna çıkıyorum. Yeni\nnumaraların peşinde bir arayış.\pUmarım bir gün beni tekrar ziyaret\neder ve eğlendirirsin.\pVe şimdi, elveda!$"
+	.string "… … … … … …\p"
+	.string "I am leaving on a journey of discovery.\n"
+	.string "A quest in search of new tricks.\p"
+	.string "I wish that you will one day visit and\n"
+	.string "entertain me again.\p"
+	.string "And now, farewell!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
-	.string "Güzel!\nBu ödülü hak ettin!$"
+	.string "Fine!\n"
+	.string "You have earned this reward!$"
 
 Route110_TrickHouseEnd_Text_NoRoomForThis:
-	.string "Ne? Bunun için yerin yok mu? Ne tür\neşyalar taşıyorsun?\pAma olsun, madem bana ulaştın,\nödülün daha sonra bende olacak.$"
+	.string "What? Have you no room for this?\n"
+	.string "What manner of items do you carry?\p"
+	.string "But fine, since you've reached me,\n"
+	.string "your reward will be with me till later.$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
-	.string "Yüzündeki o kendini beğenmiş\nsırıtışı yok et! Kazandığını düşünmek\liçin çok erken!\pSeni şaşırtmak için yeni numaralar\nyapacağım. Benimle ancak işin bittiğinde\lalay edebilirsin.\pBir sonraki heyecan verici bölüm için\ngeri gel!$"
+	.string "Scrub that smug smirk from your face!\n"
+	.string "It's much too early to think you've won!\p"
+	.string "I'll make new tricks to stump you, I will.\n"
+	.string "You may mock me only when you're done.\p"
+	.string "Come back for the next exciting\n"
+	.string "installment!$"
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
-	.string "Hey, hey! Şimdi de beni görmezden mi\ngeliyorsun? Bunu kalp kırıcı\lbuluyorum!$"
-
+	.string "Now, now! You're ignoring me now?\n"
+	.string "Now that, I consider heartbreaking!$"
 

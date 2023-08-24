@@ -336,111 +336,203 @@ LilycoveCity_ContestHall_EventScript_SmartStageSign::
 	end
 
 LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
-	.string "Bu POKéMON daha önce buradaki\nGÜZELLİK YARIŞMASI'nı kazanmıştı.\pPeki, tahmin et ne oldu?\nBugün, bir ZEKA YARIŞMASI da\lkazandı!\pYeteneklerim beni bile korkutuyor.$"
+	.string "This POKéMON won the BEAUTY CONTEST\n"
+	.string "here before.\p"
+	.string "Well, guess what? Today, I made it\n"
+	.string "win a SMARTNESS CONTEST!\p"
+	.string "My abilities scare even me…$"
 
 LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
-	.string "Bir sürü YARIŞMAYA katıldım, bu yüzden\nişlerin nasıl yürüdüğünü biliyorum.\pEğer bir HAVALILIK YARIŞMASI'ndaysan,\nhavalı hareketler cazip geliyor.\pAma akıllı hareketler ve sevimli\nhareketler iyi puan kazandırmıyor.$"
+	.string "I've entered a bunch of CONTESTS,\n"
+	.string "so I'm seeing how things work.\p"
+	.string "If you're in a COOLNESS CONTEST,\n"
+	.string "cool moves go over as appeals.\p"
+	.string "But smart moves and cute moves\n"
+	.string "don't go over well, for instance.$"
 
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
-	.string "Daha önce kazanan genç adamda bir sürü\nfarklı {POKEBLOCK} vardı.\pSende de o kadar çok olsa kazanabilir\nmisin?$"
+	.string "That young man who won earlier had\n"
+	.string "a whole bunch of different {POKEBLOCK}S.\p"
+	.string "Can you win if you had that many\n"
+	.string "of those things?$"
 
 LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
-	.string "Vay canına, burası ne kadar büyük!\pHavadaki gerilim… Kasabalardaki\nyarışma salonları gibi değil.$"
+	.string "Whoa, isn't this place humongous!\p"
+	.string "The tension in the air… It's not\n"
+	.string "like a CONTEST hall in the sticks.$"
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
-	.string "Pekala, AKILLI POKEMON ve\nANTRENÖRLERİ, hazır mısınız?!\pEn iyi gösterinizi yapın! Hadi itiraz\nedelim!$"
+	.string "MC: Okay, SMART POKéMON and their\n"
+	.string "TRAINERS, are you ready?!\p"
+	.string "Give it your best showing!\n"
+	.string "Let's appeal!$"
 
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
-	.string "JÜRİ: Bu YARIŞMA hoşuna gitti mi?\pÜç arkadaşınla birlikte geri gel ve\nhepiniz bir YARIŞMA'ya katılın!$"
+	.string "JUDGE: Are you enjoying this CONTEST?\p"
+	.string "Come back with three friends, and\n"
+	.string "all of you may enter a CONTEST!$"
 
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
-	.string "Ayayay…\nYanlış yarışmaya katılmışım.\pBu POKéMON'umla ZEKA YARIŞMASI'na\ngirdim.\pHadi, zekanı kullan ve ROCK SMASH\nhareketiyle şaşırt onları!$"
+	.string "Ayayayay…\n"
+	.string "I entered the wrong CONTEST.\p"
+	.string "I entered this tough POKéMON in\n"
+	.string "the SMARTNESS CONTEST…\p"
+	.string "Come on, wow them with a smart-looking\n"
+	.string "ROCK SMASH.$"
 
 LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
-	.string "Bu POKéMON'u zeki yetiştirmek için\nyıllarca ve tüm bilgeliğimi harcadım.\pGenç bir yavru POKéMON tarafından\nkolayca alt edilemez.\pSevgili karım, bunu görüyor musun?$"
+	.string "I've spent many a year, and all my\n"
+	.string "wisdom besides, raising this POKéMON\l"
+	.string "to be smart.\p"
+	.string "It won't be easily bested by some\n"
+	.string "young pup's POKéMON.\p"
+	.string "My dear wife, are you seeing this?$"
 
 LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
-	.string "İşte bu kadar!\pEğer POKéMON'um akıllıca bir hamle\nyaparsa, seyircilerin heyecanı doruğa\lçıkacak!$"
+	.string "There it is!\p"
+	.string "If my POKéMON pulls a smart move next,\n"
+	.string "the audience's excitement will peak!$"
 
 LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
-	.string "Ah, canım, hayır!\pSevgili ZUBAT'ımın LEECH LIFE'ı o kadar\ntatlı ki, onu tekrar tekrar kullanmaya\ldevam ettim!\pAma bu zalim insanlar bunu hiç takdir\netmiyor!$"
+	.string "Oh, dear, no!\p"
+	.string "My darling ZUBAT's LEECH LIFE is so\n"
+	.string "cute I kept using it over and over!\p"
+	.string "But these mean people don't appreciate\n"
+	.string "it at all!$"
 
 LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
-	.string "Kiyaaah!\nHarikasın, büyükbaba!$"
+	.string "Kiyaaah! You're beautiful, Grandpa!$"
 
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
-	.string "EĞİTMENLER aynı tür POKéMON'la\ngirdiklerinde bile, hepsi farklı tür\lhareketler kullanırlar.\pTıpkı insanların savaşmak için farklı\ntarzlara sahip olması gibi.$"
+	.string "Even when TRAINERS enter the same\n"
+	.string "kind of POKéMON, they all seem to use\l"
+	.string "different moves for appeals.\p"
+	.string "It's just like the way people have\n"
+	.string "different styles for battling.$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
-	.string "Bence POKéMON'lar eğitmenlerinden\ndaha zekilerdir. Hem de çok.$"
+	.string "I think the POKéMON look smarter\n"
+	.string "than their TRAINERS. By a lot.$"
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
-	.string "Kim ne derse desin, ZEKA\nYARIŞMALARINI hala seviyorum.\pŞu entelektüel yeşil renk…\nÇok… Çok… Havalı.$"
+	.string "When all's said and done, I still love\n"
+	.string "SMARTNESS CONTESTS.\p"
+	.string "That intellectual green color…\n"
+	.string "It's so… So… Cool.$"
 
 LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
-	.string "SUNUCU: Sen de GÜZELLİK YARIŞMASI'na\nkatılıyor musun? İyi şanslar!$"
+	.string "MC: Are you entering the BEAUTY\n"
+	.string "CONTEST, too? Good luck!$"
 
 LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
-	.string "Buradaki her POKéMON bozulmamış\nbir güzelliğe sahip!\pNeredeyse puanlamayı unutuyordum!$"
+	.string "JUDGE: Ah, every POKéMON here is\n"
+	.string "a model of pristine beauty!\p"
+	.string "Why, I almost forgot to score them!$"
 
 LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
-	.string "Bu kadar güzel bir POKéMON…\nBunun gibi bir tane daha yok.\pHerkesin gözü benimkinde olacak.$"
+	.string "A POKéMON this beautiful…\n"
+	.string "There isn't another one like it.\p"
+	.string "Everyone's eyes will be glued to\n"
+	.string "my beauty.$"
 
 LilycoveCity_ContestHall_Text_OverdidGrooming:
-	.string "Vaaaah!\pBu yarışma için POKéMON'umu özenle\nfırçaladım ve bakımını yaptım…\pAma biraz abarttım… POKéMON'umun\ncildi pürüzlü pürüzlü oldu…\pNe yapmalıyım?$"
+	.string "Waaaah!\p"
+	.string "I brushed and groomed my POKéMON\n"
+	.string "carefully for this CONTEST…\p"
+	.string "But I overdid it…\n"
+	.string "My POKéMON's coat turned all scraggly…\p"
+	.string "What should I do?$"
 
 LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
-	.string "Bu AURORA BEAM o kadar göz kamaştırıcı\nki, JÜRİ onu göremeyecek bile.\pBir saniye…\nO zaman anlamı kalmaz ki!$"
+	.string "This AURORA BEAM is so dazzling,\n"
+	.string "the JUDGE won't be able to see it.\p"
+	.string "Uh, wait a second…\n"
+	.string "That'll be meaningless, then!$"
 
 LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
-	.string "Bu güzel POKéMON tıpkı benim gençliğime\nbenziyor.\pBunu söylediğimde kocam içtiği\nkahveyi kustu.\pKomik bir şey mi söyledim?$"
+	.string "This pretty POKéMON looks just like\n"
+	.string "me when I was younger.\p"
+	.string "Right when I said that, my husband\n"
+	.string "spewed the coffee he was drinking.\p"
+	.string "Did I say something funny?$"
 
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
-	.string "Bir GÜZELLİK YARIŞMASI kazanırsam, bu\nbeni elbette mutlu eder. En azından\lnormalden daha fazla.$"
+	.string "You know, if I win at a BEAUTY\n"
+	.string "CONTEST, sure it makes me\l"
+	.string "happy. More than usual, anyway.$"
 
 LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
-	.string "Vahahahah!\pŞu güzel POKéMON'lara bir bakar mısın?\nBu tür şatafatlara bayılıyorum!$"
+	.string "Wahahahah!\p"
+	.string "Will you take a gander at all those\n"
+	.string "pretty POKéMON!\l"
+	.string "I just love this sort of glitz!$"
 
 LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
-	.string "Her zaman sadece güzelliğinizle\nkazanamazsınız.\pBenimki gibi güzel ve parlak olması için\nPOKéMON'unuza bakım yapmalısınız.$"
+	.string "You can't always win on just beauty\n"
+	.string "alone.\p"
+	.string "You have to groom your POKéMON so\n"
+	.string "it's nice and glossy like mine.$"
 
 LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
-	.string "SUNUCU: Ee! Merhaba!\nBir yarışmanın ortasındayız!\pLütfen kayıt bankomuza girin\nve öyle gelin, tamam mı?$"
+	.string "MC: Uh-oh! Hello!\n"
+	.string "We're in the middle of a CONTEST!\p"
+	.string "Please enter at our registration\n"
+	.string "counter and come out, okay?$"
 
 LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
-	.string "JÜRİ: Ne kadar çekici ve sevimli\nyarışmacılar bunlar!$"
+	.string "JUDGE: Oh, such charming and cute\n"
+	.string "appeals!\p"
+	.string "Oh, my goodness! What a perfectly\n"
+	.string "adorable WATER SPORT appeal!$"
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
-	.string "Olamaz… Benim tatlı AZURILL'imin\ndikkatini başka bir POKéMON dağıttı.$"
+	.string "Oh, no… My sweet AZURILL was\n"
+	.string "distracted by another POKéMON.$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
-	.string "POKéMON'um savaşlarda kazanamaz\nama onu bir YARIŞMA'ya koy da izle!$"
+	.string "My POKéMON has never won in a battle,\n"
+	.string "but put it in a CONTEST and look out!$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
-	.string "POKéMON'umun PETAL DANCE hareketi\nbir harika.\pKimsenin onun performansını bozmasına\nizin vermeyeceğim.$"
+	.string "My POKéMON's PETAL DANCE is a marvel\n"
+	.string "of elegance.\p"
+	.string "I won't let anyone disturb its\n"
+	.string "performance.$"
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
-	.string "Herkesin POKéMON'u çok sevimli.\pAncak, eğer benim POKéMON'um sevimli bir\nyarışmaya girseydi…\pDiğerlerinden çok daha şirin\nolacağına eminim.$"
+	.string "Everyone's POKéMON are very cute.\p"
+	.string "However, if my POKéMON were to make\n"
+	.string "a cute appeal…\p"
+	.string "I'm sure that it would be so much \n"
+	.string "cuter than the others.$"
 
 LilycoveCity_ContestHall_Text_MyChildIsInContest:
-	.string "Çocuğum bu yarışmaya girdi.$"
+	.string "My child is in this CONTEST.$"
 
 LilycoveCity_ContestHall_Text_ComeOnDear:
-	.string "Hadi bir tanem.\nDevam et!\pSenin POKéMON'un en iyisi!$"
+	.string "Come on, dear. Go for it!\n"
+	.string "Your POKéMON is the best!$"
 
 LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
-	.string "Bence şuradaki kız aralarındaki en\ntatlısı.\pNe?\nPOKéMON'ları mı değerlendiriyorlardı?$"
+	.string "I think that girl over there is\n"
+	.string "the cutest of the lot.\p"
+	.string "What's that? They're judging\n"
+	.string "POKéMON by their looks?$"
 
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
-	.string "Tüm bu sevimli POKéMON'ları görünce\nkendi POKéMON'umu almak istiyorum!\pGidip biraz yakalayacağım!$"
+	.string "Ohh, seeing all these cute POKéMON,\n"
+	.string "they make we want to get my own!\p"
+	.string "I'm going to go catch some!$"
 
 LilycoveCity_ContestHall_Text_BeautyContestStage:
-	.string "GÜZELLİK YARIŞMASI SAHNESİ\nGÜZEL POKéMON'LARI SEYREDİN!$"
+	.string "BEAUTY CONTEST STAGE\n"
+	.string "BE ALLURED BY BEAUTIFUL POKéMON!$"
 
 LilycoveCity_ContestHall_Text_CuteContestStage:
-	.string "SEVİMLİLİK YARIŞMASI SAHNESİ\nSEVİMLİ POKéMON'LARLA ŞENLENİN!$"
+	.string "CUTENESS CONTEST STAGE\n"
+	.string "BE CHARMED BY CUTE POKéMON!$"
 
 LilycoveCity_ContestHall_Text_SmartContestStage:
-	.string "ZEKA YARIŞMASI SAHNESİ\nDAHİ POKéMON'LAR BURADA!$"
-
+	.string "SMARTNESS CONTEST STAGE\n"
+	.string "BE IMPRESSED BY SMART POKéMON!$"
 

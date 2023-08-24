@@ -51,7 +51,7 @@ FortreeCity_House2_Text_CoinInWhichHand:
 	.string "bu yaşlı kadına izin ver…\p"
 	.string "Bir elimde para var.\p"
 	.string "Şimdi söyle, Hangi elimde?\n"
-	.string "sağ mı? yoksa sol mu?$"
+	.string "Sağ mı? yoksa sol mu?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
 	.string "Ah! Evet, doğru!\p"

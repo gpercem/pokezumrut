@@ -157,7 +157,7 @@ FortreeCity_Gym_Text_JaredDefeat:
 
 FortreeCity_Gym_Text_JaredPostBattle:
 	.string "Bir EĞİTMEN beklenmedik geri dönüşlere\n"
-	.string " ve olaylara karşı akıllıca davranmalı.\p"
+	.string "ve olaylara karşı akıllıca davranmalı.\p"
 	.string "LİDERİMİZE ulaşabilecek kadar\n"
 	.string "akıllı mısın?$"
 
@@ -178,7 +178,7 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string "da güçlendirmeye gidiyorum.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "WİNONA'nın,SALON LİDERİMİZİN,\n"
+	.string "WİNONA'nın, SALON LİDERİMİZİN,\n"
 	.string "seninle uğraşmasına gerek yok!\p"
 	.string "Ben senin için yeterince iyiyim!$"
 
@@ -314,4 +314,4 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
 	.string "Ah olamaz… Yanında sadece bir\n"
 	.string "POKéMON mu var?\p"
 	.string "Lütfen en az iki POKéMON ile geri\n"
-	.string "geldiğinizden emin olun.$"
+	.string "geldiğinden emin ol.$"

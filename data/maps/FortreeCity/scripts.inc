@@ -103,7 +103,7 @@ FortreeCity_Text_SomethingBlockingGym:
 	.string "ROTA 120'de devam ettim…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "Yanıma gururlu-ve-neşeli pokemonlarımı\n"
+	.string "Yanıma gururlu-ve-neşeli POKéMONLARIMI\n"
 	.string "aldım. Bu sefer, WİONA'yı yeneceğim.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:

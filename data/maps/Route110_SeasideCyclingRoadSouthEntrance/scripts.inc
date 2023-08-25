@@ -52,10 +52,10 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 	releaseall
 	end
 
-Route110_SeasideCyclingRoadNorthEntrance_Text_GoAllOutOnCyclingRoad:
+Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
 	.string "BİSİKLET YOLU'nda her şeyi yapabilir ve\nistediğiniz kadar hızlı bisiklet\lsürebilirsin.\pBu kadar hızlı gitmek harika\nhissettirir, ancak kimseye çarpmamaya\lçalış!$"
 
-Route110_SeasideCyclingRoadNorthEntrance_Text_TooDangerousToWalk:
+Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk:
 	.string "Üzgünüm, bisiklet yolunda\nyürüyemezsin. Çok tehlikeli.\pLütfen bir BİSİKLET ile geri gel.$"
 
 

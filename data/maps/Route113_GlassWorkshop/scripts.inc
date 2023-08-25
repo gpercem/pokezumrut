@@ -292,89 +292,48 @@ Route113_GlassWorkshop_EventScript_NinjaBoy::
 	end
 
 Route113_GlassWorkshop_Text_GoCollectAshWithThis:
-	.string "This area is covered in volcanic ash,\n"
-	.string "huff-puff!\p"
-	.string "I'm specially gifted, huff-puff.\p"
-	.string "I make glass out of volcanic ash\n"
-	.string "and make items, huff-puff.\p"
-	.string "Go collect ashes with this, huff-puff.$"
+	.string "Bu bölge volkanik külle kaplı,\nhof-pof!\pBenim özel yeteneğim var, hof-pof.\pVolkanik külden cam ve eşyalar\nyaparım, hof-pof.\pGit bununla kül topla, hof-pof.$"
 
 Route113_GlassWorkshop_Text_ExplainSootSack:
-	.string "Just take that SOOT SACK and walk\n"
-	.string "through piles of ash, huff-puff.\p"
-	.string "And it will fill up with the volcanic ash,\n"
-	.string "huff-puff.\p"
-	.string "Once you think you've collected a good\n"
-	.string "amount, come see me, huff-puff.$"
+	.string "Sadece o KÜL ÇUVALINI al ve kül\nyığınları arasında yürü, hof-pof.\pVe çuvalın dolsun, hof-pof.\pYeterince topladığını düşündüğünde,\nbeni görmeye gel, hof-pof.$"
 
 Route113_GlassWorkshop_Text_LetsSeeCollectedAshes:
-	.string "Have you collected ashes, huff-puff?\n"
-	.string "Let me see, huff-puff.$"
+	.string "Kül mü topladın, hof-pof?\nBir bakayım, hof-pof.$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshNeedX:
-	.string "Hmmm…\n"
-	.string "There's not enough ash here, huff-puff.\l"
-	.string "I can't make glass with this, huff-puff.\p"
-	.string "Let's see… {STR_VAR_1} is the number of steps\n"
-	.string "you'll need to walk for me to make you\l"
-	.string "a BLUE FLUTE, huff-puff.$"
+	.string "Hmmm… Burada yeterince kül yok,\nhof-pof. Bununla cam yapamam,\lhof-pof.\pBakalım…\nSana MAVİ FLÜT yapabilmem için\l{STR_VAR_1} adım yürümen gerek, hof-pof.$"
 
 Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike:
-	.string "Oh!\n"
-	.string "You've got a lot of ashes, huff-puff!\p"
-	.string "I'll make you a glass item, huff-puff!\n"
-	.string "Which one would you like, huff-puff?$"
+	.string "Ah! Çok fazla külün var, hof-pof!\pSana bir cam eşya yapacağım,\nhof-pof! Hangisini istersin,\lhof-pof?$"
 
 Route113_GlassWorkshop_Text_IsThatTheItemForYou:
-	.string "A {STR_VAR_1}, huff-puff?\n"
-	.string "Is that the one for you, huff-puff?$"
+	.string "Bir {STR_VAR_1} demek, hof-pof?\nBu senin için mi, hof-pof?$"
 
 Route113_GlassWorkshop_Text_WhichWouldYouLike:
-	.string "Which one would you like, huff-puff?$"
+	.string "Hangisini istersin, hof-pof?$"
 
 Route113_GlassWorkshop_Text_IllMakeItemForYou:
-	.string "A {STR_VAR_1} it is, then, huff-puff!\p"
-	.string "Okay! I'll make it for you, huff-puff.\n"
-	.string "Just wait a little while, huff-puff.$"
+	.string "{STR_VAR_1} o zaman, hof-pof!\pTamam! Senin için yapacağım,\nhof-pof. Sadece biraz bekle,\lhof-pof.$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem:
-	.string "A {STR_VAR_1}, huff-puff?\p"
-	.string "There's not enough ash here to make\n"
-	.string "that, though, huff-puff.\p"
-	.string "Let's see… {STR_VAR_2} is the number of steps\n"
-	.string "you'll need to walk through volcanic ash\l"
-	.string "for me to make that item, huff-puff.\p"
-	.string "Which item would you rather have me\n"
-	.string "make instead, huff-puff?$"
+	.string "{STR_VAR_1}, hof-pof?\pBurada bunu yapmak için yeterli kül\nyok, hof-pof.\pBakalım… Bunu yapabilmem için kül\niçinde {STR_VAR_2} adım atman lazım, hof-pof.\pOnun yerine hangi eşyayı yapmamı\ntercih ederdin, hof-pof?$"
 
 Route113_GlassWorkshop_Text_AllThatAshButDontWantAnything:
-	.string "You've collected all that ash, but you\n"
-	.string "don't want anything, huff-puff?$"
+	.string "O kadar kül topladın ama hiçbir\nşey istemiyor musun, hof-pof?$"
 
 Route113_GlassWorkshop_Text_IveFinishedGlassItem:
-	.string "Ah, I've finished your {STR_VAR_1}.\n"
-	.string "Take it, huff-puff.$"
+	.string "Ah, {STR_VAR_1}'ını bitirdim.\nAl bakalım, hof-pof.$"
 
 Route113_GlassWorkshop_Text_NoRoomInBag:
-	.string "Oh?\n"
-	.string "You've no room in your BAG, huff-puff.\p"
-	.string "I'll hold on to it, so come back later,\n"
-	.string "huff-puff.$"
+	.string "Hım? Çantanda yer yok, hof-pof.\pOnu tutacağım, sonra gel, hof-pof.$"
 
 Route113_GlassWorkshop_Text_NoRoomInPC:
-	.string "Oh?\n"
-	.string "You've no room in your PC, huff-puff?\p"
-	.string "I'll hold on to it, so come back later,\n"
-	.string "huff-puff.$"
+	.string "Hım? Bilgisayarında yer yok mu,\nhof-pof?\pOnu tutacağım, sonra gel, hof-pof.$"
 
 Route113_GlassWorkshop_Text_HaventGotYourSootSack:
-	.string "Hah? You haven't got your SOOT SACK\n"
-	.string "with you, huff-puff.\p"
-	.string "You have to keep it with you to collect\n"
-	.string "volcanic ash, huff-puff.$"
+	.string "Hah? KÜL ÇUVALIN yanında değil,\nhof-pof.\pVolkanik külleri toplamak için onu\nyanında tutmalısın, hof-pof.$"
 
 Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
-	.string "It's fun to blow a glass flute while\n"
-	.string "my boss is talking.\p"
-	.string "Huff-huff! Puff-puff!$"
+	.string "Patronum konuşurken flüt çalmak\nçok eğlenceli.\pHof-hof!\nPuf-puf!$"
+
 

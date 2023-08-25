@@ -602,7 +602,7 @@ const struct Item gItems[] =
 
     [ITEM_SACRED_ASH] =
     {
-        .name = _("KUTSAL KÖZ"),
+        .name = _("KUTSAL KÜL"),
         .itemId = ITEM_SACRED_ASH,
         .price = 200,
         .description = sSacredAshDesc,

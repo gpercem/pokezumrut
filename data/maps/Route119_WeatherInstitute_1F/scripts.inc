@@ -71,65 +71,39 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
-	.string "The BOSS got interested in\n"
-	.string "the research they have going here,\l"
-	.string "so he sent us out.\p"
-	.string "You quit meddling!$"
+	.string "Patronumuz burada yapılan\naraştırmayla ilgilendi ve bizi\lgönderdi.\pKarışmayı bırak!$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
-	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "Kahretsin…\nBir çocuğa yenildim…$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
-	.string "Our BOSS knows everything.\p"
-	.string "But I'm just a GRUNT. What would I know\n"
-	.string "about what he's thinking?$"
+	.string "Yaptıklarımızın sebebini patron\nbiliyor.\pBen sadece bir haydutum.\nOnun ne düşündüğü hakkında\lne bilebilirim ki?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro:
-	.string "Huh?\n"
-	.string "What's a kid doing here?$"
+	.string "Ha?\nBir çocuğun burada ne işi var?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
-	.string "Huh?\n"
-	.string "I lost?!$"
+	.string "Ne?\nNasıl kaybederim?!$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
-	.string "Oh, no…\n"
-	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "Ah, hayır…\nBir çocuğa yenildiğim için\lazar işiteceğim…\pYatakta biraz kestirmeliyim.$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string "Ben uyurken herkes üst kata çıktı!$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "Vay canına, gerçekten çok güçlüsün!\pKeşke ben de senin gibi bir eğitmen\nolabilsem!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string "Profesör yağmuru seviyor.\nBu bir gerçek.\pAma yağmur yağmaya devam ederse,\ninsanların başı belaya girecek.\lBu da başka bir gerçek.\pBu nedenle PROFESÖR, yağmurun iyi bir\nşekilde kullanılıp kullanılamayacağını\laraştırıyor.$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "ENSTİTÜ'nün 2. katında, HOENN bölgesi\nüzerindeki hava durumu modellerini\linceliyoruz.\pSon zamanlarda geçici ve münferit\nkuraklık ve şiddetli yağmur vakaları\lfark ediyoruz…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "Merhaba!\nSenin sayende kurtulduk!\pAnlamadığım şey, AQUA'nın neyin\npeşinde olduğu.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "Bir yatak var…\nBiraz dinlenelim.$"
+
 

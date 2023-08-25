@@ -1,31 +1,30 @@
 gText_ObtainedTheItem::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{STR_VAR_2} alındı!$"
 
 gText_TheBagIsFull::
-	.string "The BAG is full…$"
+	.string "Çanta dolu…$"
 
 gText_PutItemInPocket::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} POCKET.$"
+	.string "{PLAYER} {STR_VAR_2} eşyasını\n"
+	.string "{STR_VAR_3} cebine koydu.$"
 
 gText_PlayerFoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{PLAYER} bir {STR_VAR_2} buldu!$"
 
 gText_TooBadBagIsFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "Olamaz!\n"
+	.string "Çanta dolu…$"
 
 gText_PlayerPutItemInBag::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the BAG.$"
+	.string "{PLAYER}, {STR_VAR_2} eşyasını\n"
+	.string "çantasına koydu.$"
 
 gText_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{STR_VAR_2} alındı!$"
 
 gText_NoRoomLeftForAnother::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "Olamaz! Başka bir\n"
+	.string "{STR_VAR_2} için yer kalmadı…$"
 
 gText_TheDecorWasTransferredToThePC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+	.string "{STR_VAR_2}, PC'ye gönderildi.$"

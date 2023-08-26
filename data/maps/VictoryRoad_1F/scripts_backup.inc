@@ -121,64 +121,100 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-	.string "WALLY: Merhaba, {PLAYER}!\pEminim beni burada gördüğüne\nşaşırmışsındır!\pBuraya kadar gelebildim ve hepsi senin\nsayende!\pSana karşı kaybetmek beni daha da\ngüçlendirdi!\pAma artık kaybetmeyeceğim!\pKazanacağım! Bana cesaret ve güç\nveren POKéMON'larım için!\pTamam… İşte geliyorum!$"
+	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "I bet you're surprised to see me here!\p"
+	.string "I made it all the way here, and it's\n"
+	.string "all thanks to you!\p"
+	.string "{PLAYER}, losing to you that time\n"
+	.string "made me stronger!\p"
+	.string "But I'm not going to lose anymore!\p"
+	.string "I'm going to win! For the POKéMON who\n"
+	.string "gave me courage and strength!\p"
+	.string "Okay… Here I come!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
-	.string "Vay canına, {PLAYER}.\nHer şeye rağmen güçlüsün!$"
+	.string "Wow!\n"
+	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-	.string "WALLY: Bugün seni yenemedim, {PLAYER},\nama bir gün seni yakalayacağım!$"
+	.string "WALLY: I couldn't beat you today,\n"
+	.string "{PLAYER}, but one of these days, I'll\l"
+	.string "catch up to you!$"
 
 VictoryRoad_1F_Text_WallyIntro:
-	.string "WALLY: Merhaba!\pSon seferden bu yana daha da\ngüçlendim!\lSana göstermek istiyorum, {PLAYER}!\pTamam… İşte geliyorum!$"
+	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "I've gotten stronger since that last\n"
+	.string "time! I wanted to show you, {PLAYER}!\p"
+	.string "Okay… Here I come!$"
 
 VictoryRoad_1F_Text_WallyDefeat:
-	.string "Vay canına, {PLAYER}.\nHer şeye rağmen güçlüsün!$"
+	.string "Wow!\n"
+	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostBattle:
-	.string "WALLY: Bu sefer de seni yenemedim…\nAma bir gün, {PLAYER}, seni\lyakalayacağım…\pVe POKéMON LİGİ'ne meydan okuyacağım!$"
+	.string "WALLY: I couldn't beat you this time,\n"
+	.string "too… But one of these days, {PLAYER},\l"
+	.string "I'm going to catch up to you…\p"
+	.string "And challenge the POKéMON LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-	.string "Buraya kadar birkaç kez geldim ama\nson kısım o kadar uzun ki…$"
+	.string "I've made it this far a couple times,\n"
+	.string "but the last stretch is so long…$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-	.string "Hayalim yine burada bitiyor.$"
+	.string "My dream ends here again…$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "Buraya kadar gelebildin.\nMomentumunu koru ve şampiyonluğa\nyürü!\pBunu yapabilecek biri varsa, o da\nsensin!$"
+	.string "You've made it this far. Keep the\n"
+	.string "momentum going and become the\l"
+	.string "CHAMPION! If anyone can, it's you!$"
 
 VictoryRoad_1F_Text_AlbertIntro:
-	.string "Bunca yolu şimdi kaybetmek için\ngelmedim. Böyle bir olasılık yok!$"
+	.string "I didn't come all this way to lose now.\n"
+	.string "That possibility doesn't exist!$"
 
 VictoryRoad_1F_Text_AlbertDefeat:
-	.string "İmkansız…\nKaybettim.$"
+	.string "Impossible…\n"
+	.string "I lost?$"
 
 VictoryRoad_1F_Text_AlbertPostBattle:
-	.string "Kaybettim.\pBu, ŞAMPİYON olmak için gerekli\nniteliklere sahip olmadığım anlamına\lgeliyor.$"
+	.string "I lost here…\p"
+	.string "That means I lack the qualifications\n"
+	.string "to become the CHAMPION…$"
 
 VictoryRoad_1F_Text_HopeIntro:
-	.string "Görünüşte sonsuz ve zorlu olan bu yol\nadının hakkını veriyor.$"
+	.string "This seemingly infinite and harsh road\n"
+	.string "lives up to its name of VICTORY.$"
 
 VictoryRoad_1F_Text_HopeDefeat:
-	.string "Savaş stilin harika…$"
+	.string "Your battle style is fantastic…$"
 
 VictoryRoad_1F_Text_HopePostBattle:
-	.string "ŞAMPİYON olma potansiyeline sahip\ngörünüyorsun.$"
+	.string "You seem to have the potential for\n"
+	.string "becoming the CHAMPION.$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "ZAFER YOLU ne mi?\nKazanırsan size söylerim!$"
+	.string "What is the VICTORY ROAD?\n"
+	.string "I'll tell you if you win!$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
-	.string "Tamam!\nAferin sana!$"
+	.string "Okay!\n"
+	.string "Well done!$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Buradan sağ salim geçmek, POKéMON\nŞAMPİYONU olmayı hedefleyen her\lEĞİTMEN için son sınavdır.\pBu yüzden buraya ZAFER YOLU deniyor.$"
+	.string "Getting through here safely--that's\n"
+	.string "the final test for any TRAINER aiming\l"
+	.string "to become the POKéMON CHAMPION.\p"
+	.string "That's why it's called the VICTORY\n"
+	.string "ROAD.$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
-	.string "Buraya kadar gelen birine\nsöyleyecek bir şeyim yok.\lHadi başlayalım!$"
+	.string "I have nothing to say to anyone\n"
+	.string "that's come this far. Come on!$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "Bu bir rezalet.$"
+	.string "This is a disgrace…$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
-	.string "Hımph, devam et.\nBakalım umurumda olacak mı?$"
+	.string "Humph, go right on ahead.\n"
+	.string "See if I care.$"

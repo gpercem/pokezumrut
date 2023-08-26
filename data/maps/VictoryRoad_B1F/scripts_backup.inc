@@ -27,48 +27,65 @@ VictoryRoad_B1F_EventScript_Halle::
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro:
-	.string "POKéMON LİGİ'ne yaklaştığım\ndüşüncesi…\pHeyecandan titriyorum.$"
+	.string "The thought that I'm getting closer to\n"
+	.string "the POKéMON LEAGUE…\p"
+	.string "I'm getting stage fright…$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "Hiçbir şey yapamadım.$"
+	.string "I couldn't do a thing…$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
-	.string "POKéMON LİGİ yine hayal oldu…\nNe hayal kırıklığı ama…$"
+	.string "The POKéMON LEAGUE became distant\n"
+	.string "again… What a letdown…$"
 
 VictoryRoad_B1F_Text_ShannonIntro:
-	.string "POKéMON LİGİ'ne ilerlemek için\nPOKéMON'unun güvenine ihtiyacın\lvar.$"
+	.string "To win your way through the POKéMON\n"
+	.string "LEAGUE, you need the trust of your\l"
+	.string "POKéMON.$"
 
 VictoryRoad_B1F_Text_ShannonDefeat:
-	.string "İlişkiniz sağlam görünüyor.$"
+	.string "Your relationship is based on\n"
+	.string "solid trust.$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
-	.string "Her zaman birlikte olan POKéMON'lar\nve EĞİTMENLER arasında güven zamanla\lartar.$"
+	.string "By being together all the time, trust\n"
+	.string "grows between POKéMON and TRAINERS.$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "Burada bulunmak hedefim değil.\pBurası sadece POKéMON LİGİ'ne\ngiden yolda bir durak.$"
+	.string "This isn't the goal. It's only a place\n"
+	.string "on the way to the POKéMON LEAGUE.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
-	.string "İşte böyle!$"
+	.string "That's the way!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle:
-	.string "Kesinlikle iyi iş çıkaracaksın!\nPOKéMON'larının hepsi gitmeye\lhevesli!$"
+	.string "You'll do fine, for sure!\n"
+	.string "Your POKéMON are all eager to go!$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
-	.string "POKéMON'um hayranlık uyandırıcıdır!$"
+	.string "My POKéMON are cosmically\n"
+	.string "awe inspiring!$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
-	.string "Daha önce senin gibi biriyle hiç\ntanışmamıştım.$"
+	.string "I've never met anyone like you before.$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
-	.string "Savaş dışında bile, senden ve\nPOKEMON'undan yayılan inanılmaz bir\lgüç hissediyorum.$"
+	.string "Even outside of battle, I sense\n"
+	.string "incredible power emanating from you\l"
+	.string "and your POKéMON.$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Tamam, heyecana gerek yok!\nSakin ol, sakin olalım!$"
+	.string "Okay, no need to get your back up!\n"
+	.string "Relax, let's take it easy!$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "Vay be!\nHarika!$"
+	.string "Whoa!\n"
+	.string "Wonderful!$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-	.string "Elbette, burası ZAFER YOLU.\pAma şimdiye kadar izlediğin yoldan\nçok da farklı değil.\pYolun geri kalanında her şeyin tadını\nçıkarmaya çalış!$"
-
+	.string "Sure, this is VICTORY ROAD.\p"
+	.string "But it's not all that different from\n"
+	.string "the path you've taken so far.\p"
+	.string "Try to enjoy things the rest of\n"
+	.string "the way!$"
 

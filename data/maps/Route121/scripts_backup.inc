@@ -173,15 +173,20 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Peki! PYRE DAĞI'NA gidiyoruz!$"
+	.string "Okay!\n"
+	.string "We're to move out to MT. PYRE!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Önümüzde MT. PYRE var…\pÖlen POKéMON'ların ruhları için doğal\nbir anıt…$"
+	.string "Ahead looms MT. PYRE…\p"
+	.string "It is a natural monument to the spirits \n"
+	.string "of departed POKéMON…$"
 
 Route121_Text_MtPyrePierSign:
-	.string "PYRE DAĞI İSKELESİ\p…Tabela eski ve yıpranmış.\nKelimeler zar zor okunuyor.$"
+	.string "MT. PYRE PIER\p"
+	.string "…The sign is old and worn out.\n"
+	.string "The words are barely legible…$"
 
 Route121_Text_SafariZoneSign:
-	.string "Nadir bulunan POKéMON'larla dolu!\nSAFARİ BÖLGESİ$"
-
+	.string "“Filled with rare POKéMON!”\n"
+	.string "SAFARI ZONE$"
 

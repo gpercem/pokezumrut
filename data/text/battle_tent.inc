@@ -1,433 +1,197 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "FALLARBOR SITE!\p"
-	.string "I am your guide to the Set KO Tourney!$"
+	.string "FALLARBOR SAVAŞ ÇADIRI'na hoş\ngeldiniz!\pTurnuvada rehberiniz ben olacağım!$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge:
-	.string "Now, do you wish to take the challenge\n"
-	.string "of a Set KO Tourney?$"
+	.string "Turnuva için meydan okumaya\nvar mısınız?$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "Başka bir fırsatta meydan okumanızı\nbekliyoruz!$"
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
-	.string "In the FALLARBOR BATTLE TENT,\n"
-	.string "we undertake the Set KO Tourney.\p"
-	.string "All participants enter with a team of\n"
-	.string "three POKéMON.\p"
-	.string "The three POKéMON must be lined up\n"
-	.string "in the order that they are to appear in.\p"
-	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
-	.string "Once a POKéMON enters battle, it must\n"
-	.string "remain out until the match is decided.\p"
-	.string "If a match remains undecided in\n"
-	.string "three turns, it goes to judging.\p"
-	.string "If you wish to interrupt your challenge,\n"
-	.string "please save the game.\p"
-	.string "If you don't save, you will not be able\n"
-	.string "to continue with your challenge.\p"
-	.string "If you pull off the feat of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a fine prize.$"
+	.string "FALLARBOR SAVAŞ ÇADIRI'nda\nTurnuva gerçekleştiriyoruz.\pTüm katılımcılar üç POKéMON'dan oluşan\nbir takımla katılır.\pÜç POKéMON, görünecekleri sıraya göre\ndizilmelidir.\pSavaş sırasında POKéMON'lar önceden\nbelirlenmiş sırayla birer birer ortaya\lçıkar.\pBir POKéMON savaşa girdiğinde, maç\nsonuçlanana kadar dışarıda kalmalıdır.\pBir maç üç tur içinde kararsız kalırsa,\nyargılamaya gider.\pMücadelenizi yarıda kesmek isterseniz,\nlütfen oyunu kaydedin.\pKaydetmezseniz, mücadelenize devam\nedemezsiniz.\pArka arkaya üç EĞİTMENİ yenme\nbaşarısını gösterirseniz, size güzel\lbir ödül vereceğiz.$"
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "Before showing you to the BATTLE\n"
-	.string "TENT, I must save. Is that okay?$"
+	.string "Sizi SAVAŞ ÇADIRI'na götürmeden önce,\noyunu kaydetmeliyim. Uygun mu?$"
 
-@ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode:
-	.string "We offer two levels of challenge,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "İki mücadele seviyesi sunuyoruz:\nSeviye 50 ve Açık Seviye.\lSizin seçiminiz hangisi?$"
 
 FallarborTown_BattleTentLobby_Text_SelectThreeMons:
-	.string "Very well, now select your\n"
-	.string "three POKéMON, please.$"
+	.string "Pekâlâ, şimdi üç POKéMON seçin\nlütfen.$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "Sevgili meydan okuyucu!\pGiriş için gerekli üç POKéMON'a sahip\ndeğilsiniz.\pAyrıca aynı türden eşyalara da sahip\nolmamalısınız.\pYUMURTALAR{STR_VAR_1} da uygun değil.\pHazırlıklarınızı yaptıktan sonra\nlütfen geri dönün.$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "Sevgili meydan okuyucum!\pGiriş için gerekli olan üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı çeşit POKéMON\ngetirmelisiniz.\pAyrıca aynı tür öğeleri\niçermemelidirler.\pYUMURTALAR{STR_VAR_1} uygun değildir.\pHazırlıklarınızı yaptıktan sonra\nlütfen geri dönün.$"
 
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent:
-	.string "I shall now guide you to\n"
-	.string "the BATTLE TENT.$"
+	.string "Şimdi size SAVAŞ ÇADIRI'na kadar\nrehberlik edeceğim.$"
 
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting:
-	.string "My dear challenger!\p"
-	.string "You did not save the game before\n"
-	.string "shutting down, did you?\p"
-	.string "It is unfortunate, but that has\n"
-	.string "resulted in your disqualification\l"
-	.string "from your challenge.\p"
-	.string "You may, of course, start with a fresh\n"
-	.string "challenge.$"
+	.string "Sevgili meydan okuyucum!\pOyunu kapatmadan önce kaydetmediniz,\ndeğil mi?\pTalihsiz bir durum, bu durum\nmeydan okumanızdan diskalifiye\ledilmenize neden oldu.\pElbette yeni bir meydan okuma ile\nbaşlayabilirsiniz.$"
 
 FallarborTown_BattleTentLobby_Text_BeatThreeTrainers:
-	.string "How splendid! You have beaten\n"
-	.string "three TRAINERS in succession!$"
+	.string "Ne kadar muhteşem!\nArka arkaya üç eğitmeni yendiniz!$"
 
 FallarborTown_BattleTentLobby_Text_WaitWhileSaveGame:
-	.string "Please wait while I save the game.$"
+	.string "Ben oyunu kaydederken lütfen\nbekleyin.$"
 
 FallarborTown_BattleTentLobby_Text_PresentYouWithPrize:
-	.string "In commemoration of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "Üç galibiyet serinizin anısına size bu\nödülü takdim ediyoruz.$"
 
 FallarborTown_BattleTentLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1} ödülünü aldı.$"
 
 FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize:
-	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "Ha? Çantanız dolu görünüyor.\pYer açmanızı ve ödülünüz için geri\ndönmenizi tavsiye ederim.$"
 
 FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving:
-	.string "Thank you so much for participating!\p"
-	.string "Please wait while I save the game.$"
+	.string "Katıldığınız için çok teşekkür ederim!\pBen oyunu kaydederken lütfen\nbekleyin.$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "Başka bir fırsatta meydan okumanızı\nbekliyoruz!$"
 
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
-	.string "We have been looking forward to\n"
-	.string "your arrival.\p"
-	.string "Before I show you to the BATTLE TENT,\n"
-	.string "I must save the game. Please wait.$"
+	.string "Gelişinizi dört gözle bekliyorduk.\pSize SAVAŞ ÇADIRI'nı göstermeden\nönce oyunu kaydetmeliyim. Lütfen\lbekleyin.$"
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "VERDANTURF SITE!\p"
-	.string "Here, the TRAINER's trust toward\n"
-	.string "POKéMON is tested.$"
+	.string "VERDANTURF SAVAŞ ÇADIRI'na hoş\ngeldiniz!\pBurada, eğitmenlerin POKéMON'lara olan\ngüvenini test ediyoruz.$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
-	.string "Do you wish to take the VERDANTURF\n"
-	.string "BATTLE TENT challenge?$"
+	.string "VERDANTURF SAVAŞ ÇADIRI mücadelesine\nkatılmak ister misiniz?$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
-	.string "In the VERDANTURF BATTLE TENT,\n"
-	.string "there is one crucial rule that must\l"
-	.string "be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
-	.string "to their nature and battle on their own.\p"
-	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
-	.string "If you achieve the honor of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "VERDANTURF SAVAŞ ÇADIRI'nda uyulması\ngereken çok önemli bir kural vardır.\pEĞİTMENLERİN sadece POKéMON'larını\ndeğiştirmelerine izin verilir.\pBunun dışında EĞİTMENLERİN\nPOKéMON'larına komut vermeleri\lyasaktır.\pPOKéMON'lar kendi doğalarına göre\ndavranmalı ve kendi başlarına\lsavaşmalıdır.\pPOKéMON'larınıza güvenmeli ve onları\nizlemelisiniz.\pArt arda üç EĞİTMENİ yenme onuruna\nerişirseniz, size bir ödül vereceğiz.\pEğer mücadelenizi yarıda kesmek\nisterseniz, lütfen oyunu kaydedin.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye olursunuz.$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
-	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "Kalbinizi ve POKéMON'unuzu\ngüçlendirdiğinizde geri dönmelisiniz.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode:
-	.string "There are two levels of difficulty,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice of a challenge?$"
+	.string "Seviye 50 ve Açık Seviye olmak üzere\niki zorluk seviyesi vardır.\lSizin meydan okuma tercihiniz hangisi?$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "Ah…\pYarışma için gereken üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı türde POKéMON\ngetirmelisiniz.\pAyrıca aynı eşyaları tutamazlar.\pYUMURTALAR{STR_VAR_1} da uygun değildir.\pHazırlıklarınızı yaptıktan sonra geri\ngelin.$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "Ah…\pYarışma için gereken üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı türde POKéMON\ngetirmelisiniz.\pAyrıca aynı eşyaları tutamazlar.\pYUMURTALAR{STR_VAR_1} da uygun değildir.\pHazırlıklarınızı yaptıktan sonra geri\ngelin.$"
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons:
-	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "Güzel.\nŞimdi, üç POKéMON seçmelisiniz.$"
 
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "I must save before I show you to\n"
-	.string "the BATTLE TENT. Is that okay?$"
+	.string "Size SAVAŞ ÇADIRI'nı göstermeden\nönce kaydetmeliyim. Uygun mu?$"
 
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe:
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "Güzel.\nŞimdi, beni takip edin.$"
 
 VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded:
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "POKéMON'unuzun maceralarını gördüğüm\niçin kendimi ayrıcalıklı hissediyorum.\pSonuçlar kaydedilecek. Sizden kısaca\nbeklemenizi istemek zorundayım.$"
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak:
-	.string "To achieve a 3-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "3 galibiyetlik bir seri yakalamak için…\pKalbinizi POKéMON'unuza bağlayan\nbağları sıkmalısınız.$"
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded:
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "Başarınız kaydedilecek. Sizden kısaca\nbeklemenizi istemek zorundayım.$"
 
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
-	.string "For the feat of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "3 galibiyet serinizin başarısı için size\nbu ödülü sunuyoruz.$"
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Tournament.$"
+	.string "SLATEPORT SAVAŞ ÇADIRI'na hoş\ngeldiniz!\pBen Takas Turnuvası rehberinizim.$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Swap challenge?$"
+	.string "Savaş Takası yarışmasına katılmak\nister misiniz?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
-	.string "we hold Battle Swap events\l"
-	.string "using rental POKéMON.\p"
-	.string "First, you will be loaned three\n"
-	.string "POKéMON specifically for this event.\p"
-	.string "Using the supplied rental POKéMON,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental POKéMON.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win three times in\l"
-	.string "a row, you will earn a fine prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "SLATEPORT SAVAŞ ÇADIRI'nda kiralık\nPOKéMON kullanarak Savaş Takası\letkinlikleri düzenliyoruz.\pÖncelikle, bu etkinlik için size özel\nolarak üç POKéMON ödünç verilecektir.\pVerilen kiralık POKéMON'ları\nkullanarak TEK BİR SAVAŞ\lgerçekleştirmelisiniz.\pKazanırsanız, kiralık\nPOKéMON'larınızdan birini takas\letmenize izin verilir.\pBu savaş ve takas döngüsünü\ntekrarlayın - üst üste üç kez\lkazanırsanız, güzel bir ödül\lkazanacaksınız.\pMücadelenizi yarıda kesmek isterseniz,\nlütfen oyunu kaydedin.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye olursunuz.$"
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit:
-	.string "We look forward to your next visit.$"
+	.string "Bir sonraki ziyaretinizi dört gözle\nbekliyoruz.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode:
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Level 100?$"
+	.string "Hangi seviyeye meydan okumak\nistiyorsunuz? Seviye 50 mi, yoksa\lSeviye 100 mü?$"
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "Before you begin your challenge,\n"
-	.string "I need to save data. Is that okay?$"
+	.string "Mücadelenize başlamadan önce verileri\nkaydetmem gerekiyor. Uygun mu?$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping:
-	.string "Okay, I will hold your POKéMON for\n"
-	.string "safekeeping while you compete.$"
+	.string "Tamam, siz yarışırken POKéMON'ları\nsaklayacağım.$"
 
 SlateportCity_BattleTentLobby_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "Lütfen, bu taraftan.$"
 
 SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults:
-	.string "Thank you for participating!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "Katıldığınız için teşekkürler!\pKiralık POKéMON'umuz karşılığında\nPOKéMON'unuzu iade edeceğim.\pEtkinlik sonuçlarınızı da\nkaydetmeliyim. Lütfen bekleyin.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals:
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.$"
+	.string "Kiralık POKéMON'umuza karşılık senin\nPOKéMON'unu geri vereceğim.$"
 
 SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons:
-	.string "Congratulations!\n"
-	.string "You've won three straight matches!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "Tebrikler! Üst üste üç maç kazandınız!\pKiralık POKéMON'umuz karşılığında\nPOKéMON'unu geri vereceğim.\pAyrıca etkinlik sonuçlarınızı da\nkaydetmeliyim. Lütfen bekleyin.$"
 
 SlateportCity_BattleTentLobby_Text_AwardYouThisPrize:
-	.string "In recognition of your 3-win streak,\n"
-	.string "we award you this prize.$"
+	.string "3 galibiyetlik serinizin anısına size\nbu ödülü veriyoruz.$"
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom:
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "Ha? Bunun için yeriniz yok gibi\ngörünüyor.\pLütfen çantanızda yer açın ve bana\nhaber verin.$"
 
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou:
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "Biz de sizi bekliyorduk!\pMücadelenize devam etmeden önce,\noyunu kaydetmeliyim.$"
 
 SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting:
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "Bunu söylediğim için üzgünüm ama geçen\nsefer oyunu bırakmadan önce\lkaydetmediniz.\pSonuç olarak, mücadelenizden\ndiskalifiye edildiniz.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons:
-	.string "We'll return your personal POKéMON.$"
+	.string "POKéMON'larınızı geri vereceğiz.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1} ödülünü aldı.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_RulesAreListed:
-	.string "The Battle Swap rules are listed.$"
+	.string "Savaş Takası kuralları listelenmiştir.$"
 
-@ Unused
 SlateportCity_BattleTentLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules:
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three POKéMON.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same POKéMON.$"
+	.string "Bir Savaş Takası etkinliğinde yalnızca\nüç POKéMON kullanabilirsiniz.\pİster kiralıyor ister takas ediyor\nolun, takımınızda aynı POKéMON'dan iki\lveya daha fazla bulunamaz.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules:
-	.string "You may swap POKéMON only with\n"
-	.string "the TRAINER you have just defeated.\p"
-	.string "You may swap for only those POKéMON\n"
-	.string "used by the beaten TRAINER.$"
+	.string "Sadece yeni yendiğiniz EĞİTMEN ile\nPOKéMON takas edebilirsiniz.\pSadece yenilmiş EĞİTMEN tarafından\nkullanılan POKéMON'ları takas\ledebilirsiniz.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules:
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's POKéMON.\p"
-	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
+	.string "Kazandığınız her savaştan sonra,\nmağlup ettiğiniz rakibinizin\lPOKéMON'larından biriyle takas\lyapabilirsiniz.\pEtkinlikteki üçüncü EĞİTMEN ile\nPOKéMON takası yapamazsınız.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
-	.string "There are two key points to be aware\n"
-	.string "of when swapping POKéMON.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the POKéMON you are\l"
-	.string "about to receive.\p"
-	.string "Second, the POKéMON on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "POKéMON takası yaparken dikkat\netmeniz gereken iki önemli nokta\lvardır.\pBirincisi, takas yaparken, almak üzere\nolduğunuz POKéMON'un istatistiklerini\lkontrol edemezsiniz.\pİkincisi, takımınızdaki POKéMON'lar,\nonları kiraladığınız sıraya bağlı\lolarak sırayla dizilir.\pBu sıra, takas yapıldığında bile\ndeğişmeden kalır.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules:
-	.string "The POKéMON of the SLATEPORT\n"
-	.string "BATTLE TENT are all rentals.\p"
-	.string "All rental POKéMON are kept at\n"
-	.string "Level 30.$"
+	.string "SLATEPORT SAVAŞ ÇADIRI'ndaki\nPOKéMON'ların hepsi kiralıktır.\pTüm kiralık POKéMON'lar Seviye 30'da\ntutulur.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2:
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "VERDANTURF SAVAŞ ÇADIRI kuralları\nlistelenmiştir.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
-	.string "Here at the VERDANTURF BATTLE TENT,\n"
-	.string "POKéMON are required to think and\l"
-	.string "battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
-	.string "with people behave differently\l"
-	.string "depending on their nature.$"
+	.string "Burada, VERDANTURF SAVAŞ ÇADIRI'nda,\nPOKéMON'un kendi başına düşünmesi ve\lsavaşması gerekmektedir.\pVahşi doğanın aksine, insanlarla\nbirlikte yaşayan POKéMON'lar\ldoğalarına bağlı olarak farklı\ldavranırlar.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules:
-	.string "Depending on its nature, a POKéMON\n"
-	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
-	.string "itself from any harm.\p"
-	.string "Yet another may enjoy vexing or\n"
-	.string "confounding its foes.\p"
-	.string "Depending on its nature, a POKéMON\n"
-	.string "will have favorite moves that it is good\l"
-	.string "at using.\p"
-	.string "It may also dislike certain moves that\n"
-	.string "it has trouble using.$"
+	.string "Doğasına bağlı olarak, bir POKéMON ne\nolursa olsun saldırmayı tercih\ledebilir.\pBaşka bir POKéMON kendini her türlü\nzarardan korumayı tercih edebilir.\pBir başkası ise düşmanlarını\nkızdırmaktan veya şaşırtmaktan\lhoşlanabilir.\pDoğasına bağlı olarak, bir POKéMON'un\nkullanmakta iyi olduğu favori\lhareketleri olacaktır.\pAyrıca kullanmakta zorlandığı bazı\nhareketlerden de hoşlanmayabilir.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules:
-	.string "There are offensive moves that inflict\n"
-	.string "direct damage on the foe.\p"
-	.string "There are defensive moves that are\n"
-	.string "used to prepare for enemy attacks or\l"
-	.string "used to heal HP and so on.\p"
-	.string "There are also other somewhat-odd\n"
-	.string "moves that may enfeeble the foes with\l"
-	.string "stat problems including poison and \l"
-	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
-	.string "these three categories.$"
+	.string "Düşmana doğrudan hasar veren saldırı\nhareketleri vardır.\pDüşman saldırılarına hazırlanmak için\nkullanılan veya HP'yi iyileştirmek için\lkullanılan savunma hareketleri vardır.\pAyrıca zehir ve felç gibi stat\nsorunları olan düşmanları\lgüçsüzleştirebilecek biraz tuhaf\lhareketler de vardır.\pPOKéMON bu üç kategorideki\nhareketleri kullanmayı düşünecektir.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules:
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "EĞİTMENİ tarafından komuta\nedilmediğinde, bir POKéMON belirli\lhareketleri etkili bir şekilde\lkullanamayabilir.\pBir POKéMON, sevmediği hiçbir hareketi\nkullanmakta iyi değildir.\pEğer bir POKéMON sadece doğasına\nuymayan hareketleri biliyorsa,\lgenellikle potansiyeline\lulaşamayacaktır.$"
 
-@ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "Doğasına bağlı olarak, bir POKéMON başı\nbelaya girdiğinde doğasına uymayan\lhareketler kullanmaya başlayabilir.\pBir POKéMON sıkıştığında garip\ndavranmaya başlarsa, onu dikkatle\lizleyin.$"
 
 BattleTentLobby_Text_ExplainLevelRules:
-	.string "At this BATTLE TENT, the levels of\n"
-	.string "your opponents will be adjusted to\l"
-	.string "match the levels of your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 30.$"
+	.string "Bu SAVAŞ ÇADIRINDA, rakiplerinizin\nseviyeleri POKéMON'unuzun\lseviyelerine uyacak şekilde\layarlanacaktır.\pAncak, karşılaştığınız hiçbir EĞİTMEN\n30. Seviyenin altında bir POKéMON'a\lsahip olmayacaktır.$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed:
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "VERDANTURF SAVAŞ ÇADIRI kuralları\nlistelenmiş.$"

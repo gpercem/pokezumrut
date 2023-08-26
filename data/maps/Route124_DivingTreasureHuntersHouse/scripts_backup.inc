@@ -284,41 +284,55 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "Ben DALIŞ HAZİNE AVCISIYIM!\pDibe batmış hazineleri toplamak\niçin derin deniz dalışları yapan\lharika bir adamım.$"
+	.string "I'm the DIVING TREASURE HUNTER!\p"
+	.string "I'm the awesome dude who makes\n"
+	.string "deep-sea dives to gather treasures\l"
+	.string "resting at the bottom.$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Söyle bana, eski zamanlarda yapılmış\nherhangi bir alet parçası gördün mü?$"
+	.string "Tell me, have you seen any SHARDS of\n"
+	.string "tools made in ancient times?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "Benim için hiç hazinen yok.\pKIRMIZI PARÇA gibi herhangi bir PARÇA\ngörürsen, onu benimle takas\letmelisin!$"
+	.string "You haven't got any treasures\n"
+	.string "for me…\p"
+	.string "If you see any SHARDS, like the RED\n"
+	.string "SHARD, you've got to trade it with me!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Ah, hey!\nBu… Bu bir PARÇA!\nBen de onlardan arıyordum!\pDostum, bunu benimle takas etmelisin!\nSana iyi bir şey vereceğim!$"
+	.string "Oh, hey! That…\n"
+	.string "That's a SHARD! I'm looking for those!\p"
+	.string "Oh, man, you've got to trade that\n"
+	.string "with me! I'll give you something good!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "Ne takas etmek istiyorsun?$"
+	.string "What do you want to trade?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "O zaman {STR_VAR_1} eşyasını benim\n{STR_VAR_2} eşyamla takas edecek\nmisin?$"
+	.string "You'll trade your {STR_VAR_1} for\n"
+	.string "my {STR_VAR_2}, then?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "Anlaştık!\nBunu akıllıca kullan!$"
+	.string "It's a done deal!\n"
+	.string "Use that wisely!$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Başka bir şeyle takas etmek ister\nmisin?$"
+	.string "Do you want to trade something else?$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Olamaz, çantan dolu.\nBazı eşyalardan kurtul, dostum!$"
+	.string "Whoops, your BAG's full.\n"
+	.string "Get rid of some items, friend!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "Hayır mı? Bu moral bozucu.\nFikrini değiştirirsen, geri gel.$"
+	.string "No? That's a downer.\n"
+	.string "Well, if you change your mind, come back.$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-	.string "{CLEAR_TO 0x0a}İstenen Parça{CLEAR_TO 0x7c}Karşılığı\n"
-	.string "{CLEAR_TO 0x0f}KIRMIZI{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}ATEŞ TAŞI{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}İstenen Parça{CLEAR_TO 0x7c}Karşılığı\n"
-	.string "{CLEAR_TO 0x06}SARI{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}YILDIRIM TAŞI{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}İstenen Parça{CLEAR_TO 0x7c}Karşılığı\n"
-	.string "{CLEAR_TO 0x0c}MAVİ{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}SU TAŞI{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}İstenen Parça{CLEAR_TO 0x7c}Karşılığı\n"
-	.string "{CLEAR_TO 0x08}YEŞİL{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}YAPRAK TAŞI$"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"

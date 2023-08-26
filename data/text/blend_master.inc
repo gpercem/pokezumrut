@@ -1,85 +1,44 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
-	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "Gerçekten de öyleyim!\nKARIŞIM USTASI benim!\pBenimle karıştır ve karışımla\ngetirdiğim ustalığa tanık ol!$"
 
 BerryBlender_Text_SeeMyMasteryInAction:
-	.string "BLEND MASTER: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "KARIŞIM USTASI: Hmmm! Demek ustalığımı\niş başında görmek istiyorsun?$"
 
 BerryBlender_Text_TooBusyNowIsee:
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "Hmmm!\pDemek şimdi çok meşgulsün, anlıyorum!\pAma korkma!\nBütün gün burada olacağım!\lİşini çabuk bitir!$"
 
 BerryBlender_Text_BlendMasterNoBerries:
-	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some BERRIES!$"
+	.string "Hmmm!\pBir tane bile meyven yok!\pBütün gün burada olacağım!\nÇabuk biraz MEYVE ile dön!$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from BERRIES?$"
+	.string "Tabii ki! Tabii ki! Tabii ki!\pBu arada… meyvelerden {POKEBLOCK}\nnasıl harmanlanır biliyor musun?$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "Hmmm!\pAh, ama bu basit bir işlem!\pBLENDER'ın oku işarete gelince\nA düğmesine basın.\pTek yapman gereken bu.\pA Düğmesine ne kadar hassas bastığımı\ngördüğünde anlayacaksın.$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "Güzel!\pO zaman başlayalım!\pKARIŞIM USTASI ile karışım\nzamanı!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
-	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "Hmmm!\pGörünüşe göre {POKEBLOCK} kutusu\nalmamışsın!\pBütün gün burada olacağım!\n{POKEBLOCK} kutusunu al ve hemen geri\ldön!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "Hmmm!\p{POKEBLOCK} kutun dolu görünüyor!\pBütün gün burada olacağım!\nBiraz {POKEBLOCK} kullan ve acele et!$"
 
 BerryBlender_Text_WhoaAwesome:
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "Vay be! Müthiş!$"
 
 BerryBlender_Text_WickedlyFast:
-	.string "Wickedly fast!$"
+	.string "Çok hızlı!$"
 
 BerryBlender_Text_WhatAnExpert:
-	.string "What an expert!$"
+	.string "Ne usta ama!$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the MASTER,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "USTA ile karıştığımızda harika\n{POKEBLOCK}LAR yaptık!$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the BLEND MASTER truly great.$"
+	.string "Gözleri, oku makine hızıyla takip\nediyor.\pA düğmesine saat gibi bir hassasiyetle\ndokunuyor…\pBu niteliklere sahip olması,\nKARIŞIM USTASI'nı harika kılıyor.$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend BERRIES all day long.$"
+	.string "KARIŞIM USTASI'nın dağların\nderinliklerinde yetenekleri üzerinde\lçalışması gerekiyor.\pBazen LILYCOVE'a gelip tüm gün\nboyunca meyveleri karıştırıyor.$"

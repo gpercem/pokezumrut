@@ -100,6 +100,5 @@ Route124_EventScript_Isabella::
 	end
 
 Route124_Text_HuntersHouse:
-	.string "AVCININ EVİ$"
-
+	.string "HUNTER'S HOUSE$"
 

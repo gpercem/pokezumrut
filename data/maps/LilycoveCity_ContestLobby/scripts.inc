@@ -983,104 +983,54 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase::
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
-	.string "Yippee!\p"
-	.string "The lady at the reception counter\n"
-	.string "gave me a case for {POKEBLOCK}S!$"
+	.string "Yaşasın!\pResepsiyondaki bayan bana\n{POKEBLOCK} için bir çanta verdi!$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
-	.string "Make {POKEBLOCK}S and put them in there.\p"
-	.string "When you make a {POKEBLOCK}, everyone\n"
-	.string "has to put in a different BERRY.$"
+	.string "{POKEBLOCK}LAR yap ve onları buraya\nkoy.\pBir {POKEBLOCK} yaptığında, herkes\nfarklı bir MEYVE koymak zorundadır.$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
-	.string "Congratulations!\p"
-	.string "I did a painting of your POKéMON to\n"
-	.string "commemorate its victory…\p"
-	.string "Well, your POKéMON's appeals were\n"
-	.string "so fantastic, it spurred me into\l"
-	.string "painting better than I usually do.\l"
-	.string "Look, see?$"
+	.string "Tebrikler!\pZaferini anmak için POKéMON'unuzun bir\nresmini yaptım…\pPekala, POKéMON'un o kadar\nharikaydı ki beni normalde yaptığımdan\ldaha iyi resim yapmaya teşvik etti.\lBak, gördün mü?$"
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
-	.string "What do you think? I'm confident in\n"
-	.string "what I've done, but do you like it?\p"
-	.string "A work of this caliber, it wouldn't look\n"
-	.string "out of place in an art museum.\p"
-	.string "Huh? An art museum really is looking\n"
-	.string "for paintings?\p"
-	.string "Do you think I should take this there?$"
+	.string "Ne düşünüyorsun? Yaptığım şeyden\neminim, ama sen beğendiniz mi?\pBöyle bir eser, bir sanat\nmüzesine yakışırdı.\pNe? Sanat Müzesi gerçekten resim mi\narıyor?\pSence bunu oraya götürmeli miyim?$"
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
-	.string "What, really? Then, sure, I will take\n"
-	.string "this painting there right now.\p"
-	.string "I'll give it a proper title, too.\p"
-	.string "I hope they'll like it and consider\n"
-	.string "exhibiting this.\p"
-	.string "Please check if they did accept this.\n"
-	.string "Thank you!$"
+	.string "Ne, gerçekten mi? O zaman, elbette, bu\nresmi hemen oraya götüreceğim.\pOna uygun bir isim de vereceğim.\pUmarım beğenirler ve bunu sergilemeyi\ndüşünürler.\pLütfen kabul edip etmediklerini kontrol\nedin. Teşekkür ederim!$"
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting:
-	.string "Oh, that's right!\p"
-	.string "As a memento of me painting your\n"
-	.string "POKéMON, please take this.$"
+	.string "Bu doğru!\pPOKéMON'unu çizmemin bir hatırası\nolarak, lütfen bunu al.$"
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon:
-	.string "{PLAYER} received a RIBBON.$"
+	.string "{PLAYER} bir KURDELE aldı.$"
 
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon:
-	.string "{PLAYER} put the RIBBON on\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1}'a\nkurdeleyi taktı.$"
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou:
-	.string "Okay, see you!$"
+	.string "Tamam, görüşürüz!$"
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
-	.string "Oh… Then, I guess I'll just take\n"
-	.string "this home with me…\p"
-	.string "But, you know, I would like to take\n"
-	.string "this to the art museum… Okay?$"
+	.string "Ee… O zaman, sanırım bunu eve\ngötüreceğim…\pAma biliyorsun, bunu sanat müzesine\nde götürmek istiyorum…$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
-	.string "Oh, fine, that's the way it is.\n"
-	.string "I will hang this in my own house.\p"
-	.string "I'll just have to try harder next time.\n"
-	.string "Well, be seeing you.$"
+	.string "Peki, öyle olsun. Bunu kendi evime\nasacağım.\pBir dahaki sefere daha çok uğraşmam\ngerekecek. Görüşmek üzere.$"
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome:
-	.string "Hoo, boy… Master Rank CONTESTS,\n"
-	.string "here I come.\p"
-	.string "The world will know that my dearest\n"
-	.string "POKéMON is the cutest being in all\l"
-	.string "existence. The time has come!\l"
-	.string "Uheheheh.$"
+	.string "Hoo, vay be…\nUsta Rütbesi Yarışmaları,\nişte ben geliyorum.\pDünya, benim POKéMON'umun var\nolan en sevimli varlık olduğunu bilecek.\lZamanı geldi! Uheheheh.$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
-	.string "You can see a whole variety of\n"
-	.string "POKéMON here.\p"
-	.string "That's why I make this place a regular\n"
-	.string "part of my daily stroll.$"
+	.string "Burada çok çeşitli POKéMON'lar\ngörebilirsin.\pBu yüzden burayı günlük gezintimin\ndüzenli bir parçası haline getiriyorum.$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
-	.string "Wow, coming out to a CONTEST is\n"
-	.string "a feast for these eyes!\p"
-	.string "Would you look at all the POKéMON\n"
-	.string "that just scream to be painted?$"
+	.string "Vay canına, bir yarışmaya katılmak\nbu gözler için tam bir ziyafet!\pResminin çizilmesi için çığlık atan\nşu POKéMON'lara bakar mısınız?$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
-	.string "The TOUGHNESS CONTEST is like\n"
-	.string "extreme, man!\p"
-	.string "Those muscular appeals…\n"
-	.string "Cascading sweat… I swoon!$"
+	.string "SERTLİK YARIŞMASI çok iyi, dostum!\pO kaslar…\nDökülen terler…\lBayıldım!$"
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
-	.string "Day in and day out, I lavished my care\n"
-	.string "on this POKéMON.\p"
-	.string "Its condition is peaking.\n"
-	.string "Today, victory is mine!$"
+	.string "Bu POKéMON'a çok özen gösterdim.\pBugün zafer bizim olacak!$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
-	.string "I made {POKEBLOCK}S with Mom, Dad, and\n"
-	.string "Big Sister. They turned out great!\p"
-	.string "I bet you can make smoother, better\n"
-	.string "{POKEBLOCK}S if you have more people.$"
+	.string "Annem, babam ve ablamla {POKEBLOCK}\nyaptık. Harika oldular!\pEminim daha fazla kişiyle daha düzgün\nve daha iyi {POKEBLOCK}'lar yapabilirim.$"
+
 

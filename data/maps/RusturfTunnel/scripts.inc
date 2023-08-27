@@ -424,7 +424,7 @@ RusturfTunnel_EventScript_Mike::
 	end
 
 RusturfTunnel_Text_ComeAndGetSome:
-	.string "Ne, hala peşimde misin?\nİstediğini vereyim zaman!$"
+	.string "Ne, hala peşimde misin?\nGel de gör o zaman!$"
 
 RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
@@ -442,7 +442,7 @@ RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "PEEKO!\nSeni bulduğuma sevindim!$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-	.string "PEEKO hayatını sana borçlu!\pBana BAY BRİNEY derler. Ya sen?\p… … … … … … … …\n… … … … … … … …\pDemek adın {PLAYER}{KUN}\nSana içtenlikle teşekkür ederim!\pEğer canını sıkan bir şey olursa,\nbana söylemekten çekinme!\pBeni genellikle PETALBURG ORMANI\nyakınında, deniz kenarındaki\lkulübemde bulabilirsin.\pGel, PEEKO, eve gitmeliyiz.\pPEEKO: Pihyoh!$"
+	.string "PEEKO hayatını sana borçlu!\pBana BAY BRİNEY derler. Ya sen?\p… … … … … … … …\n… … … … … … … …\pDemek adın {PLAYER}{KUN}.\nSana içtenlikle teşekkür ederim!\pEğer canını sıkan bir şey olursa,\nbana söylemekten çekinme!\pBeni genellikle PETALBURG ORMANI\nyakınında, deniz kenarındaki\lkulübemde bulabilirsin.\pGel, PEEKO, eve gitmeliyiz.\pPEEKO: Pihyoh!$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\pNeden kazmaya devam edemiyorlar?\nAna kaya çok mu sert?\pSevgilim beni buranın hemen ötesindeki\nVERDANTURF KASABASI'nda bekliyor…\pEğer RUSTBORO ve VERDANTURF bu tünelle\nbirleşseydi, onu her gün ziyaret\ledebilirdim…\pAma durum bu…\nBen ne yapacağım?$"

@@ -1124,7 +1124,7 @@ RustboroCity_Text_BrendanIWontGoEasy:
 	.string "Daha yeni EĞİTMEN oldun.\nSenin için kolay olmayacak!$"
 
 RustboroCity_Text_BrendanDefeat:
-	.string "Hmm…\nldukça iyisin.$"
+	.string "Hmm…\nOldukça iyisin.$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
 	.string "Bu arada, BAY BRINEY'i tanıyor musun?\nAz önce yanından geçtiğim adam.\pBuraya yeni taşındığın için eminim bunu\nbilmiyorsundur, {PLAYER}, ama BAY\lBRİNEY bir zamanlar büyük bir\ldenizciydi.$"

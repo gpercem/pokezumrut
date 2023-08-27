@@ -65,10 +65,9 @@ FortreeCity_House1_Text_YouWillTradeWontYou:
 	.string "Bana bir {STR_VAR_1} getirmen gerek!\l"
 	.string "Bunun için herşeyi yaparım!\p"
 	.string "…Ah… Bunu duydun mu?\n"
-	.string "Yüreğimin derinliklerinden haykırıyorum?\p"
+	.string "Yüreğimin derinliklerinden\nhaykırdığımı?\p"
 	.string "Bunu duydun, takas yapacak mısın?\n"
-	.string "Senin {STR_VAR_1}'in için benim {STR_VAR_2}'im,\l"
-	.string "var mısın?$"
+	.string "Senin {STR_VAR_1}'in için benim\l{STR_VAR_2}'im, var mısın?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
 	.string "Ah... evet, işte bu!\p"
@@ -76,7 +75,7 @@ FortreeCity_House1_Text_MonYouTakeCare:
 	.string "{STR_VAR_2}, kendine iyi bak!$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Ah... hayır, Bu doğru değil.\n"
+	.string "Ah... hayır, bu doğru değil.\n"
 	.string "Bu bir {STR_VAR_1} değil.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:

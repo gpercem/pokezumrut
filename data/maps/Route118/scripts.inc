@@ -245,57 +245,30 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
-	.string "Have you met many kinds of POKéMON\n"
-	.string "since I last saw you?\p"
-	.string "There are many, many kinds of POKéMON\n"
-	.string "in this wide world of ours.\p"
-	.string "If you wanted to raise only your\n"
-	.string "favorites, that's fine.\p"
-	.string "Perhaps you find it more fun to raise\n"
-	.string "all sorts of POKéMON.\p"
-	.string "As a TRAINER of POKéMON,\n"
-	.string "what do you think?\p"
-	.string "Of course, it's not any of my business.\p"
-	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "Merhaba, {PLAYER}{KUN}!\pBenim, STEVEN!\nDEWFORD yakınlarındaki mağarada\ltanışmıştık hani.\pSeni son gördüğümden beri yeni\nPOKéMON türleri keşfedebildin mi?\pBu geniş dünyamızda pek çok çeşit\nPOKéMON var.\pEğer sadece en sevdiklerini\nyetiştirmek istiyorsan, sorun değil.\pBelki de her türden POKéMON\nyetiştirmeyi daha eğlenceli\lbuluyorsundur.\pBir POKéMON EĞİTMENİ olarak sen ne\ndüşünüyorsun?\pElbette, bu beni ilgilendirmez.\pBir yerlerde tekrar karşılaşırız\numarım.$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "Hmm!\nİYİ OLTA gerçekten kullanışlı!\pSence de öyle değil mi?$"
 
 Route118_Text_IdenticalMindsTakeThis:
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "Hmm! Aynı fikirdeyiz!\pHmm! Al o zaman!$"
 
 Route118_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "Suyun olduğu her yerde bununla\nbalık tutabilirsin.$"
 
 Route118_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string "Balık tutmayı sevmiyor musun?$"
 
 Route118_Text_TryCatchingMonWithGoodRod:
-	.string "Try catching all sorts of POKéMON\n"
-	.string "with your GOOD ROD.$"
+	.string "İYİ OLTA ile her türlü POKéMON'u\nyakalayabilirsin.$"
 
 Route118_Text_CanCrossRiversWithSurf:
-	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
-	.string "POKéMON can be counted on to do so\n"
-	.string "much!$"
+	.string "Tekne olmasa bile, SURF bilen bir\nPOKéMON'un varsa nehirleri ve\ldenizi geçebilirsin.\pPOKéMON'una bu konuda güvenebilirsin!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "ROTA 118\n{LEFT_ARROW} MAUVİLLE ŞEHRİ$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "ROTA 118\n{UP_ARROW} ROTA 119$"
+
 

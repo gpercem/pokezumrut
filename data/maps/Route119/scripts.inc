@@ -480,135 +480,55 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
-	.string "How much stronger have you gotten?\n"
-	.string "Let me check for you!\p"
-	.string "Ready with your POKéMON?\n"
-	.string "Of course you are! Go!$"
+	.string "MAY: {PLAYER}{KUN}! Neredeydin?\nBen de seni arıyordum!\pNe kadar güçlendin?\nBir test edelim!\pHazır mısın?\nTabii ki hazırsın! Hadi bakalım!$"
 
 Route119_Text_MayDefeat:
-	.string "Achah!\n"
-	.string "{PLAYER}{KUN}, you're strong!\p"
-	.string "I was worried that you might be\n"
-	.string "struggling with your training.$"
+	.string "Ahah! Güçlüsün!\pAntrenmanında zorlanabileceğinden\nendişeleniyordum.$"
 
 Route119_Text_MayPresentForYou:
-	.string "MAY: But I had absolutely nothing to\n"
-	.string "worry about! Keep it up!\p"
-	.string "And, here! I have a present for you.$"
+	.string "Ama kesinlikle endişelenecek bir şeyim\nyokmuş! Böyle devam et!\pVe… Sana bir hediyem var!$"
 
 Route119_Text_MayExplainFly:
-	.string "MAY: Use FLY, and your POKéMON will\n"
-	.string "instantly carry you to any town you've\l"
-	.string "already visited.\p"
-	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from FORTREE CITY.\l"
-	.string "That's important, so don't forget.\p"
-	.string "You should FLY home and visit\n"
-	.string "LITTLEROOT for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
+	.string "MAY: FLY'ı kullandığında\nPOKéMON'un seni daha önce ziyaret\lettiğin herhangi bir şehre anında\luçuracaktır.\pAncak, FLY'ı kullanmak için FORTREE\nŞEHRİ'nden SALON ROZETİ alman\lgerekir. Bu önemli, o yüzden unutma.\pEve uçmalı ve değişiklik olsun diye\nLITTLEROOT'u ziyaret etmelisin.\pEminim annen senin için\nendişeleniyordur, {PLAYER}{KUN}.\pPekala, umarım tekrar buluşuruz!$"
 
 Route119_Text_BrendanIntro:
-	.string "BRENDAN: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
-	.string "Let me see how good you got.\n"
-	.string "I'll test you!\p"
-	.string "Now!\n"
-	.string "It's a battle, so battle!$"
+	.string "BRENDAN: {PLAYER}!\nDemek POKéMON'ları buralarda\narıyorsun.\pBakalım ne kadar güçlendin.\nBir test edelim!\pHazır mısın?\nTabii ki hazırsın! Hadi bakalım!$"
 
 Route119_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You've gotten pretty darn decent.$"
+	.string "Hmm…\nOldukça iyi olmuşsun.$"
 
 Route119_Text_BrendanIllGiveYouThis:
-	.string "BRENDAN: I'd say you're good enough\n"
-	.string "to search for POKéMON anywhere.\p"
-	.string "Here, I'll give you this.\n"
-	.string "Try it out.$"
+	.string "POKéMON'lar için her yerde her şeyi\nyapmaya hazır olduğunu söyleyebilirim.\pİşte, sana bunu vereceğim.\nBir dene bakalım.$"
 
 Route119_Text_BrendanExplainFly:
-	.string "BRENDAN: Use FLY, and your POKéMON\n"
-	.string "instantly carries you to any town\l"
-	.string "you've already visited.\p"
-	.string "But you need the FORTREE GYM BADGE \n"
-	.string "to do that.\p"
-	.string "Anyway, I have to move along.$"
+	.string "BRENDAN: FLY kullan ve POKéMON'un\nseni daha önce ziyaret ettiğin\lherhangi bir şehre anında taşısın.\pAma bunu yapmak için FORTREE SALON\nROZETİ'ne ihtiyacın var.\pNeyse, benim gitmem gerek.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
-	.string "Way to go, {PLAYER}{KUN}!\p"
-	.string "I just passed by a TRAINER riding\n"
-	.string "a BIKE.\p"
-	.string "You just beat that TRAINER, didn't you?\n"
-	.string "It was pretty obvious that you did.\p"
-	.string "The kid looked really upset with\n"
-	.string "a face all red from anger.\p"
-	.string "I sure seem to run into you often.\n"
-	.string "Are you off to FORTREE GYM next?\p"
-	.string "I expect that you'll do well at the GYM.\n"
-	.string "Well, I'll be seeing you!$"
-
+	.string "Hahahah! Aferin, {PLAYER}{KUN}!\pAz önce BİSİKLET süren bir\neğitmenin yanından geçtim.\pAz önce o eğitmeni yendin, değil mi?\nYendiğin çok belliydi.\pÇocuk gerçekten üzgün görünüyordu ve\nyüzü öfkeden kıpkırmızıydı.\pSeninle sık sık karşılaşıyor gibiyim.\nSırada FORTREE SALONU mu var?\pOrada iyi iş çıkaracağını umuyorum.\nGörüşürüz!$"
 
 Route119_Text_ScottYouWonAtFortreeGym:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p"
-	.string "Just as I thought, you won at\n"
-	.string "the FORTREE GYM.\p"
-	.string "Your strength…\n"
-	.string "Perhaps you really are the TRAINER\l"
-	.string "that I've been searching for.\p"
-	.string "Remember, you have a fan in me.\n"
-	.string "I'll be cheering from the sidelines.\l"
-	.string "Keep up the great work!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "… … … … … …\n… … … … … … Bip!\pSelam, {PLAYER}{KUN}, benim!\pTam düşündüğüm gibi, FORTREE\nSALONU'nda kazandın.\pGücün… Belki de gerçekten aradığım\nEĞİTMEN sensindir.\pUnutma, içimde bir hayranın var.\nKenardan tezahürat yapıyor olacağım.\lÇalışmalarına devam et!\p… … … … … … … … … … … …\nTık!$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-	.string "We're standing lookout here.\p"
-	.string "Hey, you! Stay away from the WEATHER\n"
-	.string "INSTITUTE. It's not safe.$"
+	.string "Burada gözcülük yapıyoruz.\pHey, sen! HAVA ENSTİTÜSÜ'nden uzak\ndur. Burası güvenli değil.$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-	.string "Lookout duty is surprisingly boring.\p"
-	.string "Hey, you! Please don't go near the\n"
-	.string "WEATHER INSTITUTE.$"
+	.string "Gözetleme görevi şaşırtıcı derecede\nsıkıcı.\pHey, sen!\nLütfen HAVA ENSTİTÜSÜ'ne yaklaşma.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
-	.string "hanging on to them somehow.\p"
-	.string "But it turns out there's an HM move\n"
-	.string "called FLY!\p"
-	.string "I wish I'd known about that a long\n"
-	.string "time ago…$"
+	.string "Bir KUŞ POKEMON sürüsüne tutunarak\nuçtuğunu sanıyordum.\pAma FLY adında bir HM saldırısı\nolduğunu öğrendim!\pKeşke bunu uzun zaman önce\nbilseydim…$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "Tch…\n"
-	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
-	.string "There's no way you can cycle here.$"
+	.string "Cık…\nOlmuyor…\pUzun otlar bisiklet lastiklerini\nengelliyor.\lBurada bisiklet sürmenin imkanı\lyok.$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your POKéMON use its SECRET POWER\n"
-	.string "on a big pile of grass and make a\l"
-	.string "SECRET BASE?$"
+	.string "POKéMON'un GİZLİ GÜCÜNÜ büyük bir\nçim yığını üzerinde kullanabilir ve\lGİZLİ BİR ÜS yapabilir mi?$"
 
 Route119_Text_RouteSignFortree:
-	.string "ROUTE 119\n"
-	.string "{RIGHT_ARROW} FORTREE CITY$"
+	.string "ROTA 119\n{RIGHT_ARROW} FORTREE ŞEHRİ$"
 
 Route119_Text_WeatherInstitute:
-	.string "WEATHER INSTITUTE$"
+	.string "HAVA DURUMU ENSTİTÜSÜ$"
 
 Route119_Text_TrainerTipsDecoration:
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string "EĞİTMEN İPUÇLARI\pBir GİZLİ ÜSSE on altı adede kadar\ndekorasyon ve mobilya\lyerleştirilebilir.\pEn sevdiğiniz eşyaları seçin ve kendi\nGİZLİ ÜSSÜNÜZÜ istediğiniz şekilde\loluşturun.$"

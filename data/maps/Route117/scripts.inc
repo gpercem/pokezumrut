@@ -181,28 +181,21 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_DayCarePokemonHadNewMove:
-	.string "I left my POKéMON at the DAY CARE.\p"
-	.string "When I got it back, it had a new move\n"
-	.string "that I didn't teach it.\l"
-	.string "I was really, really surprised.$"
+	.string "POKéMON'umu bakımevine bıraktım.\pGeri aldığımda, ona öğretmediğim yeni\nbir saldırısı vardı.\lGerçekten çok şaşırdım.$"
 
 Route117_Text_ArentTheseFlowersPretty:
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string "Ne düşünüyorsun? Bu çiçekler güzel\ndeğil mi?\pHepsini ben ektim!$"
 
 Route117_Text_AirIsTastyHere:
-	.string "The air is tasty here!$"
+	.string "Buranın havası çok güzel!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "ROTA 117\n{LEFT_ARROW} VERDANTURF KÖYÜ$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "ROTA 117\n{RIGHT_ARROW} MAUVILLE ŞEHRİ$"
 
 Route117_Text_DayCareSign:
-	.string "POKéMON DAY CARE\n"
-	.string "“Let us raise your POKéMON.”$"
+	.string "POKéMON BAKIMEVİ\nPOKéMON'unuza bakıyoruz.$"
+
 

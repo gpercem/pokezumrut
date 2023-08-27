@@ -28,35 +28,15 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
-	.string "That RUSTURF TUNNEL there…\p"
-	.string "At first, we had a huge work crew boring\n"
-	.string "through rock with the latest machinery.\l"
-	.string "But, we had to stop.\p"
-	.string "It turns out that we would have had\n"
-	.string "a negative effect on wild POKéMON in\l"
-	.string "the area.\p"
-	.string "So, we've got nothing to do but loll\n"
-	.string "around here doing nothing.$"
+	.string "Şuradaki RUSTURF TÜNELİ…\pİlk başta, en yeni makinelerle kayayı\ndelen büyük bir çalışma ekibimiz vardı.\lAncak, durmak zorunda kaldık.\pBölgedeki vahşi POKéMON üzerinde\nolumsuz bir etkimiz olduğu ortaya\lçıktı.\pYani, burada hiçbir şey yapmadan\nbeklemekten başka bir şey\lyapamıyoruz.$"
 
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
-	.string "There's a man digging his way to\n"
-	.string "VERDANTURF all by his lonesome.\l"
-	.string "He's desperate to get through.\p"
-	.string "He says that if he digs little by little\n"
-	.string "without using machines, he won't\l"
-	.string "disturb POKéMON, and he'll avoid\l"
-	.string "harming the natural environment.\p"
-	.string "I wonder if he made it through yet.$"
+	.string "Yalnız başına VERDANTURF'a giden yolu\nkazmaya çalışan bir adam var.\lKendisi çaresiz durumda.\pMakine kullanmadan azar azar kazarsa\nPOKéMON'u rahatsız etmeyeceğini ve\ldoğal çevreye zarar vermekten\lkaçınacağını söylüyor.\pAcaba başarabildi mi?$"
 
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
-	.string "To get to VERDANTURF without using\n"
-	.string "this TUNNEL, you'd have to cross the\l"
-	.string "sea to DEWFORD, sail on to SLATEPORT,\l"
-	.string "then travel through MAUVILLE.$"
+	.string "Bu TÜNELİ kullanmadan VERDANTURF'a\nulaşmak için, denizi geçerek DEWFORD'a\lgitmen, SLATEPORT'a yelken açman\lve ardından MAUVILLE'den geçmen\lgerekir.$"
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
-	.string "Did you hear? The TUNNEL to VERDANTURF\n"
-	.string "has gone through!\p"
-	.string "Sometimes, if you hope strongly enough,\n"
-	.string "dreams do come true.$"
+	.string "Bunu duydun mu?\nVERDANTURF'a giden TÜNEL açılmış!\pBir şeyi ne kadar istersen\ngerçekleşme olasılığı o kadar artar.$"
+
 

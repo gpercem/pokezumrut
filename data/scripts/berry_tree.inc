@@ -183,69 +183,68 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "Buranın toprağı yumuşak.$"
 
 BerryTree_Text_WantToPlant:
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a BERRY?$"
+	.string "Buranın toprağı yumuşak.\n"
+	.string "MEYVE dikmek ister misin?$"
 
 BerryTree_Text_PlantedOneBerry:
-	.string "{PLAYER} planted one {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{PLAYER}, yumuşak toprağa bir\n"
+	.string "{STR_VAR_1} dikti.$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "One {STR_VAR_1} was planted here.$"
+	.string "Buraya bir {STR_VAR_1} dikilmiş.$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} has sprouted.$"
+	.string "{STR_VAR_1} filizlenmiş.$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string "Bu {STR_VAR_1} bitkisi gittikçe uzuyor.$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "These {STR_VAR_1} flowers are blooming\n"
-	.string "{STR_VAR_2}.$"
+	.string "{STR_VAR_1} bitkisinin çiçekleri\n"
+	.string "{STR_VAR_2} görünüyor.$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "çok güzel$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "çok şirin$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "çok hoş$"
 
 BerryTree_Text_WantToPick:
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
-	.string "{STR_VAR_1}?$"
+	.string "{STR_VAR_2} {STR_VAR_1} buldun!\p"
+	.string "{STR_VAR_1} toplamak ister\n"
+	.string "misin?$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_2} {STR_VAR_1} topladı.$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.\p"
-	.string "The soil returned to its soft and\n"
-	.string "loamy state.$"
+	.string "{PLAYER}, {STR_VAR_1}Sİ'ni\n"
+	.string "çantanın MEYVE cebine koydu.\p"
+	.string "Toprak, yumuşak haline geri döndü.$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "Çantanın MEYVE cebi dolu.\p"
+	.string "{STR_VAR_1} alınamıyor.$"
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{PLAYER}, {STR_VAR_1}Sİ'ni\n"
+	.string "almadan bıraktı.$"
 
 BerryTree_Text_WantToWater:
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "WAİLMER KOVASI ile {STR_VAR_1}\n"
+	.string "sulamak ister misin?$"
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1}Sİ'ni suladı.$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "The plant seems to be delighted.$"
+	.string "Bitki rahatlamış görünüyor.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"

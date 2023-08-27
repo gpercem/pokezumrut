@@ -834,92 +834,90 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
+	.string "“Sizin için en kaliteli ürünler!”\n"
 	.string "POKéMON MART$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "“Yorgun dostlarınızı iyileştirin!”\n"
+	.string "POKéMON MERKEZİ$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
+	.string "{STR_VAR_1}M bu programı severdi.\n"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string "Gitsem iyi olacak!$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
-	.string "Which floor would you like?$"
+	.string "LILYCOVE ALIŞVERİŞ MERKEZİ'ne\nhoş geldiniz.\p"
+	.string "Hangi kata çıkmak istersiniz?$"
 
 gText_SandstormIsVicious::
-	.string "The sandstorm is vicious.\n"
-	.string "It's impossible to keep going.$"
+	.string "Kum fırtınası çok sert.\n"
+	.string "İlerlemek imkansız.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "Çantadaki anahtar eşyalar, kolay kullanım\n"
+	.string "için SELECT tuşuna atanabilir.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from POKéMON TRAINER\n"
-	.string "SCHOOL.\p"
+	.string "POKéMON EĞİTMEN OKULU'ndan bir\n"
+	.string "e-posta var.\p"
 	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
+	.string "POKéMON'lar dört saldırı öğrenebilir.\p"
+	.string "Öğrenilen saldırıların kombinasyonu\n"
+	.string "eğitmenin yeteneğini belirler.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} bilgisayarı açtı.$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "Bağlantı iptal edildi.$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "Alınan {STR_VAR_2}'a bir\n"
+	.string "isim vermek ister misin?$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "{PLAYER}'ın POKéMON'ları\n"
+	.string "tükendi!\p{PLAYER} kaçtı!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "{STR_VAR_1} {STR_VAR_2}, POKéNAV'a\n"
+	.string "kaydedildi.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
-	.string "One of our members will give it to you.\n"
-	.string "Come back and show me if you get it.\p"
-	.string "We'll accept you as a member and sell\n"
-	.string "you good stuff in secrecy.$"
+	.string "TM SECRET POWER'ı biliyor musun?\p"
+	.string "Bizim grubumuz, onu çok seviyor.\p"
+	.string "Grubumuzdan biri onu sana verebilir.\n"
+	.string "Eğer alırsan geri gelip bana ver.\p"
+	.string "Seni üyemiz yaparız ve iyi fiyattan\n"
+	.string "ürünlerimizi satarız.$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
-	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
-	.string "grow exceptionally well.$"
+	.string "POKéMON'un POKéRUS'a yakalanmış\n"
+	.string "olabilir.\p"
+	.string "POKéRUS'un POKéMON'lara bulaşan\n"
+	.string "mikroskobik yaşam formları olmaları\l"
+	.string "dışında çok az şey biliniyor.\p"
+	.string "Eğer POKéMON'un yakalanırsa,\n"
+	.string "gelişimi çok daha hızlı oluyormuş.$"
 
 	.include "data/text/surf.inc"
 
 gText_DoorOpenedFarAway::
-	.string "It sounded as if a door opened\n"
-	.string "somewhere far away.$"
+	.string "Uzaklardan bir yerden bir kapı\n"
+	.string "açılma sesi geldi.$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string "Duvarda büyük bir delik var.$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "Çok üzgünüm.\n"
+	.string "POKéMON KABLOSUZ KULÜBÜ şu an\l"
+	.string "bakımda.$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "Şu an bakımda gibi görünüyor…$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
@@ -932,24 +930,23 @@ gText_SorryRecordCornerPreparation::
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1}'ı verdi.$"
 
 gText_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "GİZEMLİ HEDİYE sistemine\n"
+	.string "eriştiğiniz için teşekkürler.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found one {STR_VAR_1}\n"
-	.string "{STR_VAR_2}!$"
+	.string "{PLAYER} bir {STR_VAR_1}\n"
+	.string "{STR_VAR_2} buldu!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
-	.string "The weird tree attacked!$"
+	.string "Tuhaf ağaç, WAİLMER KOVASI'nı\n"
+	.string "beğenmedi!\p"
+	.string "Tuhaf ağaç saldırdı!$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1} uçtu gitti!$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"

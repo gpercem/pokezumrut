@@ -413,349 +413,165 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-	.string "MAY: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, are you shopping, too?\p"
-	.string "I bought a whole bunch of DOLLS and\n"
-	.string "POSTERS.\p"
-	.string "Of course, I've also caught a lot of\n"
-	.string "POKéMON, and I'm raising them\l"
-	.string "properly, too.\p"
-	.string "Actually, I'm more worried if you're\n"
-	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
-	.string "I'll battle with you, so you can show\n"
-	.string "me your POKéMON, {PLAYER}{KUN}.$"
+	.string "MAY: N'aber, {PLAYER}{KUN}?\nSen de mi alışveriş yapıyorsun?\pBir sürü PELUŞ ve POSTER aldım.\pElbette bir sürü de POKéMON yakaladım\nve onları da düzgün bir şekilde\lyetiştiriyorum.\pAslında ben daha çok senin POKéMON'u\ndüzgün yetiştirip yetiştirmediğin\lkonusunda meraklıyım, {PLAYER}{KUN}.\pHadi savaşıp POKéMON'larımıza bakalım.$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
-	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
-	.string "been raising your POKéMON?\p"
-	.string "That's not a very good showing as a\n"
-	.string "TRAINER…$"
+	.string "MAY: Neden, {PLAYER}{KUN}?\nPOKéMON'unu geliştirmiyor musun?\pBu eğitmenliğe yakışır bir\ndavranış değil…$"
 
 LilycoveCity_Text_MayBattleMe:
-	.string "MAY: Come on, battle with me, so I can\n"
-	.string "check out your POKéMON!$"
+	.string "MAY: Haydi savaşalım da POKéMON'larını\nbir test edelim!$"
 
 LilycoveCity_Text_MayWontBeBeaten:
-	.string "MAY: The POKéMON I raised won't be\n"
-	.string "beaten by your POKéMON, {PLAYER}{KUN}!$"
+	.string "MAY: Benim POKéMON'larım seninkilere\nyenilmeyecek, {PLAYER}{KUN}!$"
 
 LilycoveCity_Text_MayDefeat:
-	.string "… … … … … … … …\p"
-	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
-	.string "That battle helped you become this\n"
-	.string "strong, {PLAYER}{KUN}, didn't it?$"
+	.string "MAY: … … … … … … … …\pROTA 103'te seninle yaptığım savaşı\nhatırlıyorum, {PLAYER}{KUN}.\pO savaş sayesinde bu kadar\ngüçlenebildin. Değil mi, {PLAYER}{KUN}?$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
-	.string "MAY: I'm thinking of going back to\n"
-	.string "LITTLEROOT soon.\p"
-	.string "I've caught a decent group of POKéMON,\n"
-	.string "and my POKéDEX is coming along, so\l"
-	.string "I'm going home to show my dad.$"
+	.string "MAY: Yakında LİTTLEROOT'a geri\ndönmeyi düşünüyorum.\pÇok fazla POKéMON yakaladım ve\nPOKéDEX'im ilerliyor, bu yüzden babama\lgöstermek için eve gidiyorum.$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Well, while you're collecting BADGES,\n"
-	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "POKéDEX. I'll complete it before you!\p"
-	.string "See you!$"
+	.string "MAY: Ne yapacaksın, {PLAYER}{KUN}?\pTüm SALON ROZETLERİNİ toplayıp POKéMON\nLİGİ mücadelesine mi katılacaksın?\pSen ROZET toplarken ben de\nPOKéDEX'im üzerinde çalışacağım.\pSenden önce tamamlayacağım!\pSonra görüşürüz!$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the POKéMON LEAGUE\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
-	.string "See you!$"
+	.string "MAY: Ne yapacaksın, {PLAYER}{KUN}?\pPOKéMON LİGİ mücadelesine mi\nkatılacaksın?\pYoksa POKéDEX'ini mi tamamlayacaksın?\pSavaşta sana yenilmiş olabilirim ama\nPOKéDEX'imi senden önce bitireceğim!\pGörüşürüz!$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the BATTLE FRONTIER\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
-	.string "See you!$"
+	.string "MAY: Ne yapacaksın, {PLAYER}{KUN}?\pSAVAŞ SINIRI mücadelesine katılacak\nmısın?\pYoksa POKéDEX'ini mi tamamlayacaksın?\pSavaşta sana yenilmiş olabilirim ama\nPOKéDEX'imi senden önce bitireceğim!\pGörüşürüz!$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
-	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
-	.string "I'm running an errand for my dad.\n"
-	.string "No, I'm not buying any DOLLS.\p"
-	.string "Anyways, it's been a while.\p"
-	.string "Want to have a battle to see who's been\n"
-	.string "raising POKéMON better?$"
+	.string "BRENDAN: Selam, {PLAYER}.\pBabamın ayak işlerini yapıyorum. Hayır,\npeluş bebek falan almayacağım.\pHer neyse, uzun zaman oldu.\pKimin daha iyi POKéMON yetiştirdiğini\ngörmek için savaş yapmak ister misin?$"
 
 LilycoveCity_Text_BrendanNoConfidence:
-	.string "BRENDAN: Oh, what's the matter?\n"
-	.string "Don't have the confidence?$"
+	.string "BRENDAN: Sorun ne?\nKendine güvenin yok mu?$"
 
 LilycoveCity_Text_BrendanBattleMe:
-	.string "BRENDAN: Want to battle to see who's\n"
-	.string "been raising POKéMON better?$"
+	.string "BRENDAN: Haydi savaşalım da POKéMON'larını\nbir test edelim!$"
 
 LilycoveCity_Text_BrendanWontBeBeaten:
-	.string "BRENDAN: Aww, but you know I'm not\n"
-	.string "going to lose to no {PLAYER}.$"
+	.string "BRENDAN: Haha, tabii ki de sana\nkaybetmeyeceğim.$"
 
 LilycoveCity_Text_BrendanDefeat:
-	.string "Humph…\n"
-	.string "You've done a lot of raising.\p"
-	.string "That stings a bit--I had a head start\n"
-	.string "on you as a TRAINER…$"
+	.string "BRENDAN: Hıh…\nÇok güçlenmişsin.\pBu beni biraz üzdü.\nEğitmen olarak senden öndeydim.$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
-	.string "BRENDAN: I…\n"
-	.string "I plan on going home to LITTLEROOT.\p"
-	.string "You know I'm helping out my dad on his\n"
-	.string "POKéDEX. It's coming together pretty\l"
-	.string "decently, so I should go show him.$"
+	.string "BRENDAN: Eve, LİTTLEROOT'a gitmeyi\nplanlıyorum.\pBabama POKéDEX'inde yardım ettiğimi\nbiliyorsun.\pOldukça iyi gidiyor, o yüzden\ngidip ona göstermeliyim.$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Maybe I'll do that, too…\p"
-	.string "Well, anyway, hang in there!$"
+	.string "BRENDAN: Ne yapacaksın, {PLAYER}?\pTüm SALON ROZETLERİNİ toplayıp POKéMON\nLİGİ mücadelesine mi katılacaksın?\pSen ROZET toplarken ben de\nPOKéDEX'im üzerinde çalışacağım.\pSenden önce tamamlayacağım!\pSonra görüşürüz!$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Since you're that strong, are you\n"
-	.string "taking the POKéMON LEAGUE challenge?\p"
-	.string "Heh, even me--if I trained my POKéMON\n"
-	.string "a bit more, I should be stronger than\l"
-	.string "you, {PLAYER}.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "BRENDAN: Ne yapacaksın, {PLAYER}?\pPOKéMON LİGİ mücadelesine mi\nkatılacaksın?\pYoksa POKéDEX'ini mi tamamlayacaksın?\pSavaşta sana yenilmiş olabilirim ama\nPOKéDEX'imi senden önce bitireceğim!\pGörüşürüz!$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Are you taking the BATTLE FRONTIER\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "Since you're that strong, you should\n"
-	.string "consider the BATTLE FRONTIER.\p"
-	.string "Heh, if I train my POKéMON a bit more,\n"
-	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the BATTLE\n"
-	.string "FRONTIER.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "BRENDAN: Ne yapacaksın, {PLAYER}?\pSAVAŞ SINIRI mücadelesine katılacak\nmısın?\pYoksa POKéDEX'ini mi tamamlayacaksın?\pSavaşta sana yenilmiş olabilirim ama\nPOKéDEX'imi senden önce bitireceğim!\pGörüşürüz!$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
-	.string "Fufufu…\p"
-	.string "We moved more loot into our secret\n"
-	.string "HIDEOUT today…\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string "Fufufu…\pBugün gizli sığınağımıza daha fazla\nganimet taşıdık.\pKimsin sen?!\nB-ben kendi kendime konuşuyordum!$"
 
 LilycoveCity_Text_ChanceToDoBigThings:
-	.string "I'm just a GRUNT, so I don't know what\n"
-	.string "the BOSS is thinking…\p"
-	.string "But being on TEAM AQUA, I know I'll get\n"
-	.string "the chance to do big things!\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string "Ben sadece bir haydutum. Bu yüzden\nPATRON'un ne düşündüğünü bilmiyorum…\pAma AQUA TAKIMI'nda olduğum için büyük\nşeyler yapma şansım olacağını biliyorum!\pSen de kimsin?!\nB-ben kendi kendime konuşuyordum!$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-	.string "Hey, you!\p"
-	.string "Don't go near the cave in the cove!\p"
-	.string "Why? You don't need a reason why!\n"
-	.string "I'm an adult, so you just listen to me!$"
+	.string "Hey, sen!\pKoydaki mağaraya yaklaşma!\pNeden mi? Bir nedene ihtiyacın yok!\nBen bir yetişkinim, bu yüzden\nbeni dinlemelisin!$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
-	.string "If this whole wide world becomes ours,\n"
-	.string "TEAM AQUA's, it will be a happier\l"
-	.string "place for POKéMON, too.$"
+	.string "Eğer bu dünya bizim, yani AQUA\nTAKIMI'nın olursa, POKéMON'lar için de\ldaha mutlu bir yer olacaktır.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! WAILMER!\n"
-	.string "Leap out of the water now!$"
+	.string "Hey! WAILMER!\nHemen sudan çık!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
-	.string "Hunh? What do you want?\p"
-	.string "You're messing up our training,\n"
-	.string "so can you, like, get lost?$"
+	.string "Ha?\nNe istiyorsun?\pEğitimimizi mahvediyorsun.\nKaybol.$"
 
 LilycoveCity_Text_ContestHallInTown:
-	.string "There's a POKéMON CONTEST HALL\n"
-	.string "right in this here town. \p"
-	.string "That means well-raised POKéMON will\n"
-	.string "come from all over the country.\p"
-	.string "My heart swells with excitement!$"
+	.string "Bu kasabada bir POKéMON YARIŞMA\nSALONU var.\pBu da ülkenin dört bir yanından iyi\nyetiştirilmiş POKéMON'ların geleceği\lanlamına geliyor.\pKalbim heyecanla atıyor!$"
 
 LilycoveCity_Text_StrangeCaveInCove:
-	.string "Have you seen that strange cave in\n"
-	.string "the cove at the edge of town?$"
+	.string "Kasabanın kenarındaki koyda bulunan\nşu garip mağarayı gördün mü?$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
-	.string "I'm going to teach my POKéMON some new\n"
-	.string "moves for entering a CONTEST.\p"
-	.string "So, I'm going to see the MOVE DELETER\n"
-	.string "and make it forget HM moves.$"
+	.string "POKéMON'uma bir YARIŞMAYA katılmak için\nbazı yeni saldırılar öğreteceğim.\pBu yüzden, SALDIRI SİLİCİ'ye gideceğim\nve ona HM saldırılarını unutturacağım.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The HOENN region is beautiful with\n"
-	.string "all its water and verdant nature.\p"
-	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare POKéMON that live\n"
-	.string "only in this area?$"
+	.string "KANTO'dan geldim.\pHOENN bölgesi suyu ve yemyeşil doğasıyla\nçok güzel.\pHa?\nBekle bir saniye…\pSadece bu bölgede yaşayan nadir\nPOKéMON'lar olabilir mi?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM AQUA's been training their\n"
-	.string "WAILMER in the cove.\p"
-	.string "We SAILORS can't get our boats out\n"
-	.string "to sea with them in the way!$"
+	.string "AQUA TAKIMI koyda WAILMER'larını\neğitiyor.\pBiz yelkenciler, onlar yolumuzdayken\nteknelerimizi denize indiremiyoruz!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
-	.string "Ahoy, did you know?\p"
-	.string "Someone punted TEAM AQUA out of\n"
-	.string "the way for us!\p"
-	.string "That got the WAILMER out of the cove,\n"
-	.string "so we can get our boats out again.$"
+	.string "Ahoy, biliyor muydun?\pBirisi bizim için AQUA TAKIMI'nı\nyoldan çekmiş!\pBu WAILMER'ı koydan çıkardı, böylece\nteknelerimizi tekrar dışarı\lçıkarabiliriz.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
-	.string "I was taking a relaxing snooze at the\n"
-	.string "seaside inn to the sound of waves…\p"
-	.string "When someone stole my POKéMON!\p"
-	.string "Who's the abductor?\n"
-	.string "TEAM AQUA? Is it TEAM AQUA?$"
+	.string "Deniz kenarındaki bir handa dalgaların\nsesini dinleyerek rahatlatıcı bir uyku\lçekiyordum…\pBiri POKéMON'umu çalana kadar!\pÇalan kimlerdi?\nAQUA TAKIMI mı, MAGMA TAKIMI mı?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
-	.string "My missing POKéMON…\n"
-	.string "It came back without me noticing!$"
+	.string "Kayıp POKéMON'um…\nBen fark etmeden geri geldi!$"
 
 LilycoveCity_Text_ImArtDealer:
-	.string "I'm an ART DEALER.\p"
-	.string "I am a buyer and seller of fine art,\n"
-	.string "especially paintings.\p"
-	.string "I've heard that the MUSEUM here has\n"
-	.string "magnificent works on exhibit…$"
+	.string "Ben bir SANAT TÜCCARIYIM.\pGüzel sanatların, özellikle de tabloların\nalıcısı ve satıcısıyım.\pDuyduğuma göre buradaki müzede\nmuhteşem eserler sergileniyormuş.$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
-	.string "Even as we grow old and wrinkled,\n"
-	.string "the sea remains forever young with\l"
-	.string "the vivid brilliance of life…\p"
-	.string "Fwohoho fwohohohoho…$"
+	.string "Biz yaşlanıp buruşsak bile deniz,\nyaşamın canlı parlaklığıyla sonsuza dek\lgenç kalır…\pFihohoho fihohohohoho…$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
-	.string "It was sixty years ago that my husband\n"
-	.string "proposed to me here.\l"
-	.string "The sea remains as beautiful as ever.\p"
-	.string "Mufufufu mufufufufufu…$"
+	.string "Kocam bana burada evlenme teklif edeli\naltmış yıl oldu.\pDeniz her zamanki gibi güzelliğini\lkoruyor.\pMufufufu mufufufufufu…$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
-	.string "Hm, you know of the peculiar cavern\n"
-	.string "in this cove?\p"
-	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
-	.string "along and made their renovations.\p"
-	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
-	.string "But what they do and what they say\n"
-	.string "don't match at all!$"
+	.string "Bu koydaki tuhaf mağarayı biliyor\nmusun?\pOrası doğal bir oluşumdu, ancak daha\nsonra AQUA TAKIMI geldi ve işlerini\lyaptılar.\pKendilerine doğasever AQUA TAKIMI\ndiyorlar!\pAma yaptıklarıyla söyledikleri hiç\nuyuşmuyor!$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
-	.string "That cave in the cove…\p"
-	.string "I didn't notice it right away,\n"
-	.string "but it's completely empty now.\p"
-	.string "That TEAM AQUA lot, they must\n"
-	.string "have gone away for good.$"
+	.string "Koydaki mağara.\pFark etmesi biraz zaman aldı ama\nşu anda tamamen boş.\pAQUA TAKIMI temelli gitmiş olmalı.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
-	.string "“Where the land ends and the\n"
-	.string "sea begins.”$"
+	.string "LİLYCOVE ŞEHRİ\pKaranın bitip denizin başladığı yer.$"
 
 LilycoveCity_Text_ContestHallSign:
-	.string "POKéMON CONTEST HALL\n"
-	.string "“The gathering place for TRAINERS!”$"
+	.string "POKéMON YARIŞMA SALONU\nEĞİTMENLER için toplanma yeri!$"
 
 LilycoveCity_Text_MotelSign:
-	.string "COVE LILY MOTEL\p"
-	.string "“Remember us as COVE LILY of\n"
-	.string "LILYCOVE.”$"
+	.string "KOY ZAMBAĞI MOTEL\pBizi LILYCOVE'daki KOY ZAMBAĞI\nolarak hatırlayın.$"
 
 LilycoveCity_Text_MuseumSign:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“POKéMON Masterpiece Collection\n"
-	.string "on exhibit!”$"
+	.string "LİLYCOVE MÜZESİ\pPOKéMON Başyapıt Koleksiyonu\nsergileniyor!$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“{PLAYER}'s POKéMON Collection\n"
-	.string "on exhibit!”$"
+	.string "LİLYCOVE MÜZESİ\p{PLAYER}'ın POKéMON Koleksiyonu\nsergileniyor!$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in SLATEPORT CITY.\p"
-	.string "“Service is scheduled to begin\n"
-	.string "shortly.”$"
+	.string "LİLYCOVE ŞEHİR LİMANI\pS.S. TİDAL feribotu, SLATEPORT\nŞEHRİ'nde yapım aşamasındadır.\pHizmetin kısa süre içinde başlaması\nplanlanıyor.$"
 
 LilycoveCity_Text_HarborSign:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. TIDAL.”$"
+	.string "LİLYCOVE ŞEHİR LİMANI\pS.S. TİDAL feribotunda keyifli bir\nyolculuğun tadını çıkarın.$"
 
 LilycoveCity_Text_TrainerFanClubSign:
-	.string "POKéMON TRAINER FAN CLUB\p"
-	.string "The names of TRAINERS are scribbled\n"
-	.string "all over the sign…$"
+	.string "POKéMON EĞİTMEN HAYRAN KULÜBÜ\pTableanın her yerine eğitmen\nisimleri karalanmış…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
-	.string "LILYCOVE DEPARTMENT STORE\p"
-	.string "“Overflowing with great merchandise\n"
-	.string "and excitement!\p"
-	.string "“A great place to find that something\n"
-	.string "you need!”$"
+	.string "LİLYCOVE ALIŞVERİŞ MERKEZİ\pHarika ürünlerle doluyuz!\pİhtiyacınız olan bir şeyi bulmak için\nharika bir yer!$"
 
 LilycoveCity_Text_MoveDeletersHouseSign:
-	.string "MOVE DELETER'S HOUSE\p"
-	.string "“Unwanted POKéMON moves deleted.”$"
+	.string "SALDIRI SİLİCİ'NİN EVİ\pİstenmeyen POKéMON saldırıları silinir.$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
-	.string "Do you know about the machine\n"
-	.string "BERRY BLENDER?$"
+	.string "MEYVE MİKSERİ makinesi hakkında\nbilginiz var mı?$"
 
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
-	.string "People have to work together to get it\n"
-	.string "to spin faster.\p"
-	.string "The faster you can make it spin, the\n"
-	.string "better {POKEBLOCK}S you can get, I've heard.$"
+	.string "Daha hızlı dönmesi için insanların\nbirlikte çalışması gerekiyor.\pNe kadar hızlı döndürürsen, o kadar iyi\n{POKEBLOCK} elde edebileceğini duydum.$"
 
 LilycoveCity_Text_ExplainBerryBlender:
-	.string "It's used for making a kind of candy\n"
-	.string "called a {POKEBLOCK}.\p"
-	.string "If you give a good {POKEBLOCK} to a POKéMON,\n"
-	.string "its condition will improve by a lot.$"
+	.string "Bu, {POKEBLOCK} adı verilen bir tür\nşekerleme yapmak için kullanılır.\pEğer bir POKéMON'a iyi bir {POKEBLOCK}\nverirsen, durumu çok daha iyi\lolacaktır.$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
-	.string "I heard there's a tower somewhere out\n"
-	.string "on the sea routes.\p"
-	.string "It's called the SKY PILLAR, I hear.$"
+	.string "Denizin ortasında bir yerde bir\nkule olduğunu duydum.\pDuyduğuma göre adı GÖK SÜTUNU'ymuş.$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
-	.string "I saw this tall tower somewhere\n"
-	.string "around ROUTE 131.\p"
-	.string "Could that possibly be…?$"
+	.string "ROTA 131 civarında bir yerde yüksek\nbir kule gördüm.\pBu yoksa…?$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-	.string "We just arrived here on our\n"
-	.string "honeymoon vacation.\p"
-	.string "We happened to see a DRAGON-type\n"
-	.string "POKéMON flying way up in the sky.\p"
-	.string "Do cool POKéMON like that live in\n"
-	.string "the HOENN region?$"
+	.string "Balayı tatilimiz için buraya yeni geldik.\pGökyüzünde uçan EJDERHA tipi bir\nPOKEMON gördük.\pHOENN bölgesinde böyle havalı\nPOKéMON'lar yaşıyor mu?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
-	.string "On our honeymoon, we vowed to see as\n"
-	.string "many rare POKéMON as we can.\p"
-	.string "So we were delighted to see a rare\n"
-	.string "POKéMON as soon as we arrived.\p"
-	.string "I mean, we are totally happy!$"
+	.string "Balayımızda, görebildiğimiz kadar çok\nnadir POKéMON görmeye yemin ettik.\pBu yüzden gelir gelmez nadir bir POKéMON\ngördüğümüz için çok mutlu olduk!$"
+
 

@@ -161,7 +161,7 @@ RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO ŞEHRİ POKéMON SALONU\pROXANNE'İN ONAYLI EĞİTMENLERİ:\n{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
-	.string "… … … … … …\n… … … … … … Bip!\pMerhaba, {PLAYER}. Ben RUSTBORO\nŞEHRİ'nden ROXANNE.\pBRAWLY'den duyduğuma göre eğitmenler\narasında inanılmaz bir hızla\lyükseliyormuşsun.\pSeni yenemeyeceğimi düşünmemeyi tercih\nederim.\pSöz veriyorum, bana tekrar meydan\nokuyabilmen için SALONU düzenleyeceğim.\pUmarım sen de bu fırsatı en az\nbenim kadar dört gözle bekliyorsundur!\p… … … … … …\n… … … … … … Tık!$"
+	.string "… … … … … …\n… … … … … … Bip!\pMerhaba, {PLAYER}. Ben RUSTBORO\nŞEHRİ'nden ROXANNE.\pBRAWLY'den duyduğuma göre insanlar\narasında inanılmaz bir hızla\lyükseliyormuşsun.\pSeni yenemeyeceğimi düşünmemeyi\ntercih ederim.\pSöz veriyorum, bana tekrar\nmeydan okuyabilmen için\lSALONU düzenleyeceğim.\pUmarım sen de bu fırsatı en az\nbenim kadar dört gözle\lbekliyorsundur!\p… … … … … …\n… … … … … … Tık!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
 	.string "SALON LİDERİ ROXANNE, POKéNAV'a\nkaydedildi.$"

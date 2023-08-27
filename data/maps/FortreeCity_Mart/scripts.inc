@@ -42,8 +42,7 @@ FortreeCity_Mart_EventScript_Boy::
 FortreeCity_Mart_Text_SuperRepelBetter:
 	.string "SÜPER SPREY uzun süre kalır,\n"
 	.string "ve işi bitirir.\p"
-	.string "Sıradan SPREYDEN çok daha\n"
-	.string "iyi.$"
+	.string "Sıradan SPREYDEN çok daha iyi.$"
 
 FortreeCity_Mart_Text_StockUpOnItems:
 	.string "Her zaman daha fazla eşya depolarım\n"

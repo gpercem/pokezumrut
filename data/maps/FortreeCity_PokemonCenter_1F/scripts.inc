@@ -46,7 +46,7 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 	.string "Ah, vaov, POKéNAV'in var!\n"
 	.string "Hem de benimkinden!\p"
-	.string "POKéNAV'in DİREKT ARAMA sistemini\n"
+	.string "POKéNAV'in MAÇ ARAMASI sistemini\n"
 	.string "biliyor muydun?\p"
 	.string "Kullan ve kayıtlı EĞİTMENLER ile\n"
 	.string "istediğin zaman sohbet et.\p"

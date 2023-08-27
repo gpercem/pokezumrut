@@ -1,8 +1,8 @@
-.set LOCALID_MECHADOLL_1, 1
-.set LOCALID_MECHADOLL_2, 2
-.set LOCALID_MECHADOLL_3, 3
-.set LOCALID_MECHADOLL_4, 4
-.set LOCALID_MECHADOLL_5, 5
+.set LOCALID_MEKABEBEK_1, 1
+.set LOCALID_MEKABEBEK_2, 2
+.set LOCALID_MEKABEBEK_3, 3
+.set LOCALID_MEKABEBEK_4, 4
+.set LOCALID_MEKABEBEK_5, 5
 
 Route110_TrickHousePuzzle5_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle5_OnTransition
@@ -30,7 +30,7 @@ Route110_TrickHousePuzzle5_EventScript_FoundScroll::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1::
 	lockall
-	applymovement LOCALID_MECHADOLL_1, Common_Movement_FacePlayer
+	applymovement LOCALID_MEKABEBEK_1, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_eq VAR_TEMP_1, 1, Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough
 	setvar VAR_TEMP_9, 0
@@ -39,7 +39,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2::
 	lockall
-	applymovement LOCALID_MECHADOLL_2, Common_Movement_FacePlayer
+	applymovement LOCALID_MEKABEBEK_2, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_eq VAR_TEMP_2, 1, Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough
 	setvar VAR_TEMP_9, 0
@@ -48,7 +48,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3::
 	lockall
-	applymovement LOCALID_MECHADOLL_3, Common_Movement_FacePlayer
+	applymovement LOCALID_MEKABEBEK_3, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_eq VAR_TEMP_3, 1, Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough
 	setvar VAR_TEMP_9, 0
@@ -57,7 +57,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll3::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4::
 	lockall
-	applymovement LOCALID_MECHADOLL_4, Common_Movement_FacePlayer
+	applymovement LOCALID_MEKABEBEK_4, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_eq VAR_TEMP_4, 1, Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough
 	setvar VAR_TEMP_9, 0
@@ -66,7 +66,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll4::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5::
 	lockall
-	applymovement LOCALID_MECHADOLL_5, Common_Movement_FacePlayer
+	applymovement LOCALID_MEKABEBEK_5, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_eq VAR_TEMP_5, 1, Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough
 	setvar VAR_TEMP_9, 0
@@ -214,11 +214,11 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll5Trigger0::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Activate::
 	setvar VAR_TEMP_1, 1
-	setvar VAR_TEMP_8, LOCALID_MECHADOLL_1
+	setvar VAR_TEMP_8, LOCALID_MEKABEBEK_1
 	playse SE_PIN
-	applymovement LOCALID_MECHADOLL_1, Common_Movement_ExclamationMark
+	applymovement LOCALID_MEKABEBEK_1, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MECHADOLL_1, Common_Movement_Delay48
+	applymovement LOCALID_MEKABEBEK_1, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_TEMP_9, 1, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft1
 	call_if_eq VAR_TEMP_9, 2, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft2
@@ -234,11 +234,11 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Activate::
 	setvar VAR_TEMP_2, 1
-	setvar VAR_TEMP_8, LOCALID_MECHADOLL_2
+	setvar VAR_TEMP_8, LOCALID_MEKABEBEK_2
 	playse SE_PIN
-	applymovement LOCALID_MECHADOLL_2, Common_Movement_ExclamationMark
+	applymovement LOCALID_MEKABEBEK_2, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MECHADOLL_2, Common_Movement_Delay48
+	applymovement LOCALID_MEKABEBEK_2, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_TEMP_9, 1, Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight1
 	call_if_eq VAR_TEMP_9, 2, Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight2
@@ -255,11 +255,11 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3Activate::
 	setvar VAR_TEMP_3, 1
-	setvar VAR_TEMP_8, LOCALID_MECHADOLL_3
+	setvar VAR_TEMP_8, LOCALID_MEKABEBEK_3
 	playse SE_PIN
-	applymovement LOCALID_MECHADOLL_3, Common_Movement_ExclamationMark
+	applymovement LOCALID_MEKABEBEK_3, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MECHADOLL_3, Common_Movement_Delay48
+	applymovement LOCALID_MEKABEBEK_3, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_TEMP_9, 1, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft1
 	call_if_eq VAR_TEMP_9, 2, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft2
@@ -275,11 +275,11 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll3Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4Activate::
 	setvar VAR_TEMP_4, 1
-	setvar VAR_TEMP_8, LOCALID_MECHADOLL_4
+	setvar VAR_TEMP_8, LOCALID_MEKABEBEK_4
 	playse SE_PIN
-	applymovement LOCALID_MECHADOLL_4, Common_Movement_ExclamationMark
+	applymovement LOCALID_MEKABEBEK_4, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MECHADOLL_4, Common_Movement_Delay48
+	applymovement LOCALID_MEKABEBEK_4, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_TEMP_9, 1, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft1
 	call_if_eq VAR_TEMP_9, 2, Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft2
@@ -295,11 +295,11 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll4Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5Activate::
 	setvar VAR_TEMP_5, 1
-	setvar VAR_TEMP_8, LOCALID_MECHADOLL_5
+	setvar VAR_TEMP_8, LOCALID_MEKABEBEK_5
 	playse SE_PIN
-	applymovement LOCALID_MECHADOLL_5, Common_Movement_ExclamationMark
+	applymovement LOCALID_MEKABEBEK_5, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MECHADOLL_5, Common_Movement_Delay48
+	applymovement LOCALID_MEKABEBEK_5, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll5Intro, MSGBOX_DEFAULT
 	random 3
@@ -433,11 +433,11 @@ Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer::
 	waitse
 	playse SE_FAILURE
 	msgbox Route110_TrickHousePuzzle5_Text_DisappointmentError, MSGBOX_DEFAULT
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_MechadollShake
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_MechadollShake
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_MechadollShake
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_MechadollShake
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_MechadollShake
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_MechadollShake
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_MechadollShake
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_MechadollShake
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_MechadollShake
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_MechadollShake
 	msgbox Route110_TrickHousePuzzle5_Text_Wahahahaha, MSGBOX_DEFAULT
 	waitmovement 0
 	msgbox Route110_TrickHousePuzzle5_Text_WaitForNextChallenge, MSGBOX_DEFAULT
@@ -464,332 +464,332 @@ Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough::
 @   Mechadoll 5 never walks, all the Mechadoll5Walk scripts are unused
 @   No mechadoll walks left 5 paces, all the WalkLeft5 scripts are unused
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft1::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft1
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft2::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft2
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft3::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft3
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft4::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft4
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkLeft5::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft5
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight1::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight1
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight1
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight1
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight2::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight2
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight2
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight2
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight3::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight3
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight3
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight3
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight4::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight4
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight4
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight4
 	return
 
 Route110_TrickHousePuzzle5_EventScript_MechadollWalkRight5::
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight5
-	call_if_eq VAR_TEMP_8, LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight5
+	call_if_eq VAR_TEMP_8, LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight5
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft1::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkLeft1
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkLeft1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft1::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkLeft1
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkLeft1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft1::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkLeft1
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkLeft1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft1::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkLeft1
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkLeft1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft1::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkLeft1
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkLeft1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft2::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkLeft2
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkLeft2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft2::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkLeft2
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkLeft2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft2::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkLeft2
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkLeft2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft2::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkLeft2
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkLeft2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft2::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkLeft2
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkLeft2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft3::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkLeft3
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkLeft3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft3::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkLeft3
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkLeft3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft3::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkLeft3
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkLeft3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft3::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkLeft3
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkLeft3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft3::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkLeft3
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkLeft3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft4::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkLeft4
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkLeft4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft4::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkLeft4
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkLeft4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft4::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkLeft4
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkLeft4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft4::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkLeft4
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkLeft4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft4::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkLeft4
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkLeft4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkLeft5::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkLeft5
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkLeft5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkLeft5::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkLeft5
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkLeft5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkLeft5::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkLeft5
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkLeft5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkLeft5::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkLeft5
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkLeft5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkLeft5::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkLeft5
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkLeft5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight1::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkRight1
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkRight1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight1::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkRight1
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkRight1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight1::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkRight1
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkRight1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight1::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkRight1
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkRight1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight1::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkRight1
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkRight1
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight2::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkRight2
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkRight2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight2::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkRight2
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkRight2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight2::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkRight2
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkRight2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight2::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkRight2
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkRight2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight2::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkRight2
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkRight2
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight3::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkRight3
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkRight3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight3::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkRight3
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkRight3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight3::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkRight3
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkRight3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight3::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkRight3
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkRight3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight3::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkRight3
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkRight3
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight4::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkRight4
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkRight4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight4::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkRight4
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkRight4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight4::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkRight4
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkRight4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight4::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkRight4
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkRight4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight4::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkRight4
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkRight4
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1WalkRight5::
-	applymovement LOCALID_MECHADOLL_1, Route110_TrickHousePuzzle5_Movement_WalkRight5
+	applymovement LOCALID_MEKABEBEK_1, Route110_TrickHousePuzzle5_Movement_WalkRight5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2WalkRight5::
-	applymovement LOCALID_MECHADOLL_2, Route110_TrickHousePuzzle5_Movement_WalkRight5
+	applymovement LOCALID_MEKABEBEK_2, Route110_TrickHousePuzzle5_Movement_WalkRight5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll3WalkRight5::
-	applymovement LOCALID_MECHADOLL_3, Route110_TrickHousePuzzle5_Movement_WalkRight5
+	applymovement LOCALID_MEKABEBEK_3, Route110_TrickHousePuzzle5_Movement_WalkRight5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll4WalkRight5::
-	applymovement LOCALID_MECHADOLL_4, Route110_TrickHousePuzzle5_Movement_WalkRight5
+	applymovement LOCALID_MEKABEBEK_4, Route110_TrickHousePuzzle5_Movement_WalkRight5
 	waitmovement 0
 	return
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll5WalkRight5::
-	applymovement LOCALID_MECHADOLL_5, Route110_TrickHousePuzzle5_Movement_WalkRight5
+	applymovement LOCALID_MEKABEBEK_5, Route110_TrickHousePuzzle5_Movement_WalkRight5
 	waitmovement 0
 	return
 
@@ -902,127 +902,76 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is a genius.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER} kapıdaki gizli kodu yazdı.\pTRICK MASTER bir dahi. … … … … …\n… … …\pKilit açıldı!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 1 AM I!\p"
-	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
-	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "TIK-TAK… MEKABEBEK 1 BENİM!\pEĞER TESTLERI DOĞRU CEVAPLARSAN,\nMEKABEBEK 5'E GIDECEKSIN. O ZAMAN\lGIZLI KODU ELDE EDEBILIRSINIZ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "MEKABEBEK 1 TESTİ.\pBu POKéMON'lardan biri ROUTE 110\nüzerinde bulunmuyor. Hangisi o?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "MEKABEBEK 1 TESTİ.\pBu POKéMON'lardan biri SU türünde\ndeğil. Hangisi o?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "MEKABEBEK 1 TESTİ.\pBu POKéMON'lardan biri LEECH LIFE\nkullanmıyor. Hangisi o?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
-	.string "GO THROUGH. PLEASE.$"
+	.string "TEBRIK EDERIM. DOĞRU.\nİLERLE LÜTFEN.$"
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
-	.string "BZZZT. DISAPPOINTMENT.\n"
-	.string "ERROR.$"
+	.string "BZZZT. HAYAL KIRIKLIĞI. HATA.$"
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
-	.string "CLICKETY-CLACK!$"
+	.string "VAHAHAHAHA! VAHAHAHAHA!\nKLİK-KLAK!$"
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+	.string "BIR SONRAKI MÜCADELENI BEKLIYORUZ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 2 AM I!\p"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
-	.string "IS SET TOO LOW.$"
+	.string "TIKIR TIKIR… MEKABEBEK 2 BENIM!\pMEKABEBEK 1'IN SINAV ZORLUK SEVIYESI\nÇOK DÜŞÜK AYARLANMIŞ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "MEKABEBEK 2 TESTİ.\pWALLY bu POKéMON'lardan hangisini\nbabandan ödünç aldı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "MEKABEBEK 2 TESTİ.\pBu POKéMON'lardan hangisi PROF.\nBIRCH'i kovalıyordu?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "MEKABEBEK 2 TESTİ.\pTEAM AQUA PETALBURG ORMANI'nda bu\nPOKéMON'lardan hangilerini\lkullanmıştır?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 3 AM I!\p"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "TIKIR TIKIR… MEKABEBEK 3 BENIM!\pPARA MESELELERI BENIM TEK ODAK\nNOKTAM.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "MEKABEBEK 3 TESTİ.\pHangisi daha pahalı? Üç DENİZ MEKTUP\nmu yoksa bir YANIK İLACI mı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "MEKABEBEK 3 TESTİ.\pBir BÜYÜK TOP sat ve bir İKSİR al. Ne\nkadar para kaldı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "MEKABEBEK 3 TESTİ.\pBir REPEL ve SODA POP bir SUPER\nPOTION'dan daha mı pahalı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 4 THAT IS ME!\p"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+	.string "TIKIR TIKIR… MEKABEBEK 4 BU BENIM!\pBENIM TESTIM BIR GÜZELLIK OBJESI.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In SEASHORE HOUSE, were there more men\n"
-	.string "or women?$"
+	.string "MEKABEBEK 4 TESTİ.\pSEASHORE HOUSE'da daha çok erkek mi\nyoksa kadın mı vardı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "MEKABEBEK 4 TESTİ.\pLAVARIDGE TOWN'da daha çok yaşlı\nerkek mi yoksa yaşlı kadın mı vardı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In the TRAINER'S SCHOOL, how many\n"
-	.string "girl students were there?$"
+	.string "MEKABEBEK 4 TESTİ.\pEĞİTİMCİ OKULU'nda kaç kız öğrenci\nvardı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 5 AM I!\p"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
-	.string "ACHIEVEMENT AM I.$"
+	.string "TIKIR TIKIR… MEKABEBEK 5 BENIM!\pUSTANIN EN İYİ VE EN GURURLU\nBAŞARISI BENİM.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
-	.string "how many POKéMON were there?$"
+	.string "MEKABEBEK 5 TESTİ.\pSLATEPORT'un POKéMON FAN CLUB'ında\nkaç tane POKéMON vardı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
-	.string "tree houses were there?$"
+	.string "MEKABEBEK 5 TESTİ.\pFORTREE CITY'de kaç tane ağaç ev\nvardı?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "On the CYCLING ROAD, how many\n"
-	.string "TRIATHLETES were there?$"
+	.string "MEKABEBEK 5 TESTİ.\pBİSİKLET YOLUNDA kaç tane TRİATLET\nvardı?$"

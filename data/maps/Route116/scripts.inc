@@ -352,122 +352,57 @@ Route116_EventScript_Johnson::
 	end
 
 Route116_Text_ScoundrelMadeOffWithPeeko:
-	.string "Ohhh, what am I to do?\p"
-	.string "We were on our walk, PEEKO and I, when\n"
-	.string "we were jumped by an odd thug…\p"
-	.string "The scoundrel made off with my\n"
-	.string "darling PEEKO!\p"
-	.string "Wrrrooooooaaaar! PEEKO!$"
+	.string "Ahh, ne yapacağım ben?\pPEEKO ve ben yürüyüşe çıkmıştık ki\ntuhaf bir haydut üzerimize atladı…\pAlçak herif sevgili PEEKO'mu alıp\nkaçtı!\pHırrraaaaağ! PEEKO!$"
 
 Route116_Text_WantToDigTunnel:
-	.string "Nnn… Roar!\p"
-	.string "I want to dig that tunnel!$"
+	.string "Nnn… Aaa!\pO tüneli kazmak istiyorum!$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "Nnn… Roar!\n"
-	.string "What's going on?\p"
-	.string "I was digging the tunnel without any\n"
-	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with POKéMON\n"
-	.string "that react badly to loud noises.\l"
-	.string "They could cause an uproar.\p"
-	.string "That's why we stopped using heavy\n"
-	.string "equipment for tunneling…\p"
-	.string "I'm worried that the goon will do\n"
-	.string "something stupid and startle the\l"
-	.string "POKéMON into an uproar.$"
+	.string "Nnn… Hığaa!\nNeler oluyor?\pTüneli aletsiz kazıyordum ki bir\nserseri bana dışarı çıkmamı emretti!\pO tünel, yüksek sese tepki veren\nPOKéMON'larla dolu.\lBir kargaşaya neden olabilirler.\pBu yüzden tünel kazmak için ağır\nekipman kullanmayı bıraktık.\nO herifin aptalca bir şey yapmasından\nve POKéMON'ları kargaşaya\lsürüklemesinden korkuyorum.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
-	.string "Nnn… Roar!\p"
-	.string "That goofy goon hightailed it out of\n"
-	.string "the tunnel! I can go back to digging!$"
+	.string "Nnn… Hığaa!\pO şapşal herif tünelden kaçtı!\nKazmaya geri dönebilirim!$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
-	.string "Oh! It's you!\p"
-	.string "You're that person who not only helped\n"
-	.string "me in PETALBURG WOODS, but also got\l"
-	.string "back my stolen package and then even\l"
-	.string "graciously delivered it to SLATEPORT!\p"
-	.string "CAPT. STERN informed us that the\n"
-	.string "package arrived, too!\p"
-	.string "I thank you very, very much!\p"
-	.string "Why, if I were a rain cloud, I would\n"
-	.string "shower you with gratitude and hail\l"
-	.string "you as a hero!\p"
-	.string "For you, the most wonderful TRAINER,\n"
-	.string "I bear good news!\p"
-	.string "Recently, our company developed\n"
-	.string "a new kind of POKé BALL.\p"
-	.string "As a token of our appreciation, this\n"
-	.string "is our gift to our wonderful TRAINER!$"
+	.string "Hey! Bu sensin!\pSen sadece PETALBURG ORMANI'nda bana\nyardım etmekle kalmayıp, çalınan\lpaketimi geri alan ve hatta nezaketle\lSLATEPORT'a teslim eden kişisin!\pKAPTAN. STERN de paketin ulaştığı\nkonusunda bizi bilgilendirdi!\pSana çok ama çok teşekkür ederim!\pSana minnettarlığımı göstermeye\nkelimelerim yetmiyor!\pSenin için iyi haberlerim var,\nharika eğitmen!\pYakın zamanda şirketimiz yeni bir tür\nPOKé TOPU geliştirdi.\pMinnettarlığımızın bir göstergesi\nolarak, bu bizim harika eğitmenimize\lhediyemizdir!$"
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Our new POKé BALL will be available\n"
-	.string "at the POKéMON MART in RUSTBORO.\p"
-	.string "Please do try it out!\n"
-	.string "Thank you and bye-bye!$"
+	.string "Yeni POKé TOPU'muzz RUSTBORO'daki\nPOKéMON MART'ta satışa sunuldu.\pLütfen dene! Teşekkürler!$"
 
 Route116_Text_BagIsJamPacked:
-	.string "Your BAG is jam-packed.\n"
-	.string "I can't give you this REPEAT BALL.$"
+	.string "Çantan tıka basa dolu.\nSana bu TEKRAR TOPU'nu veremem.$"
 
 Route116_Text_TokenOfAppreciation:
-	.string "As a token of our appreciation for\n"
-	.string "your delivering our package, I have\l"
-	.string "a gift of a new kind of POKé BALL\l"
-	.string "for our most wonderful TRAINER!$"
+	.string "Paketimizi teslim ettiğiniz için\nteşekkürümüzün bir göstergesi olarak,\len harika EĞİTMENİMİZ için yeni bir\ltür POKé TOPU hediyem var!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
-	.string "I dropped my glasses…\n"
-	.string "Can you help me find them?$"
+	.string "Gözlüğümü düşürdüm…\nBulmama yardım eder misin?$"
 
 Route116_Text_MayISeeThoseGlasses:
-	.string "Those glasses!\n"
-	.string "May I see them for a second?$"
+	.string "Şu gözlükler!\nBir saniye bakabilir miyim?$"
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…\p"
-	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
+	.string "Hmm… Bu siyah gözlük.\nAradığım şey bu değil.\pBelki de gözlüklerim buralarda\ndeğildir.$"
 
 Route116_Text_CantFindGlassesNotHere:
-	.string "Hmm…\n"
-	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
+	.string "Hmm… Gözlüklerimi hiçbir yerde\nbulamıyorum… Belki de buralarda\ldeğildir…$"
 
 Route116_Text_NotWhatImLookingFor:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "Hmm… Bu siyah gözlük.\nAradığım şey bu değil.$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "ROTA 116\n{LEFT_ARROW} RUSTBORO ŞEHRİ$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "RUSTURF TÜNELİ\nRUSTBORO ve VERDANTURF'u Birbirine\lBağlıyor!\pTünel projesi iptal edildi.$"
 
 Route116_Text_TunnelersRestHouse:
-	.string "TUNNELER'S REST HOUSE$"
+	.string "TÜNELCİ DİNLENME EVİ$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
-	.string "evolving, press the B Button while it\l"
-	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
-	.string "This is called an evolution cancel.$"
+	.string "EĞİTMEN İPUÇLARI\pBir POKéMON'un evrimleşmesini\ndurdurmak istiyorsanız, evrimleşmeye\lçalışırken B Düğmesine basın.\lBöylece POKéMON evrimi duracaktır.\pBuna evrim iptali denir.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
-	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "EĞİTMEN İPUÇLARI\pÇantanın çeşitli cepleri vardır.\pAldığınız eşyalar otomatik olarak\nuygun ceplere yerleştirilir.\pHiçbir EĞİTMEN kendine ait bir\nçantası olmadan yaşayamaz.$"
+
 

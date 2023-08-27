@@ -89,8 +89,8 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "senin olabilir.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "WİNGULL'um sayesinde, Çok uzaklarda\n"
-	.string "dostlarım var.$"
+	.string "WİNGULL'um sayesinde, çok\n"
+	.string "uzaklarda dostlarım var.$"
 
 FortreeCity_House4_Text_Wingull:
 	.string "WINGULL: Pihyoh!$"

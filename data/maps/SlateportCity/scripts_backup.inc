@@ -951,235 +951,435 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-	.string "Ben ENERJİ GURUSUYUM!\nİhtiyacın olabilecek her şeyi\lsatıyorum!$"
+	.string "I'm the ENERGY GURU! I'll go for it and\n"
+	.string "sell you what you need!$"
 
 SlateportCity_Text_OhYourPokemon:
-	.string "Ha?\nŞu sendeki {STR_VAR_1}…$"
+	.string "Oh?\n"
+	.string "Your {STR_VAR_1}…$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
-	.string "Harikalar yaratıyor!\pÖdül olarak ona bu kurdeleyi\ntakalım.$"
+	.string "Went for it stupendously!\p"
+	.string "As its reward, please give it this\n"
+	.string "EFFORT RIBBON.$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
-	.string "{PLAYER}, ÇABA KURDELESİNİ aldı.$"
+	.string "{PLAYER} received the EFFORT RIBBON.$"
 
 SlateportCity_Text_PutEffortRibbonOnMon:
-	.string "{PLAYER}, ÇABA KURDELESİNİ\n{STR_VAR_1} üzerine taktı.$"
+	.string "{PLAYER} put the EFFORT RIBBON\n"
+	.string "on {STR_VAR_1}.$"
 
 SlateportCity_Text_GoForItLittleHarder:
-	.string "Onu biraz daha zorlamalısın.\pEğer zorlarsan, POKéMON'una güzel\nbir şey veririm.$"
+	.string "You have to go for it a little harder.\p"
+	.string "If you do, I'll give your POKéMON\n"
+	.string "something nice.$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-	.string "Hey! ÇABA KURDELESİ, {STR_VAR_1}\nüzerinde iyi görünüyor!$"
+	.string "Oh! Your {STR_VAR_1}, that EFFORT\n"
+	.string "RIBBON looks good on it!$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
-	.string "Deniz fenerinin ışığı metrelerce\nuzağa ulaşıyor.\pAcaba denizdeki POKéMON'ları\nürkütmüyor mu?$"
+	.string "The light of the lighthouse reaches\n"
+	.string "dozens of miles away.\p"
+	.string "I wonder if it doesn't startle POKéMON\n"
+	.string "in the sea.$"
 
 SlateportCity_Text_SeaweedFullOfLife:
-	.string "Aa, şuna bak!\pBuralarda bulabileceğin deniz\nyosunları taze ve hayat dolu.\pHatta sanki ayaklanıp sana\nsaldıracakmış gibi duruyorlar!$"
+	.string "Ooh, look at this!\p"
+	.string "The seaweed you can get around these\n"
+	.string "parts is fresh and full of life.\p"
+	.string "Why, it looks like it can even rear up\n"
+	.string "and attack!$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
-	.string "Suyun temiz olduğu yerde bereketli\nhasadın meyveleri toplanır.\pVe insanların çok olduğu yerde, kısa\nsüre sonra bir topluluk oluşur.\pİşte kasabalar böyle doğar ve büyür.$"
+	.string "Where the water is clean, the fruits\n"
+	.string "of bountiful harvest gather.\p"
+	.string "And where people gather, a market\n"
+	.string "soon starts.\p"
+	.string "That is how a town is born and grows.$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-	.string "Okyanus kokusunu içine\nçekebileceğin bir pazar yeri…\pSLATEPORT harika bir yer!$"
+	.string "Shopping where you can breathe the\n"
+	.string "scent of the ocean…\p"
+	.string "SLATEPORT is such a wonderful place!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
-	.string "Eğer yere oyuncak ya da minder\nkoyarsan kirlenirler.\pBu yüzden STAND alacağım, böylece\nüzerindeki eşyalar kirlenmeyecek.$"
+	.string "If you put DOLLS or CUSHIONS on\n"
+	.string "the floor, they'll get dirty.\p"
+	.string "I'm going to buy some BRICKS so my\n"
+	.string "DOLLS and CUSHIONS won't get dirty\l"
+	.string "when I leave them out.$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-	.string "Vroooar! Ben de SAVAŞ ÇADIRI'nda\nyarışacağım!\pAma ondan önce birkaç POKéMON\nyakalamam lazım!$"
+	.string "Wroooar! I'm going to compete in\n"
+	.string "the BATTLE TENT, too!\p"
+	.string "But before that, I need to catch\n"
+	.string "some POKéMON!$"
 
 SlateportCity_Text_BushedHikingFromMauville:
-	.string "Vay be…\nÇok yoruldum…\pMAUVILLE ŞEHRİ'nden buraya yürüdüm.\nAma bu şehir çok büyük.\pBunu bilseydim, buraya bisikletle\ngelirdim.$"
+	.string "Whew… I'm just bushed…\p"
+	.string "I hiked over from MAUVILLE CITY.\n"
+	.string "But, boy, this city's huge.\p"
+	.string "If I'd known this, I would've ridden\n"
+	.string "my BIKE here.$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
-	.string "Müzeyi inşa eden STERN, aynı zamanda\nbir denizaltı keşif ekibinin de\llideridir.\pBu yüzden herkes ona KAPTAN STERN\ndiyor.$"
+	.string "STERN, the fellow who built the\n"
+	.string "MUSEUM, also happens to be the leader\l"
+	.string "of an undersea exploration team.\p"
+	.string "So, everyone calls him CAPT. STERN.$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
-	.string "Şu uzun sıranın olayı ne?$"
+	.string "What is that over there?\n"
+	.string "That long line…$"
 
 SlateportCity_Text_VisitedMuseumOften:
-	.string "Çocukken müzeyi sık sık ziyaret\nederdim.\pSergileri gördükten sonra denizin\ngizemleri hakkında hayaller kurardım.$"
+	.string "When I was a child, I visited\n"
+	.string "the MUSEUM often.\p"
+	.string "I used to dream about the mysteries of\n"
+	.string "the sea after seeing the exhibits.$"
 
 SlateportCity_Text_QuitPushing:
-	.string "Hey! İtmeyi bırak!\nBir sıra var, görmüyor musun?$"
+	.string "Hey, there! Quit pushing!\n"
+	.string "This is the line, can't you see?$"
 
 SlateportCity_Text_AquaHasPolicy:
-	.string "AQUA TAKIMI'nın operasyon\nsahasında toplanma ve dağılma\lpolitikası vardır.$"
+	.string "TEAM AQUA has a policy of\n"
+	.string "assembling and dispersing at\l"
+	.string "the operation site.$"
 
 SlateportCity_Text_BossIsBrilliant:
-	.string "Patronumuz çok akıllıdır.\pAma müzede ne yapmak istiyor ki?$"
+	.string "Our BOSS is brilliant.\p"
+	.string "What would he want to do with\n"
+	.string "a MUSEUM now?$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
-	.string "Yeni plan ne acaba?\pPatronumuz sinirlendiğinde korkutucu\noluyor, o yüzden işleri berbat etmesem\liyi olur…$"
+	.string "What's the new scheme, I wonder?\p"
+	.string "Our BOSS is scary when he's mad, so\n"
+	.string "I'd better not screw things up…$"
 
 SlateportCity_Text_ShouldTakeItAll:
-	.string "Eğer müzede ihtiyacımız olan bir şey\nvarsa, hepsini almalıyız!$"
+	.string "If there's something we need in\n"
+	.string "the MUSEUM, we should take it all!$"
 
 SlateportCity_Text_DontButtIn:
-	.string "Hey, sen!\nKaynak yapma!$"
+	.string "Hey, you there!\n"
+	.string "Don't butt in!$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
-	.string "Uzun bir sıra, ha?\pBu bana çok satan oyunları\nalmak için sıraya girdiğim zamanları\lhatırlatıyor…$"
+	.string "A long line, huh?\p"
+	.string "It reminds me of the times I lined up to\n"
+	.string "buy smash-hit games…$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
-	.string "Neden sıraya girip para ödüyoruz ki?\nBence içeri dalmalıyız!$"
+	.string "Why are we even lining up and paying?\n"
+	.string "We should just march in!$"
 
 SlateportCity_Text_WhatDoYouWant:
-	.string "Ne?\nNe istiyorsun?$"
+	.string "What?\n"
+	.string "What do you want?$"
 
 SlateportCity_Text_IllReadSignForYou:
-	.string "Bu tabelayı okumak mı istiyorsun?\nSenin için okuyayım!$"
+	.string "You want to read this sign?\n"
+	.string "I'll read it for you!$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-	.string "Bir bakalım.\pSanırım denizdeki yaşam sonsuzdur gibi\nbir şey yazıyor.$"
+	.string "Let's see…\p"
+	.string "Um… I think it says something like\n"
+	.string "“the life in the sea is endless.”\p"
+	.string "Yup, I'm pretty sure that's what\n"
+	.string "it says.$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-	.string "Off.\pKeşke Game Boy Advance'ımı getirseydim.\nBöylece sırada sıkılmazdım…\pUff.$"
+	.string "Grumble…\p"
+	.string "I should've brought my Game Boy\n"
+	.string "Advance so I wouldn't get bored in line…\p"
+	.string "Grumble…$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
-	.string "Liderimiz bu operasyon bittiğinde\nbizi kaplıcaya götüreceğini söyledi.\pSabırsızlanıyorum!$"
+	.string "When this operation's over, I'll take\n"
+	.string "you to a hot spring spa!\p"
+	.string "That's what our leader said.\n"
+	.string "I can't wait!$"
 
 SlateportCity_Text_SeaIsSoWet:
-	.string "Deniz o kadar engin ki.\pDeniz, POKéMON'ların döktüğü\ngözyaşlarından oluşmuş olabilir mi?$"
+	.string "The sea is just so vast…\p"
+	.string "Could the sea have been made by\n"
+	.string "the tears shed by POKéMON?$"
 
 SlateportCity_Text_SinkOldBoats:
-	.string "Eskimekten gıcırdayan gemilere\nne yapıldığını biliyor musun?\pOnları denize batırıyorlar, böylece\nPOKéMON'lar için yaşam alanı oluyorlar.$"
+	.string "Do you know what they do with old\n"
+	.string "ships that become too creaky to sail?\p"
+	.string "They sink them in the sea so they\n"
+	.string "become habitats for POKéMON.$"
 
 SlateportCity_Text_BuyTooMuch:
-	.string "Burayı ne zaman ziyaret etsem, kendimi\nkaptırıp çok fazla şey alıyorum.$"
+	.string "Whenever I visit here, I get carried\n"
+	.string "away and buy too much.$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-	.string "POKéMON'unun takma adını\ndeğiştirmek istiyorsan, İSİM\lUSTASI'nı görmek isteyebilirsin.$"
+	.string "If you want to change your POKéMON's\n"
+	.string "nickname, you'll have to get the NAME\l"
+	.string "RATER to help you.$"
 
 SlateportCity_Text_CantChangeTradeMonName:
-	.string "Takas yoluyla aldığın herhangi bir\nPOKéMON'un takma adını\ldeğiştiremezsin.\pOrijinal EĞİTMEN'in o POKéMON'a olan\nsevgisi takma adındadır.$"
+	.string "Any POKéMON you get in a trade,\n"
+	.string "you can't change its nickname.\p"
+	.string "The original TRAINER's love for that\n"
+	.string "POKéMON is in the nickname.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
-	.string "Yakın zamanda SLATEPORT'ta bir SAVAŞ\nÇADIRI inşa edildi.\pSalonlar eğlenceli ama SAVAŞ ÇADIRI\nkendi tarzında harika.\pSAVAŞ ÇADIRI için güçlü POKéMON\nbulmalısın!$"
+	.string "Recently, a BATTLE TENT was built\n"
+	.string "in SLATEPORT.\p"
+	.string "GYMS are fun, but the BATTLE TENT's\n"
+	.string "awesome in its own way.\p"
+	.string "You should go find tough POKéMON\n"
+	.string "for the BATTLE TENT!$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
-	.string "Ünlü birinin imza dağıttığını\nsanmıştım.\pAma bu kadar kargaşa KAPTAN STERN\niçinmiş.$"
+	.string "I was hoping that it was a famous star\n"
+	.string "so I could get an autograph.\p"
+	.string "But who's that being interviewed?\n"
+	.string "Isn't that CAPT. STERN?$"
 
 SlateportCity_Text_InterviewerSoCool:
-	.string "Röportajı yapan kadın çok havalı ve\ngüzel.\pBüyüdüğümde uluslararası bir gazeteci\nolacağım!$"
+	.string "That lady interviewer is so cool\n"
+	.string "and pretty.\p"
+	.string "When I grow up, I'm going to be\n"
+	.string "an international journalist!$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
-	.string "KAPTAN STERN denizin dibinde bir şey\nbulduğunu söylüyor.\pNe olduğunu merak ediyorum.\nNe olabilir ki?$"
+	.string "CAPT. STERN says they discovered\n"
+	.string "something at the bottom of the sea.\p"
+	.string "I wonder what it is?\n"
+	.string "What could it be?$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
-	.string "Neler oluyor burada?\pKAPTAN okyanustan büyük bir balık\navıyla mı döndü?$"
+	.string "What's going on here?\p"
+	.string "Did the good CAPTAIN come back with\n"
+	.string "a big fish from the ocean floor?$"
 
 SlateportCity_Text_AmIOnTV:
-	.string "Hey! İzliyor musun beni?\nTelevizyonda mıyım?$"
+	.string "Hey! Are you watching?\n"
+	.string "Am I on TV?$"
 
 SlateportCity_Text_CaptainsACelebrity:
-	.string "Bir TV röportajı!\nKaptan ünlü biri!$"
+	.string "A TV interview! Here!\n"
+	.string "The CAPTAIN's a celebrity!$"
 
 SlateportCity_Text_BigSmileForCamera:
-	.string "TY: KAPTAN STERN, kamera için\nkocaman bir gülümseme alalım!$"
+	.string "TY: Okay, CAPT. STERN, a big smile\n"
+	.string "for the camera!$"
 
 SlateportCity_Text_MostInvaluableExperience:
-	.string "GABBY: Anlıyorum, anlıyorum.\ndÇok eğerli bir deneyim yaşadınız…$"
+	.string "GABBY: I see, I see. You've had a most\n"
+	.string "invaluable experience…$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-	.string "KAPTAN STERN: Evet, kesinlikle.\nAraştırmalarımıza devam etmek\lniyetindeyiz.$"
+	.string "CAPT. STERN: Yes, indeed. We intend to\n"
+	.string "move ahead with our exploration.$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
-	.string "GABBY: Bu harika, KAPTAN STERN!\nYoğun programınızdan zaman ayırıp\lbizimle konuştuğunuz için teşekkür\lederiz.\pUmarız daha fazla keşif haberiyle\nsizinle tekrar röportaj yapabiliriz!$"
+	.string "GABBY: That's wonderful, CAPT. STERN!\n"
+	.string "Thank you for taking the time from\l"
+	.string "your busy schedule to talk to us.\p"
+	.string "We hope we can interview you again\n"
+	.string "with news of more discoveries!$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-	.string "KAPTAN: Hof…\pTelevizyon için ilk kez röportaj\nverdim. Sinir bozucuydu.$"
+	.string "CAPT. STERN: Whew…\p"
+	.string "That was my first time to be filmed for\n"
+	.string "TV. That was nerve-wracking.$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-	.string "Hey! {PLAYER}{KUN}!\nHarika görünüyorsun!\pSon deniz tabanı keşfimizde büyük bir\nkeşif yaptık.\pROTA 128'de bir su altı mağarası\nbulduk.\pUzun zamandır nesli tükenmiş olduğu\nsöylenen bir POKéMON'un yaşam alanı\lolduğunu düşünüyoruz.$"
+	.string "Oh! {PLAYER}{KUN}!\n"
+	.string "You're looking great!\p"
+	.string "We made a huge discovery on our last\n"
+	.string "seafloor exploration.\p"
+	.string "We found an underwater cavern on\n"
+	.string "ROUTE 128.\p"
+	.string "We think it's the habitat of a POKéMON\n"
+	.string "that's said to have been long extinct.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\nKAPTAN STERN sizsiniz sanırım.\pAQUA TAKIMI olarak denizaltınızın\nkontrolünü devralıyoruz!\pİtiraz kabul etmiyoruz!\nBize yardım etmenizi talep ediyoruz!\pFufufu… AQUA TAKIMI'nın harika\nplanları var!$"
+	.string "Fufufu…\n"
+	.string "CAPT. STERN, I presume.\p"
+	.string "We of TEAM AQUA will assume\n"
+	.string "control of your submarine!\p"
+	.string "Your objections are meaningless!\n"
+	.string "We expect your total cooperation!\p"
+	.string "Fufufu…\n"
+	.string "Just watch and learn what TEAM\l"
+	.string "AQUA has planned!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-	.string "KAPTAN STERN: Bu da neydi böyle?\pSanki biri megafon kullanıyor gibiydi.\pNereden geldi bu?$"
+	.string "CAPT. STERN: What was that all about?\p"
+	.string "It sounded like someone using\n"
+	.string "a megaphone…\p"
+	.string "Where did it come from?$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
-	.string "Limandan geliyor!\pDenizaltı!\nOnu almaya çalışıyorlar!$"
+	.string "It's from the HARBOR!\p"
+	.string "The submarine!\n"
+	.string "They're trying to take it!$"
 
 SlateportCity_Text_PleaseComeWithMe:
-	.string "{PLAYER}{KUN}!\nLütfen, benimle gel!$"
+	.string "{PLAYER}{KUN}!\n"
+	.string "Please, come with me!$"
 
 SlateportCity_Text_BattleTentSign:
-	.string "SLATEPORT SAVAŞ ÇADIRI\nNihai POKéMON'ları arıyoruz!$"
+	.string "BATTLE TENT SLATEPORT SITE\n"
+	.string "“Find it! The ultimate POKéMON!”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
-	.string "STERN TERSANESİ\pİŞ İLANI: Tüm akıntılara göğüs\ngerebilecek bir denizci arıyoruz.$"
+	.string "STERN'S SHIPYARD\p"
+	.string "“Wanted: A sailor capable of sailing\n"
+	.string "in all currents.”$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
-	.string "STERN TERSANESİ\pS.S. TİDAL gemisi, SLATEPORT ve\nLİLYCOVE limanlarına hizmet vermek\lüzere yapımı devam ediyor.$"
+	.string "STERN'S SHIPYARD\p"
+	.string "“The ferry S.S. TIDAL nears\n"
+	.string "completion for serving the ports of\l"
+	.string "SLATEPORT and LILYCOVE.”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
-	.string "STERN TERSANESİ\pSLATEPORT-LİLYCOVE gemisi S.S.\nTIDAL'a binişler LİMAN'dan\lyapılmaktadır.$"
+	.string "STERN'S SHIPYARD\p"
+	.string "“Boarding of the SLATEPORT-LILYCOVE\n"
+	.string "ferry S.S. TIDAL is handled at the\l"
+	.string "HARBOR.”$"
 
 SlateportCity_Text_PokemonFanClubSign:
-	.string "POKéMON HAYRAN KULÜBÜ\nTüm POKéMON hayranları buraya!$"
+	.string "POKéMON FAN CLUB\n"
+	.string "“Calling all fans of POKéMON!”$"
 
 SlateportCity_Text_OceanicMuseumSign:
-	.string "Yaşam, sonsuz okyanuslardan gelir.\pOKYANUS MÜZESİ$"
+	.string "“The endless sea sustains\n"
+	.string "all life.”\p"
+	.string "OCEANIC MUSEUM$"
 
 SlateportCity_Text_CitySign:
-	.string "SLATEPORT ŞEHRİ\pİnsanların ve POKéMON'un yollarının\nkesiştiği liman.$"
+	.string "SLATEPORT CITY\p"
+	.string "“The port where people and POKéMON\n"
+	.string "cross paths.”$"
 
 SlateportCity_Text_MarketSign:
-	.string "SLATEPORT PAZARI\nBaşka hiçbir yerde bulunmayan\lbenzersiz ürünler!$"
+	.string "SLATEPORT MARKET\n"
+	.string "“Unique items found nowhere else!”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-	.string "SLATEPORT LİMANI\pS.S. TIDAL gemisi, tersanede yapım\naşamasındadır.\pHizmete kısa süre içinde başlaması\nplanlanıyor.$"
+	.string "SLATEPORT HARBOR\p"
+	.string "“The ferry S.S. TIDAL is under\n"
+	.string "construction in the SHIPYARD.\p"
+	.string "“Service is scheduled to begin\n"
+	.string "shortly.”$"
 
 SlateportCity_Text_HarborSign:
-	.string "SLATEPORT LİMANI\pS.S. TIDAL gemisinde keyifli bir\nyolculuğun tadını çıkarın.$"
+	.string "SLATEPORT HARBOR\p"
+	.string "“Enjoy a delightful cruise on\n"
+	.string "the ferry S.S. TIDAL.”$"
 
 SlateportCity_Text_NameRatersHouseSign:
-	.string "İSİM USTASI'NIN EVİ\nPOKéMON isimleri değiştirilir.$"
+	.string "NAME RATER'S HOUSE\n"
+	.string "“POKéMON nicknames rated.”$"
 
 SlateportCity_Text_ExplainBerries:
-	.string "Vahşi bir POKéMON yaralanırsa, MEYVE\nyiyerek kendini iyileştirebilir.\pBunu biliyor muydun?\pBirisi bunu görmüş ve meyveden ilaç\nyapma fikrini bulmuş.\pPeki bunu biliyor muydun?\pMeyveleri ilaca dönüştürmek için\nezilerek toz haline getirilmeleri\lgerekir.\pYa bunu biliyor muydun?\pMeyvelere karşı bir ilgin var gibi\ngörünüyor!\pSenin gibi biri için iyi bir şeyim var.$"
+	.string "If a wild POKéMON gets hurt, it heals\n"
+	.string "itself by chewing on BERRIES.\p"
+	.string "Did you know that?\p"
+	.string "Somebody saw that and got the idea\n"
+	.string "of making medicine from BERRIES.\p"
+	.string "Did you know that?\p"
+	.string "To turn BERRIES into medicine,\n"
+	.string "they must be crushed into powder.\p"
+	.string "Did you know that?\p"
+	.string "You seem to have an interest\n"
+	.string "in BERRIES!\p"
+	.string "I've got something good for someone\n"
+	.string "like you.$"
 
 SlateportCity_Text_ExplainBerryPowder:
-	.string "Kısa bir süre önce POKéMON\nMERKEZLERİNE, MEYVE ezmek için\lmakineler kurdurdum.\pMEYVE EZME makineleri üst kattaki\nDİREKT KÖŞESİ'ndedir.\pBiliyor muydun?\pBu makineleri kullanarak benim için\nMEYVE TOZU yapabilir misin?\pBana bolca MEYVE TOZU getirirsen sana\nher türlü ilacı yapabilirim.$"
+	.string "I recently had machines installed at\n"
+	.string "POKéMON CENTERS for crushing BERRIES.\p"
+	.string "The BERRY CRUSH machines are at\n"
+	.string "the DIRECT CORNER upstairs.\p"
+	.string "Did you know?\p"
+	.string "Could you make BERRY POWDER for\n"
+	.string "me using those machines?\p"
+	.string "I can make you all sorts of medicine\n"
+	.string "if you bring me lots of BERRY POWDER.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
-	.string "Bana biraz MEYVE TOZU getirdin mi?$"
+	.string "Have you brought me some\n"
+	.string "BERRY POWDER?$"
 
 SlateportCity_Text_ExchangeWhatWithIt:
-	.string "Neyle takas etmek istersin?$"
+	.string "What would you like to exchange\n"
+	.string "it with?$"
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
-	.string "Tamam, MEYVE TOZUNU bir {STR_VAR_1}\nile takas etmek ister misin?$"
+	.string "Okay, you want to exchange your\n"
+	.string "BERRY POWDER for one {STR_VAR_1}?$"
 
 SlateportCity_Text_DontHaveEnoughBerryPowder:
-	.string "Ah, canım.\nYeterince MEYVE TOZUN yok.$"
+	.string "Oh, dear. You don't have enough\n"
+	.string "BERRY POWDER.$"
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
-	.string "Bu iyi bir MEYVE TOZU.\nMükemmel bir ilaç olacak.\pMEYVE TOZU'nuzu başka bir şeyle takas\netmek ister misin?$"
+	.string "This is fine BERRY POWDER.\n"
+	.string "It will make excellent medicine.\p"
+	.string "Would you like to trade more of your\n"
+	.string "BERRY POWDER for something else?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:
-	.string "Tamam! Tamam!\nBiraz daha MEYVE TOZU yaptığında\nbana getir, lütfen!$"
+	.string "Okay! When you get some more\n"
+	.string "BERRY POWDER, bring it to me, please!$"
 
 SlateportCity_Text_ComeBackToTradeBerryPowder:
-	.string "MEYVE TOZUNU ilaçla takas etmek\nistersen geri gel.\pPazarım hep açıktır.\pBunu biliyor muydun?$"
+	.string "Come back if you'd like to trade your\n"
+	.string "BERRY POWDER for some medicine.\p"
+	.string "I'm always running a bazaar here.\p"
+	.string "Did you know?$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
-	.string "Ha? Seninle daha önce bir yerde\ntanıştığıma eminim.\pSana kendimi tanıtmış mıydım?\nEğer tanıtmadıysam, benim adım SCOTT.\pAz önce AQUA TAKIMI'nın sokulmuş\ngibi kaçtığını gördüm.\pDur tahmin edeyim.\nOnları sen mi kovdun?$"
+	.string "SCOTT: Huh?\n"
+	.string "I'm sure I met you somewhere before.\p"
+	.string "Have I introduced myself to you?\n"
+	.string "If not, my name's SCOTT.\p"
+	.string "I just saw TEAM AQUA run away from\n"
+	.string "here like they were stung.\p"
+	.string "Let me guess--you drove them away?$"
 
 SlateportCity_Text_MaybeThisTrainer:
-	.string "Belki, bir ihtimal, bu eğitmen…$"
+	.string "SCOTT: Hmm…\n"
+	.string "Maybe, just maybe, this TRAINER…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-	.string "Pekala! Sanırım iyi bir arkadaş\nolacaksın.\pHadi birbirimizi POKéNAV'a\nkaydedelim.\p… … … … … …$"
+	.string "SCOTT: All right! I think you're going\n"
+	.string "to become a good friend.\p"
+	.string "So, let's register each other in our\n"
+	.string "POKéNAVS.\p"
+	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
-	.string "SCOTT, POKéNAV'a kaydedildi.$"
+	.string "Registered this SCOTT person\n"
+	.string "in the POKéNAV.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-	.string "SCOTT: Yapmak istediğim şey senin\npeşine takılmak ama diğer insanların\lyeteneklerine de bakmak istiyorum.\pBu yüzden şimdi diğer şehirlerde\ndolaşmaya çıkacağım.\pGörüşmek üzere, {PLAYER}{KUN}!$"
+	.string "SCOTT: What I'd like to do is tag along\n"
+	.string "with you, but I do want to keep an eye\l"
+	.string "on the talents of other people, too.\p"
+	.string "So, I'll be off to roam other towns\n"
+	.string "a bit more.\p"
+	.string "Be seeing you, {PLAYER}{KUN}!$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-	.string "Hey!\nBu {PLAYER}{KUN} değil mi!\pDur tahmin edeyim, SAVAŞ ÇADIRI\nmücadelesine mi katılacaksın?\pEvet! Bu iyi bir fikir!\nGerçekten harika bir fikir!\pNe de olsa güçlü bir EĞİTMEN,\nSAVAŞ ÇADIRI için biçilmiş\lkaftandır!\pElinden gelenin en iyisini yap!$"
+	.string "SCOTT: Oh, hey!\n"
+	.string "If it isn't {PLAYER}{KUN}!\p"
+	.string "{PLAYER}{KUN}, let me guess--you're going\n"
+	.string "to take the BATTLE TENT challenge?\p"
+	.string "Yeah! That's a good idea!\n"
+	.string "That's a really great idea!\p"
+	.string "After all, a tough TRAINER is\n"
+	.string "the perfect fit for the BATTLE TENT!\p"
+	.string "Give it your best effort!$"

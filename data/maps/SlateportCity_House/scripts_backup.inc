@@ -10,9 +10,14 @@ SlateportCity_House_EventScript_Girl::
 	end
 
 SlateportCity_House_Text_NatureToDoWithStatGains:
-	.string "POKéMON'um ACIMASIZ bir yapıya sahip.\pDiğer POKéMON'larıma kıyasla daha\nyüksek HIZI var.\pBelki de doğalarının POKéMON'un stat\nkazanımlarıyla bir ilgisi vardır.$"
+	.string "My POKéMON has a HASTY nature.\p"
+	.string "It has higher SPEED compared to\n"
+	.string "my other POKéMON.\p"
+	.string "Maybe their nature has something to\n"
+	.string "do with the stat gains of POKéMON.$"
 
 SlateportCity_House_Text_MustBeGoingToBattleTent:
-	.string "Sen bir EĞİTİMCİSİN, değil mi?\pSLATEPORT ŞEHRİ'ne geldiğine göre,\nSAVAŞ ÇADIRI'na gidiyor olmalısın.$"
-
+	.string "You're a TRAINER, aren't you?\p"
+	.string "Since you came to SLATEPORT CITY,\n"
+	.string "you must be going to the BATTLE TENT.$"
 

@@ -275,18 +275,35 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "Ee, nasıl desem? Kendime uygun\nbir POKéMON bulamadım.\pSonra düşündüm ki, ee, oradaki adamla\nbir konuşsam mı?\pAma beni, ee, dinlemedi bile!\nYani, çok saçma adamım!\pYani... Öyle işte.\nEe, al şunu!$"
+	.string "So, like, I couldn't find myself any\n"
+	.string "POKéMON that were, like, for me.\p"
+	.string "So, I figured, like, hey, I should file\n"
+	.string "a complaint to the guy there?\p"
+	.string "And he wouldn't hear me out, like, hey!\n"
+	.string "So, like, total bummer, man!\p"
+	.string "Hey, like, you! Zip it, you know?\n"
+	.string "Just, you know, take this!$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
-	.string "Bu bir TM41, duymuş muydun?\nYani, ımm, adı EZİYET.\pDüşmanın aynı saldırıyı üst üste iki kez\nkullanmasına, ee, izin vermez.\lAnladın mı?\pŞey, sana eziyet çektirmiyorum, değil mi?$"
+	.string "That's, like, TM41, you know?\n"
+	.string "Hey, it's TORMENT, you hearing me?\p"
+	.string "Like, it won't let the other guy\n"
+	.string "use the same move twice in a row, see?\p"
+	.string "Hey, now, you listen here, like,\n"
+	.string "I'm not laying a torment on you!$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "BÖCEK POKéMON'ları pek sevmem ama\ndeğişiklik olsun diye biraz kullanmayı\ldeneyebilirim.\pKim bilir, belki onları sevmeye bile\nbaşlayabilirim!$"
+	.string "I don't really like BUG POKéMON,\n"
+	.string "but maybe I'll try using some for\l"
+	.string "a change of pace.\p"
+	.string "Who knows, I might even get to like\n"
+	.string "them!$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
-	.string "Hiç güçlü POKéMON'un olmasa bile\nburada istediğin kadar\lsavaşabilirsin.$"
+	.string "You can battle all you want here even\n"
+	.string "if you don't have any tough POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-	.string "Daha fazla seçenek olsa güzel olmaz\nmıydı?$"
-
+	.string "Wouldn't it be nice if they had more of\n"
+	.string "a selection?$"
 

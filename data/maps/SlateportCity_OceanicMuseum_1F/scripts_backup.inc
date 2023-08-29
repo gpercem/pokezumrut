@@ -225,81 +225,156 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-	.string "OKYANUS MÜZESİ'ne hoş geldiniz.\pGiriş ücreti 50¥.\nGirmek ister misiniz?$"
+	.string "Welcome to the OCEANIC MUSEUM.\p"
+	.string "The entrance fee is ¥50.\n"
+	.string "Would you like to enter?$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
-	.string "Lütfen keyfinize bakın.$"
+	.string "Please enjoy yourself.$"
 
 SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
-	.string "Ha? Üzgünüm, ama yeterince paranız\nyok gibi görünüyor.$"
+	.string "Oh? I'm sorry, but you don't seem to\n"
+	.string "have enough money.$"
 
 SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
-	.string "Ha?\nDaha önce içeri giren grupla mısın?\pGeç kalan bir tek sen varsın.\nGidip onlara yetişsen iyi olur!$"
+	.string "Oh? You're with that group that\n"
+	.string "went in earlier?\p"
+	.string "You're the only one who's late.\n"
+	.string "You'd better go catch up to them!$"
 
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
-	.string "Biz AQUA TAKIMI, herkesin iyiliği\niçin varız!$"
+	.string "We, TEAM AQUA, exist for the good\n"
+	.string "of all!$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
-	.string "Burada toplanmamız söylendi, biz de\ntoplandık ama…\pPatronumuz burada değil.$"
+	.string "We were told to assemble here,\n"
+	.string "so we did, but…\p"
+	.string "Our BOSS, the linchpin, isn't here.$"
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
-	.string "Eğer buradakileri çalsaydım, bu beni\nzengin eder miydi?$"
+	.string "If I ripped off the stuff here,\n"
+	.string "would it make me rich?$"
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
-	.string "Burada öğrendiklerimi hain işlerde\nkullanabilirim.$"
+	.string "What I learn here, I can put to use on\n"
+	.string "nefarious deeds…$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
-	.string "Eğer haydutumuz RUSTBORO'da işleri\nberbat etmeseydi, burada olmazdık!$"
+	.string "If our goons didn't bungle things\n"
+	.string "in RUSTBORO, we wouldn't be here!$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
-	.string "50¥'im yoktu, bu yüzden resepsiyon\ngörevlisini geçmem uzun zaman aldı.$"
+	.string "I didn't have ¥50, so it took a long\n"
+	.string "time getting by the receptionist.$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
-	.string "Deniz hakkında bilgi edinmek ve bu\nbilgiyi savaşmak için kullanmak\listiyorum.$"
+	.string "I want to learn about the sea and\n"
+	.string "use that knowledge for battling.$"
 
 SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
-	.string "Denizi gördüğümde başım dönüyor ve\nyapış yapış oluyorum!\pBu yüzden KAPTAN STERN idolümdür!$"
+	.string "I get all giddy and gooey when\n"
+	.string "I see the sea!\p"
+	.string "For me, CAPT. STERN is the number\n"
+	.string "one role model!$"
 
 SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
-	.string "Deniz, uçsuz bucaksız ve sonsuz\nderinlikte.\pBilmediğimiz bir sürü POKéMON olmalı.$"
+	.string "The sea is vast without end, and\n"
+	.string "infinitely deep…\p"
+	.string "There must be many POKéMON that\n"
+	.string "we don't know about.$"
 
 SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
-	.string "Bir deniz POKéMON'u istiyorum.\pBence olması çok havalı.\nAyrıca ona sarılmak güzel olurdu.$"
+	.string "I want a sea POKéMON.\p"
+	.string "I think it would feel cool and nice\n"
+	.string "to hug.$"
 
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
-	.string "Aiyeeeh! Burada ne işin var senin?\pBen mi?\nBen daha önce patakladığın AQUA\lTAKIMI üyesiyim, hatırlamadın mı?\lRUSTURF TÜNELİ'nde hani.\pHey, al bunu!\nBeni affetmelisin!$"
+	.string "Aiyeeeh!\n"
+	.string "What are you doing here?\p"
+	.string "Me? I'm the TEAM AQUA member\n"
+	.string "you thumped before, remember?\l"
+	.string "Back in RUSTURF TUNNEL?\p"
+	.string "Here, take this!\n"
+	.string "You have to forgive me!$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
-	.string "Bu TM, sana benden daha çok yakışıyor.\pUmarım seni bir daha görmem!\nHahahaha!$"
+	.string "That TM, it suits you more than it\n"
+	.string "does me.\p"
+	.string "Hope I never see you again!\n"
+	.string "Wahahaha!$"
 
 SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
-	.string "Aaa, hadi ama!\nBunu alıp peşimi bırakmalısın!$"
+	.string "Awww, come on!\n"
+	.string "You have to take this and let me go!$"
 
 SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
-	.string "Mavi bir sıvı cam bir kabın içinde spiral\nçiziyor.\pBu, rüzgarı kullanarak yapay bir\nHORTUM yaratmaya yönelik bir deney.$"
+	.string "A blue fluid is spiraling inside\n"
+	.string "a glass vessel.\p"
+	.string "“This is an experiment to create a\n"
+	.string "WHIRLPOOL artificially using wind.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
-	.string "Kırmızı bir top cam bir kabın içinde\naşağı yukarı sallanıyor.\pBu, topun kaldırma kuvvetini\nkullanarak bir ŞELALE simüle eden\lbir deneydir.$"
+	.string "A red ball is bobbing up and down\n"
+	.string "inside a glass vessel.\p"
+	.string "“This is an experiment simulating a\n"
+	.string "WATERFALL using the ball's buoyancy.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
-	.string "Okyanus tabanından alınan bir toprak\nörneği.\pUzun yıllar boyunca, yaşam formlarının\nkalıntıları denizin dibine çökerek\ltortul katmanlar oluşturur.\pBu katmanlar analiz edildiğinde, antik\ngeçmiş ortaya çıkar.$"
+	.string "It's a sample of soil from the ocean\n"
+	.string "floor.\p"
+	.string "“Over many years, the remains of\n"
+	.string "life-forms settle at the bottom of\l"
+	.string "the sea, making sedimentary layers.\p"
+	.string "“By analyzing these layers, the\n"
+	.string "ancient past is revealed.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
-	.string "Bu bir plaj kumu örneği.\pDağlardan gelen taşlar nehirler\ntarafından yıkanır ve burada\lyontularak ufalanır.\pTaneciklere dönüşürler ve plajlarda\nkum olarak son bulurlar.$"
+	.string "It's a sample of beach sand.\p"
+	.string "“Stones from mountains are washed\n"
+	.string "down by rivers where they are\l"
+	.string "chipped and ground down.\p"
+	.string "“They are reduced to grains and end\n"
+	.string "up as sand on beaches.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
-	.string "OKYANUS BİLGİLERİ 1\nDeniz suyu neden mavidir?\pIşık birçok renkten oluşur.\pIşık sudan geçtiğinde, çoğu ışık türü\nrengini kaybeder.\pAncak mavi ışık rengini korur ve\ndenizin mavi görünmesine neden olur.$"
+	.string "“OCEANIC MINIFACT 1\n"
+	.string "Why is seawater blue?\p"
+	.string "“Light is composed of many colors.\p"
+	.string "“When light passes through water,\n"
+	.string "most kinds of light lose color.\p"
+	.string "“However, blue light retains its\n"
+	.string "color, making the sea appear blue.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
-	.string "OKYANUS BİLGİLERİ 2\nDeniz neden tuzludur?\pDeniz suyu sodyum ve klor iyonları\nşeklinde çözünmüş tuz içerir.\pBu iyonlar kayalardan sızar ve\nyağmurla denize taşınır.\pÇözünmüş tuz konsantrasyonu denizi\ntuzlu yapar.$"
+	.string "“OCEANIC MINIFACT 2\n"
+	.string "Why is the sea salty?\p"
+	.string "“Seawater contains dissolved salt in\n"
+	.string "the form of sodium and chlorine ions.\p"
+	.string "“These ions leech out of rocks\n"
+	.string "and are carried out to sea by rain.\p"
+	.string "“The concentration of dissolved salt\n"
+	.string "makes the sea salty.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
-	.string "OKYANUS BİLGİLERİ 3\nHangisi daha büyüktür?\lDeniz mi kara mı?\pDeniz gezegenin yaklaşık %70'ini\nkaplar, geri kalanı ise karadır.\pBu nedenle deniz, karanın iki katından\ndaha büyüktür.$"
+	.string "“OCEANIC MINIFACT 3\n"
+	.string "Which is bigger? The sea or land?\p"
+	.string "“The sea covers about 70% of\n"
+	.string "the planet, and the rest is land.\p"
+	.string "“The sea is therefore more than twice\n"
+	.string "the size of land.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
-	.string "Üzerinde çıkıntılar olan bir fosil.\pOkyanus tabanındaki toprak gelgit\ntarafından aşındırılır.\pAkan deniz suyu toprağı küçük\nçıkıntılar ve vadilerle işaretler.\pEğer bu toprak fosilleşirse, buna\ndalgalanma izi denir.$"
+	.string "It's a fossil with wavy ridges on it.\p"
+	.string "“Soil on the ocean floor gets scoured\n"
+	.string "by the tide.\p"
+	.string "“The flowing seawater marks the soil\n"
+	.string "with small ridges and valleys.\p"
+	.string "“If this soil becomes fossilized, it is\n"
+	.string "called a ripple mark.”$"
 
 SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
-	.string "Cam bir kubbenin altında garip bir\nmakine dönüyor.\pBelki de bir şeyin derinliğini ölçmek\niçindir…$"
-
+	.string "A strange machine is rotating under\n"
+	.string "a glass dome.\p"
+	.string "Maybe it's for measuring the depth\n"
+	.string "of something…$"
 

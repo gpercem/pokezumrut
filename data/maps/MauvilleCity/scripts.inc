@@ -465,44 +465,44 @@ MauvilleCity_EventScript_RegisterWallyCall::
 MauvilleCity_Text_UncleHesTooPeppy:
 	.string "AMCA: Bu çocuk POKéMON'u sayesinde\n"
 	.string "mutlu. Umarım daha mutlu olur…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "Ama biraz hiperaktif olmaya başladı.$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-	.string "WALLY: Avv, AMCA, lütfen?\p"
-	.string "SALONLA mücadele edip ne kadar\n"
+	.string "WALLY: Ya, AMCA, lütfen?\p"
+	.string "SALONDA mücadele edip ne kadar\n"
 	.string "iyi olduğumu görmek istiyorum.\p"
 	.string "Lütfen? Görebilir miyim? Lütfen?$"
 
 MauvilleCity_Text_UncleYourePushingIt:
 	.string "AMCA: Sakin ol, WALLY.\p"
-	.string "POKéMON'un ile yaşamaya başladığından beri\n"
-	.string "epey büyüdün ve güçlendin.\p"
-	.string "Ama aniden bir SALON mücadelesi yapmak\n"
-	.string "için zorlaman doğru mu?$"
+	.string "POKéMON'unla yaşamaya başladığından\n"
+	.string "beri epey büyüdün ve güçlendin.\p"
+	.string "Ama aniden bir SALON mücadelesi\n"
+	.string "yapmak için zorlaman doğru mu?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "WALLY: Zorlamıyorum.\p"
-	.string "Eğer RALTS'ın gücünü kombine edersem\n"
+	.string "Eğer RALTS'ın gücünü zorlarsam\n"
 	.string "herkesi alt edebiliriz!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
 	.string "WALLY: Ah! Selam, {PLAYER}!\p"
 	.string "Tanıştığımızdan beri ben, artık\n"
 	.string "daha güçlüyüm.\p"
-	.string "{PLAYER}, sana ve AMCAMA bunu\n"
+	.string "{PLAYER}, sana ve amcama bunu\n"
 	.string "göstermek istiyorum.\p"
 	.string "{PLAYER}, lütfen, benimle bir\n"
 	.string "savaş yapar mısın?$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-	.string "WALLY: Ah... Eğer benimle savaşmazsan\n"
-	.string "{PLAYER}, AMCAM ne kadar güçlendiğimi\l"
+	.string "WALLY: Ah… Eğer benimle savaşmazsan\n"
+	.string "{PLAYER}, amcam ne kadar güçlendiğimi\l"
 	.string "anlayamayacak.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
 	.string "AMCA: {PLAYER}{KUN}, değil mi?\n"
-	.string "WALLY adına bir ricada bulunabilir miyim\l"
-	.string "Onunla bir seferlik savaşır mısın?\p"
+	.string "WALLY adına bir ricada bulunabilir\l"
+	.string "miyim?\lOnunla bir seferlik savaşır mısın?\p"
 	.string "Şuan ne sebeple olursa olsun\n"
 	.string "beni dinleyecek gibi durmuyor.$"
 
@@ -539,35 +539,34 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
 	.string "Herkes seni bekliyor.$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-	.string "AMCA: {PLAYER}{KUN}, şimdi fark ettim\n"
-	.string "sen, WALLY'e POKéMON'unu yakalarken\l"
-	.string "göz kulak olan EĞİTMENSİN\l"
-	.string "değil mi?\p"
+	.string "AMCA: {PLAYER}{KUN}, şimdi fark ettim.\n"
+	.string "Sen, WALLY'e POKéMON'unu yakalarken\l"
+	.string "göz kulak olan EĞİTMENSİN, değil\l"
+	.string "mi?\p"
 	.string "Neden bir ara bizi ziyarete\n"
 	.string "VERDANTURF'a gelmiyorsun?\l"
-	.string "Eminim ki WALLY çok mutlu olacak.$"
+	.string "Eminim ki WALLY çok mutlu olur.$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
+	.string "… … … … … Bip!\p"
 	.string "WALLY: Ah, merhaba, {PLAYER}!\p"
 	.string "Sana sadece amcamın bana bir\n"
 	.string "POKéNAV aldığını söyleyecektim!\p"
-	.string "Artık seninle her zaman bağlantıda\n"
-	.string "olacağım, {PLAYER}!\p"
+	.string "Artık seninle her zaman\n"
+	.string "bağlantıda olacağım, {PLAYER}!\p"
 	.string "… … … … … …\n"
-	.string "… … … … … (çıt)!$"
+	.string "… … … … … Tık!$"
 
 MauvilleCity_Text_RegisteredWally:
-	.string "WALLY POKéNAV'a\n"
+	.string "WALLY, POKéNAV'a\n"
 	.string "kaydedildi.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "SCOTT: Hehe…\n"
 	.string "Maçınızı izliyordum!\p"
-	.string "Bu WALLY çocuğuyla,\n"
-	.string "arkadaşsınız değil mi?\p"
+	.string "WALLY ile arkadaşsınız, değil mi?\p"
 	.string "Ama sen kendini tutmadın ve\n"
 	.string "onu etkileyici bir şekilde yendin.\p"
 	.string "Evet! İşte bu olması gereken\n"
@@ -579,14 +578,14 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "WATTSON: Ah, {PLAYER}{KUN}!\n"
 	.string "Epey gayretli gözüküyorsun!\l"
-	.string "Bu iyi bir şey, wahahahaha!\p"
+	.string "Bu iyi bir şey, Vahahahaha!\p"
 	.string "Pekala! Kararımı verdim!\n"
 	.string "Bana bir iyilik yap, {PLAYER}{KUN}!\p"
 	.string "MAUVILLE ŞEHRİ'nin YENİ MAUVILLE diye\n"
-	.string "adlandırılan bir yeraltı sektörü var.\p"
+	.string "adlandırılan bir yeraltı bölümü var.\p"
 	.string "{PLAYER}{KUN}, senden oraya gidip\n"
 	.string "JENERATÖRÜ kapatmanı isteyeceğim.\p"
-	.string "JENERATÖR birazcık düzensiz çalışıyor\n"
+	.string "JENERATÖR birazcık düzensiz çalışıyor,\n"
 	.string "bu yüzden yaklaşmak güvenli değil.\p"
 	.string "İşte, girebilmen için YENİ MAUVILLE'in\n"
 	.string "ANAHTARI.$"
@@ -594,29 +593,29 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Endişelenme.\n"
 	.string "Sana bir zorluk çıkartmayacaktır.\p"
-	.string "ROTA 110 dan kısa bir SÖRF ile\n"
+	.string "ROTA 110'dan kısa bir SÖRF ile\n"
 	.string "YENİ MAUVILLE'in girişini bulabilirsin\p"
 	.string "İşte bu, işte şimdi güvenimi kazandın!\n"
-	.string "Wahahahaha!$"
+	.string "Vahahahaha!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "WATTSON: Wahahahaha!\p"
+	.string "WATTSON: Vahahahaha!\p"
 	.string "Biliyordum, {PLAYER}{KUN}! Sana danışarak\n"
 	.string "doğru kararı verdiğimi biliyordum!\p"
-	.string "Bu da teşekkürüm--bir TM THUNDERBOLT\n"
-	.string "içerir!\p"
-	.string "Devam et, bunu hak ettin!$"
+	.string "Bu da teşekkürüm--bir GÖK GÜRÜLTÜSÜ\n"
+	.string "TM'si!\p"
+	.string "Hadi al, bunu hak ettin!$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
-	.string "WATTSON: Wahahahaha!\p"
+	.string "WATTSON: Vahahahaha!\p"
 	.string "Genç adımların şarj olup devam\n"
-	.string "ettiklerini görmek beni neşelendiriyor!$"
+	.string "ettiklerini görmek beni sevindiriyor!$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
 	.string "Savaş ve diğer şeyler için POKéMON'a\n"
 	.string "sahip olmak havalı…\p"
 	.string "Ama POKéMON'un zarar görürse,\n"
-	.string "iyileşmesi için onu hemşireye götür.$"
+	.string "iyileşmesi için onu hemşireye\lgötürmen gerekir.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "Bu kasabanın yolları doğuya, batıya,\n"
@@ -625,13 +624,13 @@ MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "daima gelir.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Henüz RYDEL'ın BİSİKLETİNE sahip\p"
-	.string "değil misin? RYDEL, dükkan sahibi,\n"
+	.string "Henüz RYDEL'ın BİSİKLETİNDEN\p"
+	.string "almadın mı? RYDEL, dükkan sahibi,\n"
 	.string "çok cömert bir adam.$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
-	.string "BİSİKLET sürerken bile,\n"
-	.string "vahşi bir POKéMON sana saldırabilir.$"
+	.string "BİSİKLET sürerken bile, vahşi\n"
+	.string "bir POKéMON sana saldırabilir.$"
 
 MauvilleCity_Text_CitySign:
 	.string "MAUVILLE ŞEHRİ\n"
@@ -659,7 +658,7 @@ MauvilleCity_Text_ExplainTV:
 	.string "ekranda görüyorum.\p"
 	.string "Ve, bazen, seni de aniden TV de\n"
 	.string "gösterebiliyorlar.\p"
-	.string "Bazen ben de TV ye çıkmayı diliyorum.\p"
+	.string "Bazen ben de TV'ye çıkmayı diliyorum.\p"
 	.string "Bu yüzden herhangi bir yerdeyken\n"
 	.string "TV'yi kontrol etmelisin.$"
 

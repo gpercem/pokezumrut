@@ -253,69 +253,148 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman:
-	.string "E-hem! Ben POKéMON FAN KULÜBÜ\nbakşanıyım!\pBaşkan olduğum için buradaki en\nönemli kişi de benim!\pKonu POKéMON yetiştirmek olduğunda\nkimse beni geçemez. Hiç kimse!\pSana POKéMON YARIŞMALARI'ndan\nbahsedeyim.\pPOKéMON'ları tüm dünyanın görmesi için\nsergileyebileceğin etkinliklerdir!\pAncak, uzak şehirlerde\ndüzenleniyorlar, bu yüzden yeterince\lsık katılamıyorum.\pBu yüzden burada POKéMON'umuzu\ngöstermek ve başkalarının da bize\lkendi POKéMON'larını göstermelerini\lsağlamak için toplanıyoruz.$"
+	.string "Er-hem! I am the CHAIRMAN of the\n"
+	.string "POKéMON FAN CLUB!\p"
+	.string "Being the CHAIRMAN, I am naturally\n"
+	.string "the most important!\p"
+	.string "No one can best me when it comes\n"
+	.string "to raising POKéMON. No one!\p"
+	.string "Well, let me tell you about\n"
+	.string "POKéMON CONTESTS.\p"
+	.string "They're events where one can show off\n"
+	.string "POKéMON for the world to see!\p"
+	.string "However, they're held in far-off towns,\n"
+	.string "so I cannot participate often enough.\p"
+	.string "That is why we gather here to show\n"
+	.string "off our POKéMON, and have others\l"
+	.string "show us theirs.$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
-	.string "POKéMON YARIŞMASINA katılmış bir\neğitmenin POKéMON'u…\lBunu görmeyi çok isterdim.$"
+	.string "The POKéMON of a TRAINER who has\n"
+	.string "entered a POKéMON CONTEST…\l"
+	.string "That, I would like to see.$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
-	.string "E-hem! Bir POKéMON yarışmasına\nkatılmışsın sanırım!\pLütfen! POKéMON'unu nasıl\nyetiştirdiğini incelememe izin ver.\pDiğer EĞİTMENLER tarafından\nyetiştirilen POKéMON'ları görmek beni\lson derece memnun ediyor.\pÖzenle yetiştirilen POKéMON'ların\nmutlu ifadeleri…\pPOKéMON'u besleyen ve büyüten\neğitmenin şefkatli gözleri…\pBu düşünce bile kalbimi sevinçle\ndolduruyor.\pAh! Kusura bakma! Böyle gevezelik\nettiğim için beni affet!\pLütfen! POKéMON'unun ne kadar\nbüyüdüğünü görmeme izin ver!$"
+	.string "Er-hem! I see you've participated in\n"
+	.string "a POKéMON CONTEST!\p"
+	.string "Please! Allow me to examine how you\n"
+	.string "have raised your POKéMON.\p"
+	.string "It delights me no end to see POKéMON\n"
+	.string "raised by other TRAINERS.\p"
+	.string "The happy expressions of POKéMON\n"
+	.string "raised with proper care…\p"
+	.string "The kindly eyes of the TRAINER that\n"
+	.string "nurtured and raised the POKéMON…\p"
+	.string "The very thought fills my heart to\n"
+	.string "overwhelming with joy.\p"
+	.string "Oh! I do beg your pardon!\n"
+	.string "Forgive me for prattling on so!\p"
+	.string "Please! Allow me to examine how much\n"
+	.string "your POKéMON has grown!$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
-	.string "POKéMON'un nasıl durumda?\nBir inceleyeyim.$"
+	.string "How is your POKéMON growing?\n"
+	.string "Allow me to examine it.$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
-	.string "Hm, hm…\nAnlıyorum…$"
+	.string "Hm, hm…\n"
+	.string "I see…$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
-	.string "Hmmm…\nKötü değil, ama iyi de değil…\pBu POKéMON'u yetiştirmek için\ndaha fazla çaba göstermelisin!\pÖrneğin, ona daha fazla {POKEBLOCK}\nvermeni önerebilir miyim?$"
+	.string "Hmmm… It's not bad, but it's not\n"
+	.string "good, either…\p"
+	.string "You, the TRAINER, must put more\n"
+	.string "effort into raising this POKéMON!\p"
+	.string "For instance, may I suggest that\n"
+	.string "you give it more {POKEBLOCK}S?$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-	.string "Aman Tanrım.\pPOKéMON'un oldukça iyi büyüyor, bu\nyüzden bir ödülü hak ediyorsun.\pNe yazık ki, çantanda bunun için\nyer yok.$"
+	.string "Oh, my…\p"
+	.string "Your POKéMON is growing quite well,\n"
+	.string "so you deserve a reward.\p"
+	.string "Unfortunately, you have no space for\n"
+	.string "this in your BAG.$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
-	.string "Şu {STR_VAR_1} çok etkileyici\nbir şekilde büyüyor!\lÇok güzel bir örnek!\pAma! Eğer bunu ona verirsen, daha da\niyi büyüyecektir!\lGerçekten de öyle!$"
+	.string "Your {STR_VAR_1}, it is growing in\n"
+	.string "a most impressive manner!\l"
+	.string "It is one fine specimen!\p"
+	.string "But! If you were to give it this,\n"
+	.string "it would grow even better! Indeed!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
-	.string "POKéMON'una o kırmızı atkıyı ver.\pHerkes o POKéMON'un havalı olduğunu\nfark edecek!$"
+	.string "Let a POKéMON hold that RED SCARF.\p"
+	.string "Everyone will recognize the coolness\n"
+	.string "of that POKéMON!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
-	.string "POKéMON'una o mavi atkıyı ver.\pGüzelliği şimdi olduğundan çok daha\nfazla dikkat çekecek!$"
+	.string "Let a POKéMON hold that BLUE SCARF.\p"
+	.string "Its beauty will be accentuated much\n"
+	.string "more than now!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
-	.string "POKéMON'una o pembe atkıyı ver.\pBu, POKéMON'un sevimliliğini biraz daha\nortaya çıkaracaktır!$"
+	.string "Let a POKéMON hold that PINK SCARF.\p"
+	.string "It will draw out the cuteness of\n"
+	.string "the POKéMON some more!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
-	.string "POKéMON'una o yeşil atkıyı ver.\pBu, POKéMON'un zekasını artıracaktır!$"
+	.string "Let a POKéMON hold that GREEN SCARF.\p"
+	.string "That will enhance the\n"
+	.string "smartness of POKéMON!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
-	.string "POKéMON'una o sarı atkıyı ver.\pPOKéMON'unun dayanıklılığını çok\ndaha fazla destekleyecektir!$"
+	.string "Let a POKéMON hold that YELLOW SCARF.\p"
+	.string "It will bolster your POKéMON's\n"
+	.string "toughness so much more!$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
-	.string "Üzgünüm, ama sana verecek başka bir\nşeyim kalmadı! Hem de hiç!\pNe de olsa, herhangi bir eşyaya\nbaşvurmadan POKéMON yetiştirme\lyeteneğiyle kutsanmışsın!$"
+	.string "I'm sorry, but I've nothing else to\n"
+	.string "give you! None at all!\p"
+	.string "After all, you're blessed with the gift\n"
+	.string "of raising POKéMON without resorting\l"
+	.string "to any items!$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
-	.string "Eğitmenlerini seven POKéMON'lar\ngörmeye bayılıyorum.\pPOKéMON'lar eğitmenlerinin\nduygularına karşı çok hassastır.\pEğer POKéMON'una sevgi ve özenle\nyaklaşırsan, o da seni sevecektir.\pPOKéMON'un seni sevmeye başladığında\nlütfen gelip bana göster.$"
+	.string "I love seeing POKéMON that love\n"
+	.string "their TRAINERS.\p"
+	.string "POKéMON are very sensitive to\n"
+	.string "the feelings of their TRAINERS.\p"
+	.string "If you treat your POKéMON with love\n"
+	.string "and care, they'll love you back.\p"
+	.string "When your POKéMON grow to love you,\n"
+	.string "please come show me.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-	.string "POKéMON'un seni gerçekten seviyor.\pBu senin için, şefkatli eğitmen.\nHAYRAN KULÜBÜ'nden bir hediye!$"
+	.string "Your POKéMON really adores you.\p"
+	.string "For you, a most compassionate\n"
+	.string "TRAINER, a gift from the FAN CLUB!$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
-	.string "POKéMON'lar eğitmenlerinin duygularına\nkarşı çok hassastır.\pEğer POKéMON'una sevgi ve özen\ngösterirsen, onlar da seni sevecektir.$"
+	.string "POKéMON are very sensitive to\n"
+	.string "the feelings of their TRAINERS.\p"
+	.string "If you treat your POKéMON with love\n"
+	.string "and care, they'll love you back.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
-	.string "Bir POKéMON'u savaşta sürekli\nbayıltırsan, buna içerlemeye\lbaşlayacaktır.\pYakında, eğitmenine daha az güvenir\nhale gelecektir.\pBaşka bir deyişle seni gittikçe\ndaha az sevecektir.$"
+	.string "If you keep letting a POKéMON faint\n"
+	.string "in battle, it'll come to resent it.\p"
+	.string "Soon, it will become less trusting\n"
+	.string "of the TRAINER.\p"
+	.string "In other words, it certainly won't\n"
+	.string "like you very much.$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
-	.string "POKéMON'lar, üzerlerinde eşya\nkullanılmasından hoşlanır mı?\pBenimki ona biraz PROTEİN verdiğimde\ngerçekten mutlu oldu.$"
+	.string "Do POKéMON enjoy having items used\n"
+	.string "on them?\p"
+	.string "Mine acted really happy when I gave\n"
+	.string "it some PROTEIN.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "SKİTTY: Fffnyaaaah…$"
+	.string "SKITTY: Fffnyaaaah…$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string "ZİGZAGOON: Kyuuu…$"
+	.string "ZIGZAGOON: Kyuuu…$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
-	.string "AZUMARİLL: Marimari?$"
-
+	.string "AZUMARILL: Marimari?$"
 

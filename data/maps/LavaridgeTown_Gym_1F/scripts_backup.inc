@@ -186,118 +186,219 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 	end
 
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
-	.string "Hey, nasıl gidiyor, ŞAMPİYON\nadayı {PLAYER}?\pLAVARIDGE'in SALON LİDERİ FLANNERY\nATEŞ tipi POKéMON kullanıyor.\pPOKéMON tutkusu bir volkandan daha\ngüçlü ve daha sıcak yanıyor.\pOna çok yaklaşma - yanarsın!\nAma onu suyla söndürebilirsin!$"
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
+	.string "uses FIRE-type POKéMON.\p"
+	.string "Her passion for POKéMON burns stronger\n"
+	.string "and hotter than a volcano.\p"
+	.string "Don't get too close to her--you'll burn!\n"
+	.string "Hose her down with water and then\l"
+	.string "go for it!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
-	.string "Yo!\nBu kavurucu bir savaştı!$"
+	.string "Yow! That was a scorching-hot battle!$"
 
 LavaridgeTown_Gym_1F_Text_ColeIntro:
-	.string "Ovovovovov!\nAman, çok sıcak!$"
+	.string "Owowowowow!\n"
+	.string "Yikes, it's hot!$"
 
 LavaridgeTown_Gym_1F_Text_ColeDefeat:
-	.string "Gözlerimdeki ter kör etti beni.$"
+	.string "I'm blinded by sweat in my eyes…$"
 
 LavaridgeTown_Gym_1F_Text_ColePostBattle:
-	.string "Sıcak kuma gömülmek kan dolaşımını\nhızlandırıyor.\pEklemlerindeki ağrıyı iyileştirmek\niçin oldukça etkili!$"
+	.string "Being buried in hot sand promotes\n"
+	.string "circulation.\p"
+	.string "It's effective for healing pain in\n"
+	.string "your joints.$"
 
 LavaridgeTown_Gym_1F_Text_AxleIntro:
-	.string "Stresimi atmaya çalışıyorum.\nGelip beni strese sokma!$"
+	.string "I'm trying to relieve my stress.\n"
+	.string "Don't come along and stress me out!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat:
-	.string "Umarım FLANNERY seni ateşler!$"
+	.string "I hope FLANNERY flames you good!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
-	.string "Haaah…\nHof…\pUzun süre sıcak kuma gömülü kalınca\nçok yorucu oluyor…$"
+	.string "Haaah… Whew…\p"
+	.string "If you spend too much time buried in\n"
+	.string "hot sand, it tuckers you out…$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
-	.string "Şimdiye kadar yorulmuş olmalısın.\nSıcak kum içinde dinlenmek istersin,\ldeğil mi?\pAncak iradeni korumanın tüm eğitmenler\niçin önemli bir yetenek olduğunu\lbilmelisin.$"
+	.string "You must be getting tired by now.\n"
+	.string "You'd like to rest in the hot sand,\l"
+	.string "wouldn't you?\p"
+	.string "But you should know that maintaining\n"
+	.string "your willpower is an important ability\l"
+	.string "for all TRAINERS.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-	.string "Yan yan, yan benimle…$"
+	.string "Play with fire, and be burned…$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
-	.string "Cidden çok yeteneklisin…\nAma liderimiz FLANNERY senden güçlü.\pKendine dikkat etmezsen, ciddi şekilde\nyanarsın.$"
+	.string "Your skill is real…\n"
+	.string "But our LEADER FLANNERY is strong.\p"
+	.string "If you don't watch yourself, you'll be\n"
+	.string "burned seriously.$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
-	.string "POKéMON'un 200 derece sıcağa\ndayanabilir mi?$"
+	.string "Can your POKéMON withstand\n"
+	.string "392-degree heat?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
-	.string "Yeterince sıcak yanmadım…$"
+	.string "It didn't burn hotly enough…$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
-	.string "Magmanın sıcaklığı 200 derece.\pSenin POKéMON'un beni yendi, yani\nmagmada kolayca hayatta kalabilir.$"
+	.string "The temperature of magma is\n"
+	.string "392 degrees.\p"
+	.string "Your POKéMON beat me, so they should\n"
+	.string "easily survive in magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "Tamam, seninle savaşacağım.$"
+	.string "Um…\n"
+	.string "Okay, I'll battle with you.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
-	.string "Ama sen çok güçlüsün.$"
+	.string "Oh, but you're too strong.$"
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
-	.string "Tıpkı FLANNERY gibi güzel ve güçlü bir\nEĞİTMEN olacağım.$"
+	.string "I'm going to be a pretty and strong\n"
+	.string "TRAINER just like FLANNERY.$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
-	.string "Pekala!\nHeyecanım soğumadan yapalım şunu!$"
+	.string "Come on, get with it!\n"
+	.string "Let's go before my feelings cool!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "Hava çok sıcak ama kalbim buz tutmuş\ndurumda.$"
+	.string "It's so hot, and yet my heart is\n"
+	.string "clutched by ice…$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
-	.string "İçindeki savaşçı ruhun yanma şekline\nbakılırsa, liderimize karşı bir\lşansın olabilir.$"
+	.string "The way the battling spirit burns\n"
+	.string "within you, you may stand a chance\l"
+	.string "against our LEADER.$"
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
-	.string "Alevlerin nasıl çılgınca parladığını\ngörüyor musun? Kazanmamı beklerken\lalevleniyorlar!$"
+	.string "See how the flames blaze wildly?\n"
+	.string "They flare in anticipation of my win!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
-	.string "Bir şeyler doğru gitmedi.$"
+	.string "Something didn't go right.$"
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
-	.string "Ne olmuş yani? Ne olmuş diyorum?\nSıcak küllerin üzerinde yalınayak\lyürüyebilirim!\p…Ama sen aklından bile geçirme!$"
+	.string "Well, so what? I say so what?\n"
+	.string "I can walk on hot coals barefoot!\p"
+	.string "…Don't even think about trying it!$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
-	.string "Dağları sevdiğim kadar volkanları\nda çok severim.$"
+	.string "As much as I love mountains,\n"
+	.string "I especially love volcanoes.$"
 
 LavaridgeTown_Gym_B1F_Text_EliDefeat:
-	.string "Sanırım kontrolü hiç elime alamadan\nkaybettim.$"
+	.string "Well, it seems to me I lost without\n"
+	.string "ever being in control.$"
 
 LavaridgeTown_Gym_B1F_Text_EliPostBattle:
-	.string "Burada kalıyorum çünkü FLANNERY'nin\ngücüne hayran kaldım.\pHehehehe.$"
+	.string "I stay here because I became a fan\n"
+	.string "of FLANNERY's power.\p"
+	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "Hoş geldin…\nHayır, bir saniye.\pSeni çelimsiz EĞİTMEN, buraya geldiğini\ngörmek şaşırtıcı!\pBu görev bana… Hayır, bekle.\nE-hem.\pBen FLANNERY, SALON LİDERİ'yim!\pEe…\nEvet, kısa süredir liderim ama beni\nhafife alma!\pBüyük babamdan miras kalan\nyeteneklerimle, bu topraklarda\lgeliştirdiğim ateşli hareketleri\lsana göstereceğim!$"
+	.string "Welcome… No, wait.\p"
+	.string "Puny TRAINER, how good to see you've\n"
+	.string "made it here!\p"
+	.string "I have been entrusted with the…\n"
+	.string "No, wait.\p"
+	.string "I am FLANNERY, and I'm the GYM\n"
+	.string "LEADER here!\p"
+	.string "Uh…\n"
+	.string "Dare not underestimate me, though\l"
+	.string "I have been LEADER only a short time!\p"
+	.string "With skills inherited from my grand-\n"
+	.string "father, I shall, uh…demonstrate the\l"
+	.string "hot moves we have honed on this land!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-	.string "Ah…\nZorlandığımı söyleyebilirim…\pBen…\nDaha yeni SALON LİDERİ oldum.\pOlmadığım biri olmak için çok uğraştım.\pİşleri doğal yolumla yapmalıyım.\nEğer yapmazsam, POKéMON'larımın\lkafası karışacak.\pBana bunu öğrettiğin için teşekkürler.\nBunu hak ediyorsun.$"
+	.string "Oh…\n"
+	.string "I guess I was trying too hard…\p"
+	.string "I… I've only recently become\n"
+	.string "a GYM LEADER.\p"
+	.string "I tried too hard to be someone\n"
+	.string "I'm not.\p"
+	.string "I have to do things my natural way. If\n"
+	.string "I don't, my POKéMON will be confused.\p"
+	.string "Thanks for teaching me that.\n"
+	.string "For that, you deserve this.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-	.string "{PLAYER}, FLANNERY'den ISI ROZETİ\naldı.$"
+	.string "{PLAYER} received the HEAT BADGE\n"
+	.string "from FLANNERY.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-	.string "Eğer bir ISI ROZETİN varsa, Seviye\n50'ye kadar olan tüm POKéMON'lar,\lhatta başkalarından takas yoluyla\laldıkların bile, sana itaat edecektir.\pVe POKéMON'un savaş dışında HM\nhareketi GÜÇ'ü kullanmasını sağlar.\pBu benim minnettarlığımın bir\nsimgesidir. Almaktan çekinme!$"
+	.string "If you have a HEAT BADGE, all POKéMON\n"
+	.string "up to Level 50, even those you get in\l"
+	.string "trades from other people, will obey\l"
+	.string "you completely.\p"
+	.string "And, it lets POKéMON use the HM move\n"
+	.string "STRENGTH outside of battle.\p"
+	.string "This is a token of my appreciation.\n"
+	.string "Don't be shy about taking it!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
-	.string "Bu TM50, AŞIRI ISINMA içerir.\pBu saldırı rakibe ciddi hasar verir.\pAma aynı zamanda kullanan POKéMON'un\nÖZ. SLD'sını da ciddi bir şekilde\lazaltır. Uzun süreli savaşlar için\luygun olmayabilir.$"
+	.string "That TM50 contains OVERHEAT.\p"
+	.string "That move inflicts serious damage on\n"
+	.string "the opponent.\p"
+	.string "But it also sharply cuts the SP. ATK\n"
+	.string "of the POKéMON using it. It might not\l"
+	.string "be suitable for longer battles.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
-	.string "FLANNERY, POKéNAV'a kaydedildi\n.$"
+	.string "Registered GYM LEADER FLANNERY\n"
+	.string "in the POKéNAV.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-	.string "Gücün bana birini hatırlatıyor.\pHatırladım!\nPETALBURG SALONU LİDERİ NORMAN\lgibi savaşıyorsun.$"
+	.string "Your power reminds me of someone…\p"
+	.string "Oh! I know! You battle like NORMAN,\n"
+	.string "the GYM LEADER of PETALBURG.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
-	.string "LAVARIDGE KÖYÜ POKéMON SALONU$"
+	.string "LAVARIDGE TOWN POKéMON GYM$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string "LAVARIDGE TOWN POKéMON SALONU\pFLANNERY'NİN ONAYLI EĞİTMENLERİ:\n{PLAYER}$"
+	.string "LAVARIDGE TOWN POKéMON GYM\p"
+	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-	.string "Bir savaşı kaybetmek beni\nyıldırmaz.\pPOKéMON'ları seviyorum.\nSavaşmayı seviyorum.\lVe… bu salonu seviyorum!\pHadi tekrar savaşta yeteneklerimizi\nbirbirimize gösterelim!$"
+	.string "FLANNERY: Losing a battle isn't going\n"
+	.string "to deflate me.\p"
+	.string "I love POKéMON.\n"
+	.string "I love to battle.\l"
+	.string "And… I love this GYM!\p"
+	.string "Let's exchange superhot moves\n"
+	.string "in another battle!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-	.string "Vay be!\nPatlamanın eşiğindeyim!$"
+	.string "Whew!\n"
+	.string "On the verge of eruption!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-	.string "Maçı kaybettim ama tamamen memnunum.\pBu kadar hararetli bir savaştan zevk\nalmak pek sık nasip olmuyor.\pBir ara yine böyle bir maç yapalım!$"
+	.string "FLANNERY: I lost the match,\n"
+	.string "but I'm completely satisfied.\p"
+	.string "It's not often I get to enjoy a battle\n"
+	.string "this heated.\p"
+	.string "Let's have another one like this\n"
+	.string "again sometime!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-	.string .string "Bir savaşı kaybetmek beni\nyıldırmaz.\pPOKéMON'ları seviyorum.\nSavaşmayı seviyorum.\lVe… bu salonu seviyorum!\pHadi tekrar savaşta yeteneklerimizi\nbirbirimize gösterelim!\pBekle. Savaşabilecek sadece bir\nPOKéMON'un mu var?\pBunu söylemekten nefret ediyorum ama\nbeni görmeye gelirken en az iki\lPOKéMON getirmelisin.$"
+	.string "FLANNERY: Losing a battle isn't going\n"
+	.string "to deflate me.\p"
+	.string "I love POKéMON.\n"
+	.string "I love to battle.\l"
+	.string "And… I love this GYM!\p"
+	.string "Let's exchange superhot moves\n"
+	.string "in another battle!\p"
+	.string "Oh, wait. Do you only have one POKéMON\n"
+	.string "that can battle?\p"
+	.string "I hate to say this, but when you come\n"
+	.string "see me, bring at least two POKéMON.$"

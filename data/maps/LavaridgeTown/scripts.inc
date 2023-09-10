@@ -280,7 +280,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "MAY: {PLAYER}{KUN}!\nGörüşmeyeli uzun zaman oldu!\pBen kaplıcaları ziyaret ederken sen de\nLAVARİDGE ROZETİ almışsın.\pPOKéMON'larını geliştirmiş olmalısın…\pSanırım bunu alman senin için\nsorun olmaz.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "GO-GÖZLÜK ile ROTA 111 yakınındaki\nçölden geçerken hiç zorlanmayacaksın.\pAma, vay canına, {PLAYER}{KUN}…\nŞu rozeti alman…\pEminim bana kaybetmek istemediğin için\nçok çabalıyorsundur!\pNeyse! Şimdi PETALBURG SALONU'nda\babana nmeydan okumalıyım.\pTekrar görüşmek üzere!$"
+	.string "GO-GÖZLÜK ile ROTA 111 yakınındaki\nçölden geçerken hiç zorlanmayacaksın.\pAma, vay canına, {PLAYER}{KUN}…\nŞu rozeti alman…\pEminim bana kaybetmek istemediğin için\nçok çabalıyorsundur!\pNeyse! Şimdi PETALBURG SALONU'nda\nbabana nmeydan okumalıyım.\pTekrar görüşmek üzere!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "BRENDAN: Görüşmeyeli uzun zaman\noldu. Nasıl gidiyor?\pHmm…\nİyi sayıda rozet biriktirmişsin.\pTamam o zaman.\nBunu vermemde sakınca yoktur o\nhalse.$"

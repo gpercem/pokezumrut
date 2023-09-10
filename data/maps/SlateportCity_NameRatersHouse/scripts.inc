@@ -74,13 +74,13 @@ SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
 	.string "Ah, güzel.\nO zaman yeni takma adımız ne olacak?$"
 
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
-	.string "Tamam!\nŞu andan itibaren, bu POKéMON'un\nadı {STR_VAR_1} olacak!\pÖncekinden daha iyi bir isim!\nHarika oldu!$"
+	.string "Tamam!\nŞu andan itibaren, bu POKéMON'un\ladı {STR_VAR_1} olacak!\pÖncekinden daha iyi bir isim!\nHarika oldu!$"
 
 SlateportCity_NameRatersHouse_Text_DoVisitAgain:
 	.string "Anlıyorum.\nYine beklerim.$"
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
-	.string "Tamam!\nŞu andan itibaren, bu POKéMON'un\nadı {STR_VAR_1} olacak!\pÖncekinden daha iyi bir isim!\pÖncekinden farklı görünmüyor ama yine\nde bu çok daha iyi!$"
+	.string "Tamam!\nŞu andan itibaren, bu POKéMON'un\ladı {STR_VAR_1} olacak!\pÖncekinden daha iyi bir isim!\pÖncekinden farklı görünmüyor ama yine\nde bu çok daha iyi!$"
 
 SlateportCity_NameRatersHouse_Text_MagnificentName:
 	.string "Hmmm… {STR_VAR_1}!\pBu muhteşem bir takma ad!\nKusursuz bir isim!\p{STR_VAR_1}'ına dikkatli baksan iyi\nedersin.$"

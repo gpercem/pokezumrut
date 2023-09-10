@@ -86,7 +86,7 @@ SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:
 	.string "MR BRİNEY: Hey, {PLAYER}{KUN}!\nGörüşmeyeli uzun zaman oldu!\pEvet, seninle tanıştığından beri, bu\nyaşlı denizci kendini oynak hissediyor!\pBu yüzden DOCK'a gemi yapımında\nyardım etmeye karar verdim.\pEvet, ne de olsa gemiler çok fazla\ninsan taşıyabiliyor.\pAma bence DOCK gerçekten özel biri.\pOnun teknoloji becerisi ve benim\ntecrübemle, harika bir gemi inşa\ledebileceğimize eminim, evet!$"
 
 SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing:
-	.string "The seasons, the weather, where the\nmoon sits in the sky…\pThese and other conditions make the\nsea change its expression.\pThat's right! The sea is like a living\nthing!$"
+	.string "Mevsimler, hava, ayın gökyüzündeki\nkonumu…\pBu gibi şeyler deniz seviyesinin\nyüksekliğini değiştirir.\pBu doğru!\nDeniz canlı gibidir!$"
 
 SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily:
 	.string "Beni çok kolay deniz tutar.\nBu yüzden buradan yardım ediyorum.$"

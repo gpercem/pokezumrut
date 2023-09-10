@@ -19,16 +19,12 @@ SootopolisCity_House2_EventScript_DontKnowAboutOrbs::
 	return
 
 SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
-	.string "MT. PYRE…\p"
-	.string "At its peak are two orbs placed side\n"
-	.string "by side. Did you know?$"
+	.string "PYRE DAĞI…\pZirvesinde yan yana yerleştirilmiş iki\nküre var. Bunu biliyor muydun?$"
 
 SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
-	.string "Yes, two orbs side by side…\p"
-	.string "The sight of them together…\n"
-	.string "It is somehow soothing…$"
+	.string "Evet, iki küre yan yana.\pOnları bir arada görmek…\nOldukça rahatlatıcı…$"
 
 SootopolisCity_House2_Text_OughtToVisitAndSee:
-	.string "Is that so?\n"
-	.string "Perhaps you ought to visit and see…$"
+	.string "Öyle mi?\nBelki de ziyaret etmeli ve\lgörmelisin…$"
+
 

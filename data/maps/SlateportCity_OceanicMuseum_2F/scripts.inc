@@ -273,7 +273,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-	.string "Öyle mi?\nSTERN'i mi arıyorsun?\pŞu anda tam karşında duruyor.\pHey!\nBunlar BAY STONE'dan sipariş\nettiğim parçalar olmalı.\pTeşekkür ederim! Bu harika!\nArtık keşif gezimiz için hazırlanabiliriz.$"
+	.string "Öyle mi?\nSTERN'i mi arıyorsun?\pŞu anda tam karşında duruyor.\pHey!\nBunlar BAY STONE'dan sipariş\lettiğim parçalar olmalı.\pTeşekkür ederim! Bu harika!\nArtık keşif gezimiz için hazırlanabiliriz.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
 	.string "Hehehe, durun!\nO parçalar bizimdir!$"
@@ -303,7 +303,7 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 	.string "Parçaları çalmanın neden bu kadar\nuzun sürdüğünü görmeye geldim.\lSiz aptallar bir çocuk tarafından mı\loyalanıyordunuz?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "Biz AQUA TAKIMI'yız ve denizi\nseviyoruz!\pVe ben AQUA TAKIMI'nın lideri,\nARCHİE'yim!\pBize neden müdahale ediyorsun?\p…Hayır! Olamaz!\nSen MAGMA TAKIMI'ndan mısın?\pBekle, bu doğru olamaz.\nRolüne uygun giyinmemişsin.\p… … … … … …\n… … … … … …\pPOKéMON'lar, insanlar…\nTüm yaşam denize bağlıdır.\pBu yüzden AQUA TAKIMI, kendini\ndenizlerin genişlemesine adamıştır.\pSence de öyle değil mi?\nYaptığımız şey muhteşem bir\lgirişim.\pAh, güzel…\nAsıl amacımızı anlamak için hâlâ\nçok gençsin.\pAma seni uyarıyorum, bir daha\nplanlarımıza müdahale etmeyi\laklından bile geçirme.\pSonuçları sana pahalıya patlar!\pVe bunu sakın unutma!$"
+	.string "Biz AQUA TAKIMI'yız ve denizi\nseviyoruz!\pVe ben AQUA TAKIMI'nın lideri,\nARCHİE'yim!\pBize neden müdahale ediyorsun?\p…Hayır! Olamaz!\nSen MAGMA TAKIMI'ndan mısın?\pBekle, bu doğru olamaz.\nRolüne uygun giyinmemişsin.\p… … … … … …\n… … … … … …\pPOKéMON'lar, insanlar…\nTüm yaşam denize bağlıdır.\pBu yüzden AQUA TAKIMI, kendini\ndenizlerin genişlemesine adamıştır.\pSence de öyle değil mi?\nYaptığımız şey muhteşem bir\lgirişim.\pAh, güzel…\nAsıl amacımızı anlamak için hâlâ\lçok gençsin.\pAma seni uyarıyorum, bir daha\nplanlarımıza müdahale etmeyi\laklından bile geçirme.\pSonuçları sana pahalıya patlar!\pVe bunu sakın unutma!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
 	.string "KAPTAN STERN: Sen…\nTamam, demek adın {PLAYER}{KUN}…\pHer neyse, bu gergin bir durumdu!\nBeni kurtardığın için teşekkürler!\pAa, evet, neredeyse unutuyordum,\nDEVON parçalarını getirmiştin!$"

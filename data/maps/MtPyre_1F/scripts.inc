@@ -26,22 +26,15 @@ MtPyre_1F_EventScript_Man::
 	end
 
 MtPyre_1F_Text_TakeThisForYourOwnGood:
-	.string "All sorts of beings wander the slopes\n"
-	.string "of MT. PYRE…\p"
-	.string "There is no telling what may happen.\n"
-	.string "Take this. It's for your own good.$"
+	.string "Birçok türden varlık PYRE DAĞI\nyamaçlarında dolaşır durur…\pNe olacağı belli olmaz. Al bunu.\nBu senin iyiliğin için.$"
 
 MtPyre_1F_Text_ExplainCleanseTag:
-	.string "Have a POKéMON hold that\n"
-	.string "CLEANSE TAG.\p"
-	.string "It will help ward off wild POKéMON.$"
+	.string "Bir POKéMON'a TEMİZ ETİKET vererek\nkendini vahşi POKéMON'lardan\luzak tutabilirsin.$"
 
 MtPyre_1F_Text_ComeToPayRespects:
-	.string "Did you come to pay your respect\n"
-	.string "to the spirits of departed POKéMON?\p"
-	.string "You must care for your POKéMON a lot.$"
+	.string "Ölen POKéMON'ların ruhlarına saygı\ngöstermek için mi geldin?\pPOKéMON'una çok değer veriyor\nolmalısın.$"
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
-	.string "This is the final resting place of my\n"
-	.string "ZIGZAGOON. I cherished it…$"
+	.string "Burası benim ZIGZAGOON'umun son\ndinlenme yeri.\lOnu çok seviyordum.$"
+
 

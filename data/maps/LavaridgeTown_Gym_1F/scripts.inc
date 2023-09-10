@@ -300,4 +300,4 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 	.string "Maçı kaybettim ama tamamen memnunum.\pBu kadar hararetli bir savaştan zevk\nalmak pek sık nasip olmuyor.\pBir ara yine böyle bir maç yapalım!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-	.string .string "Bir savaşı kaybetmek beni\nyıldırmaz.\pPOKéMON'ları seviyorum.\nSavaşmayı seviyorum.\lVe… bu salonu seviyorum!\pHadi tekrar savaşta yeteneklerimizi\nbirbirimize gösterelim!\pBekle. Savaşabilecek sadece bir\nPOKéMON'un mu var?\pBunu söylemekten nefret ediyorum ama\nbeni görmeye gelirken en az iki\lPOKéMON getirmelisin.$"
+	.string "Bir savaşı kaybetmek beni\nyıldırmaz.\pPOKéMON'ları seviyorum.\nSavaşmayı seviyorum.\lVe… bu salonu seviyorum!\pHadi tekrar savaşta yeteneklerimizi\nbirbirimize gösterelim!\pBekle. Savaşabilecek sadece bir\nPOKéMON'un mu var?\pBunu söylemekten nefret ediyorum ama\nbeni görmeye gelirken en az iki\lPOKéMON getirmelisin.$"

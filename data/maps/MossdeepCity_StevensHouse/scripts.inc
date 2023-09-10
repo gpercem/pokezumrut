@@ -151,67 +151,30 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "STEVEN: {PLAYER}{KUN}…\pGördüğün gibi burada pek bir şey yok\nama burası benim evim.\pYaptığın her şey için teşekkür\nederim.\pBu benim minnettarlığımın bir\ngöstergesi.\nGİZLİ MAKİNE DALIŞ.\pUtanmana gerek yok.\nBu HM'yi hak ettin.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "STEVEN: While you're using SURF, you\n"
-	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
-	.string "like it. You'll drop to the seafloor.\p"
-	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "STEVEN: SÖRF kullanırken, karanlık su\nlekelerini fark etmişsindir.\pBunun gibi derin suların üstünde,\nDALIŞ kullanabilirsin.\lDeniz tabanına düşeceksin.\pTekrar yukarı çıkmak istediğinde,\ntekrar DALIŞ kullan.\pYine de bazı yerlerde yüzeye çıkman\nmümkün olmayabilir.$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "STEVEN: Apparently, there's an\n"
-	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "Görünüşe göre, MOSSDEEP ve\nSOOTOPOLİS arasında bir su altı\lmağarası varmış.\pBiliyorsun, KAPTAN STERN'in\ndenizaltısında bulduğu.$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
-	.string "{PLAYER} checked the POKé BALL.\p"
-	.string "It contained the POKéMON\n"
-	.string "BELDUM.\p"
-	.string "Take the POKé BALL?$"
+	.string "{PLAYER}, POKé TOPU'na baktı.\pİçinde BELDUM var.\pPOKé TOPU'nu alacak mısın?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{PLAYER}, bir BELDUM aldı.$"
 
-@ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
-	.string "There is no space for another POKéMON.$"
+	.string "Başka bir POKéMON için yer yok.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
-	.string "{PLAYER} left the POKé BALL where\n"
-	.string "it was.$"
+	.string "{PLAYER}, POKé TOPU'nu olduğu\nyerde bıraktı.$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-	.string "It's a letter.\p"
-	.string "… … … … … …\p"
-	.string "To {PLAYER}{KUN}…\p"
-	.string "I've decided to do a little soul-\n"
-	.string "searching and train on the road.\p"
-	.string "I don't plan to return home for some\n"
-	.string "time.\p"
-	.string "I have a favor to ask of you.\p"
-	.string "I want you to take the POKé BALL on\n"
-	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
-	.string "POKéMON.\p"
-	.string "I'm counting on you.\p"
-	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "Bu bir mektup.\p… … … … … …\p{OYUNCU}{KUN}'a…\pBiraz ruh arayışına girmeye ve yolda\neğitim almaya karar verdim.\pBir süre eve dönmeyi planlamıyorum.\pSenden bir iyilik isteyeceğim.\pMasanın üzerindeki POKE TOPU'nu\nalmanı istiyorum.\pİçinde bir BELDUM var, en sevdiğim\nPOKéMON'dur.\pSana güveniyorum.\pYollarımız bir gün kesişebilir.\pSTEVEN STONE$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "STEVEN tarafından bir toplanmış\nnadir kaya ve taşlardan oluşan bir\lkoleksiyon.$"
+
 

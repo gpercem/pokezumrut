@@ -10,11 +10,9 @@ SootopolisCity_House5_EventScript_Girl::
 	end
 
 SootopolisCity_House5_Text_SootopolisMtPyreConnection:
-	.string "There appears to be some connection\n"
-	.string "between SOOTOPOLIS and MT. PYRE.\p"
-	.string "My friends and I did some research on\n"
-	.string "it at the lab where I used to work.$"
+	.string "SOOTOPOLİS ve PYRE DAĞI arasında bir\nbağlantı var gibi görünüyor.\pArkadaşlarım ve ben, eskiden çalıştığım\nlaboratuvarda bu konuda biraz\laraştırma yapmıştık.$"
 
 SootopolisCity_House5_Text_BrotherUsedToStudySea:
-	.string "My big brother used to study the sea.$"
+	.string "Ağabeyim deniz üzerinde araştırmalar\nyapardı.$"
+
 

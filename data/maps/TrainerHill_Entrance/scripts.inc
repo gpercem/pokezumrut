@@ -294,164 +294,82 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS.\p"
-	.string "Unfortunately, we're still getting\n"
-	.string "things ready. Please come back later!$"
+	.string "Burası, savaşların keyfini\nçıkarabileceğin EĞİTMEN TEPESİ.\pNe yazık ki, hala bir şeyler\nhazırlıyoruz. Lütfen daha sonra\ltekrar gelin!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-	.string "Welcome!\p"
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS!$"
+	.string "Hoş geldiniz!\pBurası birçok savaşlarının\ntadını çıkarabileceğiniz\lEĞİTMEN TEPESİ!$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-	.string "Is this your first visit here?\p"
-	.string "Before you enter, please save\n"
-	.string "your game.$"
+	.string "Buraya ilk ziyaretin mi?\pGirmeden önce lütfen oyununuzu\nkaydedin.$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "Up to floor no. {STR_VAR_1}.$"
+	.string "Bakalım… Şu anda burada olan\neğitmenler…\p{STR_VAR_1}. kata kadar.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "There appear to be TRAINERS gathered\n"
-	.string "in every room.$"
+	.string "Bakalım… Şu anda burada olan\neğitmenler…\pHer odada toplanmış eğitmenler var\ngibi görünüyor.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-	.string "Would you like to challenge the\n"
-	.string "waiting TRAINERS?$"
+	.string "Bekleyen eğitmenlere meydan okumak\nister misiniz?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-	.string "I will time your progress.\n"
-	.string "Best of luck!\p"
-	.string "On your marks…\p"
-	.string "Get set…\p"
-	.string "Go!$"
+	.string "İlerlemenizi zamanlayacağım.\nBol şans!\pHazır…\pBaşla!$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
-	.string "Please do visit us again!$"
+	.string "Lütfen bizi tekrar ziyaret edin!$"
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort:
-	.string "That was too bad.\p"
-	.string "I think you put in a tremendous\n"
-	.string "effort in your battling.\p"
-	.string "Please come back and try again!$"
+	.string "Bu çok kötüydü.\pBence mücadelenizde muazzam bir çaba\nsarf ettiniz.\pLütfen geri gel ve tekrar dene!$"
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
-	.string "I hope you give it your best.$"
+	.string "Umarım elinden gelenin en iyisini\nyaparsın.$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-	.string "When the TRAINERS switch places,\n"
-	.string "the movement can be hectic.\p"
-	.string "To avoid the stampede, we moved\n"
-	.string "the reception counter here.\p"
-	.string "I'm sorry for the inconvenience.$"
+	.string "EĞİTMENLER yer değiştirdiğinde,\nburası telaşlı olabiliyor.\pİzdihamı önlemek için resepsiyon\nbankosunu buraya taşıdık.\pRahatsızlık için özür dileriz.$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "Oynadığınız için teşekkürler!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Here at the TRAINER HILL, we conduct\n"
-	.string "an event called the Time Attack.\p"
-	.string "It is a race that measures how long\n"
-	.string "you take to reach our owner on\l"
-	.string "the rooftop from this counter.\p"
-	.string "The fastest times are posted on\n"
-	.string "the Time Board--try competing with\l"
-	.string "your friends.\p"
-	.string "In TRAINER battles along the way,\n"
-	.string "neither Exp. Points nor money will\l"
-	.string "be awarded.$"
+	.string "EĞİTMEN TEPESİ'nde, Zaman Saldırısı\nadında bir etkinlik düzenliyoruz.\pBu, bu sayaçtan çatıdaki sahibimize ne\nkadar sürede ulaştığınızı ölçen bir\lyarıştır.\pEn hızlı süreler Zaman Panosunda\nyayınlanır-arkadaşlarınızla yarışmayı\ldeneyin.\pYol boyunca yapılan EĞİTMEN\nsavaşlarında Exp. Puanı veya para\lverilmeyecektir.$"
 
-@ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one POKéMON with you.\p"
-	.string "You will need at least two POKéMON\n"
-	.string "to enter this event.$"
+	.string "Üzgünüm ama yanınızda sadece bir\nPOKéMON var gibi görünüyor.\pBu etkinliğe katılmak için en az iki\nPOKéMON'a ihtiyacınız olacak.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
-	.string "Hm! Hm!\p"
-	.string "You finally came!\n"
-	.string "Yes, you have arrived!\p"
-	.string "Wait! Don't say it!\n"
-	.string "I know why you came all the way\l"
-	.string "here by yourself!\p"
-	.string "You wanted to see me, the owner\n"
-	.string "of the TRAINER HILL, because…\p"
-	.string "You want to form a tag team with me!\n"
-	.string "Wa-hoo!\p"
-	.string "…Uh?\n"
-	.string "That's not it?\p"
-	.string "Anyway, I watched you on your way up.\n"
-	.string "Marvelous battling! Bravo, indeed!$"
+	.string "Hm! Hm!\pSonunda geldin! Evet, geldin!\pBekle! Söyleme! Buraya kadar neden\ntek başına geldiğini biliyorum!\pBeni, EĞİTMEN TEPESİ'nin sahibini\ngörmek istedin, çünkü…\pBenimle bir takım kurmak\nistiyorsun! Ye-huu!\p…Ha? Bundan değil mi?\pHer neyse, seni yukarı çıkarken\nizledim. Muhteşem mücadele!\lBravo, gerçekten!$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
-	.string "For a marvelous someone like you,\n"
-	.string "I have the most marvelous gift!$"
+	.string "Senin gibi muhteşem biri için en\nmuhteşem hediyeye sahibim!$"
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
-	.string "Oh, no, full up with things!\n"
-	.string "You'll be back later for this!$"
+	.string "Ah, hayır, çantan dolu!\nBunun için daha sonra geleceksin!$"
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
-	.string "Oh, hold on here! Did you possibly get\n"
-	.string "here marvelously quickly?\p"
-	.string "How splendid! You needn't have\n"
-	.string "hurried so to see me!\p"
-	.string "That is so delightful. I'll have the Time\n"
-	.string "Board at the reception updated!$"
+	.string "Dur bakalım!\nBuraya ne çabuk geldin.\pNe kadar muhteşem! Beni görmek için bu\nkadar acele etmene gerek yoktu!\pBu çok hoş. Resepsiyondaki Zaman\nPanosunu güncelleyeceğim!$"
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
-	.string "But, oh…\n"
-	.string "You weren't very quick getting here.$"
+	.string "Ama, ya…\nBuraya çok çabuk gelemedin.$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
-	.string "Perhaps it would please me more if you\n"
-	.string "arrived zippier next time.\p"
-	.string "Then, I should be pleased to form\n"
-	.string "a tag team with you!\p"
-	.string "Until we meet again, amigo!$"
+	.string "Belki bir dahaki sefere daha hızlı\ngelirsen beni daha çok memnun\ledersin.\pO zaman seninle bir takım\noluşturmaktan memnuniyet duyarım!\pBir dahaki sefere, amigo!$"
 
-@ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "I had the TRAINER HILL built for but\n"
-	.string "one reason and one only!\p"
-	.string "To find the most suitable partner\n"
-	.string "with whom I may form a tag team!$"
+	.string "EĞİTMEN TEPESİ'ni sadece ve sadece\ntek bir sebep için inşa ettirdim!\pBirlikte bir takım\noluşturabileceğim en uygun partneri\lbulmak için!$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
-	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.$"
+	.string "{STR_VAR_1} dk. {STR_VAR_2}.{STR_VAR_3} sn.$"
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
-	.string "Who knows what sort of TRAINERS\n"
-	.string "and POKéMON combos are ahead?\p"
-	.string "All I know is that I'll knock aside\n"
-	.string "anyone that stands in my way!$"
+	.string "Önümüzde ne tür EĞİTMEN ve\nPOKéMON kombinasyonları olduğunu kim\lbilebilir?\pTek bildiğim, yoluma çıkan herkesi bir\nkenara atacağım!$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-	.string "I heard tough TRAINERS come to this\n"
-	.string "TRAINER HILL from all over.\p"
-	.string "I can't wait to test the waters!\p"
-	.string "I'll knock aside anyone that stands\n"
-	.string "in my way!$"
+	.string "Bu EĞİTMEN TEPESİ'ne her yerden\nzorlu EĞİTMENLERİN geldiğini duydum.\pSuyunu test etmek için\nsabırsızlanıyorum!\pYoluma çıkan herkesi kenara atacağım!$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
-	.string "Do you see the Time Board over there?\p"
-	.string "My friends and I are trying to see who\n"
-	.string "can reach the top in the least time.$"
+	.string "Şuradaki Zaman panosunu görüyor\nmusun?\pArkadaşlarım ve ben kimin en kısa\nsürede zirveye ulaşabileceğini\lgörmeye çalışıyoruz.$"
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
-	.string "Do you know when they're opening\n"
-	.string "this place up?\p"
-	.string "I'm waiting here to be the first\n"
-	.string "challenger ever!$"
+	.string "Burayı ne zaman açacaklarını biliyor\nmusun?\pİlk meydan okuyan olmak için burada\nbekliyorum!$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
-	.string "Would you like to return to\n"
-	.string "the reception counter?$"
+	.string "Resepsiyon bankosuna dönmek ister\nmisiniz?$"

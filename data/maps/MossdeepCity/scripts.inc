@@ -311,125 +311,61 @@ MossdeepCity_Movement_ScottExitEast:
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
-	.string "know what it's good for.\p"
-	.string "I think it's called KING'S ROCK.\n"
-	.string "Do you want it?$"
+	.string "Bunu STEVEN'dan aldım ama ne işe\nyaradığını bilmiyorum.\pSanırım adı KRAL KAYASI.\nİster misin?$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Why would you want it?\n"
-	.string "You're weird.\p"
-	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "Neden istiyorsun ki?\NTuhaf birisin.\pSende kalabilir ama STEVEN'dan sır\nolarak sakla.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "STEVEN'ın evi tam şurada!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-	.string "Yeah, you think so, too! What are you\n"
-	.string "supposed to do with some weird rock?$"
+	.string "Evet, sen de öyle düşünüyorsun!\nGarip bir taşla ne yapacaksın ki?$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around MOSSDEEP, you can see wild\n"
-	.string "WAILMER.\p"
-	.string "It's called, uh…\n"
-	.string "What was it now…\p"
-	.string "WAI, WAI, WAI…\p"
-	.string "WAILMER watching!$"
+	.string "MOSSDEEP'in etrafında vahşi şeyleri\ngörebilirsin.\pAdı neydi…\nEe…\pWAİ, WAİ, WAİ…\pWAİLMER!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.\p"
-	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "Adanın UZAY MERKEZİ, devasa roketler\nfırlatıyor.\pSon zamanlarda aldıkları bir mektup\nyüzünden bir tür kargaşa var.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.$"
+	.string "Adanın UZAY MERKEZİ, devasa roketler\nfırlatıyor.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a SAILOR buddy that\n"
-	.string "TEAM AQUA set up shop in LILYCOVE.\p"
-	.string "I also heard that someone came along\n"
-	.string "and wiped the floor with them!\p"
-	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that TEAM MAGMA.\p"
-	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "Bir denizci dostumdan AQUA'nın\nLİLYCOVE'da dükkan açtığını duydum.\pAyrıca birinin gelip onları yere\nserdiğini de duydum!\pAma buradaki MOSSDEEP, MAGMA TAKIMI\ntarafından hedef alındı.\pNeyin peşinde olduklarını öğrenmek\nistiyorsan, UZAY MERKEZİ'ni ziyaret et.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-	.string "I'm a SAILOR, so the sea's obviously\n"
-	.string "more important to me.\p"
-	.string "But you know? When I get back on land\n"
-	.string "after a long voyage, I do feel relief!$"
+	.string "Ben bir denizciyim, bu yüzden deniz\nbenim için daha önemli.\pAma biliyor musun? Uzun bir\nyolculuktan sonra karaya döndüğümde\lrahatladığımı hissediyorum!$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string "Wouldn't it be nice?\p"
-	.string "If the whole world was covered in\n"
-	.string "plants and flowers like this island?$"
+	.string "Tüm dünya bu ada gibi bitki ve\nçiçeklerle kaplı olsaydı keşke.$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
-	.string "All life needs the sea to live, even\n"
-	.string "though it makes its home on the land.\p"
-	.string "Life, having run its course, becomes\n"
-	.string "soil and returns to the land.\p"
-	.string "And the sea is always connected to\n"
-	.string "the land.\p"
-	.string "Yes, like the very shoreline here.$"
+	.string "Tüm canlıların, her ne kadar evlerini\nkarada yapsalar da yaşamlarını devam\lettirebilmesi için denize ihtiyacı\lvardır.\pCanlılar, ömrünü tamamladıktan sonra\ntoprak olur ve karaya geri döner.\pVe deniz her zaman karayla\nbağlantılıdır.\pEvet, tıpkı buradaki kıyı şeridi gibi.$"
 
 MossdeepCity_Text_SurfExhilarating:
-	.string "A voyage on a ship is fine.\p"
-	.string "But crossing the sea with POKéMON\n"
-	.string "using SURF…\p"
-	.string "Now that's an exhilarating trip!\n"
-	.string "Wouldn't you agree, youngster?$"
+	.string "Gemide yolculuk iyidir.\pAma POKéMON ile denizi SÖRF kullanarak\ngeçmek…\pİşte bu heyecan verici bir yolculuk!\nSence de öyle değil mi, genç?$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
-	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
-	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
-	.string "When you make a wish, what do you use?\n"
-	.string "Do you wish upon a star?\p"
-	.string "I use a wish tag to make it happen.\n"
-	.string "That's what I do.$"
+	.string "Bu taşın, UZAY MERKEZİ'ndeki insanlar\niçin özel bir anlamı var.\pRoketlerinin güvenli bir şekilde\nuçmasını diledikleri için buraya\lkoydular.\pBir dilek tuttuğunda ne\nkullanırsın? Bir yıldızdan mı dilek\ldilersin?\pGerçekleşmesi için bir dilek etiketi\nkullanıyorum. Yaptığım şey bu.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "Bu, beyaz bir kaya.$"
 
 MossdeepCity_Text_GymSign:
-	.string "MOSSDEEP CITY POKéMON GYM\n"
-	.string "LEADERS: LIZA & TATE\p"
-	.string "“The mystic combination!”$"
+	.string "MOSSDEEP ŞEHRİ POKéMON SALON\nLİDERLERİ: LIZA & TATE\pMistik kombinasyon!$"
 
 MossdeepCity_Text_CitySign:
-	.string "MOSSDEEP CITY\n"
-	.string "“Our slogan: Cherish POKéMON!”$"
+	.string "MOSSDEEP ŞEHRİ\n"
+	.string "Sloganımız: POKéMON'ları sevin!$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "MOSSDEEP SPACE CENTER\n"
-	.string "“The closest place to space.”$"
+	.string "MOSSDEEP UZAY MERKEZİ\nUzaya en yakın yer.$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
-	.string "I'm doing great!\p"
-	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
-	.string "pretty strong, so I decided to come\l"
-	.string "take a look-see for myself.\p"
-	.string "But there's something wrong about\n"
-	.string "this town.\p"
-	.string "People are going on about a warning\n"
-	.string "letter and the SPACE CENTER…\p"
-	.string "I don't think it concerns me in any\n"
-	.string "way, though.$"
+	.string "İyi misin?\nBen harikayım!\pMOSSDEEP'in SALON LİDERİ'nin\noldukça güçlü olduğunu duydum, bu yüzden\lgelip kendim görmeye karar verdim.\pAma bu kasabada yanlış giden bir\nşeyler var.\pİnsanlar bir uyarı mektubundan ve\nUZAY MERKEZİ'nden bahsediyor.\pYine de bunun beni ilgilendirdiğini\nsanmıyorum.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-	.string "Ahh… It feels great letting the waves\n"
-	.string "wash over my feet…\p"
-	.string "Speaking of the waves, you know that\n"
-	.string "island city SOOTOPOLIS?\p"
-	.string "I think the GYM there had a new\n"
-	.string "LEADER come in.\p"
-	.string "People tell me the new LEADER once\n"
-	.string "mentored WALLACE.$"
+	.string "Ahh… Dalgaların ayaklarımı yıkamasına\nizin vermek harika hissettiriyor…\pDalgalardan bahsetmişken, şu ada şehri\nSOOTOPOLİS'i biliyor musun?\pSanırım oradaki salona yeni bir\nLİDER geldi.\pİnsanlar bana yeni liderin bir zamanlar\nWALLACE'a akıl hocalığı yaptığını\lsöylüyor.$"
+
 

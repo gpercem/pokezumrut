@@ -172,7 +172,7 @@ MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
 	.string "{PLAYER}, POKé TOPU'nu olduğu\nyerde bıraktı.$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-	.string "Bu bir mektup.\p… … … … … …\p{OYUNCU}{KUN}'a…\pBiraz ruh arayışına girmeye ve yolda\neğitim almaya karar verdim.\pBir süre eve dönmeyi planlamıyorum.\pSenden bir iyilik isteyeceğim.\pMasanın üzerindeki POKE TOPU'nu\nalmanı istiyorum.\pİçinde bir BELDUM var, en sevdiğim\nPOKéMON'dur.\pSana güveniyorum.\pYollarımız bir gün kesişebilir.\pSTEVEN STONE$"
+	.string "Bu bir mektup.\p… … … … … …\p{PLAYER}{KUN}'a…\pBiraz ruh arayışına girmeye ve yolda\neğitim almaya karar verdim.\pBir süre eve dönmeyi planlamıyorum.\pSenden bir iyilik isteyeceğim.\pMasanın üzerindeki POKE TOPU'nu\nalmanı istiyorum.\pİçinde bir BELDUM var, en sevdiğim\nPOKéMON'dur.\pSana güveniyorum.\pYollarımız bir gün kesişebilir.\pSTEVEN STONE$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
 	.string "STEVEN tarafından bir toplanmış\nnadir kaya ve taşlardan oluşan bir\lkoleksiyon.$"

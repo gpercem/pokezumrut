@@ -12,9 +12,9 @@ FortreeCity_House3_EventScript_SchoolKidM::
 FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 	.string "POKéDEXLER hakkında konuşurken,\n"
 	.string "Bir şey hatırladım.\p"
-	.string "Nadir taşlar hakkında araştırma yaparken\n"
-	.string "STEVEN adında bir EĞİTMEN ile tanıştım.\p"
-	.string "Aah, evlat, epey şaşırtıcı POKéMONLARA\n"
+	.string "Nadir taşlar hakkında araştırma\nyaparken"
+	.string "STEVEN adında bir EĞİTMEN\lile tanıştım.\p"
+	.string "Aah, evlat, epey şaşırtıcı\nPOKéMONLARA"
 	.string "sahipti.\p"
 	.string "Sadece nadir değillerdi aynı zamanda\n"
 	.string "zorlu şartlarda eğitilmişlerdi!\p"
@@ -24,6 +24,6 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 FortreeCity_House3_Text_OhYouHavePokedex:
 	.string "Bu sahip olduğun şey de nedir?\p"
 	.string "… … … … … …\p"
-	.string "Ah, demek POKéDEX deniyor?\n"
+	.string "Ah, demek POKéDEX deniyor.\n"
 	.string "Mükemmel bir şey!$"
 

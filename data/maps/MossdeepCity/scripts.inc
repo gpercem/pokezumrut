@@ -314,7 +314,7 @@ MossdeepCity_Text_WantKingsRockStevenGaveMe:
 	.string "Bunu STEVEN'dan aldım ama ne işe\nyaradığını bilmiyorum.\pSanırım adı KRAL KAYASI.\nİster misin?$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Neden istiyorsun ki?\NTuhaf birisin.\pSende kalabilir ama STEVEN'dan sır\nolarak sakla.$"
+	.string "Neden istiyorsun ki?\nTuhaf birisin.\pSende kalabilir ama STEVEN'dan sır\nolarak sakla.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
 	.string "STEVEN'ın evi tam şurada!$"

@@ -750,10 +750,10 @@ Route110_Text_KickUpARuckus:
 	.string "SLATEPORT'a gitmek ve ortalığı\nbirbirine katmak istiyorum!$"
 
 Route110_Text_MyFirstJobInAqua:
-	.string "AQUA TAKIMI'na katıldıktan sonra bu benim\nilk işim. Biraz korkutucu.$"
+	.string "AQUA TAKIMI'na katıldıktan sonraki\nilk işimdeyim. Biraz korkutucu.$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "AQUA TAKIMI'nın yaptıkları\ninsanları mutlu etmeli!$"
+	.string "AQUA TAKIMI'nın yaptıkları insanları\nmutlu etmeli!$"
 
 Route110_Text_MayLetsBattle:
 	.string "Merhaba {PLAYER}{KUN}, uzun zamandır\ngörüşemedik!\pDiğer POKéMON'ları ararken, benim\nPOKéMON'um daha da güçlendi.\pPeki… Küçük bir savaşa ne dersin?$"

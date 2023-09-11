@@ -62,21 +62,59 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	end
 
 CaveOfOrigin_B1F_Text_WallaceStory:
-	.string "Ah, demek {PLAYER}{KUN} sensin.\nSenin kahramanlık hikayelerini\lduydum.\pBenim adım WALLACE.\pBir zamanlar SOOTOPOLİS'in SALON\nLİDERİ'ydim ama bir işim çıktı.\pŞimdi, SALON işlerini akıl hocam\nJUAN'a emanet ettim.\p… … … … … …\n… … … … … …\pBurada ortalığı kasıp kavuran iki\nPOKéMON'un, yani GROUDON & KYOGRE'ın\lsüper-kadim POKéMON oldukları\ldüşünülüyor.\pAma sadece iki süper-kadim POKEMON\nyok.\pBir yerlerde bir tane daha var.\pBir yerlerde, RAYQUAZA adında\nsüper-kadim bir POKéMON var.\pUzak geçmişte bu iki savaşçıyı\nboğanın RAYQUAZA olduğu söyleniyor.\pAma benim bile RAYQUAZA'nın nerede\nolduğuna dair hiçbir fikrim yok…$"
+	.string "Ah, so you are {PLAYER}{KUN}?\n"
+	.string "I've heard tales of your exploits.\p"
+	.string "My name is WALLACE.\p"
+	.string "I was once the GYM LEADER of\n"
+	.string "SOOTOPOLIS, but something came up.\p"
+	.string "So now, I've entrusted my mentor JUAN\n"
+	.string "with the GYM's operation.\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "GROUDON and KYOGRE, the two POKéMON\n"
+	.string "wreaking havoc here, are considered\l"
+	.string "to be super-ancient POKéMON.\p"
+	.string "But there aren't just two super-\n"
+	.string "ancient POKéMON.\p"
+	.string "There is one more somewhere.\p"
+	.string "Somewhere, there is a super-\n"
+	.string "ancient POKéMON named RAYQUAZA.\p"
+	.string "It's said that it was RAYQUAZA that\n"
+	.string "becalmed the two combatants in\l"
+	.string "the distant past.\p"
+	.string "But even I have no clue as to\n"
+	.string "RAYQUAZA's whereabouts…$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
-	.string "WALLACE: {PLAYER}{KUN}, acaba\nRAYQUAZA'nın şu anda nerede olduğunu\lbiliyor musun?\pEğer biliyorsan, lütfen söyle.$"
+	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
+	.string "know where RAYQUAZA is now?\p"
+	.string "If you do, please tell me.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
-	.string "WALLACE: KÖKEN MAĞARASI mı?\pAma orası tam burası!\nBundan daha iyisini yapmanı\listiyorum!\pLütfen, RAYQUAZA'nın şu anda nerede\nolabileceğini düşünmeni istiyorum.$"
+	.string "WALLACE: The CAVE OF ORIGIN?\p"
+	.string "But that's right here!\n"
+	.string "I need you to do better than that!\p"
+	.string "Please, I need you to think about\n"
+	.string "where RAYQUAZA might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-	.string "WALLACE: PYRE DAĞI mı?\pAma daha önce orada yaşlı kadınla\ngörüştüğümde bundan hiç\lbahsetmemişti.\pYaşlı kadının benden bir şey saklamaya\nçalışacağından çok şüpheliyim…\p{PLAYER}{KUN}, bunu benim için daha\ndikkatli düşünebilir misin?$"
+	.string "WALLACE: MT. PYRE?\p"
+	.string "But when I met the old lady there\n"
+	.string "earlier, she made no mention of it.\p"
+	.string "I very much doubt that the old lady\n"
+	.string "would try to hide something from me…\p"
+	.string "{PLAYER}{KUN}, could you think about this\n"
+	.string "more carefully for me?$"
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
-	.string "WALLACE: Ha?\nHatırlamıyor musun?\lHmm… Bu bir sorun…\pBir şekilde hatırlayamaz mısın?$"
+	.string "WALLACE: Huh? You don't remember?\n"
+	.string "Hmm… That's a problem…\p"
+	.string "Can't you remember somehow?$"
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
-	.string "WALLACE: GÖK SÜTUNU mu?\pİşte bu!\nGÖK SÜTUNU olmalı!\p{PLAYER}{KUN}, kaybedecek bir an bile yok!\nHemen GÖK SÜTUNU'na gidiyoruz!$"
-
+	.string "WALLACE: The SKY PILLAR?\p"
+	.string "That's it!\n"
+	.string "It must be the SKY PILLAR!\p"
+	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
+	.string "We'll head to the SKY PILLAR right away!$"
 

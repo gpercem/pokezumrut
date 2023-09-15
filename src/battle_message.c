@@ -429,7 +429,7 @@ static const u8 sText_Speed[] = _("HIZ");
 static const u8 sText_SpAtk2[] = _("ÖZ. ATK");
 static const u8 sText_SpDef2[] = _("ÖZ. DEF");
 static const u8 sText_Accuracy[] = _("kesinlik");
-static const u8 sText_Evasiveness[] = _("kaçabilirlik");
+static const u8 sText_Evasiveness[] = _("kaçınabilirlik");
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {

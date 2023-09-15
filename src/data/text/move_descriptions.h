@@ -2,1420 +2,1421 @@ static const u8 sNullDescription[] = _(
     "");
 
 static const u8 sPoundDescription[] = _(
-    "Pounds the foe with\n"
-    "forelegs or tail.");
+    "Düşmanı ön ayaklarıyla ya\n"
+    "da kuyruğuyla döver.");
 
 static const u8 sKarateChopDescription[] = _(
-    "A chopping attack with a\n"
-    "high critical-hit ratio.");
+    "Yüksek kritik oranına\n"
+    "sahip bir saldırı.");
 
 static const u8 sDoubleSlapDescription[] = _(
-    "Repeatedly slaps the foe\n"
-    "2 to 5 times.");
+    "Düşmana 2 ila 5 kez tekrar\n"
+    "tekrar tokat atar.");
 
 static const u8 sCometPunchDescription[] = _(
-    "Repeatedly punches the foe\n"
-    "2 to 5 times.");
+    "Düşmana 2 ila 5 kez tekrar\n"
+    "tekrar yumruk atar.");
 
 static const u8 sMegaPunchDescription[] = _(
-    "A strong punch thrown with\n"
-    "incredible power.");
+    "İnanılmaz bir güçle atılan\n"
+    "güçlü bir yumruk.");
 
 static const u8 sPayDayDescription[] = _(
-    "Throws coins at the foe.\n"
-    "Money is recovered after.");
+    "Düşmana para fırlatır.\n"
+    "Para daha sonra alınır.");
 
 static const u8 sFirePunchDescription[] = _(
-    "A fiery punch that may burn\n"
-    "the foe.");
+    "Düşmanı yakabilecek ateşli\n"
+    "bir yumruk.");
 
 static const u8 sIcePunchDescription[] = _(
-    "An icy punch that may\n"
-    "freeze the foe.");
+    "Düşmanı dondurabilecek buz\n"
+    "gibi bir yumruk.");
 
 static const u8 sThunderPunchDescription[] = _(
-    "An electrified punch that\n"
-    "may paralyze the foe.");
+    "Düşmanı felç edebilecek\n"
+    "elektrikli bir yumruk.");
 
 static const u8 sScratchDescription[] = _(
-    "Scratches the foe with\n"
-    "sharp claws.");
+    "Düşmanı keskin\n"
+    "pençeleriyle tırmalar.");
 
 static const u8 sViceGripDescription[] = _(
-    "Grips the foe with large and\n"
-    "powerful pincers.");
+    "Düşmanı büyük ve güçlü\n"
+    "kıskaçlarla kavrar.");
 
 static const u8 sGuillotineDescription[] = _(
-    "A powerful pincer attack\n"
-    "that may cause fainting.");
+    "Bayıltabilen bir kıskaç\n"
+    "saldırısı.");
 
 static const u8 sRazorWindDescription[] = _(
-    "A 2-turn move that strikes\n"
-    "the foe on the 2nd turn.");
+    "Düşmanı 2. turda vuran 2\n"
+    "turluk bir hamle.");
 
 static const u8 sSwordsDanceDescription[] = _(
-    "A fighting dance that\n"
-    "sharply raises ATTACK.");
+    "SALDIRIYI çokça yükselten\n"
+    "bir dövüş dansı.");
 
 static const u8 sCutDescription[] = _(
-    "Cuts the foe with sharp\n"
-    "scythes, claws, etc.");
+    "Düşmanı keskin tırpanlarla,\n"
+    "pençelerle vb. keser.");
 
 static const u8 sGustDescription[] = _(
-    "Strikes the foe with a gust\n"
-    "of wind whipped up by wings.");
+    "Düşmana kanatlarından\n"
+    "çıkan bir rüzgarla vurur.");
 
 static const u8 sWingAttackDescription[] = _(
-    "Strikes the foe with wings\n"
-    "spread wide.");
+    "Düşmana kanatlarını\n"
+    "açarak saldırır.");
 
 static const u8 sWhirlwindDescription[] = _(
-    "Blows away the foe with\n"
-    "wind and ends the battle.");
+    "Düşmanı rüzgarla savurur\n"
+    "ve savaşı bitirir.");
 
 static const u8 sFlyDescription[] = _(
-    "Flies up on the first turn,\n"
-    "then strikes the next turn.");
+    "İlk dönüşte uçar, sonraki\n"
+    "dönüşte vurur.");
 
 static const u8 sBindDescription[] = _(
-    "Binds and squeezes the foe\n"
-    "for 2 to 5 turns.");
+    "Düşmanı 2 ila 5 tur boyunca\n"
+    "bağlar ve sıkıştırır.");
 
 static const u8 sSlamDescription[] = _(
-    "Slams the foe with a long\n"
-    "tail, vine, etc.");
+    "Düşmanı uzun bir kuyruk,\n"
+    "asma vb. ile vurur.");
 
 static const u8 sVineWhipDescription[] = _(
-    "Strikes the foe with\n"
-    "slender, whiplike vines.");
+    "Düşmana ince, kırbaç gibi\n"
+    "sarmaşıklarla vurur.");
 
 static const u8 sStompDescription[] = _(
-    "Stomps the enemy with a big\n"
-    "foot. May cause flinching.");
+    "Düşmanı büyük bir ayakla\n"
+    "ezer. Düşman ürkebilir.");
 
 static const u8 sDoubleKickDescription[] = _(
-    "A double-kicking attack\n"
-    "that strikes the foe twice.");
+    "Düşmana iki kez vuran çift\n"
+    "tekme saldırısı.");
 
 static const u8 sMegaKickDescription[] = _(
-    "An extremely powerful kick\n"
-    "with intense force.");
+    "Yoğun kuvvete sahip son\n"
+    "derece güçlü bir tekme.");
 
 static const u8 sJumpKickDescription[] = _(
-    "A strong jumping kick. May\n"
-    "miss and hurt the kicker.");
+    "Güçlü bir zıplama tekmesi.\n"
+    "Iskalayabilir.");
 
 static const u8 sRollingKickDescription[] = _(
-    "A fast kick delivered from\n"
-    "a rapid spin.");
+    "Hızlı bir dönüşle atılan\n"
+    "hızlı bir tekme.");
 
 static const u8 sSandAttackDescription[] = _(
-    "Reduces the foe's accuracy\n"
-    "by hurling sand in its face.");
+    "Düşmanın yüzüne kum fırlatır\n"
+    "ve kesinliği azaltır.");
 
 static const u8 sHeadbuttDescription[] = _(
-    "A ramming attack that may\n"
-    "cause flinching.");
+    "İrkilmeye neden olabilecek\n"
+    "bir vuruş saldırısı.");
 
 static const u8 sHornAttackDescription[] = _(
-    "Jabs the foe with sharp\n"
-    "horns.");
+    "Düşmana keskin boynuzlarla\n"
+    "vurur.");
 
 static const u8 sFuryAttackDescription[] = _(
-    "Jabs the foe 2 to 5 times\n"
-    "with sharp horns, etc.");
+    "Düşmana keskin boynuzlarla\n"
+    "2 ila 5 kez vurur, vb.");
 
 static const u8 sHornDrillDescription[] = _(
-    "A one-hit KO attack that\n"
-    "uses a horn like a drill.");
+    "Tek vuruşta nakavt edebilen\n"
+    "bir boynuz saldırısı.");
 
 static const u8 sTackleDescription[] = _(
-    "Charges the foe with a full-\n"
-    "body tackle.");
+    "Düşmana tüm vücudu\n"
+    "kullanarak saldırır.");
 
 static const u8 sBodySlamDescription[] = _(
-    "A full-body slam that may\n"
-    "cause paralysis.");
+    "Felce neden olabilecek bir\n"
+    "tüm vücut vuruşu.");
 
 static const u8 sWrapDescription[] = _(
-    "Wraps and squeezes the foe\n"
-    "2 to 5 times with vines, etc.");
+    "Düşmanı sarmaşıklar ile\n"
+    "2 ila 5 kez sıkıştırır.");
 
 static const u8 sTakeDownDescription[] = _(
-    "A reckless charge attack\n"
-    "that also hurts the user.");
+    "Kullanıcıya da zarar veren\n"
+    "bir hücum saldırısı.");
 
 static const u8 sThrashDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Kullanıcı kafasını karıştıran\n"
+    "2 ila 3 turluk bir saldırı.");
 
 static const u8 sDoubleEdgeDescription[] = _(
-    "A life-risking tackle that\n"
-    "also hurts the user.");
+    "Kullanıcıya da zarar veren,\n"
+    "riskli bir saldırı.");
 
 static const u8 sTailWhipDescription[] = _(
-    "Wags the tail to lower the\n"
-    "foe's DEFENSE.");
+    "Düşmanın SAVUNMASINI\n"
+    "düşürmek için kuyruk sallar.");
 
 static const u8 sPoisonStingDescription[] = _(
-    "A toxic attack with barbs,\n"
-    "etc., that may poison.");
+    "Zehirleyebilecek dikenler\n"
+    "ile zehirli bir saldırı.");
 
 static const u8 sTwineedleDescription[] = _(
-    "Stingers on the forelegs\n"
-    "jab the foe twice.");
+    "Ön ayaklardaki iğneler\n"
+    "düşmana iki kez vurur.");
 
 static const u8 sPinMissileDescription[] = _(
-    "Sharp pins are fired to\n"
-    "strike 2 to 5 times.");
+    "Keskin iğneler 2 ila 5 kez\n"
+    "vurulmak üzere ateşlenir.");
 
 static const u8 sLeerDescription[] = _(
-    "Frightens the foe with a\n"
-    "leer to lower DEFENSE.");
+    "SAVUNMAYI düşürmek için bir\n"
+    "bakışla düşmanı korkutur.");
 
 static const u8 sBiteDescription[] = _(
-    "Bites with vicious fangs.\n"
-    "May cause flinching.");
+    "Vahşi dişlerle ısırır.\n"
+    "İrkilmeye neden olabilir.");
 
 static const u8 sGrowlDescription[] = _(
-    "Growls cutely to reduce the\n"
-    "foe's ATTACK.");
+    "Düşman SALDIRISI azaltmak\n"
+    "için sevimli şekilde hırlar.");
 
 static const u8 sRoarDescription[] = _(
-    "Makes the foe flee to end\n"
-    "the battle.");
+    "Düşmanın savaşı bitirmek\n"
+    "için kaçmasını sağlar.");
 
 static const u8 sSingDescription[] = _(
-    "A soothing song lulls the\n"
-    "foe into a deep slumber.");
+    "Sakinleştirici şarkısı,\n"
+    "düşmanı uykuya daldırır.");
 
 static const u8 sSupersonicDescription[] = _(
-    "Emits bizarre sound waves\n"
-    "that may confuse the foe.");
+    "Kafa karıştırabilecek tuhaf\n"
+    "ses dalgaları yayar.");
 
 static const u8 sSonicBoomDescription[] = _(
-    "Launches shock waves that\n"
-    "always inflict 20 HP damage.");
+    "Her zaman 20 CAN hasar veren\n"
+    "şok dalgaları fırlatır.");
 
 static const u8 sDisableDescription[] = _(
-    "Psychically disables one of\n"
-    "the foe's moves.");
+    "Düşman saldırılarından birini\n"
+    "psişik olarak engeller.");
 
 static const u8 sAcidDescription[] = _(
-    "Sprays a hide-melting acid.\n"
-    "May lower DEFENSE.");
+    "Deriyi eriten bir asit\n"
+    "püskürtür. SVN düşürebilir.");
 
 static const u8 sEmberDescription[] = _(
-    "A weak fire attack that may\n"
-    "inflict a burn.");
+    "Yanıklara yol açabilen\n"
+    "zayıf bir ateş saldırısı.");
 
 static const u8 sFlamethrowerDescription[] = _(
-    "A powerful fire attack that\n"
-    "may inflict a burn.");
+    "Yanıklara neden olabilen\n"
+    "güçlü bir ateş saldırısı.");
 
 static const u8 sMistDescription[] = _(
-    "Creates a mist that stops\n"
-    "reduction of abilities.");
+    "Yeteneklerin azalmasını\n"
+    "durduran bir sis yaratır.");
 
 static const u8 sWaterGunDescription[] = _(
-    "Squirts water to attack\n"
-    "the foe.");
+    "Düşmana saldırmak için su\n"
+    "fışkırtır.");
 
 static const u8 sHydroPumpDescription[] = _(
-    "Blasts water at high power\n"
-    "to strike the foe.");
+    "Düşmana saldırmak için\n"
+    "yüksek güçte su püskürtür.");
 
 static const u8 sSurfDescription[] = _(
-    "Creates a huge wave, then\n"
-    "crashes it down on the foe.");
+    "Büyük bir dalga yaratır,\n"
+    "sonra düşman üzerine çökertir.");
 
 static const u8 sIceBeamDescription[] = _(
-    "Blasts the foe with an icy\n"
-    "beam that may freeze it.");
+    "Düşmanı dondurabilecek\n"
+    "buzlu bir ışınla patlatır.");
 
 static const u8 sBlizzardDescription[] = _(
-    "Hits the foe with an icy\n"
-    "storm that may freeze it.");
+    "Düşmana onu dondurabilecek\n"
+    "buzlu bir fırtına ile vurur.");
 
 static const u8 sPsybeamDescription[] = _(
-    "Fires a peculiar ray that\n"
-    "may confuse the foe.");
+    "Kafa karıştırabilen özel\n"
+    "bir ışın yayar.");
 
 static const u8 sBubbleBeamDescription[] = _(
-    "Forcefully sprays bubbles\n"
-    "that may lower SPEED.");
+    "HIZI düşürebilen baloncuk\n"
+    "püskürtür.");
 
 static const u8 sAuroraBeamDescription[] = _(
-    "Fires a rainbow-colored\n"
-    "beam that may lower ATTACK.");
+    "SALDIRI azaltabilen gökkuşağı\n"
+    "renginde bir ışın fırlatır.");
 
 static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "Güçlüdür ama bir sonraki\n"
+    "turda hareketsiz bırakır.");
 
 static const u8 sPeckDescription[] = _(
-    "Attacks the foe with a\n"
-    "jabbing beak, etc.");
+    "Düşmana saplanan bir gaga\n"
+    "ile saldırır.");
 
 static const u8 sDrillPeckDescription[] = _(
-    "A corkscrewing attack with\n"
-    "the beak acting as a drill.");
+    "Gaga, matkap görevi görerek\n"
+    "düşmana saplanır.");
 
 static const u8 sSubmissionDescription[] = _(
-    "A reckless body slam that\n"
-    "also hurts the user.");
+    "Kullanıcısına da zarar\n"
+    "veren bir vücut darbesi.");
 
 static const u8 sLowKickDescription[] = _(
-    "A kick that inflicts more\n"
-    "damage on heavier foes.");
+    "Düşman ne kadar ağırsa o\n"
+    "kadar hasar veren bir saldırı.");
 
 static const u8 sCounterDescription[] = _(
-    "Retaliates any physical hit\n"
-    "with double the power.");
+    "Gelen fiziksel saldırılara\n"
+    "iki kat güçle karşılık verir.");
 
 static const u8 sSeismicTossDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+    "Kullanıcının seviyesine\n"
+    "eşit hasar verir.");
 
 static const u8 sStrengthDescription[] = _(
-    "Builds enormous power,\n"
-    "then slams the foe.");
+    "Muazzam bir güç oluşturur,\n"
+    "sonra düşmanı çarpar.");
 
 static const u8 sAbsorbDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+    "Verilen hasarın yarısını\n"
+    "emen bir saldırı.");
 
 static const u8 sMegaDrainDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+    "Verilen hasarın yarısını\n"
+    "emen bir saldırı.");
 
 static const u8 sLeechSeedDescription[] = _(
-    "Plants a seed on the foe to\n"
-    "steal HP on every turn.");
+    "Her turda can çalmak için\n"
+    "düşmana bir tohum eker.");
 
 static const u8 sGrowthDescription[] = _(
-    "Forces the body to grow\n"
-    "and heightens SP. ATK.");
+    "Vücudu büyümeye zorlar ve\n"
+    "ÖZ. SLD yükseltir.");
 
 static const u8 sRazorLeafDescription[] = _(
-    "Cuts the enemy with leaves.\n"
-    "High critical-hit ratio.");
+    "Düşmanı yapraklarla keser.\n"
+    "Yüksek kritik vuruş oranı var.");
 
 static const u8 sSolarBeamDescription[] = _(
-    "Absorbs light in one turn,\n"
-    "then attacks next turn.");
+    "Bir turda ışığı emer,\n"
+    "sonraki turda saldırır.");
 
 static const u8 sPoisonPowderDescription[] = _(
-    "Scatters a toxic powder\n"
-    "that may poison the foe.");
+    "Düşmanı zehirleyebilecek\n"
+    "zehirli bir toz saçar.");
 
 static const u8 sStunSporeDescription[] = _(
-    "Scatters a powder that may\n"
-    "paralyze the foe.");
+    "Düşmanı felç edebilecek bir\n"
+    "toz saçar.");
 
 static const u8 sSleepPowderDescription[] = _(
-    "Scatters a powder that may\n"
-    "cause the foe to sleep.");
+    "Düşmanın uyumasına neden\n"
+    "olabilecek bir toz saçar.");
 
 static const u8 sPetalDanceDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Kafa karıştıran 2 ila 3\n"
+    "turluk bir saldırı.");
 
 static const u8 sStringShotDescription[] = _(
-    "Binds the foe with string\n"
-    "to reduce its SPEED.");
+    "Hızını azaltmak için\n"
+    "düşmanı iple bağlar.");
 
 static const u8 sDragonRageDescription[] = _(
-    "Launches shock waves that\n"
-    "always inflict 40 HP damage.");
+    "Her zaman 40 can hasar veren\n"
+    "şok dalgaları fırlatır.");
 
 static const u8 sFireSpinDescription[] = _(
-    "Traps the foe in a ring of\n"
-    "fire for 2 to 5 turns.");
+    "Düşmanı 2 ila 5 tur boyunca\n"
+    "ateş çemberi içine hapseder.");
 
 static const u8 sThunderShockDescription[] = _(
-    "An electrical attack that\n"
-    "may paralyze the foe.");
+    "Düşmanı felç edebilen bir\n"
+    "elektrik saldırısı.");
 
 static const u8 sThunderboltDescription[] = _(
-    "A strong electrical attack\n"
-    "that may paralyze the foe.");
+    "Düşmanı felç edebilen güçlü\n"
+    "bir elektrik saldırısı.");
 
 static const u8 sThunderWaveDescription[] = _(
-    "A weak jolt of electricity\n"
-    "that paralyzes the foe.");
+    "Düşmanı felç eden zayıf bir\n"
+    "elektrik sarsıntısı.");
 
 static const u8 sThunderDescription[] = _(
-    "A lightning attack that may\n"
-    "cause paralysis.");
+    "Felce neden olabilecek bir\n"
+    "yıldırım saldırısı.");
 
 static const u8 sRockThrowDescription[] = _(
-    "Throws small rocks to\n"
-    "strike the foe.");
+    "Düşmana vurmak için küçük\n"
+    "taşlar fırlatır.");
 
 static const u8 sEarthquakeDescription[] = _(
-    "A powerful quake, but has\n"
-    "no effect on flying foes.");
+    "Güçlü bir sarsıntı, ancak\n"
+    "havadakilere hiçbir etkisi yok.");
 
 static const u8 sFissureDescription[] = _(
-    "A one-hit KO move that\n"
-    "drops the foe in a fissure.");
+    "Düşmanı yarık içine düşüren\n"
+    "tek vuruşluk nakavt hareketi.");
 
 static const u8 sDigDescription[] = _(
-    "Digs underground the first\n"
-    "turn and strikes next turn.");
+    "İlk turda yeraltını kazar\n"
+    "ve sonraki turda saldırır.");
 
 static const u8 sToxicDescription[] = _(
-    "Poisons the foe with an\n"
-    "intensifying toxin.");
+    "Düşmanı zararlı bir\n"
+    "toksinle zehirler.");
 
 static const u8 sConfusionDescription[] = _(
-    "A psychic attack that may\n"
-    "cause confusion.");
+    "Kafa karışıklığına neden\n"
+    "olabilecek bir saldırı.");
 
 static const u8 sPsychicDescription[] = _(
-    "A powerful psychic attack\n"
-    "that may lower SP. DEF.");
+    "ÖZ. SVN'yı düşürebilen güçlü\n"
+    "bir psişik saldırı.");
 
 static const u8 sHypnosisDescription[] = _(
-    "A hypnotizing move that\n"
-    "may induce sleep.");
+    "Uykuya neden olabilecek\n"
+    "hipnotize edici bir hareket.");
 
 static const u8 sMeditateDescription[] = _(
-    "Meditates in a peaceful\n"
-    "fashion to raise ATTACK.");
+    "SALDIRI'yı artırmak için\n"
+    "meditasyon yapar.");
 
 static const u8 sAgilityDescription[] = _(
-    "Relaxes the body to sharply\n"
-    "boost SPEED.");
+    "HIZI çokça artırmak için\n"
+    "vücudu rahatlatır.");
 
 static const u8 sQuickAttackDescription[] = _(
-    "An extremely fast attack\n"
-    "that always strikes first.");
+    "Her zaman ilk vuruşu yapan\n"
+    "hızlı bir saldırı.");
 
 static const u8 sRageDescription[] = _(
-    "Raises the user's ATTACK\n"
-    "every time it is hit.");
+    "Her vurulduğunda kullananın\n"
+    "SALDIRI gücünü artırır.");
 
 static const u8 sTeleportDescription[] = _(
-    "A psychic move for fleeing\n"
-    "from battle instantly.");
+    "Savaştan anında kaçmak\n"
+    "için psişik bir hareket.");
 
 static const u8 sNightShadeDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+    "Kullanıcının seviyesine\n"
+    "eşit hasar verir.");
 
 static const u8 sMimicDescription[] = _(
-    "Copies a move used by the\n"
-    "foe during one battle.");
+    "Savaş sırasında düşman\n"
+    "hareketini kopyalar.");
 
 static const u8 sScreechDescription[] = _(
-    "Emits a screech to sharply\n"
-    "reduce the foe's DEFENSE.");
+    "Düşmanın SAVUNMASINI\n"
+    "azaltan bir çığlık yayar.");
 
 static const u8 sDoubleTeamDescription[] = _(
-    "Creates illusory copies to\n"
-    "raise evasiveness.");
+    "Kesinliği artırmak için\n"
+    "hayali kopyalar yaratır.");
 
 static const u8 sRecoverDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+    "Kullananın maks. canının\n"
+    "yarısını iyileştirir.");
 
 static const u8 sHardenDescription[] = _(
-    "Stiffens the body's \n"
-    "muscles to raise DEFENSE.");
+    "Kasları sertleştirerek SAVUNMA\n"
+    "artırır.");
 
 static const u8 sMinimizeDescription[] = _(
-    "Minimizes the user's size\n"
-    "to raise evasiveness.");
+    "Kaçış kabiliyetini artırmak\n"
+    "için kullanıcıyı küçültür.");
 
 static const u8 sSmokescreenDescription[] = _(
-    "Lowers the foe's accuracy\n"
-    "using smoke, ink, etc.");
+    "Duman, mürekkep vb. ile\n"
+    "düşmanın isabetini düşürür.");
 
 static const u8 sConfuseRayDescription[] = _(
-    "A sinister ray that\n"
-    "confuses the foe.");
+    "Düşman kafasını karıştıran\n"
+    "bir ışın.");
 
 static const u8 sWithdrawDescription[] = _(
-    "Withdraws the body into its\n"
-    "hard shell to raise DEFENSE.");
+    "SAVUNMAYI artırmak için\n"
+    "vücudu kabuk içine çeker.");
 
 static const u8 sDefenseCurlDescription[] = _(
-    "Curls up to conceal weak\n"
-    "spots and raise DEFENSE.");
+    "Zayıflığını gizlemek için\n"
+    "SVN artırır ve büzülür.");
 
 static const u8 sBarrierDescription[] = _(
-    "Creates a barrier that\n"
-    "sharply raises DEFENSE.");
+    "SAVUNMAYI çokça yükselten\n"
+    "bir bariyer oluşturur.");
 
 static const u8 sLightScreenDescription[] = _(
-    "Creates a wall of light that\n"
-    "lowers SP. ATK damage.");
+    "ÖZ. SLD'yı düşüren bir ışık\n"
+    "duvarı oluşturur.");
 
 static const u8 sHazeDescription[] = _(
-    "Creates a black haze that\n"
-    "eliminates all stat changes.");
+    "Tüm durum değişikliklerini\n"
+    "kaldıran bir pus yaratır.");
 
 static const u8 sReflectDescription[] = _(
-    "Creates a wall of light that\n"
-    "weakens physical attacks.");
+    "Fiziksel saldırıları\n"
+    "zayıflatan duvar yaratır.");
 
 static const u8 sFocusEnergyDescription[] = _(
-    "Focuses power to raise the\n"
-    "critical-hit ratio.");
+    "Kritik oranını yükseltmek\n"
+    "için odaklanır.");
 
 static const u8 sBideDescription[] = _(
-    "Endures attack for 2\n"
-    "turns to retaliate double.");
+    "İsabeti iki kat artırmak\n"
+    "için 2 tur dayanır.");
 
 static const u8 sMetronomeDescription[] = _(
-    "Waggles a finger to use any\n"
-    "POKéMON move at random.");
+    "Parmak sallayarak rastgele\n"
+    "bir saldırı kullanır.");
 
 static const u8 sMirrorMoveDescription[] = _(
-    "Counters the foe's attack\n"
-    "with the same move.");
+    "Düşmanın saldırısını aynı\n"
+    "saldırı ile karşılar.");
 
 static const u8 sSelfDestructDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+    "Ağır hasar verir ama\n"
+    "kullanıcıyı bayıltır.");
 
 static const u8 sEggBombDescription[] = _(
-    "An egg is forcibly hurled at\n"
-    "the foe.");
+    "Düşmana zorla bir yumurta\n"
+    "fırlatılır.");
 
 static const u8 sLickDescription[] = _(
-    "Licks with a long tongue to\n"
-    "injure. May also paralyze.");
+    "Uzun bir dille ısırır.\n"
+    "Felç edebilir.");
 
 static const u8 sSmogDescription[] = _(
-    "An exhaust-gas attack\n"
-    "that may also poison.");
+    "Zehirleyebilecek bir egzoz\n"
+    "gazı saldırısı.");
 
 static const u8 sSludgeDescription[] = _(
-    "Sludge is hurled to inflict\n"
-    "damage. May also poison.");
+    "Çamur fırlatır.\n"
+    "Ayrıca zehirleyebilir.");
 
 static const u8 sBoneClubDescription[] = _(
-    "Clubs the foe with a bone.\n"
-    "May cause flinching.");
+    "Düşmana bir kemikle vurur.\n"
+    "Ürkütebilir.");
 
 static const u8 sFireBlastDescription[] = _(
-    "Incinerates everything it\n"
-    "strikes. May cause a burn.");
+    "Vurduğu her şeyi yakar.\n"
+    "Yanıklara neden olabilir.");
 
 static const u8 sWaterfallDescription[] = _(
-    "Charges the foe with speed\n"
-    "to climb waterfalls.");
+    "Şelalelere tırmanmak için\n"
+    "düşmana hızla hücum eder.");
 
 static const u8 sClampDescription[] = _(
-    "Traps and squeezes the\n"
-    "foe for 2 to 5 turns.");
+    "Düşmanı 2 ila 5 tur boyunca\n"
+    "sıkıştırır.");
 
 static const u8 sSwiftDescription[] = _(
-    "Sprays star-shaped rays\n"
-    "that never miss.");
+    "Asla ıskalamayan yıldız\n"
+    "ışınları yağdırır.");
 
 static const u8 sSkullBashDescription[] = _(
-    "Tucks in the head, then\n"
-    "attacks on the next turn.");
+    "Kafayı içeri sokar, sonra\n"
+    "bir sonraki turda saldırır.");
 
 static const u8 sSpikeCannonDescription[] = _(
-    "Launches sharp spikes that\n"
-    "strike 2 to 5 times.");
+    "2 ila 5 kez vuran keskin\n"
+    "sivri uçlar fırlatır.");
 
 static const u8 sConstrictDescription[] = _(
-    "Constricts to inflict pain.\n"
-    "May lower SPEED.");
+    "Acı vermek için daraltır.\n"
+    "Hızı düşürebilir.");
 
 static const u8 sAmnesiaDescription[] = _(
-    "Forgets about something\n"
-    "and sharply raises SP. DEF.");
+    "Hafızasından bir şey siler\n"
+    "ve ÖZ. SVN yükseltir.");
 
 static const u8 sKinesisDescription[] = _(
-    "Distracts the foe.\n"
-    "May lower accuracy.");
+    "Dikkat dağıtarak isabet\n"
+    "oranını düşürebilir.");
 
 static const u8 sSoftBoiledDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+    "Maksimum canının yarısına\n"
+    "kadar can iyileştirir.");
 
 static const u8 sHiJumpKickDescription[] = _(
-    "A jumping knee kick. If it\n"
-    "misses, the user is hurt.");
+    "Zıplayan bir diz tekmesi.\n"
+    "Iskalarsa geri teper.");
 
 static const u8 sGlareDescription[] = _(
-    "Intimidates and frightens\n"
-    "the foe into paralysis.");
+    "Düşmanı korkutur ve felce\n"
+    "uğratır.");
 
 static const u8 sDreamEaterDescription[] = _(
-    "Takes one half the damage\n"
-    "inflicted on a sleeping foe.");
+    "Uyuyan bir düşmana verilen\n"
+    "hasarın yarısını alır.");
 
 static const u8 sPoisonGasDescription[] = _(
-    "Envelops the foe in a toxic\n"
-    "gas that may poison.");
+    "Düşmanı zehirleyebilecek\n"
+    "zehirli bir gazla sarar.");
 
 static const u8 sBarrageDescription[] = _(
-    "Hurls round objects at the\n"
-    "foe 2 to 5 times.");
+    "Düşmana 2 ila 5 kez yuvarlak\n"
+    "nesneler fırlatır.");
 
 static const u8 sLeechLifeDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+    "Verilen hasarın yarısını\n"
+    "çalan bir saldırı.");
 
 static const u8 sLovelyKissDescription[] = _(
-    "Demands a kiss with a scary\n"
-    "face that induces sleep.");
+    "Uykuyu tetikleyen korkunç\n"
+    "bir öpücük ister.");
 
 static const u8 sSkyAttackDescription[] = _(
-    "Searches out weak spots,\n"
-    "then strikes the next turn.");
+    "Zayıf noktaları araştırır,\n"
+    "sonraki turda saldırır.");
 
 static const u8 sTransformDescription[] = _(
-    "Alters the user's cells to\n"
-    "become a copy of the foe.");
+    "Düşmanın hücrelerini\n"
+    "kopyalar ve ona dönüşür.");
 
 static const u8 sBubbleDescription[] = _(
-    "An attack using bubbles.\n"
-    "May lower the foe's SPEED.");
+    "Baloncuk fırlatan bir\n"
+    "saldırı. HIZ düşürebilir.");
 
 static const u8 sDizzyPunchDescription[] = _(
-    "A rhythmic punch that may\n"
-    "confuse the foe.");
+    "Kafa karıştırabilen ritmik\n"
+    "bir yumruk.");
 
 static const u8 sSporeDescription[] = _(
-    "Scatters a cloud of spores\n"
-    "that always induce sleep.");
+    "Her zaman uykuya neden\n"
+    "olan bir spor bulutu saçar.");
 
 static const u8 sFlashDescription[] = _(
-    "Looses a powerful blast of\n"
-    "light that cuts accuracy.");
+    "İsabeti kesen güçlü bir\n"
+    "ışık patlaması yayar.");
 
 static const u8 sPsywaveDescription[] = _(
-    "Attacks with a psychic\n"
-    "wave of varying intensity.");
+    "Değişken yoğunlukta psişik\n"
+    "bir dalga ile saldırır.");
 
 static const u8 sSplashDescription[] = _(
-    "It's just a splash...\n"
-    "Has no effect whatsoever.");
+    "Bu sadece bir sıçrama...\n"
+    "Hiçbir etkisi yok.");
 
 static const u8 sAcidArmorDescription[] = _(
-    "Liquifies the user's body\n"
-    "to sharply raise DEFENSE.");
+    "Kullanıcının vücudunu\n"
+    "sıvılaştırarak SVN artırır.");
 
 static const u8 sCrabhammerDescription[] = _(
-    "Hammers with a pincer. Has a\n"
-    "high critical-hit ratio.");
+    "Kıskaçlı çekiç. Yüksek\n"
+    "kritik oranına sahiptir.");
 
 static const u8 sExplosionDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+    "Ağır hasar verir ama\n"
+    "kullanıcıyı bayıltır.");
 
 static const u8 sFurySwipesDescription[] = _(
-    "Rakes the foe with sharp\n"
-    "claws, etc., 2 to 5 times.");
+    "Düşmanı keskin pençeler\n"
+    "ile 2-5 kez tırmıklar.");
 
 static const u8 sBonemerangDescription[] = _(
-    "Throws a bone boomerang\n"
-    "that strikes twice.");
+    "İki kez vuran bir kemik\n"
+    "bumerangı fırlatır.");
 
 static const u8 sRestDescription[] = _(
-    "The user sleeps for 2 turns,\n"
-    "restoring HP and status.");
+    "Kullanıcı 2 tur boyunca\n"
+    "uyur, canı yenilenir.");
 
 static const u8 sRockSlideDescription[] = _(
-    "Large boulders are hurled.\n"
-    "May cause flinching.");
+    "Büyük kayalar fırlatılır.\n"
+    "İrkilmeye neden olabilir.");
 
 static const u8 sHyperFangDescription[] = _(
-    "Attacks with sharp fangs.\n"
-    "May cause flinching.");
+    "Keskin dişlerle saldırır.\n"
+    "İrkilmeye neden olabilir.");
 
 static const u8 sSharpenDescription[] = _(
-    "Reduces the polygon count\n"
-    "and raises ATTACK.");
+    "Poligon sayısını azaltır ve\n"
+    "SALDIRIYI artırır.");
 
 static const u8 sConversionDescription[] = _(
-    "Changes the user's type\n"
-    "into a known move's type.");
+    "Kullanıcının türünü bilinen\n"
+    "bir saldırının türü yapar.");
 
 static const u8 sTriAttackDescription[] = _(
-    "Fires three types of beams\n"
-    "at the same time.");
+    "Aynı anda üç tür ışın\n"
+    "ateşler.");
 
 static const u8 sSuperFangDescription[] = _(
-    "Attacks with sharp fangs\n"
-    "and cuts half the foe's HP.");
+    "Keskin dişlerle saldırır ve\n"
+    "düşmanın canını yarılar.");
 
 static const u8 sSlashDescription[] = _(
-    "Slashes with claws, etc. Has\n"
-    "a high critical-hit ratio.");
+    "Pençelerle keser. Yüksek\n"
+    "kritik oranına sahiptir.");
 
 static const u8 sSubstituteDescription[] = _(
-    "Creates a decoy using 1/4\n"
-    "of the user's maximum HP.");
+    "Kullananın maks. canının\n"
+    "1/4'ü ile yem oluşturur.");
 
 static const u8 sStruggleDescription[] = _(
-    "Used only if all PP are gone.\n"
-    "Also hurts the user a little.");
+    "Sadece tüm PP'ler bitmişse\n"
+    "kullanılabilir.");
 
 static const u8 sSketchDescription[] = _(
-    "Copies the foe's last move\n"
-    "permanently.");
+    "Düşmanın son hamlesini\n"
+    "kalıcı olarak kopyalar.");
 
 static const u8 sTripleKickDescription[] = _(
-    "Kicks the foe 3 times in a\n"
-    "row with rising intensity.");
+    "Düşmanı artan bir şiddetle\n"
+    "3 kez tekmeler.");
 
 static const u8 sThiefDescription[] = _(
-    "While attacking, it may\n"
-    "steal the foe's held item.");
+    "Saldırırken, düşmanın\n"
+    "elindeki eşyayı çalabilir.");
 
 static const u8 sSpiderWebDescription[] = _(
-    "Ensnares the foe to stop it\n"
-    "from fleeing or switching.");
+    "Düşmanın kaçmasını\n"
+    "engeller.");
 
 static const u8 sMindReaderDescription[] = _(
-    "Senses the foe's action to\n"
-    "ensure the next move's hit.");
+    "Bir sonraki saldırının\n"
+    "isabetini artırır.");
 
 static const u8 sNightmareDescription[] = _(
-    "Inflicts 1/4 damage on a\n"
-    "sleeping foe every turn.");
+    "Her tur uyuyan bir düşmana\n"
+    "1/4 hasar verir.");
 
 static const u8 sFlameWheelDescription[] = _(
-    "A fiery charge attack that\n"
-    "may inflict a burn.");
+    "Yanıklara neden olabilen\n"
+    "ateşli bir saldırı.");
 
 static const u8 sSnoreDescription[] = _(
-    "A loud attack that can be\n"
-    "used only while asleep.");
+    "Yalnız uykuda kullanılabilen\n"
+    "yüksek sesli bir saldırı.");
 
 static const u8 sCurseDescription[] = _(
-    "A move that functions\n"
-    "differently for GHOSTS.");
+    "Hayaletler için farklı işlev\n"
+    "gören bir hareket.");
 
 static const u8 sFlailDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+    "Kullanıcının canı\n"
+    "azaldığında gücü artar.");
 
 static const u8 sConversion2Description[] = _(
-    "Makes the user resistant\n"
-    "to the last attack's type.");
+    "Kullanıcıyı son saldırının\n"
+    "türüne dynklılığını artırır.");
 
 static const u8 sAeroblastDescription[] = _(
-    "Launches a vacuumed blast.\n"
-    "High critical-hit ratio.");
+    "Güçlü bir patlama yaratır.\n"
+    "Kritik oranı yüksektir.");
 
 static const u8 sCottonSporeDescription[] = _(
-    "Spores cling to the foe,\n"
-    "sharply reducing SPEED.");
+    "Sporlar düşmana yapışarak\n"
+    "HIZI çokça azaltır.");
 
 static const u8 sReversalDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+    "Kullanıcının canı\n"
+    "azaldığında hasar artar.");
 
 static const u8 sSpiteDescription[] = _(
-    "Spitefully cuts the PP\n"
-    "of the foe's last move.");
+    "Düşmanın son hamlesinin\n"
+    "PP'sini çokça keser.");
 
 static const u8 sPowderSnowDescription[] = _(
-    "Blasts the foe with a snowy\n"
-    "gust. May cause freezing.");
+    "Düşmanı karlı bir rüzgarla\n"
+    "savurur. Dondurabilir.");
 
 static const u8 sProtectDescription[] = _(
-    "Evades attack, but may fail\n"
-    "if used in succession.");
+    "Saldırıdan kaçar, ancak\n"
+    "üst üste tutmayabilir.");
 
 static const u8 sMachPunchDescription[] = _(
-    "A punch is thrown at wicked\n"
-    "speed to strike first.");
+    "Saldırı önceliği olan\n"
+    "bir yumruk saldırısı.");
 
 static const u8 sScaryFaceDescription[] = _(
-    "Frightens with a scary face\n"
-    "to sharply reduce SPEED.");
+    "HIZI yüksek bir şekilde\n"
+    "azaltır.");
 
 static const u8 sFaintAttackDescription[] = _(
-    "Draws the foe close, then\n"
-    "strikes without fail.");
+    "Düşmanı yakınına çeker,\n"
+    "sonra hatasız vurur.");
 
 static const u8 sSweetKissDescription[] = _(
-    "Demands a kiss with a cute\n"
-    "look. May cause confusion.");
+    "Sevimli bir bakışla öpücük\n"
+    "ister. Kafa karıştırabilir.");
 
 static const u8 sBellyDrumDescription[] = _(
-    "Maximizes ATTACK while\n"
-    "sacrificing HP.");
+    "Canı feda ederken SLD\n"
+    "çokça yükseltir.");
 
 static const u8 sSludgeBombDescription[] = _(
-    "Sludge is hurled to inflict\n"
-    "damage. May also poison.");
+    "Hasar vermek için çamur\n"
+    "fırlatır. Zehirleyebilir.");
 
 static const u8 sMudSlapDescription[] = _(
-    "Hurls mud in the foe's face\n"
-    "to reduce its accuracy.");
+    "Çamur fırlatarak düşman\n"
+    "isabeti düşürülür.");
 
 static const u8 sOctazookaDescription[] = _(
-    "Fires a lump of ink to\n"
-    "damage and cut accuracy.");
+    "İsabeti düşürmek için\n"
+    "mürekkep ateşler.");
 
 static const u8 sSpikesDescription[] = _(
-    "Sets spikes that hurt a \n"
-    "foe switching in.");
+    "Düşmana zarar veren sivri\n"
+    "uçları devreye sokar.");
 
 static const u8 sZapCannonDescription[] = _(
-    "Powerful and sure to cause\n"
-    "paralysis, but inaccurate.");
+    "Oldukça güçlüdür ve felç\n"
+    "eder.");
 
 static const u8 sForesightDescription[] = _(
-    "Negates the foe's efforts\n"
-    "to heighten evasiveness.");
+    "İsabet düşürme etkilerini\n"
+    "keser.");
 
 static const u8 sDestinyBondDescription[] = _(
-    "If the user faints, the foe\n"
-    "is also made to faint.");
+    "Kullanıcı bayılırsa, düşman\n"
+    "da bayılır.");
 
 static const u8 sPerishSongDescription[] = _(
-    "Any POKéMON hearing this\n"
-    "song faints in 3 turns.");
+    "Bu şarkıyı duyan POKéMON\n"
+    "3 tur içinde bayılır.");
 
 static const u8 sIcyWindDescription[] = _(
-    "A chilling attack that\n"
-    "lowers the foe's SPEED.");
+    "Düşmanın HIZINI düşüren\n"
+    "korkunç bir saldırı.");
 
 static const u8 sDetectDescription[] = _(
-    "Evades attack, but may fail\n"
-    "if used in succession.");
+    "Saldırıdan kaçar, ancak\n"
+    "üst üste tutmayabilir.");
 
 static const u8 sBoneRushDescription[] = _(
-    "Strikes the foe with a bone\n"
-    "in hand 2 to 5 times.");
+    "Elindeki kemikle düşmanına\n"
+    "2 ila 5 kez vurur.");
 
 static const u8 sLockOnDescription[] = _(
-    "Locks on to the foe to\n"
-    "ensure the next move hits.");
+    "Bir sonraki hamlenin isabet\n"
+    "etmesi için kilitlenir.");
 
 static const u8 sOutrageDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Kullananın kafa karıştıran\n"
+    "2-3 turluk saldırı.");
 
 static const u8 sSandstormDescription[] = _(
-    "Causes a sandstorm that\n"
-    "rages for several turns.");
+    "Birkaç tur boyunca süren\n"
+    "kum fırtınası Başlatır.");
 
 static const u8 sGigaDrainDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+    "Verilen hasarın yarısını\n"
+    "çalan bir saldırı.");
 
 static const u8 sEndureDescription[] = _(
-    "Endures any attack for\n"
-    "1 turn, leaving at least 1HP.");
+    "En az 1 can bırakarak 1\n"
+    "tur saldırılara dayanır.");
 
 static const u8 sCharmDescription[] = _(
-    "Charms the foe and sharply\n"
-    "reduces its ATTACK.");
+    "Düşmanı büyüler ve SLD.\n"
+    "çokça azaltır.");
 
 static const u8 sRolloutDescription[] = _(
-    "An attack lasting 5 turns\n"
-    "with rising intensity.");
+    "Yoğunluğu artan ve 5 tur\n"
+    "süren bir saldırı.");
 
 static const u8 sFalseSwipeDescription[] = _(
-    "An attack that leaves the\n"
-    "foe with at least 1 HP.");
+    "Düşmanı en az 1 can ile\n"
+    "bırakan bir saldırı.");
 
 static const u8 sSwaggerDescription[] = _(
-    "Confuses the foe, but also\n"
-    "sharply raises ATTACK.");
+    "Düşman kafası karıştırır\n"
+    "ama SLD çokça yükseltir.");
 
 static const u8 sMilkDrinkDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+    "Kullanıcının maks canının\n"
+    "yarısını iyileştirir.");
 
 static const u8 sSparkDescription[] = _(
-    "An electrified tackle that\n"
-    "may paralyze the foe.");
+    "Düşmanı felç edebilecek\n"
+    "elektrikli bir saldırı.");
 
 static const u8 sFuryCutterDescription[] = _(
-    "An attack that intensifies\n"
-    "on each successive hit.");
+    "Art arda her vuruşta\n"
+    "şiddetlenen bir saldırı.");
 
 static const u8 sSteelWingDescription[] = _(
-    "Strikes the foe with hard\n"
-    "wings spread wide.");
+    "Düşmana sert kanatlarını\n"
+    "açarak saldırır.");
 
 static const u8 sMeanLookDescription[] = _(
-    "Fixes the foe with a mean\n"
-    "look that prevents escape.");
+    "Düşmanın kaçmasını\n"
+    "engelleyen sert bir bakış.");
 
 static const u8 sAttractDescription[] = _(
-    "Makes the opposite gender\n"
-    "less likely to attack.");
+    "Karşı cinsin saldırma\n"
+    "olasılığını azaltır.");
 
 static const u8 sSleepTalkDescription[] = _(
-    "Uses an available move\n"
-    "randomly while asleep.");
+    "Uykudayken rastgele bir\n"
+    "hareket kullanır.");
 
 static const u8 sHealBellDescription[] = _(
-    "Chimes soothingly to heal\n"
-    "all status abnormalities.");
+    "Tüm durum sorunlarını\n"
+    "ses ile iyileştirir.");
 
 static const u8 sReturnDescription[] = _(
-    "An attack that increases\n"
-    "in power with friendship.");
+    "Arkadaşlıkla gücü artan bir\n"
+    "saldırı.");
 
 static const u8 sPresentDescription[] = _(
-    "A gift in the form of a\n"
-    "bomb. May restore HP.");
+    "Bomba şeklinde bir hediye.\n"
+    "Canı yenileyebilir.");
 
 static const u8 sFrustrationDescription[] = _(
-    "An attack that is stronger\n"
-    "if the TRAINER is disliked.");
+    "Eğitmen sevilmediğinde\n"
+    "daha güçlü olan bir saldırı.");
 
 static const u8 sSafeguardDescription[] = _(
-    "A mystical force prevents\n"
-    "all status problems.");
+    "Tüm durum sorunlarını\n"
+    "önleyen, mistik bir güç.");
 
 static const u8 sPainSplitDescription[] = _(
-    "Adds the user and foe's HP,\n"
-    "then shares them equally.");
+    "Kullanıcı ve düşman canı\n"
+    "eşit olarak paylaştırır.");
 
 static const u8 sSacredFireDescription[] = _(
-    "A mystical fire attack that\n"
-    "may inflict a burn.");
+    "Yanıklara neden olabilen\n"
+    "mistik bir ateş saldırısı.");
 
 static const u8 sMagnitudeDescription[] = _(
-    "A ground-shaking attack\n"
-    "of random intensity.");
+    "Rastgele yoğunlukta, yeri\n"
+    "sarsan bir saldırı.");
 
 static const u8 sDynamicPunchDescription[] = _(
-    "Powerful and sure to cause\n"
-    "confusion, but inaccurate.");
+    "Kafa karıştırır ancak\n"
+    "isabeti düşüktür.");
 
 static const u8 sMegahornDescription[] = _(
-    "A brutal ramming attack\n"
-    "using out-thrust horns.");
+    "Acımasız bir boynuz\n"
+    "saldırısı.");
 
 static const u8 sDragonBreathDescription[] = _(
-    "Strikes the foe with an\n"
-    "incredible blast of breath.");
+    "Düşmanı inanılmaz bir nefes\n"
+    "patlamasıyla vurur.");
 
 static const u8 sBatonPassDescription[] = _(
-    "Switches out the user while\n"
-    "keeping effects in play.");
+    "Efektleri oyunda tutarken\n"
+    "kullanıcıyı değiştirir.");
 
 static const u8 sEncoreDescription[] = _(
-    "Makes the foe repeat its\n"
-    "last move over 2 to 6 turns.");
+    "Düşmana son hareketini\n"
+    "2-6 tur tekrarlatır.");
 
 static const u8 sPursuitDescription[] = _(
-    "Inflicts bad damage if used\n"
-    "on a foe switching out.");
+    "Değişen bir düşman üzerinde\n"
+    "hasarı yükselir.");
 
 static const u8 sRapidSpinDescription[] = _(
-    "Spins the body at high\n"
-    "speed to strike the foe.");
+    "Düşmana vurmak için vücudu\n"
+    "yüksek hızda döndürür.");
 
 static const u8 sSweetScentDescription[] = _(
-    "Allures the foe to reduce\n"
-    "evasiveness.");
+    "Kaçamakları azaltmak için\n"
+    "düşmanı cezbeder.");
 
 static const u8 sIronTailDescription[] = _(
-    "Attacks with a rock-hard\n"
-    "tail. May lower DEFENSE.");
+    "Kaya gibi sert bir kuyrukla\n"
+    "saldırır. SVN düşürebilir.");
 
 static const u8 sMetalClawDescription[] = _(
-    "A claw attack that may\n"
-    "raise the user's ATTACK.");
+    "Kullanıcının saldırısını\n"
+    "artırabilen bir saldırı.");
 
 static const u8 sVitalThrowDescription[] = _(
-    "Makes the user's move last,\n"
-    "but it never misses.");
+    "Kullanıcın saldırıyı en\n"
+    "son yapar ama ıskalamaz.");
 
 static const u8 sMorningSunDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+    "Canı iyileştirir. Miktar\n"
+    "havaya göre değişir.");
 
 static const u8 sSynthesisDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+    "Canı iyileştirir. Miktar\n"
+    "havaya göre değişir.");
 
 static const u8 sMoonlightDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+    "Canı iyileştirir. Miktar\n"
+    "havaya göre değişir.");
 
 static const u8 sHiddenPowerDescription[] = _(
-    "The effectiveness varies\n"
-    "with the user.");
+    "Türü kullanıcıya göre\n"
+    "değişir.");
 
 static const u8 sCrossChopDescription[] = _(
-    "A double-chopping attack.\n"
-    "High critical-hit ratio.");
+    "Çifte doğrama saldırısı.\n"
+    "Yüksek kritik vuruş oranı.");
 
 static const u8 sTwisterDescription[] = _(
-    "Whips up a vicious twister\n"
-    "to tear at the foe.");
+    "Düşmanı parçalamak için\n"
+    "güçlü bir hortum çıkarır.");
 
 static const u8 sRainDanceDescription[] = _(
-    "Boosts the power of WATER-\n"
-    "type moves for 5 turns.");
+    "SU tipi saldırı gücünü\n"
+    "5 tur boyunca artırır.");
 
 static const u8 sSunnyDayDescription[] = _(
-    "Boosts the power of FIRE-\n"
-    "type moves for 5 turns.");
+    "ATEŞ tipi saldırı gücünü\n"
+    "5 tur boyunca artırır.");
 
 static const u8 sCrunchDescription[] = _(
-    "Crunches with sharp fangs.\n"
-    "May lower SP. DEF.");
+    "Keskin dişlerle saldırır.\n"
+    "ÖZ. SVN düşürebilir.");
 
 static const u8 sMirrorCoatDescription[] = _(
-    "Counters the foe's special\n"
-    "attack at double the power.");
+    "Düşmanın özel saldırısını\n"
+    "iki kat güçle karşılar.");
 
 static const u8 sPsychUpDescription[] = _(
-    "Copies the foe's effect(s)\n"
-    "and gives to the user.");
+    "Düşman etkilerini\n"
+    "kopyalar ve alır.");
 
 static const u8 sExtremeSpeedDescription[] = _(
-    "An extremely fast and\n"
-    "powerful attack.");
+    "Son derece hızlı ve güçlü\n"
+    "bir saldırı.");
 
 static const u8 sAncientPowerDescription[] = _(
-    "An attack that may raise\n"
-    "all stats.");
+    "Tüm özellikleri\n"
+    "yükseltebilen bir saldırı.");
 
 static const u8 sShadowBallDescription[] = _(
-    "Hurls a black blob that may\n"
-    "lower the foe's SP. DEF.");
+    "Düşmana ÖZ SVN düşürebilen\n"
+    "kara bir top fırlatır.");
 
 static const u8 sFutureSightDescription[] = _(
-    "Heightens inner power to\n"
-    "strike 2 turns later.");
+    "2 tur sonra saldırmak için\n"
+    "içsel gücü artırır.");
 
 static const u8 sRockSmashDescription[] = _(
-    "A rock-crushing attack\n"
-    "that may lower DEFENSE.");
+    "SAVUNMAYI düşürebilecek\n"
+    "kaya kırıcı bir saldırı.");
 
 static const u8 sWhirlpoolDescription[] = _(
-    "Traps and hurts the foe in\n"
-    "a whirlpool for 2 to 5 turns.");
+    "Düşmanı 2 ila 5 tur boyunca\n"
+    "bir girdaba hapseder.");
 
 static const u8 sBeatUpDescription[] = _(
-    "Summons party POKéMON to\n"
-    "join in the attack.");
+    "Saldırıya katılmaları için\n"
+    "POKéMON takımını çağırır.");
 
 static const u8 sFakeOutDescription[] = _(
-    "A 1st-turn, 1st-strike move\n"
-    "that causes flinching.");
+    "İlk turda kullanılabilen,\n"
+    "ürküten, hızlı bir saldırı.");
 
 static const u8 sUproarDescription[] = _(
-    "Causes an uproar for 2 to 5\n"
-    "turns and prevents sleep.");
+    "2 ila 5 tur boyunca ses\n"
+    "yapar ve uykuyu engeller.");
 
 static const u8 sStockpileDescription[] = _(
-    "Charges up power for up to\n"
-    "3 turns.");
+    "Gücü 3 tura kadar şarj\n"
+    "eder.");
 
 static const u8 sSpitUpDescription[] = _(
-    "Releases stockpiled power\n"
-    "(the more the better).");
+    "Stoklanan gücü serbest\n"
+    "bırakır.");
 
 static const u8 sSwallowDescription[] = _(
-    "Absorbs stockpiled power\n"
-    "and restores HP.");
+    "Depolanan gücü emer ve\n"
+    "canı yeniler.");
 
 static const u8 sHeatWaveDescription[] = _(
-    "Exhales a hot breath on the\n"
-    "foe. May inflict a burn.");
+    "Düşmanın üzerine sıcak bir\n"
+    "nefes üfler. Yakabilir.");
 
 static const u8 sHailDescription[] = _(
-    "Summons a hailstorm that\n"
-    "strikes every turn.");
+    "Her turda vuran bir dolu\n"
+    "fırtınası çağırır.");
 
 static const u8 sTormentDescription[] = _(
-    "Torments the foe and stops\n"
-    "successive use of a move.");
+    "Eziyet edererek üst üste\n"
+    "kullanımı engeller.");
 
 static const u8 sFlatterDescription[] = _(
-    "Confuses the foe, but\n"
-    "raises its SP. ATK.");
+    "Düşman kafası karıştırır,\n"
+    "ancak ÖZ. SLD yükseltir.");
 
 static const u8 sWillOWispDescription[] = _(
-    "Inflicts a burn on the foe\n"
-    "with intense fire.");
+    "Düşmanı yoğun ateşle\n"
+    "yakar.");
 
 static const u8 sMementoDescription[] = _(
-    "The user faints and lowers\n"
-    "the foe's abilities.");
+    "Kullanıcı bayılır ve\n"
+    "düşman özlk. azaltır.");
 
 static const u8 sFacadeDescription[] = _(
-    "Boosts ATTACK when burned,\n"
-    "paralyzed, or poisoned.");
+    "Kötü bir durumda, SALDIRI\n"
+    "artırır.");
 
 static const u8 sFocusPunchDescription[] = _(
-    "A powerful loyalty attack.\n"
-    "The user flinches if hit.");
+    "Güçlüdür ancak kullanıcı\n"
+    "hasar alırsa ürker.");
 
 static const u8 sSmellingSaltDescription[] = _(
-    "Powerful against paralyzed\n"
-    "foes, but also heals them.");
+    "Felçli düşmanlara karşı x2\n"
+    "vurur ancak iyileştirir.");
 
 static const u8 sFollowMeDescription[] = _(
-    "Draws attention to make\n"
-    "foes attack only the user.");
+    "Düşmanların sadece kendine\n"
+    "saldırması için dikkat çeker.");
 
 static const u8 sNaturePowerDescription[] = _(
-    "The type of attack varies\n"
-    "depending on the location.");
+    "Saldırının türü bulunduğu\n"
+    "yere göre değişir.");
 
 static const u8 sChargeDescription[] = _(
-    "Charges power to boost the\n"
-    "electric move used next.");
+    "Bir sonraki elektrik\n"
+    "saldırısı için güç toplar.");
 
 static const u8 sTauntDescription[] = _(
-    "Taunts the foe into only\n"
-    "using attack moves.");
+    "Sadece hasar veren saldırı\n"
+    "kullanması için kızdırır.");
 
 static const u8 sHelpingHandDescription[] = _(
-    "Boosts the power of the\n"
-    "recipient's moves.");
+    "Dostun saldırılarının\n"
+    "gücünü artırır.");
 
 static const u8 sTrickDescription[] = _(
-    "Tricks the foe into trading\n"
-    "held items.");
+    "Düşmanı elindeki eşyaları\n"
+    "takas etmesi için kandırır.");
 
 static const u8 sRolePlayDescription[] = _(
-    "Mimics the target and\n"
-    "copies its special ability.");
+    "Hedefi taklit eder ve özel\n"
+    "yeteneğini kopyalar.");
 
 static const u8 sWishDescription[] = _(
-    "A wish that restores HP.\n"
-    "It takes time to work.");
+    "Can iyileştiren bir\n"
+    "dilek. Zaman alır.");
 
 static const u8 sAssistDescription[] = _(
-    "Attacks randomly with one\n"
-    "of the partner's moves.");
+    "Ortağın hareketlerinden\n"
+    "biriyle rastgele saldırır.");
 
 static const u8 sIngrainDescription[] = _(
-    "Lays roots that restore HP.\n"
-    "The user can't switch out.");
+    "Can yenileyen kökler salar.\n"
+    "Yer değiştiremez.");
 
 static const u8 sSuperpowerDescription[] = _(
-    "Boosts strength sharply,\n"
-    "but lowers abilities.");
+    "Gücü çokça artırır ama\n"
+    "yetenekleri azaltır.");
 
 static const u8 sMagicCoatDescription[] = _(
-    "Reflects special effects\n"
-    "back to the attacker.");
+    "Özel etkileri saldırgana\n"
+    "geri yansıtır.");
 
 static const u8 sRecycleDescription[] = _(
-    "Recycles a used item for\n"
-    "one more use.");
+    "Kullanılmış eşyayı tekrar\n"
+    "kullanım için dönüştürür.");
 
 static const u8 sRevengeDescription[] = _(
-    "An attack that gains power\n"
-    "if injured by the foe.");
+    "Düşman tarafından hasar\n"
+    "alınınca güçlenir.");
 
 static const u8 sBrickBreakDescription[] = _(
-    "Destroys barriers such as\n"
-    "REFLECT and causes damage.");
+    "YANSITMA gibi duvarları\n"
+    "yok eder hasar verir.");
 
 static const u8 sYawnDescription[] = _(
-    "Lulls the foe into yawning,\n"
-    "then sleeping next turn.");
+    "Düşmanı esnetir ve bir\n"
+    "sonraki turda uyutur.");
 
 static const u8 sKnockOffDescription[] = _(
-    "Knocks down the foe's held\n"
-    "item to prevent its use.");
+    "Düşmanın elindeki eşyayı\n"
+    "düşürerek engeller.");
 
 static const u8 sEndeavorDescription[] = _(
-    "Gains power if the user's HP\n"
-    "is lower than the foe's HP.");
+    "Kullanıcının canı düşman\n"
+    "canından düşükse güçlenir.");
 
 static const u8 sEruptionDescription[] = _(
-    "The higher the user's HP,\n"
-    "the more damage caused.");
+    "Kullanıcının canı ne kadar\n"
+    "yüksekse, o kadar güçlüdür.");
 
 static const u8 sSkillSwapDescription[] = _(
-    "The user swaps special\n"
-    "abilities with the target.");
+    "Kullanıcı hedefle özel\n"
+    "yeteneklerini değiştirir.");
 
 static const u8 sImprisonDescription[] = _(
-    "Prevents foes from using\n"
-    "moves known by the user.");
+    "Düşmanların kendi bildiği\n"
+    "saldırılarını engeller.");
 
 static const u8 sRefreshDescription[] = _(
-    "Heals poisoning, paralysis,\n"
-    "or a burn.");
+    "Zehirlenmeyi, felci ya da\n"
+    "yanığı iyileştirir.");
 
 static const u8 sGrudgeDescription[] = _(
-    "If the user faints, deletes\n"
-    "all PP of foe's last move.");
+    "Bayılırsa düşmanın son\n"
+    "saldırısının PP'lerini siler.");
 
 static const u8 sSnatchDescription[] = _(
-    "Steals the effects of the\n"
-    "move the target uses next.");
+    "Hedefin bir sonraki\n"
+    "etkilerini çalar.");
 
 static const u8 sSecretPowerDescription[] = _(
-    "An attack with effects\n"
-    "that vary by location.");
+    "Etkileri konuma göre\n"
+    "değişen bir saldırı.");
 
 static const u8 sDiveDescription[] = _(
-    "Dives underwater the first\n"
-    "turn and strikes next turn.");
+    "İlk turda su altına dalar ve\n"
+    "bir sonraki turda vurur.");
 
 static const u8 sArmThrustDescription[] = _(
-    "Straight-arm punches that\n"
-    "strike the foe 2 to 5 times.");
+    "Düşmana 2 ila 5 kez vuran\n"
+    "düz kol yumrukları.");
 
 static const u8 sCamouflageDescription[] = _(
-    "Alters the POKéMON's type\n"
-    "depending on the location.");
+    "Bulunduğu yere göre\n"
+    "POKéMON türü değiştirir.");
 
 static const u8 sTailGlowDescription[] = _(
-    "Flashes a light that sharply\n"
-    "raises SP. ATK.");
+    "ÖZ. SLD çokça yükselten\n"
+    "bir ışık yakıp söndürür.");
 
 static const u8 sLusterPurgeDescription[] = _(
-    "Attacks with a burst of\n"
-    "light. May lower SP. DEF.");
+    "Işık patlamasıyla saldırır.\n"
+    "ÖZ. SVN düşürebilir.");
 
 static const u8 sMistBallDescription[] = _(
-    "Attacks with a flurry of\n"
-    "down. May lower SP. ATK.");
+    "Bir telaşla saldırır.\n"
+    "ÖZ. SLD düşürebilir.");
 
 static const u8 sFeatherDanceDescription[] = _(
-    "Envelops the foe with down\n"
-    "to sharply reduce ATTACK.");
+    "Düşmanın saldırısını iki\n"
+    "seviye düşürür.");
 
 static const u8 sTeeterDanceDescription[] = _(
-    "Confuses all POKéMON on\n"
-    "the scene.");
+    "Savaştaki POKéMON'ların\n"
+    "kafasını karıştırır.");
 
 static const u8 sBlazeKickDescription[] = _(
-    "A kick with a high critical-\n"
-    "hit ratio. May cause a burn.");
+    "Kritik oranı yüksektir.\n"
+    "Yanığa neden olabilir.");
 
 static const u8 sMudSportDescription[] = _(
-    "Covers the user in mud to\n"
-    "raise electrical resistance.");
+    "Elektrik direncini artırmak\n"
+    "için çamurla kaplanır.");
 
 static const u8 sIceBallDescription[] = _(
-    "A 5-turn attack that gains\n"
-    "power on successive hits.");
+    "Art arda vurunca güçlenen\n"
+    "5 turluk bir saldırı.");
 
 static const u8 sNeedleArmDescription[] = _(
-    "Attacks with thorny arms.\n"
-    "May cause flinching.");
+    "Dikenli kollarla saldırır.\n"
+    "Ürkmeye neden olabilir.");
 
 static const u8 sSlackOffDescription[] = _(
-    "Slacks off and restores\n"
-    "half the maximum HP.");
+    "Yavaşlar ve maksimum canın\n"
+    "yarısını yeniler.");
 
 static const u8 sHyperVoiceDescription[] = _(
-    "A loud attack that uses\n"
-    "sound waves to injure.");
+    "Ses dalgalarını kullanan\n"
+    "bir saldırı.");
 
 static const u8 sPoisonFangDescription[] = _(
-    "A sharp-fanged attack.\n"
-    "May badly poison the foe.");
+    "Keskin dişli bir saldırı.\n"
+    "Ağır zehirleyebilir.");
 
 static const u8 sCrushClawDescription[] = _(
-    "Tears at the foe with sharp\n"
-    "claws. May lower DEFENSE.");
+    "Keskin pençelerle düşmanı\n"
+    "keser. SVN düşürebilir.");
 
 static const u8 sBlastBurnDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "Güçlüdür ama kullanıcıyı\n"
+    "hareketsiz bırakır.");
 
 static const u8 sHydroCannonDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "Güçlüdür ama kullanıcıyı\n"
+    "hareketsiz bırakır.");
 
 static const u8 sMeteorMashDescription[] = _(
-    "Fires a meteor-like punch.\n"
-    "May raise ATTACK.");
+    "Meteor benzeri bir yumruk\n"
+    "atar. SLD yükseltebilir.");
 
 static const u8 sAstonishDescription[] = _(
-    "An attack that may shock\n"
-    "the foe into flinching.");
+    "Düşmanı şok ederek\n"
+    "korkutabilecek bir saldırı.");
 
 static const u8 sWeatherBallDescription[] = _(
-    "The move's type and power\n"
-    "change with the weather.");
+    "Hareketin türü ve gücü\n"
+    "hava durumuna göre değişir.");
 
 static const u8 sAromatherapyDescription[] = _(
-    "Heals all status problems\n"
-    "with a soothing scent.");
+    "Yatıştırıcı kokusuyla tüm\n"
+    "sorunları iyileştirir.");
 
 static const u8 sFakeTearsDescription[] = _(
-    "Feigns crying to sharply\n"
-    "lower the foe's SP. DEF.");
+    "Düşmanın ÖZ. SVN keskin bir\n"
+    "şekilde düşürür.");
 
 static const u8 sAirCutterDescription[] = _(
-    "Hacks with razorlike wind.\n"
-    "High critical-hit ratio.");
+    "Jilet gibi bir rüzgarla\n"
+    "keser. Kritik oran yüksek.");
 
 static const u8 sOverheatDescription[] = _(
-    "Allows a full-power attack,\n"
-    "but sharply lowers SP. ATK.");
+    "Tam güç saldırı yapar ama\n"
+    "ÖZ. SLD çokça düşer.");
 
 static const u8 sOdorSleuthDescription[] = _(
-    "Negates the foe's efforts\n"
-    "to heighten evasiveness.");
+    "Düşmanın kaçınma çabalarını\n"
+    "boşa çıkarır.");
 
 static const u8 sRockTombDescription[] = _(
-    "Stops the foe from moving\n"
-    "with rocks and cuts SPEED.");
+    "Kayalarla hareketi engeller\n"
+    "Hızı düşürebilir.");
 
 static const u8 sSilverWindDescription[] = _(
-    "A powdery attack that may\n"
-    "raise abilities.");
+    "Yetenekleri artırabilen\n"
+    "tozlu bir saldırı.");
 
 static const u8 sMetalSoundDescription[] = _(
-    "Emits a horrible screech\n"
-    "that sharply lowers SP. DEF.");
+    "ÖZ. SVN'yı çokça düşüren\n"
+    "korkunç bir çığlık yayar.");
 
 static const u8 sGrassWhistleDescription[] = _(
-    "Lulls the foe into sleep\n"
-    "with a pleasant melody.");
+    "Düşmanı hoş bir melodiyle\n"
+    "uyutur.");
 
 static const u8 sTickleDescription[] = _(
-    "Makes the foe laugh to\n"
-    "lower ATTACK and DEFENSE.");
+    "SLD ve SVN düşürmek için\n"
+    "düşmanı güldürür.");
 
 static const u8 sCosmicPowerDescription[] = _(
-    "Raises DEFENSE and SP. DEF\n"
-    "with a mystic power.");
+    "Savunmayı ve ÖZ. SVN'yı\n"
+    "mistik bir güçle yükseltir.");
 
 static const u8 sWaterSpoutDescription[] = _(
-    "Inflicts more damage if the\n"
-    "user's HP is high.");
+    "Kullanıcının canı yüksek\n"
+    "ise daha fazla hasar verir.");
 
 static const u8 sSignalBeamDescription[] = _(
-    "A strange beam attack that\n"
-    "may confuse the foe.");
+    "Düşman kafası karıştırabilen\n"
+    "bir ışın saldırısı.");
 
 static const u8 sShadowPunchDescription[] = _(
-    "An unavoidable punch that\n"
-    "is thrown from shadows.");
+    "Gölgelerden atılan\n"
+    "kaçınılmaz bir yumruk.");
 
 static const u8 sExtrasensoryDescription[] = _(
-    "Attacks with a peculiar\n"
-    "power. May cause flinching.");
+    "Tuhaf bir güçle saldırır.\n"
+    "Ürkütmeye neden olabilir.");
 
 static const u8 sSkyUppercutDescription[] = _(
-    "An uppercut thrown as if\n"
-    "leaping into the sky.");
+    "Gökyüzüne sıçrar gibi\n"
+    "atılan bir aparkat.");
 
 static const u8 sSandTombDescription[] = _(
-    "Traps and hurts the foe in\n"
-    "quicksand for 2 to 5 turns.");
+    "Düşmanı 2 ila 5 tur boyunca\n"
+    "bataklığa hapseder.");
 
 static const u8 sSheerColdDescription[] = _(
-    "A chilling attack that\n"
-    "causes fainting if it hits.");
+    "İsabet ettiğinde bayılmaya\n"
+    "neden olan bir saldırı.");
 
 static const u8 sMuddyWaterDescription[] = _(
-    "Attacks with muddy water.\n"
-    "May lower accuracy.");
+    "Çamurlu su ile saldırır.\n"
+    "İsabet oranı düşebilir.");
 
 static const u8 sBulletSeedDescription[] = _(
-    "Shoots 2 to 5 seeds in a row\n"
-    "to strike the foe.");
+    "Düşmana saldırmak için arka\n"
+    "arkaya 2 ila 5 tohum atar.");
 
 static const u8 sAerialAceDescription[] = _(
-    "An extremely speedy and\n"
-    "unavoidable attack.");
+    "Son derece hızlı ve\n"
+    "kaçınılmaz bir saldırı.");
 
 static const u8 sIcicleSpearDescription[] = _(
-    "Attacks the foe by firing\n"
-    "2 to 5 icicles in a row.");
+    "Arka arkaya 2 ila 5 buz\n"
+    "sarkıtını fırlatır.");
 
 static const u8 sIronDefenseDescription[] = _(
-    "Hardens the body's surface\n"
-    "to sharply raise DEFENSE.");
+    "Vücudu sertleştirerek savunma\n"
+    "çokça artırır.");
 
 static const u8 sBlockDescription[] = _(
-    "Blocks the foe's way to\n"
-    "prevent escape.");
+    "Kaçışı engellemek için\n"
+    "düşmanın yolunu keser.");
 
 static const u8 sHowlDescription[] = _(
-    "Howls to raise the spirit\n"
-    "and boosts ATTACK.");
+    "Ruhu yükseltmek için ulur\n"
+    "ve SALDIRIYI artırır.");
 
 static const u8 sDragonClawDescription[] = _(
-    "Slashes the foe with sharp\n"
-    "claws.");
+    "Düşmanı keskin\n"
+    "pençeleriyle keser.");
 
 static const u8 sFrenzyPlantDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "Güçlüdür ama kullanıcıyı\n"
+    "sonraki turda felç eder.");
 
 static const u8 sBulkUpDescription[] = _(
-    "Bulks up the body to boost\n"
-    "both ATTACK and DEFENSE.");
+    "Hem SALDIRI hem de\n"
+    "SAVUNMAYI artırır.");
 
 static const u8 sBounceDescription[] = _(
-    "Bounces up, then down the\n"
-    "next turn. May paralyze.");
+    "Zıplar, bir sonraki turda\n"
+    "aşağı iner. Felç edebilir.");
 
 static const u8 sMudShotDescription[] = _(
-    "Hurls mud at the foe and\n"
-    "reduces SPEED.");
+    "Düşmana çamur fırlatır ve\n"
+    "HIZI azaltır.");
 
 static const u8 sPoisonTailDescription[] = _(
-    "Has a high critical-hit\n"
-    "ratio. May also poison.");
+    "Yüksek kritik oranına\n"
+    "sahiptir. Zehirleyebilir.");
 
 static const u8 sCovetDescription[] = _(
-    "Cutely begs to obtain an\n"
-    "item held by the foe.");
+    "Düşman elindeki eşyayı\n"
+    "şirin bir şekilde yalvarır.");
 
 static const u8 sVoltTackleDescription[] = _(
-    "A life-risking tackle that\n"
-    "slightly hurts the user.");
+    "Kullanıcıya hafifçe zarar\n"
+    "veren, riskli bir saldırı.");
 
 static const u8 sMagicalLeafDescription[] = _(
-    "Attacks with a strange leaf\n"
-    "that cannot be evaded.");
+    "Kaçınılması mümkün olmayan\n"
+    "bir yaprakla saldırır.");
 
 static const u8 sWaterSportDescription[] = _(
-    "The user becomes soaked to\n"
-    "raise resistance to fire.");
+    "Ateşe karşı direnç\n"
+    "artırmak için ıslanır.");
 
 static const u8 sCalmMindDescription[] = _(
-    "Raises SP. ATK and SP. DEF\n"
-    "by focusing the mind.");
+    "ÖZ. SLD ve ÖZ. SVN'yı zihni\n"
+    "odaklayarak yükseltir.");
 
 static const u8 sLeafBladeDescription[] = _(
-    "Slashes with a sharp leaf.\n"
-    "High critical-hit ratio.");
+    "Keskin bir yaprakla keser.\n"
+    "Yüksek kritik vuruş oranı.");
 
 static const u8 sDragonDanceDescription[] = _(
-    "A mystical dance that ups\n"
-    "ATTACK and SPEED.");
+    "SALDIRI ve HIZI artıran\n"
+    "mistik bir dans.");
 
 static const u8 sRockBlastDescription[] = _(
-    "Hurls boulders at the foe\n"
-    "2 to 5 times in a row.");
+    "Düşmana arka arkaya 2 ila 5\n"
+    "kez kaya fırlatır.");
 
 static const u8 sShockWaveDescription[] = _(
-    "A fast and unavoidable\n"
-    "electric attack.");
+    "Hızlı ve kaçınılmaz bir\n"
+    "elektrik saldırısı.");
 
 static const u8 sWaterPulseDescription[] = _(
-    "Attacks with ultrasonic\n"
-    "waves. May confuse the foe.");
+    "Ultrasonik dalga ile vurur.\n"
+    "Kafa karıştırabilir.");
 
 static const u8 sDoomDesireDescription[] = _(
-    "Summons strong sunlight to\n"
-    "attack 2 turns later.");
+    "2 tur sonra saldırmak için\n"
+    "güçlü güneş ışığı çağırır.");
 
 static const u8 sPsychoBoostDescription[] = _(
-    "Allows a full-power attack,\n"
-    "but sharply lowers SP. ATK.");
+    "Tam güç saldırır ancak\n"
+    "ÖZ. SLD çokça düşürür.");
+
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =

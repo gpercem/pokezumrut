@@ -347,7 +347,7 @@ RivalsHouse_1F_Text_WentOutToRoute103:
 	.string "Ee, {RIVAL} biraz önce ROTA 103'e\n"
 	.string "doğru yola çıktı.\p"
 	.string "Aynı babası.\n"
-	.string "{RIVAL} asla evde sessiz sakin\noturamıyor.$"
+	.string "{RIVAL} asla evde sessiz sakin\loturamıyor.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "İnsanların POKéMON'larla gezmesi\n"

@@ -260,81 +260,186 @@ DewfordTown_Hall_EventScript_ReceivedSludgeBomb::
 	end
 
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend:
-	.string "En yeni moda şey ne mi?\n{STR_VAR_1} tabii ki!\p{STR_VAR_1} olmadan hayatın nasıl\nolacağını hayal bile edemiyorum!$"
+	.string "What's in vogue? Why, it has to be\n"
+	.string "“{STR_VAR_1}”!\p"
+	.string "I can't imagine what life would be like\n"
+	.string "without “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_GettingBoredOfTrend:
-	.string "En yeni moda şey ne mi?\n{STR_VAR_1} tabii ki!\pAma bundan sıkılmaya başladım.\pBir sonraki büyük şeyi aramalıyım.$"
+	.string "What's in vogue? Why, it has to be\n"
+	.string "“{STR_VAR_1}”!\p"
+	.string "But I'm getting kind of bored with it.\p"
+	.string "I should look for the next big thing.$"
 
 DewfordTown_Hall_Text_TeachingMonAboutTrend:
-	.string "POKéMON'uma {STR_VAR_1} hakkında\nbir şeyler öğretiyorum ama pek\liyi gitmiyor.\pSanırım biraz fazla geldi.$"
+	.string "I'm teaching my POKéMON about\n"
+	.string "“{STR_VAR_1},”\l"
+	.string "but it's not going well.\p"
+	.string "It's a bit too much, I think.$"
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY:
-	.string "Şu anda moda olan {STR_VAR_1}\nüzerinde çalışıyorum.\p{STR_VAR_1} ve {STR_VAR_2} arasında\nderin bir bağlantı olduğu doğru mu?$"
+	.string "I'm studying up on the hip and trendy\n"
+	.string "“{STR_VAR_1}” now.\p"
+	.string "Is it true that there's a deep link\n"
+	.string "between “{STR_VAR_1}”\l"
+	.string "and “{STR_VAR_2}”?$"
 
 DewfordTown_Hall_Text_MyHunchWasRight:
-	.string "Hey!\nDemek önsezim doğruymuş!\pHavalı ve popüler olmaya bir adım daha\nyaklaştım, yupi!$"
+	.string "Oh!\n"
+	.string "So, my hunch was right!\p"
+	.string "I'm one step closer to being hip and\n"
+	.string "happening, yowza!$"
 
 DewfordTown_Hall_Text_NotEasyToKeepUp:
-	.string "Ne?! Öyle mi?!\pBenim gibi yaşlı bir adam için modayı\ntakip etmek kolay değil!$"
+	.string "What?!\n"
+	.string "Is that so?!\p"
+	.string "It's not easy for an older fellow like\n"
+	.string "me to keep up with trends!$"
 
 DewfordTown_Hall_Text_TVShowAboutTrend:
-	.string "Tüm bu {STR_VAR_1}\nmeselesi…\pBununla ilgili bir televizyon\nprogramı yok mu?$"
+	.string "This whole business about\n"
+	.string "“{STR_VAR_1}”…\l"
+	.string "Isn't there a TV show on it?$"
 
 DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea:
-	.string "Denizin ötesinde de…\n{STR_VAR_1} popüler midir?$"
+	.string "Across the sea…\p"
+	.string "Is “{STR_VAR_1}”\n"
+	.string "even more popular?$"
 
 DewfordTown_Hall_Text_CollectTrendMerchandise:
-	.string "Resmi {STR_VAR_1}\nürün koleksiyonu yapıyorum.\pBende resmi {STR_VAR_1}var.\pResmi {STR_VAR_1} marka kıyafet…\pVe resmi lisanslı {STR_VAR_1} resimli\nkitapları.\pHeheh, ben sahibim! Sizinle hiçbir şey\npaylaşmıyorum!$"
+	.string "I collect official\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "licensed merchandise.\p"
+	.string "I have official\n"
+	.string "“{STR_VAR_1}” DOLLS…\p"
+	.string "Official “{STR_VAR_1}”\n"
+	.string "brand clothing…\p"
+	.string "And officially licensed\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "picture books.\p"
+	.string "Heheh, I own!\n"
+	.string "I'm not sharing anything with you!$"
 
 DewfordTown_Hall_Text_BooksAboutTrend:
-	.string "İYİ {STR_VAR_1} VE\nKÖTÜ {STR_VAR_1}…\pYARARLI {STR_VAR_1}…\p{STR_VAR_1} ile ilgili\nkitaplarla tıka basa dolu.$"
+	.string "IDENTIFYING GOOD\n"
+	.string "“{STR_VAR_1}” &\l"
+	.string "BAD “{STR_VAR_1}”…\p"
+	.string "THE LINK BETWEEN\n"
+	.string "“{STR_VAR_1}” AND\l"
+	.string "POKéMON…\p"
+	.string "USEFUL\n"
+	.string "“{STR_VAR_1}”…\p"
+	.string "It's neatly jammed with books about\n"
+	.string "“{STR_VAR_1}.”$"
 
 DewfordTown_Hall_Text_TrendsScream:
-	.string "Başlıkta, {STR_VAR_1}'IN\nÇIĞLIĞI yazıyor.$"
+	.string "“{STR_VAR_1}'S\n"
+	.string "SCREAM” is the title.$"
 
 DewfordTown_Hall_Text_TrendsSmile:
-	.string "Başlıkta, {STR_VAR_1}'IN\nGÜLÜMSEMESİ yazıyor.$"
+	.string "“{STR_VAR_1}'S\n"
+	.string "SMILE” is the title.$"
 
 DewfordTown_Hall_Text_LastTrend:
-	.string "Başlıkta, SON {STR_VAR_1}\nyazıyor.$"
+	.string "It's titled “THE LAST\n"
+	.string "{STR_VAR_1}”.$"
 
 DewfordTown_Hall_Text_BirthOfTrend:
-	.string "Başlıkta, {STR_VAR_1}'IN\nDOĞUMU yazıyor.$"
+	.string "It's titled “THE BIRTH OF\n"
+	.string "{STR_VAR_1}”.$"
 
 DewfordTown_Hall_Text_SawTrendCoolestThing:
-	.string "{STR_VAR_1} gördüm!\nHarika, değil mi?\pBu, olabilecek en havalı şey!\p$"
+	.string "I saw “{STR_VAR_1}”!\n"
+	.string "Cool, huh?\p"
+	.string "It's, like, the coolest thing going!\p"
+	.string "It was awesome!\n"
+	.string "It was the real thing, oh yeah!$"
 
 DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
-	.string "Ya, hayır, hayır, hayır.\pGördüğünü iddia ettiğiniz sözde\n{STR_VAR_1} bu değil.\pGerçek olan çok daha…\nNasıl desem?\lDaha keskin, ama daha yumuşak!$"
+	.string "Oh, no, no, no.\p"
+	.string "That alleged\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "you claim to have seen--it's not.\p"
+	.string "The authentic article is much…\n"
+	.string "How should I say it?\l"
+	.string "Sharper, yet more mellow!\p"
+	.string "Ah, no matter. It's astonishing!$"
 
 DewfordTown_Hall_Text_ComposedTrendThemeSong:
-	.string "Hey, dinle, {STR_VAR_1}\niçin bir tema şarkısı yazdım.\p{STR_VAR_1} şu anda\nçok popüler.\pTamam, dinle!\n… …\pHey! {STR_VAR_1}!\pŞahane {STR_VAR_1}!$"
+	.string "Hey, listen, I composed a theme song\n"
+	.string "for “{STR_VAR_1}.”\p"
+	.string "“{STR_VAR_1}”\n"
+	.string "is really popular right now.\p"
+	.string "Okay, listen!\n"
+	.string "… …\p"
+	.string "Oh!\n"
+	.string "{STR_VAR_1}!\p"
+	.string "Wonderful\n"
+	.string "{STR_VAR_1}!$"
 
 DewfordTown_Hall_Text_WorkOnYourSinging:
-	.string "… …\pDiyebileceğim şu ki dostum,\n{STR_VAR_1} ile\luğraşmadan önce şarkı söylemeye\lçalışsan iyi olur.$"
+	.string "… …\p"
+	.string "I dare say, chap, it would pay for you\n"
+	.string "to work on your singing before you\l"
+	.string "trifle yourself with\l"
+	.string "“{STR_VAR_1}.”$"
 
 DewfordTown_Hall_Text_OrganizeTrendParty:
-	.string "Her neyse, daha önce de söylediğim\ngibi, bir araya gelmeli ve adada bir\l{STR_VAR_1} partisi\ldüzenlemeliyiz.$"
+	.string "Anyway, as I was saying earlier, we\n"
+	.string "should get together and organize a\l"
+	.string "“{STR_VAR_1}” party\l"
+	.string "on the island.$"
 
 DewfordTown_Hall_Text_BrilliantIndeed:
-	.string "Bu harika bir fikir!\p{STR_VAR_1} konusunda kimin en iyi\nolduğu ilk ve son kez ortaya çıkacak.\lGerçekten harika!\pBugünden itibaren hayatlarımız\n{STR_VAR_1} etrafında\ldönecek!$"
+	.string "Oh, a smashing good idea!\p"
+	.string "It will settle once and for all\n"
+	.string "who is the best at\l"
+	.string "“{STR_VAR_1}.”\l"
+	.string "Brilliant, indeed!\p"
+	.string "Starting today, our lives will revolve\n"
+	.string "around “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_TrendHasBecomePartOfLife:
-	.string "Düşünüyordum da…\pSence {STR_VAR_1}\nmodaya uygun bir şey olmaktan\lçıkıp günlük hayatımızın bir\lparçası haline gelmedi mi?$"
+	.string "I was thinking, though…\p"
+	.string "Wouldn't you agree that\n"
+	.string "“{STR_VAR_1}” has\l"
+	.string "grown from being something trendy to\l"
+	.string "being a part of our daily lives?$"
 
 DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
-	.string "Pardon?\nO kadar mı, ne?\pAncak, ister uyanık ister uykuda olun,\n{STR_VAR_1}ın zihninizde büyük bir\lağırlık oluşturduğu doğrudur.\pKesinlikle, {STR_VAR_1} sizsiniz.\nProfesör, eski dostum!$"
+	.string "Beg pardon?\n"
+	.string "That much, what?\p"
+	.string "However, it's true that\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "weighs heavily on your mind, whether\l"
+	.string "you're awake or asleep.\p"
+	.string "Absolutely, you're the\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "PROFESSOR, old sport!$"
 
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
-	.string "Eğer sen ve ben bir kombo olarak bir\naraya gelirsek, konu\l{STR_VAR_1} olduğunda\lyenilmez olacağız!$"
+	.string "If you and me team up as a combo,\n"
+	.string "we'll be invincible when it comes to all\l"
+	.string "things “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_WellBeTrendDuo:
-	.string "Tam isabet, dostum!\pBiz {STR_VAR_1}\nİKİLİSİ olacağız!\pBu çok iyi olmaz mıydı?\nHahahah!$"
+	.string "Spot on, my friend!\p"
+	.string "We shall be the\n"
+	.string "“{STR_VAR_1}” DUO!\p"
+	.string "Isn't that a ripe image?\n"
+	.string "Hahahah!$"
 
 DewfordTown_Hall_Text_GiveYouSludgeBomb:
-	.string "Benim için BALÇIK BOMBA,\npopülerliğinin zirvesinde.\pHım?\nBana BALÇIK BOMBA'yı bilmediğini\lmi söylüyorsun?\pBu çok acınası.\nSana bir tane vereyim.$"
+	.string "For me, SLUDGE BOMB is at the peak\n"
+	.string "of popularity. It's the one.\p"
+	.string "Hunh? You're telling me that you don't\n"
+	.string "know about SLUDGE BOMB?\p"
+	.string "That's outright pitiful.\n"
+	.string "I'll give you one.$"
 
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
-	.string "BALÇIK BOMBA'yı seviyorum.\pAma {STR_VAR_1}\nolan POKéMON da var.$"
-
+	.string "I love SLUDGE BOMB.\p"
+	.string "But POKéMON with the move\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "are in, too.$"
 

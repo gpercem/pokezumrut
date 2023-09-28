@@ -47,9 +47,12 @@ ShoalCave_LowTideLowerRoom_EventScript_ReceivedFocusBand::
 	end
 
 ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus:
-	.string "Buralarda etkili olan soğuk, antrenman\niçin bir engeldir.\pAncak odaklanarak üstesinden\ngelinebilir!\pBu ODAK BANDI ile kemerlerini bağla\nve soğuğa dayanmaya hazır ol!$"
+	.string "The penetrating cold around these\n"
+	.string "parts is an impediment to training.\p"
+	.string "But with focus, one can overcome!\p"
+	.string "With this FOCUS BAND, buckle down and\n"
+	.string "withstand the cold!$"
 
 ShoalCave_LowTideLowerRoom_Text_EverythingStartsWithFocus:
-	.string "Her şey odaklanmakla başlar!$"
-
+	.string "Everything starts with focus!$"
 

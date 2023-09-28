@@ -91,36 +91,57 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	end
 
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
-	.string "Er-hem!\pBen POKéMON FAN KULÜBÜ'nün en önemli\nkişisi, BAŞKAN'ın küçük kardeşiyim.\pBurada POKéMON'lar ile tatilimin\ntadını çıkarıyorum, evet, gerçekten.$"
+	.string "Er-hem!\p"
+	.string "I am the POKéMON FAN CLUB's most\n"
+	.string "important person, the CHAIRMAN's\l"
+	.string "younger brother.\p"
+	.string "I'm here enjoying my vacation with\n"
+	.string "POKéMON, yes, indeed.$"
 
 PacifidlogTown_House2_Text_AhYourPokemon:
-	.string "Ah!\nSenin POKéMON'un…$"
+	.string "Ah!\n"
+	.string "Your POKéMON…$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
-	.string "Belli ki seni çok seviyor.\pBu kadar sevgi dolu ve sevimli bir\nPOKéMON böyle bir TM'yi hak ediyor,\ldeğil mi?$"
+	.string "It clearly likes you very much.\p"
+	.string "A POKéMON that adoring and adorable\n"
+	.string "deserves a TM like this, no?$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-	.string "Hmm… Kötü değil, ama iyi de değil.\pEğitmen olarak biraz daha çaba\ngöstermen gerekiyor.$"
+	.string "Hmm…\n"
+	.string "It's not bad, but it's also not good.\p"
+	.string "You, as the TRAINER, need to put in\n"
+	.string "some more effort.$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
-	.string "Vahşi bir görünümü var.\pBöyle korkutucu bir POKéMON böyle bir\nTM'yi hak ediyor.$"
+	.string "It has a vicious look to it.\p"
+	.string "A frightening POKéMON like that\n"
+	.string "deserves a TM like this.$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
-	.string "Eğer bir POKéMON senden çok\nhoşlanıyorsa, KARŞILIK'ın gücü artar.\pEğer senden hoşlanmıyorsa,\nHÜSRAN'ın gücü artar.$"
+	.string "If a POKéMON likes you a lot, RETURN's\n"
+	.string "power is enhanced.\p"
+	.string "If it doesn't like you, FRUSTRATION's\n"
+	.string "power goes up.$"
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays:
-	.string "Aa, evet. Yaklaşık {STR_VAR_1} gün içinde\niyi bir ya da iki TM alacağım.\pO zaman beni görmeye gelmelisin.\nSana POKéMON'una uygun bir TM veririm.$"
+	.string "Oh, yes. In about {STR_VAR_1} or so days,\n"
+	.string "I should be getting a good TM or two.\p"
+	.string "You should come see me then.\n"
+	.string "I'll give you a TM that's suitable for\l"
+	.string "your POKéMON.$"
 
 PacifidlogTown_House2_Text_Rurii:
 	.string "AZURILL: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-	.string "Eğitmeni ile çok dostane görünüyor.$"
+	.string "It appears to be very friendly with the\n"
+	.string "TRAINER.$"
 
 PacifidlogTown_House2_Text_Rururi:
 	.string "AZURILL: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-	.string "Eğitmeninden pek hoşlanmıyor gibi\ngörünüyor.$"
-
+	.string "It doesn't appear to like the TRAINER\n"
+	.string "very much.$"
 

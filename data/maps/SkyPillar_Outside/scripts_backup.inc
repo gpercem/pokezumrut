@@ -140,16 +140,33 @@ SkyPillar_Outside_EventScript_ClosedDoor::
 	end
 
 SkyPillar_Outside_Text_DoorIsClosed:
-	.string "Kapı kapalı.$"
+	.string "The door is closed.$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-	.string "WALLACE: Çok özür dilerim!\pAcelemden seni geride bıraktığımı fark\netmedim!\pGök Sütunu'nun kilitli kapısını\naçtım.\p{PLAYER}{KUN}, hadi yolumuza gidelim!$"
+	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
+	.string "In my haste, I didn't notice that\n"
+	.string "I'd left you behind!\p"
+	.string "I've opened the locked door of\n"
+	.string "the SKY PILLAR.\p"
+	.string "{PLAYER}{KUN}, let's be on our way!$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
-	.string "WALLACE: Deprem oluyor!\pKaybedecek bir dakikamız bile yok!\nAcele etmeliyiz!$"
+	.string "WALLACE: It's an earthquake!\p"
+	.string "There's not a moment to waste!\n"
+	.string "We've got to hurry!$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-	.string "WALLACE: Durum gittikçe kötüleşiyor.$"
+	.string "WALLACE: Hmm…\n"
+	.string "The situation is getting worse…$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-	.string "WALLACE: Bu iyi değil.\pHava bozulması burada bile yayılıyor…\p{PLAYER}{KUN}.\pRAYQUAZA buradan daha yukarıda\nolmalı.\pSOOTOPOLIS için endişeleniyorum. Geri\ndönmek zorundayım.\pArtık her şey senin ellerinde. Bizi\nhayal kırıklığına uğratma!$"
+	.string "WALLACE: This isn't good…\p"
+	.string "The weather distortion is spreading\n"
+	.string "even here…\p"
+	.string "{PLAYER}{KUN}.\p"
+	.string "RAYQUAZA should be farther up\n"
+	.string "from here.\p"
+	.string "I'm worried about SOOTOPOLIS.\n"
+	.string "I've got to go back.\p"
+	.string "Everything is in your hands now.\n"
+	.string "Don't fail us!$"

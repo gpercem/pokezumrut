@@ -12,21 +12,25 @@ SeafloorCavern_Room4_EventScript_Grunt4::
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro:
-	.string "Kimsin sen?\nNereden geldin?$"
+	.string "Who are you?\n"
+	.string "Where did you come in from?$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat:
-	.string "Kaybettim.$"
+	.string "Lost it…$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
-	.string "Çıkış yolunu bulamıyorum!\pKorkmuyorum. Beni yanlış anlama!$"
+	.string "I can't find the way out!\p"
+	.string "I'm not afraid. Don't get me wrong!$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro:
-	.string "Kimsin sen?\nNereye gittiğini sanıyorsun?$"
+	.string "Who are you?\n"
+	.string "Where do you think you're going?$"
 
 SeafloorCavern_Room4_Text_Grunt4Defeat:
-	.string "Kazanamadım!$"
+	.string "I failed to win!$"
 
 SeafloorCavern_Room4_Text_Grunt4PostBattle:
-	.string "Ortağım haritayı denizaltında unuttu!\pİşe yaramazlık değil de ne bu?$"
-
+	.string "My partner forgot the map in that\n"
+	.string "submarine!\p"
+	.string "How's that for being useless?$"
 

@@ -59,9 +59,30 @@ SeafloorCavern_Entrance_EventScript_GruntFacePlayerNorth::
 	return
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
-	.string "Hey! Yüzünü hatırlıyorum!\pEğer buradaysan, bize yine bulaşmak\nüzeresin demektir!\pSenin gibi bir serseri, AQUA'yı\nyenebileceğini mi sanıyor?\pBence bir trilyon yıl kadar erken\ngeldin!\pSen MAGMA takımı için biçilmiş\nkaftansın!\pMAGMA TAKIMI'ndan bahsetmişken,\nMOSSDEEP yakınlarında görüldüklerini\lduydum.\pO bir avuç serseri, deniz kenarında hiç\niyi görünmüyorlar!$"
+	.string "Hey!\n"
+	.string "I remember your face!\p"
+	.string "If you're here, it must mean that\n"
+	.string "you're about to mess with us again!\p"
+	.string "A punk like you, do you really think\n"
+	.string "you can take on TEAM AQUA?\p"
+	.string "I'd say you're too early by about\n"
+	.string "a trillion years!\p"
+	.string "You're a perfect fit for the likes of\n"
+	.string "TEAM MAGMA!\p"
+	.string "Speaking of TEAM MAGMA, I hear they\n"
+	.string "were spotted near MOSSDEEP.\p"
+	.string "That bunch of goons, they sure don't\n"
+	.string "look good near the sea!$"
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
-	.string "Senin gibi bir serseri, AQUA'yı\nyenebileceğini mi sanıyor?\pBunun gerçekleşmesine trilyon yıl\nolduğunu söyleyebilirim!\pMAGMA TAKIMI için biçilmiş kaftansın!\pMAGMA TAKIMI'ndan bahsetmişken,\nMOSSDEEP yakınlarında görüldüklerini\lduydum.\pO bir avuç serseri, deniz kenarında hiç\niyi görünmüyorlar!$"
-
+	.string "A punk like you, do you really think\n"
+	.string "you can take on TEAM AQUA?\p"
+	.string "I'd say you're too early by about\n"
+	.string "a trillion years!\p"
+	.string "You're a perfect fit for the likes of\n"
+	.string "TEAM MAGMA!\p"
+	.string "Speaking of TEAM MAGMA, I hear they\n"
+	.string "were spotted near MOSSDEEP.\p"
+	.string "That bunch of goons, they sure don't\n"
+	.string "look good near the sea!$"
 

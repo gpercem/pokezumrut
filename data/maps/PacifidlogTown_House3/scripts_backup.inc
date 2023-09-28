@@ -51,21 +51,39 @@ PacifidlogTown_House3_EventScript_Girl::
 	end
 
 PacifidlogTown_House3_Text_WillingToTradeIt:
-	.string "Şu {STR_VAR_2}'a bak!\pBu dün doğum günümü kutlamak için\nyakaladığım {STR_VAR_2}!\pOnu istediğini biliyorum!\nNe de olsa paha biçilemez!\pBak sana ne diyeceğim. Onu bir\n{STR_VAR_1} ile takas edebilirim.$"
+	.string "Check out this {STR_VAR_2}!\p"
+	.string "It's the {STR_VAR_2} that I caught\n"
+	.string "yesterday to celebrate my birthday!\p"
+	.string "Oh, I can see that you want it!\n"
+	.string "After all, it's priceless!\p"
+	.string "I'll tell you what. I might be willing\n"
+	.string "to trade it for a {STR_VAR_1}.$"
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou:
-	.string "Bu bir {STR_VAR_1} mi?\pBir tür {STR_VAR_2} gibi ama yine de\nnedense farklı duruyor.\pTeşekkür ederim!$"
+	.string "Oh, so this is a {STR_VAR_1}?\p"
+	.string "It's sort of like a {STR_VAR_2},\n"
+	.string "and yet it's subtly different.\p"
+	.string "Thank you!$"
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon:
-	.string "Hayır, hayır, hayır!\nGerçek bir {STR_VAR_1} olmayan\lhiçbir şeyi kabul etmem!$"
+	.string "No, no, no! I won't accept any\n"
+	.string "less than a real {STR_VAR_1}!$"
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything:
-	.string "Yani takas yapmacak mıyız?\pSorun değil.\nTakas için yalvarmıyorum sonuçta.$"
+	.string "Oh, so you're not going to go through\n"
+	.string "with this?\p"
+	.string "That's cool. I'm not desperate to make\n"
+	.string "a trade or anything.$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
-	.string "Kendi başıma arayabileceğimi\nbiliyorum ama…\pAma başka bir ANTRENÖRÜN yakaladığı\nbir BAGON'u gerçekten almak istedim…$"
+	.string "I know I could go looking for one\n"
+	.string "on my own, but…\p"
+	.string "But I really wanted to get a BAGON\n"
+	.string "that another TRAINER caught…$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
-	.string "Bu bir POKéDEX mi?\nBir sürü farklı POKéMON'la tanıştın mı?\pKeşke ben de senin gibi olsaydım.$"
-
+	.string "Is that a POKéDEX?\p"
+	.string "Did you get to meet a lot of different\n"
+	.string "POKéMON?\p"
+	.string "I wish I was like you.$"
 

@@ -28,18 +28,26 @@ PacifidlogTown_House4_EventScript_No::
 	end
 
 PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon:
-	.string "İnsanlar HOENN'in üzerinde uçan bir\nPOKéMON gördüklerini söylüyorlardı.\pSürekli etrafta mı uçuyor? Bir yerde\ndinlenmesi gerekmiyor mu?$"
+	.string "People were saying they saw a POKéMON\n"
+	.string "flying high above HOENN.\p"
+	.string "Is it flying around all the time?\n"
+	.string "Doesn't it need to rest somewhere?$"
 
 PacifidlogTown_House4_Text_SkyPokemon:
-	.string "Gökyüzü POKéMON'u!\nGökyüzü POKéMON'u!$"
+	.string "A sky POKéMON!\n"
+	.string "A sky POKéMON!$"
 
 PacifidlogTown_House4_Text_WhereDidYouComeFrom:
-	.string "Sen nereden geldin?$"
+	.string "Where did you come from?$"
 
 PacifidlogTown_House4_Text_YesTown:
-	.string "Evet mi?\nEVET KASABASI MI?\pBöyle bir yeri hiç duymamıştım.$"
+	.string "Yes?\n"
+	.string "YES TOWN?\p"
+	.string "I've never heard of a place like that.$"
 
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
-	.string "Hayır mı? Bu hiç mantıklı değil.\nBir yerden gelmiş olmalısın.\pBekle! Denizin dibinde doğduğunu\nsöylemeyeceksin değil mi?$"
-
+	.string "No? That doesn't make any sense.\n"
+	.string "You have to come from somewhere.\p"
+	.string "Oh! Wait! You're not going to say you\n"
+	.string "were born at the bottom of the sea?$"
 

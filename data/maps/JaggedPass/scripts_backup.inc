@@ -150,84 +150,119 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "CHİMNEY DAĞI…\nENGEBELİ YOL…\pİşte bir dağda hep istediğim şey\nbuydu.\pBu pürüzlü engebeler…\nRuhumu sarsıyor!$"
+	.string "MT. CHIMNEY's JAGGED PASS…\p"
+	.string "Now this is what I've always wanted\n"
+	.string "in a mountain.\p"
+	.string "This jagged bumpiness…\n"
+	.string "It rocks my soul!$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Kaybetmek acı verici!$"
+	.string "Losing left me bitter!$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Evet, savaşta kaybettim.\pAma söz konusu dağ sevgisi olduğunda,\nben seni yenerim!$"
+	.string "Yes, I did lose at POKéMON…\p"
+	.string "But, when it comes to the love of\n"
+	.string "the mountains, I have you beat!$"
 
 JaggedPass_Text_DianaIntro:
-	.string "Burası sıradan bir yürüyüş yeri değil.\nPiknik için uygun değil.$"
+	.string "This place isn't your casual hike.\n"
+	.string "It's not suited for a picnic.$"
 
 JaggedPass_Text_DianaDefeat:
-	.string "Aa, hayır!\nZemin çok engebeli…$"
+	.string "Ohhh, no!\n"
+	.string "The ground is too bumpy…$"
 
 JaggedPass_Text_DianaPostBattle:
-	.string "Biliyor muydun?\pBazı insanlar bu korkunç engebeli\ngeçide bisikletleriyle tırmanabiliyor.$"
+	.string "Did you know?\p"
+	.string "Some people cleverly ride their\n"
+	.string "bicycles up this horribly bumpy pass.$"
 
 JaggedPass_Text_DianaRegister:
-	.string "Buralara yine uğrar mısın?\nEğer dönersen, bir rövanş istiyorum.$"
+	.string "Will you ever be back in this area?\n"
+	.string "If you do return, I'd like a rematch.$"
 
 JaggedPass_Text_DianaRematchIntro:
-	.string "Piknikler nereye gidersen git\neğlencelidir. Tıpkı POKéMON'lar gibi!$"
+	.string "Picnics are fun wherever you go.\n"
+	.string "Just like POKéMON!$"
 
 JaggedPass_Text_DianaRematchDefeat:
-	.string "Kaybettim çünkü zemin çok\nengebeliydi!$"
+	.string "I only lost because the ground is\n"
+	.string "too bumpy!$"
 
 JaggedPass_Text_DianaPostRematch:
-	.string "Kaybettiğimi unutacağım ve bu\nengebeli yürüyüşün tadını çıkaracağım.$"
+	.string "I'll forget about losing and just\n"
+	.string "enjoy this bumpy hike.$"
 
 JaggedPass_Text_EthanIntro:
-	.string "ENGEBELİ YOL üzerinde yürümek zordur.\nEğitim için iyi bir yer.$"
+	.string "JAGGED PASS is hard to walk on.\n"
+	.string "It's a good place for training.$"
 
 JaggedPass_Text_EthanDefeat:
-	.string "Savaş bitmiş bile.$"
+	.string "It was all over while we were still\n"
+	.string "trying to find a good footing…$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "Eğer bir AKRO BİSİKLETİM olsaydı,\nçıkıntılardan atlayabilirdim.$"
+	.string "If I had an ACRO BIKE, I'd be able to\n"
+	.string "jump ledges.$"
 
 JaggedPass_Text_EthanRegister:
-	.string "Bu engebeli araziye alıştığımda\nkazanacağımdan emin olabilirsin!\pBeni POKéNAV'ına kaydedebilir\nmisin?$"
+	.string "When I get more used to this bumpiness,\n"
+	.string "I'll be sure to win!\p"
+	.string "Can you register me in your POKéNAV?$"
 
 JaggedPass_Text_EthanRematchIntro:
-	.string "Bu araziye alıştım.\pArtık tırmanırken şarkı bile\nsöylüyorum.$"
+	.string "I got used to this bumpiness.\n"
+	.string "I sing while I climb now.$"
 
 JaggedPass_Text_EthanRematchDefeat:
-	.string "Bu engebeli zeminde savaşmak hala\nkolay değil…$"
+	.string "It's still not easy to battle on this\n"
+	.string "bumpy ground…$"
 
 JaggedPass_Text_EthanPostRematch:
-	.string "MAUVILLE ŞEHRİ'ndeki RYDEL'den bir\nAKRO BİSİKLET almalıyım.$"
+	.string "I should get an ACRO BIKE from RYDEL\n"
+	.string "in MAUVILLE CITY…$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Hey! Ne yapıyorsun burada?\pBöyle bir yerde ne işim mi var?\nSeni ne ilgilendirir?$"
+	.string "Wah!\n"
+	.string "What are you doing here?\p"
+	.string "What am I doing in a place like this?\p"
+	.string "What business is it of yours?$"
 
 JaggedPass_Text_GruntDefeat:
-	.string "Arrhh…\nKeşke saklandığım yerden çıkmasaydım.$"
+	.string "Urrrgh…\p"
+	.string "I should've ducked into our HIDEOUT\n"
+	.string "right away…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Tamam, taa-mam!\nKabul ediyorum, sen güçlüsün!\pBenim için endişelenme.\nNereye istersen git!$"
+	.string "Okay, oh-kay!\n"
+	.string "I admit it--you're strong!\p"
+	.string "Don't worry about me.\n"
+	.string "Go wherever you want!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-	.string "Bu kaya, MAGMA SEMBOLÜNE tepki\nolarak sallanıyor!$"
+	.string "Oh! This boulder is shaking in response\n"
+	.string "to the MAGMA EMBLEM!$"
 
 JaggedPass_Text_JulioIntro:
-	.string "Aiyeeh!\nHızlı hızlı engebeli yoldan aşağı\linmek çok korkutucu!$"
+	.string "Aiyeeh! It's awfully scary to shoot\n"
+	.string "down the mountain in one go!$"
 
 JaggedPass_Text_JulioDefeat:
-	.string "Dağılıyormuşum gibi hissediyorum.$"
+	.string "I feel like I'm falling apart…$"
 
 JaggedPass_Text_JulioPostBattle:
-	.string "Bisikletim o kadar çok zıpladı ki belim\nağrımaya başladı.$"
+	.string "My bicycle bounced around so much,\n"
+	.string "my rear end's sore…$"
 
 JaggedPass_Text_AutumnIntro:
-	.string "Bu tepeye her gün tırmanıyorum.\nGücüme güveniyorum!$"
+	.string "I climb this hill every day.\n"
+	.string "I have confidence in my strength!$"
 
 JaggedPass_Text_AutumnDefeat:
-	.string "Hmm…\nNeyi yanlış yaptım?$"
+	.string "Hmm…\n"
+	.string "What went wrong?$"
 
 JaggedPass_Text_AutumnPostBattle:
-	.string "Tepenin biraz yukarısındaki şu garip\nkaya çıkıntısı da ne?$"
-
+	.string "What is that odd rock protrusion\n"
+	.string "a little up the hill from here?$"
 

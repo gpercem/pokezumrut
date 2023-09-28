@@ -30,12 +30,21 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-	.string "Eğitmen kartın ne renk?\nBenimki bakır!$"
+	.string "What color is your TRAINER CARD?\n"
+	.string "Mine's copper!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "PACİFİDLOG KÖYÜ, bir CORSOLA\nkolonisinin üzerinde yüzüyor.\pİnanılır gibi değil ama öyle.$"
+	.string "PACIFIDLOG TOWN floats on top of\n"
+	.string "a colony of CORSOLA.\p"
+	.string "If I told you that, would you believe\n"
+	.string "me?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-	.string "PACİFİDLOG'daki insanların atalarının\nteknelerde doğdukları ve daha sonra\lteknelerde yaşayıp öldükleri söylenir.\pAnladığım kadarıyla bu şekilde\nyaşamışlar çünkü bir şeyler\larıyorlarmış.$"
-
+	.string "The ancestors of the people in\n"
+	.string "PACIFIDLOG were said to have been\l"
+	.string "born on boats and then lived and died \l"
+	.string "aboard them.\p"
+	.string "I understand that they lived that way\n"
+	.string "because they were searching for\l"
+	.string "something.$"
 

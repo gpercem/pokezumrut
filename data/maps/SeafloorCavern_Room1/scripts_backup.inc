@@ -12,21 +12,25 @@ SeafloorCavern_Room1_EventScript_Grunt2::
 	end
 
 SeafloorCavern_Room1_Text_Grunt1Intro:
-	.string "Etrafta bir çocuğa ihtiyacımız yok!\nEvine git artık!$"
+	.string "We don't need a kid around!\n"
+	.string "Go on home already!$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
-	.string "Eve gitmek istiyorum.$"
+	.string "I want to go home…$"
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
-	.string "Terfi almak istiyorum, böylece\nhaydutlara patronluk yapabilirim.$"
+	.string "I want to get a promotion so I can\n"
+	.string "boss around the GRUNTS…$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-	.string "Şu denizaltının… İçi çok küçük.\nHer yerim ağrıyor!$"
+	.string "That submarine… It's tiny inside.\n"
+	.string "I'm sore all over!$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
-	.string "Kaybetmek beni üzüyor!$"
+	.string "Losing makes me sore!$"
 
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
-	.string "Çaldığımız denizaltı, adamım, zor\nbir yolculuktu. İçerisi çok dar!$"
-
+	.string "That submarine we jacked, man,\n"
+	.string "it's brutal as a ride.\l"
+	.string "It's way too tight in there!$"
 

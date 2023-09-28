@@ -28,15 +28,27 @@ PacifidlogTown_EventScript_TownSign::
 	end
 
 PacifidlogTown_Text_FastRunningCurrent:
-	.string "PACİFİDLOG ve SLATEPORT arasındaki\ndenizde hızlı bir gelgit vardır.\pSörf yapmaya karar verirsen, başka\nbir yere sürüklenebilirsin.$"
+	.string "The sea between PACIFIDLOG and\n"
+	.string "SLATEPORT has a fast-running tide.\p"
+	.string "If you decide to SURF, you could end\n"
+	.string "up swept away somewhere else.$"
 
 PacifidlogTown_Text_NeatHousesOnWater:
-	.string "Gördün mü, ne kadar güzel, değil mi?\nBu evler suyun üzerinde!\pBen burada doğdum!$"
+	.string "See, isn't it neat?\n"
+	.string "These houses are on water!\p"
+	.string "I was born here!$"
 
 PacifidlogTown_Text_SkyPillarTooScary:
-	.string "GÖK KULESİ mi?\p…Ah, biraz ilerideki uzun, yüksek\nkuleyi kastediyor olmalısın.\pBana sorsaydın, oraya tırmanmazdım.\nO kadar yükseğe çıkmak çok korkutucu.\pPACİFİDLOG'da deniz seviyesinde\nyaşamak bana uyar.$"
+	.string "The SKY PILLAR?\p"
+	.string "…Oh, you must mean that tall, tall\n"
+	.string "tower a little further out.\p"
+	.string "If you asked me, I wouldn't climb it.\n"
+	.string "It's too scary to get up that high.\p"
+	.string "Life at sea level in PACIFIDLOG,\n"
+	.string "that suits me fine.$"
 
 PacifidlogTown_Text_TownSign:
-	.string "PACİFİDLOG KÖYÜ\pSabah güneşinin suya gülümsediği yer.$"
-
+	.string "PACIFIDLOG TOWN\p"
+	.string "“Where the morning sun smiles upon\n"
+	.string "the waters.”$"
 

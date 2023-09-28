@@ -17,37 +17,21 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
-	.string "When TEAM MAGMA has roll call, we get\n"
-	.string "important guarding assignments in\l"
-	.string "the order that we line up.\p"
-	.string "That's why I'm stuck off in this corner.\n"
-	.string "I'm always late to roll call!$"
+	.string "MAGMA TAKIMI yoklama yaptığında\nsıraya girdiğimizde önemli koruma\lgörevleri alırız.\pBu yüzden bu köşede sıkışıp kaldım.\nYoklamaya hep geç kalıyorum!$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
-	.string "I'm always late for training sessions,\n"
-	.string "too!\p"
-	.string "I hate to say it, but I'm wimpy…$"
+	.string "Ben de antrenmanlara hep geç\nkalıyorum!\pBunu söylemekten nefret ediyorum ama\nben pısırığım.$"
 
 MagmaHideout_1F_Text_Grunt1PostBattle:
-	.string "Okay, I'll try to put a little more\n"
-	.string "effort into things from now on…$"
+	.string "Tamam, bundan sonra biraz daha çaba\ngöstermeye çalışacağım…$"
 
 MagmaHideout_1F_Text_Grunt2Intro:
-	.string "Our leader told us to dig into\n"
-	.string "MT. CHIMNEY, so we dug and dug.\p"
-	.string "And in the course of digging, we came\n"
-	.string "across something that blew our minds!\p"
-	.string "What did we find?\p"
-	.string "Fuhahaha!\n"
-	.string "I'll tell you if you beat me!$"
+	.string "Liderimiz bize CHİMNEY DAĞI'nı\nkazmamızı söyledi, biz de kazdık.\pVe kazı sırasında aklımızı başımızdan\nalan bir şeyle karşılaştık!\pNe bulduk dersin?\pFuhahaha!\nBeni yenersen sana söylerim!$"
 
 MagmaHideout_1F_Text_Grunt2Defeat:
-	.string "Arrgh!\n"
-	.string "Taken down!$"
+	.string "Arrgh!\nDayak yedim!$"
 
 MagmaHideout_1F_Text_Grunt2PostBattle:
-	.string "I won't tell you after all.\n"
-	.string "You'll find out when you get there!\p"
-	.string "It'd be better if you saved surprises\n"
-	.string "to the end, don't you think?$"
+	.string "Yine de söylemeyeceğim.\nOraya vardığında öğrenirsin!\pSürprizleri sona saklamak daha iyi\nolur, değil mi?$"
+
 

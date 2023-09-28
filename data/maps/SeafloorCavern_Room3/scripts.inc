@@ -12,47 +12,21 @@ SeafloorCavern_Room3_EventScript_Grunt5::
 	end
 
 SeafloorCavern_Room3_Text_ShellyIntro:
-	.string "Ahahahaha!\p"
-	.string "How did you manage to get here without\n"
-	.string "a submarine?\l"
-	.string "What an impressive child!\p"
-	.string "But… It won't do to have you\n"
-	.string "meddling about here.\p"
-	.string "And, I do want payback for what\n"
-	.string "happened at the WEATHER INSTITUTE…\p"
-	.string "I'm going to give you a little taste\n"
-	.string "of pain! Resign yourself to it!$"
+	.string "Ahahahaha!\pDenizaltı olmadan buraya gelmeyi nasıl\nbaşardın? Ne etkileyici bir çocuk!\pAma…\nBuraya burnunu sokmana izin veremem.\pVe, HAVA ENSTİTÜSÜ'nde olanların\nintikamını almak istiyorum…\pSana biraz acı tattıracağım!\nKendini hazırla!$"
 
 SeafloorCavern_Room3_Text_ShellyDefeat:
-	.string "Ahahahaha!\p"
-	.string "Ouch!$"
+	.string "Ahahahaha!\pEyvah!$"
 
 SeafloorCavern_Room3_Text_ShellyPostBattle:
-	.string "Ahahahaha!\n"
-	.string "You're so darn strong.\p"
-	.string "It's terribly disappointing that you're\n"
-	.string "not a TEAM AQUA member.\p"
-	.string "You could have enjoyed the fabulous\n"
-	.string "world our BOSS has promised as\l"
-	.string "one of us…$"
+	.string "Ahahahaha!\nÇok güçlüsün.\pBir AQUA TAKIMI üyesi olmaman büyük\nhayal kırıklığı.\pPatronumuzun bizden biri olarak vaat\nettiği muhteşem dünyanın tadını\lçıkarabilirdin…$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
-	.string "For our dream to become real, we need\n"
-	.string "the power of POKéMON.\p"
-	.string "But meddlers like you use the power of\n"
-	.string "POKéMON to mess with us even at\l"
-	.string "a place like this!\p"
-	.string "Life just doesn't work the way we\n"
-	.string "need it to!$"
+	.string "Hayalimizin gerçek olması için\nPOKéMON'unun gücüne ihtiyacımız var.\pAma senin gibi işgüzarlar POKéMON'un\ngücünü böyle bir yerde bile bizimle\luğraşmak için kullanıyor!\pHayat istediğimiz gibi işlemiyor!$"
 
 SeafloorCavern_Room3_Text_Grunt5Defeat:
-	.string "Gwah!$"
+	.string "Haa!$"
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle:
-	.string "You know, we don't dare question\n"
-	.string "the motives of our leader.\p"
-	.string "But here you are, just some punk,\n"
-	.string "going up against our BOSS.\p"
-	.string "Maybe…\n"
-	.string "You must be something…$"
+	.string "Biliyorsun, liderimizin güdülerini\nsorgulamaya cesaret edemeyiz.\pAma sen, patronumuza karşı\ngeliyorsun.\pBelki de… Sen…$"
+
 

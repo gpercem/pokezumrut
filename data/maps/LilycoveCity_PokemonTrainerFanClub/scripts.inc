@@ -568,253 +568,115 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_AlreadyInterviewed2::
 	end
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
-	.string "Oh, wow!\n"
-	.string "It's {PLAYER}!$"
+	.string "Vay canına!\nBu {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-	.string "I've heard the news!\n"
-	.string "You're really strong, aren't you?\p"
-	.string "We always argue about who is the\n"
-	.string "strongest of all TRAINERS here.\p"
-	.string "So when I heard about you, I decided\n"
-	.string "to be your fan!\p"
-	.string "I hope you'll keep on battling other\n"
-	.string "tough TRAINERS.\p"
-	.string "That way, we'll be able to see more\n"
-	.string "of your hot, hot battles.\p"
-	.string "That will make the others here see\n"
-	.string "exactly how great you are.\p"
-	.string "Remember, I'm cheering for you,\n"
-	.string "{PLAYER}!$"
+	.string "Haberleri duydum!\nGerçekten güçlüsün, değil mi?\pBurada her zaman kimin en güçlü\neğitmen olduğunu tartışırız.\pBu yüzden seni duyduğumda hayranın\nolmaya karar verdim!\pUmarım diğer zorlu eğitmenlerle\nsavaşmaya devam edersin.\pBu şekilde, heyevanlı savaşlarını\ndaha fazla görebiliriz.\pBu da buradaki diğerlerinin senin ne\nkadar harika olduğunu görmesini\lsağlayacaktır.\pArkandayım, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
-	.string "Yo, {PLAYER}!\n"
-	.string "You're the one we want to win!$"
+	.string "Hey, {PLAYER}!\nKazanmasını istediğimiz kişi sensin!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
-	.string "The others, they don't know that\n"
-	.string "you're the best of the best!\p"
-	.string "Isn't that right, {PLAYER}?\n"
-	.string "Show them you've got guts!$"
+	.string "Diğerleri, senin en iyinin de iyisi\nolduğunu bilmiyorlar!\pÖyle değil mi, {PLAYER}?\nCesaretini göster onlara!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
-	.string "I hate to say this, but the TRAINER\n"
-	.string "everybody's talking about is\l"
-	.string "{STR_VAR_1}, no question about it!\p"
-	.string "That TRAINER's power…\n"
-	.string "It's out of the ordinary.$"
+	.string "Bunu söylemekten nefret ediyorum ama\nherkesin bahsettiği EĞİTMEN\l{STR_VAR_1}, buna şüphe yok!\pBu eğitmenin gücü… Sıra dışı.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
-	.string "Darn it… I've been telling people\n"
-	.string "that {STR_VAR_1} is the best now…\p"
-	.string "But no one wants to listen…$"
+	.string "Lanet olsun… İnsanlara\n{STR_VAR_1}'in en iyisi olduğunu\lsöylüyordum…\pAma kimse dinlemek istemiyor…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
-	.string "I've been hearing things about\n"
-	.string "a tough new TRAINER.\p"
-	.string "This TRAINER's supposed to be beating\n"
-	.string "GYM LEADERS, even.\p"
-	.string "Do you know anything about this\n"
-	.string "new TRAINER?$"
+	.string "Yeni ve zorlu bir EĞİTMEN hakkında\nbir şeyler duydum.\pBu eğitmenin salon liderlerini\nbile yenmesi gerekiyormuş.\pBu yeni eğitmen hakkında bir şey\nbiliyor musun?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou:
-	.string "Oh!\n"
-	.string "{PLAYER}!\p"
-	.string "Go for it!\n"
-	.string "I'm pulling for you!$"
+	.string "Hey! {PLAYER}!\pDevam et! Seni destekliyorum!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan:
-	.string "Sigh…\n"
-	.string "BRAWLY…\p"
-	.string "Oh, no! Wait!\n"
-	.string "That's not right! No, no, no!\p"
-	.string "I'm your fan through and through!\p"
-	.string "So make me proud!\n"
-	.string "Go for it!$"
+	.string "Off… BRAWLY…\pOlamaz! Bekle! İmkanı yok!\nHayır, hayır, hayır!\pBen senin sonuna kadar hayranınım!\pO yüzden beni gururlandır! Devam et!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
-	.string "I can't help it, I can only get to\n"
-	.string "like BRAWLY…$"
+	.string "Elimde değil, sadece BRAWLY'den\nhoşlanabiliyorum…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
-	.string "Nobody understands the charm of\n"
-	.string "BRAWLY…\p"
-	.string "I don't care!\p"
-	.string "Even if I'm the only one, I'm going\n"
-	.string "to keep cheering for BRAWLY!$"
+	.string "Kimse BRAWLY'nin cazibesini anlayamaz.\pUmurumda değil!\pTek olsam bile, BRAWLY için tezahürat\nyapmaya devam edeceğim!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
-	.string "Whatever anyone says, my favorite\n"
-	.string "TRAINER is DEWFORD's GYM LEADER\l"
-	.string "BRAWLY!$"
+	.string "Kim ne derse desin, benim en sevdiğim\neğitmen DEWFORD'un SALON LİDERİ\lBRAWLY'dir!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
-	.string "You've surpassed your own father in\n"
-	.string "every regard!\p"
-	.string "I'm telling you, so there's no question\n"
-	.string "about it at all!$"
+	.string "Her konuda kendi babanı geçtin!\pSana söylüyorum, bu konuda hiç şüphe\nyok!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
-	.string "Even when things turned bleak,\n"
-	.string "your father never gave up.\p"
-	.string "This I know to be true.\p"
-	.string "You never give up even if you lose!\n"
-	.string "So keep on battling!$"
+	.string "İşler kötüye gittiğinde bile baban asla\npes etmedi.\pBunun doğru olduğunu biliyorum.\pKaybetsen bile asla pes etmezsin!\nBu yüzden mücadeleye devam!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
-	.string "NORMAN battled with more power,\n"
-	.string "charisma, and showmanship than you.\p"
-	.string "Even though people may say that\n"
-	.string "you're strong…\p"
-	.string "You've still got a long way to go\n"
-	.string "compared to your father.$"
+	.string "NORMAN senden daha güçlü, karizmatik\nve gösterişli bir şekilde savaştı.\pİnsanlar senin güçlü olduğunuzu\nsöylese de.\pBabana kıyasla hâlâ kat etmen gereken\nuzun bir yol var.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
-	.string "You're beginning to get the same\n"
-	.string "air of awe NORMAN exudes.\p"
-	.string "But there's something conclusively\n"
-	.string "different between you and NORMAN.\p"
-	.string "I can't tell you what that is.\n"
-	.string "You'll have to find it yourself.$"
+	.string "NORMAN'ın yaydığı aynı huşu havasını\nalmaya başlıyorsun.\pAma sen ve NORMAN arasında kesin\nolarak farklı bir şey var.\pBunun ne olduğunu sana söyleyemem.\nKendin bulmalısın.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
-	.string "Everyone here, we're all huge fans\n"
-	.string "of POKéMON battles.\p"
-	.string "We discuss who we consider to be\n"
-	.string "the strongest of all TRAINERS.\p"
-	.string "If you were to become famous,\n"
-	.string "we might even become your fans!$"
+	.string "Buradaki herkes, hepimiz POKéMON\nsavaşlarının büyük hayranlarıyız.\pTüm eğitmenler arasında kimin en\ngüçlü olduğunu düşündüğümüzü\ltartışıyoruz.\pEğer ünlü olursan, senin hayranın bile\nolabiliriz!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
-	.string "Oh, woweee! It's {PLAYER}!\n"
-	.string "For real, too!\p"
-	.string "Please, shake my hand, shake my hand!$"
+	.string "Vay canına! Bu {PLAYER}!\nHem de gerçek!\pLütfen, elimi sıkın, elimi sıkın!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou:
-	.string "I'll always cheer for you, {PLAYER}!\n"
-	.string "Always, always!\p"
-	.string "I don't want to see you lose ever,\n"
-	.string "{PLAYER}.\p"
-	.string "Because I know you're really,\n"
-	.string "really strong, {PLAYER}!$"
+	.string "Seni her zaman destekleyeceğim,\n{PLAYER}! Her zaman, her zaman!\pKaybettiğini görmek istemiyorum,\n{PLAYER}.\pÇünkü gerçekten çok güçlü olduğunu\nbiliyorum, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
-	.string "{STR_VAR_1} is really cool…\p"
-	.string "Everyone thinks so, right, right?$"
+	.string "{STR_VAR_1} gerçekten harika…\pHerkes öyle düşünüyor, değil mi?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe:
-	.string "{STR_VAR_1} really is cool, don't\n"
-	.string "you think so?\p"
-	.string "Even if it's just me, I'm going to keep\n"
-	.string "cheering my favorite TRAINER.$"
+	.string "{STR_VAR_1} gerçekten harika, sence\nde öyle değil mi?\pSadece ben olsam bile, en sevdiğim\neğitmeni destekleyeceğim.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
-	.string "My favorite TRAINER is…\p"
-	.string "Cool…\p"
-	.string "Strong…\p"
-	.string "And really nice…\p"
-	.string "I wish there was a TRAINER like that…$"
+	.string "En sevdiğim EĞİTMEN…\pGüzel olmalı.\pGüçlü olmalı.\pVe harika olmalı.\pKeşke böyle bir eğitmen olsaydı.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
-	.string "Whoa! It's {PLAYER}!\n"
-	.string "Wicked!\p"
-	.string "When I grow up, I want to be strong\n"
-	.string "like you, {PLAYER}!$"
+	.string "Oha! Bu {PLAYER}!\pBüyüdüğümde, senin gibi güçlü olmak\nistiyorum, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou:
-	.string "Even if I'm the only one…\p"
-	.string "You'll always be the only one\n"
-	.string "I cheer for, {PLAYER}!\p"
-	.string "Because I believe in you, {PLAYER}!$"
+	.string "Bir tek ben olsam bile.\pHer zaman desteklediğim tek kişi sen\nolacaksın, {PLAYER}!\pÇünkü sana inanıyorum, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
-	.string "{STR_VAR_1} is so wickedly cool…\n"
-	.string "I want to shake hands with my hero.$"
+	.string "{STR_VAR_1} çok havalı…\nKahramanımla el sıkışmak istiyorum.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
-	.string "Even if I'm the only one…\p"
-	.string "I'm never going to stop being\n"
-	.string "{STR_VAR_1}'s fan!\p"
-	.string "Because I've heard, {STR_VAR_1}\n"
-	.string "never loses!$"
+	.string "Bir tek ben olsam bile.\p{STR_VAR_1}'ın hayranı olmaktan asla\nvazgeçmeyeceğim!\pÇünkü duydum ki, {STR_VAR_1} asla\nkaybetmezmiş!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
-	.string "{PLAYER}!\n"
-	.string "You are amazing after all!\p"
-	.string "Ever since I set eyes on you,\n"
-	.string "I knew that you were great.\p"
-	.string "It looks like my eyes didn't deceive me.$"
+	.string "{PLAYER}! Her şeye rağmen harikasın!\pSeni gördüğümden beri harika olduğunu\nbiliyordum.\pGörünüşe göre gözlerim beni\nyanıltmamış.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
-	.string "Who cares about the others.\n"
-	.string "I'm in your corner!\p"
-	.string "You don't need to worry. Just get\n"
-	.string "out there and battle like always.$"
+	.string "Diğerleri kimin umurunda.\nBen senin yanındayım!\pEndişelenmene gerek yok. Sadece oraya\nçık ve her zamanki gibi savaş.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
-	.string "You're a pretty decent TRAINER,\n"
-	.string "I think.\p"
-	.string "But I also think that {STR_VAR_1}\n"
-	.string "is number one right now.\p"
-	.string "That's just my opinion.\n"
-	.string "Don't worry about it too much.$"
+	.string "Bence oldukça iyi bir eğitmensin.\pAma aynı zamanda {STR_VAR_1}'in\nbir numara olduğunu düşünüyorum.\pBu sadece benim fikrim.\nBu konuda fazla endişelenme.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
-	.string "Wow, you really are strong.\n"
-	.string "Maybe even stronger than {STR_VAR_1}.\p"
-	.string "But {STR_VAR_1} needs me.\p"
-	.string "If I don't cheer for {STR_VAR_1},\n"
-	.string "who will?$"
+	.string "Vay canına, gerçekten güçlüsün.\nBelki {STR_VAR_1}'den bile.\pAma {STR_VAR_1}'ın bana ihtiyacı var.\pEğer ben {STR_VAR_1} için tezahürat\nyapmazsam, kim yapacak?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
-	.string "You've changed my mind!\n"
-	.string "You are strong, aren't you?\p"
-	.string "I'd like you to tell me how you managed\n"
-	.string "to get so strong!$"
+	.string "Fikrimi değiştirdin!\nAmma güçlüsün.\pBu kadar güçlü olmayı nasıl başardığını\nbana anlatmanı istiyorum!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
-	.string "The tougher the situation, the more\n"
-	.string "attractively you battle.\p"
-	.string "I can't wait for your next battle!$"
+	.string "Durum ne kadar zor olursa, o kadar\nçekici bir şekilde savaşırsınız.\pBir sonraki savaşınız için\nsabırsızlanıyorum!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
-	.string "Among the recently hot TRAINERS,\n"
-	.string "{STR_VAR_1} is the standout.\p"
-	.string "That toughness, it's simply not normal.\p"
-	.string "You're doing okay, but you're not in\n"
-	.string "the same class as {STR_VAR_1}.$"
+	.string "Son zamanlarda öne çıkan eğitmenler\narasında {STR_VAR_1} öne çıkıyor.\pBu güç normal değil.\pİyi gidiyorsun ama {STR_VAR_1}\nile aynı sınıfta değilsin.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
-	.string "You are really popular…\p"
-	.string "You're strong, and you're caring to\n"
-	.string "POKéMON. No one can knock you.\p"
-	.string "But, you know, I believe in {STR_VAR_1}.\p"
-	.string "{STR_VAR_1} is definitely stronger!\n"
-	.string "I'm positive!$"
+	.string "Gerçekten çok popülersin.\pGüçlüsün ve POKéMON'lara değer\nveriyorsun. Kimse seni alt edemez.\pAma ben {STR_VAR_1}'a inanıyorum.\p{STR_VAR_1} kesinlikle daha güçlü!\nPozitif düşünüyorum!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
-	.string "You…\p"
-	.string "Impressive!$"
+	.string "Sen…\pEtkileyicisin!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
-	.string "Your true worth, it is fine if only\n"
-	.string "I recognized it.\p"
-	.string "The others I doubt will understand\n"
-	.string "the hidden power that beats within.$"
+	.string "Senin gerçekten iyisin, sadece\nben farkına varabilseydim iyi olurdu.\pDiğerlerinin içindeki gizli gücü\nanlayacağından şüpheliyim.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
-	.string "Yes, I see strength in your eyes.\p"
-	.string "But!\p"
-	.string "You still haven't realized your\n"
-	.string "potential.$"
+	.string "Evet, gözlerinde güç görüyorum.\pAma!\pHala potansiyelinin farkına varamadın.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
-	.string "It is true that you are tremendously\n"
-	.string "powerful.\p"
-	.string "But!\n"
-	.string "I can tell…\p"
-	.string "That strength cannot be considered\n"
-	.string "true strength yet!\p"
-	.string "True strength is…!\n"
-	.string "… …\p"
-	.string "Actually, I have no idea, either.$"
+	.string "Muazzam derecede güçlü olduğun\ndoğru.\pAma! Şunu söyleyebilirim.\pBu güç henüz gerçek güç olarak kabul\nedilemez!\pGerçek güç…!\n… …\pAslında benim de hiçbir fikrim yok.$"

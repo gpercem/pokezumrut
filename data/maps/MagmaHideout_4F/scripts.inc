@@ -134,99 +134,52 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see GROUDON, too, but they\n"
-	.string "won't let me see even its tail…\p"
-	.string "It's got me feeling really frustrated.\p"
-	.string "Oh, no!\n"
-	.string "I blabbed about GROUDON!$"
+	.string "Ben de GROUDON'u görmek istiyorum ama\nkuyruğunu bile görmeme izin\lvermiyorlar…\pBu beni gerçekten hayal kırıklığına\nuğrattı.\pOlamaz! GROUDON hakkında boşboğazlık\nettim!$"
 
 MagmaHideout_4F_Text_Grunt11Defeat:
-	.string "I guess it's impossible to win if one\n"
-	.string "doesn't have a calm mind…$"
+	.string "Sanırım stresliyken kazanmak\nimkansız oluyor…$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "Acaba GROUDON'un kuyruğu var mı?$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
-	.string "Fuhahaha!\n"
-	.string "Soon! Very soon!\l"
-	.string "Our grand objective will be achieved!$"
+	.string "Fuhahaha! Çok yakında! Çok yakında!\nBüyük hedefimize ulaşacağız!$"
 
 MagmaHideout_4F_Text_Grunt12Defeat:
-	.string "Grrr…\n"
-	.string "I've come so far, but now this?$"
+	.string "Grrr… Buraya kadar geldim, sonucu\nbu mu?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "MAXIE, sir!\n"
-	.string "An intruder is headed your way!$"
+	.string "MAXIE, efendim!\nDavetsiz bir misafir size doğru\lgeliyor!$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
-	.string "You're not finished yet!\n"
-	.string "You're not getting by me easily!$"
+	.string "Daha işim bitmedi!\nBeni kolayca geçemezsin!$"
 
 MagmaHideout_4F_Text_Grunt13Defeat:
-	.string "Was I that easy to knock down?$"
+	.string "Beni devirmek o kadar kolay mıydı?$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "C-come on, one more match…$"
+	.string "Hadi, bir maç daha.$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "Hehehe! Buraya kadar geldiğine\ngöre söylesem iyi olur!\pBu doğru!\nİleride, GROUDON uyuyor!\pMAXIE birkaç saniye önce GROUDON'a\ngitti!\pÇok yakında uyanacak!\nHehehe! Hehehe!$"
 
 MagmaHideout_4F_Text_TabithaDefeat:
-	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "Tekrar yenildim…\nHehe…$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
-	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "…Ve sen benimle vakit kaybederken,\nMAXIE GROUDON'u uyandırmıştır bile…$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "MAXIE: GROUDON…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This BLUE ORB is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the BLUE ORB.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+	.string "MAXİE: GROUDON.\pHiçbir şey seni magma ile yıkanmış\nuykundan uyandıramaz.\pAradığın şey bu MAVİ KÜRE.\nÖyle değil mi?\pSana MAVİ KÜREYİ getirdim.\nParıltısı seni uyandırsın!\pVe göster…\nGöster bana tüm gücünü!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "MAXIE: GROUDON!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+	.string "MAXİE: GROUDON!\nSorun ne?\pAnahtar MAVİ KÜRE değil miydi?\pGROUDON! Nereye gittin…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "MAXİE: Demek sendin.\pSeni orada burada davetsizce\ndolaşırken görmüştüm.\pŞimdi anladım!\nUcuz bir numara çekmiş olmalısın!$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
-	.string "What makes you so adept at handling\n"
-	.string "POKéMON?$"
+	.string "POKéMON'ları idare etmekte seni bu\nkadar usta yapan nedir?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "MAXIE: There has to be some reason\n"
-	.string "why GROUDON fled…\p"
-	.string "That's what you're trying to say,\n"
-	.string "aren't you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Humph…\n"
-	.string "You think I didn't know that?\p"
-	.string "With GROUDON gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after GROUDON, so this\n"
-	.string "is where we part!$"
+	.string "GROUDON'un kaçmasının bir nedeni\nolmalı.\pBunu söylemeye çalışıyorsun, değil mi?\p… … … … … …\n… … … … … …\pBunu bilmediğimi mi sanıyorsun?\pGROUDON gittiğine göre, artık bu lanet\nyanardağa gerek yok.\pGROUDON'un peşinden gidiyorum, bu\nyüzden burada yollarımız\layrılıyor!$"

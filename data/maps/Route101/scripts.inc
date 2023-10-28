@@ -267,7 +267,7 @@ Route101_Text_PleaseHelp:
 	.string "Hey! Sen, evet sen!\n"
 	.string "Lütfen! Yardım et!\p"
 	.string "Çantama bak!\n"
-	.string "POKé TOP'ları var içinde!$"
+	.string "POKé TOPLARI var içinde!$"
 
 Route101_Text_DontLeaveMe:
 	.string "N-nereye gidiyorsun?!\n"

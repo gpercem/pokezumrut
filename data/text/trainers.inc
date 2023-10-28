@@ -2152,6 +2152,46 @@ Route120_Text_LorenzoPostBattle:
 Route120_Text_JennaIntro:
 	.string "Fiziksel kondisyonun nasıl?\nEğer formda değilsen, kritik\ldurumlarda zor anlar yaşayabilirsin.$"
 
+Route120_Text_JennaDefeat:
+	.string "Ben fit biriyim, yine de…$"
+
+Route120_Text_JennaPostBattle:
+	.string "Her gün düzenli yürüyüş yaparım.\n"
+	.string "POKéMON'larla yürümeyi severim.$"
+
+Route120_Text_JeffreyIntro:
+	.string "… … … … … …\n"
+	.string "… … … … … …\l"
+	.string "Savaşmak ister misin?$"
+
+Route120_Text_JeffreyDefeat:
+	.string "Kaybettim…$"
+
+Route120_Text_JeffreyPostBattle:
+	.string "… … … … … …\n"
+	.string "… … … … … …\l"
+	.string "Daha çok çalışacağım…$"
+
+Route120_Text_JeffreyRegister:
+	.string "… … … … … …\n"
+	.string "… … … … … …\l"
+	.string "POKéNAV'ın var mı…?$"
+
+Route120_Text_JeffreyRematchIntro:
+	.string "… … … … … …\n"
+	.string "… … … … … …\l"
+	.string "Tekrar savaşmak ister misin?$"
+
+Route120_Text_JeffreyRematchDefeat:
+	.string "… … … … … …\n"
+	.string "Yine kaybettim…$"
+
+Route120_Text_JeffreyPostRematch:
+	.string "… … … … … …\n"
+	.string "… … … … … …\l"
+	.string "Daha da çabalayacağım…\l"
+	.string "BÖCEK POKéMON'larım için…$"
+
 Route120_Text_JenniferIntro:
 	.string "POKéMON'ların birçok yeteneği\nvardır. Eğer birinci sınıf bir\leğitmen olmak istiyorsan, bunları\löğrenmelisin.$"
 

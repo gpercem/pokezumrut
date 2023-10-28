@@ -19,28 +19,12 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 	end
 
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
-	.string "Woohoo!\p"
-	.string "I hear people call me the ROCK SMASH\n"
-	.string "GUY, but I find that sort of degrading.\p"
-	.string "I think I deserve a bit more respect,\n"
-	.string "like maybe the ROCK SMASH DUDE.\p"
-	.string "Woohoo!\p"
-	.string "Anyways, your POKéMON look pretty\n"
-	.string "strong.\p"
-	.string "I like that!\n"
-	.string "Here, take this HIDDEN MACHINE!$"
+	.string "Vuuhu!\pİnsanların bana KAYA DARBESİ ADAM\ndediğini duyuyorum ama ben bunu biraz\laşağılayıcı buluyorum.\pBence biraz daha saygıyı hak ediyorum,\nbelki de KAYA KRALI gibi.\pVuuhu!\pHer neyse, POKéMON'un oldukça güçlü\ngörünüyor.\pBunu sevdim!\nAl, bu GİZLİ MAKİNE senindir!$"
 
 MauvilleCity_House1_Text_ExplainRockSmash:
-	.string "That HM contains ROCK SMASH.\p"
-	.string "If you come across large boulders\n"
-	.string "that block your path…\p"
-	.string "Well, use that HM move and smash\n"
-	.string "them right out of your way!\p"
-	.string "Yes, sir! Smash rocks aside, I say!\n"
-	.string "Woohoo!$"
+	.string "Bu HM'de KAYA DARBESİ var.\pEğer yolunu kesen büyük kayalarla\nkarşılaşırsan…\pO zaman HM saldırısını kullan ve onları\nyolundan çek!\pEvet, evet!\nKayaları parçala ve geç! Vuuhu!$"
 
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
-	.string "Oh, yes, if you smash a rock, a POKéMON\n"
-	.string "could come flying out of hiding.\p"
-	.string "Woohoo!$"
+	.string "Evet, eğer bir kayayı parçalarsan,\nkarşına bir POKéMON çıkabilir.\pVuuhu!$"
+
 

@@ -41,25 +41,19 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 	end
 
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
-	.string "If I had a BIKE, it'd be easy to cycle to\n"
-	.string "SLATEPORT for some shopping.\p"
-	.string "I'd be able to buy HARBOR MAIL at the\n"
-	.string "POKéMON MART in SLATEPORT…$"
+	.string "Eğer bir BİSİKLETİM olsaydı, alışveriş\niçin SLATEPORT'a bisikletle gidip\lgelirdim.\pSLATEPORT'taki POKéMON MART'tan\nLİMAN MEKTUBU satın alabilirdim…$"
 
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
-	.string "Oh! You have HARBOR MAIL?\n"
-	.string "Will you trade it for a COIN CASE?$"
+	.string "Aa! LİMAN MEKTUBUN mu var?\nOnu bir JETON KUTUSU ile takas\leder misin?$"
 
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
-	.string "Oh, I'm so happy!\n"
-	.string "Okay, I'll trade you a COIN CASE!$"
+	.string "Çok mutlu oldum!\nTamam, seninle bir jeton kasası\ntakas edeceğim!$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
-	.string "That COIN CASE can be used\n"
-	.string "at the GAME CORNER.$"
+	.string "Bu JETON KUTUSUNU, OYUN KÖŞESİ'nde\nkullanılabilirsin.$"
 
 MauvilleCity_House2_Text_ThatsDisappointing:
-	.string "Oh, that's disappointing.\p"
-	.string "A COIN CASE is needed for the\n"
-	.string "GAME CORNER.$"
+	.string "Ne hayal kırıklığı ama.\pOYUN KÖŞESİ'ne girmek için JETON\nKUTUSU gerektiğini unutma.$"
+
+
 

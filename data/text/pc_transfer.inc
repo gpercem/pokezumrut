@@ -1,32 +1,28 @@
 gText_PkmnTransferredSomeonesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "SOMEONE'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2}, BİRİSİ'nin PC'sine\n"
+	.string "gönderildi.\p"
+	.string "{STR_VAR_1} numaralı kutuya konuldu.$"
 
 gText_PkmnTransferredLanettesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "LANETTE'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2}, LANETTE'İN PC'sine\n"
+	.string "gönderildi.\p"
+	.string "{STR_VAR_1} numaralı kutuya konuldu.$"
 
 gText_PkmnTransferredSomeonesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "SOMEONE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "PC'deki KUTU {STR_VAR_3} dolu.\p"
+	.string "{STR_VAR_2}, {STR_VAR_1} numaralı kutuya\n"
+	.string "gönderildi.$"
 
 gText_PkmnTransferredLanettesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "LANETTE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "PC'deki KUTU {STR_VAR_3} dolu.\p"
+	.string "{STR_VAR_2}, {STR_VAR_1} numaralı kutuya\n"
+	.string "gönderildi.$"
 
 gText_NoMoreRoomForPokemon::
-	.string "There's no more room for POKéMON!\p"
-	.string "The POKéMON BOXES are full and\n"
-	.string "can't accept any more!$"
+	.string "Bu POKéMON alınamıyor!\p"
+	.string "POKéMON KUTULARI tıka basa dolu\n"
+	.string "ve daha fazla alınamıyor!$"
 
 gText_NicknameThisPokemon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "{STR_VAR_1} POKéMON'una takma isim\n"
+	.string "verilsin mi?$"

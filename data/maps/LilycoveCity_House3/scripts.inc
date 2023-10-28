@@ -98,71 +98,27 @@ LilycoveCity_House3_EventScript_WereDoingContest::
 	end
 
 LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
-	.string "Oh, my, my! Are you traveling alone?\n"
-	.string "But you're so young! Good for you!\p"
-	.string "I'm sure my kids could learn a thing\n"
-	.string "or two from you!\p"
-	.string "Me? I'm a master of {POKEBLOCK}S.\p"
-	.string "If I get serious just a little, why,\n"
-	.string "I can concoct great {POKEBLOCK}S.\p"
-	.string "Would you like to learn from me,\n"
-	.string "a master of {POKEBLOCK}S?$"
+	.string "Aman Tanrım!\nYalnız mı seyahat ediyorsun?\lAma çok gençsin! Aferin sana!\pEminim benim çocuklarım da senden bir\niki şey öğrenebilir!\pBen mi? Ben {POKEBLOCK} ustasıyım.\pBiraz ciddileşirsem, harika\n{POKEBLOCK}'lar hazırlayabilirim.\pBir {POKEBLOCK} ustasından bir şeyler\nöğrenmek ister misin?$"
 
 LilycoveCity_House3_Text_OhAreYouSure:
-	.string "Oh? Are you sure?\p"
-	.string "You shouldn't always try to do\n"
-	.string "everything by yourself, dear!$"
+	.string "Emin misin?\pHer zaman her şeyi kendi başına\nyapmaya çalışmamalısın, canım!$"
 
 LilycoveCity_House3_Text_ExplainPokeblocks:
-	.string "Oh, good! You're a smart soul!\n"
-	.string "This is a bit long, so listen up!\p"
-	.string "Are you ready?\p"
-	.string "If you look at {POKEBLOCK}S, you should see\n"
-	.string "that they are rated on how they feel.\p"
-	.string "The lower the feel rating,\n"
-	.string "the better it is. Don't forget this!\p"
-	.string "A good {POKEBLOCK} has a low feel\n"
-	.string "rating and a high level.\p"
-	.string "A POKéMON can eat more good\n"
-	.string "{POKEBLOCK}S than ordinary ones, too.\p"
-	.string "And this is important.\p"
-	.string "If you want to make smooth {POKEBLOCK}S,\n"
-	.string "use different kinds of BERRIES.\p"
-	.string "Don't be stingy--the kinds of BERRIES\n"
-	.string "affect the smoothness of {POKEBLOCK}S.\p"
-	.string "And another thing.\p"
-	.string "The more people blending BERRIES,\n"
-	.string "the smoother the {POKEBLOCK}S.\p"
-	.string "That's why you should talk to other\n"
-	.string "people and make {POKEBLOCK}S together.\p"
-	.string "That's about all you need to know to\n"
-	.string "make good {POKEBLOCK}S.\p"
-	.string "If everyone had POKéMON they love,\n"
-	.string "smooth {POKEBLOCK}S, and a loving family,\l"
-	.string "the world would be a happier place.\p"
-	.string "Don't give up, dear!$"
+	.string "Harika! Sen akıllı bir ruhsun!\nSıkı dur, çünkü anlatması zordur!\pHazır mısın?\pEğer {POKEBLOCK}'lara bakarsan,\nnasıl hissettirdiklerine göre\lderecelendirildiklerini görürsünüz.\pHissetme derecesi ne kadar düşükse, o\nkadar iyidir. Bunu sakın unutma!\pİyi bir {POKEBLOCK} düşük bir his\nderecesine ve yüksek bir seviyeye\lsahiptir.\pPOKéMON'lar, sıradan {POKEBLOCK}'lardan\ndaha fazla iyi {POKEBLOCK} yiyebilir.\pVe bu çok önemlidir.\pEğer mükemmel {POKEBLOCK} yapmak istiyorsan\nfarklı türde MEYVE kullanmalısın.\pCimri olma. MEYVE çeşitleri {POKEBLOCK}'ların\nkalitesini etkiler.\pVe başka bir şey daha.\pNe kadar kişi MEYVE karıştırırsa,\n{POKEBLOCK}'lar o kadar iyi olur.\pBu yüzden diğer insanlarla konuşmalı\nve birlikte {POKEBLOCK} yapmalısın.\pİyi {POKEBLOCK}'lar yapmak için\nbilmen gereken her şey bu kadar.\pHerkes sevdiği POKéMON'a, düzgün\n{POKEBLOCK}'lara ve sevgi dolu bir\laileye sahip olsaydı, dünya daha mutlu\lbir yer olurdu.\pPes etme, canım!$"
 
 LilycoveCity_House3_Text_HappyToHaveQuadruplets:
-	.string "When my wife gave birth to quadruplets,\n"
-	.string "you bet I was shocked.\p"
-	.string "But, now, seeing them play together,\n"
-	.string "it makes me happy.$"
+	.string "Eşim dördüz doğurduğunda, emin ol\nşok olmuştum.\pAma şimdi onları birlikte oynarken\ngörmek beni mutlu ediyor.$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
-	.string "We're having MULTI BATTLES, but I know\n"
-	.string "I'm going to win.$"
+	.string "ÇOKLU SAVAŞLAR yapıyoruz ama\nkazanacağımı biliyorum.$"
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
-	.string "We like mixing stuff at\n"
-	.string "the RECORD CORNER.\p"
-	.string "But what gets mixed up?$"
+	.string "KAYIT KÖŞESİ'nde bir şeyleri\nkarıştırmayı seviyoruz.\pAma ne karıştırıyoruz?$"
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
-	.string "We're going to make super {POKEBLOCK}S\n"
-	.string "with a BERRY BLENDER!$"
+	.string "MEYVE ÖĞÜTÜCÜ ile süper\n{POKEBLOCK}'lar yapacağız!$"
 
 LilycoveCity_House3_Text_GoingToEnterContest:
-	.string "I want to brag about how tough my\n"
-	.string "POKéMON is, so we're going to enter\l"
-	.string "a CONTEST together.$"
+	.string "POKéMON'umun gücüyle övünmek\nistiyorum, bu yüzden birlikte bir\lYARIŞMA'ya katılacağız.$"
+
 

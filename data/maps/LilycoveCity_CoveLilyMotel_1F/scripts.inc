@@ -76,56 +76,24 @@ LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn:
 	step_end
 
 LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
-	.string "Hm, so they doubled the guests by\n"
-	.string "using POKéMON as attractions?\p"
-	.string "Hm, well, maybe I should make a cute\n"
-	.string "POKéMON our inn's mascot.\p"
-	.string "I wonder if that will attract more\n"
-	.string "guests to stay with us?$"
+	.string "Yani POKéMON'ları tanıtarak\nmisafir sayısını ikiye mi\lkatladılar?\pBelki de sevimli bir POKéMON'u\notelimizin maskotu yapmalıyım.\pAcaba bu bizimle kalmaları için daha\nfazla misafir çeker mi?$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV!\p"
-	.string "Since that TEAM AQUA came to town,\n"
-	.string "the tourists have been staying away.$"
+	.string "Özür dilerim, özür dilerim!\nTelevizyon izlemeye dalmışım!\pAQUA TAKIMI şehre geldiğinden beri\nturistler bizden uzak duruyor.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
-	.string "Hey, down in front!\n"
-	.string "I can't see the TV!$"
+	.string "Hey, çekil oradan!\nTelevizyonu göremiyorum!$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
-	.string "Amazing! You're telling me a POKéMON\n"
-	.string "found someone's lost item?\p"
-	.string "That's something. If we had some smart\n"
-	.string "POKéMON like that…\p"
-	.string "We could recover anything that our\n"
-	.string "guests mislaid…$"
+	.string "İnanılmaz! Bana bir POKéMON'un birinin\nkayıp eşyasını bulduğunu mu\lsöylüyorsun?\pBu da bir şeydir. Böyle akıllı bir\nPOKéMON'umuz olsaydı…\pMisafirlerimizin kaybettiği her şeyi\ngeri getirebilirdik…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV!\p"
-	.string "I heard that someone busted\n"
-	.string "the TEAM AQUA HIDEOUT.\p"
-	.string "Thanks to that, we just booked\n"
-	.string "a reservation from a big group.\p"
-	.string "It was a company called… Uh…\n"
-	.string "GAME something…$"
+	.string "Of, özür dilerim, özür dilerim!\nTelevizyon izlemeye dalmışım!\pBirinin AQUA TAKIMI sığınağını\nbastığını duydum.\pBu sayede büyük bir gruptan\nrezervasyon yaptırdık.\pAdı GAME bilmem ne olan bir şirketti.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
-	.string "Amazing! A house-sitting POKéMON\n"
-	.string "caught a burglar?\p"
-	.string "That's something. If we had a tough\n"
-	.string "POKéMON as a security guard…\p"
-	.string "We would be able to provide our guests\n"
-	.string "with greater safety.$"
+	.string "İnanılmaz! Evde oturan bir POKéMON,\nhırsızı mı yakaladı?\pBu da bir şeydir. Güvenlik görevlisi\nolarak sert bir POKéMON'umuz olsaydı…\pKonuklarımıza daha fazla güvenlik\nsağlayabilirdik.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV.\p"
-	.string "Oh, yes. A big group of guests arrived\n"
-	.string "a little while ago.\p"
-	.string "They booked in as GAME FREAK,\n"
-	.string "so I guess they must make games.\p"
-	.string "Uh-oh, I'd better get working on\n"
-	.string "their dinner!$"
+	.string "Özür dilerim, özür dilerim!\nTelevizyon izlemeye dalmışım.\pEvet, evet. Biraz önce büyük bir\nmisafir grubu geldi.\pGAME FREAK diye rezervasyon\nyaptırmışlar, sanırım oyun yapıyorlar.\pAkşam yemekleri üzerinde çalışsam iyi\nolacak!$"
+
 

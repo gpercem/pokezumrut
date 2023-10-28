@@ -162,133 +162,75 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-	.string "Welcome to LILYCOVE MUSEUM.\p"
-	.string "Please take the time to enjoy our\n"
-	.string "collection of fantastic artwork\l"
-	.string "featuring POKéMON.$"
+	.string "LILYCOVE MÜZESİ'ne hoş geldiniz.\pPOKéMON içeren fantastik sanat\neseri koleksiyonumuzun tadını çıkarın.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
-	.string "I'm the CURATOR of this MUSEUM of\n"
-	.string "fine arts.\p"
-	.string "It's heartening to see someone so\n"
-	.string "young as you in our MUSEUM.\p"
-	.string "Have you viewed our collection of\n"
-	.string "paintings already?$"
+	.string "Ben bu güzel sanatlar müzesinin\nküratörüyüm.\pSizin gibi genç birini müzemizde görmek\nçok sevindirici.\pResim koleksiyonumuzu incelediniz mi?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
-	.string "Ah, then let me not disturb you.\n"
-	.string "Please, do take your time.$"
+	.string "O zaman sizi rahatsız etmeyeyim.\nLütfen, acele etmeyin.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
-	.string "Oh? I do believe that you seem to\n"
-	.string "be a POKéMON TRAINER.\p"
-	.string "Have you an interest in paintings,\n"
-	.string "too?$"
+	.string "Öyle mi?\nSahiden bir POKéMON eğitmeni\ngibi görünüyorsunuz.\pResimlere de ilginiz var mı?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
-	.string "I see…\p"
-	.string "I'm honored that you would visit\n"
-	.string "us in spite of that.$"
+	.string "Anlıyorum.\pBuna rağmen bizi ziyaret etmenizden\nonur duydum.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
-	.string "Ah, excellent!\n"
-	.string "You do like paintings!\p"
-	.string "Then, may I ask you to come with me?$"
+	.string "Ah, mükemmel!\nResimleri seviyorsunuz!\pO zaman benimle gelmenizi isteyebilir\nmiyim?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
-	.string "It's a very old painting.\n"
-	.string "The paint is peeling here and there.$"
+	.string "Çok eski bir tablo.\nBoyası solmuş.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
-	.string "It's an odd landscape with bizarre\n"
-	.string "and fantastic scenery.$"
+	.string "Burası tuhaf ve fantastik eserlere\nsahip garip bir yer.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman:
-	.string "It's a painting of a beautiful, smiling\n"
-	.string "woman with a POKéMON on her lap.$"
+	.string "Kucağında POKéMON olan güzel,\ngülümseyen bir kadının resmi.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
-	.string "It's a painting of a legendary POKéMON\n"
-	.string "from long ago.\p"
-	.string "The artist painted this from\n"
-	.string "imagination.$"
+	.string "Uzun zaman öncesinden efsanevi bir\nPOKéMON resmi.\pSanatçı bunu hayal gücüyle çizmiş.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
-	.string "It's a painting of GRASS POKéMON\n"
-	.string "swaying in a breeze.\p"
-	.string "They appear to be enjoying the wind's\n"
-	.string "gentle caress.$"
+	.string "Esintide sallanan bir ÇİMEN POKéMON\nresmi.\pRüzgarın nazik okşamasının tadını\nçıkarıyor gibi görünüyor.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
-	.string "It's a delicious-looking painting\n"
-	.string "of BERRIES.\p"
-	.string "This painting could make you hungry!$"
+	.string "Lezzetli görünen bir MEYVE tablosu.\pBu resim seni acıktırabilir!$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
-	.string "It's a replica of a famous sculpture.\p"
-	.string "It depicts an ancient BIRD POKéMON.$"
+	.string "Ünlü bir heykelin kopyası.\pAntik bir KUŞ POKEMON'u tasvir ediyor.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
-	.string "It's a big POKé BALL carved from\n"
-	.string "a black stone.\p"
-	.string "It was apparently used in festivals\n"
-	.string "in the olden days.$"
+	.string "Siyah taştan oyulmuş büyük bir\nPOKé TOPU.\pGörünüşe göre eski günlerde\nfestivallerde kullanılıyormuş.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
-	.string "It's a huge stone tablet inscribed\n"
-	.string "with POKéMON and dense text in the\l"
-	.string "small characters of an ancient,\l"
-	.string "unreadable language.$"
+	.string "Üzerinde POKéMON ve eski, okunamayan\nbir dilin küçük karakterleriyle\lyazılmış yoğun bir metin bulunan\ldevasa bir taş tablet.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
-	.string "Hmmm…\n"
-	.string "What works of great magnificence…$"
+	.string "Hmmm…\nNe büyük, ihtişamlı eserler…$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
-	.string "Battling with POKéMON is fun,\n"
-	.string "I'll grant you that.\p"
-	.string "But one mustn't forget our love for\n"
-	.string "the fine arts.$"
+	.string "POKéMON'larla savaşmak eğlenceli,\nbunu kabul ediyorum.\pAma güzel sanatlara olan sevgimizi\nde unutmamalıyız.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-	.string "This ART MUSEUM… Well, you could\n"
-	.string "see many fantastic paintings.\p"
-	.string "And the CURATOR is a wonderful person.\p"
-	.string "Among artists like myself, this MUSEUM\n"
-	.string "is an inspiration.$"
+	.string "Bu SANAT MÜZESİ…\nİçerisinde birçok eser görebilirsin.\pVe KÜRATÖR harika bir insan.\pBenim gibi sanatçılar için bu MÜZE\nbir ilham kaynağı.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
-	.string "This lady is pretty!\n"
-	.string "She's like Mommy!$"
+	.string "Bu bayan çok güzel!\nAnnem gibi!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
-	.string "This POKéMON is adorable!\n"
-	.string "Just like our little boy!$"
+	.string "Bu POKéMON çok sevimli!\nTıpkı küçük oğlumuz gibi!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
-	.string "I'd heard that this ART MUSEUM got\n"
-	.string "in some new paintings.\p"
-	.string "So, naturally I hurried over.\p"
-	.string "Are the new paintings up on\n"
-	.string "the second floor?$"
+	.string "Bu sanat müzesinin yeni tablolar\naldığını duymuştum.\pDoğal olarak hemen oraya gittim.\pYeni tablolar ikinci katta mı?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
-	.string "Lately, the CURATOR has been\n"
-	.string "unusually cheerful.\p"
-	.string "I bet something good happened for him.\n"
-	.string "Definitely.$"
+	.string "Küratör son zamanlarda alışılmadık\nderecede neşeli.\pBahse girerim onun için iyi bir şey\nolmuştur. Kesinlikle.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
-	.string "I aim to see many great paintings\n"
-	.string "here and learn from them.\p"
-	.string "I have this dream of one day having\n"
-	.string "my artwork exhibited here.$"
+	.string "Burada birçok harika resim görmeyi ve\nonlardan bir şeyler öğrenmeyi\lhedefliyorum.\pBir gün burada eserlerimin\nsergilenmesi gibi bir hayalim var.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-	.string "The ART MUSEUM has become a favorite\n"
-	.string "tourist destination.\p"
-	.string "It's great for LILYCOVE…\n"
-	.string "No, great for the HOENN region!\p"
-	.string "This is what I've heard--a lone TRAINER\n"
-	.string "procured all the paintings upstairs.$"
+	.string "SANAT MÜZESİ turistlerin gözdesi\nhaline geldi.\pLİLYCOVE için harika… Hayır, HOENN\nbölgesi için harika!\pDuyduğuma göre üst kattaki tüm\ntabloları bir EĞİTMEN yapmış.$"
+
 

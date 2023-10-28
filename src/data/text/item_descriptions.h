@@ -3,53 +3,53 @@ static const u8 sDummyDesc[] = _(
 
 static const u8 sMasterBallDesc[] = _(
     "Bir POKéMON'u\n"
-    "hatasız yakalayan en\n"
-    "iyi TOP.");
+    "hatasız yakalayan\n"
+    "en iyi TOP.");
 
 static const u8 sUltraBallDesc[] = _(
-    "Çok daha yüksek\n"
-    "yakalama oranına\n"
-    "sahip bir TOP.");
+    "Yüksek yakalama\n"
+    "oranına sahip\n"
+    "bir TOP.");
 
 static const u8 sGreatBallDesc[] = _(
     "POKE TOPU'ndan\n"
-    "daha yüksek yakalama\n"
-    "oranına sahip bir TOP.");
+    "daha iyi\n"
+    "bir TOP.");
 
 static const u8 sPokeBallDesc[] = _(
     "Vahşi POKéMON\n"
     "yakalamak için\n"
-    "kullanılan bir alet.");
+    "kullanılan top.");
 
 static const u8 sSafariBallDesc[] = _(
     "Sadece SAFARİ\n"
-    "BÖLGESİ'nde geçen\n"
-    "özel bir TOP.");
+    "BÖLGESİ'nde\n"
+    "kullanılan TOP.");
 
 static const u8 sNetBallDesc[] = _(
     "SU ve BÖCEK tipi\n"
-    "POKéMON üzerinde iyi\n"
-    "çalışan bir TOP.");
+    "POKéMON üzerinde\n"
+    "etkili bir TOP.");
 
 static const u8 sDiveBallDesc[] = _(
     "Okyanustaki\n"
-    "POKéMON'larda iyi\n"
-    "çalışan bir TOP.");
+    "POKéMON'larda\n"
+    "etkili bir TOP.");
 
 static const u8 sNestBallDesc[] = _(
-    "Zayıf POKéMON'lar\n"
-    "üzerinde daha iyi\n"
-    "çalışan bir TOP.");
+    "Zayıf POKéMON\n"
+    "üzerinde daha\n"
+    "etkili bir TOP.");
 
 static const u8 sRepeatBallDesc[] = _(
-    "Daha önce yakalanan\n"
-    "POKéMON'larda daha\n"
-    "iyi çalışan bir TOP.");
+    "Yakalanmış\n"
+    "POKéMON'larda\n"
+    "etkili bir TOP.");
 
 static const u8 sTimerBallDesc[] = _(
     "Birçok tur süren\n"
     "savaşlarda güç\n"
-    "kazanan bir TOP.");
+    "kazanan TOP.");
 
 static const u8 sLuxuryBallDesc[] = _(
     "POKéMON'u daha\n"
@@ -57,9 +57,9 @@ static const u8 sLuxuryBallDesc[] = _(
     "yapan bir TOP.");
 
 static const u8 sPremierBallDesc[] = _(
-    "Bir olayın anısına\n"
-    "yapılmış nadir bir\n"
-    "TOP.");
+    "Bir olay anısına\n"
+    "yapılmış bir TOP.\n"
+    "");
 
 static const u8 sPotionDesc[] = _(
     "Bir POKéMON'un\n"
@@ -67,7 +67,7 @@ static const u8 sPotionDesc[] = _(
     "arttırır.");
 
 static const u8 sAntidoteDesc[] = _(
-    "Zehirlenmiş bir\n"
+    "Zehirlenmiş\n"
     "POKéMON'u\n"
     "iyileştirir.");
 
@@ -78,8 +78,8 @@ static const u8 sBurnHealDesc[] = _(
 
 static const u8 sIceHealDesc[] = _(
     "Donmuş bir\n"
-    "POKéMON'un buzunu\n"
-    "çözer.");
+    "POKéMON'un\n"
+    "buzunu çözer.");
 
 static const u8 sAwakeningDesc[] = _(
     "Uyuyan bir\n"
@@ -87,13 +87,13 @@ static const u8 sAwakeningDesc[] = _(
     "uyandırır.");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Felçli bir POKéMON'u\n"
-    "iyileştirir."
-    "");
+    "Felçli bir\n"
+    "POKéMON'u"
+    "iyileştirir.");
 
 static const u8 sFullRestoreDesc[] = _(
-    "Bir POKéMON'un\n"
-    "canını ve durumunu\n"
+    "POKéMON'un can\n"
+    "ve durumunu\n"
     "iyileştirir.");
 
 static const u8 sMaxPotionDesc[] = _(
@@ -112,148 +112,148 @@ static const u8 sSuperPotionDesc[] = _(
     "artırır.");
 
 static const u8 sFullHealDesc[] = _(
-    "Bir POKéMON'un tüm\n"
-    "durum sorunlarını\n"
+    "Bir POKéMON'un\n"
+    "tüm sorunlarını\n"
     "iyileştirir.");
 
 static const u8 sReviveDesc[] = _(
     "Bayılmış bir\n"
-    "POKéMON'u yarı can\n"
-    "ile canlandırır.");
+    "POKéMON'u yarı\n"
+    "can iyileştirir.");
 
 static const u8 sMaxReviveDesc[] = _(
     "Bayılmış bir\n"
-    "POKéMON'u tüm canı\n"
-    "ile canlandırır.");
+    "POKéMON'u tüm\n"
+    "canlandırır.");
 
 static const u8 sFreshWaterDesc[] = _(
-    "Canı 50 puan geri\n"
-    "kazandıran bir su."
-    "");
+    "Canı 50 puan\n"
+    "iyileştiren"
+    "bir şişe su.");
 
 static const u8 sSodaPopDesc[] = _(
-    "Canı 60 puan geri\n"
-    "kazandıran gazlı bir\n"
+    "Canı 60 puan\n"
+    "iyileştiren bir\n"
     "soda içeceği.");
 
 static const u8 sLemonadeDesc[] = _(
-    "Canı 80 puan geri\n"
-    "kazandıran çok tatlı\n"
+    "Canı 80 puan\n"
+    "iyileştiren\n"
     "bir içecek.");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "Canı 100 puan geri\n"
-    "kazandıran besleyici\n"
+    "Canı 100 puan\n"
+    "iyileştiren\n"
     "bir süt.");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "Canı 50 puan geri\n"
-    "kazandıran acı bir\n"
-    "toz.");
+    "Canı 50 puan\n"
+    "iyileştiren\n"
+    "acı bir toz.");
 
 static const u8 sEnergyRootDesc[] = _(
-    "Canı 200 puan geri\n"
-    "kazandıran acı bir\n"
-    "kök.");
+    "Canı 200 puan\n"
+    "iyileştiren\n"
+    "acı bir kök.");
 
 static const u8 sHealPowderDesc[] = _(
-    "Tüm durum sorunla-\n"
-    "rını geçiren acı\n"
+    "Tüm sorunları\n"
+    "geçiren acı\n"
     "bir toz.");
 
 static const u8 sRevivalHerbDesc[] = _(
-    "Bayılmış POKéMONu\n"
-    "canlandıran çok acı\n"
-    "bir bitki.");
+    "Bayılan POKéMON\n"
+    "canlandıran\n"
+    "acı bir bitki.");
 
 static const u8 sEtherDesc[] = _(
-    "Seçilen hamlenin PP\n"
-    "değerini 10\n"
+    "Seçilen hamlenin\n"
+    "PP değerini 10\n"
     "artırır.");
 
 static const u8 sMaxEtherDesc[] = _(
-    "Seçilen bir hamlenin\n"
+    "Seçilen hamlenin\n"
     "PP'sini tamamen\n"
     "iyileştirir.");
 
 static const u8 sElixirDesc[] = _(
-    "Tüm hareketlerin PP\n"
-    "değerini 10\n"
+    "Tüm saldırı\n"
+    "PP'lerini 10\n"
     "artırır.");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Tüm saldırıların\n"
-    "PP'sini tamamen\n"
+    "Tüm saldırı\n"
+    "PP'lerini\n"
     "iyileştirir.");
 
 static const u8 sLavaCookieDesc[] = _(
-    "Durum sorunlarını\n"
-    "iyileştiren meşhur\n"
-    "bir yiyecek.");
+    "Sorunları\n"
+    "iyileştiren\n"
+    "meşhur yiyecek.");
 
 static const u8 sBlueFluteDesc[] = _(
-    "Uyuyan POKéMON'u\n"
-    "uyandıran bir cam\n"
-    "flüt.");
+    "Uyuyan POKéMON\n"
+    "uyandıran bir\n"
+    "cam flüt.");
 
 static const u8 sYellowFluteDesc[] = _(
     "POKéMON'u kafa\n"
     "karışıklığından\n"
-    "kurtaran bir flüt.");
+    "kurtaran flüt.");
 
 static const u8 sRedFluteDesc[] = _(
     "POKéMON'u \n"
-    "cazibeden çıkaran\n"
-    "bir cam flüt.");
+    "cazibeden\n"
+    "kurtaran flüt.");
 
 static const u8 sBlackFluteDesc[] = _(
     "Vahşi POKEMON'u\n"
-    "uzak tutan bir cam\n"
-    "flüt.");
+    "uzak tutan bir\n"
+    "cam flüt.");
 
 static const u8 sWhiteFluteDesc[] = _(
     "Vahşi POKéMON'u\n"
-    "cezbeden bir cam\n"
-    "flüt.");
+    "cezbeden bir\n"
+    "cam flüt.");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "Canı 20 puan geri\n"
-    "kazandıran %100 saf\n"
-    "bir meyve suyu.");
+    "Canı 20 puan\n"
+    "iyileştiren %100\n"
+    "saf meyve suyu.");
 
 static const u8 sSacredAshDesc[] = _(
     "Bayılan tüm\n"
     "POKéMON'ları\n"
-    "tamamen canlandırır.");
+    "canlandırır.");
 
 static const u8 sShoalSaltDesc[] = _(
     "Shoal Mağarası\n"
-    "derinliklerinden\n"
+    "derininden\n"
     "elde edilen tuz.");
 
 static const u8 sShoalShellDesc[] = _(
     "Shoal Mağarası\n"
-    "derinliklerinden\n"
-    "bir deniz kabuğu.");
+    "derininden elde\n"
+    "edilen kabuk.");
 
 static const u8 sRedShardDesc[] = _(
-    "Eski bir eşyadan bir\n"
-    "parça. Ucuza\n"
+    "Eski bir şeyden\n"
+    "bir parça. Ucuza\n"
     "satılabilir.");
 
 static const u8 sBlueShardDesc[] = _(
-    "Eski bir eşyadan bir\n"
-    "parça. Ucuza\n"
+    "Eski bir şeyden\n"
+    "bir parça. Ucuza\n"
     "satılabilir.");
 
 static const u8 sYellowShardDesc[] = _(
-    "Eski bir eşyadan bir\n"
-    "parça. Ucuza\n"
+    "Eski bir şeyden\n"
+    "bir parça. Ucuza\n"
     "satılabilir.");
 
 static const u8 sGreenShardDesc[] = _(
-    "Eski bir eşyadan bir\n"
-    "parça. Ucuza\n"
+    "Eski bir şeyden\n"
+    "bir parça. Ucuza\n"
     "satılabilir.");
 
 static const u8 sHPUpDesc[] = _(
@@ -263,22 +263,22 @@ static const u8 sHPUpDesc[] = _(
 
 static const u8 sProteinDesc[] = _(
     "Bir POKéMON'un\n"
-    "temel SALDIRI'sını\n"
+    "temel SALDIRI\n"
     "yükseltir.");
 
 static const u8 sIronDesc[] = _(
     "Bir POKéMON'un\n"
-    "temel SAVUNMA'sını\n"
+    "temel SAVUNMA\n"
     "yükseltir.");
 
 static const u8 sCarbosDesc[] = _(
     "Bir POKéMON'un\n"
-    "temel HIZ statüsünü\n"
+    "temel HIZ'ını\n"
     "yükseltir.");
 
 static const u8 sCalciumDesc[] = _(
     "Bir POKéMON'un\n"
-    "temel ÖZ. SLD'sını\n"
+    "temel ÖZ. SLD\n"
     "yükseltir.");
 
 static const u8 sRareCandyDesc[] = _(
@@ -287,18 +287,18 @@ static const u8 sRareCandyDesc[] = _(
     "yükseltir.");
 
 static const u8 sPPUpDesc[] = _(
-    "Seçilen bir hamlenin\n"
-    "maksimum PP değerini\n"
-    "yükseltir.");
+    "Seçilen bir\n"
+    "saldırının maks\n"
+    "PP yükseltir.");
 
 static const u8 sZincDesc[] = _(
     "Bir POKéMON'un\n"
-    "temel ÖZ. SVN'sını\n"
+    "temel ÖZ. SVN\n"
     "yükseltir.");
 
 static const u8 sPPMaxDesc[] = _(
     "Bir hamlenin PP\n"
-    "değerini maksimum\n"
+    "değerini maks\n"
     "puana yükseltir.");
 
 static const u8 sGuardSpecDesc[] = _(
@@ -307,44 +307,44 @@ static const u8 sGuardSpecDesc[] = _(
     "azalmasını önler.");
 
 static const u8 sDireHitDesc[] = _(
-    "Bir savaş sırasında\n"
-    "kritik vuruş oranını\n"
+    "Savaşta\n"
+    "kritik vuruş\n"
     "yükseltir.");
 
 static const u8 sXAttackDesc[] = _(
-    "Bir savaş sırasında\n"
-    "SALDIRI statüsünü\n"
+    "Savaşta\n"
+    "SALDIRI'yı\n"
     "yükseltir.");
 
 static const u8 sXDefendDesc[] = _(
-    "Bir savaş sırasında\n"
-    "SAVUNMA statüsünü\n"
+    "Savaşta\n"
+    "SAVUNMA'yı\n"
     "yükseltir.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Bir savaş sırasında\n"
+    "Savaşta\n"
     "HIZ statüsünü\n"
     "yükseltir.");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Bir savaş sırasında\n"
+    "Savaşta\n"
     "isabet oranını\n"
     "artırır.");
 
 static const u8 sXSpecialDesc[] = _(
-    "Bir savaş sırasında\n"
-    "ÖZ. SLD statüsünü\n"
+    "Savaşta\n"
+    "ÖZ. SLD'yı\n"
     "yükseltir.");
 
 static const u8 sPokeDollDesc[] = _(
-    "Vahşi bir POKéMON\n"
-    "ile savaştan kaçmak\n"
-    "kullanılır.");
+    "Vahşi POKéMON\n"
+    "savaşından"
+    "kaçmayı sağlar.");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Vahşi bir POKéMON\n"
-    "ile savaştan kaçmak\n"
-    "kullanılır.");
+    "Vahşi POKéMON\n"
+    "savaşından"
+    "kaçmayı sağlar.");
 
 static const u8 sSuperRepelDesc[] = _(
     "Zayıf vahşi\n"
@@ -357,8 +357,8 @@ static const u8 sMaxRepelDesc[] = _(
     "adım uzak tutar.");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Mağara veya binadan\n"
-    "hızlı kaçmak için\n"
+    "Mağara/binadan\n"
+    "hızlı kaçmada\n"
     "kullanılır.");
 
 static const u8 sRepelDesc[] = _(
@@ -397,24 +397,24 @@ static const u8 sLeafStoneDesc[] = _(
     "sağlar.");
 
 static const u8 sTinyMushroomDesc[] = _(
-    "Ucuz bir fiyata\n"
-    "satılabilecek sade\n"
+    "Ucuz fiyata\n"
+    "satılabilecek\n"
     "bir mantar.");
 
 static const u8 sBigMushroomDesc[] = _(
     "Yüksek fiyata\n"
-    "satılabilecek nadir\n"
-    "bir mantar.");
+    "satılabilecek\n"
+    "nadir mantar.");
 
 static const u8 sPearlDesc[] = _(
-    "Ucuz bir fiyata\n"
-    "satılabilecek güzel\n"
-    "bir inci.");
+    "Ucuz fiyata\n"
+    "satılabilecek\n"
+    "güzel bir inci.");
 
 static const u8 sBigPearlDesc[] = _(
     "Yüksek fiyata\n"
-    "satılabilecek güzel\n"
-    "ve büyük bir inci.");
+    "satılabilecek\n"
+    "büyük bir inci.");
 
 static const u8 sStardustDesc[] = _(
     "Güzel kırmızı kum.\n"
@@ -422,17 +422,17 @@ static const u8 sStardustDesc[] = _(
     "satılabilir.");
 
 static const u8 sStarPieceDesc[] = _(
-    "Kırmızı bir parça.\n"
-    "Çok yüksek bir fiyata\n"
+    "Kırmızı parça.\n"
+    "Çok yüksekten\n"
     "satılabilir.");
 
 static const u8 sNuggetDesc[] = _(
     "Saf altından bir\n"
-    "külçe. Yüksek fiyata\n"
+    "külçe. İyi fiyata\n"
     "satılabilir.");
 
 static const u8 sHeartScaleDesc[] = _(
-    "Çok güzel bir kolye.\n"
+    "Çok güzel bir pul.\n"
     "Koleksiyoncular\n"
     "buna bayılır.");
 
@@ -518,7 +518,7 @@ static const u8 sRawstBerryDesc[] = _(
 
 static const u8 sAspearBerryDesc[] = _(
     "Savaşta POKéMON'un\n"
-    "buzunu çözen bir\n"
+    "buzunu çözen\n"
     "tutma eşyası.");
 
 static const u8 sLeppaBerryDesc[] = _(
@@ -528,7 +528,7 @@ static const u8 sLeppaBerryDesc[] = _(
 
 static const u8 sOranBerryDesc[] = _(
     "Savaşta 10 can\n"
-    "yenileyen bir \n"
+    "yenileyen bir\n"
     "tutma eşyası.");
 
 static const u8 sPersimBerryDesc[] = _(
@@ -537,14 +537,14 @@ static const u8 sPersimBerryDesc[] = _(
     "geçiren eşya.");
 
 static const u8 sLumBerryDesc[] = _(
-    "Savaştaki herhangi\n"
-    "bir durum sorununu\n"
-    "iyileştiren bir eşya.");
+    "Savaşta herhangi\n"
+    "bir sorunu\n"
+    "iyileştiren eşya.");
 
 static const u8 sSitrusBerryDesc[] = _(
     "Savaşta 30 can\n"
-    "yenileyen bir tutma\n"
-    "eşyası.");
+    "yenileyen bir\n"
+    "tutma eşyası.");
 
 static const u8 sFigyBerryDesc[] = _(
     "Can iyileştiren\n"
@@ -678,8 +678,8 @@ static const u8 sLiechiBerryDesc[] = _(
 
 static const u8 sGanlonBerryDesc[] = _(
     "Sıkıştığında\n"
-    "SAVUNMAYI artıran\n"
-    "bir tutma öğesi.");
+    "SAVUNMA artıran\n"
+    "tutma eşyası.");
 
 static const u8 sSalacBerryDesc[] = _(
     "Sıkıştığında HIZI\n"
@@ -808,12 +808,12 @@ static const u8 sLuckyEggDesc[] = _(
 
 static const u8 sScopeLensDesc[] = _(
     "Kritik vuruş\n"
-    "oranını artıran bir\n"
+    "oranını artıran\n"
     "tutma eşyası.");
 
 static const u8 sMetalCoatDesc[] = _(
     "ÇELİK tipi\n"
-    "hareketlerin gücünü\n"
+    "saldırı gücü\n"
     "artıran bir eşya.");
 
 static const u8 sLeftoversDesc[] = _(
@@ -918,7 +918,7 @@ static const u8 sShellBellDesc[] = _(
 
 static const u8 sSeaIncenseDesc[] = _(
     "SU tipi saldırıyı\n"
-    "hafifçe güçlendiren\n"
+    "azıcık güçlendiren\n"
     "bir tutma öğesi.");
 
 static const u8 sLaxIncenseDesc[] = _(
@@ -937,7 +937,7 @@ static const u8 sMetalPowderDesc[] = _(
     "yükselten bir eşya.");
 
 static const u8 sThickClubDesc[] = _(
-    "CUBONE & MAROWAK'ın\n"
+    "CUBONE & MAROWAK\n"
     "saldırısını artıran\n"
     "bir tutma eşyası.");
 
@@ -958,7 +958,7 @@ static const u8 sBlueScarfDesc[] = _(
 
 static const u8 sPinkScarfDesc[] = _(
     "Yarışmalarda\n"
-    "SEVİMLİLİĞİ artıran\n"
+    "SEVİMLİLİK artıran\n"
     "bir tutma eşyası.");
 
 static const u8 sGreenScarfDesc[] = _(
@@ -983,26 +983,26 @@ static const u8 sCoinCaseDesc[] = _(
 
 static const u8 sItemfinderDesc[] = _(
     "Görünmez eşyaları\n"
-    "sesle işaret eden\n"
+    "sesle gösteren\n"
     "bir cihaz.");
 
 static const u8 sOldRodDesc[] = _(
     "Vahşi POKéMON\n"
     "avlamak için\n"
-    "suda kullanılabilir.");
+    "suda kullanılır.");
 
 static const u8 sGoodRodDesc[] = _(
     "Vahşi POKéMON\n"
     "avlamak için\n"
-    "suda kullanılabilir.");
+    "suda kullanılır.");
 
 static const u8 sSuperRodDesc[] = _(
     "Vahşi POKéMON\n"
     "avlamak için\n"
-    "suda kullanılabilir.");
+    "suda kullanılır.");
 
 static const u8 sSSTicketDesc[] = _(
-    "Bir feribota binmek\n"
+    "Bir gemiye binmek\n"
     "için gerekli bir"
     "bilet.");
 
@@ -1158,8 +1158,8 @@ static const u8 sTM08Desc[] = _(
 
 static const u8 sTM09Desc[] = _(
     "Düşmana saldırmak\n"
-    "için arka arkaya 2 ila\n"
-    "5 tohum atar.");
+    "için arka arkaya 2\n"
+    "-5 tohum atar.");
 
 static const u8 sTM10Desc[] = _(
     "Saldırı gücü farklı\n"
@@ -1178,12 +1178,12 @@ static const u8 sTM12Desc[] = _(
 
 static const u8 sTM13Desc[] = _(
     "Dondurabilen buz\n"
-    "gibi soğuk bir ışın\n"
-    "gönderir.");
+    "gibi soğuk bir\n"
+    "ışın gönderir.");
 
 static const u8 sTM14Desc[] = _(
     "Dondurabilen\n"
-    "acımasız bir kar ve\n"
+    "acımasız bir kar\n"
     "rüzgar saldırısı.");
 
 static const u8 sTM15Desc[] = _(
@@ -1192,10 +1192,9 @@ static const u8 sTM15Desc[] = _(
     "bekletir.");
 
 static const u8 sTM16Desc[] = _(
-    "SP'yi düşüren bir\n"
-    "ışık duvarı\n"
-    "oluşturur. ATK\n"
-    "hasarı.");
+    "ÖZ SLD düşüren\n"
+    "bir ışık duvarı\n"
+    "oluşturur.");
 
 static const u8 sTM17Desc[] = _(
     "Tüm hasarı yok\n"
@@ -1234,7 +1233,7 @@ static const u8 sTM23Desc[] = _(
 
 static const u8 sTM24Desc[] = _(
     "Felce neden\n"
-    "olabilecek güçlü bir\n"
+    "olabilecek güçlü\n"
     "elektrik saldırısı.");
 
 static const u8 sTM25Desc[] = _(
@@ -1254,7 +1253,7 @@ static const u8 sTM27Desc[] = _(
 
 static const u8 sTM28Desc[] = _(
     "İlk turda yerin\n"
-    "altını kazar, sonraki\n"
+    "altını kazar, snrki\n"
     "turda saldırır.");
 
 static const u8 sTM29Desc[] = _(
@@ -1278,8 +1277,8 @@ static const u8 sTM32Desc[] = _(
     "yaratır.");
 
 static const u8 sTM33Desc[] = _(
-    "Fiziksel saldırıları\n"
-    "zayıflatan bir ışık\n"
+    "Fiziksel saldırı\n"
+    "zayıflatan ışık\n"
     "duvarı yaratır.");
 
 static const u8 sTM34Desc[] = _(
@@ -1288,7 +1287,7 @@ static const u8 sTM34Desc[] = _(
     "elektrik şoku.");
 
 static const u8 sTM35Desc[] = _(
-    "Düşmanı yakabilecek\n"
+    "Düşmanı yakabilen\n"
     "bir ateş akımı\n"
     "bırakır.");
 
@@ -1349,7 +1348,7 @@ static const u8 sTM46Desc[] = _(
 
 static const u8 sTM47Desc[] = _(
     "Sert kenarlı\n"
-    "kanatlarını açar ve\n"
+    "kanatlarını açar,\n"
     "düşmana çarpar.");
 
 static const u8 sTM48Desc[] = _(
@@ -1393,9 +1392,9 @@ static const u8 sHM05Desc[] = _(
     "ışık yayar.");
 
 static const u8 sHM06Desc[] = _(
-    "SAVUNMA düşürebilen\n"
-    "kaya gibi sert bir\n"
-    "saldırı.");
+    "SVN düşürebilen\n"
+    "kaya gibi sert\n"
+    "bir saldırı.");
 
 static const u8 sHM07Desc[] = _(
     "Düşmana şelalelere\n"
@@ -1404,7 +1403,7 @@ static const u8 sHM07Desc[] = _(
 
 static const u8 sHM08Desc[] = _(
     "İlk turda suyun\n"
-    "altına dalar, sonraki\n"
+    "altına dalar, snrki\n"
     "turda saldırır.");
 
 static const u8 sOaksParcelDesc[] = _(
@@ -1418,7 +1417,7 @@ static const u8 sPokeFluteDesc[] = _(
     "sesli bir flüt.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "CINNABAR ISLAND\n"
+    "CINNABAR ADASI\n"
     "SALONU girişinin\n"
     "anahtarı.");
 
@@ -1433,9 +1432,9 @@ static const u8 sGoldTeethDesc[] = _(
     "dişler.");
 
 static const u8 sOldAmberDesc[] = _(
-    "Eski bir POKéMON'ım\n"
-    "genlerini içeren bir\n"
-    "taş.");
+    "Eski bir POKéMON\n"
+    "genlerini içeren\n"
+    "bir taş.");
 
 static const u8 sCardKeyDesc[] = _(
     "SILPH CO'nun\n"
@@ -1450,8 +1449,7 @@ static const u8 sLiftKeyDesc[] = _(
 static const u8 sHelixFossilDesc[] = _(
     "Eski bir deniz\n"
     "POKéMON'unun deniz\n"
-    "kabuğunun bir\n"
-    "parçası.");
+    "kabuğunun parçası.");
 
 static const u8 sDomeFossilDesc[] = _(
     "Eski bir deniz\n"
@@ -1548,4 +1546,3 @@ static const u8 sOldSeaMapDesc[] = _(
     "Belli bir adaya giden\n"
     "yolu gösteren soluk\n"
     "bir deniz haritası.");
-

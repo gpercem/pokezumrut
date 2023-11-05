@@ -46,4 +46,3 @@ MossdeepCity_Mart_Text_MaxRepelLastsLongest:
 
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 	.string "AĞ ve DALIŞ TOPLARI sadece\nMOSSDEEP'te üretilen nadir POKé\lTOPLARIDIR.\pAĞ TOPU, BÖCEK tipi ve SU tipi\nPOKéMON'lara karşı etkilidir.\pDALIŞ TOPU en iyi denizin dibindeki\nPOKéMON'larda işe yarar.$"
-	

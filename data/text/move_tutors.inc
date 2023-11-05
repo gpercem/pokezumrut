@@ -1,237 +1,122 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "Bu hareket sadece bir kez\nöğrenilebilir. Tamam mı?$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "Heh! My POKéMON totally rules!\n"
-	.string "It's cooler than any POKéMON!\p"
-	.string "I was lipping off with a swagger in\n"
-	.string "my step like that when the CHAIRMAN\l"
-	.string "chewed me out.\p"
-	.string "That took the swagger out of my step.\p"
-	.string "If you'd like, I'll teach the move\n"
-	.string "SWAGGER to a POKéMON of yours.$"
+	.string "Heh! Benim POKéMON'um harika!\nTüm POKéMON'lardan daha havalı!\pBaşkan beni azarladığında adımlarımda\nböyle bir çalımla ilerliyordum.\pBu adımlarımdaki havayı aldı.\pEğer istersen, senin POKéMON'larından\nbirine TERS KÖŞE yani SWAGGER\lsaldırısını öğretebilirim.$"
 
 MoveTutor_Text_SwaggerDeclined:
-	.string "What, no? Can't you get into\n"
-	.string "the spirit of things?$"
+	.string "Ne, hayır mı?\nOlayların ruhuna giremiyor musun?$"
 
 MoveTutor_Text_SwaggerWhichMon:
-	.string "All right, which POKéMON wants to\n"
-	.string "learn how to SWAGGER?$"
+	.string "Pekala, hangi POKéMON TERS KÖŞE\nsaldırısını öğrenmek istiyor?$"
 
 MoveTutor_Text_SwaggerTaught:
-	.string "I'll just praise my POKéMON from now\n"
-	.string "on without the swagger.$"
+	.string "Bitti bile.$"
 
 MoveTutor_Text_RolloutTeach:
-	.string "Did you know that you can go from\n"
-	.string "here a long way in that direction\l"
-	.string "without changing direction?\p"
-	.string "I might even be able to roll\n"
-	.string "that way.\p"
-	.string "Do you think your POKéMON will\n"
-	.string "want to roll, too?\p"
-	.string "I can teach one the move ROLLOUT\n"
-	.string "if you'd like.$"
+	.string "Buradan şu tarafa doğru yön\ndeğiştirmeden uzun bir yol\lgidebileceğini biliyor muydun?\pO tarafa doğru yuvarlanabilirim bile.\pSence POKéMON'un da yuvarlanmak\nister mi?\pİstersen birine YUVARLANMA, yani\nROLLOUT saldırısını öğretebilirim.$"
 
 MoveTutor_Text_RolloutDeclined:
-	.string "You don't need to be shy about it.\n"
-	.string "Let's roll!$"
+	.string "Bu konuda utanmana gerek yok.\nYuvarlanalım!$"
 
 MoveTutor_Text_RolloutWhichMon:
-	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the POKéMON looked like me.$"
+	.string "Ehehe, tamam!\nPOKéMON'un bana benzeyecek.$"
 
 MoveTutor_Text_RolloutTaught:
-	.string "Rolling around in the grass makes me\n"
-	.string "happy. Come on, let's roll!$"
+	.string "Çimlerde yuvarlanmak beni mutlu\nediyor. Hadi, yuvarlanalım!$"
 
 MoveTutor_Text_FuryCutterTeach:
-	.string "There's a move that gets stronger\n"
-	.string "when you keep using it in a row.\p"
-	.string "It's a BUG-type move, and it is\n"
-	.string "wickedly cool.\p"
-	.string "It's called FURY CUTTER.\n"
-	.string "Want me to teach it to a POKéMON?$"
+	.string "Arka arkaya kullanmaya devam\nettiğinde güçlenen bir saldırı var.\pBÖCEK tipi bir harekettir ve fena\nhalde havalıdır.\pAdı ÖFKELİ KESİŞ yani FURY CUTTER.\pBunu bir POKéMON'a öğretmemi ister\nmisin?$"
 
 MoveTutor_Text_FuryCutterDeclined:
-	.string "We're not on the same wavelength.$"
+	.string "Aynı dalga boyunda değiliz.$"
 
 MoveTutor_Text_FuryCutterWhichMon:
-	.string "Yay!\n"
-	.string "Show me which POKéMON I should teach.$"
+	.string "Yaşasın! Bana hangi POKéMON'u\nöğretmem gerektiğini göster.$"
 
 MoveTutor_Text_FuryCutterTaught:
-	.string "I get a thrill watching to see if\n"
-	.string "the move keeps hitting in succession!$"
+	.string "Saldırının art arda gelip gelmediğini\ngörmek beni heyecanlandırıyor!$"
 
 MoveTutor_MimicTeach:
-	.string "Ah, young one!\p"
-	.string "I am also a young one, but I mimic\n"
-	.string "the styles and speech of the elderly\l"
-	.string "folks of this town.\p"
-	.string "What do you say, young one?\n"
-	.string "Would you agree to it if I were to\l"
-	.string "offer to teach the move MIMIC?$"
+	.string "Hey, genç!\pBen de gencim ama bu kasabanın\nyaşlılarının tarzlarını ve\lkonuşmalarını taklit ediyorum.\pNe dersin genç?\nMİMİK saldırısını öğretmeyi teklif\letsem kabul eder misin?$"
 
 MoveTutor_MimicDeclined:
-	.string "Oh, boo! I wanted to teach MIMIC\n"
-	.string "to your POKéMON!$"
+	.string "Of ya! Senin POKéMON'una MİMİK\nöğretmek isterdim!$"
 
 MoveTutor_Text_MimicWhichMon:
-	.string "Fwofwo! And so I shall!\n"
-	.string "Let me see the POKéMON\l"
-	.string "you wish me to teach.$"
+	.string "Fuuhu! Öyle de yapacağım!\nÖğretmemi istediğin POKéMON'u\lgörmeme izin ver.$"
 
 MoveTutor_Text_MimicTaught:
-	.string "MIMIC is a move of great depth.\p"
-	.string "Could you execute it to perfection\n"
-	.string "as well as me…?$"
+	.string "MİMİK çok derin bir harekettir.\pBenim kadar mükemmel bir şekilde\nuygulayabilir misin?$"
 
 MoveTutor_Text_MetronomeTeach:
-	.string "I want all sorts of things!\n"
-	.string "But I used up my allowance…\p"
-	.string "Wouldn't it be nice if there were\n"
-	.string "a spell that made money appear when\l"
-	.string "you waggle a finger?\p"
-	.string "If you want, I can teach your POKéMON\n"
-	.string "the move METRONOME.\p"
-	.string "Money won't appear, but your POKéMON\n"
-	.string "will waggle a finger. Yes?$"
+	.string "Gördüğüm her şeyi almak istiyorum!\nAma harçlığımı bitirdim.\pParmağını salladığında para\nçıkmasını sağlayan bir büyü olsa\lgüzel olmaz mıydı?\pİstersen POKéMON'una METRONOM\nhareketini öğretebilirim.\pPara çıkmaz ama POKéMON'un\nparmağını sallar. Olur mu?$"
 
 MoveTutor_Text_MetronomeDeclined:
-	.string "Okay. I'll be here if you change\n"
-	.string "your mind.$"
+	.string "Tamam. Fikrini değiştirirsen burada\nolacağım.$"
 
 MoveTutor_Text_MetronomeWhichMon:
-	.string "Okay! I'll teach it!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Tamam! Öğreteceğim!\nHangi POKéMON'u öğretmeliyim?$"
 
 MoveTutor_Text_MetronomeTaught:
-	.string "When a POKéMON waggles its finger\n"
-	.string "like a METRONOME, all sorts of nice\l"
-	.string "things happen.\p"
-	.string "Wouldn't it be nice if we could\n"
-	.string "use it, too?$"
+	.string "Bir POKéMON parmağını bir METRONOM\ngibi salladığında, her türlü güzel şey\lolabilir.\pBiz de kullanabilsek güzel olmaz mıydı?$"
 
 MoveTutor_Text_SleepTalkTeach:
-	.string "Humph! My wife relies on HIDDEN\n"
-	.string "POWER to stay awake.\p"
-	.string "She should just take a nap like I do,\n"
-	.string "and SLEEP TALK.\p"
-	.string "I can teach your POKéMON how to\n"
-	.string "SLEEP TALK instead. Interested?$"
+	.string "Hımph! Karım uyanık kalmak için GİZLİ\nGÜCE güveniyor.\pO da benim gibi kestirmeli ve UYKU\nKONUŞMASI yapmalı.\pBunun yerine POKéMON'unuza nasıl UYKU\nKONUŞMASI yapılacağını öğretebilirim.\lİlgilenir misin?$"
 
 MoveTutor_Text_SleepTalkDeclined:
-	.string "Oh, fine, fine. You want to stay awake\n"
-	.string "with HIDDEN POWER, too…$"
+	.string "Hah, iyi, iyi.\nSen de GİZLİ GÜÇ ile uyanık\lkalmak istiyorsun…$"
 
 MoveTutor_Text_SleepTalkWhichMon:
-	.string "Ah, an appreciative child!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Akıllı bir çocukmuşsun!\nHangi POKéMON'a öğretmeliyim?$"
 
 MoveTutor_Text_SleepTalkTaught:
-	.string "I've never once gotten my wife's\n"
-	.string "coin trick right.\p"
-	.string "I would be happy if I got it right\n"
-	.string "even as I SLEEP TALK…$"
+	.string "Karımın bozuk para numarasını bir\nkez bile doğru yapamadım.\pUykuda konuşurken bile doğru\nyaparsam mutlu olurdum.$"
 
 MoveTutor_Text_SubstituteTeach:
-	.string "When I see the wide world from up\n"
-	.string "here on the roof…\p"
-	.string "I think about how nice it would be\n"
-	.string "if there were more than just one me\l"
-	.string "so I could enjoy all sorts of lives.\p"
-	.string "Of course it's not possible.\n"
-	.string "Giggle…\p"
-	.string "I know! Would you be interested in\n"
-	.string "having a POKéMON learn SUBSTITUTE?$"
+	.string "Çatıdan dünyaya baktığımda…\pBirden fazla ben olsaydım ne kadar\ngüzel olurdu diye düşünüyorum.\pBöylece hayatın tadını farklı\laçılardan çıkarabilirdim.\pTabii ki bu mümkün değil.\nHahah.\pBir saniye! POKéMON'una KOPYA, yani\nSUBSTITUTE öğretmemi ister misin?$"
 
 MoveTutor_Text_SubstituteDeclined:
-	.string "Oh, no?\p"
-	.string "A POKéMON can make a copy of\n"
-	.string "itself using it, you know.$"
+	.string "Öyle mi?\pBir POKéMON onu kullanarak kendi\nkopyasını yapabilir, biliyorsun.$"
 
 MoveTutor_Text_SubstituteWhichMon:
-	.string "Giggle…\n"
-	.string "Which POKéMON do you want me to\l"
-	.string "teach SUBSTITUTE?$"
+	.string "Heheh… Hangi POKéMON'a KOPYA\nöğretmemi istersin?$"
 
 MoveTutor_Text_SubstituteTaught:
-	.string "We human beings should enjoy our\n"
-	.string "own lives to the utmost!\p"
-	.string "I hope you'll get that way, too!$"
+	.string "Biz insanlar kendi hayatlarımızdan\nsonuna kadar zevk almalıyız!\pUmarım sen de böyle olursunuz!$"
 
 MoveTutor_Text_DynamicPunchTeach:
-	.string "I can't do this anymore!\p"
-	.string "It's utterly hopeless!\p"
-	.string "I'm a FIGHTING-type TRAINER,\n"
-	.string "so I can't win at the MOSSDEEP GYM\l"
-	.string "no matter how hard I try!\p"
-	.string "Argh! Punch! Punch! Punch!\n"
-	.string "Punch! Punch! Punch!\p"
-	.string "What, don't look at me that way!\n"
-	.string "I'm only hitting the ground!\p"
-	.string "Or do you want me to teach your\n"
-	.string "POKéMON DYNAMICPUNCH?$"
+	.string "Artık bunu yapamam!\pBu tamamen umutsuz bir durum!\pBen DÖVÜŞ tipi bir EĞİTMENİM, bu\nyüzden ne kadar uğraşırsam uğraşayım\lMOSSDEEP SALONU'nda kazanamam!\pAaa! Yumruk! Yumruk! Yumruk!\nYumruk! Yumruk! Yumruk!\pNe, bana öyle bakma!\nSadece yere vuruyorum!\pYoksa POKéMON'una DİNAMİK YUMRUK\nöğretmemi mi istiyorsun?$"
 
 MoveTutor_Text_DynamicPunchDeclined:
-	.string "Darn! You're even making fun of me?\n"
-	.string "Punch! Punch! Punch!$"
+	.string "Lanet olsun! Benimle dalga mı\ngeçiyorsun? Yumruk! Yumruk! Yumruk!$"
 
 MoveTutor_Text_DynamicPunchWhichMon:
-	.string "What? You do? You're a good person!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "Ne? Öyle mi? Sen iyi bir insansın!\nHangi POKéMON'una öğretmeliyim?$"
 
 MoveTutor_Text_DynamicPunchTaught:
-	.string "I want you to win at the MOSSDEEP GYM\n"
-	.string "using that DYNAMICPUNCH!$"
+	.string "MOSSDEEP salonunda DİNAMİK YUMRUK\nkullanarak kazanmanı istiyorum!$"
 
 MoveTutor_Text_DoubleEdgeTeach:
-	.string "Sigh…\p"
-	.string "SOOTOPOLIS's GYM LEADER is really\n"
-	.string "lovably admirable.\p"
-	.string "But that also means I have many\n"
-	.string "rivals for his attention.\p"
-	.string "He's got appeal with a DOUBLE-EDGE.\n"
-	.string "I couldn't even catch his eye.\p"
-	.string "Please, let me teach your POKéMON\n"
-	.string "the move DOUBLE-EDGE!$"
+	.string "Off…\pSOOTOPOLIS'in SALON LİDERİ\ngerçekten hayranlık uyandırıcı.\pAma bu aynı zamanda onun dikkatini\nçekmek için birçok rakibim olduğu\lanlamına geliyor.\pÇifte avantajlı bir çekiciliği var.\nOnunla göz göze bile gelemedim.\pLütfen, POKéMON'una RİSKLİ VURUŞ,\nyani DOUBLE EDGE saldırısını öğretmeme\lizin ver!$"
 
 MoveTutor_Text_DoubleEdgeDeclined:
-	.string "Oh…\n"
-	.string "Even you rejected me…$"
+	.string "Of…\nSen bile beni reddettin…$"
 
 MoveTutor_Text_DoubleEdgeWhichMon:
-	.string "Okay, which POKéMON should I teach\n"
-	.string "DOUBLE-EDGE?$"
+	.string "Tamam, hangi POKéMON'a RİSKLİ\nVURUŞ öğretmeliyim?$"
 
 MoveTutor_Text_DoubleEdgeTaught:
-	.string "I won't live for love anymore!\n"
-	.string "I'll become tough!$"
+	.string "Artık aşk için yaşamayacağım!\nSert olacağım!$"
 
 MoveTutor_Text_ExplosionTeach:
-	.string "I don't intend to be going nowhere\n"
-	.string "fast in the sticks like this forever.\p"
-	.string "You watch me, I'll get out to the city\n"
-	.string "and become a huge hit.\p"
-	.string "Seriously, I'm going to cause\n"
-	.string "a huge EXPLOSION of popularity!\p"
-	.string "If you overheard that, I'll happily\n"
-	.string "teach EXPLOSION to your POKéMON!$"
+	.string "Sonsuza kadar böyle taşrada kalıp\nkıpırdamamaya niyetim yok.\pBeni iyi izle, şehre ineceğim ve\nbüyük bir hit olacağım.\pCidden, büyük bir popülerlik\npatlaması olacağım!\pBunu duyduysan, POKéMON'una\nPATLAMA'yı seve seve öğretirim!$"
 
 MoveTutor_Text_ExplosionDeclined:
-	.string "Gaah! You're turning me down because\n"
-	.string "I live in the country?$"
+	.string "Gaah! Burada yaşadığım için mi\nbeni geri çeviriyorsun?$"
 
 MoveTutor_Text_ExplosionWhichMon:
-	.string "Fine! An EXPLOSION it is!\n"
-	.string "Which POKéMON wants to blow up?$"
+	.string "Güzel! Patlatalım o zaman!\nHangi POKéMON patlatmak istiyor?$"
 
 MoveTutor_Text_ExplosionTaught:
-	.string "For a long time, I've taught POKéMON\n"
-	.string "how to use EXPLOSION, but I've yet\l"
-	.string "to ignite my own EXPLOSION…\p"
-	.string "Maybe it's because deep down,\n"
-	.string "I would rather stay here…$"
+	.string "Uzun zamandır POKéMON'lara PATLAMA\nsaldırısını öğrettim ancak henüz\lkendi PATLAMAMI gerçekleştiremedim…\pBelki de içten içe burada kalmayı\ntercih ettiğim içindir.$"

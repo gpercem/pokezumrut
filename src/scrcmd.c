@@ -48,6 +48,7 @@
 #include "trainer_see.h"
 #include "tv.h"
 #include "window.h"
+#include "follow_me.h"
 #include "constants/event_objects.h"
 
 typedef u16 (*SpecialFunc)(void);
@@ -1216,6 +1217,7 @@ bool8 ScrCmd_lockall(struct ScriptContext *ctx)
 // The player and selected object are frozen after waiting for their current movement to finish.
 bool8 ScrCmd_lock(struct ScriptContext *ctx)
 {
+    
     if (IsOverworldLinkActive())
     {
         return FALSE;
@@ -2354,7 +2356,7 @@ bool8 ScrCmd_pokemonfaceplayer(struct ScriptContext *ctx)
 }
 
 // follow me script commands
-#include "follow_me.h"
+
 bool8 ScrCmd_setfollower(struct ScriptContext *ctx)
 {
     u8 localId = ScriptReadByte(ctx);

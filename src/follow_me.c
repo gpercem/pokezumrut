@@ -252,7 +252,7 @@ void FollowMe(struct ObjectEvent* npc, u8 state, bool8 ignoreScriptActive)
     #if FAST_FOLLOWERS == TRUE
         if (gSaveBlock2Ptr->follower.comeOutDoorStairs == 1 || (FlagGet(FLAG_FOLLOWER_IN_BUILDING) && gMapHeader.mapType != MAP_TYPE_INDOOR))
         {
-            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_BIKE))
+            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_BIKE) || TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
             {
                 FlagClear(FLAG_FOLLOWER_IN_BUILDING);
                 gSaveBlock2Ptr->follower.comeOutDoorStairs = 0;

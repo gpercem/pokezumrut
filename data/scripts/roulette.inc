@@ -24,39 +24,39 @@ Roulette_EventScript_Play::
 	end
 
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "The minimum wager at this table\n"
-	.string "is {STR_VAR_1}. Do you want to play?$"
+	.string "Buradaki en düşük olan {STR_VAR_1}.\n"
+	.string "Oynamak ister misin?$"
 
 Roulette_Text_NotEnoughCoins::
-	.string "You don't have enough COINS.$"
+	.string "Yeterli JETON yok.$"
 
 Roulette_Text_SpecialRateTable::
-	.string "Special rate table right now!$"
+	.string "Özel masa gelsin!$"
 
 Roulette_Text_ControlsInstruction::
-	.string "Place your wager with the + Control\n"
-	.string "Pad, then press the A Button.$"
+	.string "İstediğini kontrol tuşları ile\n"
+	.string "seç ve A tuşuna bas.$"
 
 Roulette_Text_ItsAHit::
-	.string "It's a hit!$"
+	.string "Sayı!$"
 
 Roulette_Text_Jackpot::
-	.string "Jackpot!$"
+	.string "Bingo!$"
 
 Roulette_Text_NothingDoing::
-	.string "Nothing doing!$"
+	.string "Hiçbir şey çıkmadı!$"
 
 Roulette_Text_YouveWonXCoins::
-	.string "You've won {STR_VAR_1} COINS!$"
+	.string "{STR_VAR_1} JETON kazandın!$"
 
 Roulette_Text_NoCoinsLeft::
-	.string "No COINS left…$"
+	.string "JETON kalmadı…$"
 
 Roulette_Text_KeepPlaying::
-	.string "Keep playing?$"
+	.string "Devam mı?$"
 
 Roulette_Text_BoardWillBeCleared::
-	.string "The ROULETTE board will be cleared.$"
+	.string "RULET tablosu silinecek.$"
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::

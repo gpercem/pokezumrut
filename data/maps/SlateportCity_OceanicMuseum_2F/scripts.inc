@@ -8,6 +8,7 @@ SlateportCity_OceanicMuseum_2F_MapScripts::
 
 SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	lock
+	followerintopokeball
 	faceplayer
 	msgbox SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts, MSGBOX_DEFAULT
 	closemessage
@@ -87,6 +88,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 1
 	fadescreen FADE_FROM_BLACK
+	updatefollowerpokemongraphic
 	release
 	end
 

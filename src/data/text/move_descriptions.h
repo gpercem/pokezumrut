@@ -10,8 +10,8 @@ static const u8 sKarateChopDescription[] = _(
     "sahip bir saldırı.");
 
 static const u8 sDoubleSlapDescription[] = _(
-    "Düşmana 2 ila 5 kez tekrar\n"
-    "tekrar tokat atar.");
+    "Düşmana 2 ila 5 kez\n"
+    "tokat atar.");
 
 static const u8 sCometPunchDescription[] = _(
     "Düşmana 2 ila 5 kez tekrar\n"

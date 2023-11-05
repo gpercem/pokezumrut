@@ -218,6 +218,10 @@ Route101_EventScript_RouteSign::
 	msgbox Route101_Text_RouteSign, MSGBOX_SIGN
 	end
 
+Route101_EventScript_CreditSign::
+	msgbox Route101_Text_CreditSign, MSGBOX_SIGN
+	end
+
 Route101_EventScript_BirchsBag::
 	lock
 	faceplayer
@@ -299,4 +303,6 @@ Route101_Text_WildPokemonInTallGrass:
 Route101_Text_RouteSign:
 	.string "ROTA 101\n"
 	.string "{UP_ARROW} OLDALE KASABASI$"
-
+	
+Route101_Text_CreditSign:
+	.string "Türkçe Yama Hazırlayan: Gökhan Perçem\nİyi oyunlar!$"

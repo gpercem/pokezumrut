@@ -308,7 +308,7 @@ MatchCall_PersonalizedText9::
 	.string "Hoşça kal…$"
 
 MatchCall_PersonalizedText10::
-	.string "Ben {STR_VAR_1}.\nNasılsınız?\pUzaktan bu şekilde sohbet edebilmemiz\nne güzel, değil mi?\pÖnceden biriyle konuşmak istediğimde\nbabamın beni götürmesi gerekirdi.\pŞimdi gitmeliyim. Bu sohbeti\nyaptığımıza sevindim.$"
+	.string "Ben {STR_VAR_1}.\nNasılsın?\pUzaktan bu şekilde sohbet edebilmek\nne güzel, değil mi?\pEskiden biriyle konuşmak istediğimde\nbabamın beni götürmesi gerekirdi.\pŞimdi gitmeliyim. Bu sohbeti\nyaptığımıza sevindim.$"
 
 MatchCall_PersonalizedText11::
 	.string "Selam, ben {STR_VAR_1}!\pSAFARİ BÖLGESİ'ni çok seviyorum ama\nne zaman gitsem kayboluyorum!\pBütün o uzun otlar!\nVe karışık yollar!\pBunu içimden atınca kendimi daha iyi\nhissediyorum!\pBen yine SAFARİ BÖLGESİ'ne\ngidiyorum! Hoşça kal!$"
@@ -482,7 +482,7 @@ MatchCall_PersonalizedText54::
 	.string "Merhaba, ben {STR_VAR_1}.\nBilirsin, her zaman hazırlıklı\lolan EĞİTMEN!\p{PLAYER}{KUN}, yeterli eşyan var mı?\nPOKéMON'un aksiyona hazır mı?\pEtrafındaki her şeyi her zaman\nmükemmel tutmak, yolculuğunu\lsürdürmenin sırrıdır.\pGidip kendi malzemelerimi kontrol\netsem iyi olacak! Uyanık kal!$"
 
 MatchCall_PersonalizedText55::
-	.string "Ben {STR_VAR_1}!\nBen {STR_VAR_1}!\p{STR_VAR_2} çok işlek bir yol, bu\nyüzden her gün her türlü EĞİTMEN\ltarafından çağırılıyorum.\pBugün beş savaş kazandım ve sadece\nüç savaş kaybettim!\pSen bugün nasıldın? Bir dahaki sefere\nanlatırsın, tamam mı?$"
+	.string "Ben {STR_VAR_1}!\nBen {STR_VAR_1}!\p{STR_VAR_2} çok işlek bir yol, bu\nyüzden her gün her türlü EĞİTMEN\ltarafından çağırılıyorum.\pBugün beş savaş kazandım ve sadece\nüç savaş kaybettim!\pSen bugün nasıldın? Bir dahaki\nsefere anlatırsın, tamam mı?$"
 
 MatchCall_PersonalizedText56::
 	.string "Benim, {STR_VAR_1}.\pPopülerim çünkü bir sürü\nBÖCEK POKéMON'um var.\pBugün okula en sevdiğim\nböceklerden birazını götürdüm.\pAma hoşlandığım kız, ona\nböcekleri gösterince ağlamaya\lbaşladı!\pİster gül ister kahkaha at.\pOna BÖCEK POKEMON'larını bu\nkadar çekici yapan şeyin ne\lolduğunu öğretmeliyim.\pOff… Görüşürüz!$"

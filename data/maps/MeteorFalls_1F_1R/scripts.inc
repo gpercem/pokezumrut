@@ -21,6 +21,7 @@ MeteorFalls_1F_1R_EventScript_OpenStevensCave::
 
 MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	lockall
+	followerintopokeball
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
 	waitmovement 0
@@ -93,6 +94,7 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	setflag FLAG_MET_ARCHIE_METEOR_FALLS
 	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 	setvar VAR_METEOR_FALLS_STATE, 1
+	updatefollowerpokemongraphic
 	releaseall
 	end
 
@@ -265,4 +267,4 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 	.string "Ben… Ben COZMO…\nBen bir PROFESÖRÜM…\pMAGMA TAKIMI, benden onları METEOR\nŞELALESİ'ne götürmemi istedi.\pAma beni kandırdılar.\nHatta meteorumu bile aldılar.\pSonra benzer başka bir grup, AQUA\nTAKIMI ortaya çıktı.\pOndan sonra…\nHiçbir şey anlamadım.\pAma şu MAGMA TAKIMI.\pCHİMNEY DAĞI'ndaki METEOR ile ne\nyapacaklar?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
-	.string "Ama o takım MAGMA…\pMT'deki METEORİT ile ne yapacaklar?\nCHIMNEY?$"
+	.string "Ama o MAGMA TAKIMI…\pCHIMNEY DAĞI'ndaki METEOR ile\nne yapacaklar?$"

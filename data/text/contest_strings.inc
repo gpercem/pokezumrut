@@ -1,35 +1,35 @@
 @ Contest move effect descriptions
 
 gText_HighlyAppealingMove::
-	.string "A highly appealing move.$"
+	.string "Oldukça cazip bir hamle.$"
 
 gText_UserMoreEasilyStartled::
-	.string "After this move, the user is\n"
-	.string "more easily startled.$"
+	.string "Bu hamleden sonra kullanan\n"
+	.string "daha az irkilir.$"
 
 gText_GreatAppealButNoMoreToEnd::
-	.string "Makes a great appeal, but\n"
-	.string "allows no more to the end.$"
+	.string "Güzel bir çıkış yapar \n"
+	.string "ama sona kadar sürmez.$"
 
 gText_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly used\n"
-	.string "without boring the JUDGE.$"
+	.string "Jüriyi sıkmadan üst üste\n"
+	.string "kullanılabilir.$"
 
 gText_AvoidStartledByOthersOnce::
-	.string "Can avoid being startled\n"
-	.string "by others once.$"
+	.string "Diğerlerinden irkilmeyi\n"
+	.string "bir kez önler.$"
 
 gText_AvoidStartledByOthers::
-	.string "Can avoid being startled\n"
-	.string "by others.$"
+	.string "Diğerleri tarafından\n"
+	.string "irkilmeyi önler.$"
 
 gText_AvoidStartledByOthersLittle::
-	.string "Can avoid being startled\n"
-	.string "by others a little.$"
+	.string "Diğerleri tarafından\n"
+	.string "irkilmeyi biraz önler.$"
 
 gText_UserLessLikelyStartled::
-	.string "After this move, the user is\n"
-	.string "less likely to be startled.$"
+	.string "Kullananın irkilme\n"
+	.string "ihtimali biraz azalır.$"
 
 gText_SlightlyStartleFrontMon::
 	.string "Slightly startles the\n"

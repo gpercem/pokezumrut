@@ -76,6 +76,11 @@ void SetBagItemsPointers(void)
     gBagPockets[BERRIES_POCKET].capacity = BAG_BERRIES_COUNT;
 }
 
+void ItemId_GetHoldEffectParam_Script()
+{
+    VarSet(VAR_RESULT, ItemId_GetHoldEffectParam(VarGet(VAR_0x8004)));
+}
+
 void CopyItemName(u16 itemId, u8 *dst)
 {
     StringCopy(dst, ItemId_GetName(itemId));

@@ -353,224 +353,97 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
-	.string "Where the battling spirit of TRAINERS\n"
-	.string "is put to the test!\p"
-	.string "I welcome you to the BATTLE ARENA!\p"
-	.string "I am your guide to the Set KO Tourney!$"
+	.string "EĞİTİMCİLERİN savaşçı ruhunun test\nedildiği yer!\pSAVAŞ ARENASINA hoş geldiniz!\pSet KO Turnuvası için rehberiniz\nbenim!$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
-	.string "Now, do you wish to take\n"
-	.string "the BATTLE ARENA challenge?$"
+	.string "SAVAŞ ARENASI mücadelesine\nkatılmak ister misiniz?$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "Başka bir fırsatta meydan okumanızı\nbekliyoruz!$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
-	.string "In the BATTLE ARENA, we undertake\n"
-	.string "the Set KO Tourney.\p"
-	.string "All participants enter with a team of\n"
-	.string "three POKéMON.\p"
-	.string "The three POKéMON must be lined up in\n"
-	.string "the order in which they are to appear.\p"
-	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
-	.string "Once a POKéMON enters battle, it must\n"
-	.string "remain out until the match is decided.\p"
-	.string "If a match remains undecided in\n"
-	.string "three turns, it goes to judging.\p"
-	.string "If you wish to interrupt your challenge,\n"
-	.string "please save the game.\p"
-	.string "If you don't save, you will not be able\n"
-	.string "to continue with your challenge.\p"
-	.string "If you pull off the feat of beating\n"
-	.string "seven TRAINERS in succession,\l"
-	.string "we will present you with Battle Points.$"
+	.string "SAVAŞ ARENA'sında KO Turnuvası'nı\ngerçekleştiriyoruz.\pTüm katılımcılar üç POKéMON'dan oluşan\nbir takımla katılır.\pÜç POKéMON, görünecekleri sıraya göre\ndizilmelidir.\pSavaş sırasında, POKéMON'lar önceden\nbelirlenmiş sıraya göre her seferinde\lbir tane belirecektir.\pBir POKéMON savaşa girdiğinde, maç\nsonuçlanana kadar dışarıda kalmalıdır.\pBir maç üç turda kararsız kalırsa,\nyargılamaya gider.\pMücadelenizi yarıda kesmek isterseniz,\nlütfen oyunu kaydedin.\pKaydetmezseniz, mücadelenize devam\nedemezsiniz.\pArt arda yedi ANTRENÖRÜ yenme\nbaşarısını gösterirseniz, size Savaş\lPuanı vereceğiz.$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
-	.string "Before showing you to the BATTLE\n"
-	.string "ARENA, you must save. Is that okay?$"
+	.string "Size SAVAŞ ARENASI'nı göstermeden\nönce, kaydetmelisiniz. Tamam mı?$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
-	.string "The BATTLE ARENA offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "SAVAŞ ARENASI, Seviye 50 ve Açık Seviye\nolmak üzere iki mücadele seviyesi\lsunar. Sizin seçiminiz hangisi?$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
-	.string "Very well, now select your\n"
-	.string "three POKéMON, please.$"
+	.string "Pekâlâ, şimdi üç POKemon'unuzu seçin\nlütfen.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "Sevgili meydan okuyucum!\pGiriş için gerekli olan üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı çeşit POKéMON\ngetirmelisiniz.\pAyrıca aynı tür öğeleri\niçermemelidirler.\pEGGS{STR_VAR_1} uygun değildir.\pHazırlıklarınızı yaptıktan sonra\nlütfen geri dönün.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "The three different POKéMON\n"
-	.string "must all be Level 50 or lower.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "Sevgili meydan okuyucum!\pGiriş için gerekli olan üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı türde POKéMON\ngetirmelisiniz.\pÜç farklı POKéMON'un hepsi Seviye 50\nveya daha düşük olmalıdır.\pAyrıca aynı türden öğeler\niçermemelidir.\pEGGS{STR_VAR_1} uygun değildir.\pHazırlıklarınızı yaptıktan sonra\nlütfen geri dönün.$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
-	.string "I shall now guide you to\n"
-	.string "the BATTLE ARENA.$"
+	.string "Şimdi size Savaş Arenası'na kadar\nrehberlik edeceğim.$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
-	.string "My dear challenger!\p"
-	.string "You did not save the game before\n"
-	.string "shutting down, did you?\p"
-	.string "It is unfortunate, but that has\n"
-	.string "resulted in your disqualification\l"
-	.string "from your challenge.\p"
-	.string "You may, of course, start with a fresh\n"
-	.string "challenge.$"
+	.string "Sevgili meydan okuyucum!\pOyunu kapatmadan önce kaydetmediniz,\ndeğil mi?\pTalihsiz bir durum, ancak bu durum\nmeydan okumanızdan diskalifiye\ledilmenize neden oldu.\pElbette yeni bir meydan okuma ile\nbaşlayabilirsiniz.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-	.string "We congratulate you for your splendid\n"
-	.string "string of wins over seven TRAINERS!$"
+	.string "Yedi EĞİTMEN karşısında elde\nettiğiniz muhteşem galibiyetler dizisi\liçin sizi kutluyoruz!$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
-	.string "Your achievement will be recorded.\n"
-	.string "Please wait while I save the game.$"
+	.string "Başarınız kaydedilecektir. Ben oyunu\nkaydederken lütfen bekleyin.$"
 
-@ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-	.string "In commemoration of your 7-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "7 galibiyetlik serinizin anısına size bu\nödülü takdim ediyoruz.$"
 
-@ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} {STR_VAR_1} ödülünü aldı.$"
 
-@ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
-	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "Oh? Çantanız dolu görünüyor.\pYer açmanızı ve ödülünüz için geri\ndönmenizi tavsiye ederim.$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
-	.string "Thank you so much for participating!\p"
-	.string "Please wait while I save the game.$"
+	.string "Katıldığınız için çok teşekkür ederim!\pBen oyunu kaydederken lütfen\nbekleyin.$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "Başka bir fırsatta meydan okumanızı\nbekliyoruz!$"
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
-	.string "We have been looking forward to\n"
-	.string "your arrival.\p"
-	.string "Before I show you to the BATTLE\n"
-	.string "ARENA, I must save the game.\l"
-	.string "Please wait.$"
+	.string "Gelişinizi dört gözle bekliyorduk.\pSize SAVAŞ ARENASI'nı göstermeden\nönce oyunu kaydetmeliyim. Lütfen\lbekleyin.$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-	.string "Shall I record your last BATTLE ARENA\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "Son SAVAŞ ARENASI maçınızı SINIR\nBİLETİNİZE kaydedeyim mi?$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
-	.string "I lost on the REFEREE's decision…\p"
-	.string "I don't think it was a good idea to only\n"
-	.string "use defensive moves and not attack…$"
+	.string "Hakemin kararında kaybettim…\pSadece savunma hareketlerini kullanıp\nsaldırmamanın iyi bir fikir olduğunu\lsanmıyorum…$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
-	.string "I won in judging!\p"
-	.string "Landing hits consistently on\n"
-	.string "the opponent's POKéMON worked!$"
+	.string "Değerlendirmeyi kazandım!\pRakibin POKéMON'una tutarlı bir\nşekilde vurmak işe yaradı!$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
-	.string "Our match was declared a draw.\p"
-	.string "When we ran out of time, both my\n"
-	.string "POKéMON and the opponent's had about\l"
-	.string "the same amount of HP left.$"
+	.string "Maçımız berabere ilan edildi.\pZamanımız dolduğunda, hem benim hem de\nrakibin POKéMON'unda yaklaşık aynı\lmiktarda HP kalmıştı.$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
-	.string "In the BATTLE ARENA, the order of\n"
-	.string "POKéMON is totally important.\p"
-	.string "For example, if your first POKéMON\n"
-	.string "has certain type disadvantages,\l"
-	.string "try making your second POKéMON one\l"
-	.string "with moves that are super effective\l"
-	.string "against the first one.\p"
-	.string "I think that will be a good way of\n"
-	.string "making an effective team.$"
+	.string "SAVAŞ ARENASI'nda POKéMON sırası\nold2106ukça önemlidir.\pÖrneğin, ilk POKéMON'unuzun belirli tür\ndezavantajları varsa, ikinci\lPOKéMON'unuzu ilkine karşı süper\letkili hareketlere sahip bir POKéMON\lyapmayı deneyin.\pBunun etkili bir takım oluşturmanın iyi\nbir yolu olacağını düşünüyorum.$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-	.string "The Set KO Tourney's rules are listed.$"
+	.string "Set KO Turnuvası'nın kuralları\nlistelenmiştir.$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-	.string "The Set KO Tourney has special rules,\n"
-	.string "unlike standard battles.\p"
-	.string "First, one battle lasts only\n"
-	.string "three turns.\p"
-	.string "If the outcome is not decided after\n"
-	.string "three turns, it goes to judging.\p"
-	.string "The REFEREE will choose the winner\n"
-	.string "based on how the POKéMON battled.\p"
-	.string "Also, a POKéMON cannot be switched out\n"
-	.string "until its battle's outcome is decided.$"
+	.string "Set KO Turnuvasının standart\nsavaşlardan farklı olarak özel\lkuralları vardır.\pİlk olarak, bir savaş sadece üç tur\nsürer.\pÜç tur sonunda sonuca karar\nverilemezse, jüriye gider.\pHAKEM, POKéMON'ların nasıl savaştığına\ngöre kazananı seçecektir.\pAyrıca, bir POKéMON, savaşının\nsonucuna karar verilene kadar\ldeğiştirilemez.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string "The first judging factor is “Mind.”\n"
-	.string "This factor evaluates how aggressive\l"
-	.string "the battlers were.\p"
-	.string "The judging is based on how often\n"
-	.string "the TRAINERS ordered the use of\l"
-	.string "offensive moves.$"
+	.string "İlk değerlendirme faktörü Zihin dir. Bu\nfaktör, savaşçıların ne kadar agresif\lolduklarını değerlendirir.\pDeğerlendirme, eğitmenlerin\nsaldırgan hareketlerin kullanılmasını\lne sıklıkla emrettiğine dayanmaktadır.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string "The second judging factor is “Skill.”\n"
-	.string "This factor evaluates how effectively\l"
-	.string "POKéMON moves were used.\p"
-	.string "If a move worked successfully,\n"
-	.string "the Skill rating goes up.\p"
-	.string "If a move failed, the Skill rating\n"
-	.string "is lowered.\p"
-	.string "If it was an offensive move, the Skill\n"
-	.string "rating goes up if the move was “super\l"
-	.string "effective” and goes down if it was\l"
-	.string "“not very effective.”\p"
-	.string "The Skill rating will not go up for\n"
-	.string "moves such as PROTECT and DETECT.\p"
-	.string "If the opponent used PROTECT or\n"
-	.string "DETECT, and your POKéMON failed to\l"
-	.string "hit with a move, its Skill rating will not\l"
-	.string "go down.$"
+	.string "İkinci değerlendirme faktörü Beceri\ndir. Bu faktör POKéMON hareketlerinin\lne kadar etkili kullanıldığını\ldeğerlendirir.\pBir hamle başarılı bir şekilde\nçalıştıysa, Beceri derecesi yükselir.\pEğer bir hamle başarısız olursa, Beceri\npuanı düşer.\pEğer bu bir saldırı hamlesiyse, hamle\nsüper etkili ise Beceri derecesi\lyükselir ve çok etkili değilse düşer.\pKORUMA ve DEDEKTİF gibi hareketler\niçin Beceri puanı yükselmez.\pRakip KORUMA veya DEDEKSİYON\nkullandıysa ve POKéMON'unuz bir\lhareketle vuramadıysa, Beceri puanı\ldüşmez.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-	.string "The third judging factor is “Body.”\n"
-	.string "This factor is based on how much HP\l"
-	.string "remained at the end of a battle.\p"
-	.string "The rating takes into account how much\n"
-	.string "HP a POKéMON had at the start of\l"
-	.string "battle, and what remained at the end.$"
+	.string "Üçüncü değerlendirme faktörü Vücut-\ntur. Bu faktör, bir savaşın sonunda ne\lkadar can kaldığına dayanır.\pDerecelendirme, bir POKéMON'un\nsavaşın başında ne kadar cana sahip\lolduğunu ve sonunda ne kadar kaldığını\ldikkate alır.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-	.string "A victory snatched from the ARENA\n"
-	.string "TYCOON, and a seven-TRAINER sweep!\p"
-	.string "We congratulate you on your most\n"
-	.string "splendid challenge!$"
+	.string "ARENA LİDERİ'undan koparılan bir\nzafer ve yedi EĞİTMENLİK bir seri!\pEn görkemli mücadeleniz için sizi\nkutluyoruz!$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
-	.string "My dear challenger, in recognition of\n"
-	.string "your indefatigable spirit, please\l"
-	.string "accept these Battle Point(s).$"
+	.string "Sevgili meydan okuyucum, yorulmak\nbilmeyen ruhunuzun takdiri olarak,\llütfen bu Savaş Puan(lar)ını kabul\ledin.$"

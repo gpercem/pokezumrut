@@ -926,255 +926,139 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
-	.string "{PLAYER} has entered the BATTLE DOME!$"
+	.string "{PLAYER} SAVAŞ KUBBESİNE girdi!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
-	.string "{STR_VAR_1}\n"
-	.string "match!\p"
-	.string "{PLAYER} versus {STR_VAR_2}!\p"
-	.string "Let the battle begin!$"
+	.string "{STR_VAR_1} maç!\p{PLAYER}, {STR_VAR_2}'ye karşı!\pSavaş başlasın!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-	.string "{PLAYER} is the winner!\n"
-	.string "Congratulations!$"
+	.string "Kazanan {PLAYER}! Tebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
-	.string "{STR_VAR_2} is the winner!\n"
-	.string "Congratulations!$"
+	.string "Kazanan {STR_VAR_2} oldu! Tebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER} 50. Seviye Savaş Turnuvası\nŞampiyonu!\pTebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "Açık Seviye Savaş Turnuvası Şampiyonu\n{PLAYER}!\pTebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
-	.string "What an unbelievable finish!\n"
-	.string "We have a double knockout!\p"
-	.string "In this event, the Battle Tournament\n"
-	.string "rules call for a REFEREE'S decision.\p"
-	.string "Please wait while the judging\n"
-	.string "is under way.$"
+	.string "Ne inanılmaz bir son! Çifte nakavt\nvar!\pBu olayda, Savaş Turnuvası kuralları\nHAKEM kararı gerektirmektedir.\pYargılama devam ederken lütfen\nbekleyin.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {STR_VAR_1}!\l"
-	.string "Congratulations!$"
+	.string "Hakemler bir karara vardı!\pKazanan… Aman Tanrım! Kazanan\n{STR_VAR_1}! Tebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {PLAYER}!\l"
-	.string "Congratulations!$"
+	.string "Hakemler bir karara vardı!\pKazanan… Aman Tanrım! Kazanan\n{PLAYER}! Tebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
-	.string "The bright new hope!\p"
-	.string "$"
+	.string "Parlak yeni umut!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
-	.string "The rising star!\p"
-	.string "$"
+	.string "Yükselen yıldız!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-	.string "Will this TRAINER race to\n"
-	.string "the championship?\p"
-	.string "$"
+	.string "Bu ANTRENÖR şampiyonluk için\nyarışacak mı?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
-	.string "Can the feat of a championship\n"
-	.string "on the first try be achieved?\p"
-	.string "$"
+	.string "İlk denemede şampiyonluk başarısı elde\nedilebilir mi?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-	.string "Can the loss of the last match\n"
-	.string "be avenged?\p"
-	.string "$"
+	.string "Son maçtaki kaybın intikamı\nalınabilecek mi?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-	.string "The TRAINER is on fire for\n"
-	.string "the first championship try!\p"
-	.string "$"
+	.string "EĞİTMEN ilk şampiyonluk denemesi için\nyanıyor!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "A win here means this TRAINER\n"
-	.string "advances to the final!\p"
-	.string "$"
+	.string "Burada bir galibiyet, bu ANTRENÖR'ün\nfinale yükselmesi anlamına geliyor!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-	.string "Will the long-held dream of\n"
-	.string "a championship finally come true?\p"
-	.string "$"
+	.string "Uzun zamandır beklenen şampiyonluk\nhayali sonunda gerçekleşecek mi?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
-	.string "The invincible champion!\p"
-	.string "$"
+	.string "Yenilmez şampiyon!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-	.string "Can anyone hope to beat this\n"
-	.string "TRAINER?\p"
-	.string "$"
+	.string "Bu EĞİTMENİ yenmeyi umut edebilecek\nbiri var mı?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
-	.string "Do battles exist solely for\n"
-	.string "this TRAINER?\p"
-	.string "$"
+	.string "Savaşlar sadece bu EĞİTMEN için mi\nvar?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-	.string "The current champion aiming to\n"
-	.string "retain the title!\p"
-	.string "$"
+	.string "Şimdiki şampiyon unvanını korumayı\nhedefliyor!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
-	.string "The former champion has returned!\p"
-	.string "$"
+	.string "Eski şampiyon geri döndü!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-	.string "The former toughness has returned!\p"
-	.string "$"
+	.string "Eski sertlik geri döndü!\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-	.string "Will this TRAINER do as expected\n"
-	.string "and advance to the finals?\p"
-	.string "$"
+	.string "Bu EĞİTMEN bekleneni yapacak ve\nfinallere yükselecek mi?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
-	.string "Will the former champ regain\n"
-	.string "lost glory?\p"
-	.string "$"
+	.string "Eski şampiyon kaybettiği zaferini geri\nkazanabilecek mi?\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-	.string "Feel the glow of a true master!$"
+	.string "Gerçek bir ustanın ışıltısını hissedin!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "And now… The TRAINER standing in\n"
-	.string "{PLAYER}'s record-setting path…\p"
-	.string "Yes! The one and only!\n"
-	.string "The BATTLE DOME COMMISSIONER!\l"
-	.string "Our very own DOME ACE!\l"
-	.string "Make way for TUCKER!$"
+	.string "Ve şimdi… {PLAYER}'ın rekor kırma\nyolunda duran ANTRENÖR…\pEvet! Evet! Tek ve biricik! BATTLE\nDOME KOMİSERİ! Bizim kendi DOME\lACE'miz! TUCKER'a yol açın!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
-	.string "Spectators: TUCKER! TUCKER!\n"
-	.string "TUCKER! TUCKER! TUCKER!$"
+	.string "Seyirciler: TUCKER! TUCKER! TUCKER!\nTUCKER! TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
-	.string "TUCKER: Ahahah!\p"
-	.string "Do you hear it? This crowd!\n"
-	.string "They're all itching to see our match!\p"
-	.string "Ahahah!\p"
-	.string "I bet you're twitching all over from\n"
-	.string "the tension of getting to battle me!\p"
-	.string "But don't you worry about a thing!\p"
-	.string "I'm the no. 1 star of the BATTLE DOME!\n"
-	.string "I, TUCKER the DOME ACE, will bathe you\l"
-	.string "in my brilliant glow!$"
+	.string "Ahahah!\pDuyuyor musunuz? Bu kalabalık! Hepsi\nmaçımızı görmek için can atıyor!\pAhahah!\pEminim benimle dövüşecek olmanın\ngerginliğinden her tarafın\lseğiriyordur!\pAma hiçbir şey için endişelenme!\pBen BATTLE D'nin BATTLE DOME'un 1\nnumaralı yıldızıyım! Ben, DOME ACE\lTUCKER, sizi parlak ışıltımla\lyıkayacağım!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
-	.string "Your strategy!\n"
-	.string "Let's see it!$"
+	.string "Stratejiniz! Görelim bakalım!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
-	.string "Unbelievable! It's incredible!\n"
-	.string "The victor is {PLAYER}!$"
+	.string "İnanılmaz! Olağanüstü!\nKazanan {PLAYER}!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
-	.string "The winner is TUCKER!\n"
-	.string "The DOME ACE has prevailed!\p"
-	.string "Congratulations, TUCKER!$"
+	.string "Kazanan TUCKER!\nKUBBE LİDERİ galip geldi!\pTebrikler, TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
-	.string "TUCKER: Rules are rules!\n"
-	.string "Let me see your FRONTIER PASS.$"
+	.string "Kural kuraldır!\nSINIR BİLETİNİ göreyim.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
-	.string "The Tactics Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "Taktik Sembolü SINIR BİLETİ\nüzerine işlendi!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
-	.string "… … … … … …\p"
-	.string "I sorely underestimated you. I won't\n"
-	.string "make the same mistake next time…$"
+	.string "… … … … … …\pSeni fena halde hafife almışım.\nBir dahaki sefere aynı hatayı\lyapmayacağım.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
-	.string "Can the win streak be stretched?\n"
-	.string "The confidence is there!$"
+	.string "Galibiyet serisi uzatılabilir mi?\nKendimize güvenimiz tam!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
-	.string "Ladies and gentlemen!\n"
-	.string "Boys, girls, and POKéMON!\p"
-	.string "Finally!\n"
-	.string "Finally, the legend has returned!\p"
-	.string "Yes, the name of that legend!\n"
-	.string "Our very own DOME ACE!\l"
-	.string "It's none other than TUCKER!$"
+	.string "Baylar ve bayanlar!\nÇocuklar ve POKéMON'lar!\pSonunda, sonunda efsane geri\ndöndü!\pEvet, efsanenin kendisi!\nKUBBE LİDERİ!\lTUCKER'dan başkası değil!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-	.string "TUCKER: Ah…\n"
-	.string "The pummeling roar of the crowd…\l"
-	.string "Their furnace-like heat of excitement…\l"
-	.string "This is a wonderful place…\p"
-	.string "To the crowd, I am the DOME ACE…\n"
-	.string "I represent their hopes and dreams…\l"
-	.string "I must never fade from their sight…\p"
-	.string "I must burn!\n"
-	.string "Brighter and more brilliant!\l"
-	.string "I must light all that gather here!$"
+	.string "TUCKER: Ah… Kalabalığın gürültüsü…\nHeyecanın fırın gibi sıcaklığı… Burası\lharika bir yer…\pKalabalık için ben DOME ACE'im…\nOnların umutlarını ve hayallerini\ltemsil ediyorum… Onların gözünden\lasla kaybolmamalıyım…\pYanmalıyım! Daha parlak ve daha\nışıltılı! Burada toplanan herkesi\laydınlatmalıyım!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-	.string "I will unleash all the power that\n"
-	.string "I possess! Right here and now!$"
+	.string "Sahip olduğum tüm gücü serbest\nbırakacağım! Tam burada ve şimdi!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-	.string "TUCKER: You're genuinely fantastic!\p"
-	.string "Never before! I haven't ever lost in the\n"
-	.string "times I've had to unleash my power.\p"
-	.string "Yes, quite fantastic!\n"
-	.string "Your FRONTIER PASS, please?$"
+	.string "Gerçekten harikasın!\pDaha önce hiç! Gücümü açığa çıkarmak\nzorunda kaldığım zamanlarda hiç\lkaybetmedim.\pEvet, oldukça fantastik! FRONTIER\nPASS'ınız lütfen?$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
-	.string "The Tactics Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Taktik Sembolü altın bir parlaklık\nkazandı!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
-	.string "You're strong, but above all,\n"
-	.string "you have a unique charm!\p"
-	.string "In you, I see a definite potential for\n"
-	.string "a superstar like me.\p"
-	.string "I will very much look forward to\n"
-	.string "our next encounter!$"
+	.string "Güçlüsün, ama hepsinden önemlisi, eşsiz\nbir caziben var!\pSende, benim gibi bir süperstar için\nkesin bir potansiyel görüyorum.\pBir sonraki karşılaşmamızı dört gözle\nbekleyeceğim!$"
 
-@ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER} 50. Seviye Savaş Turnuvası\nŞampiyonu!\pTebrikler!$"
 
-@ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "Açık Seviye Savaş Turnuvası Şampiyonu\n{PLAYER}!\pTebrikler!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
-	.string "The final match!\p"
-	.string "{PLAYER} versus the DOME ACE, TUCKER!\p"
-	.string "Let the battle begin!$"
+	.string "Final maçı!\p{PLAYER}, TUCKER'a karşı!\pSavaş başlasın!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is our very own DOME ACE!\l"
-	.string "It's TUCKER!\p"
-	.string "Congratulations! And thank you!\n"
-	.string "Let's hear it for the DOME ACE, TUCKER!$"
+	.string "Hakemler bir karara vardı!\pKazanan… Aman Tanrım! Kazanan bizim\nkendi KUBBE LİDERİMİZ! Bu TUCKER!\pTebrikler! Ve teşekkürler! KUBBE\nLİDERİ için alkışları duyalım!$"

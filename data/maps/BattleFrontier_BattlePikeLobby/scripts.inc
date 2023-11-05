@@ -268,166 +268,84 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-	.string "Where the luck of TRAINERS\n"
-	.string "is put to the test…\p"
-	.string "Welcome to the BATTLE PIKE…\p"
-	.string "I am your guide to the BATTLE PIKE…$"
+	.string "Eğitmenlerin şansının test edildiği\nyer…\pSAVAŞ ÇADIRI hoş geldiniz.\pBen sizin SAVAŞ ÇADIRI rehberinizim.$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Choice challenge?$"
+	.string "Savaş Seçimi meydan okumasına\nkatılmak ister misiniz?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-	.string "Here we conduct an event we call\n"
-	.string "the Battle Choice.\p"
-	.string "The Battle Choice rules are very\n"
-	.string "simple…\p"
-	.string "Choose one of three paths and make\n"
-	.string "your way to the goal room at the end\l"
-	.string "of the BATTLE PIKE. It's that simple.\p"
-	.string "However, what happens on the chosen\n"
-	.string "path depends entirely on the luck\l"
-	.string "of the challenger…\p"
-	.string "If you reach the goal, you will be\n"
-	.string "rewarded with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please have a word with\l"
-	.string "our staff in the big rooms on the way.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "Burada Savaş Seçimi adını verdiğimiz\nbir etkinlik gerçekleştiriyoruz.\pSavaş Seçimi kuralları çok basit…\pÜç yoldan birini seçin ve SAVAŞ\nÇADIRI sonundaki hedef odaya gidin.\lBu kadar basit.\pAncak, seçilen yolda neler olacağı\ntamamen yarışmacının şansına\lbağlıdır…\pEğer hedefe ulaşırsanız, Savaş\nPuanları ile ödüllendirileceksiniz.\pMücadelenizi yarıda kesmek isterseniz,\nlütfen yol üzerindeki büyük odalardaki\lpersonelimizle konuşun.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye edilirsiniz.$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
-	.string "We look forward to seeing you\n"
-	.string "on another occasion…$"
+	.string "Sizi başka bir vesileyle görmek için\nsabırsızlanıyoruz…$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
-	.string "You have the choice of two courses,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which will you challenge?$"
+	.string "Seviye 50 ve Açık Seviye olmak üzere\niki kurs seçeneğiniz var. Hangisine\lmeydan okuyacaksınız?$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "Özür dilerim ama.\pSavaş Seçimi etkinliği için uygun üç\nPOKéMON'unuz yok.\pKatılmak için Seviye 50 veya daha\ndüşük üç farklı POKéMON'a sahip\lolmalısınız.\pAyrıca farklı türde eşyalar tutuyor\nolmaları gerekir.\pYUMURTA {STR_VAR_1} uygun değildir.\pHazır olduğunuzda lütfen beni görmeye\ngelin…$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different\n"
-	.string "POKéMON to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "Özür dilerim ama.\pSavaş Seçimi etkinliği için uygun üç\nPOKéMON'unuz yok.\pKatılmak için üç farklı POKéMON'a sahip\nolmalısınız.\pAyrıca farklı türde öğeler tutuyor\nolmalıdırlar.\pYUMURTA {STR_VAR_1} uygun değil.\pHazır olduğunuzda lütfen beni görmeye\ngelin…$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
-	.string "Please choose the three POKéMON\n"
-	.string "you wish to enter in the challenge…$"
+	.string "Lütfen yarışmaya katılmak istediğiniz\nüç POKéMON'u seçin…$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
-	.string "Before starting your Battle Choice\n"
-	.string "challenge, I must save the game.\l"
-	.string "Is that acceptable?$"
+	.string "Savaş Seçimi görevinize başlamadan\nönce oyunu kaydetmeliyim.\lUygun mu?$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
-	.string "Please step this way…$"
+	.string "Lütfen bu taraftan.$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-	.string "Your challenge has ended…\p"
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "Mücadeleniz sona erdi.\pSonuçlarınızı kaydedeceğim. Lütfen\nbekleyin…$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-	.string "You have completed the challenge…\p"
-	.string "I must say… You seem to possess luck\n"
-	.string "in abundance…$"
+	.string "Mücadeleyi tamamladınız…\pSöylemeliyim ki… Şansınız bol\ngörünüyor…$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "Sonuçlarınızı kaydedeceğim. Lütfen\nbekleyin…$"
 
-@ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-	.string "To commemorate your completion of\n"
-	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "Savaş Seçimi mücadelesini\ntamamlamanızın anısına size bu Savaş\lPuan(lar)ını veriyoruz…$"
 
-@ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
-	.string "You appear to have reached the limit\n"
-	.string "for Battle Points…\p"
-	.string "Please exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "Savaş Puanı sınırına ulaşmış\ngörünüyorsunuz…\pLütfen ödüller için biraz Savaş Puanı\ntakas edin, sonra geri dönün…$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
-	.string "I beg your pardon, but…\p"
-	.string "You failed to save before you quit\n"
-	.string "your challenge the last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. I am sorry…$"
+	.string "Üzgünüm.\pMücadelenizden son kez ayrılmadan\nönce kaydetmeyi başaramadınız.\pBu nedenle, şimdiye kadarki\nmücadeleniz diskalifiye edildi. Özür\ldilerim.$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
-	.string "Congratulations…\p"
-	.string "You have snatched victory from the\n"
-	.string "PIKE QUEEN and cleared the event…$"
+	.string "Tebrikler.\pZaferi ÇADIR KRALİÇESİ'nin elinden\naldınız ve etkinliği tamamladınız…$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
-	.string "In recognition of your amazing luck,\n"
-	.string "we award you these Battle Point(s)…$"
+	.string "İnanılmaz şansınız için size bu Savaş\nPuanlarını veriyoruz…$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
-	.string "Arrgh! I blew my chance!\n"
-	.string "I was one room away from the goal!\p"
-	.string "In this place, you'd better watch out\n"
-	.string "for poison, freezing, and so on.$"
+	.string "Arrgh! Şansımı kaybettim! Hedeften\nbir oda uzaktaydım!\pBu yerde, zehir, donma ve benzeri\nşeylere dikkat etsen iyi olur.$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-	.string "I've completed the challenge 10 times\n"
-	.string "now, but I've never had to battle\l"
-	.string "a TRAINER once.$"
+	.string "Mücadeleyi şu ana kadar 10 kez\ntamamladım, ancak bir kez bile bir\lEĞİTİMCİ ile savaşmak zorunda\lkalmadım.$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
-	.string "Listen! Listen!\p"
-	.string "Don't you think that the special\n"
-	.string "abilities of POKéMON will be useful\l"
-	.string "here?$"
+	.string "Dinleyin! Dinleyin! Dinleyin!\pPOKéMON'un özel yeteneklerinin burada\nişe yarayacağını düşünmüyor musun?$"
 
-@ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-	.string "What is this weird place?\n"
-	.string "I can't figure it out at all!\p"
-	.string "I've taken the challenge a bunch\n"
-	.string "of times, but all I ever do is run into\l"
-	.string "TRAINERS whichever path I choose.$"
+	.string "Bu garip yer de ne? Hiç anlayamıyorum!\pBirkaç kez meydan okumaya katıldım,\nancak hangi yolu seçersem seçeyim tek\lyaptığım EĞİTMENLERLE karşılaşmak.$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
-	.string "The Battle Choice's rules are listed.$"
+	.string "Savaş Seçimi'nin kuralları\nburada.$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-	.string "The BAG and POKéNAV may not be used\n"
-	.string "during a Battle Choice challenge.$"
+	.string "ÇANTA ve POKéNAV, Savaş Seçimi\nmücadelesi sırasında kullanılamaz.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "any BERRY or HERB held by POKéMON\l"
-	.string "will be effective only once.$"
+	.string "Bir Savaş Seçimi mücadelesi sırasında,\nPOKéMON tarafından tutulan herhangi\lbir MEYVE veya BİTKİ yalnızca bir kez\letkili olacaktır.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "the sequence of POKéMON cannot be\l"
-	.string "changed.\p"
-	.string "The sequence must be set before\n"
-	.string "starting your challenge.$"
+	.string "Bir Savaş Seçimi mücadelesi sırasında\nPOKéMON sırası değiştirilemez.\pSıra, mücadelenize başlamadan önce\nayarlanmalıdır.$"
+
 

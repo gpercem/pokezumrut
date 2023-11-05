@@ -251,71 +251,36 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
 	return
 
 BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
-	.string "Hey, hey!\n"
-	.string "Get a move on!$"
+	.string "Hey, hey! Acele edin!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
-	.string "Hey, my name's NOLAND!\n"
-	.string "I'm basically in charge of this place,\l"
-	.string "which is why I'm the FACTORY HEAD!\p"
-	.string "I had a look at your Battle Swap data.\p"
-	.string "You seem to have the right idea,\n"
-	.string "but you're still square in your head!\p"
-	.string "Listen up, okay? Knowledge isn't only\n"
-	.string "about reading books or doing desk work.\p"
-	.string "Just doing that sort of thing…\n"
-	.string "It may as well be useless!\p"
-	.string "You have to experience things with\n"
-	.string "your heart and your body, understand?\p"
-	.string "I'll take you on under the same\n"
-	.string "conditions as you.\p"
-	.string "I'll be using rental POKéMON, too!$"
+	.string "Hey, benim adım NOLAND!\nAslında buranın sorumlusu benim,\lbu yüzden de FABRİKA LİDERİYİM!\pSavaş Takası verilerinize bir göz\nattım.\pDoğru fikre sahip gibi görünüyorsun,\nama hâlâ kafan yerinde değil!\pBeni dinle, tamam mı? Bilgi sadece kitap\nokumak ya da masa başı iş yapmak\ldeğildir.\pSadece bu tür şeyler yapmak… Hiçbir\nişe yaramayabilir!\pKalbinle ve bedeninle bir şeyler\ndeneyimlemelisin, anladın mı?\pSeninle aynı şartlar altında\nçalışacağım.\pBen de kiralık POKéMON kullanacağım!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
-	.string "Shake out every last bit of your\n"
-	.string "knowledge and bring it on!$"
+	.string "Bilginizin son zerresine kadar\nsilkeleyin ve devam edin!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
-	.string "NOLAND: Smart going!\n"
-	.string "Let's see your FRONTIER PASS.$"
+	.string "Harika!\nSAVAŞ BİLETİNİ görelim.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
-	.string "The Knowledge Symbol was embossed\n"
-	.string "on the FRONTIER PASS!$"
+	.string "Bilgi Sembolü, SAVAŞ BİLETİ\nüzerine işlendi!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
-	.string "Heh…\n"
-	.string "You're a pretty bright spark…\p"
-	.string "Next time, I'll come after you hard.\n"
-	.string "No holds barred, understand?\p"
-	.string "You keep up your studies!$"
+	.string "Heh… Sen oldukça parlak bir\nkıvılcımsın…\pBir dahaki sefere, peşinden sertçe\ngeleceğim. Engel yok, anladın mı?\pÇalışmalarına devam et!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
-	.string "NOLAND: Hey, hey! How's it going?\n"
-	.string "You keeping up with your studies?\p"
-	.string "…Oh?\p"
-	.string "You've taken on a harder look than\n"
-	.string "the last time I saw you.\p"
-	.string "Now, this should be fun!\n"
-	.string "I'm getting excited, hey!$"
+	.string "Hey, hey! Nasıl gidiyor? Derslerine\ndevam ediyor musun?\p…Oh?\pSeni son gördüğümden daha sert bir\ngörünüm almışsın.\pŞimdi, bu eğlenceli olmalı!\nHeyecanlanıyorum, hey!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
-	.string "All right!\n"
-	.string "Bring it on!$"
+	.string "Pekala! Hadi bakalım!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
-	.string "NOLAND: What the…\n"
-	.string "You're getting out of my league!\p"
-	.string "Sheesh!\n"
-	.string "Let's see that FRONTIER PASS!$"
+	.string "Ne… Benim ligimin dışına çıkıyorsun!\pVay! Hadi şu SAVAŞ BİLETİNİ\ngörelim!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
-	.string "The Knowledge Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Bilgi Sembolü altın bir parlaklık\nkazandı!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
-	.string "Pfft, man!\p"
-	.string "That's absolutely the last time\n"
-	.string "I lose to you!\p"
-	.string "We have to do this again, hey?$"
+	.string "Pfft, adamım!\pBu kesinlikle sana son kaybedişim!\pBunu tekrar yapmak zorundayız, değil\nmi?$"
+
 

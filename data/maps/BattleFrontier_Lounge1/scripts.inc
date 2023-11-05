@@ -151,108 +151,66 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-	.string "For 70 years I have raised POKéMON!\n"
-	.string "I am the man they revere as\l"
-	.string "the legendary top POKéMON BREEDER!\p"
-	.string "If you ever become as seasoned as me,\n"
-	.string "you'll see the abilities of POKéMON\l"
-	.string "at a glance.\p"
-	.string "You're a TRAINER. Doesn't it interest\n"
-	.string "you to know your own POKéMON's\l"
-	.string "abilities?\p"
-	.string "Here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "Yetmiş yıldır POKéMON\nyetiştiriyorum!\nBana efsanevi POKéMON\lyetiştiricisi de derler!\pBenim gibi olduğunda, POKéMON'a\nbaktığın anda yeteneklerini\lanlayabilirsin.\pSen bir eğitmensin. POKéMON'larının\nyeteneklerini bilmek istemez misin?\pGel! POKéMON'larına bakalım!$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe\n"
-	.string "as being of average ability.$"
+	.string "…Hmm…\pBunu, genel olarak, ortalama bir\nyetenek olarak tanımlayabilirim.$"
 
 BattleFrontier_Lounge1_Text_BetterThanAverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe as\n"
-	.string "having better-than-average ability.$"
+	.string "…Hmm…\pBunu genel olarak ortalamanın\nüzerinde bir yeteneğe sahip olarak\ltanımlayabilirim.$"
 
 BattleFrontier_Lounge1_Text_ImpressiveAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "quite impressive in ability!$"
+	.string "…Hmm…\pBunun, genel olarak, oldukça etkileyici\nbir yetenek olduğunu söyleyebilirim!$"
 
 BattleFrontier_Lounge1_Text_OutstandingAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "wonderfully outstanding in ability!$"
+	.string "…Hmm…\pBunun, genel olarak, olağanüstü bir\nyeteneğe sahip olduğunu\lsöyleyebilirim!$"
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its HP…$"
+	.string "En iyi yanının canı olduğunu\nsöyleyebilirim.$"
 
 BattleFrontier_Lounge1_Text_BestAspectAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its ATTACK…$"
+	.string "Bu arada, en iyi yönünün SALDIRI\nolduğunu söyleyebilirim…$"
 
 BattleFrontier_Lounge1_Text_BestAspectDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its DEFENSE…$"
+	.string "Bu arada, en iyi yönünün SAVUNMASI\nolduğunu söyleyebilirim…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL ATTACK…$"
+	.string "Bu arada, en iyi yönünün ÖZEL\nSALDIRISI olduğunu söyleyebilirim…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL DEFENSE…$"
+	.string "Bu arada, en iyi yönünün ÖZEL\nSAVUNMASI olduğunu söyleyebilirim…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPEED…$"
+	.string "En iyi özelliğine HIZ diyebilirim…$"
 
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
-	.string "That stat is relatively good.\n"
-	.string "…Hm… That's how I call it.$"
+	.string "Bu istatistik nispeten iyi. …Hm… Ben\nböyle diyorum.$"
 
 BattleFrontier_Lounge1_Text_StatImpressive:
-	.string "That stat is quite impressive.\n"
-	.string "…Hm… That's how I call it.$"
+	.string "Değerler oldukça iyi …Hm…\nDiyebileceğim bu kadar.$"
 
 BattleFrontier_Lounge1_Text_StatOutstanding:
-	.string "That stat is outstanding!\n"
-	.string "…Hm… That's how I call it.$"
+	.string "Bu değerler olağanüstü! …Hm…\nİşte ben böyle diyorum.$"
 
 BattleFrontier_Lounge1_Text_StatFlawless:
-	.string "It's flawless! A thing of perfection!\n"
-	.string "…Hm… That's how I call it.$"
+	.string "Kusursuz! Mükemmel bir şey! …Hm…\nBen böyle diyorum.$"
 
 BattleFrontier_Lounge1_Text_NoTimeForMyAdvice:
-	.string "What?\n"
-	.string "You have no time for my advice?\p"
-	.string "You should always be eager to learn\n"
-	.string "from the experiences of your elders!$"
+	.string "Ne? Tavsiyelerime ayıracak vaktin yok\nmu?\pHer zaman büyüklerinizin\ndeneyimlerinden bir şeyler öğrenmeye\lhevesli olmalısınız!$"
 
-@ Unused
 BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
-	.string "Yes, what is it now?\p"
-	.string "I have business that needs tending!\n"
-	.string "Save it for next time!$"
+	.string "Evet, şimdi ne var?\pİlgilenmem gereken bir işim var! Bir\ndahaki sefere sakla!$"
 
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
-	.string "Ah, youngster! Do your POKéMON's\n"
-	.string "abilities intrigue you?\p"
-	.string "Here, here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "Ah, genç adam! POKéMON'unun\nyetenekleri ilgini çekiyor mu?\pİşte, işte! Hadi POKéMON'una bir göz\natalım!$"
 
 BattleFrontier_Lounge1_Text_EvenICantTell:
-	.string "An expert I am, but even I can't tell\n"
-	.string "anything about an unhatched POKéMON!\p"
-	.string "Show me a POKéMON!\n"
-	.string "A POKéMON is what I need to see!$"
+	.string "Ben bir uzmanım ama ben bile\nyumurtadan çıkmamış bir POKéMON\lhakkında bir şey söyleyemem!\pBana bir POKemon göster! Görmem\ngereken şey bir POKemon!$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "I'm glad I raised it carefully!$"
+	.string "POKéMON'umun olağanüstü olduğunu\nsöyledi! Onu dikkatlice büyüttüğüme\lsevindim!$"
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "But I didn't do anything special\l"
-	.string "raising it…$"
+	.string "POKéMON'umun olağanüstü olduğunu\nsöyledi! Ama onu büyütmek için özel bir\lşey yapmadım.$"
+
 

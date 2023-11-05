@@ -375,276 +375,111 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-	.string "Where the hearts of TRAINERS\n"
-	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
-	.string "I accept challenges to the SINGLE\n"
-	.string "BATTLE HALLS.$"
+	.string "Eğitmenlerin kalplerinin test edildiği\nyer.\pSizi SAVAŞ SARAYI'na davet ediyorum.\pTEKLİ SAVAŞ SALONLARINDA meydan\nokumaları kabul ediyorum.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
-	.string "Do you wish to take\n"
-	.string "the SINGLE BATTLE HALL challenge?$"
+	.string "TEK SAVAŞ SALONU mücadelesine\nkatılmak ister misiniz?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for SINGLE BATTLES\l"
-	.string "that are named SINGLE BATTLE HALLS.\p"
-	.string "The SINGLE BATTLES are conducted in\n"
-	.string "the usual way, except with one crucial\l"
-	.string "rule that must be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
-	.string "to their nature and battle on their own.\p"
-	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
-	.string "If you achieve the honor of beating\n"
-	.string "seven TRAINERS in succession,\l"
-	.string "we will present you with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, you must save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "SAVAŞ SARAYINDA, TEKLİ SAVAŞLAR için\nTEKLİ SAVAŞ SALONLARI olarak\ladlandırılan birkaç salon\lbulunmaktadır.\pTEKLİ SAVAŞLAR, uyulması gereken çok\nönemli bir kural dışında, olağan şekilde\lyürütülür.\pANTRENÖRLERİN sadece POKéMON'larını\niçeri ve dışarı değiştirmelerine izin\lverilir.\pEğitmenlerin POKéMON'larına başka\ntürlü komut vermeleri yasaktır.\pPOKéMON'lar kendi doğalarına göre\ndavranmalı ve kendi başlarına\lsavaşmalıdır.\pPOKéMON'larınıza güvenmeli ve onları\nizlemelisiniz.\pArt arda yedi EĞİTMENİ yenme onuruna\nerişirseniz, size Savaş Puanı hediye\ledeceğiz.\pMücadelenizi yarıda kesmek\nistiyorsanız, oyunu kaydetmelisiniz.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye olursunuz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
-	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "Kalbinizi ve POKéMON'unuzu\ngüçlendirdiğinizde geri dönmelisiniz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
-	.string "There are two BATTLE HALLS,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice of a challenge?$"
+	.string "Seviye 50 ve Açık Seviye olmak üzere\niki SAVAŞ SALONU vardır. Sizin meydan\lokuma tercihiniz hangisi?$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "These POKéMON must all be of\n"
-	.string "Level 50 or lower.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "Olamaz…\pYarışma için gereken üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı türde POKéMON\nsağlamalısınız.\pBu POKéMON'ların hepsi Seviye 50 veya\ndaha düşük olmalıdır.\pAyrıca aynı tür eşyaları tutuyor\nolmamalıdırlar.\pEGGS{STR_VAR_1} uygun değildir.\pHazırlıklarınızı yaptıktan sonra geri\ngelin.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "Olamaz…\pYarışma için gereken üç POKéMON'a\nsahip değilsiniz.\pKatılmak için üç farklı türde POKéMON\nsağlamalısınız.\pAyrıca aynı tür öğeleri tutuyor\nolmamalıdırlar.\pEGGS{STR_VAR_1} uygun değildir.\pHazırlıklarınızı yaptıktan sonra geri\ngelin.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
-	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "Güzel. Şimdi, üç POKéMON'unuzu\nseçmelisiniz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
-	.string "I must save before I show you to\n"
-	.string "the BATTLE HALL. Is that okay?$"
+	.string "Sana SAVAŞ SALONU'nu göstermeden\nönce kaydetmeliyim. Sorun olur mu?$"
 
 BattleFrontier_BattlePalaceLobby_Text_FollowMe:
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "Güzel. Şimdi, beni takip edin.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "POKéMON'unuzun maceralarını gördüğüm\niçin kendimi ayrıcalıklı hissediyorum.\pSonuçlar kaydedilecek. Sizden kısaca\nbeklemenizi istemek zorundayım.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
-	.string "To achieve a 7-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "7 galibiyetlik bir seri yakalamak için…\pKalbinizi POKéMON'unuza bağlayan\nbağlar sağlam ve gerçek görünüyor.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "Başarınız kaydedilecek. Sizden kısaca\nbeklemenizi istemek zorundayım.$"
 
-@ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-	.string "For the feat of your 7-win streak,\n"
-	.string "we present you with Battle Point(s).$"
+	.string "Yedi galibiyetlik serinizin başarısı\niçin size Savaş Puanı(ları) sunuyoruz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
-	.string "You seem to have no space for\n"
-	.string "our prize.\p"
-	.string "You should return when you have\n"
-	.string "organized your BAG.$"
+	.string "Ödülümüz için yeriniz yok gibi\ngörünüyor.\pÇantanızı düzenledikten sonra geri\ndönmelisiniz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
-	.string "We have been waiting for you…$"
+	.string "Biz de seni bekliyorduk…$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge:
-	.string "I must save before I show you to\n"
-	.string "the BATTLE HALL. Is that okay?$"
+	.string "Sana SAVAŞ SALONU'nu göstermeden\nönce kaydetmeliyim. Sorun olur mu?$"
 
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
-	.string "Sigh…\p"
-	.string "You failed to save before you ended\n"
-	.string "your challenge the last time.\p"
-	.string "As a result, your challenge has been\n"
-	.string "disqualified. It is most unfortunate.$"
+	.string "Üzgünüm…\pMücadelenizi son kez sonlandırmadan\nönce kaydetmeyi başaramadınız.\pSonuç olarak, mücadeleniz diskalifiye\nedildi. Bu çok talihsiz bir durum.$"
 
-@ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}, {STR_VAR_1} ödülünü aldı.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
-	.string "For a hardy fellow like me,\n"
-	.string "hardy POKéMON are the best.\p"
-	.string "Offense is the best defense!\n"
-	.string "A relentless attack is the ultimate!\p"
-	.string "But that's not what I wanted to chat\n"
-	.string "about.\p"
-	.string "Every so often a really cute lady\n"
-	.string "swings by here.\p"
-	.string "She says that she can tell what\n"
-	.string "POKéMON are thinking.\p"
-	.string "I don't know about that part,\n"
-	.string "but she is really cute.\p"
-	.string "Huh?\n"
-	.string "Why are you looking at me like that?$"
+	.string "Benim gibi dayanıklı bir adam için\ndayanıklı POKéMON en iyisidir.\pSaldırı en iyi savunmadır! Amansız bir\nsaldırı en üst düzeydir!\pAma konuşmak istediğim konu bu değil.\pArada sırada buraya çok tatlı bir\nbayan uğrar.\pPOKéMON'un ne düşündüğünü\nanlayabildiğini söylüyor.\pO kısmını bilmiyorum ama gerçekten çok\ntatlı.\pNe? Neden bana öyle bakıyorsun?$"
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
-	.string "Hmm…\p"
-	.string "It appears that the nature of POKéMON\n"
-	.string "and the moves that they have been\l"
-	.string "taught are the keys to battle here.\p"
-	.string "To be more precise, it's how well\n"
-	.string "the moves match the nature of\l"
-	.string "the POKéMON.\p"
-	.string "If your POKéMON is in trouble and\n"
-	.string "unable to live up to its potential,\l"
-	.string "you may need to examine how well\l"
-	.string "its moves match its nature.$"
+	.string "Hmm…\pGörünüşe göre POKéMON'un doğası ve\nonlara öğretilen hareketler burada\lsavaşın anahtarı.\pDaha doğrusu, hareketlerin\nPOKéMON'un doğasıyla ne kadar iyi\leşleştiğidir.\pPOKéMON'unuzun başı dertteyse ve\npotansiyeline ulaşamıyorsa,\lhareketlerinin doğasına ne kadar\luygun olduğunu incelemeniz\lgerekebilir.$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
-	.string "My POKéMON is usually very docile.\p"
-	.string "But when it's in a BATTLE HALL,\n"
-	.string "it sometimes seems to become\l"
-	.string "transformed into something wicked!\p"
-	.string "It becomes totally intimidating.\n"
-	.string "It's shocking, even.$"
+	.string "POKéMON'um genellikle çok uysaldır.\pAncak bir SAVAŞ SALONUNDA olduğunda,\nbazen kötü bir şeye dönüşüyor gibi\lgörünüyor!\pTamamen korkutucu hale geliyor. Hatta\nşok edici.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
-	.string "I wonder what sort of nature a POKéMON\n"
-	.string "would have if it favored enfeebling its\l"
-	.string "opponents and chipping away slowly.\p"
-	.string "I'd be surprised if it was a LAX nature.\p"
-	.string "But, nah, that can't be right.$"
+	.string "Rakiplerini güçsüzleştirmeyi ve\nyavaşça parçalamayı tercih eden bir\lPOKéMON'un ne tür bir doğaya sahip\lolacağını merak ediyorum.\pLAX doğası olsaydı şaşırırdım.\pAma, hayır, bu doğru olamaz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the hearts of TRAINERS\n"
-	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
-	.string "I accept challenges to the DOUBLE\n"
-	.string "BATTLE HALLS.$"
+	.string "Eğitmenlerin kalplerinin test edildiği\nyer.\pSizi SAVAŞ SARAYI'na davet ediyorum.\pÇİFT SAVAŞ SALONU'na meydan\nokumaları kabul ediyorum.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
-	.string "Do you wish to take\n"
-	.string "the DOUBLE BATTLE HALL challenge?$"
+	.string "ÇİFT SAVAŞ SALONU mücadelesine\nkatılmak ister misiniz?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for DOUBLE BATTLES\l"
-	.string "that are named DOUBLE BATTLE HALLS.\p"
-	.string "The DOUBLE BATTLES are conducted in\n"
-	.string "the usual way, except with one crucial\l"
-	.string "rule that must be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
-	.string "to their nature and battle on their own.\p"
-	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
-	.string "If you achieve the honor of beating\n"
-	.string "seven TRAINERS in succession,\l"
-	.string "we will present you with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "SAVAŞ SARAYINDA, ÇİFT SAVAŞLAR için\nÇİFT SAVAŞ SALONLARI olarak\ladlandırılan birkaç salon\lbulunmaktadır.\pÇİFT SAVAŞLAR, uyulması gereken çok\nönemli bir kural dışında, olağan şekilde\lyürütülür.\pEĞİTMENLERİN sadece POKéMON'larını\niçeri ve dışarı değiştirmelerine izin\lverilir.\pEğitmenlerin POKéMON'larına başka\ntürlü komut vermeleri yasaktır.\pPOKéMON'lar kendi doğalarına göre\ndavranmalı ve kendi başlarına\lsavaşmalıdır.\pPOKéMON'larınıza güvenmeli ve onları\nizlemelisiniz.\pArt arda yedi EĞİTMENİ yenme onuruna\nerişirseniz, size Savaş Puanı hediye\ledeceğiz.\pEğer mücadeleni yarıda kesmek\nistersen, lütfen oyunu kaydet.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye olursunuz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-	.string "To defeat the PALACE MAVEN\n"
-	.string "and seven TRAINERS in a row…$"
+	.string "PALACE MAVEN'i ve yedi TRAINER'ı arka\narkaya yenmek için…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
-	.string "In honor of the bond you share with\n"
-	.string "your POKéMON, we present you with\l"
-	.string "these Battle Point(s).$"
+	.string "POKéMON'unuzla paylaştığınız bağın\nşerefine, size bu Savaş Noktalarını\lsunuyoruz.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-	.string "Would you like to record your latest\n"
-	.string "BATTLE PALACE match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "En son BATTLE PALACE maçınızı\nFRONTIER PASS'ınıza kaydetmek ister\lmisiniz?$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
-	.string "The BATTLE HALL rules are listed.$"
+	.string "SAVAŞ SALONU kuralları listelenmiştir.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
-	.string "Here, POKéMON are required to think\n"
-	.string "and battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
-	.string "with people behave differently\l"
-	.string "depending on their nature.$"
+	.string "Burada, POKéMON'un kendi başına\ndüşünmesi ve savaşması gerekmektedir.\pVahşi doğanın aksine, insanlarla\nbirlikte yaşayan POKéMON'lar\ldoğalarına bağlı olarak farklı\ldavranırlar.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
-	.string "Depending on its nature, a POKéMON\n"
-	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
-	.string "itself from any harm.\p"
-	.string "Yet another may enjoy vexing or\n"
-	.string "confounding its foes.\p"
-	.string "Due to its nature, a POKéMON\n"
-	.string "will have favorite moves that it is good\l"
-	.string "at using.\p"
-	.string "It may also dislike certain moves that\n"
-	.string "it has trouble using.$"
+	.string "Doğasına bağlı olarak, bir POKéMON ne\nolursa olsun saldırmayı tercih\ledebilir.\pBaşka bir POKéMON kendini her türlü\nzarardan korumayı tercih edebilir.\pBir başkası ise düşmanlarını\nkızdırmaktan veya şaşırtmaktan\lhoşlanabilir.\pDoğası gereği, bir POKéMON'un\nkullanmakta iyi olduğu favori\lhareketleri olacaktır.\pAyrıca kullanmakta zorlandığı bazı\nhareketlerden de hoşlanmayabilir.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
-	.string "There are offensive moves that inflict\n"
-	.string "direct damage on the foe.\p"
-	.string "There are defensive moves that are\n"
-	.string "used to prepare for enemy attacks or\l"
-	.string "used to heal HP and so on.\p"
-	.string "There are also other somewhat-odd\n"
-	.string "moves that may enfeeble the foes with\l"
-	.string "stat problems including poison and \l"
-	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
-	.string "these three categories.$"
+	.string "Düşmana doğrudan hasar veren saldırı\nhareketleri vardır.\pDüşman saldırılarına hazırlanmak için\nkullanılan veya canı iyileştirmek için\lkullanılan savunma hareketleri vardır.\pAyrıca zehir ve felç gibi stat\nsorunları olan düşmanları\lgüçsüzleştirebilecek biraz tuhaf\lhareketler de vardır.\pPOKéMON bu üç kategorideki\nhareketleri kullanmayı düşünecektir.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "ANTRENÖRÜ tarafından komuta\nedilmediğinde, bir POKéMON belirli\lhareketleri etkili bir şekilde\lkullanamayabilir.\pBir POKéMON, sevmediği hiçbir hareketi\nkullanmakta iyi değildir.\pEğer bir POKéMON sadece doğasına\nuymayan hareketleri biliyorsa,\lgenellikle potansiyeline\lulaşamayacaktır.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "Doğasına bağlı olarak, bir POKéMON başı\nbelaya girdiğinde doğasına uymayan\lhareketler kullanmaya başlayabilir.\pBir POKéMON sıkıştığında garip\ndavranmaya başlarsa, onu dikkatle\lizleyin.$"
+
 

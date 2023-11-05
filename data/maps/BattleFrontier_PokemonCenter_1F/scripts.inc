@@ -40,22 +40,15 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
-	.string "There was someone here using a \n"
-	.string "POKéMON I've never seen before.\p"
-	.string "I never learned about it at\n"
-	.string "TRAINER'S SCHOOL at least.\p"
-	.string "I wonder where you can catch POKéMON\n"
-	.string "like that.$"
+	.string "Burada daha önce hiç görmediğim bir\nPOKéMON kullanan biri vardı.\pEn azından EĞİTMEN OKULU'nda bunu\nhiç öğrenmemiştim.\pBöyle bir POKéMON'u nerede\nyakalayabileceğinizi merak ediyorum.$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
-	.string "Okay! Next stop, the BATTLE ARENA!\n"
-	.string "I'd better get the right POKéMON from\l"
-	.string "the PC Storage System.$"
+	.string "Tamam!\nSonraki durak, SAVAŞ ARENASI!\nBilgisayardan doğru POKéMON'u\lalsam iyi olur.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-	.string "Giggle… I'm going to go through every\n"
-	.string "challenge with just this baby!$"
+	.string "Haha… Bu bebekle her zorluğun\nüstesinden geleceğim!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
-	.string "SKITTY: Mya myaaah!$"
+	.string "Mya myaaa!$"
+
 

@@ -438,130 +438,81 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "We will restore your POKéMON to\n"
-	.string "full health.$"
+	.string "POKéMON'unuzu tam sağlığına\nkavuşturacağız.$"
 
-@ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "You will be facing opponent no. {STR_VAR_1}.\n"
-	.string "Are you ready?$"
+	.string "Rakip no ile karşılaşacaksınız.\n{STR_VAR_1}. Hazır mısınız?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "You will be facing opponent no. 2.\n"
-	.string "Are you ready?$"
+	.string "İki numaralı rakiple karşılaşacaksın.\nHazır mısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "You will be facing opponent no. 3.\n"
-	.string "Are you ready?$"
+	.string "Üç numaralı rakiple karşılaşacaksınız.\nHazır mısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
-	.string "You will be facing opponent no. 4.\n"
-	.string "Are you ready?$"
+	.string "Rakip no. 4 ile karşılaşacaksınız. Hazır\nmısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
-	.string "You will be facing opponent no. 5.\n"
-	.string "Are you ready?$"
+	.string "Rakip no. 5 ile karşılaşacaksınız. Hazır\nmısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
-	.string "You will be facing opponent no. 6.\n"
-	.string "Are you ready?$"
+	.string "Rakip no. 6 ile karşılaşacaksınız. Hazır\nmısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
-	.string "You will be facing opponent no. 7.\n"
-	.string "Are you ready?$"
+	.string "Yedi numaralı rakiple\nkarşılaşacaksınız. Hazır mısın?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Record your battle on your\n"
-	.string "FRONTIER PASS?$"
+	.string "Savaşınızı SINIR BİLETİNE\nkaydedilsin mi?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "{PLAYER}'s battle was recorded\n"
-	.string "on the FRONTIER PASS.$"
+	.string "{PLAYER}'nun savaşı SINIR BİLETİNE\nkaydedildi.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "Kaydetmek ve oyundan çıkmak ister\nmisiniz?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
-	.string "Saving your battle data.\n"
-	.string "Please wait.$"
+	.string "Savaş verileriniz kaydediliyor. Lütfen\nbekleyin.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your BATTLE\n"
-	.string "ROOM challenge?$"
+	.string "SAVAŞ ODASI mücadelenizi iptal etmek\nister misiniz?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
+	.string "Bir tür hata oluştu. Kaydınız\nkaydedilemedi.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-	.string "Excuse me, but…\p"
-	.string "Our leader, the SALON MAIDEN, is on\n"
-	.string "her way here in hopes of battling you.\p"
-	.string "She should be arriving very shortly.$"
+	.string "Affedersiniz ama…\pLiderimiz, SALON HANIMI, sizinle\nsavaşmak umuduyla buraya geliyor.\pÇok kısa bir süre içinde varmış olacak.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "You will be facing the SALON MAIDEN.\n"
-	.string "Are you prepared?$"
+	.string "SALON HANIMI ile karşı karşıya\ngeleceksiniz. Hazır mısınız?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
-	.string "Greetings…\n"
-	.string "My name is ANABEL.\p"
-	.string "I am the SALON MAIDEN, and I am in\n"
-	.string "charge of running the BATTLE TOWER…\p"
-	.string "I have heard several rumors\n"
-	.string "about you…\p"
-	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
-	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
+	.string "Selamlar… Benim adım ANABEL.\pBen SALON USTASIYIM ve SAVAŞ\nKULESİ'ni yönetmekle görevliyim…\pSenin hakkında birkaç dedikodu\nduydum.\pDürüst olmak gerekirse, duyduklarım\nhiçbir şekilde çekici gelmiyor…\pSeni görmeye gelmemin tek bir nedeni\nvar.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Let me see your talent in\n"
-	.string "its entirety…$"
+	.string "Yeteneğinizin tamamını görmeme izin\nverin.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
-	.string "ANABEL: Fufufu, nicely done…\p"
-	.string "Your FRONTIER PASS, please…\n"
-	.string "Your talent shall be recognized.$"
+	.string "Fufufu, iyi işti…\pSINIR BİLETİ lütfen…\nYeteneğiniz fark edilecek.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
-	.string "The Ability Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "Yetenek Sembolü SINIR BİLETİ'nin\nüzerine işlendi!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
-	.string "… … … … … …\p"
-	.string "You have confidence in your POKéMON\n"
-	.string "battling talent, don't you?\p"
-	.string "I urge you to keep battling and\n"
-	.string "keep on winning.\p"
-	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
+	.string "… … … … … …\pPOKéMON savaş yeteneğinize\ngüveniyorsunuz, değil mi?\pSeni savaşmaya ve kazanmaya devam\netmeye çağırıyorum.\pSeni bekliyor olacağım. Bir sonraki\nkarşılaşmamıza kadar…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-	.string "ANABEL: You really did come back to\n"
-	.string "see me…\p"
-	.string "… … … … … …\p"
-	.string "You've won straight matches to see me…\n"
-	.string "I won't have to hold back against you…\p"
-	.string "It's been too long now…\p"
-	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
+	.string "Gerçekten beni görmeye geldin.\p… … … … … …\pBeni görmek için üst üste maçlar\nkazandın… Sana karşı kendimi tutmak\lzorunda kalmayacağım…\pÇok uzun zaman oldu.\pHiçbir şey düşünmeden savaşmayalı çok\nuzun zaman oldu…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
-	.string "Let's begin, shall we?$"
+	.string "Başlayalım, olur mu?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
-	.string "ANABEL: Fufu, congratulations…\n"
-	.string "Your FRONTIER PASS, please…$"
+	.string "ANABEL: Fufu, tebrikler… FRONTIER\nPASS'ınız, lütfen…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
-	.string "The Ability Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Yetenek Sembolü altın bir parlaklık\nkazandı!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-	.string "That was fun…\p"
-	.string "I have never had a POKéMON battle\n"
-	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
+	.string "Bu eğlenceliydi.\pDaha önce hiç bu kadar keyifli bir\nPOKéMON savaşı yaşamamıştım…\pKeşke seninle tekrar savaşabilseydim.$"
+
 

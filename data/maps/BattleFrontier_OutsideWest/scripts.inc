@@ -308,219 +308,114 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 	end
 
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
-	.string "This is the BATTLE DOME!\n"
-	.string "Your path to the invincible superstar!$"
+	.string "Burası SAVAŞ KUBBESİ!\nSüperstar olma yolunda!$"
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
-	.string "This is the BATTLE FACTORY!\n"
-	.string "Seek out the toughest POKéMON!$"
+	.string "Burası SAVAŞ FABRİKASI!\nEn güçlü POKéMON'lar!$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
-	.string "This is the BATTLE PIKE!\n"
-	.string "Choose one of three paths!$"
+	.string "Burası SAVAŞ YILANI! Üç yoldan birini\nseçin!$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
-	.string "This is the BATTLE TOWER.\p"
-	.string "TRAINERS bring their best-raised\n"
-	.string "POKéMON for elimination-style matches.$"
+	.string "Burası SAVAŞ KULESİ.\pANTRENÖRLER, eleme tarzı maçlar için\nen iyi yetişmiş POKéMON'larını getirir.$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?$"
+	.string "Merhaba, gemi için mi geldiniz?\nBiletinizi görebilir miyim?$"
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
-	.string "{PLAYER} doesn't have the TICKET…\p"
-	.string "I'm terribly sorry.\p"
-	.string "You must have a TICKET to board\n"
-	.string "the ferry.$"
+	.string "{PLAYER}'ın BİLETİ yok…\pÇok özür dilerim.\pFeribota binmek için biletiniz olmalı.$"
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
-	.string "{PLAYER} flashed the TICKET.\p"
-	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "{PLAYER} BİLETİ gösterdi.\pMükemmel! Bu bilet geçerli.\pNereye gitmek istersiniz?$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "SLATEPORT ŞEHRİ, o zaman!$"
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
-	.string "LILYCOVE CITY it is, then!$"
+	.string "LILYCOVE ŞEHRİ, o zaman!$"
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "Lütfen başka bir zaman bizimle yelken\naçın!$"
 
 BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
-	.string "Please board the ferry and wait for\n"
-	.string "departure.$"
+	.string "Lütfen gemiye binin ve kalkışı\nbekleyin.$"
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
-	.string "Then, where would you like to go?$"
+	.string "O zaman nereye gitmek istersiniz?$"
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
-	.string "I'm the best out of all my friends.\n"
-	.string "But here…\l"
-	.string "I've been useless!$"
+	.string "Arkadaşlarım arasında en iyisi benim.\nAma burada… İşe yaramaz oldum!$"
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
-	.string "I want to go to the BATTLE TOWER,\n"
-	.string "but I can't find it even though I have\l"
-	.string "a map of the BATTLE FRONTIER.\p"
-	.string "This place is just too big!$"
+	.string "SAVAŞ KULESİ'ne gitmek istiyorum ama\nelimde SAVAŞ ORTADOĞUSU haritası\lolmasına rağmen onu bulamıyorum.\pBurası çok büyük!$"
 
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
-	.string "I wanted to take a challenge as soon\n"
-	.string "as I arrived here.\p"
-	.string "But on the way, I got seasick…\n"
-	.string "Urrrrp…$"
+	.string "Buraya gelir gelmez bir meydan okuma\nyapmak istedim.\pAma yolda beni deniz tuttu…$"
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
-	.string "It's not as if just anyone can come\n"
-	.string "here, you know?\p"
-	.string "Only those TRAINERS who've been\n"
-	.string "recognized as tough are brought here.\p"
-	.string "That's why many TRAINERS don't even\n"
-	.string "know about the BATTLE FRONTIER.$"
+	.string "Buraya herkes gelemez, biliyorsunuz\ndeğil mi?\pBuraya sadece güçlü olduğu kabul\nedilen eğitmenler getirilir.\pBu yüzden birçok eğitmenin SAVAŞ\nÇATISI'ndan haberi bile yok.$"
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
-	.string "Hey, bro…\p"
-	.string "Are you sure we can make challenges\n"
-	.string "even if we don't have any POKéMON?$"
+	.string "Hey, kardeşim.\pHiç POKéMON'umuz olmasa bile meydan\nokuyabileceğimize emin misin?$"
 
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
-	.string "Uh…\n"
-	.string "I'm sure it'll be okay.\p"
-	.string "I think…\p"
-	.string "But remember that big scary guy?\n"
-	.string "He said, “I'll lend you POKéMON!”$"
+	.string "Eminim her şey yoluna girecektir.\pSanırım…\pAma o büyük korkunç adamı hatırlıyor\nmusun? Sana POKéMON'u ödünç\lvereceğim! demişti.$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
-	.string "That's the BATTLE FACTORY.\n"
-	.string "You can rent strong POKéMON there.\p"
-	.string "But it makes me wonder.\n"
-	.string "Who's raising those rental POKéMON?$"
+	.string "Burası SAVAŞ FABRİKASI. Burada\ngüçlü POKéMON'lar kiralayabilirsin.\pAma merak ediyordum da…\nBu kiralık POKéMON'lar kimin?$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-	.string "I'm scared of going into the BATTLE\n"
-	.string "PIKE because of SEVIPER…\p"
-	.string "B-but I came all the way here, so I will\n"
-	.string "try to conquer everything!\l"
-	.string "…Shudder…$"
+	.string "SEVİPER yüzünden SAVAŞ YILANINA\ngirmekten korkuyorum.\pAma buraya kadar geldim, bu yüzden her\nşeyi fethetmeye çalışacağım!\l…Ürperdim…$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
-	.string "Let's play rock, paper, scissors!\n"
-	.string "One, two, three!\p"
-	.string "… … … … … …$"
+	.string "Taş, kağıt, makas oynayalım! Bir, iki,\nüç!\p… … … … … …$"
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
-	.string "Yay! I won!\n"
-	.string "I will take the BATTLE PIKE challenge!$"
+	.string "Yaşasın! Ben kazandım!\nMeydan okumaya gideceğim!$"
 
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
-	.string "Oh, no…\n"
-	.string "I lost.\p"
-	.string "I guess I'm not very lucky today.\n"
-	.string "I'll put off my BATTLE PIKE challenge\l"
-	.string "until tomorrow.$"
+	.string "Oh, hayır… Kaybettim.\pSanırım bugün pek şanslı değilim.\nSAVAŞ YILANI meydan okumamı\lyarına erteleyeceğim.$"
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
-	.string "I believe I'm the only person here who,\n"
-	.string "for some unknown reason, would choose\l"
-	.string "fishing over battling.\p"
-	.string "Huh? You can't catch anything here?\n"
-	.string "That's disappointing…$"
+	.string "Sanırım burada bilinmeyen bir nedenle\nbalık tutmayı savaşmaya tercih eden\ltek kişi benim.\pNe? Burada hiçbir şey yakalayamıyor\nmusun? Bu hayal kırıklığı…$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
-	.string "Today, I'm going to keep battling, no\n"
-	.string "matter what, until I get a Symbol.$"
+	.string "Bugün, ne olursa olsun, bir Sembol elde\nedene kadar savaşmaya devam\ledeceğim.$"
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
-	.string "Oh? You're off to challenge\n"
-	.string "the BATTLE DOME?\p"
-	.string "I'll wish you the best of luck.\n"
-	.string "Let us both win our way up and meet\l"
-	.string "in challenges.$"
+	.string "SAVAŞ KUBBESİ'ne meydan okumaya\nmı gidiyorsun?\pSana iyi şanslar dilerim. İkimiz de\nyolumuzu kazanalım ve meydan\lokumalarda buluşalım.$"
 
 BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
-	.string "Grandpa, over here!\n"
-	.string "The BATTLE DOME is here!\l"
-	.string "Go get 'em, Grandpa!$"
+	.string "Büyükbaba, bu tarafa! SAVAŞ KUBBESİ\nburada! Git yakala onları, büyükbaba!$"
 
 BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
-	.string "Ah, so this here is the BATTLE DOME?\n"
-	.string "I won't let GENTLEMEN beat me!\p"
-	.string "But where is the entrance?$"
+	.string "Demek burası SAVAŞ KUBBESİ?\nCentilmenlerin beni yenmesine izin\lvermeyeceğim!\pAma giriş nerede?$"
 
 BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
-	.string "There used to be nothing here not all\n"
-	.string "that long ago.\p"
-	.string "But, now look at this place! Amazing!\n"
-	.string "I'll bring my mother out to see this.$"
+	.string "Çok uzun zaman önce burada hiçbir şey\nyoktu.\pAma şimdi şuraya bak! İnanılmaz! Bunu\ngörmesi için annemi getireceğim.$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
-	.string "I've finally arrived at the BATTLE\n"
-	.string "FRONTIER!\p"
-	.string "I'm sure to grab attention with\n"
-	.string "my looks and ability!$"
+	.string "Sonunda SAVAŞ SINIRI'na geldim!\pEminim ki insanların dikkatlerini\nçekebilirim!$"
 
 BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
-	.string "Munch, munch…\p"
-	.string "It looks like this square's filled with\n"
-	.string "tough people.\p"
-	.string "Munch, munch…$"
+	.string "Ham, ham.\pGörünüşe göre bu meydan sert\ninsanlarla dolu.\pHam, ham.$"
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
-	.string "Crunch, munch…\p"
-	.string "A while back, I met this older girl\n"
-	.string "at the BATTLE PIKE.\p"
-	.string "She had these eyes that were scary\n"
-	.string "in a real ornery way.\p"
-	.string "Crunch, munch…\p"
-	.string "She got all furious: “Will you quit\n"
-	.string "eating!” Then she whaled on me.\p"
-	.string "It was a hair-raising kind of\n"
-	.string "scary experience, sure enough.\p"
-	.string "Crunch, munch…$"
+	.string "Ham, ham…\pBir süre önce SAVAŞ YILANI'nda\nyaşlı bir kadınla tanıştım.\pGerçekten huysuz bir şekilde\nkorkutucu gözleri vardı.\pHam, ham.\pÇok sinirlendi: Yemeyi keser misin!\nSonra bana saldırdı.\pTüyler ürpertici ve korkutucu bir\ndeneyimdi.\pHam, ham.$"
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
-	.string "Huh? Will you listen to yourself?\n"
-	.string "That's nothing!\p"
-	.string "Why, the last time I cheered for him,\n"
-	.string "our eyes met and sparks flew!$"
+	.string "Ha? Ağzından çıkanı kulağın duyuyor\nmu? Bu bir şey değil!\pEn son onun için tezahürat yaptığımda\ngözlerimiz buluştu ve kıvılcımlar\luçuştu!$"
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
-	.string "Whaaaaaat?!\n"
-	.string "Pfft!\p"
-	.string "That only happened because\n"
-	.string "I happened to be sitting next to you!\p"
-	.string "The DOME ACE only looked our way\n"
-	.string "because my cheering was so loud!$"
+	.string "Ne?! Pfft!\pBu sadece senin yanında oturduğum için\noldu!\pLİDER sadece tezahüratım çok\nyüksek olduğu için bize doğru baktı!$"
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
-	.string "Oh, shush!\n"
-	.string "Keep that racket down!\p"
-	.string "You fair-weather fans should stick\n"
-	.string "to cheering for some GYM LEADER!\p"
-	.string "The DOME ACE is mine!\n"
-	.string "The only idol for me!$"
+	.string "Şşşt!\nSessiz olun!\pSiz fanatik taraftarlar, salon\nlideri için tezahürat yapmaya devam\letmelisiniz!\pLİDER benim!\nBenim için tek idol!$"
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
-	.string "Those people squabbling over there…\p"
-	.string "It's hard to believe, but they once\n"
-	.string "were TRAINERS, and good ones, too.\p"
-	.string "They used to be incredibly tough,\n"
-	.string "and they were famous, too.\p"
-	.string "But they were obliterated by this\n"
-	.string "certain TRAINER at a tournament.\p"
-	.string "They were so thoroughly whipped,\n"
-	.string "they became smitten by the TRAINER.\p"
-	.string "Now they're just fans of the TRAINER.\n"
-	.string "They go cheer for their idol at the\l"
-	.string "BATTLE DOME every day now.$"
+	.string "Şurada kavga eden insanlar.\pİnanması zor ama onlar da bir zamanlar\nANTRENÖRDÜ, hem de iyi antrenörlerdi.\pEskiden inanılmaz derecede serttiler\nve çok da ünlüydüler.\pAma bir turnuvada bu belirli ANTRENÖR\ntarafından yok edildiler.\pO kadar iyi kırbaçlandılar ki,\nANTRENÖR'e vuruldular.\pŞimdi sadece ANTRENÖR hayranı oldular.\nArtık her gün SAVAŞ KUBBESİ'nde\lidol için tezahürat yapmaya gidiyorlar.$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
-	.string "I heard a rumor that someone saw\n"
-	.string "a POKéMON with an unusually long tail\l"
-	.string "somewhere in the BATTLE FRONTIER.\p"
-	.string "It must be adorable. I'm sure of it…\p"
-	.string "Oh, challenges can wait. I feel driven\n"
-	.string "to find the delightful creature!$"
+	.string "Birisinin SAVAŞ SINIRI'nda bir\nyerde alışılmadık derecede uzun\lkuyruğu olan bir POKéMON gördüğüne\ldair bir söylenti duydum.\pÇok sevimli olmalı. Bundan eminim.\pZorluklar bekleyebilir. Keyifli\nyaratığı bulmaya kararlıyım!$"
+
 

@@ -647,205 +647,132 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
-	.string "Welcome…\n"
-	.string "You must be commended for your luck…\p"
-	.string "Your POKéMON shall be restored\n"
-	.string "to full health…$"
+	.string "Hoş geldiniz… Şansınız için takdir\nedilmelisiniz…\pPOKéMON'unuz tam sağlığına\nkavuşacak…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
-	.string "I urge you to enjoy the rest of your\n"
-	.string "Battle Choice challenge…$"
+	.string "Savaş Seçimi mücadelenizin geri\nkalanının tadını çıkarmanızı tavsiye\lederim…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
-	.string "Ah, you're a lucky one.\n"
-	.string "I'm in somewhat-good spirits now.\p"
-	.string "I will restore one of your POKéMON\n"
-	.string "to full health.$"
+	.string "Şanslı birisin.\nŞu an biraz keyfim yerinde.\pPOKéMON'larınızdan birini tam\nsağlığına kavuşturacağım.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
-	.string "The best of luck to you.\n"
-	.string "Farewell.$"
+	.string "Size iyi şanslar.\nElveda.$"
 
-@ Seems there was a planned room type where the player could choose to battle and would be healed if they won
-@ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
-	.string "Excuse me…\p"
-	.string "Would you care for a battle?\n"
-	.string "I'll restore your POKéMON if you win.$"
+	.string "Affedersiniz.\pSavaşmak ister misiniz? Kazanırsanız\nPOKéMON'unuzu geri getireceğim.$"
 
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
-	.string "Very well…\n"
-	.string "Now, shall we?$"
+	.string "Pekala…\nŞimdi, gidelim mi?$"
 
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
-	.string "I see…\n"
-	.string "How unsporting of you…$"
+	.string "Anlıyorum… Ne kadar sportmenlik\ndışı…$"
 
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
-	.string "Magnificent…\p"
-	.string "As promised, I shall restore your\n"
-	.string "POKéMON to full health.$"
+	.string "Muhteşem.\pSöz verdiğim gibi, POKéMON'unu tam\nsağlığına kavuşturacağım.$"
 
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
-	.string "The best of luck to you.\n"
-	.string "Farewell.$"
+	.string "Size iyi şanslar. Elveda.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
-	.string "Oh, my!\p"
-	.string "Watch out!$"
+	.string "Aman Tanrım!\pDikkat et!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
-	.string "Now, now!\n"
-	.string "KIRLIA, stop that!$"
+	.string "Şimdi, şimdi! KIRLIA, kes şunu!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
-	.string "Now, now!\n"
-	.string "DUSCLOPS, stop that!$"
+	.string "Şimdi, şimdi! DUSCLOPS, kes şunu!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-	.string "KIRLIA used TOXIC!$"
+	.string "KIRLIA ZEHİR kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
-	.string "KIRLIA used HYPNOSIS!$"
+	.string "KIRLIA HİPNOZ kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
-	.string "KIRLIA used THUNDER WAVE!$"
+	.string "KIRLIA ŞOK DALGASI kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-	.string "KIRLIA used WILL-O-WISP!$"
+	.string "KIRLIA YAKAMOZ kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-	.string "DUSCLOPS used WILL-O-WISP!$"
+	.string "DUSCLOPS YAKAMOZ kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "DUSCLOPS used ICE BEAM!$"
+	.string "DUSCLOPS, BUZ DALGASI kullandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
-	.string "Look here!\n"
-	.string "That's quite enough!$"
+	.string "Buraya bakın!\nBu kadar yeter!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
-	.string "I must apologize to you…\p"
-	.string "My KIRLIA has a TIMID nature…$"
+	.string "Sizden özür dilemeliyim.\pKIRLIA'mın ZAMANSIZ bir doğası var.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
-	.string "I must apologize to you…\p"
-	.string "My DUSCLOPS has a TIMID nature…$"
+	.string "Sizden özür dilemeliyim.\pBenim DUSCLOPS'um ZAMANLI bir yapıya\nsahip…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
-	.string "It attacks without warning if it is\n"
-	.string "startled by another person…\p"
-	.string "Are you and your POKéMON all right?$"
+	.string "Başka bir insan tarafından\nürkütülürse uyarı vermeden saldırır…\pSen ve POKéMON'un iyi misiniz?$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
-	.string "I do apologize for what happened…\n"
-	.string "I do hope your POKéMON are fine.$"
+	.string "Olanlar için özür dilerim… Umarım\nPOKéMON'unuz iyidir.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "...$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-	.string "Welcome…\p"
-	.string "Here, we will have you battle\n"
-	.string "a somewhat-tough TRAINER…$"
+	.string "Hoş geldiniz.\pBurada, sizi biraz zorlu bir EĞİTİMCİ\nile savaştıracağız…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
-	.string "How wonderful…\p"
-	.string "To honor your victory, your POKéMON\n"
-	.string "shall be restored to full health…$"
+	.string "Ne kadar harika.\pZaferinizi onurlandırmak için\nPOKéMON'unuz tam sağlığına\lkavuşacak…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
-	.string "I urge you to enjoy the rest of your\n"
-	.string "Battle Choice challenge…$"
+	.string "Savaş Seçimi mücadelenizin geri\nkalanının tadını çıkarmanızı tavsiye\lederim…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
-	.string "I am LUCY…\n"
-	.string "I am the law here…\l"
-	.string "For I am the PIKE QUEEN…\p"
-	.string "You already know it, but to advance,\n"
-	.string "you must defeat me…\p"
-	.string "…I'm not one for idle chatter.\n"
-	.string "Hurry. Come on…$"
+	.string "Ben LUCY… Burada kanun benim… Çünkü\nben ÇADIR KRALİÇESİYİM…\pBunu zaten biliyorsun, ama ilerlemek\niçin beni yenmelisin…\p…boş konuşacak biri değilim. Acele et.\nHadi.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
-	.string "Your luck…\n"
-	.string "I hope you didn't use it all up here…$"
+	.string "Şansınız… Umarım hepsini burada\nkullanmamışsınızdır…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
-	.string "LUCY: … … … … … …\n"
-	.string "Show me your FRONTIER PASS…$"
+	.string "Bana SINIR BİLETİNİ göster.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
-	.string "The Luck Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "SINIR BİLETİ üzerinde Şans Sembolü\nkabartıldı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
-	.string "…That's all there is…\n"
-	.string "Disappear already…$"
+	.string "…Hepsi bu…\nKaybol artık…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
-	.string "LUCY: …You again…\p"
-	.string "… … … … … …\p"
-	.string "…I've trampled flowers and braved\n"
-	.string "storms to get to where I am…\p"
-	.string "I don't feel any compulsion to keep\n"
-	.string "losing to the same opponent…\p"
-	.string "… … … … … …\n"
-	.string "Fine… I'll do it…$"
+	.string "Yine sen.\p… … … … … …\p…Bulunduğum yere gelmek için\nçiçekleri çiğnedim ve fırtınalara\lgöğüs gerdim…\pAynı rakibe sürekli yenilmek gibi bir\nzorunluluk hissetmiyorum…\p… … … … … … … İyi… Yapacağım…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
-	.string "Now!\n"
-	.string "Come on!$"
+	.string "Şimdi!\nHaydi!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
-	.string "LUCY: … … … … … …\p"
-	.string "…FRONTIER PASS…$"
+	.string "LUCY: … … … … … … … … … …\p…SINIR BİLETİN…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
-	.string "The Luck Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Şans Sembolü altın bir parlaklık\nkazandı!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
-	.string "…You, I won't forget…\n"
-	.string "…Ever…$"
+	.string "…Seni unutmayacağım…\n…Asla…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
-	.string "I welcome you…\p"
-	.string "Giggle…\n"
-	.string "You seem to be bereft of luck…\p"
-	.string "If only you hadn't chosen this room,\n"
-	.string "your POKéMON could have been healed…$"
+	.string "Hoş geldiniz.\pKıkırdama… Şansın yok gibi\ngörünüyor…\pKeşke bu odayı seçmeseydiniz,\nPOKéMON'unuz iyileşebilirdi…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
-	.string "I welcome you…\p"
-	.string "Since you have chosen this room, I will\n"
-	.string "restore one POKéMON to full health…$"
+	.string "Hoş geldiniz.\pBu odayı seçtiğiniz için, bir POKéMON'u\ntam sağlığına kavuşturacağım…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
-	.string "I welcome you…\p"
-	.string "Since you have chosen this room, I will\n"
-	.string "restore two POKéMON to full health…$"
+	.string "Hoş geldiniz.\pBu odayı seçtiğiniz için, iki POKéMON'u\ntam sağlığına kavuşturacağım…$"
 
-@ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
-	.string "I welcome you…\p"
-	.string "Giggle…\n"
-	.string "You should thank your lucky stars…\p"
-	.string "Since you have chosen this room,\n"
-	.string "all your POKéMON will be restored…$"
+	.string "Hoş geldiniz.\pKıkırdama… Şanslı yıldızlarına\nteşekkür etmelisin…\pBu odayı seçtiğiniz için, tüm\nPOKéMON'larınız geri yüklenecek…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
-	.string "I shall go fetch our master…$"
+	.string "Gidip efendimizi getireyim.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
-	.string "Ah, you're a lucky one!\n"
-	.string "I'm in good spirits now.\p"
-	.string "I will restore two of your POKéMON\n"
-	.string "to full health!$"
+	.string "Çok şanslısın! Şimdi keyfim yerinde.\pİki POKéMON'unu tam sağlığına\nkavuşturacağım!$"
+
 

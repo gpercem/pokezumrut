@@ -113,257 +113,108 @@ BattleFrontier_Lounge2_EventScript_TriathleteF::
 	end
 
 BattleFrontier_Lounge2_Text_FrontierManiacIntro::
-	.string "Howdy! When it comes to news about\n"
-	.string "the BATTLE FRONTIER, I'm no. 1.\p"
-	.string "You can think of me as\n"
-	.string "the FRONTIER MANIAC.\p"
-	.string "Just checking, but you are a TRAINER,\n"
-	.string "isn't that right?\p"
-	.string "I'll happily share the hottest news\n"
-	.string "I gathered about the BATTLE FRONTIER.$"
+	.string "Merhaba! SAVAŞ SINIRI ile ilgili\nhaberler söz konusu olduğunda, ben bir\lnumarayım.\pBeni SINIR MANYAĞI olarak\ndüşünebilirsiniz.\pSadece kontrol ediyorum, ama siz bir\nEĞİTİMCİSİNİZ, değil mi?\pSAVAŞ SINIRI hakkında topladığım\nen yeni haberleri memnuniyetle\lpaylaşacağım.$"
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
-	.string "Howdy! Did you swing by to grill me\n"
-	.string "about the latest word? Oh, all right!$"
+	.string "Merhaba! Beni son haber hakkında\nsorguya çekmek için mi uğradın?\lAh, pekala!$"
 
-@ Unused
 BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
-	.string "Well? Well? Well?\p"
-	.string "I'm sure my information's been\n"
-	.string "seriously useful to you, right?$"
+	.string "İyi mi? İyi mi? Eee?\pEminim verdiğim bilgiler işinize\nyaramıştır, değil mi?$"
 
 BattleFrontier_Lounge2_Text_FacilityIsHottest::
-	.string "Let's see now…\p"
-	.string "It sounds like the {STR_VAR_1}\n"
-	.string "is the hottest place going.$"
+	.string "Bakalım şimdi.\pGörünüşe göre {STR_VAR_1} giden en\nsıcak yer.$"
 
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
-	.string "Let's see now…\p"
-	.string "It sounds like BATTLE TOWER\n"
-	.string "{STR_VAR_1} is the hottest.$"
+	.string "Bakalım şimdi.\pGörünüşe göre SAVAŞ KULESİ\n{STR_VAR_1} en sıcak olanı.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this mysterious TRAINER called\n"
-	.string "the SALON MAIDEN that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERİ dediği en iyi\neğitmenlerden biri orada.\pBurayı işleten SALON HANIMI adında\ngizemli bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
-	.string "Have you battled the SALON MAIDEN?\p"
-	.string "When she's measuring up her opponent,\n"
-	.string "she apparently uses these POKéMON:\p"
-	.string "A PSYCHIC-type PSI POKéMON,\n"
-	.string "a FIRE-type VOLCANO POKéMON,\l"
-	.string "and a NORMAL-type SLEEPING POKéMON.$"
+	.string "SALON HANIMI ile savaştınız mı?\pRakibini ölçerken, görünüşe göre bu\nPOKéMON'ları kullanıyor:\pPSİŞİK tip PSI POKéMON, ATEŞ tip\nVOLKAN POKéMON ve NORMAL tip UYUYAN\lPOKéMON.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
-	.string "Have you battled the SALON MAIDEN\n"
-	.string "when she's serious?\p"
-	.string "When she's battling flat out,\n"
-	.string "she apparently uses these POKéMON:\p"
-	.string "A DRAGON & PSYCHIC EON POKéMON,\n"
-	.string "an ELECTRIC-type THUNDER POKéMON,\l"
-	.string "and a NORMAL-type SLEEPING POKéMON.$"
+	.string "Ciddi olduğu zamanlarda SALON HANIMI\nile savaştınız mı?\pDümdüz savaşırken, görünüşe göre bu\nPOKéMON'ları kullanıyor:\pBir EJDERHA ve PSİKİK EON POKéMON, bir\nELEKTRİK tipi THUNDER POKéMON ve bir\lNORMAL tipi SLEEPING POKéMON.$"
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this flamboyant TRAINER called\n"
-	.string "the DOME ACE that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği\nen iyi eğitmenlerden biri orada.\pBurayı işleten KUBBE LİDERİ\nadında gösterişli bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
-	.string "Have you battled the DOME ACE?\p"
-	.string "When he's treating the opponent\n"
-	.string "lightly, he uses these three POKéMON:\p"
-	.string "A DRAGON & FLYING DRAGON POKéMON,\n"
-	.string "a WATER & GROUND MUD FISH POKéMON,\l"
-	.string "and a FIRE & FLYING FLAME POKéMON.$"
+	.string "DOME ACE ile savaştınız mı?\pRakibine hafif davrandığında, bu üç\nPOKéMON'u kullanır:\pBİR EJDERHA & UÇAN EJDERHA POKéMONU,\nBİR SU & YER ÇAMUR BALIK POKéMONU ve\lBİR ATEŞ & UÇAN ALEV POKéMONU.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-	.string "Have you battled the DOME ACE\n"
-	.string "when he's serious?\p"
-	.string "When he's demonstrating his strategy,\n"
-	.string "he uses these three POKéMON:\p"
-	.string "A DRAGON & FLYING EON POKéMON,\n"
-	.string "a WATER & GROUND MUD FISH POKéMON,\l"
-	.string "and a STEEL- & PSYCHIC-type IRON LEG\l"
-	.string "POKéMON.$"
+	.string "Ciddi olduğu zamanlarda DOME ACE ile\nsavaştınız mı?\pStratejisini gösterirken bu üç\nPOKéMON'u kullanır:\pBİR EJDERHA & UÇAN EON POKéMON, BİR SU\n& YER ÇAMUR BALIK POKéMONU ve BİR\lÇELİK & PSİŞİK TİP DEMİR BACAK\lPOKéMONU.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this freaky TRAINER called\n"
-	.string "the FACTORY HEAD that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği\nüst düzey eğitmenlerden biri orada.\pBurayı yöneten FABRİKA KAFASI denen\ngarip bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-	.string "Have you battled the FACTORY HEAD\n"
-	.string "already?\p"
-	.string "Let me think… When he goes to battle,\n"
-	.string "he just gets three rental POKéMON.\p"
-	.string "He battles under pretty much the same\n"
-	.string "conditions as you.$"
+	.string "FABRİKA LİDERİ ile savaştınız mı?\pBir düşüneyim… Savaşa girdiğinde,\nsadece üç kiralık POKéMON alır.\pSeninle hemen hemen aynı koşullar\naltında savaşır.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
-	.string "Have you battled the FACTORY HEAD\n"
-	.string "when he's serious?\p"
-	.string "When he goes seriously to battle,\n"
-	.string "he still gets three rental POKéMON.\p"
-	.string "He battles under virtually the same\n"
-	.string "conditions as you.$"
+	.string "Ciddi olduğunda FABRİKA LİDERİ ile\nsavaştınız mı?\pCiddi bir şekilde savaşa girdiğinde,\nyine de üç kiralık POKéMON alır.\pSizinle hemen hemen aynı koşullar\naltında savaşır.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this scary TRAINER called\n"
-	.string "the PIKE QUEEN that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği en iyi\neğitmenlerden biri orada.\pBurayı işleten PIKE QUEEN adında\nkorkunç bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
-	.string "Have you battled the PIKE QUEEN\n"
-	.string "before?\p"
-	.string "When she's in a good mood, they say\n"
-	.string "she uses these three POKéMON:\p"
-	.string "A POISON-type FANG SNAKE POKéMON,\n"
-	.string "a BUG & ROCK MOLD POKéMON,\l"
-	.string "and a WATER-type TENDER POKéMON.$"
+	.string "Daha önce YILAN KRALİÇESİ ile\nsavaştınız mı?\pKeyfi yerinde olduğunda bu üç\nPOKéMON'u kullandığı söyleniyor:\pZEHİR tipi bir DİŞLİ YILAN POKéMON, bir\nBÖCEK & KAYA KALIBI POKéMON ve bir SU\ltipi TENDER POKéMON.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
-	.string "Have you battled the PIKE QUEEN\n"
-	.string "when she's serious?\p"
-	.string "When she's seriously annoyed, they say\n"
-	.string "she uses these three POKéMON:\p"
-	.string "A POISON-type FANG SNAKE POKéMON,\n"
-	.string "a STEEL & GROUND IRON SNAKE POKéMON,\l"
-	.string "and a WATER- & FLYING-type ATROCIOUS\l"
-	.string "POKéMON.$"
+	.string "Ciddi olduğunda YILAN KRALİÇESİ ile\nsavaştınız mı?\pCidden sinirlendiğinde, bu üç\nPOKéMON'u kullandığı söylenir:\pZEHİR tipi bir DİŞLİ YILAN POKéMON, bir\nÇELİK & YER DEMİRİ YILAN POKéMON ve\lbir SU & UÇAN tip bir ZALİM POKéMON.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this cute TRAINER called\n"
-	.string "the ARENA TYCOON that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği\nen iyi eğitmenlerden biri orada.\pBurayı yöneten ARENA TİKONU adında\nsevimli bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
-	.string "Have you battled the ARENA TYCOON\n"
-	.string "before?\p"
-	.string "When she's assessing the foe's ability,\n"
-	.string "she supposedly uses these POKéMON:\p"
-	.string "A BUG & FIGHTING SINGLE HORN POKéMON,\n"
-	.string "a DARK-type MOONLIGHT POKéMON,\l"
-	.string "and a BUG & GHOST SHED POKéMON.$"
+	.string "Daha önce ARENA TYCOON ile savaştınız\nmı?\pDüşmanın yeteneğini değerlendirirken,\nsözde bu POKéMON'ları kullanır:\pBİR BUG VE SAVAŞAN TEK KORNA POKéMON,\nKARANLIK TİP AY IŞIĞI POKéMONU ve BİR\lBUG VE HAYALET KABİNİ POKéMONU.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
-	.string "Have you battled the ARENA TYCOON\n"
-	.string "when she's serious?\p"
-	.string "When she battles for keeps,\n"
-	.string "she supposedly uses these POKéMON:\p"
-	.string "A DARK-type MOONLIGHT POKéMON,\n"
-	.string "a GHOST & POISON SHADOW POKéMON\l"
-	.string "and a GRASS- & FIGHTING-type\l"
-	.string "MUSHROOM POKéMON.$"
+	.string "Ciddi olduğunda ARENA TİKONU ile\nsavaştınız mı?\pKendini korumak için savaştığında,\nsözde bu POKéMON'ları kullanıyor:\pKARANLIK tip AY IŞIĞI POKéMONU,\nHAYALET & ZEHİR GÖLGE POKéMONU ve ÇİM\l& MÜCADELE tip MANTAR POKéMONU.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this sinister TRAINER called\n"
-	.string "the PALACE MAVEN that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği\nüst düzey eğitmenlerden biri orada.\pBurayı yöneten, SARAY MAVİSİ denen\nuğursuz bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
-	.string "Have you battled the PALACE MAVEN\n"
-	.string "before?\p"
-	.string "When he's testing the opponent's\n"
-	.string "spirit, he's said to use these POKéMON:\p"
-	.string "A POISON & FLYING-type BAT POKéMON,\n"
-	.string "a NORMAL-type LAZY POKéMON, and a\l"
-	.string "WATER- & ICE-type TRANSPORT POKéMON.$"
+	.string "Daha önce PALACE MAVEN ile savaştınız\nmı?\pRakibinin ruhunu test ederken, bu\nPOKéMON'ları kullandığı söylenir:\pZEHİR ve UÇAN tipte bir YARASA\nPOKéMONU, NORMAL tipte bir TEMBEL\lPOKéMON ve SU ve BUZ tipte bir TAŞIMA\lPOKéMONU.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-	.string "Have you battled the PALACE MAVEN\n"
-	.string "when he's serious?\p"
-	.string "When he throws his entire might into\n"
-	.string "battle, he's said to use these POKéMON:\p"
-	.string "A FIRE-type LEGENDARY POKéMON,\n"
-	.string "a NORMAL-type LAZY POKéMON,\l"
-	.string "and a WATER-type AURORA POKéMON.$"
+	.string "Ciddi olduğunda SARAY MAVİSİ ile\nsavaştınız mı?\pTüm gücünü savaşa verdiğinde, bu\nPOKéMON'ları kullandığı söylenir:\pATEŞ tipi LEGENDARY POKéMON, NORMAL\ntip LAZY POKéMON ve SU tipi AURORA\lPOKéMON.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this fiery-hot TRAINER called\n"
-	.string "the PYRAMID KING that runs the place.$"
+	.string "Bahse girerim bunu bilmiyordunuz!\pSCOTT'un SINIR LİDERLERİ dediği en iyi\neğitmenlerden biri orada.\pBurayı yöneten PİRAMİT KRALI adında\nateşli bir eğitmen.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
-	.string "Have you battled the PYRAMID KING\n"
-	.string "before?\p"
-	.string "When he's checking the foe's power,\n"
-	.string "he apparently uses these POKéMON:\p"
-	.string "A ROCK-type ROCK PEAK POKéMON,\n"
-	.string "an ICE-type ICEBERG POKéMON,\l"
-	.string "and a STEEL-type IRON POKéMON.$"
+	.string "Daha önce PYRAMID KING ile savaştınız\nmı?\pDüşmanın gücünü kontrol ederken,\ngörünüşe göre bu POKéMON'ları\lkullanıyor:\pKAYA tipi KAYA ZİRVE POKéMON, BUZ tipi\nBUZBERG POKéMON ve ÇELİK tipi DEMİR\lPOKéMON.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
-	.string "Have you battled the PYRAMID KING\n"
-	.string "when he's serious?\p"
-	.string "When he's pumped with hot power,\n"
-	.string "he apparently uses these POKéMON:\p"
-	.string "An ICE & FLYING FREEZE POKéMON, an\n"
-	.string "ELECTRIC & FLYING ELECTRIC POKéMON,\l"
-	.string "and a FIRE- & FLYING-type FLAME\l"
-	.string "POKéMON.$"
+	.string "PYRAMID KING'le ciddiyken hiç\nsavaştınız mı?\pSıcak güçle pompalandığında, görünüşe\ngöre bu POKéMON'ları kullanıyor:\pBUZ VE UÇAN DONDURUCU POKéMON,\nELEKTRİK VE UÇAN ELEKTRİK POKéMONU\lve ATEŞ VE UÇAN ALEV tipi POKéMON.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
-	.string "Sure, there are several places where\n"
-	.string "you can enter DOUBLE BATTLES.\p"
-	.string "But the DOUBLE BATTLE ROOMS of\n"
-	.string "the BATTLE TOWER are, like, basic!\p"
-	.string "They're where you should learn about\n"
-	.string "how DOUBLE BATTLES are played here\l"
-	.string "in the BATTLE FRONTIER.$"
+	.string "Elbette, ÇİFT SAVAŞLARA\ngirebileceğiniz birkaç yer var.\pAncak SAVAŞ KULESİ'nin ÇİFTLİ SAVAŞ\nODALARI temeldir!\pÇİFTLİ SAVAŞLARIN burada, SAVAŞ\nORTASINDA nasıl oynandığını\löğrenmeniz gereken yer burasıdır.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-	.string "Watch yourself in the battles here.\p"
-	.string "I hear there are TRAINERS that have\n"
-	.string "strategies they developed just for\l"
-	.string "DOUBLE BATTLES.$"
+	.string "Buradaki savaşlarda kendinizi izleyin.\pSadece ÇİFT SAVAŞLAR için\ngeliştirdikleri stratejileri olan\lANTRENÖRLER olduğunu duydum.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
-	.string "Once you're confident and comfortable\n"
-	.string "with DOUBLE BATTLES here, you should\l"
-	.string "think about challenging other places\l"
-	.string "offering DOUBLE BATTLES.$"
+	.string "Burada DOUBLE BATTLES konusunda\nkendinize güvendiğinizde ve rahat\lolduğunuzda, DOUBLE BATTLES sunan\ldiğer yerlere meydan okumayı\ldüşünmelisiniz.$"
 
 BattleFrontier_Lounge2_Text_MultiBattleAdvice::
-	.string "All sorts of TRAINERS gather in\n"
-	.string "the BATTLE SALON.\p"
-	.string "Just think--you may run into your\n"
-	.string "friends or followers!\l"
-	.string "You should look carefully!$"
+	.string "Her türden EĞİTİMCİ SAVAŞ SALONU'nda\ntoplanıyor.\pDüşünsenize, arkadaşlarınızla ya da\ntakipçilerinizle karşılaşabilirsiniz!\lDikkatli bakmalısınız!$"
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
-	.string "If you're with a friend, head for the\n"
-	.string "LINK MULTI BATTLE ROOM.\p"
-	.string "If you play with a strong friend,\n"
-	.string "you can expect to see tough foes!$"
+	.string "Eğer bir arkadaşınızla oynuyorsanız,\nLINK ÇOKLU SAVAŞ ODASI'na gidin.\pGüçlü bir arkadaşınızla oynuyorsanız,\nzorlu düşmanlar görmeyi\lbekleyebilirsiniz!$"
 
 BattleFrontier_Lounge2_Text_NewsGatheringPower::
-	.string "What amazing news-gathering power!\n"
-	.string "My mentor's like none other!$"
+	.string "Ne inanılmaz bir haber toplama gücü!\nAkıl hocamın eşi benzeri yok!$"
 
 BattleFrontier_Lounge2_Text_AmazingPowersOfObservation::
-	.string "What amazing powers of observation!\n"
-	.string "My mentor's like none other!$"
+	.string "Ne inanılmaz bir gözlem gücü! Akıl\nhocamın eşi benzeri yok!$"
 
 BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
-	.string "What amazing power of persuasion!\n"
-	.string "My mentor's like none other!$"
+	.string "Ne inanılmaz bir ikna gücü böyle!\nAkıl hocamdan iyisi yoktur!$"
 
 BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
-	.string "…What is this place?\n"
-	.string "It's scaring me…$"
+	.string "…Burası da ne böyle?\nBurası beni korkutuyor…$"
+
 

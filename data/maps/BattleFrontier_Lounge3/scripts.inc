@@ -198,271 +198,124 @@ BattleFrontier_Lounge3_EventScript_FaceOriginalDirection::
 	end
 
 BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
-	.string "…What's that you want?\p"
-	.string "Can't you see we're kind of busy here?\n"
-	.string "Can't your business wait till later?$"
+	.string "…Ne istiyorsunuz?\pBurada biraz meşgul olduğumuzu\ngörmüyor musun? İşiniz daha sonraya\lkalamaz mı?$"
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
-	.string "…Huh?\n"
-	.string "You look to me like a tough TRAINER.\p"
-	.string "Heheh…\n"
-	.string "Listen, I have this proposition.\p"
-	.string "We have a little group going here,\n"
-	.string "and we play a little game with what\l"
-	.string "goes on in the BATTLE FRONTIER.\p"
-	.string "The rules are really simple.\p"
-	.string "First, we pick one of the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Then, we each pick a different TRAINER\n"
-	.string "who's taking that facility's challenge,\l"
-	.string "and bet with our Battle Points.\p"
-	.string "The guy who bet on the TRAINER with\n"
-	.string "the best record takes all the Battle\l"
-	.string "Points in the pool.\p"
-	.string "Sounds simple, huh?\n"
-	.string "So, anyway…$"
+	.string "…Ha? Bana sert bir eğitmen gibi\ngöründün.\pHeheh… Dinle, sana bir teklifim var.\pBurada küçük bir grubumuz var ve\nSAVAŞ SINIRI'nda olup bitenlerle\lküçük bir oyun oynuyoruz.\pKurallar gerçekten basit.\pİlk olarak, SAVAŞ CEPHESİ'ndeki\ntesislerden birini seçiyoruz.\pSonra, her birimiz o tesisin meydan\nokumasını üstlenen farklı bir EĞİTMEN\lseçiyoruz ve Savaş Puanlarımızla\lbahse giriyoruz.\pEn iyi rekora sahip EĞİTMEN üzerine\nbahse giren kişi havuzdaki tüm Savaş\lPuanlarını alır.\pKulağa basit geliyor, değil mi? Her\nneyse.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's SINGLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Benim aradığım SAVAŞ KULESİ'nin TEKLİ\nSAVAŞ ODALARINA meydan okuyacak bir\lEĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's DOUBLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Benim aradığım SAVAŞ KULESİ'nin ÇİFT\nSAVAŞ ODALARINA meydan okuyacak bir\lEĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's MULTI BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey, SAVAŞ KULESİ'nin ÇOKLU\nSAVAŞ ODALARINA meydan okuyacak bir\lEĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's SINGLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey SAVAŞ KUBBESİ'nin TEKLİ\nSAVAŞ Turnuvasına katılacak bir\lEĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's DOUBLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey SAVAŞ KUBBESİ'nin ÇİFTE\nSAVAŞ Turnuvasına katılacak bir\lEĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Single Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey BATTLE FACTORY'nin\nTakas Tekli Turnuvasına\lkatılacak bir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN görmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Double Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey BATTLE FACTORY'nin\nBattle Swap Double Turnuvasına\lkatılacak bir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN görmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's SINGLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey, SAVAŞ SARAYI'nın TEKLİ\nSAVAŞ HALKALARINA meydan okuyacak\lbir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's DOUBLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey, SAVAŞ SARAYI'nın ÇİFT\nSAVAŞLI SALONLARINA meydan okuyacak\lbir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleArena::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "ARENA's Set KO Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey SAVAŞ ARENASI'nın Set KO\nTurnuvasına katılacak bir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nkalitesine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE PIKE's\l"
-	.string "Battle Choice.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey, SAVAŞ YILANI'nın Savaş\nSeçimi'ne katılacak bir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nniteliğine sahip bir EĞİTMEN\lgörmedim.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "PYRAMID's Battle Quest.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "Aradığım şey SAVAŞ PİRAMİDİ'nin Savaş\nGörevi'ne katılacak bir EĞİTMEN.\pAncak şu ana kadar, bu kazanma\nniteliğine sahip bir EĞİTMEN görmedim.$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
-	.string "I'll see to it that you benefit, too.\n"
-	.string "So how about it?\l"
-	.string "How about entering that event for me?$"
+	.string "Senin de bundan faydalanmanı\nsağlayacağım. Ne dersin? Benim için bu\letkinliğe katılmaya ne dersin?$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
-	.string "All right, that's perfect.\n"
-	.string "So, uh… How about spotting me some\l"
-	.string "of your Battle Points?\p"
-	.string "Trust me, I'll show you my gratitude\n"
-	.string "afterward.$"
+	.string "Pekala, bu mükemmel. Savaş puanlarının\nbir kısmını bana vermeye ne dersin?\pGüven bana, daha sonra sana\nminnettarlığımı göstereceğim.$"
 
 BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
-	.string "Great, great!\n"
-	.string "So, how much can you spot me?$"
+	.string "Harika, harika! Beni ne kadar fark\nedebilirsin?$"
 
 BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints::
-	.string "Oh, no, no, no!\n"
-	.string "You don't have enough Battle Points!\p"
-	.string "I wish you wouldn't monkey around and\n"
-	.string "waste everyone's time!$"
+	.string "Oh, hayır, hayır, hayır! Yeterince\nSavaş Puanın yok!\pKeşke etrafta maymunluk yapıp\nherkesin zamanını boşa harcamasaydın!$"
 
 BattleFrontier_Lounge3_Text_ThanksOffYouGo::
-	.string "Heheh! Thanks much!\n"
-	.string "So, off you go!$"
+	.string "Heheh! Çok teşekkürler! Hadi bakalım!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "SINGLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ KULESİ'nin TEKLİ SAVAŞ\nODALARINA gidin!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "DOUBLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ KULESİ'nin ÇİFT SAVAŞ\nODALARI'na gidin!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "MULTI BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "SAVAŞ KULESİ'nin ÇOKLU SAVAŞ\nODALARINA hemen gidin!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
-	.string "Get to the BATTLE DOME's\n"
-	.string "SINGLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "SAVAŞ KUBBESİ'nin TEKLİ SAVAŞ\nTurnuvasına hemen katılın!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği size bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
-	.string "Get to the BATTLE DOME's\n"
-	.string "DOUBLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "SAVAŞ KUBBESİ'nin ÇİFTE SAVAŞ\nTurnuvasına hemen katılın!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği size bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Single Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "BATTLE FACTORY'nin Battle Swap Tekli\nTurnuvasına hemen katılın!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği size bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Double Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "BATTLE FACTORY'nin Battle Swap İkili\nTurnuvasına hemen katılın!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği size bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "SINGLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ SARAYI'nın TEKLİ SAVAŞ\nSALONLARINA gidin!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "DOUBLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ SARAYI'nın ÇİFT SAVAŞ\nSALONU'na gidin!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleArena::
-	.string "Get to the BATTLE ARENA's\n"
-	.string "Set KO Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "SAVAŞ ARENASI'nın Set KO Turnuvasına\nhemen katılın!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePike::
-	.string "Get to the BATTLE PIKE's\n"
-	.string "Battle Choice pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ YILANI'nın Savaş Seçimi'ne\ngidin!\pBu kazanılması gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
-	.string "Get to the BATTLE PYRAMID's\n"
-	.string "Battle Quest pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "Hemen SAVAŞ PİRAMİDİ'nin Savaş\nGörevi'ne gidin!\pKazanmanız gereken bir durum!\nŞansınızı kaçırmayın! İkimizin de\lgeleceği sana bağlı!$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
-	.string "Oh, it's you…\n"
-	.string "Nice try…\p"
-	.string "I hate to break it to you, but I can't\n"
-	.string "return your Battle Points…\p"
-	.string "I guess we'll have to let it motivate\n"
-	.string "us to try harder next time!$"
+	.string "Oh, sensin… İyi deneme…\pBunu söylemekten nefret ediyorum ama\nSavaş Puanlarınızı geri veremem.\pSanırım bir dahaki sefere daha çok\nçalışmamız için bizi motive etmesine\lizin vermeliyiz!$"
 
 BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
-	.string "Oh, yes!\n"
-	.string "Hello there, champ!\p"
-	.string "I knew you could!\n"
-	.string "I knew you would!\l"
-	.string "We're both big winners!\p"
-	.string "I'll return your Battle Points and,\n"
-	.string "of course, a little extra from me!$"
+	.string "Oh, evet! Merhaba, şampiyon!\pYapabileceğini biliyordum! Biliyordum!\nİkimiz de büyük kazananlarız!\pSavaş Puanlarınızı geri vereceğim ve\ntabii ki benden de biraz ekstra!$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_1} Battle Points.$"
+	.string "{PLAYER} {STR_VAR_1} Savaş Puanı\nelde etti.$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
-	.string "If you're up for another challenge,\n"
-	.string "please do think of me!$"
+	.string "Eğer başka bir meydan okumaya\nhazırsanız, lütfen beni düşünün!$"
 
 BattleFrontier_Lounge3_Text_NotInterested::
-	.string "Not interested?! You shouldn't be\n"
-	.string "so afraid to take a chance!$"
+	.string "İlgilenmiyor musun?! Şansını\ndenemekten bu kadar korkmamalısın!$"
 
 BattleFrontier_Lounge3_Text_Oh::
 	.string "Oh…$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
-	.string "I backed the wrong TRAINER again!\p"
-	.string "Maybe I should be battling normally\n"
-	.string "like everyone else…$"
+	.string "Yine yanlış EĞİTMENü destekledim!\pBelki de herkes gibi normal bir şekilde\nmücadele etmeliyim…$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
-	.string "That TRAINER…\p"
-	.string "He's good, but he gets rattled too\n"
-	.string "easily to survive the BATTLE DOME…$"
+	.string "Şu eğitmen.\pİyi ama SAVAŞ KUBBESİ'da hayatta kalmak\niçin çok kolay sarsılıyor…$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
-	.string "Giggle!\n"
-	.string "I know a winner when I see one!$"
+	.string "Hahah!\nBir kazanan gördüğümde anlarım!$"
 
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
-	.string "Those TRAINERS…\n"
-	.string "What are they doing?\l"
-	.string "They should be taking challenges.$"
+	.string "Şu eğitmenler… Ne yapıyorlar?\nMücadelelere katılmaları gerekirdi.$"

@@ -49,21 +49,12 @@ BattleFrontier_Mart_EventScript_Boy::
 	end
 
 BattleFrontier_Mart_Text_ChaperonGrandson:
-	.string "We came here to chaperon our\n"
-	.string "grandson.\p"
-	.string "But since we're here, we thought\n"
-	.string "we should get some souvenirs.$"
+	.string "Buraya torunumuza refakat etmek için\ngeldik.\pAma madem buradayız, biraz hediyelik\neşya alalım dedik.$"
 
 BattleFrontier_Mart_Text_ProteinMakeNiceGift:
-	.string "Dear, what do you think of this?\n"
-	.string "Wouldn't this make a nice gift?\p"
-	.string "It's…PRO…TE…IN?\n"
-	.string "It sounds delicious, doesn't it?$"
+	.string "Tatlım, buna ne dersin? Güzel bir\nhediye olmaz mı?\pBu…PRO…TE…IN? Kulağa lezzetli\ngeliyor, değil mi?$"
 
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
-	.string "A lot of the BATTLE FRONTIER's\n"
-	.string "facilities don't allow the use of items\l"
-	.string "during battles.\p"
-	.string "That rule makes things tougher than\n"
-	.string "they already are!$"
+	.string "SAVAŞ SINIRI'nın birçok tesisi,\nsavaşlar sırasında eşya kullanımına\lizin vermiyor.\pBu kural işleri zaten olduğundan daha\nda zorlaştırıyor!$"
+
 

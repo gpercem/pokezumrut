@@ -234,206 +234,97 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 	end
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
-	.string "This is the BATTLE TOWER!\n"
-	.string "Keep the win streak as the toughest\l"
-	.string "TRAINER!$"
+	.string "Burası SAVAŞ KULESİ!\nEn zorlu EĞİTMENLERE karşı\nseri sürdürün!$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
-	.string "This is the BATTLE PALACE!\n"
-	.string "Keep your eyes on POKéMON battles!$"
+	.string "Burası SAVAŞ SARAYI!\nGözünüz POKéMON savaşlarında olsun!$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
-	.string "This is the BATTLE ARENA!\n"
-	.string "Let the toughest teams gather!$"
+	.string "Burası SAVAŞ ARENASI!\nEn zorlu takımlar toplansın!$"
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
-	.string "This is the BATTLE PYRAMID!\n"
-	.string "Advance through the Battle Quest!$"
+	.string "Burası SAVAŞ PİRAMİDİ!\nSavaş görevi boyunca ilerleyin!$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
-	.string "BATTLE FRONTIER RANKING HALL\n"
-	.string "Set your sights on new records!$"
+	.string "SAVAŞ SINIRI SIRALAMA SALONU\nGözünüzü yeni rekorlara dikin!$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
-	.string "BATTLE POINT EXCHANGE SERVICE CORNER\n"
-	.string "Exchange your Battle Points!$"
+	.string "SAVAŞ PUANI TAKAS SERVİSİ KÖŞESİ\nSavaş Puanlarınızı değiştirin!$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
-	.string "Wow!\n"
-	.string "It's huge!\p"
-	.string "The BATTLE TOWER feels special.\n"
-	.string "It's different from the others.$"
+	.string "Vay canına! Çok büyük!\pSAVAŞ KULESİ özel hissettiriyor.\nDiğerlerinden farklı.$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
-	.string "My grand ambition is to conquer both\n"
-	.string "the BATTLE FRONTIER and the POKéMON\l"
-	.string "LEAGUE.\p"
-	.string "And if my dream comes true…\p"
-	.string "I… I'm going to ask MIMI next door\n"
-	.string "if she will be friends with me!$"
+	.string "En büyük arzum hem SAVAŞ SINIRI'nı\nhem de POKéMON LİGİ'ni fethetmek.\pVe eğer hayallerim gerçekleşirse.\pBen… Ben yan komşum Mimi'ye benimle\narkadaş olup olamayacağını soracağım!$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
-	.string "The BATTLE PYRAMID's too harsh!\n"
-	.string "I just can't make it to the top!\p"
-	.string "Since I'm out of options, maybe I can\n"
-	.string "climb the outside…$"
+	.string "SAVAŞ PİRAMİDİ çok sert! Zirveye\nçıkamıyorum!\pBaşka seçeneğim olmadığına göre, belki\ndışarıdan tırmanabilirim…$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
-	.string "I thrive in darkness…\n"
-	.string "Yes… What is worthy of me?\l"
-	.string "None other than the BATTLE PYRAMID…\p"
-	.string "What say you to wandering in darkness\n"
-	.string "and in utter and total desperation?$"
+	.string "Karanlıkta büyürüm… Evet… Bana\nlayık olan nedir? SAVAŞ PİRAMİDİ'nden\lbaşkası değil.\pKaranlıkta ve tam bir çaresizlik içinde\ndolaşmaya ne dersiniz?$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
-	.string "I didn't sleep for a week, but then\n"
-	.string "I put together the ultimate team!\p"
-	.string "I can't see myself losing, no joke.\n"
-	.string "We're storming the BATTLE ARENA!$"
+	.string "Bir hafta boyunca uyumadım ama sonra\nen iyi takımı kurdum!\pKendimi kaybederken göremiyorum, şaka\ndeğil. SAVAŞ ARENASI'na giriyoruz!$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
-	.string "Did SCOTT bring you here, too?\n"
-	.string "What is it with that guy?\p"
-	.string "It sounds like he really does know\n"
-	.string "how to spot talented TRAINERS, but…\p"
-	.string "I've never seen him battling in person\n"
-	.string "ever.$"
+	.string "Seni de mi buraya SCOTT getirdi? Bu\nadamın nesi var böyle?\pYetenekli eğitmenleri nasıl tespit\nedeceğini gerçekten biliyor gibi\lgörünüyor ama…\pOnu hiç şahsen savaşırken görmedim.$"
 
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
-	.string "ZIGG!\n"
-	.string "I believe in you, little buddy!\p"
-	.string "I'll make my little ZIGG any favorite\n"
-	.string "tasty treats you like if you win!$"
+	.string "ZIGG! Sana güveniyorum, dostum!$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
-	.string "ZIGZAGOON looks vacant…$"
+	.string "ZIGZAGOON boş boş bakıyor…$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
-	.string "People call me a busybody,\n"
-	.string "but I can't help it.\p"
-	.string "Your hat's on crooked!\n"
-	.string "Oh, no, trash on the ground!\l"
-	.string "Oops, it's almost dinnertime!\p"
-	.string "I don't know if I can stand to just\n"
-	.string "watch at the BATTLE PALACE…$"
+	.string "İnsanlar bana işgüzar diyor ama elimde\ndeğil.\pŞapkan eğri duruyor! Oh, hayır, çöpler\nyerde! Oops, neredeyse yemek vakti!\pSAVAŞ SARAYI'nda sadece izlemeye\ndayanabilir miyim bilmiyorum…$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
-	.string "I may not look that impressive now,\n"
-	.string "but I once beat a GYM LEADER.\p"
-	.string "Who knows, maybe I should give it\n"
-	.string "another shot at glory.$"
+	.string "Şu anda o kadar etkileyici görünmüyor\nolabilirim ama bir zamanlar SALON\lLİDERLERİNİ yenmiştim.\pKim bilir, belki de zafer için bir şans\ndaha vermeliyim.$"
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
-	.string "I'm fast on my BIKE, and that goes for\n"
-	.string "the way I battle, too.\p"
-	.string "I win matches in the blink of\n"
-	.string "an eye!$"
+	.string "BİSİKLET üzerinde hızlıyım ve bu dövüş\ntarzım için de geçerli.\pMaçları göz açıp kapayıncaya kadar\nkazanırım!$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
-	.string "I'm better than my daddy\n"
-	.string "at POKéMON.$"
+	.string "POKéMON'da babamdan daha iyiyim.$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
-	.string "Go on, my baby sweetie!\n"
-	.string "Go rack up some wins for Daddy!\p"
-	.string "You're just like your mother,\n"
-	.string "so you'll be dominating!$"
+	.string "Devam et, tatlım!\nGit baban için birkaç\lgalibiyet al!\pTıpkı annen gibisin, bu yüzden baskın\nolacaksın!$"
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
-	.string "It wasn't easy getting here,\n"
-	.string "but I'd heard about this knockout\l"
-	.string "pretty girl at the BATTLE ARENA.\p"
-	.string "Instead of her, do you know what\n"
-	.string "I found?\p"
-	.string "A whole teeming mob of sweaty,\n"
-	.string "stinky, and primitive martial artists!$"
+	.string "Buraya gelmek kolay olmadı ama BATTLE\nARENA'daki bu güzel kızı duymuştum.\pOnun yerine ne buldum biliyor musunuz?\pTerli, pis kokulu ve ilkel dövüş\nsanatçılarından oluşan bir kalabalık!$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
-	.string "I sometimes see this really important-\n"
-	.string "looking old man going in there.\p"
-	.string "He has these really awesome POKéMON.\n"
-	.string "He seems really nice, though.$"
+	.string "Bazen gerçekten önemli görünen yaşlı\nbir adamın oraya girdiğini görüyorum.\pElinde gerçekten harika POKéMON'lar\nvar. Gerçekten iyi birine benziyor.$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
-	.string "Do you know it?\n"
-	.string "The legend of the BATTLE PYRAMID?\p"
-	.string "When there comes a confident TRAINER\n"
-	.string "reaching for the golden pinnacle,\l"
-	.string "there shall appear a man among men.\p"
-	.string "Don't know that legend?\n"
-	.string "Well, of course not!\l"
-	.string "I just made it up!\p"
-	.string "What's it supposed to mean?\n"
-	.string "That, my friend, I can't say!$"
+	.string "Şunu biliyor muydun?\nSAVAŞ PİRAMİDİ efsanesini?\pAltın zirveye ulaşan kendinden emin bir\nEĞİTİMCİ geldiğinde, insanlar arasında\lbir adam ortaya çıkacaktır.\pBu efsaneyi bilmiyor musunuz? Tabii ki\nbilmiyorum! Ben uydurdum!\pBu ne anlama geliyor? Bunu söyleyemem\ndostum!$"
 
 BattleFrontier_OutsideEast_Text_GotWipedOut:
-	.string "Man! Oh man!\n"
-	.string "I've never lost once before!\p"
-	.string "But I got wiped out with no saving\n"
-	.string "grace at all!\p"
-	.string "And then I'm told I don't have any\n"
-	.string "talent?! Man!$"
+	.string "Adamım! Ah adamım!\nDaha önce hiç kaybetmemiştim!\pAma hiçbir kurtarıcı lütuf olmadan\nsilindim!\pVe sonra bana yeteneğim olmadığı mı\nsöylendi?! Adamım!$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
-	.string "This guy ran into a horribly tough\n"
-	.string "TRAINER while he was on the BATTLE\l"
-	.string "TOWER challenge.\p"
-	.string "Now look at him…\p"
-	.string "You need to be cautious if you ever\n"
-	.string "decide to go to the BATTLE TOWER.$"
+	.string "Bu adam SAVAŞ KULESİ\nmücadelesindeyken korkunç derecede\lzorlu bir ANTRENÖRLE karşılaştı.\pŞimdi ona bir bakın.\pSAVAŞ KULESİ'ne gitmeye karar\nverirseniz dikkatli olmanız gerekir.$"
 
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
-	.string "Yes!\n"
-	.string "I've finally got enough Battle Points!\p"
-	.string "I guess I'll trade for another giant\n"
-	.string "plush DOLL!$"
+	.string "Evet! Sonunda yeterince Savaş Puanım\nvar!\pSanırım başka bir dev peluş bebekle\ntakas edeceğim!$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
-	.string "Oh, yeah, okay!\n"
-	.string "So this is the RANKING HALL!\p"
-	.string "I'd like to go down in history as\n"
-	.string "a super champ and have my name\l"
-	.string "recorded here for posterity.$"
+	.string "Oh, evet, tamam! Demek burası SIRALAMA\nSALONU!\pTarihe süper bir şampiyon olarak\ngeçmek ve adımı gelecek nesiller için\lburaya yazdırmak istiyorum.$"
 
 BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
-	.string "With you by my side, I can do anything.$"
+	.string "Sen yanımdayken her şeyi yapabilirim.$"
 
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
-	.string "Ooh, darling, you are so wonderful!\p"
-	.string "Ooh, I just can't wait anymore!\p"
-	.string "Let's go to a MULTI BATTLE ROOM\n"
-	.string "right this instant!\p"
-	.string "If we get together in the BATTLE SALON,\n"
-	.string "the power of our love will overcome\l"
-	.string "everyone we meet.\p"
-	.string "Why, before us, darling, everything\n"
-	.string "will topple like dominoes!$"
+	.string "Aah, harikasın canım!\pOoh, artık bekleyemiyorum!\pHadi MULTİ SAVAŞ ODASI'na\ngidelim hemen!\pSAVAŞ SALONU'na girersek eğer\nsevgimizi herkes görebilir!$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
-	.string "The BATTLE FRONTIER isn't exclusively\n"
-	.string "for tough TRAINERS.\p"
-	.string "Many people with special abilities\n"
-	.string "have been invited, it seems.\p"
-	.string "That man SCOTT…\p"
-	.string "He may have built this place to serve\n"
-	.string "a bigger objective…$"
+	.string "SAVAŞ SINIRI sadece zorlu\nEĞİTMENLER için değildir.\pGörünüşe göre özel yetenekleri olan\nbirçok kişi davet edilmiş.\pŞu adam SCOTT…\pBurayı daha büyük bir amaca hizmet\netmek için inşa etmiş olabilir.$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
-	.string "Excuse me, young one.\n"
-	.string "Have you good eyesight?\p"
-	.string "There is an odd tree past here, and to\n"
-	.string "my tired eyes it seems to wiggle.$"
+	.string "Affedersin, genç adam. Gözleriniz iyi\ngörüyor mu?\pBuradan geçen garip bir ağaç var ve\nyorgun gözlerime kıpır kıpır\lgörünüyor.$"
 
 BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
-	.string "Excuse me, young one.\n"
-	.string "Have you a good memory?\p"
-	.string "I have this feeling there once was\n"
-	.string "an odd tree past here.$"
+	.string "Affedersin, genç adam. İyi bir\nhafızanız var mı?\pBir zamanlar burada garip bir ağaç\nvarmış gibi hissediyorum.$"
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
-	.string "I…\n"
-	.string "I saw it!\p"
-	.string "There was a sticky sort of a POKéMON\n"
-	.string "with a long tail up ahead!\p"
-	.string "It was hiding under a boulder, and\n"
-	.string "it kept staring at me!$"
+	.string "Ben… Ben onu gördüm!\pİleride uzun kuyruklu, yapışkan bir\ntür POKéMON vardı!\pBir kayanın altında saklanıyordu ve\nbana bakıp duruyordu!$"

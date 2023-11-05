@@ -299,212 +299,99 @@ BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide::
 	end
 
 BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
-	.string "Is it your first time here?\n"
-	.string "Please step this way!$"
+	.string "Buraya ilk kez mi geliyorsunuz? Lütfen\nbu tarafa gelin!$"
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
-	.string "The front lines of POKéMON battling!\n"
-	.string "Welcome to the BATTLE FRONTIER!$"
+	.string "POKéMON savaşının ön safları!\nSAVAŞ SINIRI'na hoş geldiniz!$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
-	.string "For a first-time visitor, we issue\n"
-	.string "the FRONTIER PASS.\p"
-	.string "It's for use at all the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Here you are!$"
+	.string "İlk kez gelen ziyaretçiler için\nSINIR BİLETİ veriyoruz.\pSAVAŞ SINIRI'ndaki tüm tesislerde\nkullanım içindir.\pBuyurun!$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
-	.string "{PLAYER} obtained\n"
-	.string "the FRONTIER PASS.$"
+	.string "{PLAYER}, SINIR BİLETİ aldı.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-	.string "{PLAYER} placed the TRAINER CARD\n"
-	.string "in the FRONTIER PASS.$"
+	.string "{PLAYER}, EĞİTMEN KARTINI SINIR\nBİLETİNE yerleştirdi.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
-	.string "We hope you enjoy all that the BATTLE\n"
-	.string "FRONTIER has to offer!$"
+	.string "SAVAŞ SINIRI'nın sunduğu şeyleri\nbeğeneceğinizi umuyoruz!$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
-	.string "???: Well, if it isn't {PLAYER}{KUN}!\n"
-	.string "You came out here!$"
+	.string "???: {PLAYER}{KUN}!\nGelmişsin!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "GUIDE: Oh! MR. SCOTT, sir!\n"
-	.string "Good day to you, sir!$"
+	.string "REHBER: Ah!\nSCOTT, efendim!\nİyi günler, efendim!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
-	.string "SCOTT: It's great to see you here,\n"
-	.string "it really is!\p"
-	.string "I hope you'll take your time and\n"
-	.string "explore everywhere.\p"
-	.string "Naturally, I hope you'll also experience\n"
-	.string "the pure essence of battling.\p"
-	.string "I also have my quarters here, so feel\n"
-	.string "free to visit if you have time.$"
+	.string "SCOTT: Seni burada görmek harika,\ngerçekten öyle!\pUmarım zaman ayırır ve her yeri\nkeşfedersin.\pDoğal olarak, savaşmanın özünü de\ndeneyimleyeceğini umuyorum.\pBurada benim de odam var, vaktin\nolursa ziyaret etmekten çekinme.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
-	.string "I'm your guide to the various facilities\n"
-	.string "here in the BATTLE FRONTIER.$"
+	.string "Ben sizin SAVAŞ SINIRI'ndaki\ntesisler için rehberinizim.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
-	.string "Which would you like to learn about?$"
+	.string "Hangisi hakkında bilgi edinmek\nistersiniz?$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
-	.string "It is the gigantic tower considered\n"
-	.string "to be the BATTLE FRONTIER's symbol.\p"
-	.string "There are four kinds of BATTLE ROOMS\n"
-	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
-	.string "and LINK MULTI BATTLES.$"
+	.string "SAVAŞ SINIRI'nın sembolü olarak\nkabul edilen devasa kuledir.\pKulede TEKLİ, ÇİFTLİ, MULTİ ve LİNK\nMULTİ SAVAŞLAR için dört çeşit SAVAŞ\lODASI bulunmaktadır.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
-	.string "The BATTLE DOME is the large building\n"
-	.string "shaped like a huge egg.\p"
-	.string "Events named Battle Tourneys are held\n"
-	.string "in this facility.\p"
-	.string "The Battle Tourneys are offered in\n"
-	.string "two courses--for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "SAVAŞ KUBBESİ, devasa kubbe\nşeklindeki büyük binadır.\pSavaş Turnuvaları adı verilen\netkinlikler bu tesiste düzenlenir.\pSavaş Turnuvaları, TEKLİ ve ÇİFTLİ\nSAVAŞLAR için olmak üzere iki parkurda\lsunulur.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
-	.string "The BATTLE PALACE is the red building\n"
-	.string "on the right of the BATTLE FRONTIER.\p"
-	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and DOUBLE BATTLES.$"
+	.string "SAVAŞ SARAYI, SAVAŞ SINIRI\nsağındaki kırmızı binadır.\pTEKLİ ve ÇİFTLİ SAVAŞLAR için iki\nçeşit SAVAŞ SALONU vardır.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
-	.string "The BATTLE ARENA is the dojo-like\n"
-	.string "building at the center-right of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Set KO Tourney\n"
-	.string "takes place at the BATTLE ARENA.$"
+	.string "SAVAŞ ARENASI, SAVAŞ SINIRI'nın sağ\norta kısmında yer alan dojo benzeri bir\lbinadır.\pSAVAŞ ARENASI'nda KO Turnuvası adı\nverilen bir etkinlik gerçekleştirilir.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
-	.string "The BATTLE FACTORY is the large\n"
-	.string "building that is the closest to us.\p"
-	.string "An event called the Battle Swap\n"
-	.string "is conducted there.\p"
-	.string "The Battle Swap event is offered in\n"
-	.string "two courses for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "SAVAŞ FABRİKASI, bize en yakın\nolan büyük binadır.\pBurada Savaş Takası adı verilen bir\netkinlik düzenlenmektedir.\pSavaş Takası etkinliği TEKLİ ve ÇİFTLİ\nSAVAŞLAR için iki kur halinde\lsunulmaktadır.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-	.string "The BATTLE PIKE is the building shaped\n"
-	.string "like a POKéMON at the center-left of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Battle Choice\n"
-	.string "is conducted there.$"
+	.string "SAVAŞ YILANI, SAVAŞ SINIRI'nın\norta kısmında bulunan POKéMON\lşeklindeki binadır.\pSavaş Seçimi adı verilen bir etkinlik\nburada gerçekleştirilir.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
-	.string "The BATTLE PYRAMID is the enormous\n"
-	.string "pyramid.\p"
-	.string "An event called the Battle Quest\n"
-	.string "is conducted there.$"
+	.string "SAVAŞ PİRAMİDİ, devasa bir\npiramittir.\pBurada Savaş Görevi adı verilen bir\netkinlik gerçekleştirilir.$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
-	.string "The RANKING HALL is located near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "There, you may see the most fantastic\n"
-	.string "records left by the TRAINERS that\l"
-	.string "took on the many challenges of\l"
-	.string "the BATTLE FRONTIER.$"
+	.string "SIRALAMA SALONU SAVAŞ KULESİ'nin\nyakınında yer almaktadır.\pOrada, SAVAŞ CEPHESİ'nin birçok\nzorluğunu üstlenen EĞİTİMCİLER\ltarafından bırakılan en fantastik\lkayıtları görebilirsiniz.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
-	.string "The EXCHANGE SERVICE CORNER is near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "The Battle Points you have earned in\n"
-	.string "the BATTLE FRONTIER may be exchanged\l"
-	.string "for fabulous prizes there.$"
+	.string "DEĞİŞİM SERVİSİ KÖŞESİ SAVAŞ\nKULESİ'nin yakınındadır.\pSAVAŞ ÇATISI'nda kazandığınız Savaş\nPuanlarını burada muhteşem ödüllerle\ltakas edebilirsiniz.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-	.string "I'm your guide to the basic rules that\n"
-	.string "are common to all the challenges\l"
-	.string "offered by the facilities in the BATTLE\l"
-	.string "FRONTIER.$"
+	.string "SAVAŞ SINIRI'ndaki tesisler\ntarafından sunulan tüm mücadelelerde\lortak olan temel kurallar için\lrehberinizim.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
-	.string "What would you like to learn about?$"
+	.string "Ne hakkında bilgi edinmek istersiniz?$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
-	.string "All the challenges at the BATTLE\n"
-	.string "FRONTIER's facilities come in\l"
-	.string "two courses--Level 50 and Open Level.$"
+	.string "SAVAŞ SINIRI tesislerindeki tüm\nmücadeleler iki parkurdan\loluşmaktadır - Seviye 50 ve Açık\lSeviye.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-	.string "The Level 50 course is open to POKéMON\n"
-	.string "up to and including Level 50.\p"
-	.string "Please keep in mind, however, that\n"
-	.string "no TRAINER you face will have any\l"
-	.string "POKéMON below Level 50.\p"
-	.string "This course is the entry level for\n"
-	.string "battles at the BATTLE FRONTIER.\p"
-	.string "To begin, we hope you will challenge\n"
-	.string "this course.$"
+	.string "Seviye 50 kursu, Seviye 50'ye kadar ve\nSeviye 50 dahil POKéMON'lara açıktır.\pAncak karşılaşacağınız hiçbir\nEĞİTMENİN 50. Seviyenin altında\lPOKéMON'a sahip olmayacağını lütfen\lunutmayın.\pBu kurs, SAVAŞ SINIRI'ndaki\nsavaşlar için giriş seviyesidir.\pBaşlamak için, bu kursa meydan\nokuyacağınızı umuyoruz.$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-	.string "The Open Level course places no limit\n"
-	.string "on the levels of POKéMON entering\l"
-	.string "challenges.\p"
-	.string "The levels of your opponents will\n"
-	.string "be adjusted to match the levels of\l"
-	.string "your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 60.$"
+	.string "Açık Seviye kursu, mücadelelere giren\nPOKéMON seviyelerine herhangi bir\lsınırlama getirmez.\pRakiplerinizin seviyeleri,\nPOKéMON'unuzun seviyelerine uyacak\lşekilde ayarlanacaktır.\pAncak, karşılaştığınız hiçbir EĞİTMEN\n60. Seviyenin altında bir POKéMON'a\lsahip olmayacaktır.$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
-	.string "Virtually any kind of POKéMON may take\n"
-	.string "on the challenges at all facilities.\p"
-	.string "EGGS and certain kinds of POKéMON,\n"
-	.string "however, are not permitted.\p"
-	.string "The numbers of POKéMON required for\n"
-	.string "challenges will depend on the facility.\p"
-	.string "At all facilities, however, two or more\n"
-	.string "of the same kind of POKéMON are not\l"
-	.string "permitted.$"
+	.string "Neredeyse her tür POKéMON tüm\ntesislerdeki mücadelelere katılabilir.\pAncak YUMURTA ve belirli POKéMON\ntürlerine izin verilmemektedir.\pYarışmalar için gereken POKéMON sayısı\ntesise göre değişecektir.\pAncak tüm tesislerde aynı türden iki\nveya daha fazla POKéMON'a izin\lverilmez.$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-	.string "When entering a challenge at a BATTLE\n"
-	.string "FRONTIER facility, POKéMON may not\l"
-	.string "be holding the same kind of item.\p"
-	.string "Please make sure that all POKéMON\n"
-	.string "entering a challenge are holding\l"
-	.string "different items.$"
+	.string "Bir SAVAŞ SINIRI tesisinde bir\nmücadeleye girerken, POKéMON aynı tür\leşyayı tutmuyor olabilir.\pLütfen bir mücadeleye giren tüm\nPOKéMON'ların farklı eşyalara sahip\lolduğundan emin olun.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "I'm your guide to the FRONTIER PASS.$"
+	.string "Ben sizin SINIR BİLETİ rehberinizim.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
-	.string "Which would you like to learn about?$"
+	.string "Hangisi hakkında bilgi edinmek\nistersiniz?$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
-	.string "There are seven facilities at\n"
-	.string "the BATTLE FRONTIER.\p"
-	.string "TRAINERS who gain recognition for\n"
-	.string "their abilities may be rewarded with\l"
-	.string "symbols from each of the facilities.\p"
-	.string "To earn a symbol, TRAINERS may need\n"
-	.string "to defeat other TRAINERS in a row,\l"
-	.string "and may need to win events repeatedly.\p"
-	.string "It's certainly not easy to win symbols.\n"
-	.string "I wish you the best of luck!$"
+	.string "SAVAŞ ÇATISI'nda yedi tesis\nbulunmaktadır.\pYetenekleriyle takdir kazanan\nANTRENÖRLER, tesislerin her birinden\lsembollerle ödüllendirilebilir.\pBir sembol kazanmak için,\nANTRENÖRLERİN diğer ANTRENÖRLERİ\larka arkaya yenmesi ve etkinlikleri\ltekrar tekrar kazanması gerekebilir.\pSembol kazanmak kesinlikle kolay\ndeğildir. Size bol şans diliyorum!$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
-	.string "It is possible to record one battle\n"
-	.string "on your FRONTIER PASS.\p"
-	.string "You may record a battle you had with\n"
-	.string "a friend or friends.\p"
-	.string "Or you may record a battle conducted\n"
-	.string "at the BATTLE FRONTIER excluding\l"
-	.string "matches at the BATTLE PIKE or\l"
-	.string "the BATTLE PYRAMID.\p"
-	.string "You may choose to record your match\n"
-	.string "at the end of a battle.$"
+	.string "SINIR BİLETİ'nize savaş\nkaydetmek mümkündür.\pBir arkadaşınızla veya\narkadaşlarınızla yaptığınız bir savaşı\lkaydedebilirsiniz.\pVeya SAVAŞ YILANI veya SAVAŞ\nPİRAMİDİ'ndeki maçlar hariç SAVAŞ\lSINIRI'nda yapılan bir savaşı\lkaydedebilirsiniz.\pBir savaşın sonunda maçınızı\nkaydetmeyi seçebilirsiniz.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
-	.string "Battle Points are rewards given to\n"
-	.string "TRAINERS who battled outstandingly\l"
-	.string "at the BATTLE FRONTIER.\p"
-	.string "You may trade in your Battle Points\n"
-	.string "for prizes at the EXCHANGE SERVICE\l"
-	.string "CORNER.$"
+	.string "Savaş Puanları, SAVAŞ CEPHESİ'nde\nolağanüstü mücadele eden\lEĞİTİMCİLERE verilen ödüllerdir.\pSavaş Puanlarınızı TAKAS SERVİSİ\nKÖŞESİNDE ödüller karşılığında takas\ledebilirsiniz.$"
+
 

@@ -525,193 +525,100 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
-	.string "Where the courage of TRAINERS\n"
-	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE PYRAMID!\p"
-	.string "I am your guide to\n"
-	.string "the Battle Quest.$"
+	.string "EĞİTİMCİLERİN cesaretinin test\nedildiği yer!\pSAVAŞ PİRAMİDİ'ne hoş geldiniz!\pBen sizin Savaş Görevi rehberinizim.$"
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
-	.string "Have you the courage to embark on\n"
-	.string "the Battle Quest challenge?$"
+	.string "Savaş Görevi mücadelesine atılmak için\ncesaretiniz var mı?$"
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
-	.string "We await your challenge in the future!$"
+	.string "Gelecekte meydan okumanızı\nbekliyoruz!$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
-	.string "The Battle Quest is a battling\n"
-	.string "event in which you must explore\l"
-	.string "the PYRAMID and try to reach the top.\p"
-	.string "In the PYRAMID are seven floors of\n"
-	.string "mazes, all of them filled with not only\l"
-	.string "skilled TRAINERS but also wild POKéMON.\p"
-	.string "You must enter with three POKéMON,\n"
-	.string "none of them holding an item.\p"
-	.string "On your ascent, you will be provided\n"
-	.string "with a BATTLE BAG for items.\p"
-	.string "If you fail in your challenge, any item\n"
-	.string "placed in the BATTLE BAG disappears.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, you must select “REST”\l"
-	.string "and save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "Savaş Görevi, PİRAMİT'i keşfetmeniz\nve zirveye ulaşmaya çalışmanız\lgereken bir savaş etkinliğidir.\pPİRAMİT'te yedi katlı labirentler\nvardır ve bunların hepsi sadece\lyetenekli EĞİTMENLERLE değil aynı\lzamanda vahşi POKéMON'larla da\ldoludur.\pHiçbirinde bir eşya olmayan üç POKéMON\nile girmelisiniz.\pTırmanışınızda, eşyalar için size bir\nSAVAŞ ÇANTASI verilecektir.\pMücadelenizde başarısız olursanız,\nSAVAŞ ÇANTASINA yerleştirilen\lherhangi bir eşya kaybolur.\pMücadelenizi yarıda kesmek\nistiyorsanız, DİNLEN seçeneğini\lseçmeli ve oyunu kaydetmelisiniz.\pYarıda kesmeden önce kaydetmezseniz\ndiskalifiye olursunuz.$"
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
-	.string "The PYRAMID offers two courses,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which will you enter?$"
+	.string "PİRAMİT, 50. Seviye ve Açık Seviye\nolmak üzere iki kurs sunmaktadır. Siz\lhangisine katılacaksınız?$"
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
-	.string "Very good. Now, please select the three\n"
-	.string "POKéMON you wish to accompany you.$"
+	.string "Çok güzel. Şimdi, lütfen size eşlik\netmesini istediğiniz üç POKéMON'u\lseçin.$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "A slight problem, adventurer!\p"
-	.string "You seem to not have the three\n"
-	.string "POKéMON qualified for the challenge.\p"
-	.string "Please also remember to take all\n"
-	.string "items from your POKéMON.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you are ready, please have\n"
-	.string "a word with me.$"
+	.string "Ufak bir sorun var, maceracı!\pMücadele için gerekli üç POKéMON'a\nsahip değilsin gibi görünüyor.\pLütfen POKéMON'undaki tüm eşyaları\nalmayı da unutma.\pEGGS{STR_VAR_1} uygun değil.\pHazır olduğunuzda lütfen benimle\nkonuşun.$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
-	.string "A slight problem, adventurer!\p"
-	.string "You seem to not have the three\n"
-	.string "POKéMON qualified for the challenge.\p"
-	.string "The three POKéMON must be different\n"
-	.string "and each no higher than Level 50.\p"
-	.string "Please also remember to take all\n"
-	.string "items from your POKéMON.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you are ready, please have\n"
-	.string "a word with me.$"
+	.string "Ufak bir sorun var, maceracı!\pMücadele için gerekli üç POKéMON'a\nsahip değilsin gibi görünüyor.\pÜç POKéMON farklı olmalı ve her biri 50.\nSeviyeden yüksek olmamalıdır.\pLütfen POKéMON'undaki tüm eşyaları\nalmayı da unutma.\pEGGS{STR_VAR_1} uygun değildir.\pHazır olduğunuzda, lütfen benimle\nkonuşun.$"
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before you enter the BATTLE PYRAMID,\n"
-	.string "the game must be saved. Is that okay?$"
+	.string "SAVAŞ PİRAMİDİ'ne girmeden önce oyun\nkaydedilmelidir. Tamam mı?$"
 
 BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
-	.string "Very good. I will now show you into\n"
-	.string "the BATTLE PYRAMID.$"
+	.string "Çok güzel. Şimdi size SAVAŞ\nPİRAMİDİ'ni göstereceğim.$"
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
-	.string "We will hold your BAG for safekeeping,\n"
-	.string "{PLAYER}, while you are exploring.$"
+	.string "Siz keşfederken ÇANTA'nızı güvende\ntutacağız, {PLAYER}.$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-	.string "In exchange, please take this BATTLE\n"
-	.string "BAG, the one you used previously.$"
+	.string "Karşılığında, lütfen daha önce\nkullandığınız bu SAVAŞ ÇANTASINI alın.$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
-	.string "In exchange, please take this\n"
-	.string "BATTLE BAG.$"
+	.string "Karşılığında, lütfen bu SAVAŞ\nÇANTASI'nı alın.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
-	.string "{PLAYER} exchanged the BAG for\n"
-	.string "the BATTLE BAG.$"
+	.string "{PLAYER} ÇANTAYI SAVAŞ ÇANTASI ile\ndeğiştirdi.$"
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
-	.string "When you step on this floor panel,\n"
-	.string "you will be transported to a higher\l"
-	.string "floor in the PYRAMID.\p"
-	.string "I hope for your sake that your\n"
-	.string "quest goes safely!$"
+	.string "Bu zemin paneline bastığınızda,\nPİRAMİT'te daha yüksek bir kata\ltaşınacaksınız.\pUmarım senin iyiliğin için görevin\ngüvenli bir şekilde ilerler!$"
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
-	.string "A major problem, explorer!\p"
-	.string "You did not save before ending\n"
-	.string "your challenge the last time.\p"
-	.string "Consequently, your challenge has\n"
-	.string "been disqualified, I'm sorry to say.\p"
-	.string "Here is the BAG we've been holding\n"
-	.string "for you.\p"
-	.string "{PLAYER} got the BAG back.$"
+	.string "Büyük bir sorun var kaşif!\pMücadelenizi sonlandırmadan önce\nkaydetmediniz.\pSonuç olarak, üzülerek söylüyorum ki\nyarışmanız diskalifiye edildi.\pİşte sizin için tuttuğumuz ÇANTA.\p{PLAYER} ÇANTAYI geri aldı.$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
-	.string "Excellent to see you back!\p"
-	.string "You've conquered the PYRAMID!\n"
-	.string "How splendid!$"
+	.string "Seni tekrar görmek harika!\pPİRAMİT'i fethetmişsin! Ne kadar\nmuhteşem!$"
 
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
-	.string "Ah, a slight problem.\p"
-	.string "At least one POKéMON is holding\n"
-	.string "an item.\p"
-	.string "I'm sorry to say, items obtained in\n"
-	.string "the PYRAMID cannot be taken away.$"
+	.string "Ufak bir sorun var.\pEn az bir POKéMON bir eşya tutuyor.\pSöylediğim için üzgünüm ama\nPİRAMİT'te elde edilen eşyalar\lalınamaz.$"
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
-	.string "All items held by your POKéMON will be\n"
-	.string "moved to your BATTLE BAG, {PLAYER}.$"
+	.string "POKéMON'unuz tarafından tutulan tüm\neşyalar SAVAŞ ÇANTANIZA taşınacaktır,\l{PLAYER}.$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-	.string "The BATTLE BAG cannot hold all your\n"
-	.string "items, I'm sorry to say.\p"
-	.string "Please pick the items you'll keep in the\n"
-	.string "BATTLE BAG, and with your POKéMON.$"
+	.string "Üzülerek söylüyorum ki SAVAŞ ÇANTASI\ntüm eşyalarınızı alamaz.\pLütfen SAVAŞ ÇANTASI'nda ve\nPOKéMON'unuzda tutacağınız eşyaları\lseçin.$"
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
-	.string "At least one POKéMON is still\n"
-	.string "holding an item.$"
+	.string "En az bir POKéMON hâlâ bir eşya\ntutuyor.$"
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-	.string "Please pick the items you'll keep in the\n"
-	.string "BATTLE BAG, and with your POKéMON.$"
+	.string "Lütfen SAVAŞ ÇANTASINDA ve\nPOKéMON'unuzla birlikte\lsaklayacağınız eşyaları seçin.$"
 
-@ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
-	.string "{PLAYER} returned everything that\n"
-	.string "the POKéMON held.$"
+	.string "{PLAYER} POKéMON'un sahip olduğu her\nşeyi geri verdi.$"
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-	.string "The BATTLE BAG you used will be kept\n"
-	.string "in readiness for your next challenge.\p"
-	.string "{PLAYER} turned the BATTLE BAG over\n"
-	.string "for the BAG's return.$"
+	.string "Kullandığınız SAVAŞ ÇANTASI bir\nsonraki mücadeleniz için hazır\ltutulacaktır.\p{PLAYER} ÇANTA'nın geri dönmesi için\nSAVAŞ ÇANTASI'nı ters çevirdi.$"
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
-	.string "I must record your results.\n"
-	.string "Please wait.$"
+	.string "Sonuçlarınızı kaydetmeliyim. Lütfen\nbekleyin.$"
 
-@ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
-	.string "As a memento for conquering\n"
-	.string "the BATTLE PYRAMID, please take this.$"
+	.string "SAVAŞ PİRAMİDİ'ni fethetmenin bir\nhatırası olarak, lütfen bunu alın.$"
 
-@ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} {STR_VAR_1} ödülünü aldı.$"
 
-@ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
-	.string "…Ah…\n"
-	.string "Your BAG appears to be filled.\p"
-	.string "Please return after you've organized\n"
-	.string "your BAG's contents.$"
+	.string "…Ah… ÇANTANIZ dolu görünüyor.\pLütfen ÇANTA'nızın içindekileri\ndüzenledikten sonra geri dönün.$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
-	.string "How disappointing for you…\p"
-	.string "Here is the BAG we've been holding\n"
-	.string "for you.\p"
-	.string "{PLAYER} got the BAG back.$"
+	.string "Senin için ne kadar üzücü…\pİşte sizin için tuttuğumuz ÇANTA.\pÇANTAYI geri aldık.$"
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
-	.string "We look forward to your\n"
-	.string "next challenge!$"
+	.string "Bir sonraki meydan okumanızı dört\ngözle bekliyoruz!$"
 
-@ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
-	.string "We have been looking forward to\n"
-	.string "your arrival!\p"
-	.string "Here is your prize for conquering\n"
-	.string "the PYRAMID.$"
+	.string "Gelişinizi dört gözle bekliyorduk!\pİşte PİRAMİT'i fethettiğiniz için\nödülünüz.$"
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
-	.string "Welcome…\p"
-	.string "I shall be pleased to tell you what\n"
-	.string "misfortunes await in the PYRAMID…$"
+	.string "Hoş geldiniz.\pPİRAMİT'te sizi ne gibi\ntalihsizliklerin beklediğini\lsöylemekten memnuniyet duyacağım…$"
 
 BattleFrontier_BattlePyramidLobby_Text_Aah:
 	.string "… … … … … …\n"
@@ -720,184 +627,96 @@ BattleFrontier_BattlePyramidLobby_Text_Aah:
 	.string "Aah!$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
-	.string "I see a shower of sparks…\p"
-	.string "…And in it, I see your POKéMON\n"
-	.string "struggling with paralysis…$"
+	.string "Bir kıvılcım yağmuru görüyorum.\p…Ve içinde, POKéMON'unuzun felçle\nmücadele ettiğini görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
-	.string "I see poison…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from the effects of poison…$"
+	.string "Zehir görüyorum.\p…Ve POKemon'unuzun zehirin\netkilerinden acı çektiğini görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
-	.string "I see bright red flames…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from burns…$"
+	.string "Parlak kırmızı alevler görüyorum.\p…ve POKéMON'unuzun yanıklardan acı\nçektiğini görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
-	.string "I sense the tremendous pressure of\n"
-	.string "unrequited anger…\p"
-	.string "It is a curse…\p"
-	.string "…And, I see your POKéMON drained of\n"
-	.string "Power Points and having no recourse\l"
-	.string "but to use STRUGGLE…$"
+	.string "Karşılıksız öfkenin muazzam baskısını\nhissediyorum.\pBu bir lanet.\p…Ve POKéMON'unuzun Güç Puanlarının\ntükendiğini ve STRUGGLE kullanmaktan\lbaşka çaresi kalmadığını görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
-	.string "I see POKéMON loftily airborne…\p"
-	.string "…And, I see your POKéMON frustrated\n"
-	.string "by powerless GROUND-type moves…$"
+	.string "POKéMON'un havalandığını görüyorum.\p…Ve POKéMON'unuzun güçsüz ZEMİN\ntipi hareketlerle hüsrana uğradığını\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
-	.string "I sense terrific energy rising from\n"
-	.string "the ground below…\p"
-	.string "…And, I see your POKéMON unable to\n"
-	.string "escape the power's clutches…$"
+	.string "Yerin altından yükselen müthiş bir\nenerji hissediyorum.\p…Ve POKéMON'unuzun gücün\npençesinden kaçamadığını görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
-	.string "I see ICE-type POKéMON…\p"
-	.string "…And, I see your POKéMON fighting\n"
-	.string "the freezing effects of ice…$"
+	.string "Buz tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun buzun dondurucu\netkisiyle savaştığını görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
-	.string "I see a flurry of moves that imperil\n"
-	.string "the user…\p"
-	.string "…And, I see your POKéMON falling\n"
-	.string "to them…$"
+	.string "Kullanıcıyı tehlikeye atan bir hareket\ntelaşı görüyorum…\p…ve senin POKéMON'unun onlara\ndüştüğünü görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
-	.string "I see PSYCHIC-type POKéMON…\p"
-	.string "…And, I see your POKéMON in torment\n"
-	.string "from PSYCHIC moves…$"
+	.string "PSİŞİK tipi POKEMON görüyorum.\p…Ve senin POKéMON'unun PSİKOLOJİK\nhareketlerden eziyet çektiğini\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
-	.string "I see ROCK-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from ROCK moves…$"
+	.string "KAYA tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun KAYA\nhareketlerinden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
-	.string "I see FIGHTING-type POKéMON…\p"
-	.string "…And, I see your POKéMON pummeled\n"
-	.string "by FIGHTING moves…$"
+	.string "DÖVÜŞ tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun DÖVÜŞ\nhareketleri tarafından dövüldüğünü\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
-	.string "RAIN DANCE… SUNNY DAY…\n"
-	.string "SANDSTORM… HAIL…\p"
-	.string "I see POKéMON that become stronger\n"
-	.string "with the weather…\p"
-	.string "…And, I see your POKéMON confounded\n"
-	.string "by different types of moves…$"
+	.string "YAĞMUR DANSI… GÜNEŞLİ GÜN…\nKUM FIRTINASI… DOLU…\pHavayla birlikte güçlenen POKéMON'lar\ngörüyorum.\p…Ve POKéMON'unuzun farklı türde\nhamlelerle karıştırıldığını\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
-	.string "I see BUG-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from different kinds of attacks…$"
+	.string "BÖCEK tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun farklı türde\nsaldırılardan muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
-	.string "I see DARK-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from DARK-type moves…$"
+	.string "Karanlık tip POKéMON görüyorum.\p…Ve POKéMON'unuzun KARANLIK tipi\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
-	.string "I see WATER-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from WATER-type moves…$"
+	.string "SU tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun SU tipi\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
-	.string "I see GHOST-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from GHOST-type moves…$"
+	.string "HAYALET tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun HAYALET tipi\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
-	.string "I see STEEL-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "ÇELİK tipi POKéMON görüyorum.\p…Ve POKéMON'unuzun son derece güçlü\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
-	.string "I see flying POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "UÇUŞ POKéMON görüyorum.\p…Ve POKéMON'unuzun son derece güçlü\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
-	.string "I see those that have evolved from\n"
-	.string "the power of stones…\p"
-	.string "I also sense fire, water,\n"
-	.string "and electricity…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from those three powers…$"
+	.string "Taşların gücünden evrimleşenleri\ngörüyorum.\pAyrıca ateşi, suyu ve elektriği de\nhissediyorum.\p…Ve POKEMON'unuzun bu üç güçten\nmuzdarip olduğunu görüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
-	.string "I see NORMAL-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "NORMAL tip POKéMON görüyorum.\p…Ve POKéMON'unuzun son derece güçlü\nhareketlerden muzdarip olduğunu\lgörüyorum…$"
 
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
-	.string "Whether you believe my fortunes\n"
-	.string "or not, the choice is yours…\p"
-	.string "The future can be changed anytime…\n"
-	.string "I wish you safe passage…$"
+	.string "Fallarıma inansanız da inanmasanız da,\nseçim sizin…\pGelecek her an değişebilir… İyi\nyolculuklar dilerim…$"
 
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
-	.string "Did you know?\p"
-	.string "If you run fast, TRAINERS may notice\n"
-	.string "and come after you for a battle.\p"
-	.string "So, if you want to avoid TRAINERS,\n"
-	.string "don't catch their eyes, but sneak\l"
-	.string "cautiously and quietly past them.$"
+	.string "Biliyor muydunuz?\pEğer hızlı koşarsanız, ANTRENÖRLER\nsizi fark edebilir ve savaşmak için\lpeşinizden gelebilir.\pBu nedenle, EĞİTMENLERDEN kaçınmak\nistiyorsanız, gözlerini yakalamayın,\lancak dikkatli ve sessizce yanlarından\lgizlice geçin.$"
 
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
-	.string "Awaaaaaaarrrrgh!\p"
-	.string "I had a whole lot of items, but I lost\n"
-	.string "them all when I lost!\p"
-	.string "Awaaaaaaarrrrgh!$"
+	.string "Aaaaaaaarrrrgh!\pBir sürü eşyam vardı ama kaybettiğimde\nhepsini kaybettim!\pAwaaaaaaarrrrgh!$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
-	.string "Welcome back!\n"
-	.string "You've done the unthinkable!\p"
-	.string "You've defeated the PYRAMID KING\n"
-	.string "and conquered the BATTLE PYRAMID!$"
+	.string "Tekrar hoş geldiniz! Akla hayale\ngelmeyeni yaptınız!\pPİRAMİT KRALI'nı yendiniz ve SAVAŞ\nPİRAMİDİ'ni fethettiniz!$"
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
-	.string "Young explorer!\n"
-	.string "In commendation of your courage,\l"
-	.string "we give you these Battle Point(s)!$"
+	.string "Genç kaşif! Cesaretini takdir etmek\niçin sana bu Savaş Puan(lar)ını\lveriyoruz!$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-	.string "The Battle Quest rules are listed.$"
+	.string "Savaş Görevi kuralları listelenmiştir.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Hangi başlığı okumak istersiniz?$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
-	.string "When the PYRAMID is conquered,\n"
-	.string "the wild POKéMON that appear in it\l"
-	.string "are replaced by different kinds.\p"
-	.string "Explore, observe, and learn what kinds\n"
-	.string "of wild POKéMON you may encounter.$"
+	.string "PİRAMİT fethedildiğinde, içinde\ngörünen vahşi POKéMON farklı türlerle\ldeğiştirilir.\pKeşfedin, gözlemleyin ve ne tür vahşi\nPOKéMON'larla karşılaşabileceğinizi\löğrenin.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-	.string "TRAINERS are lying in wait for you\n"
-	.string "inside the PYRAMID.\p"
-	.string "On each floor, there are up to\n"
-	.string "eight TRAINERS.\p"
-	.string "When you defeat a TRAINER, you will\n"
-	.string "get a helpful hint for your adventure.$"
+	.string "PİRAMİT'in içinde sizi bekleyen\nEĞİTİMCİLER var.\pHer katta en fazla sekiz EĞİTMEN\nvardır.\pBir EĞİTMENİ yendiğinizde, maceranız\niçin yararlı bir ipucu alacaksınız.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
-	.string "The mazes in the PYRAMID rearrange\n"
-	.string "themselves every time you enter it.\p"
-	.string "The mazes are poorly lit.\n"
-	.string "You must advance with caution.\p"
-	.string "The light grows brighter whenever you\n"
-	.string "defeat a wild POKéMON or a TRAINER.$"
+	.string "PİRAMİT'teki labirentler her\ngirdiğinizde kendilerini yeniden\ldüzenler.\pLabirentler iyi aydınlatılmamıştır.\nDikkatli bir şekilde ilerlemelisiniz.\pVahşi bir POKéMON'u veya bir\nEĞİTİMCİ'yi yendiğinizde ışık daha\lparlak hale gelir.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-	.string "The BATTLE BAG serves as your BAG\n"
-	.string "while in the PYRAMID.\p"
-	.string "There are two separate BATTLE BAGS--\n"
-	.string "one each for the Level 50 and\l"
-	.string "Open Level adventures.\p"
-	.string "They each can hold up to 99 pieces\n"
-	.string "of ten kinds of items.\p"
-	.string "The contents of the BATTLE BAG are\n"
-	.string "lost if you fail in your quest.$"
+	.string "SAVAŞ ÇANTASI, PİRAMİT'teyken\nÇANTANIZ olarak hizmet eder.\pSeviye 50 ve Açık Seviye maceraları\niçin birer tane olmak üzere iki ayrı\lSAVAŞ ÇANTASI vardır.\pHer biri on çeşit eşyadan en fazla 99\nparça alabilir.\pGörevinizde başarısız olursanız SAVAŞ\nÇANTASININ içindekiler kaybolur.$"
+
 

@@ -288,192 +288,97 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 	end
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough TRAINER.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "BEAUTY around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your POKéMON special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "Buhahaha!\pŞimdi bakınca anlayamazsınız ama\neskiden sert bir ANTRENÖRdüm.\pEtraftaki en sert GÜZEL olarak ün\nsalmıştım, benden söylemesi!\p… … … … … …\pŞimdi ne oldu? Bana inanmıyorsun.\pBen şuradaki palavracı kadın gibi\ndeğilim. Ben gerçekten yetenekliyim!\pSana kanıtlamama izin ver.\nPOKéMON'unuza özel ve sevimli\lhareketler öğretebilirim.\pAma derslerim bedava değil. Öğrettiğim\nhareketlerin bedelini birazcık Savaş\lPuanı ile ödemeye ne dersiniz?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute POKéMON moves?$"
+	.string "Buhahaha!\pÖzel ve bir o kadar da sevimli POKéMON\nhareketlerini öğrenmek için geri mi\ldöndün?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "İyi, iyi, buraya bak! Hangi hareketi\nöğreteyim?$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "Hareket {STR_VAR_1}, değil mi? Bu\n{STR_VAR_2} olacak. Savaş Puanları,\ltamam mı?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the POKéMON\n"
-	.string "I should teach the move to.$"
+	.string "Tamam, tamam, şimdi hareketi öğretmem\ngereken POKemon'u seç.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "Bu da ne… Yeterince Savaş Puanın\nyok!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "Şimdi ne kadar yetenekli olduğumu\ngörüyor musun? Savaş puanlarınızı\lalacağım, teşekkürler!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "Neymiş o? İstemiyorsun…\pNe kadar yetenekli olduğumu görmek\nistiyorsanız, istediğiniz zaman beni\lgörmeye gelin!$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic TRAINER.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible SWIMMER around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your POKéMON hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "Hihihi!\pŞimdi görmenin zor olduğunu biliyorum\nama eskiden harika bir ANTRENÖRDÜM.\pEtraftaki en yenilmez YÜZÜCÜ olarak ün\nsalmıştım, benden söylemesi!\p… … … … … …\pSorun nedir? Bana inanmıyorsun.\pBen oradaki soytarı kadın gibi değilim.\nBen gerçekten tecrübeliyim!\pBunu sana kanıtlayabilirim.\nPokemon'unuza zor ama güzel\lhareketler öğretebilirim.\pAma derslerim bedava değil. Öğrettiğim\nhareketlerin bedelini birazcık Savaş\lPuanı ile ödemeye ne dersiniz?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty POKéMON moves?$"
+	.string "Hihihi!\pZor ama güzel POKéMON hareketlerini\nöğrenmeye mi geldin?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "Bu hanımlar, birbirlerini kötüleme\nşekillerine bakarak, muhtemelen\lanlaşamadıklarını düşünüyorsunuz.\pAma bu doğru olsaydı, burada birlikte\nkalmazlardı, değil mi?$"
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee YOUNGSTER,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us TRAINERS.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their POKéMON moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "Ben daha küçücük bir GENÇKEN, bu\nhanımlar güçlü ve güzeldi.\pBiz ANTRENÖRLER için birer idoldüler.\pŞimdi bile, yaş onların yeteneklerini\nköreltmedi.\pAslında, POKéMON hareketleri daha da\ncilalı hale geldi.\pAma… Bazı nedenlerden dolayı, yardım\nedemem ama şunu hissediyorum…\pZaman çok acımasız.$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum HP.$"
+	.string "Kullanıcının maksimum HP'sinin yarısına\nkadar kurtarır.$"
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "Kullanıcının seviyesine eşit hasar\nverir.$"
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "Uyuyan bir düşmana verilen hasarın\nyarısını geri kazandırır.$"
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "İnanılmaz bir güçle atılan güçlü bir\nyumruk.$"
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "Yoğun kuvvete sahip son derece güçlü\nbir tekme.$"
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "Felce neden olabilecek bir tüm vücut\ndarbesi.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "Büyük kayalar fırlatılır. İrkilmeye\nneden olabilir.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "Herhangi bir fiziksel darbeye iki kat\ngüçle misilleme yapar.$"
 
 BattleFrontier_Lounge7_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "Düşmanı felç eden zayıf bir elektrik\nsarsıntısı.$"
 
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises ATTACK.$"
+	.string "SALDIRI'yı keskin bir şekilde\nyükselten bir dövüş dansı.$"
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise DEFENSE.$"
+	.string "Zayıf noktaları kapatmak ve SAVUNMAYI\nyükseltmek için kıvrılır.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "Sadece uykudayken kullanılabilen\nyüksek sesli bir saldırı.$"
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "İsabet oranını düşürmek için düşmanın\nyüzüne çamur fırlatır.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "Asla ıskalamayan yıldız şekilli ışınlar\npüskürtür.$"
 
 BattleFrontier_Lounge7_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's SPEED.$"
+	.string "Düşmanın HIZINI düşüren tüyler\nürpertici bir saldırı.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "Herhangi bir at- tack'e 1 tur boyunca\ndayanır ve 1HP bırakır.$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "Düşmanın efekt(ler)ini kopyalar ve\nkullanıcıya verir.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "Düşmanı dondurabilecek buz gibi bir\nyumruk.$"
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "Düşmanı felç edebilen elektrikli bir\nyumruk.$"
 
 BattleFrontier_Lounge7_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "Düşmanı yakabilecek ateşli bir yumruk.$"

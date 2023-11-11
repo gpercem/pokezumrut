@@ -475,7 +475,7 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "MAVİ KÜRE ve KIZIL KÜRE, o kötü\nadamlar tarafından çalındı…\pAsla ayrılmamalılar…\nKorkarım korkunç bir şey olacak…$"
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
-	.string "Aman Tanrım.\pHem GROUDON hem de KYOGRE'nin\nuyandığını mı söylüyorsunu\pMAVİ KÜRE ve KIZIL KÜRE'nin iki\nPOKéMON'un öfkesini dindirdiği\lsöylenir…\pKürelerin gerçek sahibinin hala\nvar olduğu da söylenmektedir.\pAncak kimse kürelerin kime ya da\ntam olarak neye ait olduğunu bilmiyor.\pBir insan ya da belki bir POKéMON\nolabilir, ama kimse bilmiyor.$"
+	.string "Aman Tanrım.\pHem GROUDON hem de KYOGRE'nin\nuyandığını mı söylüyorsunu\pMAVİ KÜRE ve KIZIL KÜRE'nin iki\nPOKéMON'un öfkesini dindirdiği\lsöylenir…\pKürelerin gerçek sahibinin hâlâ\nvar olduğu da söylenmektedir.\pAncak kimse kürelerin kime ya da\ntam olarak neye ait olduğunu bilmiyor.\pBir insan ya da belki bir POKéMON\nolabilir, ama kimse bilmiyor.$"
 
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
 	.string "Küreleri alan iki adam onları kendi\nbaşlarına iade etmek için geri geldi.\pBu adamlar…\nBelki de o kadar da kötü değillerdir…$"
@@ -484,7 +484,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "Karanın, denizin ve gökyüzünün vücut\nbulmuş hali…\pBunların süper-kadim POKéMON'ların\ndiğer isimleri olduğu söyleniyor…\pBiz insanlar ve POKéMON'lar canlı\nolduğu gibi, dünyamız da canlıdır…\pSüper-kadim POKéMON'lar bize\nbunu öğretti.$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "PYRE DAĞI, vefat eden POKéMON'ların\nuğurlandığı yerdir…\pBurası tüm evleri görebileceğin\nyüksek bir yer.\pPOKéMON'un bedensiz ruhları burada\ndinleniyor…\pBurada olman tesadüf mü?\pMasalımı dinleyecek misin?\nHOENN bölgesinde uzun zamandır\nanlatılan bir masalı anlatacağım.$"
+	.string "PYRE DAĞI, vefat eden POKéMON'ların\nuğurlandığı yerdir…\pBurası tüm evleri görebileceğin\nyüksek bir yer.\pPOKéMON'un bedensiz ruhları burada\ndinleniyor…\pBurada olman tesadüf mü?\pMasalımı dinleyecek misin?\nHOENN bölgesinde uzun zamandır\lanlatılan bir masalı anlatacağım.$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "Bu çok uzun zaman önce oldu.\pDünya, karanın POKéMON'u ile denizin\nPOKéMON'u arasındaki vahşi bir\lçatışmayla sarsıldı…\pToprağın POKéMON'u dağları yükseltti\nve kıtaları oluşturdu.\pDenizin POKéMON'u dev dalgalar\nyarattı ve okyanusları oydu.\pŞiddetli düellolarının sonu gelmiyordu.\pDünya büyük lavlar ve şiddetli\nfırtınalar içinde kaldı.\pMAVİ KÜRE ve KIZIL KÜRE bu\nfelakete bir son verdi.\pİki KÜREDEN ışık saçıldı ve öfkeli\nvarlıkları sakinleştirdi.\pUysallaşan ikili denizin derinliklerine\ndaldı ve sonunda gözden kayboldular…$"

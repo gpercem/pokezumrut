@@ -518,7 +518,7 @@ MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "TATE: Olamaz! Sadece bir…\n"
 	.string "LİZA: POKéMON'un var!\p"
 	.string "TATE: Bizimle savaşabilmen için…\n"
-	.string "LİZA: İkiden fazla olmalıdır!\n"
+	.string "LİZA: İkiden fazla olmalıdır!$"
 
 MossdeepCity_Gym_Text_GymStatue:
 	.string "MOSSDEEP ŞEHRİ POKéMON SALONU$"

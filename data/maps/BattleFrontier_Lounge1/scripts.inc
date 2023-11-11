@@ -151,7 +151,7 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-	.string "Yetmiş yıldır POKéMON\nyetiştiriyorum!\nBana efsanevi POKéMON\lyetiştiricisi de derler!\pBenim gibi olduğunda, POKéMON'a\nbaktığın anda yeteneklerini\lanlayabilirsin.\pSen bir eğitmensin. POKéMON'larının\nyeteneklerini bilmek istemez misin?\pGel! POKéMON'larına bakalım!$"
+	.string "Yetmiş yıldır POKéMON\nyetiştiriyorum!\pBana efsanevi POKéMON\nyetiştiricisi de derler!\pBenim gibi olduğunda, POKéMON'a\nbaktığın anda yeteneklerini\lanlayabilirsin.\pSen bir eğitmensin. POKéMON'larının\nyeteneklerini bilmek istemez misin?\pGel! POKéMON'larına bakalım!$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
 	.string "…Hmm…\pBunu, genel olarak, ortalama bir\nyetenek olarak tanımlayabilirim.$"

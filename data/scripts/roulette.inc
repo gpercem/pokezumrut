@@ -24,7 +24,7 @@ Roulette_EventScript_Play::
 	end
 
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "Buradaki en düşük olan {STR_VAR_1}.\n"
+	.string "Buradaki en düşük giriş {STR_VAR_1}.\n"
 	.string "Oynamak ister misin?$"
 
 Roulette_Text_NotEnoughCoins::

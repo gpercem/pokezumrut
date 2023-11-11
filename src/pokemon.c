@@ -6388,6 +6388,8 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_FACTORY_HEAD:
         case TRAINER_CLASS_PIKE_QUEEN:
         case TRAINER_CLASS_PYRAMID_KING:
+        case TRAINER_CLASS_TRANSLATOR:
+        case TRAINER_CLASS_TRANSLATOR_2:
             return MUS_VS_FRONTIER_BRAIN;
         default:
             return MUS_VS_TRAINER;

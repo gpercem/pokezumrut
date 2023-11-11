@@ -48,7 +48,7 @@ MtPyre_3F_Text_KaylaDefeat:
 	.string "Tertemiz kaybettim.$"
 
 MtPyre_3F_Text_KaylaPostBattle:
-	.string "Bu, eğitimimin hala yeterli olmadığı\nanlamına geliyor…\pZirveye doğru çalışmaya devam\netmeliyim.\pHadi bakalım!$"
+	.string "Bu, eğitimimin hâlâ yeterli olmadığı\nanlamına geliyor…\pZirveye doğru çalışmaya devam\netmeliyim.\pHadi bakalım!$"
 
 MtPyre_3F_Text_GabrielleIntro:
 	.string "Neden buraya geldin?$"

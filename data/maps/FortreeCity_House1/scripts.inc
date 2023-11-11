@@ -65,7 +65,7 @@ FortreeCity_House1_Text_YouWillTradeWontYou:
 	.string "Bana bir {STR_VAR_1} getirmen gerek!\l"
 	.string "Bunun için herşeyi yaparım!\p"
 	.string "…Ah… Bunu duydun mu?\n"
-	.string "Yüreğimin derinliklerinden\nhaykırdığımı?\p"
+	.string "Yüreğimin derinliklerinden\lhaykırdığımı?\p"
 	.string "Bunu duydun, takas yapacak mısın?\n"
 	.string "Senin {STR_VAR_1}'in için benim\l{STR_VAR_2}'im, var mısın?$"
 

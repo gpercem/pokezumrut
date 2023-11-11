@@ -35,7 +35,7 @@ Route111_OldLadysRestStop_Text_TakeYourTimeRestUp:
 	.string "Hadi, acele etme.\nDinlen biraz!$"
 
 Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
-	.string "Ah, canım benim.\nPOKéMON'ların hala yorgun mu?\pBurada biraz daha dinlenebilirsin.\nBu iyi bir fikir olur. Hadi, dinlen.$"
+	.string "Ah, canım benim.\nPOKéMON'ların hâlâ yorgun mu?\pBurada biraz daha dinlenebilirsin.\nBu iyi bir fikir olur. Hadi, dinlen.$"
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
 	.string "Öyle mi?\nBu konuda utanmana gerek yok.$"

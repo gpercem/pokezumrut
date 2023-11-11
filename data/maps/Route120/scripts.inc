@@ -396,4 +396,4 @@ Route120_Text_RouteSignFortree:
 	.string "ROTA 120\n{LEFT_ARROW} FORTREE ŞEHRİ$"
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} ROTA 121\n{LEFT_ARROW}\nROTA 120$"
+	.string "{RIGHT_ARROW} ROTA 121\n{LEFT_ARROW} ROTA 120$"

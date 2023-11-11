@@ -1,49 +1,39 @@
-@ Battle Tower
 gText_AnabelWonSilver::
-	.string "It's very disappointing…$"
+	.string "Bu çok büyük bir hayal kırıklığı…$"
 
 gText_AnabelDefeatSilver::
-	.string "Okay, I understand…$"
+	.string "Tamam, anlıyorum.$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "Çok özür dilerim.$"
 
 gText_AnabelDefeatGold::
-	.string "Thank you…$"
+	.string "Teşekkür ederim.$"
 
-@ Battle Dome
 gText_TuckerWonSilver::
-	.string "Ahahaha! Aren't you embarrassed?\n"
-	.string "Everyone's watching!$"
+	.string "Ahahaha! Utanmıyor musun? Herkes\nizliyor!$"
 
 gText_TuckerDefeatSilver::
-	.string "Grr…\n"
-	.string "What the…$"
+	.string "Grr… Bu da ne…$"
 
 gText_TuckerWonGold::
-	.string "My DOME ACE title isn't just for show!$"
+	.string "DOME ACE unvanım sadece göstermelik\ndeğil!$"
 
 gText_TuckerDefeatGold::
-	.string "Ahahaha!\n"
-	.string "You're inspiring!$"
+	.string "Ahahaha! İlham veriyorsun!$"
 
-@ Battle Factory
 gText_NolandWonSilver::
-	.string "Way to work!\n"
-	.string "That was a good lesson, eh?$"
+	.string "Aferin sana! İyi bir dersti, değil mi?$"
 
 gText_NolandDefeatSilver::
-	.string "Good job!\n"
-	.string "You know what you're doing!$"
+	.string "Aferin sana!\nNe yaptığını biliyorsun!$"
 
 gText_NolandWonGold::
-	.string "Hey, hey, hey!\n"
-	.string "You're finished already?$"
+	.string "Hey, hey, hey!\nİşin bitti mi?$"
 
 gText_NolandDefeatGold::
-	.string "What happened here?$"
+	.string "Ne oldu burada?$"
 
-@ Battle Pike
 gText_LucyWonSilver::
 	.string "Humph…$"
 
@@ -54,55 +44,40 @@ gText_LucyWonGold::
 	.string "Hah!$"
 
 gText_LucyDefeatGold::
-	.string "Darn!$"
+	.string "Lanet olsun!$"
 
-@ Battle Arena
 gText_GretaWonSilver::
-	.string "Oh, come on!\n"
-	.string "You have to try harder than that!$"
+	.string "Oh, hadi ama! Bundan daha çok\nçabalamalısın!$"
 
 gText_GretaDefeatSilver::
-	.string "No way!\n"
-	.string "Good job!$"
+	.string "Yok artık! İyi iş çıkardın!$"
 
 gText_GretaWonGold::
-	.string "Heheh!\n"
-	.string "What did you expect?$"
+	.string "Heheh! Ne bekliyordun ki?$"
 
 gText_GretaDefeatGold::
-	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "Ha? Sen ciddi misin?!$"
 
-@ Battle Palace
 gText_SpenserWonSilver::
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+	.string "Senin POKEMON'un pısırık çünkü sen bir\nEĞİTMEN olarak pısırıksın!$"
 
 gText_SpenserDefeatSilver::
-	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "Ah… Şimdi bu başka bir şey…$"
 
 gText_SpenserWonGold::
-	.string "Gwahahaha!\n"
-	.string "My brethren, we have nothing to fear!$"
+	.string "Gahahaha! Kardeşlerim, korkacak bir\nşeyimiz yok!$"
 
 gText_SpenserDefeatGold::
-	.string "Gwah!\n"
-	.string "Hahahaha!$"
+	.string "Gah! Hahahaha!$"
 
-@ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Hey! What's wrong with you!\n"
-	.string "Let's see some effort! Get up!$"
+	.string "Hey! Neyin var senin! Biraz çaba\ngörelim! Ayağa kalk!$"
 
 gText_BrandonDefeatSilver::
-	.string "That's it! You've done great!\n"
-	.string "You've worked hard for this!$"
+	.string "İşte bu kadar! Harika iş çıkardın!\nBunun için çok çalıştın!$"
 
 gText_BrandonWonGold::
-	.string "Hey! Don't you give up now!\n"
-	.string "Get up! Don't lose faith in yourself!$"
+	.string "Hey! Sakın pes etme! Ayağa kalk!\nKendine olan inancını kaybetme!$"
 
 gText_BrandonDefeatGold::
-	.string "That's it! You've done it!\n"
-	.string "You kept working for this!$"
+	.string "İşte bu kadar! Başardın! Bunun için\nçalışmaya devam ettin!$"

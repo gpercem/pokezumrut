@@ -103,13 +103,13 @@ RustboroCity_Flat1_2F_Text_LetsGiveItATry:
 	.string "Ah, anlıyorum.\nBir deneyelim, olur mu?$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
-	.string "{STR_VAR_1}. {STR_VAR_1}.\pHmmm… Hiç gülümsemiyor.\nBelki de WALDA ciddi bir\nçocuktur…$"
+	.string "{STR_VAR_1}. {STR_VAR_1}.\pHmmm… Hiç gülümsemiyor.\nBelki de WALDA ciddi bir\lçocuktur…$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string "Demek hiç güzel kelime bilmiyorsun.\nO zaman kendim düşünsem iyi olur.\pHmm… {STR_VAR_1} nasıl olur?\nBakalım işe yarayacak mı?$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
-	.string "{STR_VAR_1}. {STR_VAR_1}.\pHmmm… Hiç gülümsemiyor.\nBelki de WALDA ciddi bir\nçocuktur…$"
+	.string "{STR_VAR_1}. {STR_VAR_1}.\pHmmm… Hiç gülümsemiyor.\nBelki de WALDA ciddi bir\lçocuktur…$"
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 	.string "Demek hiç güzel kelime bilmiyorsun.\nSanırım onu daha önce kullandığım\ldeyimle eğlendirmeye çalışacağım.\pHer neyse, iyi bir önerin varsa bana\nsöylemekten çekinme, tamam mı?$"

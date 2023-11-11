@@ -1,573 +1,575 @@
 const u8 DecorDesc_SMALL_DESK[] = _(
-    "A small desk built\n"
-        "for one.");
+    "Bir kişi için yapılmış\n"
+    "küçük bir masa.");
 
 const u8 DecorDesc_POKEMON_DESK[] = _(
-    "A small desk built in\n"
-        "the shape of a POKé\n"
-        "BALL.");
+    "POKé TOPU şeklinde\n"
+    "yapılmış küçük bir\n"
+    "masa.");
 
 const u8 DecorDesc_HEAVY_DESK[] = _(
-    "A large desk made\n"
-        "of steel. Put some\n"
-        "decorations on it.");
+    "Çelikten yapılmış\n"
+    "büyük bir masa.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_RAGGED_DESK[] = _(
-    "A large desk made\n"
-        "of wood. Put some\n"
-        "decorations on it.");
+    "Ahşaptan yapılmış\n"
+    "büyük bir masa.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_COMFORT_DESK[] = _(
-    "A large desk made\n"
-        "of leaves. Put some\n"
-        "decorations on it.");
+    "Yapraktan yapılmış\n"
+    "büyük bir masa\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_PRETTY_DESK[] = _(
-    "A huge desk made\n"
-        "of glass. Holds lots\n"
-        "of decorations.");
+    "Camdan yapılmış\n"
+    "kocaman bir masa.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_BRICK_DESK[] = _(
-    "A huge desk made\n"
-        "of brick. Holds lots\n"
-        "of decorations.");
+    "Tuğladan yapılmış\n"
+    "kocaman bir masa.");
 
 const u8 DecorDesc_CAMP_DESK[] = _(
-    "A huge desk made\n"
-        "of logs. Put lots of\n"
-        "decorations on it.");
+    "Ahşaptan yapılmış\n"
+    "kocaman bir masa.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_HARD_DESK[] = _(
-    "A huge desk made\n"
-        "of rocks. Holds\n"
-        "many decorations.");
+    "Kayalardan yapılmış\n"
+    "kocaman bir masa.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_SMALL_CHAIR[] = _(
-    "A small chair made\n"
-        "for one.");
+    "Bir kişi için yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_POKEMON_CHAIR[] = _(
-    "A small chair built\n"
-        "in the shape of a\n"
-        "POKé BALL.");
+    "POKé TOPU şeklinde\n"
+    "yapılmış küçük bir\n"
+    "sandalye.");
 
 const u8 DecorDesc_HEAVY_CHAIR[] = _(
-    "A small chair made\n"
-        "of steel.");
+    "Çelikten yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_PRETTY_CHAIR[] = _(
-    "A small chair made\n"
-        "of glass.");
+    "Camdan yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_COMFORT_CHAIR[] = _(
-    "A small chair made\n"
-        "of leaves.");
+    "Yapraklardan\n"
+    "yapılmış küçük bir\n"
+    "sandalye.");
 
 const u8 DecorDesc_RAGGED_CHAIR[] = _(
-    "A small chair made\n"
-        "of wood.");
+    "Tahtadan yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_BRICK_CHAIR[] = _(
-    "A small chair made\n"
-        "of brick.");
+    "Tuğladan yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_CAMP_CHAIR[] = _(
-    "A small chair made\n"
-        "of logs.");
+    "Kütüklerden\n"
+    "yapılmış küçük bir\n"
+    "sandalye.");
 
 const u8 DecorDesc_HARD_CHAIR[] = _(
-    "A small chair made\n"
-        "of rock.");
+    "Kayadan yapılmış\n"
+    "küçük bir sandalye.");
 
 const u8 DecorDesc_RED_PLANT[] = _(
-    "A vivid red potted\n"
-        "plant.");
+    "Canlı kırmızı bir\n"
+    "saksı bitkisi.");
 
 const u8 DecorDesc_TROPICAL_PLANT[] = _(
-    "A flowering tropical\n"
-        "plant in a pot.");
+    "Saksıda çiçek açan\n"
+    "tropikal bir bitki.");
 
 const u8 DecorDesc_PRETTY_FLOWERS[] = _(
-    "A pot of cute\n"
-        "flowers.");
+    "Bir saksı dolusu\n"
+    "şirin çiçek.");
 
 const u8 DecorDesc_COLORFUL_PLANT[] = _(
-    "A large pot with\n"
-        "many colorful\n"
-        "flowers.");
+    "Birçok renkli çiçeği\n"
+    "olan büyük bir saksı.");
 
 const u8 DecorDesc_BIG_PLANT[] = _(
-    "A large, umbrella-\n"
-        "shaped plant in a\n"
-        "big pot.");
+    "Büyük bir saksı\n"
+    "içinde büyük, şemsiye\n"
+    "şeklinde bir bitki.");
 
 const u8 DecorDesc_GORGEOUS_PLANT[] = _(
-    "A large, impressive\n"
-        "plant in a big pot.");
+    "Büyük bir saksıda\n"
+    "büyük, etkileyici bir\n"
+    "bitki.");
 
 const u8 DecorDesc_RED_BRICK[] = _(
-    "A red-colored brick.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "Kırmızı renkli bir\n"
+    "tuğla. Üzerine\n"
+    "eşya konulabilir.");
 
 const u8 DecorDesc_YELLOW_BRICK[] = _(
-    "A yellow-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "Sarı renkli bir\n"
+    "tuğla. Üstüne süs\n"
+    "konulabilir.");
 
 const u8 DecorDesc_BLUE_BRICK[] = _(
-    "A blue-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "Mavi renkli bir tuğla.\n"
+    "Üstüne biraz süs\n"
+    "koyun.");
 
 const u8 DecorDesc_RED_BALLOON[] = _(
-    "A red balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "İçi su dolu kırmızı\n"
+    "bir balon. Üzerine\n"
+    "basılırsa patlar.");
 
 const u8 DecorDesc_BLUE_BALLOON[] = _(
-    "A blue balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "İçi su dolu mavi bir\n"
+    "balon. Üzerine\n"
+    "basılırsa patlar.");
 
 const u8 DecorDesc_YELLOW_BALLOON[] = _(
-    "A yellow balloon\n"
-        "filled with water.\n"
-        "Pops if stepped on.");
+    "İçi su dolu sarı bir\n"
+    "balon. Üzerine\n"
+    "basılırsa patlar.");
 
 const u8 DecorDesc_RED_TENT[] = _(
-    "A large red tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "Büyük kırmızı bir\n"
+    "çadır. İçinde\n"
+    "saklanabilirsin.");
 
 const u8 DecorDesc_BLUE_TENT[] = _(
-    "A large blue tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "Büyük mavi bir çadır.\n"
+    "İçinde\n"
+    "saklanabilirsin.");
 
 const u8 DecorDesc_SOLID_BOARD[] = _(
-    "Place over a hole to\n"
-        "cross to the other\n"
-        "side.");
+    "Diğer tarafa geçmek\n"
+    "için bir deliğin\n"
+    "üzerine yerleştirin.");
 
 const u8 DecorDesc_SLIDE[] = _(
-    "Use to slide down\n"
-        "from the platform.");
+    "Platformdan aşağı\n"
+    "kaymak için kullanın.");
 
 const u8 DecorDesc_FENCE_LENGTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "Geçişi engelleyen\n"
+    "küçük bir çit.");
 
 const u8 DecorDesc_FENCE_WIDTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "Geçişi engelleyen\n"
+    "küçük bir çit.");
 
 const u8 DecorDesc_TIRE[] = _(
-    "An old large tire.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "Eski büyük bir\n"
+    "lastik. Üstüne\n"
+    "eşya konulabilir.");
 
 const u8 DecorDesc_STAND[] = _(
-    "A large pedestal\n"
-        "with steps.");
+    "Basamakları olan\n"
+    "büyük bir kaide.");
 
 const u8 DecorDesc_MUD_BALL[] = _(
-    "A large ball of mud.\n"
-        "Crumbles if stepped\n"
-        "on.");
+    "Büyük bir çamur\n"
+    "topu. Üzerine\n"
+    "basılırsa ufalanır.");
 
 const u8 DecorDesc_BREAKABLE_DOOR[] = _(
-    "A weird door that\n"
-        "people can walk\n"
-        "right through.");
+    "İnsanların içinden\n"
+    "geçip gidebileceği\n"
+    "tuhaf bir kapı.");
 
 const u8 DecorDesc_SAND_ORNAMENT[] = _(
-    "An ornament made\n"
-        "of sand. Crumbles if\n"
-        "touched.");
+    "Kumdan bir eşya.\n"
+    "Dokunulduğunda\n"
+    "ufalanır.");
 
 const u8 DecorDesc_SILVER_SHIELD[] = _(
-    "Awarded for 50\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "SAVAŞ KULESİ'nde üst\n"
+    "üste 50 galibiyet için\n"
+    "ödüllendirilir.");
 
 const u8 DecorDesc_GOLD_SHIELD[] = _(
-    "Awarded for 100\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "SAVAŞ KULESİ'nde üst\n"
+    "üste 100 galibiyet\n"
+    "için ödüllendirildi.");
 
 const u8 DecorDesc_GLASS_ORNAMENT[] = _(
-    "A glass replica of\n"
-        "a famous sculpture\n"
-        "at the ART MUSEUM.");
+    "SANAT MÜZESİ'ndeki\n"
+    "ünlü bir heykelin\n"
+    "camdan kopyası.");
 
 const u8 DecorDesc_TV[] = _(
-    "A small, gray-\n"
-        "colored toy TV.");
+    "Küçük, gri renkli\n"
+    "oyuncak bir\n"
+    "televizyon.");
 
 const u8 DecorDesc_ROUND_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SEEDOT.");
+    "SEEDOT görüntüsünde\n"
+    "modellenmiş bir\n"
+    "oyuncak TV.");
 
 const u8 DecorDesc_CUTE_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SKITTY.");
+    "SKITTY modelinde bir\n"
+    "oyuncak televizyon.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
-    "An odd mat that\n"
-        "glitters if stepped\n"
-        "on.");
+    "Üzerine\n"
+    "basıldığında\n"
+    "parıldayan bir paspas.");
 
 const u8 DecorDesc_JUMP_MAT[] = _(
-    "A trick mat that\n"
-        "jumps when it is\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "zıplayan hileli bir\n"
+    "paspas.");
 
 const u8 DecorDesc_SPIN_MAT[] = _(
-    "A trick mat that\n"
-        "spins around when\n"
-        "stepped on.");
+    "Üzerine\n"
+    "basıldığında dönen\n"
+    "hileli bir paspas.");
 
 const u8 DecorDesc_C_LOW_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a low C note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "düşük DO notası\n"
+    "çalan bir paspas.");
 
 const u8 DecorDesc_D_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a D note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "RE notası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_E_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an E note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "Mİ notası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_F_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an F note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "FA notası çalan bir\n"
+    "paspas.");
 
 const u8 DecorDesc_G_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a G note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "SOL notası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_A_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an A note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "LA notası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_B_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a B note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "Sİ notası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a high C note when\n"
-        "stepped on.");
+    "Üzerine basınca\n"
+    "DO dotası çalan\n"
+    "bir paspas.");
 
 const u8 DecorDesc_SURF_MAT[] = _(
-    "A mat designed with\n"
-        "a SURF image.\n"
-        "Put items on top.");
+    "SÖRF temalı bir\n"
+    "paspas.\n"
+    "Eşya konulabilir.");
 
 const u8 DecorDesc_THUNDER_MAT[] = _(
-    "A mat designed with\n"
-        "a THUNDER image.\n"
-        "Put items on top.");
+    "YILDIRIM temalı bir\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_FIRE_BLAST_MAT[] = _(
-    "A mat designed with\n"
-        "a FIRE BLAST image.\n"
-        "Put items on top.");
+    "ATEŞ PATLAMA temalı\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_POWDER_SNOW_MAT[] = _(
-    "A mat with a POWDER\n"
-        "SNOW image design.\n"
-        "Put items on top.");
+    "TOZ KAR temalı\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_ATTRACT_MAT[] = _(
-    "A mat designed with\n"
-        "an ATTRACT image.\n"
-        "Put items on top.");
+    "ÇEKİCİ temalı bir\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_FISSURE_MAT[] = _(
-    "A mat designed with\n"
-        "a FISSURE image.\n"
-        "Put items on top.");
+    "ÇATLAK temalı bir\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_SPIKES_MAT[] = _(
-    "A mat designed with\n"
-        "a SPIKES image.\n"
-        "Put items on top.");
+    "DİKEN temalı bir\n"
+    "paspas. Eşyalar\n"
+    "üstüne konulabilir.");
 
 const u8 DecorDesc_BALL_POSTER[] = _(
-    "A small poster\n"
-        "printed with POKé\n"
-        "BALLS.");
+    "POKé TOPLARI ile\n"
+    "basılmış küçük bir\n"
+    "poster.");
 
 const u8 DecorDesc_GREEN_POSTER[] = _(
-    "A small poster with\n"
-        "a TREECKO print.");
+    "TREECKO baskılı\n"
+    "küçük bir poster.");
 
 const u8 DecorDesc_RED_POSTER[] = _(
-    "A small poster with\n"
-        "a TORCHIC print.");
+    "TORCHIC baskılı\n"
+    "küçük bir poster.");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
-    "A small poster with\n"
-        "a MUDKIP print.");
+    "MUDKIP baskılı küçük\n"
+    "bir poster.");
 
 const u8 DecorDesc_CUTE_POSTER[] = _(
-    "A small poster with\n"
-        "an AZURILL print.");
+    "AZURILL baskılı\n"
+    "küçük bir poster.");
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
-    "A large poster with\n"
-        "a PIKACHU and\n"
-        "PICHU print.");
+    "PIKACHU ve PICHU\n"
+    "baskılı büyük bir\n"
+    "poster.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
-    "A large poster with\n"
-        "a SEVIPER print.");
+    "SEVİPER baskılı\n"
+    "büyük bir poster.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
-    "A large poster with\n"
-        "a RELICANTH print.");
+    "RELICANTH baskılı\n"
+    "büyük bir poster.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
-    "A large poster with\n"
-        "a WINGULL print.");
+    "WINGULL baskılı\n"
+    "büyük bir poster.");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
-    "A large poster with\n"
-        "a SMOOCHUM print.");
+    "SMOOCHUM baskılı\n"
+    "büyük bir poster.");
 
 const u8 DecorDesc_PICHU_DOLL[] = _(
-    "A PICHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir PICHU bebeği.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A PIKACHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir PIKACHU bebeği.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_MARILL_DOLL[] = _(
-    "A MARILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir MARILL bebeği.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "A TOGEPI doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir TOGEPI peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A CYNDAQUIL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "CYNDAQUIL peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A CHIKORITA doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "CHIKORITA peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A TOTODILE doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "TOTODILE peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
-    "A JIGGLYPUFF doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "JIGGLYPUFF peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "A MEOWTH doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "MEOWTH peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "A CLEFAIRY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "CLEFAIRY peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_DITTO_DOLL[] = _(
-    "A DITTO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "DITTO peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SMOOCHUM_DOLL[] = _(
-    "A SMOOCHUM doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SMOOCHUM peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_TREECKO_DOLL[] = _(
-    "A TREECKO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "TREECKO peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_TORCHIC_DOLL[] = _(
-    "A TORCHIC doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "TORCHIC peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_MUDKIP_DOLL[] = _(
-    "A MUDKIP doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "MUDKIP peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_DUSKULL_DOLL[] = _(
-    "A DUSKULL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "DUSKULL peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A WYNAUT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "WYNAUT peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "A BALTOY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "BALTOY peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_KECLEON_DOLL[] = _(
-    "A KECLEON doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "KECLEON peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_AZURILL_DOLL[] = _(
-    "An AZURILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "AZURILL peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A SKITTY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SKITTY peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SWABLU_DOLL[] = _(
-    "A SWABLU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SWABLU peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_GULPIN_DOLL[] = _(
-    "A GULPIN doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "GULPIN peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_LOTAD_DOLL[] = _(
-    "A LOTAD doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "LOTAD peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SEEDOT_DOLL[] = _(
-    "A SEEDOT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SEEDOT peluşu.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A PIKACHU cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir PIKACHU yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "A MARILL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir MARILL yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_KISS_CUSHION[] = _(
-    "A SMOOCHUM\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Bir SMOOCHUM yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A ZIGZAGOON\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "ZIGZAGOON yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A SPINDA cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir SPINDA yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "A SABLEYE cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir SABLEEYE yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_BALL_CUSHION[] = _(
-    "A BALL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Bir KÜRE yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_GRASS_CUSHION[] = _(
-    "A grass-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Bir çim izi yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_FIRE_CUSHION[] = _(
-    "A fire-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Bir ateş yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_WATER_CUSHION[] = _(
-    "A water-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Bir su izi yastığı.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_SNORLAX_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_RHYDON_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_LAPRAS_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_VENUSAUR_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_CHARIZARD_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_BLASTOISE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_WAILMER_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_REGIROCK_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_REGICE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
 
 const u8 DecorDesc_REGISTEEL_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Büyük bir peluş.\n"
+    "Masanın üzerine\n"
+    "yerleştirilebilir.");
+

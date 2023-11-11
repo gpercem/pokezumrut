@@ -68,7 +68,7 @@ gTrickHouse_Mechadoll_55Yen::
 	.string "¥55$"
 
 gTrickHouse_Mechadoll_Nothing::
-	.string "Nothing$"
+	.string "Hiçbir şey$"
 
 gTrickHouse_Mechadoll_CostMore::
 	.string "Daha fazla tutar.$"

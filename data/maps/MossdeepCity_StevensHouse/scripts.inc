@@ -151,7 +151,7 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\pGördüğün gibi burada pek bir şey yok\nama burası benim evim.\pYaptığın her şey için teşekkür\nederim.\pBu benim minnettarlığımın bir\ngöstergesi.\nGİZLİ MAKİNE DALIŞ.\pUtanmana gerek yok.\nBu HM'yi hak ettin.$"
+	.string "STEVEN: {PLAYER}{KUN}…\pGördüğün gibi burada pek bir şey yok\nama burası benim evim.\pYaptığın her şey için teşekkür\nederim.\pBu benim minnettarlığımın bir\ngöstergesi olsun.\lGİZLİ MAKİNE DALIŞ.\pUtanmana gerek yok.\nBu HM'yi hak ettin.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
 	.string "STEVEN: SÖRF kullanırken, karanlık su\nlekelerini fark etmişsindir.\pBunun gibi derin suların üstünde,\nDALIŞ kullanabilirsin.\lDeniz tabanına düşeceksin.\pTekrar yukarı çıkmak istediğinde,\ntekrar DALIŞ kullan.\pYine de bazı yerlerde yüzeye çıkman\nmümkün olmayabilir.$"

@@ -988,10 +988,10 @@ BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
 	.string "SAVAŞ KULESİ'ne girdikten sonra ya\nkaybetmeden ya da arka arkaya yedi\lANTRENÖRÜ yenmeden çıkamazsınız.\pBu mücadeleye hazır olduğunuzdan emin\nolsanız iyi olur.$"
 
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
-	.string "SAVAŞ KULESİ ÇİFT SAVAŞ KÖŞESİ'ne\nhoş geldiniz!\pNe yazık ki, SAVAŞ ODALARI hala yapım\naşamasındadır.\pLütfen çalışmalar tamamlandığında\ntekrar gelin.$"
+	.string "SAVAŞ KULESİ ÇİFT SAVAŞ KÖŞESİ'ne\nhoş geldiniz!\pNe yazık ki, SAVAŞ ODALARI hâlâ yapım\naşamasındadır.\pLütfen çalışmalar tamamlandığında\ntekrar gelin.$"
 
 BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
-	.string "SAVAŞ KULESİ ÇOKLU SAVAŞ KÖŞESİ'ne\nhoş geldiniz!\pNe yazık ki, SAVAŞ ODALARI hala yapım\naşamasındadır.\pLütfen çalışmalar tamamlandığında\ntekrar gelin.$"
+	.string "SAVAŞ KULESİ ÇOKLU SAVAŞ KÖŞESİ'ne\nhoş geldiniz!\pNe yazık ki, SAVAŞ ODALARI hâlâ yapım\naşamasındadır.\pLütfen çalışmalar tamamlandığında\ntekrar gelin.$"
 
 BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
 	.string "Sizi başka bir mücadelede görmek için\nsabırsızlanıyoruz!$"

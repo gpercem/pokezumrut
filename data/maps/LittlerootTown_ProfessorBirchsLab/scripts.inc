@@ -801,7 +801,7 @@ LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
 	.string "{PLAYER}'ın POKéDEX'i ULUSAL Moda\nyükseltildi!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-	.string "PROF. BIRCH: Ama dinleyin.\nŞAMPİYON oldunuz ama POKéMON\lyolculuğunuz bitmedi.\pPOKéMON yolculuğunun sonu yok.\pBir yerlerde sizi bekleyen çimenli\nbir alan var hala vardır!$"
+	.string "PROF. BIRCH: Ama dinleyin.\nŞAMPİYON oldunuz ama POKéMON\lyolculuğunuz bitmedi.\pPOKéMON yolculuğunun sonu yok.\pBir yerlerde sizi bekleyen çimenli\nbir alan var hâlâ vardır!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: Sanırım saha çalışmalarına kısa\nbir ara vereceğim.\pBir süre burada profesöre yardım\nedeceğim.$"

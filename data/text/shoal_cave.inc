@@ -1,53 +1,26 @@
 ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere:
-	.string "Are you planning on going deep\n"
-	.string "in there?\p"
-	.string "How about bringing me back some\n"
-	.string "SHOAL SALT and SHOAL SHELLS?\p"
-	.string "I can make you something good if\n"
-	.string "you bring me the ingredients.$"
+	.string "Derinlere inmeyi mi planlıyorsun?\pBana biraz SHOAL TUZU ve SHOAL\nKABUĞU getirmeye ne dersin?\pBana malzemeleri getirirsen sana iyi\nbir şeyler yapabilirim.$"
 
 ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
-	.string "If you bring me four each of the\n"
-	.string "SHOAL SALT and SHOAL SHELLS,\l"
-	.string "I can make you a SHELL BELL…\p"
-	.string "You can get those ingredients\n"
-	.string "every day.$"
+	.string "Bana her birinden dörder tane\nSHOAL TUZU ve SHOAL KABUĞU\lgetirirsen, sana bir KABUK ÇANI\lyapabilirim…\pBu malzemeleri her gün temin\nedebilirsin.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
-	.string "Oh, hey! SHOAL SALT and SHOAL SHELLS!\n"
-	.string "And enough of them, too!\p"
-	.string "Would you like me to make you\n"
-	.string "a SHELL BELL with them?$"
+	.string "Aa, hey! SHOAL TUZU ve SHOAL\nKABUKLARI! Hem de yeterince!\pOnlarla sana bir KABUK ÇANI yapmamı\nister misin?$"
 
 ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
-	.string "All righty, then! I'll make you\n"
-	.string "a SHELL BELL right away.\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "There! Done!$"
+	.string "Tamam o zaman! Sana hemen bir KABUK\nÇANI yapacağım.\pİşte oldu! Bitti!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a POKéMON hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
-	.string "Why, the SHELL BELL's chime…\n"
-	.string "It's simply sublime!\p"
-	.string "You can get its ingredients every day,\n"
-	.string "so I can make you more.$"
+	.string "Bunu bir POKéMON'a ver.\nÇok hoşuna gidecektir.\pKABUK ÇANI…\nTek kelimeyle muhteşemdir!\pMalzemelerini her gün alabilirsin,\nböylece sana daha fazlasını\lyapabilirim.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
-	.string "Oh… Is that so…\n"
-	.string "I wanted to make a SHELL BELL…$"
+	.string "Ya… Öyle mi…\nKABUK ÇANI yapmak istiyordum…$"
 
 ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
-	.string "You don't have space in your BAG\n"
-	.string "if I were to make it for you.\p"
-	.string "You should make room and come back\n"
-	.string "for a SHELL BELL.$"
+	.string "Çantanda yer kalmamış.\pYer açmalı ve KABUK ÇANI için geri\ngelmelisin.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "There was some SHOAL SALT here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Burada biraz ayakkabı tuzu vardı.\nAma şimdi burada hiçbir şey yok.$"
 
 ShoalCave_Text_WasShoallShellNowNothing:
-	.string "There was a SHOAL SHELL here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Burada bir ayakkabı kabuğu vardı.\nAma şimdi burada hiçbir şey yok.$"

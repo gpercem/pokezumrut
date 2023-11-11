@@ -78,7 +78,7 @@ VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
 	.string "Sana alışıyor.\nSana inanıyor gibi görünüyor.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
-	.string "Henüz sana alışmamış.\nSeni ne seviyor ne de senden\nnefret ediyor.$"
+	.string "Henüz sana alışmamış.\pSeni ne seviyor ne de senden\nnefret ediyor.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
 	.string "Çok temkinli.\nGözlerinde bir hırçınlık var.\lSenden hiç hoşlanmıyor.$"

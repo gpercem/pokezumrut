@@ -369,9 +369,9 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 	.string "MAY: {PLAYER}{KUN}!\p"
 	.string "POKéDEX'imi karıştırıyordum.\p"
-	.string "Hala yakalamadığım birçok POKéMON\n"
+	.string "Hâlâ yakalamadığım birçok POKéMON\n"
 	.string "var.\p"
-	.string "Ve hala evrimleşmiş halini göremediğim\n"
+	.string "Ve hâlâ evrimleşmiş halini göremediğim\n"
 	.string "POKéMON'lar da.\p"
 	.string "Acaba sonraki POKéMON'larımı nerede\n"
 	.string "yakalasam?$"
@@ -385,7 +385,7 @@ RivalsHouse_2F_Text_MayWhereShouldIGoNext:
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 	.string "BRENDAN: Hey, bu sensin {PLAYER}.\p"
 	.string "POKéDEX'imi kontrol ediyordum.\p"
-	.string "Hala yakalamam gereken çok POKéMON\n"
+	.string "Hâlâ yakalamam gereken çok POKéMON\n"
 	.string "var, biliyorum, ama bunu yapmak çok\l"
 	.string "eğlenceli.\p"
 	.string "POKéDEX'i karıştırmak bana yola\n"

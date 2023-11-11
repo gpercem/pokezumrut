@@ -76,7 +76,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 	.string "Ben mi? Benimle mi konuşuyorsun?\nBen yazılımcıyım.\pBurada slotlar nasıldır acaba?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
-	.string "Ben grafik tasarımcısıyım!\nHOENN POKéMON'ları ilginç, değil\nmi?$"
+	.string "Ben grafik tasarımcısıyım!\nHOENN POKéMON'ları ilginç, değil\lmi?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "Kız yücüler çok şirinler, değil mi?\nSevimli bir yüzücüyle savaşmak\liçin…\pBu harika!\pVe ikizler! Çok tatlılar, değil mi?\nİkizlerle 2'ye 2 savaş.\pVayy, dayanılmaz derecede eğlenceli!$"
@@ -88,7 +88,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
 	.string "İnsanların size ne zaman ve nerede\nmeydan okuyacağını asla bilemezsiniz.\pİşte bu yüzden GAME BOY ADVANCE'ım\nolmadan evden asla çıkmam.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
-	.string "SCOTT: … … … … … …\n… … … … …\nZzz…\p… … … … … Ha?! Aa, pardon!\nUyukluyordum!\pŞu POKéMON yarışmasına bakmaya\ngeldim.\pİtiraf etmeliyim ki, oldukça eğlenceli\ngörünüyor ama…\pBeni saf biri olarar düşün.\nSavaşları ve sert eğitmenleri tercih\lederim.\pAma bu sadece benim fikrim.\p{PLAYER}{KUN}, umarım SALONLAR,\nYARIŞMALAR, SAVAŞ ÇADIRLARI gibi her\lşeyden keyif alırsın!$"
+	.string "SCOTT: … … … … … …\n… … … … … …\lZzz…\p… … … … … Ha?! Aa, pardon!\nUyukluyordum!\pŞu POKéMON yarışmasına bakmaya\ngeldim.\pİtiraf etmeliyim ki, oldukça eğlenceli\ngörünüyor ama…\pBeni saf biri olarar düşün.\nSavaşları ve sert eğitmenleri tercih\lederim.\pAma bu sadece benim fikrim.\p{PLAYER}{KUN}, umarım SALONLAR,\nYARIŞMALAR, SAVAŞ ÇADIRLARI gibi her\lşeyden keyif alırsın!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
 	.string "SCOTT: Bence bir YARIŞMA kazanmak\niçin strateji gerekir.\pYARIŞMA stratejileri geliştirmek, daha\niyi bir EĞİTMEN olmanın bir yoludur,\ldiyebilirim.$"

@@ -104,7 +104,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord::
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
-	.string "SEEDOT ismindeki POKéMON'u biliyor\nmusun?\nSOOTOPOLİS'te neredeyse hiç\lgörülmez.\pHer neyse, büyük SEEDOT'ları çok\nseverim.\nNe kadar büyükse o kadar iyi.\pAma küçük kardeşim, LOTAD'ların\ndaha büyük olduğunu söylüyor.\pBu çok saçma.\nSEEDOT'lar daha büyük olmalı!\pHa? Yanında SEEDOT var mı?\nLütfen, göster bana!$"
+	.string "SEEDOT ismindeki POKéMON'u biliyor\nmusun?\pSOOTOPOLİS'te neredeyse hiç\ngörülmez.\pHer neyse, büyük SEEDOT'ları çok\nseverim.\lNe kadar büyükse o kadar iyi.\pAma küçük kardeşim, LOTAD'ların\ndaha büyük olduğunu söylüyor.\pBu çok saçma.\nSEEDOT'lar daha büyük olmalı!\pHa? Yanında SEEDOT var mı?\nLütfen, göster bana!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 	.string "{STR_VAR_2} inç!\nAman Tanrım, bu büyük bir şey!\pKüçük kardeşimin gördüğü büyük\nLOTAD'ı bile geçebilir!\pBana gösterdiğin için teşekkürler.\nBu benim teşekkürüm!$"
@@ -128,7 +128,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 	.string "Tarihteki en büyük SEEDOT!\n{STR_VAR_2}'nin {STR_VAR_3} inçlik devi!\pLOTAD'ların hepsinden daha büyük\nbir SEEDOT!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
-	.string "LOTAD ismindeki POKéMON'u biliyor\nmusun?\nSOOTOPOLİS'te nadiren görülür.\pBüyük LOTAD'ları seviyorum,\nyani bayılıyorum!\pAğabeyim SEEDOT'ların daha\nbüyük olduğunu söylüyor.\pAma bu yanlış! Herkes LOTAD'ın çok\ndaha büyük olduğunu bilir.\pHa? Senin LOTAD'ın var mı?\nLütfen göster bana!$"
+	.string "LOTAD ismindeki POKéMON'u biliyor\nmusun?\pSOOTOPOLİS'te nadiren görülür.\pBüyük LOTAD'ları seviyorum,\nyani bayılıyorum!\pAğabeyim SEEDOT'ların daha\nbüyük olduğunu söylüyor.\pAma bu yanlış! Herkes LOTAD'ın çok\ndaha büyük olduğunu bilir.\pHa? Senin LOTAD'ın var mı?\nLütfen göster bana!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 	.string "{STR_VAR_2} inç!\nVay canına, bu çok büyük!\pAğabeyimin gördüğü devasa SEEDOT'tan\nbile daha büyük olabilir.\pBana gösterdiğin için teşekkürler!\nBu da benim teşekkürüm!$"

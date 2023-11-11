@@ -21,7 +21,7 @@ gText_Birch_MainSpeech::
 	.string "gibilere karşı savaşırız.\p"
 	.string "Ama yakınlığımıza rağmen\n"
 	.string "POKéMON'lar hakkındaki her\lşeyi bilmiyoruz.\p"
-	.string "Hala POKéMON'lar hakkında\n"
+	.string "Hâlâ POKéMON'lar hakkında\n"
 	.string "bilmediğimiz birçok şey var.\p"
 	.string "Ben, POKéMON gizemlerini açığa\n"
 	.string "çıkarmak için araştırma yapıyorum.\l"

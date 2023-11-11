@@ -283,7 +283,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "GO-GÖZLÜK ile ROTA 111 yakınındaki\nçölden geçerken hiç zorlanmayacaksın.\pAma, vay canına, {PLAYER}{KUN}…\nŞu rozeti alman…\pEminim bana kaybetmek istemediğin için\nçok çabalıyorsundur!\pNeyse! Şimdi PETALBURG SALONU'nda\nbabana nmeydan okumalıyım.\pTekrar görüşmek üzere!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-	.string "BRENDAN: Görüşmeyeli uzun zaman\noldu. Nasıl gidiyor?\pHmm…\nİyi sayıda rozet biriktirmişsin.\pTamam o zaman.\nBunu vermemde sakınca yoktur o\nhalse.$"
+	.string "BRENDAN: Görüşmeyeli uzun zaman\noldu. Nasıl gidiyor?\pHmm…\nİyi sayıda rozet biriktirmişsin.\pTamam o zaman.\nBunu vermemde sakınca yoktur o\lhalde.$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "BRENDAN: ROTA 111 yakınlarındaki çöle\ngitmeyi planlıyorsan bunu yanında\lbulundur.\pÇölde yaşayan POKéMON'lar olmalı.\nOnları orada yakalayabilirsin.\pBana gelince…\nPETALBURG'un SALON LİDERİ NORMAN'a\lmeydan okumayı düşünüyorum.\pSenin aksine baban gerçekten\ngüçlü birine benziyor.\pSonra görüşürüz!$"

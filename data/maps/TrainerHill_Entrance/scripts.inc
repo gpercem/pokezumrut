@@ -294,7 +294,7 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "Burası, savaşların keyfini\nçıkarabileceğin EĞİTMEN TEPESİ.\pNe yazık ki, hala bir şeyler\nhazırlıyoruz. Lütfen daha sonra\ltekrar gelin!$"
+	.string "Burası, savaşların keyfini\nçıkarabileceğin EĞİTMEN TEPESİ.\pNe yazık ki, hâlâ bir şeyler\nhazırlıyoruz. Lütfen daha sonra\ltekrar gelin!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
 	.string "Hoş geldiniz!\pBurası birçok savaşlarının\ntadını çıkarabileceğiniz\lEĞİTMEN TEPESİ!$"

@@ -65,4 +65,6 @@ const u8 gTrainerClassNames[][13] = {
     [TRAINER_CLASS_PIKE_QUEEN] = _("YILAN DÜŞESİ"),
     [TRAINER_CLASS_PYRAMID_KING] = _("PİRAMİTKRALI"),
     [TRAINER_CLASS_RS_PROTAG] = _("{PKMN} EĞİTMENİ"),
+    [TRAINER_CLASS_TRANSLATOR] = _("YAPIMCI"),
+    [TRAINER_CLASS_TRANSLATOR_2] = _("{PKMN} EĞİTMENİ"),
 };

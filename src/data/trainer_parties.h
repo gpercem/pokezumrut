@@ -11595,6 +11595,78 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Emirhan[] = {
+    {
+    .iv = 128,
+    .lvl = 72,
+    .species = SPECIES_DRAGONITE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SURF, MOVE_OUTRAGE, MOVE_THUNDER}
+    },
+    {
+    .iv = 128,
+    .lvl = 70,
+    .species = SPECIES_VAPOREON,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_HYDRO_PUMP, MOVE_TOXIC}
+    },
+    {
+    .iv = 128,
+    .lvl = 70,
+    .species = SPECIES_VENUSAUR,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_FRENZY_PLANT, MOVE_EARTHQUAKE, MOVE_CRUNCH}
+    },
+    {
+    .iv = 128,
+    .lvl = 73,
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CRUNCH, MOVE_ANCIENT_POWER, MOVE_FLY, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 128,
+    .lvl = 72,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_CHARCOAL,
+    .moves = {MOVE_CRUNCH, MOVE_FLAMETHROWER, MOVE_EXTREME_SPEED, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 128,
+    .lvl = 75,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_TWISTED_SPOON,
+    .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_SHADOW_BALL, MOVE_CALM_MIND}
+    }
+};
+
+
+static const struct TrainerMonItemCustomMoves sParty_Gokhan[] = {
+    {
+    .iv = 225,
+    .lvl = 75,
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_ANCIENT_POWER, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 225,
+    .lvl = 75,
+    .species = SPECIES_FLYGON,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_TOXIC, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 80,
+    .species = SPECIES_SLOWKING,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_THUNDER_WAVE}
+    },
+};
+
+
+
 static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
@@ -12434,3 +12506,5 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+

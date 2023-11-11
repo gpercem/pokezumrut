@@ -708,7 +708,7 @@ MtChimney_Text_SawyerRematchIntro:
 	.string "Etrafım ateşli insanlarla çevrili.\nKaybetmeyeceğim!$"
 
 MtChimney_Text_SawyerRematchDefeat:
-	.string "Hala eskisi gibi ateş saçıyorsun!$"
+	.string "Hâlâ eskisi gibi ateş saçıyorsun!$"
 
 MtChimney_Text_SawyerPostRematch:
 	.string "Aslında burası oldukça sıcakmış.\nBiraz kalın giyinmişim.$"

@@ -77,7 +77,7 @@ SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
 	.string "Gemi yapımı bir sanattır.\pBirçok şey sadece hesaplanarak\nçözülemez.\pDenizleri bilen bir emektarın\ntavsiyelerine ihtiyacım var.$"
 
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
-	.string "Merhaba!\nBAY BRİNEY bize yardım etmek\niçin aramıza katıldı.\pBu tecrübeli denizci sayesinde, gemi\nyapımı hızlı bir şekilde ilerliyor.$"
+	.string "Merhaba!\nBAY BRİNEY bize yardım etmek\liçin aramıza katıldı.\pBu tecrübeli denizci sayesinde, gemi\nyapımı hızlı bir şekilde ilerliyor.$"
 
 SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
 	.string "Gemi nihayet hazır!\pYeni S.S. TİDAL gerçekten bir\nteknoloji harikası!\pAma içimden bir ses daha da iyisini\nyapabileceğimizi söylüyor.\pBilirsin, teknolojinin ilerleyişi asla\nsona ermez.$"

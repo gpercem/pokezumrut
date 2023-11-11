@@ -16,7 +16,7 @@ LavaridgeTown_House_EventScript_Zigzagoon::
 	end
 
 LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
-	.string "Eşim kaplıcada bir yumurtaya\nbakıyor. Bana böyle demişti.\pBakımevine iki POKéMON bırakmış.\nBakımevi sahipleri bir yumurta\nbulmuş ve eşime vermiş!$"
+	.string "Eşim kaplıcada bir yumurtaya\nbakıyor. Bana böyle demişti.\pBakımevine iki POKéMON bırakmış.\nBakımevi sahipleri bir yumurta\lbulmuş ve eşime vermiş!$"
 
 LavaridgeTown_House_Text_Zigzagoon:
 	.string "ZİGZAGOON: Pişuu!$"

@@ -171,7 +171,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
 	.string "O zaman sizi rahatsız etmeyeyim.\nLütfen, acele etmeyin.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
-	.string "Öyle mi?\nSahiden bir POKéMON eğitmeni\ngibi görünüyorsunuz.\pResimlere de ilginiz var mı?$"
+	.string "Öyle mi?\nSahiden bir POKéMON eğitmeni\lgibi görünüyorsunuz.\pResimlere de ilginiz var mı?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
 	.string "Anlıyorum.\pBuna rağmen bizi ziyaret etmenizden\nonur duydum.$"

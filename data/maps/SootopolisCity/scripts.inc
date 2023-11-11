@@ -1546,7 +1546,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "Gözlerim beni yanıltmadı.\pYardımların sayesinde, SOOTOPOLİS…\nHayır, tüm HOENN kurtuldu.\pHalkım adına, sana teşekkür ederim.\pBu benden bir hediye.\nLütfen kabul et.$"
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
-	.string "Bu GİZLİ MAKİNE, ŞELALE içerir.\pEğer YAĞMUR ROZETİ'ne sahipsen, HM\nsaldırısını öğrenebilen bir POKéMON\lşelaleye tersine çıkabilir.\pPeki YAĞMUR ROZETİ nereden alıyor?\nBiliyorsun, değil mi?\pAynen öyle!\nSOOTOPOLİS SALON LİDERİNİ\nyenmelisin.\pHazır olduğunda, şu kapıdan geç.$"
+	.string "Bu GİZLİ MAKİNE, ŞELALE içerir.\pEğer YAĞMUR ROZETİ'ne sahipsen, HM\nsaldırısını öğrenebilen bir POKéMON\lşelaleye tersine çıkabilir.\pPeki YAĞMUR ROZETİ nereden alıyor?\nBiliyorsun, değil mi?\pSOOTOPOLİS SALON LİDERİNİ\nyenmelisin.\pHazır olduğunda, şu kapıdan geç.$"
 
 SootopolisCity_Text_DazzledByMentor:
 	.string "WALLACE: Akıl hocamın nefes kesen\nzarif savaş tarzının gözlerini\lkamaştıracağından eminim.$"

@@ -195,7 +195,7 @@ JaggedPass_Text_EthanRematchIntro:
 	.string "Bu araziye alıştım.\pArtık tırmanırken şarkı bile\nsöylüyorum.$"
 
 JaggedPass_Text_EthanRematchDefeat:
-	.string "Bu engebeli zeminde savaşmak hala\nkolay değil…$"
+	.string "Bu engebeli zeminde savaşmak hâlâ\nkolay değil…$"
 
 JaggedPass_Text_EthanPostRematch:
 	.string "MAUVILLE ŞEHRİ'ndeki RYDEL'den bir\nAKRO BİSİKLET almalıyım.$"

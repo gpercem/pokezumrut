@@ -1161,7 +1161,7 @@ SlateportCity_Text_FineBerryPowderTradeSomethingElse:
 	.string "Bu iyi bir MEYVE TOZU.\nMükemmel bir ilaç olacak.\pMEYVE TOZU'nuzu başka bir şeyle takas\netmek ister misin?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:
-	.string "Tamam! Tamam!\nBiraz daha MEYVE TOZU yaptığında\nbana getir, lütfen!$"
+	.string "Tamam! Tamam!\pBiraz daha MEYVE TOZU yaptığında\nbana getir, lütfen!$"
 
 SlateportCity_Text_ComeBackToTradeBerryPowder:
 	.string "MEYVE TOZUNU ilaçla takas etmek\nistersen geri gel.\pPazarım hep açıktır.\pBunu biliyor muydun?$"

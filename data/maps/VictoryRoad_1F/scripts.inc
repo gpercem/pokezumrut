@@ -145,7 +145,7 @@ VictoryRoad_1F_Text_EdgarDefeat:
 	.string "Hayalim yine burada bitiyor.$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "Buraya kadar gelebildin.\nMomentumunu koru ve şampiyonluğa\nyürü!\pBunu yapabilecek biri varsa, o da\nsensin!$"
+	.string "Buraya kadar gelebildin.\nMomentumunu koru ve şampiyonluğa\lyürü!\pBunu yapabilecek biri varsa, o da\nsensin!$"
 
 VictoryRoad_1F_Text_AlbertIntro:
 	.string "Bunca yolu şimdi kaybetmek için\ngelmedim. Böyle bir olasılık yok!$"

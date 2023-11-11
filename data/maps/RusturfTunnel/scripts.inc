@@ -424,7 +424,7 @@ RusturfTunnel_EventScript_Mike::
 	end
 
 RusturfTunnel_Text_ComeAndGetSome:
-	.string "Ne, hala peşimde misin?\nGel de gör o zaman!$"
+	.string "Ne, hâlâ peşimde misin?\nGel de gör o zaman!$"
 
 RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"

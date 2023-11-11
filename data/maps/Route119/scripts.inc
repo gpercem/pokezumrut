@@ -492,7 +492,7 @@ Route119_Text_MayExplainFly:
 	.string "MAY: FLY'ı kullandığında\nPOKéMON'un seni daha önce ziyaret\lettiğin herhangi bir şehre anında\luçuracaktır.\pAncak, FLY'ı kullanmak için FORTREE\nŞEHRİ'nden SALON ROZETİ alman\lgerekir. Bu önemli, o yüzden unutma.\pEve uçmalı ve değişiklik olsun diye\nLITTLEROOT'u ziyaret etmelisin.\pEminim annen senin için\nendişeleniyordur, {PLAYER}{KUN}.\pPekala, umarım tekrar buluşuruz!$"
 
 Route119_Text_BrendanIntro:
-	.string "BRENDAN: {PLAYER}!\nDemek POKéMON'ları buralarda\narıyorsun.\pBakalım ne kadar güçlendin.\nBir test edelim!\pHazır mısın?\nTabii ki hazırsın! Hadi bakalım!$"
+	.string "BRENDAN: {PLAYER}!\nDemek POKéMON'ları buralarda\larıyorsun.\pBakalım ne kadar güçlendin.\nBir test edelim!\pHazır mısın?\nTabii ki hazırsın! Hadi bakalım!$"
 
 Route119_Text_BrendanDefeat:
 	.string "Hmm…\nOldukça iyi olmuşsun.$"

@@ -1014,7 +1014,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "biliyordum ama bu kadarını da\l"
 	.string "beklemiyordum.\p"
 	.string "Ah, evet. Sana verdiğim POKéDEX\n"
-	.string "hala sende mi?\p"
+	.string "hâlâ sende mi?\p"
 	.string "Sana göstereceğim bir şey var.\n"
 	.string "Hadi LABORATUVAR'ıma gidelim.$"
 

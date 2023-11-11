@@ -473,7 +473,7 @@ LilycoveCity_Text_ChanceToDoBigThings:
 	.string "Ben sadece bir haydutum. Bu yüzden\nPATRON'un ne düşündüğünü bilmiyorum…\pAma AQUA TAKIMI'nda olduğum için büyük\nşeyler yapma şansım olacağını biliyorum!\pSen de kimsin?!\nB-ben kendi kendime konuşuyordum!$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-	.string "Hey, sen!\pKoydaki mağaraya yaklaşma!\pNeden mi? Bir nedene ihtiyacın yok!\nBen bir yetişkinim, bu yüzden\nbeni dinlemelisin!$"
+	.string "Hey, sen!\pKoydaki mağaraya yaklaşma!\pNeden mi? Bir nedene ihtiyacın yok!\nBen bir yetişkinim, bu yüzden\lbeni dinlemelisin!$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "Eğer bu dünya bizim, yani AQUA\nTAKIMI'nın olursa, POKéMON'lar için de\ldaha mutlu bir yer olacaktır.$"
@@ -527,7 +527,7 @@ LilycoveCity_Text_CitySign:
 	.string "LİLYCOVE ŞEHRİ\pKaranın bitip denizin başladığı yer.$"
 
 LilycoveCity_Text_ContestHallSign:
-	.string "POKéMON YARIŞMA SALONU\nEĞİTMENLER için toplanma yeri!$"
+	.string "POKéMON YARIŞMA SALONU\nKapalıyız!$"
 
 LilycoveCity_Text_MotelSign:
 	.string "KOY ZAMBAĞI MOTEL\pBizi LILYCOVE'daki KOY ZAMBAĞI\nolarak hatırlayın.$"

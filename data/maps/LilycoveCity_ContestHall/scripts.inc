@@ -375,7 +375,7 @@ LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
 	.string "Bence POKéMON'lar eğitmenlerinden\ndaha zekilerdir. Hem de çok.$"
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
-	.string "Kim ne derse desin, ZEKA\nYARIŞMALARINI hala seviyorum.\pŞu entelektüel yeşil renk…\nÇok… Çok… Havalı.$"
+	.string "Kim ne derse desin, ZEKA\nYARIŞMALARINI hâlâ seviyorum.\pŞu entelektüel yeşil renk…\nÇok… Çok… Havalı.$"
 
 LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
 	.string "SUNUCU: Sen de GÜZELLİK YARIŞMASI'na\nkatılıyor musun? İyi şanslar!$"

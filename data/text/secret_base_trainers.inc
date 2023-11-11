@@ -1,286 +1,179 @@
 SecretBase_Text_Trainer0Intro:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Since you're already here, how would\n"
-	.string "you like to battle?$"
+	.string "Şimdiden bir GİZLİ ÜS mü yaptın?\pBurayı seçmeden önce oraya, buraya,\nher yere gittim.\pZaten burada olduğuna göre, nasıl\nsavaşmak istersin?$"
 
 SecretBase_Text_Trainer0AcceptBattle:
-	.string "Okay!\n"
-	.string "Here we come!$"
+	.string "Tamam! Tamam!\nİşte geliyoruz!$"
 
 SecretBase_Text_Trainer0DeclineBattle:
-	.string "Hunh?\n"
-	.string "Oh, you can't now…$"
+	.string "Ha?\nYa, şimdi yapamaz mısın…?$"
 
 SecretBase_Text_Trainer0Defeated::
-	.string "Waaargh! You're too strong!\n"
-	.string "About me losing… Please keep it secret!$"
+	.string "Vaaargh! Çok güçlüsün!\nLütfen… Lütfen bunu gizli tut!$"
 
 SecretBase_Text_Trainer0PostBattle:
-	.string "What do you think of my SECRET BASE?\n"
-	.string "Come visit me again tomorrow.$"
+	.string "Gizli üssüm hakkında ne düşünüyorsun?\nYarın beni tekrar ziyarete gel.$"
 
 SecretBase_Text_Trainer0PreChampion:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Feel free to hang out!$"
+	.string "Şimdiden bir GİZLİ ÜS mü yaptınız?\pBurayı seçmeden önce oraya, buraya,\nher yere gittim.\pTakılmaktan çekinmeyin!$"
 
 SecretBase_Text_Trainer5Intro:
-	.string "There're a lot of places where\n"
-	.string "you can make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?\p"
-	.string "Oh, would you like to have a battle?$"
+	.string "GİZLİ ÜS yapabileceğiniz pek çok yer\nvar.\pAma ben en çok burayı seviyorum. Sence\nde güzel değil mi?\pOh, savaşmak ister misin?$"
 
 SecretBase_Text_Trainer5AcceptBattle:
-	.string "Okay, here goes!$"
+	.string "Tamam, işte başlıyoruz!$"
 
 SecretBase_Text_Trainer5DeclineBattle:
-	.string "Oh…\n"
-	.string "You can't now, okay.$"
+	.string "Oh… Şimdi yapamazsın, tamam.$"
 
 SecretBase_Text_Trainer5Defeated::
-	.string "Hmmm… It's our loss…\n"
-	.string "But don't tell anyone!\l"
-	.string "It's a confidential secret!$"
+	.string "Hmmm… Bu benim kaybım…\nKimseye söyleme! Bu gizli bir sır!$"
 
 SecretBase_Text_Trainer5PostBattle:
-	.string "If you're in this area again,\n"
-	.string "I hope you'll visit me.$"
+	.string "Bu bölgeye tekrar yolunuz düşerse,\numarım beni ziyaret edersiniz.$"
 
 SecretBase_Text_Trainer5PreChampion:
-	.string "There're a lot of places where you can\n"
-	.string "make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?$"
+	.string "GİZLİ ÜS yapabileceğiniz pek çok yer\nvar.\pAma ben en çok burayı seviyorum. Sence\nde güzel değil mi?$"
 
 SecretBase_Text_Trainer1Intro:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "Oh! Were you thinking about\n"
-	.string "taking this spot, too?\p"
-	.string "I'll tell you what, you can have this\n"
-	.string "spot if you can beat me.$"
+	.string "Burası popüler bir yerdir. Her zaman\nalınır.\pSen de mi burayı almayı düşünüyordun?\pBak ne diyeceğim, eğer beni\nyenebilirsen burayı alabilirsin.$"
 
 SecretBase_Text_Trainer1AcceptBattle:
-	.string "Okay!\n"
-	.string "I'm going to defend my SECRET BASE!$"
+	.string "Tamam! Tamam!\nGizli üssümü savunacağım!$"
 
 SecretBase_Text_Trainer1DeclineBattle:
-	.string "Hunh? Is that right?\n"
-	.string "You're not interested in this spot?$"
+	.string "Hunh? Bu doğru mu? Burayla\nilgilenmiyor musun?$"
 
 SecretBase_Text_Trainer1Defeated::
-	.string "I can't keep going!\n"
-	.string "I surrender!$"
+	.string "Devam edemem! Teslim oluyorum!$"
 
 SecretBase_Text_Trainer1PostBattle:
-	.string "Okay, when I move one day,\n"
-	.string "this place will be yours!$"
+	.string "Tamam, bir gün taşındığımda, burası\nsenin olacak!$"
 
 SecretBase_Text_Trainer1PreChampion:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "I waited a long time for it to open.\n"
-	.string "I finally got to use it!$"
+	.string "Burası popüler bir yerdir. Her zaman\ndolu.\pAçılması için uzun süre bekledim.\nSonunda kullanabildim!$"
 
 SecretBase_Text_Trainer6Intro:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.\p"
-	.string "Would you like to see how strong I am?$"
+	.string "POKéMON LABORATUVARIMA hoş geldiniz.\pGizlilik içinde savaşmak üzerine\naraştırmalar yapıyorum.\pNe kadar güçlü olduğumu görmek ister\nmisin?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
-	.string "I'm going to go all out!$"
+	.string "Elimden geleni yapacağım!$"
 
 SecretBase_Text_Trainer6DeclineBattle:
-	.string "Oh.\n"
-	.string "Some other time, then!$"
+	.string "Oh. O zaman başka bir zaman!$"
 
 SecretBase_Text_Trainer6Defeated::
-	.string "Hmm… I've still got lots to learn.\n"
-	.string "I have to study some more.$"
+	.string "Hmm… Hala öğrenmem gereken çok şey\nvar. Biraz daha çalışmalıyım.$"
 
 SecretBase_Text_Trainer6PostBattle:
-	.string "Thanks for battling with me.\n"
-	.string "Please come back again tomorrow.$"
+	.string "Benimle mücadele ettiğiniz için\nteşekkürler. Lütfen yarın tekrar\lgelin.$"
 
 SecretBase_Text_Trainer6PreChampion:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.$"
+	.string "POKéMON LABORATUVARIMA hoş geldiniz.\pGizlilik içinde mücadele üzerine\naraştırmalar yapıyorum.$"
 
 SecretBase_Text_Trainer2Intro:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.\p"
-	.string "So, how would you like a battle?$"
+	.string "Büyük bir malikane güzeldir ama ben\nböyle bir yeri daha çok seviyorum.\pSeviyorum çünkü her çeşit insan beni\nziyarete geliyor.\pPeki, bir savaşa ne dersin?$"
 
 SecretBase_Text_Trainer2AcceptBattle:
-	.string "That's the way!$"
+	.string "İşte böyle!$"
 
 SecretBase_Text_Trainer2DeclineBattle:
-	.string "When you're ready, give me a shout!$"
+	.string "Hazır olduğunuzda bana seslenin!$"
 
 SecretBase_Text_Trainer2Defeated::
-	.string "Aww! Done in!\n"
-	.string "But it's still fun to battle!$"
+	.string "Aww! Bitti! Ama yine de savaşmak\neğlenceli!$"
 
 SecretBase_Text_Trainer2PostBattle:
-	.string "Well, anyway, I should go buy some\n"
-	.string "decorations and furniture.\p"
-	.string "I want my SECRET BASE to be a place\n"
-	.string "other people can enjoy.$"
+	.string "Neyse, gidip biraz dekorasyon ve\nmobilya almalıyım.\pGİZLİ ÜSSÜMÜN diğer insanların da\nkeyif alabileceği bir yer olmasını\listiyorum.$"
 
 SecretBase_Text_Trainer2PreChampion:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.$"
+	.string "Büyük bir malikane güzeldir ama ben\nböyle bir yeri daha çok seviyorum.\pSeviyorum çünkü her türden insan beni\nziyarete geliyor.$"
 
 SecretBase_Text_Trainer7Intro:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.\p"
-	.string "If you would be so kind, will you battle\n"
-	.string "with my POKéMON?$"
+	.string "Dekorasyon ve mobilya alışverişine\nbayılıyorum.\pPOKéMON yetiştirmeyi de bir o kadar\nseviyorum.\pEğer çok nazik olursanız, POKéMON'umla\nsavaşır mısınız?$"
 
 SecretBase_Text_Trainer7AcceptBattle:
-	.string "Thank you.\n"
-	.string "Shall we begin?$"
+	.string "Teşekkür ederim. Başlayalım mı?$"
 
 SecretBase_Text_Trainer7DeclineBattle:
-	.string "Oh.\n"
-	.string "How disappointing…$"
+	.string "Oh. Ne kadar hayal kırıklığı…$"
 
 SecretBase_Text_Trainer7Defeated::
-	.string "I concede…$"
+	.string "Kabul ediyorum.$"
 
 SecretBase_Text_Trainer7PostBattle:
-	.string "That was all in good fun!\n"
-	.string "I should go enjoy shopping now.$"
+	.string "Hepsi çok eğlenceliydi! Şimdi gidip\nalışverişin tadını çıkarmalıyım.$"
 
 SecretBase_Text_Trainer7PreChampion:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.$"
+	.string "Dekorasyon ve mobilya alışverişine\nbayılıyorum.\pAyrıca POKéMON yetiştirmeyi de çok\nseviyorum.$"
 
 SecretBase_Text_Trainer3Intro:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?\p"
-	.string "But since you found me, how about we\n"
-	.string "have a battle?$"
+	.string "Bazı insanlar GİZLİ ÜSLERİNİ\nbulunması zor yerlerde yaparlar.\lÖylece saklanmak mı istiyorlar?\pAma madem beni buldun, bir savaşa ne\ndersin?$"
 
 SecretBase_Text_Trainer3AcceptBattle:
-	.string "I'm not going down easily!$"
+	.string "Kolayca düşmeyeceğim!$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-	.string "Oh… Are you maybe tired from searching\n"
-	.string "for this place?$"
+	.string "Oh… Burayı aramaktan yorulmuş\nolabilir misiniz?$"
 
 SecretBase_Text_Trainer3Defeated::
-	.string "I went down…$"
+	.string "Aşağı indim.$"
 
 SecretBase_Text_Trainer3PostBattle:
-	.string "Where's your SECRET BASE?\n"
-	.string "I should go visit you there.$"
+	.string "Gizli üssün nerede? Seni orada ziyaret\netmeliyim.$"
 
 SecretBase_Text_Trainer3PreChampion:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?$"
+	.string "Bazı insanlar GİZLİ ÜSLERİNİ\nbulunması zor yerlerde yaparlar.\lSadece gizlenmek mi istiyorlar?$"
 
 SecretBase_Text_Trainer8Intro:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!\p"
-	.string "In the meantime, want to battle?$"
+	.string "İnsanlar bana çeşitli şekillerde\nsüslemeler alabileceğinizi söylediler.\pKimin daha güzel dekorasyon ve mobilya\nalabileceğini görmek için bir yarış\lyapmalıyız!\pBu arada, savaşmak ister misin?$"
 
 SecretBase_Text_Trainer8AcceptBattle:
-	.string "This is my SECRET BASE.\n"
-	.string "I can't lose!$"
+	.string "Burası benim gizli üssüm. Kaybedemem!$"
 
 SecretBase_Text_Trainer8DeclineBattle:
-	.string "I'll battle with you anytime.$"
+	.string "Seninle her zaman savaşırım.$"
 
 SecretBase_Text_Trainer8Defeated::
-	.string "Huh?\n"
-	.string "Did I just lose?$"
+	.string "Ha? Az önce kaybettim mi?$"
 
 SecretBase_Text_Trainer8PostBattle:
-	.string "I won't lose at collecting decorations.\n"
-	.string "Come visit again!$"
+	.string "Süslemeleri toplarken\nkaybetmeyeceğim. Tekrar ziyarete gel!$"
 
 SecretBase_Text_Trainer8PreChampion:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!$"
+	.string "İnsanlar bana çeşitli şekillerde\nsüslemeler alabileceğinizi söylediler.\pKimin daha güzel dekorasyon ve mobilya\nalabileceğini görmek için bir yarış\lyapmalıyız!$"
 
 SecretBase_Text_Trainer4Intro:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "That's what I do.\n"
-	.string "Want to battle with me?$"
+	.string "Sevdiğim bir yer buldum ve en sevdiğim\ndekorasyonlarla süsledim.\pEn sevdiğim POKéMON'umu büyüttüm ve\nonunla güçlendim.\pYaptığım şey bu. Benimle savaşmak\nister misin?$"
 
 SecretBase_Text_Trainer4AcceptBattle:
-	.string "Show me what you're made of!$"
+	.string "Neyden yapıldığını göster bana!$"
 
 SecretBase_Text_Trainer4DeclineBattle:
-	.string "I guess there are times when you're not\n"
-	.string "into it.$"
+	.string "Sanırım bu işle ilgilenmediğin zamanlar\noluyor.$"
 
 SecretBase_Text_Trainer4Defeated::
-	.string "I know exactly what you're made of now.$"
+	.string "Artık tam olarak neyden yapıldığını\nbiliyorum.$"
 
 SecretBase_Text_Trainer4PostBattle:
-	.string "We can both become stronger.\n"
-	.string "Let's keep at it!$"
+	.string "İkimiz de daha güçlü olabiliriz. Devam\nedelim!$"
 
 SecretBase_Text_Trainer4PreChampion:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "Every day is a great day.$"
+	.string "Sevdiğim bir yer buldum ve en sevdiğim\ndekorasyonlarla süsledim.\pEn sevdiğim POKéMON'umu büyütüyorum\nve onunla güçleniyorum.\pHer gün harika bir gün.$"
 
 SecretBase_Text_Trainer9Intro:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?\p"
-	.string "Want to see my taste in battling?$"
+	.string "Sahip oldukları dekorasyon türlerine\nve bunları nasıl sergilediklerine\lbakarak insanların zevkleri ve\lanlayışları hakkında çok şey\löğrenebilirsiniz.\pZevkim hakkında ne düşünüyorsunuz?\nNutkun tutuldu mu?\pZevkimi savaşırken görmek ister\nmisiniz?$"
 
 SecretBase_Text_Trainer9AcceptBattle:
-	.string "There's no holding back!$"
+	.string "Geri durmak yok!$"
 
 SecretBase_Text_Trainer9DeclineBattle:
-	.string "I'll be happy to demonstrate my style\n"
-	.string "anytime.$"
+	.string "Tarzımı her zaman göstermekten\nmutluluk duyarım.$"
 
 SecretBase_Text_Trainer9Defeated::
-	.string "You're supremely talented!\n"
-	.string "Your power seems to be limitless…$"
+	.string "Son derece yeteneklisin!\nGücün sınırsız gibi görünüyor…$"
 
 SecretBase_Text_Trainer9PostBattle:
-	.string "What did you think of my style?\n"
-	.string "I'll keep on polishing it!$"
+	.string "Tarzım hakkında ne düşünüyorsunuz?\nParlatmaya devam edeceğim!$"
 
 SecretBase_Text_Trainer9PreChampion:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?$"
+	.string "Sahip oldukları dekorasyon türlerine\nve bunları nasıl sergilediklerine\lbakarak insanların zevkleri ve\lanlayışları hakkında çok şey\löğrenebilirsiniz.\pZevkim hakkında ne düşünüyorsunuz?\nNutkun tutuldu mu?$"

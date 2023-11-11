@@ -91,6 +91,6 @@ VerdanturfTown_Text_BattleTentSign:
 	.string "VERDANTURF SAVAŞ ÇADIRI\nSavaşlarda Gözleriniz Bayram Etsin!$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TÜNELİ\nRUSTBORO ve VERDANTURF'u Birbirine\nBağlıyor!\pTünel projesi iptal edildi.$"
+	.string "RUSTURF TÜNELİ\nRUSTBORO ve VERDANTURF'u Birbirine\lBağlıyor!\pTünel projesi iptal edildi.$"
 
 

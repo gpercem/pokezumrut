@@ -328,7 +328,7 @@ VerdanturfTown_BattleTentLobby_EventScript_ExitRules::
 	end
 
 VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
-	.string "POKéMON'lar, bir saldırıyı sevmezse\nonu kullanmak konusunda isteksiz\lolacaklardı.\pNe kadar güçlü olduğu da önemli\ndeğildir.\pÖrneğin, NAIVE doğasına sahip bir\nPOKéMON muhtemelen rakiplerine zarar\lvermekten hoşlanmayacaktır.\pPotansiyeline ulaşamıyor gibi\ngörünüyorsa, muhtemelen sevmediği bir\lsaldırıyı kendi iradesi dışında\lkullanmakta başarısız oluyordur.$"
+	.string "POKéMON'lar, bir saldırıyı sevmezse\nonu kullanmak konusunda isteksiz\lolacaklardı.\pNe kadar güçlü olduğu da önemli\ndeğildir.\pÖrneğin, NAİF doğasına sahip bir\nPOKéMON muhtemelen rakiplerine zarar\lvermekten hoşlanmayacaktır.\pPotansiyeline ulaşamıyor gibi\ngörünüyorsa, muhtemelen sevmediği bir\lsaldırıyı kendi iradesi dışında\lkullanmakta başarısız oluyordur.$"
 
 VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
 	.string "Ablam genelde naziktir.\nAma sinirlendiğinde gerçekten\lçok korkutucu oluyor!\pBahse girerim nazik bir POKéMON\nsinirlendiğinde korkutucu olacaktır!$"
@@ -343,7 +343,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 	.string "POKEMON'una ne tür saldırılar\nöğrettin?\pBence kendilerini nasıl\niyileştireceklerini veya\lkoruyacaklarını bilirlerse kendilerine\lbir avantaj sağlarsın.$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
-	.string "SCOTT: Selam, {PLAYER}{KUN}!\nSeni burada görebileceğimi\ntahmin etmiştim.\pSAVAŞ ÇADIRI, zorlu EĞİTMENLERLE\ntanışabileceğin bir yerdir.\pKuralların ne olduğu ya da savaşların\nnasıl yapıldığı da önemli değildir.\p{PLAYER}{KUN}, elinden gelenin en\niyisini yapmanı bekliyorum!$"
+	.string "SCOTT: Selam, {PLAYER}{KUN}!\nSeni burada görebileceğimi\ltahmin etmiştim.\pSAVAŞ ÇADIRI, zorlu EĞİTMENLERLE\ntanışabileceğin bir yerdir.\pKuralların ne olduğu ya da savaşların\nnasıl yapıldığı da önemli değildir.\p{PLAYER}{KUN}, elinden gelenin en\niyisini yapmanı bekliyorum!$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 	.string "SCOTT: Her ne durumda olursa olsun,\nzorlu EĞİTMENLERİ iş başında görmek\lumuduyla burayı düzenli olarak ziyaret\lediyorum.$"

@@ -264,7 +264,7 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "Burada kalıyorum çünkü FLANNERY'nin\ngücüne hayran kaldım.\pHehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "Hoş geldin…\nHayır, bir saniye.\pSeni çelimsiz EĞİTMEN, buraya geldiğini\ngörmek şaşırtıcı!\pBu görev bana… Hayır, bekle.\nE-hem.\pBen FLANNERY, SALON LİDERİ'yim!\pEe…\nEvet, kısa süredir liderim ama beni\nhafife alma!\pBüyük babamdan miras kalan\nyeteneklerimle, bu topraklarda\lgeliştirdiğim ateşli hareketleri\lsana göstereceğim!$"
+	.string "Hoş geldin…\nHayır, bir saniye.\pSeni çelimsiz EĞİTMEN, buraya geldiğini\ngörmek şaşırtıcı!\pBu görev bana… Hayır, bekle.\nE-hem.\pBen FLANNERY, SALON LİDERİ'yim!\pEe…\nEvet, kısa süredir liderim ama beni\lhafife alma!\pBüyük babamdan miras kalan\nyeteneklerimle, bu topraklarda\lgeliştirdiğim ateşli hareketleri\lsana göstereceğim!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Ah…\nZorlandığımı söyleyebilirim…\pBen…\nDaha yeni SALON LİDERİ oldum.\pOlmadığım biri olmak için çok uğraştım.\pİşleri doğal yolumla yapmalıyım.\nEğer yapmazsam, POKéMON'larımın\lkafası karışacak.\pBana bunu öğrettiğin için teşekkürler.\nBunu hak ediyorsun.$"

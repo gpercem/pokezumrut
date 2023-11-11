@@ -393,7 +393,7 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "Seni göreli çok uzun zaman oldu,\n"
 	.string "ve bayağı… güçlü görünüyorsun.\p"
 	.string "Görünümün öyle gösteriyor.\n"
-	.string "Ama bu yaşlı adam da hala yerli\nyerinde!\p"
+	.string "Ama bu yaşlı adam da hâlâ yerli\lyerinde!\p"
 	.string "Evet, sana vereceğim bir şey var.\n"
 	.string "BAY BRINEY isimli biri bunu sana\l"
 	.string "gönderdi.$"

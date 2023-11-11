@@ -293,13 +293,13 @@ Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
 	.string "Benim için hiç hazinen yok.\pKIRMIZI PARÇA gibi herhangi bir PARÇA\ngörürsen, onu benimle takas\letmelisin!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Ah, hey!\nBu… Bu bir PARÇA!\nBen de onlardan arıyordum!\pDostum, bunu benimle takas etmelisin!\nSana iyi bir şey vereceğim!$"
+	.string "Ah, hey!\nBu… Bu bir PARÇA!\lBen de onlardan arıyordum!\pDostum, bunu benimle takas etmelisin!\nSana iyi bir şey vereceğim!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
 	.string "Ne takas etmek istiyorsun?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "O zaman {STR_VAR_1} eşyasını benim\n{STR_VAR_2} eşyamla takas edecek\nmisin?$"
+	.string "O zaman {STR_VAR_1} eşyasını benim\n{STR_VAR_2} eşyamla takas edecek\lmisin?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
 	.string "Anlaştık!\nBunu akıllıca kullan!$"

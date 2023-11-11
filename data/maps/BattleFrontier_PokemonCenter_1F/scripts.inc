@@ -43,7 +43,7 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 	.string "Burada daha önce hiç görmediğim bir\nPOKéMON kullanan biri vardı.\pEn azından EĞİTMEN OKULU'nda bunu\nhiç öğrenmemiştim.\pBöyle bir POKéMON'u nerede\nyakalayabileceğinizi merak ediyorum.$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
-	.string "Tamam!\nSonraki durak, SAVAŞ ARENASI!\nBilgisayardan doğru POKéMON'u\lalsam iyi olur.$"
+	.string "Tamam!\nSonraki durak, SAVAŞ ARENASI!\pBilgisayardan doğru POKéMON'u\nalsam iyi olur.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
 	.string "Haha… Bu bebekle her zorluğun\nüstesinden geleceğim!$"

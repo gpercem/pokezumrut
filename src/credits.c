@@ -118,6 +118,24 @@ static void SpriteCB_Rival(struct Sprite *);
 static u8 CreateCreditsMonSprite(u16, s16, s16, u16);
 static void DeterminePokemonToShow(void);
 
+static const u8 sTheEnd_LetterMap_S[] =
+{
+    1, 0, 0,
+    1, 0xFF, 0xFF,
+    1, 2,    2,
+    0xFF, 0xFF, 1,
+    1, 0x80, 0x80,
+};
+
+static const u8 sTheEnd_LetterMap_O[] =
+{
+    1, 0, 1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
+    1, 0x80, 0x80,
+};
+
 static const u8 sTheEnd_LetterMap_T[] =
 {
     0,    1, 0,
@@ -1334,12 +1352,9 @@ static void DrawTheEnd(u16 offset, u16 palette)
     for (pos = 0; pos < 32 * 32; pos++)
         ((u16 *) (VRAM + offset))[pos] = baseTile + 1;
 
-    DrawLetterMapTiles(sTheEnd_LetterMap_T, 3, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_H, 7, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_E, 11, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_E, 16, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_N, 20, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_D, 24, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_S, 9, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_O, 13, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_N, 17, 7, offset, palette);
 }
 
 #define sState data[0]

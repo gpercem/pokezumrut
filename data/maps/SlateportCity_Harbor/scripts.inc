@@ -462,4 +462,4 @@ SlateportCity_Harbor_Text_HandedScannerToStern:
 	.string "{PLAYER}, TARAYICIYI kaptana verdi.$"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-	.string "KAPTAN STERN: Teşekkürler, {PLAYER}{KUN}!\nBu araştırmamıza çok yardımcı\nolacak!$"
+	.string "KAPTAN STERN: Teşekkürler, {PLAYER}{KUN}!\nBu araştırmamıza çok yardımcı\lolacak!$"

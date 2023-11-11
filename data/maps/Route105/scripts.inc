@@ -77,7 +77,7 @@ Route105_EventScript_AndresRematch::
 	end
 
 Route104_Text_DadPokenavCall:
-	.string "… … … … … …\n… … … … … … Bip!\pEe, {PLAYER}?\p… … … … … …\nNerelerdesin?\nRüzgarlı bir yerdesin gibi.\pAz önce DEVON'daki BAY STONE'dan\nPOKéNAV aldığını duydum. Sonra\lseni aramaya karar verdim.\pGörünüşe göre iyi gidiyorsun, yani\niçim rahat.\pKendine iyi bak.\p… … … … … …\n… … … … … … Tık!$"
+	.string "… … … … … …\n… … … … … … Bip!\pEe, {PLAYER}?\p… … … … … …\nNerelerdesin?\lRüzgarlı bir yerdesin gibi.\pAz önce DEVON'daki BAY STONE'dan\nPOKéNAV aldığını duydum. Sonra\lseni aramaya karar verdim.\pGörünüşe göre iyi gidiyorsun, yani\niçim rahat.\pKendine iyi bak.\p… … … … … …\n… … … … … … Tık!$"
 
 Route104_Text_RegisteredDadInPokenav:
 	.string "POKéNAV'a BABAM NORMAN\neklendi.$"

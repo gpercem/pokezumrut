@@ -233,8 +233,89 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 	msgbox BattleFrontier_OutsideEast_Text_StickyMonWithLongTail, MSGBOX_NPC
 	end
 
+BattleFrontier_OutsideEast_EventScript_ItemAuroraTicket::
+	finditem ITEM_AURORA_TICKET
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	setflag FLAG_RECEIVED_AURORA_TICKET
+	msgbox ArtisanCave_B1F_Text_OldSeaMap, MSGBOX_DEFAULT
+	closemessage
+	end
+
+BattleFrontier_OutsideEast_EventScript_ItemMysticTicket::
+	finditem ITEM_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	setflag FLAG_RECEIVED_MYSTIC_TICKET
+	msgbox BattleFrontier_Text_MysticTicket, MSGBOX_DEFAULT
+	closemessage
+	end
+
+
+
+
+BattleFrontier_OutsideEast_EventScript_Emir::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_MYSTIC_TICKET, BattleFrontier_OutsideEast_Event_GoodLuck
+	waitse
+	playse SE_PIN
+	applymovement LOCALID_STEVEN, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_STEVEN, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_STEVEN, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox BattleFrontier_OutsideEast_Text_ShouldKnowHowGoodIAmExpectWorst, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_EMIR, BattleFrontier_OutsideEast_Text_EmirDefeat
+	goto BattleFrontier_OutsideEast_GiveItem
+	end
+
+BattleFrontier_OutsideEast_Event_GoodLuck::
+	msgbox BattleFrontier_OutsideEast_Text_GoodLuck, MSGBOX_DEFAULT
+	end
+
+
+BattleFrontier_OutsideEast_GiveItem::
+	msgbox BattleFrontier_OutsideEast_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_RECEIVED_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	closemessage
+	face_right
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_Emir_Defeated::
+	applymovement LOCALID_STEVEN, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox BattleFrontier_OutsideEast_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_Text_ShouldKnowHowGoodIAmExpectWorst:
+	.string "EMİR: Selam yoldaş!\nGörünen o ki bir şeyler başarmışsın.\pBen bu oyunun çeviri ekibindeyim\nve seninle ufak bir savaş yapmak için\lburalara kadar geldim.\pBeni kırmazsın değil mi?$"
+
+BattleFrontier_OutsideEast_Text_EmirDefeat:
+	.string "Epey iyisin.\nTebrikler.$"
+
+BattleFrontier_OutsideEast_Text_MyPredictionCameTrue:
+	.string "EMİR: Bu bileti sana hediye etmek\nistiyorum.$"
+
+BattleFrontier_OutsideEast_Text_GoodLuck:
+	.string "EMİR: Maceranda bol şans!$"
+
+
+
+
+
+
+BattleFrontier_Text_AuroraTicket:
+	.string "Bu bir gemi bileti.\pBırakılalı uzun zaman olmuş gibi\nduruyor.$"
+
+BattleFrontier_Text_MysticTicket:
+	.string "Bu bir gemi bileti.\pBırakılalı uzun zaman olmuş gibi\nduruyor.$"
+
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
-	.string "Burası SAVAŞ KULESİ!\nEn zorlu EĞİTMENLERE karşı\nseri sürdürün!$"
+	.string "Burası SAVAŞ KULESİ!\nEn zorlu EĞİTMENLERE karşı\lseri sürdürün!$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
 	.string "Burası SAVAŞ SARAYI!\nGözünüz POKéMON savaşlarında olsun!$"
@@ -255,7 +336,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
 	.string "Vay canına! Çok büyük!\pSAVAŞ KULESİ özel hissettiriyor.\nDiğerlerinden farklı.$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
-	.string "En büyük arzum hem SAVAŞ SINIRI'nı\nhem de POKéMON LİGİ'ni fethetmek.\pVe eğer hayallerim gerçekleşirse.\pBen… Ben yan komşum Mimi'ye benimle\narkadaş olup olamayacağını soracağım!$"
+	.string "En büyük arzum hem SAVAŞ SINIRI'nı\nhem de POKéMON LİGİ'ni fethetmek.\pVe eğer hayallerim gerçekleşirse…\pBen… Ben yan komşum Mimi'ye benimle\narkadaş olup olamayacağını soracağım!$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
 	.string "SAVAŞ PİRAMİDİ çok sert! Zirveye\nçıkamıyorum!\pBaşka seçeneğim olmadığına göre, belki\ndışarıdan tırmanabilirim…$"

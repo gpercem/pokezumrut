@@ -320,7 +320,7 @@ BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 	.string "???: {PLAYER}{KUN}!\nGelmişsin!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "REHBER: Ah!\nSCOTT, efendim!\nİyi günler, efendim!$"
+	.string "REHBER: Ah!\nSCOTT, efendim!\pİyi günler, efendim!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "SCOTT: Seni burada görmek harika,\ngerçekten öyle!\pUmarım zaman ayırır ve her yeri\nkeşfedersin.\pDoğal olarak, savaşmanın özünü de\ndeneyimleyeceğini umuyorum.\pBurada benim de odam var, vaktin\nolursa ziyaret etmekten çekinme.$"

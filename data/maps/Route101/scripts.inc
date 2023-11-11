@@ -305,4 +305,4 @@ Route101_Text_RouteSign:
 	.string "{UP_ARROW} OLDALE KASABASI$"
 	
 Route101_Text_CreditSign:
-	.string "Türkçe Yama Hazırlayan: Gökhan Perçem\nİyi oyunlar!$"
+	.string "Türkçe Yama Hazırlayan: Gökhan Perçem\nYardımcı Çevirmen: Emirhan Yılmaz\pİyi oyunlar!$"

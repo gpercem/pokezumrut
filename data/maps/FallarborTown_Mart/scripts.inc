@@ -54,6 +54,6 @@ FallarborTown_Mart_Text_Skitty:
 	.string "SKİTTY: Miyao?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
-	.string "Burada bir KÜLÇE buldum.\nSanırım başka bir işe yaramadığı\niçin onu satmam gerekecek.$"
+	.string "Burada bir KÜLÇE buldum.\nSanırım başka bir işe yaramadığı\liçin onu satmam gerekecek.$"
 
 

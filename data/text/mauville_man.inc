@@ -1,63 +1,63 @@
 @ Only contains the text for the Mauville Man named Giddy. The rest is in scripts/mauville_man.inc
 GiddyText_SoPretty::
-	.string " so pretty!$"
+	.string " çok güzel!$"
 
 GiddyText_SoDarling::
-	.string " so darling!$"
+	.string " çok sevimli!$"
 
 GiddyText_SoRelaxed::
-	.string " so relaxed!$"
+	.string " çok sakin!$"
 
 GiddyText_SoSunny::
-	.string " so sunny!$"
+	.string ", pırıl pırıl!$"
 
 GiddyText_SoDesirable::
-	.string " so desirable!$"
+	.string " karşı konulamaz!$"
 
 GiddyText_SoExciting::
-	.string " so exciting!$"
+	.string " heyecan verici!$"
 
 GiddyText_SoAmusing::
-	.string " so amusing!$"
+	.string " çok eğlenceli!$"
 
 GiddyText_SoMagical::
-	.string " so magical!$"
+	.string " büyüleyici!$"
 
 GiddyText_Is::
-	.string " is$"
+	.string "$"
 
 GiddyText_DontYouAgree::
 	.string "\n"
-	.string "Don't you agree?$"
+	.string "Sence de öyle değil mi?$"
 
 GiddyText_ISoWantToGoOnAVacation::
-	.string "I so want to go on a vacation.\n"
-	.string "Would you happen to know a nice place?$"
+	.string "Tatile çıkmak istiyorum.\n"
+	.string "Aklında güzel bir yer var mı?$"
 
 GiddyText_IBoughtCrayonsWith120Colors::
-	.string "I bought crayons with 120 colors!\n"
-	.string "Don't you think that's nice?$"
+	.string "120 renkte pastel boya getirdim!\n"
+	.string "Harika değil mi ama?$"
 
 GiddyText_WouldntItBeNiceIfWeCouldFloat::
-	.string "Wouldn't it be nice if we could float\n"
-	.string "away on a cloud of bubbles?$"
+	.string "Köpüklerden oluşan bir buluta\n"
+	.string "binip uçabilsek nasıl olurdu?$"
 
 GiddyText_WhenYouWriteOnASandyBeach::
-	.string "When you write on a sandy beach,\n"
-	.string "they wash away. It makes me sad.$"
+	.string "Kuma çizim yapınca denizin\n"
+	.string "onu silip atması…\lÜzüyor beni.$"
 
 GiddyText_WhatsTheBottomOfTheSeaLike::
-	.string "What's the bottom of the sea like?\n"
-	.string "Just once I would so love to go!$"
+	.string "Denizin dibi nasıldır acaba?\n"
+	.string "Bir kere olsun gitmek isterdim!$"
 
 GiddyText_WhenYouSeeTheSettingSunDoesIt::
-	.string "When you see the setting sun, does it\n"
-	.string "make you want to go home?$"
+	.string "Batan güneşi gördüğünde, senin\n"
+	.string "de evine gidesin gelmiyor mu?$"
 
 GiddyText_LyingBackInTheGreenGrass::
-	.string "Lying back in the green grass…\n"
-	.string "Oh, it's so, so nice!$"
+	.string "Yemyeşil çimene uzanıp kalmak…\n"
+	.string "Evet, çok güzel bir şey!$"
 
 GiddyText_SecretBasesAreSoWonderful::
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can't you feel the excitement?$"
+	.string "GİZLİ ÜSLER harikadır!\n"
+	.string "Sence de öyle değil mi?$"

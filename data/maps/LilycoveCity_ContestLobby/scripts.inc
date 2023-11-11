@@ -1016,7 +1016,7 @@ LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
 	.string "Peki, öyle olsun. Bunu kendi evime\nasacağım.\pBir dahaki sefere daha çok uğraşmam\ngerekecek. Görüşmek üzere.$"
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome:
-	.string "Hoo, vay be…\nUsta Rütbesi Yarışmaları,\nişte ben geliyorum.\pDünya, benim POKéMON'umun var\nolan en sevimli varlık olduğunu bilecek.\lZamanı geldi! Uheheheh.$"
+	.string "Hoo, vay be…\nUsta Rütbesi Yarışmaları,\lişte ben geliyorum.\pDünya, benim POKéMON'umun var\nolan en sevimli varlık olduğunu bilecek.\lZamanı geldi! Uheheheh.$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
 	.string "Burada çok çeşitli POKéMON'lar\ngörebilirsin.\pBu yüzden burayı günlük gezintimin\ndüzenli bir parçası haline getiriyorum.$"

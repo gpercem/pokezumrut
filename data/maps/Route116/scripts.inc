@@ -358,7 +358,7 @@ Route116_Text_WantToDigTunnel:
 	.string "Nnn… Aaa!\pO tüneli kazmak istiyorum!$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "Nnn… Hığaa!\nNeler oluyor?\pTüneli aletsiz kazıyordum ki bir\nserseri bana dışarı çıkmamı emretti!\pO tünel, yüksek sese tepki veren\nPOKéMON'larla dolu.\lBir kargaşaya neden olabilirler.\pBu yüzden tünel kazmak için ağır\nekipman kullanmayı bıraktık.\nO herifin aptalca bir şey yapmasından\nve POKéMON'ları kargaşaya\lsürüklemesinden korkuyorum.$"
+	.string "Nnn… Hığaa!\nNeler oluyor?\pTüneli aletsiz kazıyordum ki bir\nserseri bana dışarı çıkmamı emretti!\pO tünel, yüksek sese tepki veren\nPOKéMON'larla dolu.\lBir kargaşaya neden olabilirler.\pBu yüzden tünel kazmak için ağır\nekipman kullanmayı bıraktık.\pO herifin aptalca bir şey yapmasından\nve POKéMON'ları kargaşaya\lsürüklemesinden korkuyorum.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
 	.string "Nnn… Hığaa!\pO şapşal herif tünelden kaçtı!\nKazmaya geri dönebilirim!$"

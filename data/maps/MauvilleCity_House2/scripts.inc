@@ -47,7 +47,7 @@ MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
 	.string "Aa! LİMAN MEKTUBUN mu var?\nOnu bir JETON KUTUSU ile takas\leder misin?$"
 
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
-	.string "Çok mutlu oldum!\nTamam, seninle bir jeton kasası\ntakas edeceğim!$"
+	.string "Çok mutlu oldum!\nTamam, seninle bir jeton kasası\ltakas edeceğim!$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
 	.string "Bu JETON KUTUSUNU, OYUN KÖŞESİ'nde\nkullanılabilirsin.$"

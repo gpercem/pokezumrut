@@ -633,7 +633,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
 	.string "Bir hamlenin gücünü artırır, ancak\nyalnızca o hamleye izin verir.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "Düşmana vurulduğunda ürkütebilen\bir tutma öğesi.$"
+	.string "Düşmana vurulduğunda ürkütebilen\nbir tutma öğesi.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 	.string "Zaman zaman bayılmayı\nönleyen bir tutma öğesi.$"

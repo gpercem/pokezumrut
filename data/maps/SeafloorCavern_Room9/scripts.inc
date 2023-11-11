@@ -232,7 +232,7 @@ SeafloorCavern_Room9_Text_ArchieSoItWasYou:
 	.string "ARCHİE: Fufufu…\nDemek ki sendin.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHİE: Bak!\pNe kadar güzel olduğuna bir bak.\nKadim POKéMON KYOGRE'nin uyuyan\nformu!\pBugünün gelmesini çok uzun zamandır\nbekliyordum.$"
+	.string "ARCHİE: Bak!\pNe kadar güzel olduğuna bir bak.\nKadim POKéMON KYOGRE'nin uyuyan\lformu!\pBugünün gelmesini çok uzun zamandır\nbekliyordum.$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "Beni buraya kadar takip edebilmen beni\nşaşırttı.\pAma artık hepsi bitti.\pHayallerimin gerçekleşmesi için, şimdi\nseni ortadan kaybetmeliyim!$"
@@ -253,7 +253,7 @@ SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
 	.string "ARCHİE: Hm?\nDışarıdaki üyelerimizden bir mesaj…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHİE: Evet, sorun ne?\pHm…\nŞiddetli yağmur mu yağıyor?\pGüzel… Bunun olması gerekirdi.\nBu yüzden KYOGRE'yi uyandırdık,\lAQUA TAKIMI'nın denizi genişletme hedefini\lgerçekleştirmek için.\pNe?!\pDüşündüğümüzden çok daha şiddetli mi\nyağıyor? Tehlikede misiniz?\pBu olamaz…\nBu mümkün değil…\pYerinizden ayrılmayın ve durumu\nyakından takip edin!$"
+	.string "ARCHİE: Evet, sorun ne?\pHm…\nŞiddetli yağmur mu yağıyor?\pGüzel… Bunun olması gerekirdi.\nBu yüzden KYOGRE'yi uyandırdık,\lAQUA TAKIMI'nın denizi genişletme\lhedefini gerçekleştirmek için.\pNe?!\pDüşündüğümüzden çok daha şiddetli mi\nyağıyor? Tehlikede misiniz?\pBu olamaz…\nBu mümkün değil…\pYerinizden ayrılmayın ve durumu\nyakından takip edin!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 	.string "ARCHİE: Bir sorun var.\pKIZIL KÜRE'nin, KYOGRE'ı\nuyandırması ve kontrol etmesi\lgerekiyordu…\pAma… Neden?\nKYOGRE neden ortadan kayboldu?\pNeden?!$"

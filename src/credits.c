@@ -122,9 +122,9 @@ static const u8 sTheEnd_LetterMap_S[] =
 {
     1, 0, 0,
     1, 0xFF, 0xFF,
-    1, 2,    2,
+    1, 1,    1,
     0xFF, 0xFF, 1,
-    1, 0x80, 0x80,
+    1, 1, 1,
 };
 
 static const u8 sTheEnd_LetterMap_O[] =
@@ -133,7 +133,7 @@ static const u8 sTheEnd_LetterMap_O[] =
     1, 0xFF, 1,
     1, 0xFF, 1,
     1, 0xFF, 1,
-    1, 0x80, 0x80,
+    1, 0x80, 1,
 };
 
 static const u8 sTheEnd_LetterMap_T[] =

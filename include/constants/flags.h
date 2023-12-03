@@ -656,7 +656,7 @@
 #define FLAG_HIDDEN_ITEM_BATTLE_FRONTIER_AURORA_TICKET  0x265 // Unused Flag
 #define FLAG_HIDDEN_ITEM_BATTLE_FRONTIER_MYSTIC_TICKET  0x266 // Unused Flag
 #define FLAG_HIDDEN_ITEM_ALTERING_CAVE  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
+#define FLAG_YAMA_IPI_GOTTEN  0x268 // Unused Flag
 #define FLAG_UNUSED_0x269  0x269 // Unused Flag
 #define FLAG_UNUSED_0x26A  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag

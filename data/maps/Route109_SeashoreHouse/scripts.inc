@@ -97,81 +97,80 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-	.string "I'm the owner of the SEASHORE HOUSE.\n"
-	.string "But you can call me MR. SEA!\p"
-	.string "What I love above all is to see hot\n"
-	.string "POKéMON battles.\p"
-	.string "Let me see that your heart burns hot!\p"
-	.string "If you can defeat all the TRAINERS\n"
-	.string "here, I'll reward your efforts.$"
+	.string "LEBİDERYA EVİ'nin sahibi benim.\n"
+	.string "Bana BAY DENİZ diyebilirsin!\p"
+	.string "Her şeyden çok sevdiğim şey alevli\n"
+	.string "savaşları izlemektir.\p"
+	.string "Ruhunun ateşini görmek istiyorum!\p"
+	.string "Eğer buradaki tüm eğitmenleri\n"
+	.string "yenersen, emeklerini ödüllendiririm.$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
-	.string "Show me some hot matches!\p"
-	.string "I run this SEASHORE HOUSE just for\n"
-	.string "that reason alone!$"
+	.string "Şöyle güzel savaşlar görelim senden!\p"
+	.string "Bu LEBİDERYA EVİ'ni sırf bu yüzden\n"
+	.string "açtım ve yönetiyorum!$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
-	.string "You're scorching hot!\n"
-	.string "Those battles blazed!\l"
-	.string "I'm more than just satisfied!\p"
-	.string "As thanks for showing me your hot\n"
-	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of SODA POP!$"
+	.string "Alev alev yaktın ortalığı!\n"
+	.string "Savaşların harika ötesiydi!\p"
+	.string "Bu savaşların için sana bunları\n"
+	.string "hediye etmek istiyorum…\p"
+	.string "Yarım düzine SODA POP. Senindir!$"
 
 Route109_SeashoreHouse_Text_BagFull:
-	.string "Oh, but hey, your BAG's jammed full.\n"
-	.string "I'll hang on to these for you.$"
+	.string "Ee, hey hey. Çantan doluymuş.\n"
+	.string "Çantanı boşaltana kadar\nsaklayabilirim.$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
-	.string "Want to buy some SODA POP?\n"
-	.string "POKéMON love it!\p"
-	.string "Just ¥300 a bottle!\n"
-	.string "Buy some!$"
+	.string "SODA POP almak ister misin?\n"
+	.string "POKéMON'lar buna bayılırlar!\p"
+	.string "Şişesi ¥300!\n"
+	.string "Çekinme, al biraz!$"
 
 Route109_SeashoreHouse_Text_HereYouGo:
-	.string "Here you go!$"
+	.string "Al bakalım!$"
 
 Route109_SeashoreHouse_Text_NotEnoughMoney:
-	.string "You don't have the money.$"
+	.string "Yeterli paran yok.$"
 
 Route109_SeashoreHouse_Text_ThatsTooBad:
-	.string "No?\n"
-	.string "That's too bad.$"
+	.string "Hayır mı?\n"
+	.string "Nasıl istersen.$"
 
 Route109_SeashoreHouse_Text_DwayneIntro:
-	.string "If you're looking for a battle in the\n"
-	.string "SEASHORE HOUSE, you'll find no\l"
-	.string "hotter TRAINER than me, matey!$"
+	.string "LEBİDERYA EVİ'nde savaş yapmak\n"
+	.string "istiyorsan, benden daha ateşli\l"
+	.string "bir eğitmen bulamazsın, canım!$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
-	.string "That was a hot battle!\n"
-	.string "I can accept that loss, matey!$"
+	.string "Çok sıcak bir savaştı!\n"
+	.string "Tebrik ediyorum, canım!$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-	.string "Whenever I'm in SLATEPORT, I enjoy\n"
-	.string "hot battles and ice-cold SODA POP!$"
+	.string "SLATEPORT'a gelince durup buz gibi\n"
+	.string "SODA POP almaya ve alev alev\lsavaşlar yapmaya bayılıyorum!$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
-	.string "Boring battles aren't worth the effort.\p"
-	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and POKéMON!$"
+	.string "Sıkıcı savaşlara girmeye değmez bile.\p"
+	.string "Asıl böyle zorlu savaşlar POKéMON'ları\n"
+	.string "ve eğitmenleri geliştirir!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
-	.string "That's hot!$"
+	.string "Alev alev!$"
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
-	.string "Whew, I'm all thirsty.\n"
-	.string "Maybe I'll have a SODA POP.$"
+	.string "Uf, amma susadım.\n"
+	.string "Gidip SODA POP alacağım.$"
 
 Route109_SeashoreHouse_Text_SimonIntro:
-	.string "I'm going to show you how great\n"
-	.string "my POKéMON are, but don't cry!$"
+	.string "Sana POKéMON'larımın gücünü\n"
+	.string "göstereceğim, ağlama sakın!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
-	.string "…I lost, but I won't cry…$"
+	.string "…Kaybettim, ama ağlamak yok…$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
-	.string "If one of my POKéMON knew the move\n"
-	.string "for carrying me across water on its\l"
-	.string "back, I could get rid of this inner tube.$"
+	.string "Eğer POKéMON'larımdan biri su\n"
+	.string "üstünde yüzdürebilme saldırısını\l"
+	.string "bilseydi, üstünde yüzerdim ve şu\lsimitten kurtulurdum.$"
 

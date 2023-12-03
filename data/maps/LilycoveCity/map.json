@@ -343,7 +343,7 @@
     },
     {
       "x": 23,
-      "y": 22,
+      "y": 24,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
       "dest_warp_id": "0"

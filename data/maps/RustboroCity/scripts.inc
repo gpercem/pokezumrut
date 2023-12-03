@@ -10,6 +10,10 @@ RustboroCity_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame
 	.byte 0
 
+RustboroCity_EventScript_Yama::
+	finditem ITEM_10B
+	end
+
 RustboroCity_OnTransition:
 	setflag FLAG_VISITED_RUSTBORO_CITY
 	call Common_EventScript_SetupRivalGfxId

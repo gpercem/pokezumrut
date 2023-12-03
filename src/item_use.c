@@ -933,6 +933,13 @@ static void ItemUseOnFieldCB_EscapeRope(u8 taskId)
     DisplayItemMessageOnField(taskId, gStringVar4, Task_UseDigEscapeRopeOnField);
 }
 
+static void ItemUseOnFieldCB_YamaIpi(u8 taskId)
+{
+    Overworld_ResetStateAfterDigEscRope();
+    gTasks[taskId].data[0] = 0;
+    DisplayItemMessageOnField(taskId, gStringVar4, Task_UseDigEscapeRopeOnField);
+}
+
 bool8 CanUseDigOrEscapeRopeOnCurMap(void)
 {
     if (gMapHeader.allowEscaping)
@@ -952,6 +959,12 @@ void ItemUseOutOfBattle_EscapeRope(u8 taskId)
     {
         DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
     }
+}
+
+void ItemUseOutOfBattle_YamaIpi(u8 taskId)
+{
+    sItemUseOnFieldCB = ItemUseOnFieldCB_YamaIpi;
+    SetUpItemUseOnFieldCallback(taskId);
 }
 
 void ItemUseOutOfBattle_EvolutionStone(u8 taskId)

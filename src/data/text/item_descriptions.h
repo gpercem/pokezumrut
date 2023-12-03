@@ -1546,3 +1546,8 @@ static const u8 sOldSeaMapDesc[] = _(
     "Belli bir adaya giden\n"
     "yolu gösteren soluk\n"
     "bir deniz haritası.");
+
+static const u8 sYamaIpi[] = _(
+    "SADECE YAMADA HATA\n"
+    "ÇIKARSA KULLANIN!\n"
+    "Şehre ışınlar.");

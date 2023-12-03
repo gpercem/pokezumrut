@@ -3246,13 +3246,14 @@ const struct Item gItems[] =
 
     [ITEM_10B] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("YAMA İPİ"),
+        .itemId = ITEM_10B,
         .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .description = sYamaIpi,
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_YamaIpi,
     },
 
     [ITEM_WAILMER_PAIL] =

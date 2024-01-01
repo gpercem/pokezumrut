@@ -9950,17 +9950,20 @@ void RecreateObjectEvent(struct ObjectEvent *objectEvent, struct Sprite *sprite)
 {
     u8 newSpriteId;
     struct ObjectEventTemplate clone;
-    struct ObjectEvent backupFollower = *objectEvent;
-    backupFollower.graphicsId = objectEvent->graphicsId;
+    struct ObjectEvent backupObject = *objectEvent;
+    backupObject.graphicsId = objectEvent->graphicsId;
     DestroySprite(sprite);
     RemoveObjectEvent(objectEvent);
 
     clone = *GetObjectEventTemplateByLocalIdAndMap(objectEvent->localId, objectEvent->mapNum, objectEvent->mapGroup);
     clone.graphicsId = objectEvent->graphicsId;
+    
+    if(gSaveBlock2Ptr->follower.inProgress && &backupObject == &gObjectEvents[gSaveBlock2Ptr->follower.objId])
+        clone.localId = 254;
 
     objectEvent = &gObjectEvents[TrySpawnObjectEventTemplate(&clone, objectEvent->mapNum, objectEvent->mapGroup, clone.x, clone.y)];
     newSpriteId = objectEvent->spriteId;
-    *objectEvent = backupFollower;
+    *objectEvent = backupObject;
     objectEvent->spriteId = newSpriteId;
 }
 
@@ -10332,7 +10335,7 @@ u8 MovementAction_FollowingPokemon_Shrink_Step1(struct ObjectEvent *objectEvent,
     {
         FreeSpriteOamMatrix(sprite);
         gObjectEvents[gPlayerAvatar.objectEventId].fixedPriority = FALSE;
-        gPlayerAvatar.preventStep = FALSE;
+        UnlockPlayerFieldControls();
         objectEvent->invisible = TRUE;
         sprite->data[2]++;
     }
@@ -10467,7 +10470,7 @@ u8 MovementAction_FollowingPokemon_Grow_Step1(struct ObjectEvent *objectEvent, s
             objectEvent->inShallowFlowingWater = TRUE;
             StartFieldEffectForObjectEvent(FLDEFF_FEET_IN_FLOWING_WATER, objectEvent);
         }
-        gPlayerAvatar.preventStep = FALSE;
+        UnlockPlayerFieldControls();
         
         // Account for warps in scripts where the follower needs to pop out of a pokeball afterwards
         if (gSaveBlock2Ptr->follower.createSurfBlob == 2)

@@ -2051,6 +2051,7 @@ void CB2_Overworld(void)
                 gSprites[gObjectEvents[gSaveBlock2Ptr->follower.objId].spriteId].x2 = 8;
                 break;
         }
+        
     }
 }
 
@@ -3804,12 +3805,12 @@ void UpdateFollowerPokemonGraphic(void)
     // If so, the following Pokemon needs to change.
     u16 leadMonGraphicId = GetMonData(&gPlayerParty[GetLeadMonNotFaintedIndex()], MON_DATA_SPECIES, NULL) + OBJ_EVENT_GFX_BULBASAUR - 1;
     struct ObjectEvent *follower = &gObjectEvents[gSaveBlock2Ptr->follower.objId];
-
+    
     // If the lead Pokemon is Unown, use the correct sprite
     if (leadMonGraphicId == OBJ_EVENT_GFX_UNOWN_A)
     {
         u8 unownLetter = GET_UNOWN_LETTER(GetMonData(&gPlayerParty[GetLeadMonNotFaintedIndex()], MON_DATA_PERSONALITY));
-        
+
         // If the Unown is not A, set the graphics id to the proper Unown
         if (unownLetter)
             leadMonGraphicId = OBJ_EVENT_GFX_DEOXYS_SPEED + unownLetter;
@@ -3835,7 +3836,8 @@ void UpdateFollowerPokemonGraphic(void)
             RemoveObjectEvent(&gObjectEvents[gSaveBlock2Ptr->follower.objId]);
 
             clone = *GetObjectEventTemplateByLocalIdAndMap(gSaveBlock2Ptr->follower.map.id, gSaveBlock2Ptr->follower.map.number, gSaveBlock2Ptr->follower.map.group);
-            clone.graphicsId = gSaveBlock2Ptr->follower.graphicsId;;
+            clone.graphicsId = gSaveBlock2Ptr->follower.graphicsId;
+            clone.localId = 254;
             gSaveBlock2Ptr->follower.objId = TrySpawnObjectEventTemplate(&clone, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, clone.x, clone.y);
 
             follower = &gObjectEvents[gSaveBlock2Ptr->follower.objId];
@@ -4345,7 +4347,7 @@ void FollowerPokeballSparkle(void)
             gSprites[gPlayerAvatar.spriteId].subpriority = 0; 
         }
         player->fixedPriority = TRUE;
-        gPlayerAvatar.preventStep = TRUE;
+        LockPlayerFieldControls();
 
         SeekSpriteAnim(&gSprites[follower->spriteId], 0);        
         ObjectEventForceSetHeldMovement(follower, MOVEMENT_ACTION_FOLLOWING_POKEMON_GROW);
@@ -4356,8 +4358,9 @@ void FollowerIntoPokeball(void)
 {
     if (gObjectEvents[gSaveBlock2Ptr->follower.objId].invisible == FALSE && gSaveBlock2Ptr->follower.inProgress)
     {
+        gSaveBlock2Ptr->follower.delayedState = 0;
         gSaveBlock2Ptr->follower.comeOutDoorStairs = 0;
-        gPlayerAvatar.preventStep = TRUE;
+        LockPlayerFieldControls();
         ObjectEventForceSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], MOVEMENT_ACTION_FOLLOWING_POKEMON_SHRINK);
         gSpecialVar_Unused_0x8014 = 1;
     }

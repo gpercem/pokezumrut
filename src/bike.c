@@ -983,6 +983,7 @@ void GetOnOffBike(u8 transitionFlags)
     }
     else
     {
+        
         FollowerIntoPokeball();
         
         SetPlayerAvatarTransitionFlags(transitionFlags);
